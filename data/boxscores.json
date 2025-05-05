@@ -1,0 +1,141 @@
+[
+  {
+    "id": "19990405_ARI@LAD",
+    "date": "April 5, 1999",
+    "home": "LAD",
+    "away": "ARI",
+    "summary": "Steve Finley homered and Randy Johnson struck out 10 in Arizona's season-opening win in Los Angeles.",
+    "innings": [
+      {
+        "away": 0,
+        "home": 0
+      },
+      {
+        "away": 0,
+        "home": 0
+      },
+      {
+        "away": 1,
+        "home": 0
+      },
+      {
+        "away": 1,
+        "home": 1
+      },
+      {
+        "away": 0,
+        "home": 1
+      },
+      {
+        "away": 1,
+        "home": 0
+      },
+      {
+        "away": 2,
+        "home": 0
+      },
+      {
+        "away": 0,
+        "home": 1
+      },
+      {
+        "away": 0,
+        "home": 0
+      }
+    ],
+    "away_total": {
+      "r": 5,
+      "h": 11,
+      "e": 0
+    },
+    "home_total": {
+      "r": 3,
+      "h": 10,
+      "e": 1
+    },
+    "away_batting": [
+      {
+        "name": "Steve Finley",
+        "ab": 5,
+        "r": 1,
+        "h": 1,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "rbi": 1
+      },
+      {
+        "name": "Jay Bell",
+        "ab": 4,
+        "r": 1,
+        "h": 1,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "rbi": 1
+      },
+      {
+        "name": "Travis Lee",
+        "ab": 3,
+        "r": 0,
+        "h": 1,
+        "2b": 1,
+        "3b": 0,
+        "hr": 1,
+        "rbi": 2
+      },
+      {
+        "name": "Matt Williams",
+        "ab": 5,
+        "r": 1,
+        "h": 1,
+        "2b": 2,
+        "3b": 0,
+        "hr": 1,
+        "rbi": 1
+      }
+    ],
+    "home_batting": [
+      {
+        "name": "Gary Sheffield",
+        "ab": 4,
+        "r": 0,
+        "h": 1,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "rbi": 1
+      },
+      {
+        "name": "Mark Grudzielanek",
+        "ab": 4,
+        "r": 1,
+        "h": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "rbi": 0
+      },
+      {
+        "name": "Devon White",
+        "ab": 4,
+        "r": 1,
+        "h": 1,
+        "2b": 0,
+        "3b": 1,
+        "hr": 0,
+        "rbi": 0
+      },
+      {
+        "name": "Todd Hundley",
+        "ab": 4,
+        "r": 0,
+        "h": 1,
+        "2b": 0,
+        "3b": 1,
+        "hr": 0,
+        "rbi": 1
+      }
+    ]
+  }
+]
