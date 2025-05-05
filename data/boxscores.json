@@ -136,6 +136,76 @@
         "hr": 0,
         "rbi": 1
       }
+    ],
+    "away_pitching": [
+      {
+        "name": "Randy Johnson",
+        "ip": "7.1",
+        "h": 6,
+        "r": 3,
+        "er": 3,
+        "bb": 1,
+        "so": 10,
+        "hr": 0,
+        "decision": "W"
+      },
+      {
+        "name": "Darren Holmes",
+        "ip": "0.2",
+        "h": 1,
+        "r": 0,
+        "er": 0,
+        "bb": 0,
+        "so": 1,
+        "hr": 0,
+        "decision": ""
+      },
+      {
+        "name": "Armando Reynoso",
+        "ip": "1.0",
+        "h": 0,
+        "r": 0,
+        "er": 0,
+        "bb": 0,
+        "so": 1,
+        "hr": 0,
+        "decision": "SV"
+      }
+    ],
+    "home_pitching": [
+      {
+        "name": "Kevin Brown",
+        "ip": "7.0",
+        "h": 6,
+        "r": 3,
+        "er": 3,
+        "bb": 2,
+        "so": 4,
+        "hr": 1,
+        "decision": "L"
+      },
+      {
+        "name": "Alan Mills",
+        "ip": "1.0",
+        "h": 4,
+        "r": 2,
+        "er": 2,
+        "bb": 0,
+        "so": 1,
+        "hr": 1,
+        "decision": ""
+      },
+      {
+        "name": "Mel Rojas",
+        "ip": "1.0",
+        "h": 1,
+        "r": 0,
+        "er": 0,
+        "bb": 0,
+        "so": 0,
+        "hr": 0,
+        "decision": ""
+      }
     ]
   }
 ]
