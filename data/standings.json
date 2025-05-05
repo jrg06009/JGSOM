@@ -1,0 +1,21 @@
+[
+  {
+    "division": "NL West",
+    "teams": [
+      {
+        "abbr": "COL",
+        "name": "Rockies",
+        "w": 2,
+        "l": 1,
+        "gb": 0
+      },
+      {
+        "abbr": "ARI",
+        "name": "Diamondbacks",
+        "w": 1,
+        "l": 2,
+        "gb": 1
+      }
+    ]
+  }
+]

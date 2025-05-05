@@ -1,0 +1,28 @@
+[
+  {
+    "id": "damian_miller",
+    "name": "Damian Miller",
+    "team": "ARI",
+    "position": "C",
+    "games": 1,
+    "pa": 5,
+    "ab": 5,
+    "r": 0,
+    "h": 2,
+    "2b": 0,
+    "3b": 0,
+    "hr": 0,
+    "rbi": 2,
+    "sb": 0,
+    "cs": 0,
+    "bb": 0,
+    "so": 2,
+    "hbp": 0,
+    "sf": 0,
+    "avg": 0.4,
+    "obp": 0.4,
+    "slg": 0.4,
+    "ops": 0.8,
+    "tb": 2
+  }
+]
