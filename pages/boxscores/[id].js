@@ -64,13 +64,13 @@ export default function BoxscorePage() {
             <h3 className="font-bold">{box[key === 'away_pitching' ? 'away' : 'home']}</h3>
             <table className="text-sm border w-full">
               <thead className="bg-gray-100">
-                <tr><th>Pitcher</th><th>IP</th><th>H</th><th>R</th><th>ER</th><th>BB</th><th>SO</th><th>HR</th><th>Decision</th></tr>
+                <tr><th>Pitcher</th><th>IP</th><th>H</th><th>R</th><th>ER</th><th>BB</th><th>SO</th><th>HR</th><th>WLS</th></tr>
               </thead>
               <tbody>
                 {box[key].map(p => (
                   <tr key={p.name}>
                     <td>{p.name}</td><td>{p.ip}</td><td>{p.h}</td><td>{p.r}</td><td>{p.er}</td>
-                    <td>{p.bb}</td><td>{p.so}</td><td>{p.hr}</td><td>{p.decision}</td>
+                    <td>{p.bb}</td><td>{p.so}</td><td>{p.hr}</td><td>{p.wls}</td>
                   </tr>
                 ))}
               </tbody>
