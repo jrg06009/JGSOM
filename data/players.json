@@ -1,28 +1,4010 @@
 [
   {
-    "id": "damian_miller",
     "name": "Damian Miller",
     "team": "ARI",
-    "position": "C",
-    "games": 1,
-    "pa": 5,
-    "ab": 5,
-    "r": 0,
-    "h": 2,
-    "2b": 0,
-    "3b": 0,
-    "hr": 0,
-    "rbi": 2,
-    "sb": 0,
-    "cs": 0,
-    "bb": 0,
-    "so": 2,
-    "hbp": 0,
-    "sf": 0,
-    "avg": 0.4,
-    "obp": 0.4,
-    "slg": 0.4,
-    "ops": 0.8,
-    "tb": 2
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Travis Lee",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jay Bell",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Williams",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Andy Fox",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Gonzalez",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Finley",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Womack",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kelly Stinnett",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bernard Gilkey",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Erubiel Durazo",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Hanley Frias",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Batista",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Colbrunn",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "David Dellucci",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Lenny Harris",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rob Ryan",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dante Powell",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Turner Ward",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rod Barajas",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ernie Young",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Edwin Diaz",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Danny Klassen",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Randy Johnson",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Omar Daal",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Andy Benes",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Armando Reynoso",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Anderson",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Stottlemyre",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Swindell",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby Chouinard",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Vladimir Nunez",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darren Holmes",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Erik Sabel",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Byung-Hyun Kim",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Plesac",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Gregg Olson",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "John Frascatore",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Mantei",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Amaury Telemaco",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Carlson",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Vicente Padilla",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ed Vosberg",
+    "team": "ARI",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Henry Blanco",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Helton",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kurt Abbott",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Neifi Perez",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Vinny Castilla",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dante Bichette",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darryl Hamilton",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Larry Walker",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Terry Shumpert",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Angel Echevarria",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Barry",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Edgard Clemente",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Lenny Harris",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kirt Manwaring",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Lansing",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Reed",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ben Petrick",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Sexton",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "J.R. Phillips",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Derrick Gibson",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian McRae",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pat Watkins",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Petersen",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Sosa",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "John Cangelosi",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Kelly",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pedro Astacio",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Bohanon",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darryl Kile",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jamey Wright",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby M. Jones",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "John Thomson",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Brownson",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Roberto Ramirez",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jerry Dipoto",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Luther Hackman",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "David Lee",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Curt Leskanic",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chuck McElroy",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rigo Beltran",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike DeJean",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Veres",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Wainhouse",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Porzio",
+    "team": "COL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Hundley",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Karros",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Young",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Adrian Beltre",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Grudzielanek",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Gary Sheffield",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Devon White",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Raul Mondesi",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Vizcaino",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Hollandsworth",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Angel Pena",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Craig Counsell",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Hansen",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Trent Hubbard",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Paul Lo Duca",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tripp Cromer",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Alex Cora",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jacob Brumfield",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chance Sanford",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brent Cookson",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rick Wilkins",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Castro",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kevin Brown",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darren Dreifort",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chan Ho Park",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ismael Valdez",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Perez",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jamie Arnold",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Gagne",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Judd",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Williams",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Onan Masaoka",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Robinson Checo",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Alan Mills",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pedro Borbon",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Herges",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Kubenka",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Mlicki",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Shaw",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Maddux",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Doug Bochtler",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mel Rojas",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Antonio Osuna",
+    "team": "LA",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ben Davis",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Wally Joyner",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Quilvio Veras",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Damian Jackson",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Phil Nevin",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Reggie Sanders",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ruben Rivera",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Gwynn",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Owens",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Magadan",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "John Vander Wal",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Gomez",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "George Arias",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jim Leyritz",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Myers",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Baerga",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Wiki Gonzalez",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ed Giovanola",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Darr",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Gary Matthews",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "David Newhan",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Garcia",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Woody Williams",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Andy Ashby",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Sterling Hitchcock",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Clement",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Boehringer",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Heath Murray",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Stan Spencer",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Buddy Carlyle",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Trevor Hoffman",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Will Cunnane",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Reyes",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Donne Wall",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Miceli",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Almanzar",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Roberto Rivera",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ed Vosberg",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Whisenant",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Whiteside",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Domingo Guzman",
+    "team": "SD",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Varitek",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Stanley",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Offerman",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Valentin",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Nomar Garciaparra",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Troy O'Leary",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Darren Lewis",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Trot Nixon",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Daubach",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Damon Buford",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Reggie Jefferson",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Lou Merloni",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Butch Huskey",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Wilton Veras",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Frye",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Donnie Sadler",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Hatteberg",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Creighton Gubanich",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jon Nunnally",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Lenny Webster",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Michael Coleman",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chad Fonville",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Lomasney",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bret Saberhagen",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Portugal",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Wakefield",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Pedro Martinez",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Pat Rapp",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Rose",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jin Ho Cho",
+    "team": "BOS",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chad Kreuter",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Sweeney",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Febles",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Joe Randa",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rey Sanchez",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Johnny Damon",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Beltran",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jermaine Dye",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeremy Giambi",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Spehr",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Pose",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Larry Sutton",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ray Holbert",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jed Hansen",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Leius",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff King",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Scarsone",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Sal Fasano",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Quinn",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Joe Vitiello",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dee Brown",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mendy Lopez",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Felix Martinez",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Suppan",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Rosado",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jay Witasick",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Reichert",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Kevin Appier",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Byrdak",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Terry Mathews",
+    "team": "KC",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brook Fordyce",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Paul Konerko",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ray Durham",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Norton",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Caruso",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Lee",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Singleton",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Magglio Ordonez",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Frank Thomas",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Craig Wilson",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Johnson",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Darrin Jackson",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Simmons",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Liefer",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Liu Rodriguez",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Abbott",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "McKay Christensen",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Dellaero",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Josh Paul",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Sirotka",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jim Parque",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jaime Navarro",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "James Baldwin",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Keith Foulke",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Pat Daneker",
+    "team": "CHW",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Wilson",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "David Segui",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "David Bell",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Russ Davis",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Alex Rodriguez",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Hunter",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ken Griffey",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jay Buhner",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Edgar Martinez",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Butch Huskey",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Mabry",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Raul Ibanez",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tom Lampkin",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rafael Bournigal",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Charles Gipson",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan Jackson",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Blowers",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ozzie Timmons",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Domingo Cedeno",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Mieske",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Carlos Guillen",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Shane Monahan",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Giomar Guevara",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Fassero",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Halama",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Freddy Garcia",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Frankie Rodriguez",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jamie Moyer",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ken Cloude",
+    "team": "SEA",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brad Ausmus",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Clark",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Damion Easley",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dean Palmer",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Deivi Cruz",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Encarnacion",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gabe Kapler",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby Higginson",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Polonia",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Karim Garcia",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Frank Catalanotto",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gregg Jefferies",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bill Haselman",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Kimera Bartee",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Hunter",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gabe Alvarez",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Wood",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Robert Fick",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Garcia",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Macias",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Justin Thompson",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Mlicki",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Weaver",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Borkowski",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Moehler",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Willie Blair",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "C.J. Nitkowski",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bryce Florie",
+    "team": "DET",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ivan Rodriguez",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Lee Stevens",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mark McLemore",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Zeile",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Royce Clayton",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rusty Greer",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tom Goodwin",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Gonzalez",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rafael Palmeiro",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Roberto Kelly",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Alicea",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ruben Mateo",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gregg Zaun",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jon Shave",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Kelly Dransfeldt",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scarborough Green",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Simms",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Sheldon",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Aaron Sele",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Morgan",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rick Helling",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Burkett",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Clark",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Danny Patterson",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan Glynn",
+    "team": "TEX",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jorge Posada",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tino Martinez",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chuck Knoblauch",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Brosius",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Derek Jeter",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chad Curtis",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bernie Williams",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Paul O'Neill",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chili Davis",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ricky Ledee",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Joe Girardi",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Shane Spencer",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Sojo",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jim Leyritz",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Darryl Strawberry",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Clay Bellinger",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Tarasco",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "D'Angelo Jimenez",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Manto",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Alfonso Soriano",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Figga",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Andy Pettitte",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Roger Clemens",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Hideki Irabu",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Orlando Hernandez",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "David Cone",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Stanton",
+    "team": "NYY",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Macfarlane",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Giambi",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Phillips",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Chavez",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Miguel Tejada",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ben Grieve",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan Christenson",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Matt Stairs",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Jaha",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Olmedo Saenz",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Randy Velarde",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Spiezio",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "A.J. Hinch",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jason McDonald",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ramon Hernandez",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Raines",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Becker",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jorge Velandia",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Frank Menechino",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gil Heredia",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jimmy Haynes",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Hudson",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Kenny Rogers",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Oquist",
+    "team": "OAK",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "John Flaherty",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Fred McGriff",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Miguel Cairo",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Wade Boggs",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Kevin Stocker",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bubba Trammell",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Randy Winn",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Martinez",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Canseco",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Aaron Ledesma",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Paul Sorrento",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Herbert Perry",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bob Smith",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Terrell Lowery",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Difelice",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Guillen",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Quinton McCracken",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Graffanino",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "David Lamb",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Danny Clyburn",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Butler",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Cox",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Julio Franco",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bryan Rekar",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan Rupe",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Wilson Alvarez",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mickey Callaway",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby Witt",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Eiland",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Julio Santana",
+    "team": "TB",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Charles Johnson",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Conine",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Delino DeShields",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Cal Ripken",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Bordick",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "B.J. Surhoff",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Brady Anderson",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Albert Belle",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Harold Baines",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Will Clark",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jerry Hairston",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Reboulet",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Amaral",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan Minor",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Figga",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Gene Kingsale",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Willis Otanez",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Derrick May",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Calvin Pickering",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Lenny Webster",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jesse Garcia",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Tommy Davis",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Mussina",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Erickson",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Guzman",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Sidney Ponson",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Johnson",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Doug Johns",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Rocky Coppinger",
+    "team": "BAL",
+    "league": "AL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Widger",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brad Fullmer",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Vidro",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Shane Andrews",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Orlando Cabrera",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rondell White",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Manny Martinez",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Vladimir Guerrero",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Michael Barrett",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Wilton Guerrero",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Mordecai",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Orlando Merced",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ryan McGuire",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Geoff Blum",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "James Mouton",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Fernando Seguignol",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Terry Jones",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Trace Coquillette",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Peter Bergeron",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darron Cox",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Fernandez",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Robert Machado",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Stowers",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dustin Hermanson",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Javier Vazquez",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Thurman",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Miguel Batista",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Carl Pavano",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeremy Powell",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dan Smith",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ugueth Urbina",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ted Lilly",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Johnson",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "J.D. Smart",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Anthony Telford",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Shayne Bennett",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tony Armas",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Kline",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby Ayala",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Guillermo Mota",
+    "team": "MON",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Kendall",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kevin Young",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Warren Morris",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ed Sprague",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Benjamin",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Al Martin",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Giles",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Adrian Brown",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brant Brown",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Abraham Nunez",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Keith Osik",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Joe Oliver",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Freddy Garcia",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Guillen",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pat Meares",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Turner Ward",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dale Sveum",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "John Wehner",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chad Hermansen",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Aramis Ramirez",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Emil Brown",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Tremie",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ivan Cruz",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Tim Laker",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Yamid Haad",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kris Benson",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Schmidt",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Todd Ritchie",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Francisco Cordova",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pete Schourek",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Peters",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Silva",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jimmy Anderson",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brad Clontz",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Williams",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Hansell",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Sauerbeck",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Marc Wilkins",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Christiansen",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Boyd",
+    "team": "PIT",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brent Mayne",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "J.T. Snow",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Kent",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bill Mueller",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Aurilia",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Barry Bonds",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Marvin Benard",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ellis Burks",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Stan Javier",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Charlie Hayes",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "F.P. Santangelo",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Servais",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Armando Rios",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ramon Martinez",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Doug Mirabelli",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Wilson Delgado",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Calvin Murray",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jay Canizaro",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Edwards Guzman",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Russ Ortiz",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Shawn Estes",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kirk Rueter",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Gardner",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Brock",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Joe Nathan",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Livan Hernandez",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Felix Rodriguez",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Julian Tavarez",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Miguel Del Toro",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jerry Spradlin",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Rodriguez",
+    "team": "SF",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ed Taubensee",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Sean Casey",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pokey Reese",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Aaron Boone",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Barry Larkin",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Greg Vaughn",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Cameron",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Michael Tucker",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dmitri Young",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeffrey Hammonds",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Lewis",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Johnson",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chris Stynes",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Hal Morris",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason LaRue",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Sweeney",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Travis Dawkins",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kerry Robinson",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Pete Harnisch",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brett Tomko",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ron Villone",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Parris",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Denny Neagle",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Avery",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Guzman",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Sullivan",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Bere",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Williamson",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Danny Graves",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dennys Reyes",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Stan Belinda",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rick Greene",
+    "team": "CIN",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Dave Nilsson",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Loretta",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ronnie Belliard",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeff Cirillo",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Valentin",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Geoff Jenkins",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Marquis Grissom",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jeromy Burnitz",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Alex Ochoa",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Sean Berry",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Brian Banks",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Fernando Vina",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Becker",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Lou Collier",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kevin Barker",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bobby Hughes",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Robinson Cancel",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Charlie Greene",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Lyle Mouton",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eddie Zosky",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Scott Karl",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Hideo Nomo",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Woodard",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Cal Eldred",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kyle Peterson",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bill Pulsipher",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jim Abbott",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rafael Roque",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jason Bere",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "David Weathers",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Hector Ramirez",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rocky Coppinger",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Alberto Reyes",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Horacio Estrada",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Bob Wickman",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Myers",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jim Pittsley",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Steve Falteisek",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Reggie Harris",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Chad Fox",
+    "team": "MIL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eli Marrero",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark McGwire",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Joe McEwing",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Fernando Tatis",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Edgar Renteria",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ray Lankford",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "J.D. Drew",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eric Davis",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darren Bragg",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Willie McGee",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Alberto Castillo",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Placido Polanco",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Thomas Howard",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Craig Paquette",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Shawon Dunston",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Adam Kennedy",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "David Howard",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Marcus Jensen",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Eduardo Perez",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Luis Ordaz",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Darren Oliver",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kent Bottenfield",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Jose Jimenez",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Kent Mercker",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Garrett Stephenson",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Juan Acevedo",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Larry Luebbers",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Manny Aybar",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rick Ankiel",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Donovan Osborne",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mark Thompson",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Lance Painter",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Ricky Bottalico",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rich Croushore",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Mike Mohler",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Clint Sodowsky",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
+  },
+  {
+    "name": "Rick Heiserman",
+    "team": "STL",
+    "league": "NL",
+    "positions": ""
   }
 ]

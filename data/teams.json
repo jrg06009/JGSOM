@@ -1,10 +1,303 @@
 [
   {
-    "id": "ARI",
-    "name": "Arizona Diamondbacks",
+    "abbreviation": "ARI",
+    "city": "Arizona",
+    "nickname": "Diamondbacks",
     "league": "NL",
-    "division": "West",
-    "wins": 1,
-    "losses": 2
+    "colors": [
+      "#A71930",
+      "#E3D4AD"
+    ]
+  },
+  {
+    "abbreviation": "ATL",
+    "city": "Atlanta",
+    "nickname": "Braves",
+    "league": "NL",
+    "colors": [
+      "#13274F",
+      "#CE1141"
+    ]
+  },
+  {
+    "abbreviation": "BAL",
+    "city": "Baltimore",
+    "nickname": "Orioles",
+    "league": "AL",
+    "colors": [
+      "#DF4601",
+      "#000000"
+    ]
+  },
+  {
+    "abbreviation": "BOS",
+    "city": "Boston",
+    "nickname": "Red Sox",
+    "league": "AL",
+    "colors": [
+      "#BD3039",
+      "#0C2340"
+    ]
+  },
+  {
+    "abbreviation": "CHC",
+    "city": "Chicago",
+    "nickname": "Cubs",
+    "league": "NL",
+    "colors": [
+      "#0E3386",
+      "#CC3433"
+    ]
+  },
+  {
+    "abbreviation": "CHW",
+    "city": "Chicago",
+    "nickname": "White Sox",
+    "league": "AL",
+    "colors": [
+      "#27251F",
+      "#C4CED4"
+    ]
+  },
+  {
+    "abbreviation": "CIN",
+    "city": "Cincinnati",
+    "nickname": "Reds",
+    "league": "NL",
+    "colors": [
+      "#C6011F",
+      "#000000"
+    ]
+  },
+  {
+    "abbreviation": "CLE",
+    "city": "Cleveland",
+    "nickname": "Indians",
+    "league": "AL",
+    "colors": [
+      "#E31937",
+      "#002B5C"
+    ]
+  },
+  {
+    "abbreviation": "COL",
+    "city": "Colorado",
+    "nickname": "Rockies",
+    "league": "NL",
+    "colors": [
+      "#33006F",
+      "#C4CED4"
+    ]
+  },
+  {
+    "abbreviation": "DET",
+    "city": "Detroit",
+    "nickname": "Tigers",
+    "league": "AL",
+    "colors": [
+      "#0C2340",
+      "#FA4616"
+    ]
+  },
+  {
+    "abbreviation": "FLA",
+    "city": "Florida",
+    "nickname": "Marlins",
+    "league": "NL",
+    "colors": [
+      "#00A3E0",
+      "#EF3340"
+    ]
+  },
+  {
+    "abbreviation": "HOU",
+    "city": "Houston",
+    "nickname": "Astros",
+    "league": "NL",
+    "colors": [
+      "#002D62",
+      "#EB6E1F"
+    ]
+  },
+  {
+    "abbreviation": "KCR",
+    "city": "Kansas City",
+    "nickname": "Royals",
+    "league": "AL",
+    "colors": [
+      "#004687",
+      "#C09A5B"
+    ]
+  },
+  {
+    "abbreviation": "LAA",
+    "city": "Anaheim",
+    "nickname": "Angels",
+    "league": "AL",
+    "colors": [
+      "#BA0021",
+      "#003263"
+    ]
+  },
+  {
+    "abbreviation": "LAD",
+    "city": "Los Angeles",
+    "nickname": "Dodgers",
+    "league": "NL",
+    "colors": [
+      "#005A9C",
+      "#EF3E42"
+    ]
+  },
+  {
+    "abbreviation": "MIL",
+    "city": "Milwaukee",
+    "nickname": "Brewers",
+    "league": "NL",
+    "colors": [
+      "#12284B",
+      "#FFC52F"
+    ]
+  },
+  {
+    "abbreviation": "MIN",
+    "city": "Minnesota",
+    "nickname": "Twins",
+    "league": "AL",
+    "colors": [
+      "#002B5C",
+      "#D31145"
+    ]
+  },
+  {
+    "abbreviation": "MON",
+    "city": "Montreal",
+    "nickname": "Expos",
+    "league": "NL",
+    "colors": [
+      "#003087",
+      "#D10029",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "abbreviation": "NYM",
+    "city": "New York",
+    "nickname": "Mets",
+    "league": "NL",
+    "colors": [
+      "#002D72",
+      "#FF5910"
+    ]
+  },
+  {
+    "abbreviation": "NYY",
+    "city": "New York",
+    "nickname": "Yankees",
+    "league": "AL",
+    "colors": [
+      "#003087",
+      "#E4002B"
+    ]
+  },
+  {
+    "abbreviation": "OAK",
+    "city": "Oakland",
+    "nickname": "Athletics",
+    "league": "AL",
+    "colors": [
+      "#003831",
+      "#FFD700"
+    ]
+  },
+  {
+    "abbreviation": "PHI",
+    "city": "Philadelphia",
+    "nickname": "Phillies",
+    "league": "NL",
+    "colors": [
+      "#E81828",
+      "#002D72"
+    ]
+  },
+  {
+    "abbreviation": "PIT",
+    "city": "Pittsburgh",
+    "nickname": "Pirates",
+    "league": "NL",
+    "colors": [
+      "#FDB827",
+      "#27251F"
+    ]
+  },
+  {
+    "abbreviation": "SDP",
+    "city": "San Diego",
+    "nickname": "Padres",
+    "league": "NL",
+    "colors": [
+      "#002D62",
+      "#FEC325"
+    ]
+  },
+  {
+    "abbreviation": "SEA",
+    "city": "Seattle",
+    "nickname": "Mariners",
+    "league": "AL",
+    "colors": [
+      "#005C5C",
+      "#C4CED4"
+    ]
+  },
+  {
+    "abbreviation": "SFG",
+    "city": "San Francisco",
+    "nickname": "Giants",
+    "league": "NL",
+    "colors": [
+      "#FD5A1E",
+      "#27251F"
+    ]
+  },
+  {
+    "abbreviation": "STL",
+    "city": "St. Louis",
+    "nickname": "Cardinals",
+    "league": "NL",
+    "colors": [
+      "#C41E3A",
+      "#0C2340"
+    ]
+  },
+  {
+    "abbreviation": "TBR",
+    "city": "Tampa Bay",
+    "nickname": "Devil Rays",
+    "league": "AL",
+    "colors": [
+      "#092C5C",
+      "#8FBCE6"
+    ]
+  },
+  {
+    "abbreviation": "TEX",
+    "city": "Texas",
+    "nickname": "Rangers",
+    "league": "AL",
+    "colors": [
+      "#003278",
+      "#C0111F"
+    ]
+  },
+  {
+    "abbreviation": "TOR",
+    "city": "Toronto",
+    "nickname": "Blue Jays",
+    "league": "AL",
+    "colors": [
+      "#134A8E",
+      "#1D2D5C"
+    ]
   }
 ]
