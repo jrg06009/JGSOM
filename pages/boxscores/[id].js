@@ -5,7 +5,7 @@ import boxscores from '../../data/boxscores.json';
 const teamColors = {
   ARI: '#A71930', ATL: '#CE1141', BAL: '#DF4601', BOS: '#BD3039', CHC: '#0E3386',
   CIN: '#C6011F', CLE: '#0C2340', COL: '#33006F', DET: '#0C2340', HOU: '#EB6E1F',
-  KCR: '#004687', LAA: '#BA0021', LAD: '#005A9C', MIA: '#00A3E0', MIL: '#12284B',
+  KCR: '#004687', LAA: '#BA0021', LA: '#005A9C', MIA: '#00A3E0', MIL: '#12284B',
   MIN: '#002B5C', NYM: '#002D72', NYY: '#003087', OAK: '#003831', PHI: '#E81828',
   PIT: '#FDB827', SDP: '#002D62', SEA: '#0C2C56', SFG: '#FD5A1E', STL: '#C41E3A',
   TBR: '#092C5C', TEX: '#003278', TOR: '#134A8E', WSN: '#AB0003'
