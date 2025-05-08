@@ -5,7 +5,7 @@
     "cityname": "Arizona",
     "nickname": "Diamondbacks",
     "color": "#A71930",
-    "logo": "/logos/ARI.svg"
+    "logo": "/logos/ARI.png"
   },
   {
     "id": "ATL",
@@ -13,7 +13,7 @@
     "cityname": "Atlanta",
     "nickname": "Braves",
     "color": "#CE1141",
-    "logo": "/logos/ATL.svg"
+    "logo": "/logos/ATL.png"
   },
   {
     "id": "BAL",
@@ -21,7 +21,7 @@
     "cityname": "Baltimore",    
     "nickname": "Orioles",
     "color": "#DF4601",
-    "logo": "/logos/BAL.svg"
+    "logo": "/logos/BAL.png"
   },
   {
     "id": "BOS",
@@ -29,7 +29,7 @@
     "cityname": "Boston",
     "nickname": "Red Sox",
     "color": "#BD3039",
-    "logo": "/logos/BOS.svg"
+    "logo": "/logos/BOS.png"
   },
   {
     "id": "CHC",
@@ -37,7 +37,7 @@
     "cityname": "Chicago (NL)",
     "nickname": "Cubs",
     "color": "#0E3386",
-    "logo": "/logos/CHC.svg"
+    "logo": "/logos/CHC.png"
   },
   {
     "id": "CIN",
@@ -45,7 +45,7 @@
     "cityname": "Cincinnati",
     "nickname": "Reds",
     "color": "#C6011F",
-    "logo": "/logos/CIN.svg"
+    "logo": "/logos/CIN.png"
   },
   {
     "id": "CLE",
@@ -53,7 +53,7 @@
     "cityname": "Cleveland",
     "nickname": "Indians",
     "color": "#0C2340",
-    "logo": "/logos/CLE.svg"
+    "logo": "/logos/CLE.png"
   },
   {
     "id": "COL",
@@ -61,7 +61,7 @@
     "cityname": "Colorado",
     "nickname": "Rockies",
     "color": "#33006F",
-    "logo": "/logos/COL.svg"
+    "logo": "/logos/COL.png"
   },
   {
     "id": "DET",
@@ -69,7 +69,7 @@
     "cityname": "Detroit",
     "nickname": "Tigers",
     "color": "#0C2340",
-    "logo": "/logos/DET.svg"
+    "logo": "/logos/DET.png"
   },
   {
     "id": "HOU",
@@ -77,7 +77,7 @@
     "cityname": "Houston",
     "nickname": "Astros",
     "color": "#EB6E1F",
-    "logo": "/logos/HOU.svg"
+    "logo": "/logos/HOU.png"
   },
   {
     "id": "KC",
@@ -85,7 +85,7 @@
     "cityname": "Kansas City",
     "nickname": "Royals",
     "color": "#004687",
-    "logo": "/logos/KCR.svg"
+    "logo": "/logos/KCR.png"
   },
   {
     "id": "ANA",
@@ -93,7 +93,7 @@
     "cityname": "Anaheim",
     "nickname": "Angels",
     "color": "#BA0021",
-    "logo": "/logos/ANA.svg"
+    "logo": "/logos/ANA.png"
   },
   {
     "id": "LA",
@@ -101,7 +101,7 @@
     "cityname": "Los Angeles",
     "nickname": "Dodgers",
     "color": "#005A9C",
-    "logo": "/logos/LAD.svg"
+    "logo": "/logos/LAD.png"
   },
   {
     "id": "FLA",
@@ -109,7 +109,7 @@
     "cityname": "Florida",
     "nickname": "Marlins",
     "color": "#00A3E0",
-    "logo": "/logos/FLA.svg"
+    "logo": "/logos/FLA.png"
   },
   {
     "id": "MIL",
@@ -117,7 +117,7 @@
     "cityname": "Milwaukee",
     "nickname": "Brewers",
     "color": "#12284B",
-    "logo": "/logos/MIL.svg"
+    "logo": "/logos/MIL.png"
   },
   {
     "id": "MIN",
@@ -125,7 +125,7 @@
     "cityname": "Minnesota",
     "nickname": "Twins",
     "color": "#002B5C",
-    "logo": "/logos/MIN.svg"
+    "logo": "/logos/MIN.png"
   },
   {
     "id": "NYM",
@@ -133,7 +133,7 @@
     "cityname": "New York (NL)",
     "nickname": "Mets",
     "color": "#002D72",
-    "logo": "/logos/NYM.svg"
+    "logo": "/logos/NYM.png"
   },
   {
     "id": "NYY",
@@ -141,7 +141,7 @@
     "cityname": "New York (AL)",
     "nickname": "Yankees",
     "color": "#003087",
-    "logo": "/logos/NYY.svg"
+    "logo": "/logos/NYY.png"
   },
   {
     "id": "OAK",
@@ -149,7 +149,7 @@
     "cityname": "Oakland",
     "nickname": "Athletics",
     "color": "#003831",
-    "logo": "/logos/OAK.svg"
+    "logo": "/logos/OAK.png"
   },
   {
     "id": "PHI",
@@ -157,7 +157,7 @@
     "cityname": "Philadelphia",
     "nickname": "Phillies",
     "color": "#E81828",
-    "logo": "/logos/PHI.svg"
+    "logo": "/logos/PHI.png"
   },
   {
     "id": "PIT",
@@ -165,7 +165,7 @@
     "cityname": "Pittsburgh",
     "nickname": "Pirates",
     "color": "#FDB827",
-    "logo": "/logos/PIT.svg"
+    "logo": "/logos/PIT.png"
   },
   {
     "id": "SD",
@@ -173,7 +173,7 @@
     "cityname": "San Diego",
     "nickname": "Padres",
     "color": "#002D62",
-    "logo": "/logos/SDP.svg"
+    "logo": "/logos/SDP.png"
   },
   {
     "id": "SEA",
@@ -181,7 +181,7 @@
     "cityname": "Seattle",
     "nickname": "Mariners",
     "color": "#0C2C56",
-    "logo": "/logos/SEA.svg"
+    "logo": "/logos/SEA.png"
   },
   {
     "id": "SF",
@@ -189,7 +189,7 @@
     "cityname": "San Francisco",
     "nickname": "Giants",
     "color": "#FD5A1E",
-    "logo": "/logos/SFG.svg"
+    "logo": "/logos/SFG.png"
   },
   {
     "id": "STL",
@@ -197,7 +197,7 @@
     "cityname": "St. Louis",
     "nickname": "Cardinals",
     "color": "#C41E3A",
-    "logo": "/logos/STL.svg"
+    "logo": "/logos/STL.png"
   },
   {
     "id": "TB",
@@ -205,7 +205,7 @@
     "cityname": "Tampa Bay",
     "nickname": "Devil Rays",
     "color": "#092C5C",
-    "logo": "/logos/TBD.svg"
+    "logo": "/logos/TBD.png"
   },
   {
     "id": "TEX",
@@ -213,7 +213,7 @@
     "cityname": "Texas",
     "nickname": "Rangers",
     "color": "#003278",
-    "logo": "/logos/TEX.svg"
+    "logo": "/logos/TEX.png"
   },
   {
     "id": "TOR",
@@ -221,7 +221,7 @@
     "cityname": "Toronto",
     "nickname": "Blue Jays",
     "color": "#134A8E",
-    "logo": "/logos/TOR.svg"
+    "logo": "/logos/TOR.png"
   },
   {
     "id": "MON",
@@ -229,7 +229,7 @@
     "cityname": "Montreal",
     "nickname": "Expos",
     "color": "#002B5C",
-    "logo": "/logos/MON.svg"
+    "logo": "/logos/MON.png"
   },
   {
     "id": "CHW",
@@ -237,6 +237,6 @@
     "cityname": "Chicago (AL)",
     "nickname": "White Sox",
     "color": "#27251F",
-    "logo": "/logos/CHW.svg"
+    "logo": "/logos/CHW.png"
   }
 ]
