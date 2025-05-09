@@ -399,7 +399,7 @@
     "date": "1999-04-08",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -534,7 +534,7 @@
     "date": "1999-04-09",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -669,7 +669,7 @@
     "date": "1999-04-10",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -912,7 +912,7 @@
     "date": "1999-04-12",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -1110,7 +1110,7 @@
     "date": "1999-04-14",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -1209,7 +1209,7 @@
     "date": "1999-04-15",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -1425,7 +1425,7 @@
     "date": "1999-04-17",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -1641,7 +1641,7 @@
     "date": "1999-04-19",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -1758,7 +1758,7 @@
     "date": "1999-04-20",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -2217,7 +2217,7 @@
     "date": "1999-04-24",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -2550,7 +2550,7 @@
     "date": "1999-04-27",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -2676,7 +2676,7 @@
     "date": "1999-04-28",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -2820,7 +2820,7 @@
     "date": "1999-04-29",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -2955,7 +2955,7 @@
     "date": "1999-04-30",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3090,7 +3090,7 @@
     "date": "1999-05-01",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3225,7 +3225,7 @@
     "date": "1999-05-02",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3342,7 +3342,7 @@
     "date": "1999-05-03",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3459,7 +3459,7 @@
     "date": "1999-05-04",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3594,7 +3594,7 @@
     "date": "1999-05-05",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3783,7 +3783,7 @@
     "date": "1999-05-07",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -3918,7 +3918,7 @@
     "date": "1999-05-08",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -4053,7 +4053,7 @@
     "date": "1999-05-09",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -4161,7 +4161,7 @@
     "date": "1999-05-10",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -4413,7 +4413,7 @@
     "date": "1999-05-12",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -4584,7 +4584,7 @@
     "date": "1999-05-14",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -5079,7 +5079,7 @@
     "date": "1999-05-18",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -5214,7 +5214,7 @@
     "date": "1999-05-19",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -5583,7 +5583,7 @@
     "date": "1999-05-22",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -5943,7 +5943,7 @@
     "date": "1999-05-25",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6078,7 +6078,7 @@
     "date": "1999-05-26",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6177,7 +6177,7 @@
     "date": "1999-05-27",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6285,7 +6285,7 @@
     "date": "1999-05-28",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6420,7 +6420,7 @@
     "date": "1999-05-29",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6555,7 +6555,7 @@
     "date": "1999-05-30",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6681,7 +6681,7 @@
     "date": "1999-05-31",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6807,7 +6807,7 @@
     "date": "1999-06-01",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -6942,7 +6942,7 @@
     "date": "1999-06-02",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7041,7 +7041,7 @@
     "date": "1999-06-04",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7167,7 +7167,7 @@
     "date": "1999-06-05",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7311,7 +7311,7 @@
     "date": "1999-06-06",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7527,7 +7527,7 @@
     "date": "1999-06-07",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7806,7 +7806,7 @@
     "date": "1999-06-09",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -7923,7 +7923,7 @@
     "date": "1999-06-11",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8058,7 +8058,7 @@
     "date": "1999-06-12",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8193,7 +8193,7 @@
     "date": "1999-06-13",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8445,7 +8445,7 @@
     "date": "1999-06-15",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8580,7 +8580,7 @@
     "date": "1999-06-16",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8697,7 +8697,7 @@
     "date": "1999-06-17",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8823,7 +8823,7 @@
     "date": "1999-06-18",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -8958,7 +8958,7 @@
     "date": "1999-06-19",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -9093,7 +9093,7 @@
     "date": "1999-06-20",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -9696,7 +9696,7 @@
     "date": "1999-06-25",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -9831,7 +9831,7 @@
     "date": "1999-06-26",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -10857,7 +10857,7 @@
     "date": "1999-07-04",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -10947,7 +10947,7 @@
     "date": "1999-07-05",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11082,7 +11082,7 @@
     "date": "1999-07-06",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11217,7 +11217,7 @@
     "date": "1999-07-07",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11325,7 +11325,7 @@
     "date": "1999-07-08",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11442,7 +11442,7 @@
     "date": "1999-07-09",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11577,7 +11577,7 @@
     "date": "1999-07-10",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11712,7 +11712,7 @@
     "date": "1999-07-11",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -11937,7 +11937,7 @@
     "date": "1999-07-16",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12090,7 +12090,7 @@
     "date": "1999-07-17",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12288,7 +12288,7 @@
     "date": "1999-07-19",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12423,7 +12423,7 @@
     "date": "1999-07-20",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12648,7 +12648,7 @@
     "date": "1999-07-21",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12819,7 +12819,7 @@
     "date": "1999-07-22",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12828,7 +12828,7 @@
     "date": "1999-07-22",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -12945,7 +12945,7 @@
     "date": "1999-07-23",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13107,7 +13107,7 @@
     "date": "1999-07-24",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13242,7 +13242,7 @@
     "date": "1999-07-25",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13566,7 +13566,7 @@
     "date": "1999-07-28",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13656,7 +13656,7 @@
     "date": "1999-07-29",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13800,7 +13800,7 @@
     "date": "1999-07-30",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -13935,7 +13935,7 @@
     "date": "1999-07-31",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14070,7 +14070,7 @@
     "date": "1999-08-01",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14268,7 +14268,7 @@
     "date": "1999-08-03",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14394,7 +14394,7 @@
     "date": "1999-08-04",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14502,7 +14502,7 @@
     "date": "1999-08-05",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14772,7 +14772,7 @@
     "date": "1999-08-07",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -14907,7 +14907,7 @@
     "date": "1999-08-08",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15042,7 +15042,7 @@
     "date": "1999-08-09",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15177,7 +15177,7 @@
     "date": "1999-08-10",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15312,7 +15312,7 @@
     "date": "1999-08-11",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15384,7 +15384,7 @@
     "date": "1999-08-12",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15456,7 +15456,7 @@
     "date": "1999-08-13",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15618,7 +15618,7 @@
     "date": "1999-08-14",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -15906,7 +15906,7 @@
     "date": "1999-08-16",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16041,7 +16041,7 @@
     "date": "1999-08-17",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16176,7 +16176,7 @@
     "date": "1999-08-18",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16383,7 +16383,7 @@
     "date": "1999-08-20",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16644,7 +16644,7 @@
     "date": "1999-08-22",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16788,7 +16788,7 @@
     "date": "1999-08-23",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -16914,7 +16914,7 @@
     "date": "1999-08-24",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17049,7 +17049,7 @@
     "date": "1999-08-25",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17229,7 +17229,7 @@
     "date": "1999-08-27",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17364,7 +17364,7 @@
     "date": "1999-08-28",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17643,7 +17643,7 @@
     "date": "1999-08-30",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17796,7 +17796,7 @@
     "date": "1999-08-31",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -17931,7 +17931,7 @@
     "date": "1999-09-01",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -18147,7 +18147,7 @@
     "date": "1999-09-03",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -18282,7 +18282,7 @@
     "date": "1999-09-04",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -18408,7 +18408,7 @@
     "date": "1999-09-05",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -18507,7 +18507,7 @@
     "date": "1999-09-06",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -18651,7 +18651,7 @@
     "date": "1999-09-07",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19002,7 +19002,7 @@
     "date": "1999-09-10",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19380,7 +19380,7 @@
     "date": "1999-09-13",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19497,7 +19497,7 @@
     "date": "1999-09-14",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19641,7 +19641,7 @@
     "date": "1999-09-15",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19830,7 +19830,7 @@
     "date": "1999-09-17",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -19965,7 +19965,7 @@
     "date": "1999-09-18",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20100,7 +20100,7 @@
     "date": "1999-09-19",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20217,7 +20217,7 @@
     "date": "1999-09-20",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20343,7 +20343,7 @@
     "date": "1999-09-21",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20577,7 +20577,7 @@
     "date": "1999-09-23",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20721,7 +20721,7 @@
     "date": "1999-09-24",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -20991,7 +20991,7 @@
     "date": "1999-09-26",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -21180,7 +21180,7 @@
     "date": "1999-09-28",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -21405,7 +21405,7 @@
     "date": "1999-09-30",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -21513,7 +21513,7 @@
     "date": "1999-10-01",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -21648,7 +21648,7 @@
     "date": "1999-10-02",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
@@ -21765,7 +21765,7 @@
     "date": "1999-10-03",
     "played": false,
     "home": null,
-    "road": null,
+    "road": "LA",
     "home_score": null,
     "road_score": null,
     "game_id": null
