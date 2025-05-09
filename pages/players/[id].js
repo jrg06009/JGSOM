@@ -6,9 +6,11 @@ export async function getStaticPaths() {
   const filePath = path.join(process.cwd(), 'data', 'players_combined.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
 
-  const paths = data.map(player => ({
-    params: { id: player.id }
-  }))
+  const paths = data
+    .filter(player => typeof player.id === 'string' && player.id.trim() !== '')
+    .map(player => ({
+      params: { id: player.id }
+    }))
 
   return { paths, fallback: false }
 }
