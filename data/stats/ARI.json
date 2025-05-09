@@ -673,8 +673,7 @@
       "HR9": "0.0",
       "BB9": "3.0",
       "SO9": "6.0",
-      "SO/BB": "2.0",
-      "Max": 127.0
+      "SO/BB": "2.0"
     },
     {
       "Player": "Andy Benes",
@@ -703,8 +702,7 @@
       "HR9": "4.9",
       "BB9": "2.5",
       "SO9": "7.4",
-      "SO/BB": "3.0",
-      "Max": 127.0
+      "SO/BB": "3.0"
     },
     {
       "Player": "John Frascatore",
@@ -733,8 +731,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Darren Holmes",
@@ -763,8 +760,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Randy Johnson",
@@ -793,8 +789,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "12.3",
-      "SO/BB": "0.0",
-      "Max": 142.0
+      "SO/BB": "0.0"
     },
     {
       "Player": "Gregg Olson",
@@ -823,8 +818,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Armando Reynoso",
@@ -853,8 +847,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": 121.0
+      "SO/BB": "0.0"
     },
     {
       "Player": "Todd Stottlemyre",
@@ -883,8 +876,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": 118.0
+      "SO/BB": "0.0"
     },
     {
       "Player": "Greg Swindell",
@@ -913,8 +905,7 @@
       "HR9": "0.0",
       "BB9": "5.4",
       "SO9": "5.4",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     }
   ],
   "fielding": [

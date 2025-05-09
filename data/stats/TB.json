@@ -421,8 +421,7 @@
       "HR9": "0.0",
       "BB9": "18.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Wilson Alvarez",
@@ -451,8 +450,7 @@
       "HR9": "0.0",
       "BB9": "40.5",
       "SO9": "6.8",
-      "SO/BB": "0.2",
-      "Max": null
+      "SO/BB": "0.2"
     },
     {
       "Player": "Mike Duvall",
@@ -481,8 +479,7 @@
       "HR9": "0.0",
       "BB9": "6.8",
       "SO9": "3.4",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Roberto Hernandez",
@@ -511,8 +508,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Albie Lopez",
@@ -541,8 +537,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Jim Mecir",
@@ -571,8 +566,7 @@
       "HR9": "0.0",
       "BB9": "5.4",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Tony Saunders",
@@ -601,8 +595,7 @@
       "HR9": "0.0",
       "BB9": "5.4",
       "SO9": "1.8",
-      "SO/BB": "0.3",
-      "Max": null
+      "SO/BB": "0.3"
     },
     {
       "Player": "Rick White",
@@ -631,8 +624,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "3.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Bobby Witt",
@@ -661,8 +653,7 @@
       "HR9": "0.0",
       "BB9": "9.9",
       "SO9": "2.8",
-      "SO/BB": "0.3",
-      "Max": null
+      "SO/BB": "0.3"
     }
   ],
   "fielding": [

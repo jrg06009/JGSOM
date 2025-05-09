@@ -505,8 +505,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Scott Erickson",
@@ -535,8 +534,7 @@
       "HR9": "0.0",
       "BB9": "1.3",
       "SO9": "3.9",
-      "SO/BB": "3.0",
-      "Max": null
+      "SO/BB": "3.0"
     },
     {
       "Player": "Mike Fetters",
@@ -565,8 +563,7 @@
       "HR9": "0.0",
       "BB9": "4.5",
       "SO9": "4.5",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Juan Guzman",
@@ -595,8 +592,7 @@
       "HR9": "1.8",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Doug Johns",
@@ -625,8 +621,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "4.5",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Mike Mussina",
@@ -655,8 +650,7 @@
       "HR9": "0.0",
       "BB9": "2.7",
       "SO9": "13.5",
-      "SO/BB": "5.0",
-      "Max": null
+      "SO/BB": "5.0"
     },
     {
       "Player": "Jesse Orosco",
@@ -685,8 +679,7 @@
       "HR9": "0.0",
       "BB9": "27.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Arthur Rhodes",
@@ -715,8 +708,7 @@
       "HR9": "0.0",
       "BB9": "10.1",
       "SO9": "13.5",
-      "SO/BB": "1.3",
-      "Max": null
+      "SO/BB": "1.3"
     },
     {
       "Player": "Heathcliff Slocumb",
@@ -745,8 +737,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "16.2",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Mike Timlin",
@@ -775,8 +766,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "6.8",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

@@ -505,8 +505,7 @@
       "HR9": "1.5",
       "BB9": "7.5",
       "SO9": "3.0",
-      "SO/BB": "0.4",
-      "Max": null
+      "SO/BB": "0.4"
     },
     {
       "Player": "Keith Foulke",
@@ -535,8 +534,7 @@
       "HR9": "0.0",
       "BB9": "18.0",
       "SO9": "9.0",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Sean Lowe",
@@ -565,8 +563,7 @@
       "HR9": "0.0",
       "BB9": "9.0",
       "SO9": "9.0",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "David Lundquist",
@@ -595,8 +592,7 @@
       "HR9": "0.0",
       "BB9": "6.8",
       "SO9": "13.5",
-      "SO/BB": "2.0",
-      "Max": null
+      "SO/BB": "2.0"
     },
     {
       "Player": "Jim Parque",
@@ -625,8 +621,7 @@
       "HR9": "0.0",
       "BB9": "6.8",
       "SO9": "6.8",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Bill Simas",
@@ -655,8 +650,7 @@
       "HR9": "0.0",
       "BB9": "9.0",
       "SO9": "18.0",
-      "SO/BB": "2.0",
-      "Max": null
+      "SO/BB": "2.0"
     },
     {
       "Player": "John Snyder",
@@ -685,8 +679,7 @@
       "HR9": "0.0",
       "BB9": "3.6",
       "SO9": "1.8",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Bryan Ward",
@@ -715,8 +708,7 @@
       "HR9": "2.7",
       "BB9": "2.7",
       "SO9": "8.1",
-      "SO/BB": "3.0",
-      "Max": null
+      "SO/BB": "3.0"
     }
   ],
   "fielding": [

@@ -505,8 +505,7 @@
       "HR9": "1.8",
       "BB9": "0.0",
       "SO9": "12.6",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Justin Thompson",
@@ -535,8 +534,7 @@
       "HR9": "7.7",
       "BB9": "7.7",
       "SO9": "3.9",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Willie Blair",
@@ -565,8 +563,7 @@
       "HR9": "4.5",
       "BB9": "4.5",
       "SO9": "4.5",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Doug Brocail",
@@ -595,8 +592,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "C.J. Nitkowski",
@@ -625,8 +621,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Todd Jones",
@@ -655,8 +650,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Masao Kida",
@@ -685,8 +679,7 @@
       "HR9": "2.2",
       "BB9": "4.5",
       "SO9": "6.8",
-      "SO/BB": "1.5",
-      "Max": null
+      "SO/BB": "1.5"
     },
     {
       "Player": "Matt Anderson",
@@ -715,8 +708,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "6.8",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Sean Runyan",
@@ -745,8 +737,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Felipe Lira",
@@ -775,8 +766,7 @@
       "HR9": "6.8",
       "BB9": "3.4",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

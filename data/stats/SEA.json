@@ -561,8 +561,7 @@
       "HR9": "0.0",
       "BB9": "1.3",
       "SO9": "2.7",
-      "SO/BB": "2.0",
-      "Max": null
+      "SO/BB": "2.0"
     },
     {
       "Player": "Freddy Garcia",
@@ -591,8 +590,7 @@
       "HR9": "1.3",
       "BB9": "1.3",
       "SO9": "3.9",
-      "SO/BB": "3.0",
-      "Max": null
+      "SO/BB": "3.0"
     },
     {
       "Player": "John Halama",
@@ -621,8 +619,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "9.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Jeff Fassero",
@@ -651,8 +648,7 @@
       "HR9": "2.5",
       "BB9": "2.5",
       "SO9": "2.5",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Jose Paniagua",
@@ -681,8 +677,7 @@
       "HR9": "0.0",
       "BB9": "6.8",
       "SO9": "13.5",
-      "SO/BB": "2.0",
-      "Max": null
+      "SO/BB": "2.0"
     },
     {
       "Player": "Mac Suzuki",
@@ -711,8 +706,7 @@
       "HR9": "9.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Brett Hinchliffe",
@@ -741,8 +735,7 @@
       "HR9": "9.0",
       "BB9": "9.0",
       "SO9": "4.5",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Eric Weaver",
@@ -771,8 +764,7 @@
       "HR9": "0.0",
       "BB9": "13.5",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "John Mabry",
@@ -801,8 +793,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

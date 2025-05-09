@@ -505,8 +505,7 @@
       "HR9": "0.0",
       "BB9": "2.8",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Jose Rosado",
@@ -535,8 +534,7 @@
       "HR9": "0.0",
       "BB9": "4.5",
       "SO9": "4.5",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Jay Witasick",
@@ -565,8 +563,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "4.5",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Kevin Appier",
@@ -595,8 +592,7 @@
       "HR9": "5.4",
       "BB9": "3.6",
       "SO9": "3.6",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Scott Service",
@@ -625,8 +621,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Jeff Montgomery",
@@ -655,8 +650,7 @@
       "HR9": "0.0",
       "BB9": "10.8",
       "SO9": "5.4",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Jose Santiago",
@@ -685,8 +679,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Matt Whisenant",
@@ -715,8 +708,7 @@
       "HR9": "0.0",
       "BB9": "10.8",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Don Wengert",
@@ -745,8 +737,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "3.4",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

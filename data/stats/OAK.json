@@ -477,8 +477,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "4.2",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Jimmy Haynes",
@@ -507,8 +506,7 @@
       "HR9": "6.0",
       "BB9": "15.0",
       "SO9": "3.0",
-      "SO/BB": "0.2",
-      "Max": null
+      "SO/BB": "0.2"
     },
     {
       "Player": "Doug Jones",
@@ -537,8 +535,7 @@
       "HR9": "0.0",
       "BB9": "13.5",
       "SO9": "6.8",
-      "SO/BB": "0.5",
-      "Max": null
+      "SO/BB": "0.5"
     },
     {
       "Player": "Tim Worrell",
@@ -567,8 +564,7 @@
       "HR9": "0.0",
       "BB9": "4.5",
       "SO9": "9.0",
-      "SO/BB": "2.0",
-      "Max": null
+      "SO/BB": "2.0"
     },
     {
       "Player": "Brad Rigby",
@@ -597,8 +593,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "3.4",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "T.J. Mathews",
@@ -627,8 +622,7 @@
       "HR9": "0.0",
       "BB9": "4.5",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Tom Candiotti",
@@ -657,8 +651,7 @@
       "HR9": "0.0",
       "BB9": "3.0",
       "SO9": "7.5",
-      "SO/BB": "2.5",
-      "Max": null
+      "SO/BB": "2.5"
     },
     {
       "Player": "Buddy Groom",
@@ -687,8 +680,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Billy Taylor",
@@ -717,8 +709,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "6.8",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

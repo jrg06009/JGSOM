@@ -505,8 +505,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "10.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Aaron Sele",
@@ -535,8 +534,7 @@
       "HR9": "6.0",
       "BB9": "3.0",
       "SO9": "9.0",
-      "SO/BB": "3.0",
-      "Max": null
+      "SO/BB": "3.0"
     },
     {
       "Player": "Mike Morgan",
@@ -565,8 +563,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "4.5",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Esteban Loaiza",
@@ -595,8 +592,7 @@
       "HR9": "0.0",
       "BB9": "13.5",
       "SO9": "20.2",
-      "SO/BB": "1.5",
-      "Max": null
+      "SO/BB": "1.5"
     },
     {
       "Player": "Mark Clark",
@@ -625,8 +621,7 @@
       "HR9": "2.6",
       "BB9": "0.0",
       "SO9": "5.1",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "John Wetteland",
@@ -655,8 +650,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "27.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Tim Crabtree",
@@ -685,8 +679,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Danny Patterson",
@@ -715,8 +708,7 @@
       "HR9": "0.0",
       "BB9": "81.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [

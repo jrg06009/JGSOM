@@ -477,8 +477,7 @@
       "HR9": "1.3",
       "BB9": "3.9",
       "SO9": "6.4",
-      "SO/BB": "1.7",
-      "Max": null
+      "SO/BB": "1.7"
     },
     {
       "Player": "Roger Clemens",
@@ -507,8 +506,7 @@
       "HR9": "1.1",
       "BB9": "2.2",
       "SO9": "11.2",
-      "SO/BB": "5.0",
-      "Max": null
+      "SO/BB": "5.0"
     },
     {
       "Player": "Ramiro Mendoza",
@@ -537,8 +535,7 @@
       "HR9": "6.2",
       "BB9": "8.3",
       "SO9": "2.1",
-      "SO/BB": "0.2",
-      "Max": null
+      "SO/BB": "0.2"
     },
     {
       "Player": "Jason Grimsley",
@@ -567,8 +564,7 @@
       "HR9": "5.4",
       "BB9": "0.0",
       "SO9": "5.4",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Mariano Rivera",
@@ -597,8 +593,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "0.0",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     },
     {
       "Player": "Mike Stanton",
@@ -627,8 +622,7 @@
       "HR9": "0.0",
       "BB9": "5.4",
       "SO9": "5.4",
-      "SO/BB": "1.0",
-      "Max": null
+      "SO/BB": "1.0"
     },
     {
       "Player": "Jeff Nelson",
@@ -657,8 +651,7 @@
       "HR9": "0.0",
       "BB9": "0.0",
       "SO9": "13.5",
-      "SO/BB": "0.0",
-      "Max": null
+      "SO/BB": "0.0"
     }
   ],
   "fielding": [
