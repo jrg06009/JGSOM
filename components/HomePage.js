@@ -24,7 +24,7 @@ export default function HomePage({ standings, leaders }) {
                 <tbody>
                   {division.teams.map((team) => (
                     <tr key={team.abbr} className="border-t">
-                      <td><Link href={`/teams/${team.abbr}`}>{team.name}</Link></td>
+                      <td><Link href={`/teams/${team.ID}`}>{team.name}</Link></td>
                       <td className="text-center">{team.w}</td>
                       <td className="text-center">{team.l}</td>
                       <td className="text-center">{team.gb}</td>
