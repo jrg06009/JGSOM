@@ -1,6 +1,3 @@
-import fs from 'fs'
-console.log('Listing contents of components folder:', fs.readdirSync('./components'))
-
 import '../styles/globals.css'
 import Layout from '../components/Layout'
 
