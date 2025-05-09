@@ -22,7 +22,7 @@ jobs:
         run: pip install pandas numpy openpyxl xlrd
 
       - name: Run stat generator
-        run: python scripts/stat_json_generator.py
+        run: python -c "import scripts.stat_json_generator as s; s.generate_stats_from_excel('data/SOM 1999 Full Season Replay.xlsm', 'data/stats')"
 
       - name: List files after script runs
         run: ls -lR data/
