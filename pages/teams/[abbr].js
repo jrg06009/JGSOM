@@ -104,7 +104,24 @@ export default function TeamPage({ abbr, stats, team }) {
 
           <SortableTable title="Batting" data={stats.batting} defaultSortKey="PA" />
           <SortableTable title="Pitching" data={stats.pitching} defaultSortKey="IP" />
-          <SortableTable title="Fielding" data={stats.fielding} defaultSortKey="INN" />
+{stats.fielding && (() => {
+  const grouped = stats.fielding.reduce((acc, player) => {
+    const pos = player.POS || "Unknown"
+    if (!acc[pos]) acc[pos] = []
+    acc[pos].push(player)
+    return acc
+  }, {})
+
+  return Object.entries(grouped).map(([pos, group]) => (
+    <SortableTable
+      key={pos}
+      title={`Fielding - ${pos}`}
+      data={group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN))}
+      defaultSortKey="INN"
+    />
+  ))
+})()}
+
         </>
       ) : (
         <p className="text-red-600">Team not found.</p>
