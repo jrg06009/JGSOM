@@ -1,6 +1,8 @@
 import Link from 'next/link'
 
 export default function StandingsTable({ games, teams }) {
+  if (!games || !teams) return <div>Standings data unavailable.</div>
+
   const standings = calculateStandingsByDivision(games, teams)
 
   return (
@@ -43,19 +45,25 @@ function calculateStandingsByDivision(games, teams) {
   })
 
   games.forEach(game => {
-    const { homeTeam, awayTeam, homeScore, awayScore } = game
+    const { home, away, result } = game
+    const [awayScoreStr, homeScoreStr] = result.match(/\d+/g) || []
+    const awayScore = parseInt(awayScoreStr)
+    const homeScore = parseInt(homeScoreStr)
+
     if (homeScore > awayScore) {
-      standings[homeTeam].W++
-      standings[awayTeam].L++
+      standings[home].W++
+      standings[away].L++
     } else {
-      standings[awayTeam].W++
-      standings[homeTeam].L++
+      standings[away].W++
+      standings[home].L++
     }
   })
 
   const grouped = {}
   teams.forEach(team => {
-    const key = `${team.league} - ${team.division}`
+    const league = team.league || 'Unknown League'
+    const division = team.division || 'Unknown Division'
+    const key = `${league} - ${division}`
     if (!grouped[key]) grouped[key] = []
     grouped[key].push(standings[team.id])
   })
