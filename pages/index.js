@@ -83,3 +83,31 @@ function calculateStandings(teams, games) {
 
   return sorted;
 }
+
+const standings = calculateStandings(teams, games);
+
+<h2 className="text-xl font-semibold mt-6 mb-2">League Standings</h2>
+<table className="table-auto border-collapse border w-full text-sm mb-8">
+  <thead className="bg-gray-100">
+    <tr>
+      <th className="border px-2 py-1 text-left">Team</th>
+      <th className="border px-2 py-1">W</th>
+      <th className="border px-2 py-1">L</th>
+      <th className="border px-2 py-1">GB</th>
+    </tr>
+  </thead>
+  <tbody>
+    {standings.map(team => (
+      <tr key={team.id}>
+        <td className="border px-2 py-1">
+          <Link href={`/teams/${team.id}`} className="text-blue-700 hover:underline">
+            {team.cityname} {team.nickname}
+          </Link>
+        </td>
+        <td className="border px-2 py-1 text-center">{team.w}</td>
+        <td className="border px-2 py-1 text-center">{team.l}</td>
+        <td className="border px-2 py-1 text-center">{team.gb === 0 ? '—' : team.gb.toFixed(1)}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
