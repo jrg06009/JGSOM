@@ -1,7 +1,6 @@
-// pages/players/[id].js
 import fs from 'fs'
 import path from 'path'
-import Layout from '@/components/Layout'
+import Layout from '../../components/Layout'
 
 export async function getStaticPaths() {
   const filePath = path.join(process.cwd(), 'data', 'players_combined.json')
