@@ -24,17 +24,19 @@ jobs:
       - name: Run stat generator
         run: python scripts/stat_json_generator.py
 
-        - name: List files after script runs
+      - name: List files after script runs
         run: ls -lR data/
 
       - name: Commit and push updated JSON files
-        run: | git config --global user.name 'auto-updater'
-    git config --global user.email 'auto@updater.com'
-    git add data/stats/
-    git add data/standings.json
-    git add data/schedule.json
-    git commit -m "Auto-update stats and standings from Excel"
-    git push
+        run: |
+          git config --global user.name 'auto-updater'
+          git config --global user.email 'auto@updater.com'
+          git add data/stats/
+          git add data/standings.json
+          git add data/schedule.json
+          git commit -m "Auto-update stats and standings from Excel" || echo "Nothing to commit"
+          git push
+        continue-on-error: true
 
       - name: Trigger Vercel Deployment
         run: curl -X POST 'https://api.vercel.com/v1/integrations/deploy/prj_KVc1MRftUPAE4iQBGP6jSryRPfcz/IePnWdQdej'
