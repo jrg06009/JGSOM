@@ -35,8 +35,8 @@ export default function Home({ games, players, teams }) {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Teams</h2>
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
-        {teams && teams.map((team, idx) => (
-          <li key={idx} className="border rounded p-2 bg-white shadow hover:shadow-md transition">
+        {teams && teams.map((team, ID) => (
+          <li key={ID} className="border rounded p-2 bg-white shadow hover:shadow-md transition">
             <Link href={`/teams/${team.ID}`} className="block text-center text-lg text-blue-700">
               {team.name}
             </Link>
