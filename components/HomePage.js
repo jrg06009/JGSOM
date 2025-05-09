@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function HomePage({ standings, leaders }) {
   return (
     <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">1999 Strat-O-Matic Replay</h1>
+      <h1 className="text-3xl font-bold mb-4">1999 Strat-O-Matic Season</h1>
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Division Standings</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
