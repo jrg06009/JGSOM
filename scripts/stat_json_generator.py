@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 import os
+from collections import defaultdict
 
 def format_stat(value, fmt):
     try:
@@ -98,21 +99,15 @@ def generate_stats_from_excel(excel_path, output_folder):
         with open(os.path.join(output_folder, f"{team_id}.json"), "w") as f:
             json.dump(team_data, f, indent=2)
 
-# Example usage:
-# generate_stats_from_excel("SOM 1999 Full Season Replay.xlsm", "./output_stats")
-
-# --- Generate standings.json from GameLog ---
+    # Generate standings.json
     print("Generating standings.json...")
-
     gamelog_df = xls.parse("GameLog").dropna(subset=["Game ID", "Team", "R"])
     gamelog_df["Game ID"] = gamelog_df["Game ID"].astype(str).str.strip()
     gamelog_df["Team"] = gamelog_df["Team"].astype(str).str.strip()
     gamelog_df["R"] = pd.to_numeric(gamelog_df["R"], errors="coerce")
     team_game_scores = gamelog_df.groupby(["Game ID", "Team"])["R"].sum().reset_index()
 
-    from collections import defaultdict
     standings = defaultdict(lambda: {"W": 0, "L": 0})
-
     for game_id, group in team_game_scores.groupby("Game ID"):
         if len(group) != 2:
             continue
@@ -180,3 +175,29 @@ def generate_stats_from_excel(excel_path, output_folder):
     with open(os.path.join(output_folder, "standings.json"), "w") as f:
         json.dump(final_standings_output, f, indent=2)
     print("standings.json created.")
+
+    # Generate schedule.json
+    print("Generating schedule.json...")
+    schedule_df = xls.parse("Schedule", usecols="A:O")
+    schedule = []
+    for _, row in schedule_df.iterrows():
+        date = row.get("Date")
+        gid = row.get("GameID")
+        played = isinstance(gid, str) and "@" in gid
+        game = {
+            "date": str(date.date()) if not pd.isna(date) else None,
+            "played": played,
+            "home": str(row.get("act H")).strip().upper() if not played else str(row.get("Home Team")).strip().upper(),
+            "road": str(row.get("act R")).strip().upper() if not played else str(row.get("Road Team")).strip().upper(),
+            "home_score": row.get("Score.1") if played else None,
+            "road_score": row.get("Score") if played else None,
+            "game_id": gid if played else None
+        }
+        schedule.append(game)
+
+    with open(os.path.join(output_folder, "schedule.json"), "w") as f:
+        json.dump(schedule, f, indent=2)
+    print("schedule.json created.")
+
+if __name__ == "__main__":
+    generate_stats_from_excel("data/SOM 1999 Full Season Replay.xlsm", "data/stats")
