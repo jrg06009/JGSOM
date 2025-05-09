@@ -16,6 +16,7 @@ export default function StandingsTable({ games, teams }) {
                 <th className="border border-gray-400 p-2">Team</th>
                 <th className="border border-gray-400 p-2">W</th>
                 <th className="border border-gray-400 p-2">L</th>
+                <th className="border border-gray-400 p-2">PCT</th>
                 <th className="border border-gray-400 p-2">GB</th>
               </tr>
             </thead>
@@ -27,6 +28,9 @@ export default function StandingsTable({ games, teams }) {
                   </td>
                   <td className="border border-gray-400 p-2 text-center">{team.W}</td>
                   <td className="border border-gray-400 p-2 text-center">{team.L}</td>
+                  <td className="border border-gray-400 p-2 text-center">
+                    {team.pct === '1.000' ? '1.000' : team.pct.replace(/^0/, '')}
+                  </td>
                   <td className="border border-gray-400 p-2 text-center">{team.GB}</td>
                 </tr>
               ))}
@@ -72,6 +76,9 @@ function calculateStandingsByDivision(games, teams) {
     division.sort((a, b) => b.W - a.W || a.L - b.L)
     const leader = division[0]
     division.forEach(team => {
+      const totalGames = team.W + team.L
+      team.pct = totalGames === 0 ? '.000' : (team.W / totalGames).toFixed(3)
+      if (team.pct === '1.000') team.pct = '1.000' // Explicit full value
       team.GB = (((leader.W - team.W) + (team.L - leader.L)) / 2).toFixed(1)
       if (team.GB === '0.0') team.GB = '-'
     })
