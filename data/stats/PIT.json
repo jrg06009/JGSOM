@@ -1749,7 +1749,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kris Benson",
@@ -1767,7 +1767,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Boyd",
@@ -1785,7 +1785,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Christiansen",
@@ -1803,7 +1803,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brad Clontz",
@@ -1821,7 +1821,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Francisco Cordova",
@@ -1839,7 +1839,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jim Dougherty",
@@ -1857,7 +1857,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Garcia",
@@ -1875,7 +1875,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Greg Hansell",
@@ -1893,7 +1893,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rich Loiselle",
@@ -1911,7 +1911,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Keith Osik",
@@ -1929,7 +1929,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chris Peters",
@@ -1947,7 +1947,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Phillips",
@@ -1965,7 +1965,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Todd Ritchie",
@@ -1983,7 +1983,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Sauerbeck",
@@ -2001,7 +2001,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Schmidt",
@@ -2019,7 +2019,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Pete Schourek",
@@ -2037,7 +2037,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jose Silva",
@@ -2055,7 +2055,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Wallace",
@@ -2073,7 +2073,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Marc Wilkins",
@@ -2091,7 +2091,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Williams",
@@ -2109,7 +2109,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Kendall",
@@ -2217,7 +2217,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ivan Cruz",
@@ -2235,7 +2235,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Freddy Garcia",
@@ -2253,7 +2253,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dale Sveum",
@@ -2271,7 +2271,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kevin Young",
@@ -2289,7 +2289,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.9393939393939394,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Benjamin",
@@ -2307,7 +2307,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Warren Morris",
@@ -2325,7 +2325,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Abraham Nunez",
@@ -2343,7 +2343,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dale Sveum",
@@ -2361,7 +2361,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -2379,7 +2379,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Benjamin",
@@ -2397,7 +2397,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Freddy Garcia",
@@ -2415,7 +2415,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Aramis Ramirez",
@@ -2433,7 +2433,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ed Sprague",
@@ -2451,7 +2451,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.875,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dale Sveum",
@@ -2469,7 +2469,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -2487,7 +2487,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Benjamin",
@@ -2505,7 +2505,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8571428571428571,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Pat Meares",
@@ -2523,7 +2523,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Abraham Nunez",
@@ -2541,7 +2541,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dale Sveum",
@@ -2559,7 +2559,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -2577,7 +2577,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Adrian Brown",
@@ -2595,7 +2595,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Emil Brown",
@@ -2613,7 +2613,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Freddy Garcia",
@@ -2631,7 +2631,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brian Giles",
@@ -2649,7 +2649,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Hermansen",
@@ -2667,7 +2667,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Al Martin",
@@ -2685,7 +2685,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dale Sveum",
@@ -2703,7 +2703,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Turner Ward",
@@ -2721,7 +2721,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -2739,7 +2739,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Adrian Brown",
@@ -2757,7 +2757,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brant Brown",
@@ -2775,7 +2775,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brian Giles",
@@ -2793,7 +2793,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Hermansen",
@@ -2811,7 +2811,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Turner Ward",
@@ -2829,7 +2829,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -2847,7 +2847,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Adrian Brown",
@@ -2865,7 +2865,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brant Brown",
@@ -2883,7 +2883,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ivan Cruz",
@@ -2901,7 +2901,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Freddy Garcia",
@@ -2919,7 +2919,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brian Giles",
@@ -2937,7 +2937,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jose Guillen",
@@ -2955,7 +2955,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Hermansen",
@@ -2973,7 +2973,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Turner Ward",
@@ -2991,7 +2991,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Wehner",
@@ -3009,7 +3009,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     }
   ]
 }

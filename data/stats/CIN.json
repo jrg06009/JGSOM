@@ -1409,7 +1409,7 @@
       "CS": 1,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Stan Belinda",
@@ -1427,7 +1427,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Bere",
@@ -1445,7 +1445,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Danny Graves",
@@ -1463,7 +1463,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rick Greene",
@@ -1481,7 +1481,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Juan Guzman",
@@ -1499,7 +1499,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Pete Harnisch",
@@ -1517,7 +1517,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Hudek",
@@ -1535,7 +1535,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Denny Neagle",
@@ -1553,7 +1553,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Steve Parris",
@@ -1571,7 +1571,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dennys Reyes",
@@ -1589,7 +1589,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "B.J. Ryan",
@@ -1607,7 +1607,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Sullivan",
@@ -1625,7 +1625,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brett Tomko",
@@ -1643,7 +1643,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ron Villone",
@@ -1661,7 +1661,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Gabe White",
@@ -1679,7 +1679,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Williamson",
@@ -1697,7 +1697,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Brian Johnson",
@@ -1769,7 +1769,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Hal Morris",
@@ -1787,7 +1787,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Sweeney",
@@ -1805,7 +1805,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dmitri Young",
@@ -1823,7 +1823,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Lewis",
@@ -1841,7 +1841,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Pokey Reese",
@@ -1859,7 +1859,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chris Stynes",
@@ -1877,7 +1877,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Aaron Boone",
@@ -1895,7 +1895,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Lewis",
@@ -1913,7 +1913,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.5,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chris Stynes",
@@ -1931,7 +1931,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Aaron Boone",
@@ -1949,7 +1949,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Travis Dawkins",
@@ -1967,7 +1967,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Barry Larkin",
@@ -1985,7 +1985,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Pokey Reese",
@@ -2003,7 +2003,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeffrey Hammonds",
@@ -2021,7 +2021,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Hal Morris",
@@ -2039,7 +2039,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kerry Robinson",
@@ -2057,7 +2057,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chris Stynes",
@@ -2075,7 +2075,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Sweeney",
@@ -2093,7 +2093,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Greg Vaughn",
@@ -2111,7 +2111,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dmitri Young",
@@ -2129,7 +2129,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Cameron",
@@ -2147,7 +2147,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeffrey Hammonds",
@@ -2165,7 +2165,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Michael Tucker",
@@ -2183,7 +2183,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeffrey Hammonds",
@@ -2201,7 +2201,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Michael Tucker",
@@ -2219,7 +2219,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dmitri Young",
@@ -2237,7 +2237,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8888888888888888,
-      "CS%": NaN
+      "CS%": null
     }
   ]
 }

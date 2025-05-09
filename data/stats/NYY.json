@@ -786,8 +786,8 @@
       "BB9": 3.8571428571428568,
       "SO9": 6.428571428571429,
       "SO/BB": 1.6666666666666667,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "David Cone",
@@ -817,8 +817,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Andy Pettitte",
@@ -848,8 +848,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Roger Clemens",
@@ -879,8 +879,8 @@
       "BB9": 2.25,
       "SO9": 11.25,
       "SO/BB": 5.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Hideki Irabu",
@@ -910,8 +910,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Ramiro Mendoza",
@@ -941,8 +941,8 @@
       "BB9": 8.307692307692308,
       "SO9": 2.076923076923077,
       "SO/BB": 0.25,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Jason Grimsley",
@@ -972,8 +972,8 @@
       "BB9": 0.0,
       "SO9": 5.4,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Mariano Rivera",
@@ -1003,8 +1003,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Mike Stanton",
@@ -1034,8 +1034,8 @@
       "BB9": 5.4,
       "SO9": 5.4,
       "SO/BB": 1.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Dan Naulty",
@@ -1065,8 +1065,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Allen Watson",
@@ -1096,8 +1096,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Jeff Nelson",
@@ -1127,8 +1127,8 @@
       "BB9": 0.0,
       "SO9": 13.5,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Ed Yarnall",
@@ -1158,8 +1158,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Todd Erdos",
@@ -1189,8 +1189,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Jay Tessmer",
@@ -1220,8 +1220,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Jeff Juden",
@@ -1251,8 +1251,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Mike Buddie",
@@ -1282,8 +1282,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     },
     {
       "Player": "Tony Fossas",
@@ -1313,8 +1313,8 @@
       "BB9": 0.0,
       "SO9": 0.0,
       "SO/BB": 0.0,
-      "P/S": NaN,
-      "Max": NaN
+      "P/S": null,
+      "Max": null
     }
   ],
   "fielding": [
@@ -1334,7 +1334,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Roger Clemens",
@@ -1352,7 +1352,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Cone",
@@ -1370,7 +1370,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Todd Erdos",
@@ -1388,7 +1388,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Tony Fossas",
@@ -1406,7 +1406,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jason Grimsley",
@@ -1424,7 +1424,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Orlando Hernandez",
@@ -1442,7 +1442,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Hideki Irabu",
@@ -1460,7 +1460,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Juden",
@@ -1478,7 +1478,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ramiro Mendoza",
@@ -1496,7 +1496,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Dan Naulty",
@@ -1514,7 +1514,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Nelson",
@@ -1532,7 +1532,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Andy Pettitte",
@@ -1550,7 +1550,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mariano Rivera",
@@ -1568,7 +1568,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Stanton",
@@ -1586,7 +1586,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jay Tessmer",
@@ -1604,7 +1604,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Allen Watson",
@@ -1622,7 +1622,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ed Yarnall",
@@ -1640,7 +1640,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Figga",
@@ -1730,7 +1730,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jim Leyritz",
@@ -1748,7 +1748,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Manto",
@@ -1766,7 +1766,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Tino Martinez",
@@ -1784,7 +1784,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jorge Posada",
@@ -1802,7 +1802,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Sojo",
@@ -1820,7 +1820,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Clay Bellinger",
@@ -1838,7 +1838,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "D'Angelo Jimenez",
@@ -1856,7 +1856,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chuck Knoblauch",
@@ -1874,7 +1874,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8666666666666667,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Sojo",
@@ -1892,7 +1892,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Clay Bellinger",
@@ -1910,7 +1910,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Brosius",
@@ -1928,7 +1928,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "D'Angelo Jimenez",
@@ -1946,7 +1946,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jim Leyritz",
@@ -1964,7 +1964,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Manto",
@@ -1982,7 +1982,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Sojo",
@@ -2000,7 +2000,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Clay Bellinger",
@@ -2018,7 +2018,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Derek Jeter",
@@ -2036,7 +2036,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Sojo",
@@ -2054,7 +2054,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Alfonso Soriano",
@@ -2072,7 +2072,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Clay Bellinger",
@@ -2090,7 +2090,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Curtis",
@@ -2108,7 +2108,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ricky Ledee",
@@ -2126,7 +2126,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shane Spencer",
@@ -2144,7 +2144,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Tony Tarasco",
@@ -2162,7 +2162,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Curtis",
@@ -2180,7 +2180,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ricky Ledee",
@@ -2198,7 +2198,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Bernie Williams",
@@ -2216,7 +2216,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Chad Curtis",
@@ -2234,7 +2234,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ricky Ledee",
@@ -2252,7 +2252,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Paul O'Neill",
@@ -2270,7 +2270,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shane Spencer",
@@ -2288,7 +2288,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Tony Tarasco",
@@ -2306,7 +2306,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     }
   ]
 }

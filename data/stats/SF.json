@@ -27,7 +27,7 @@
       "SLG": 0.42857142857142855,
       "OPS": 0.8035714285714286,
       "TB": 3,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "J.T. Snow",
@@ -56,7 +56,7 @@
       "SLG": 0.5714285714285714,
       "OPS": 1.0714285714285714,
       "TB": 8,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Jeff Kent",
@@ -85,7 +85,7 @@
       "SLG": 0.38461538461538464,
       "OPS": 0.5989010989010989,
       "TB": 5,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Bill Mueller",
@@ -114,7 +114,7 @@
       "SLG": 0.5,
       "OPS": 0.9,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Rich Aurilia",
@@ -143,7 +143,7 @@
       "SLG": 0.2,
       "OPS": 0.5076923076923077,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Barry Bonds",
@@ -172,7 +172,7 @@
       "SLG": 0.7142857142857143,
       "OPS": 1.3571428571428572,
       "TB": 5,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Marvin Benard",
@@ -201,7 +201,7 @@
       "SLG": 0.6666666666666666,
       "OPS": 1.121212121212121,
       "TB": 6,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Ellis Burks",
@@ -230,7 +230,7 @@
       "SLG": 0.125,
       "OPS": 0.425,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Stan Javier",
@@ -259,7 +259,7 @@
       "SLG": 0.0,
       "OPS": 0.16666666666666666,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Charlie Hayes",
@@ -288,7 +288,7 @@
       "SLG": 0.16666666666666666,
       "OPS": 0.5666666666666667,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -317,7 +317,7 @@
       "SLG": 0.4,
       "OPS": 0.8,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Scott Servais",
@@ -346,7 +346,7 @@
       "SLG": 0.3333333333333333,
       "OPS": 0.8333333333333333,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Armando Rios",
@@ -375,7 +375,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Ramon Martinez",
@@ -404,7 +404,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Doug Mirabelli",
@@ -433,7 +433,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Wilson Delgado",
@@ -462,7 +462,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Calvin Murray",
@@ -491,7 +491,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Jay Canizaro",
@@ -520,7 +520,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Edwards Guzman",
@@ -549,7 +549,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Russ Ortiz",
@@ -578,7 +578,7 @@
       "SLG": 1.0,
       "OPS": 1.5,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Shawn Estes",
@@ -607,7 +607,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Kirk Rueter",
@@ -636,7 +636,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Mark Gardner",
@@ -665,7 +665,7 @@
       "SLG": 0.6666666666666666,
       "OPS": 1.0,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Chris Brock",
@@ -694,7 +694,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Joe Nathan",
@@ -723,7 +723,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Livan Hernandez",
@@ -752,7 +752,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Felix Rodriguez",
@@ -781,7 +781,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Julian Tavarez",
@@ -810,7 +810,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Miguel Del Toro",
@@ -839,7 +839,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Jerry Spradlin",
@@ -868,7 +868,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Rich Rodriguez",
@@ -897,7 +897,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     }
   ],
   "pitching": [
@@ -1383,7 +1383,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Miguel Del Toro",
@@ -1401,7 +1401,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Alan Embree",
@@ -1419,7 +1419,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawn Estes",
@@ -1437,7 +1437,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Gardner",
@@ -1455,7 +1455,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Livan Hernandez",
@@ -1473,7 +1473,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "John Johnstone",
@@ -1491,7 +1491,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe Nathan",
@@ -1509,7 +1509,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Robb Nen",
@@ -1527,7 +1527,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Russ Ortiz",
@@ -1545,7 +1545,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Bronswell Patrick",
@@ -1563,7 +1563,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Felix Rodriguez",
@@ -1581,7 +1581,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rich Rodriguez",
@@ -1599,7 +1599,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kirk Rueter",
@@ -1617,7 +1617,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jerry Spradlin",
@@ -1635,7 +1635,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Julian Tavarez",
@@ -1653,7 +1653,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Edwards Guzman",
@@ -1743,7 +1743,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Kent",
@@ -1761,7 +1761,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Servais",
@@ -1779,7 +1779,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "J.T. Snow",
@@ -1797,7 +1797,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jay Canizaro",
@@ -1815,7 +1815,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Wilson Delgado",
@@ -1833,7 +1833,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jeff Kent",
@@ -1851,7 +1851,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ramon Martinez",
@@ -1869,7 +1869,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Bill Mueller",
@@ -1887,7 +1887,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -1905,7 +1905,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Edwards Guzman",
@@ -1923,7 +1923,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Charlie Hayes",
@@ -1941,7 +1941,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ramon Martinez",
@@ -1959,7 +1959,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Bill Mueller",
@@ -1977,7 +1977,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -1995,7 +1995,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rich Aurilia",
@@ -2013,7 +2013,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Wilson Delgado",
@@ -2031,7 +2031,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ramon Martinez",
@@ -2049,7 +2049,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -2067,7 +2067,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Marvin Benard",
@@ -2085,7 +2085,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Barry Bonds",
@@ -2103,7 +2103,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Charlie Hayes",
@@ -2121,7 +2121,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Stan Javier",
@@ -2139,7 +2139,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Calvin Murray",
@@ -2157,7 +2157,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Armando Rios",
@@ -2175,7 +2175,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -2193,7 +2193,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Marvin Benard",
@@ -2211,7 +2211,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Stan Javier",
@@ -2229,7 +2229,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Calvin Murray",
@@ -2247,7 +2247,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Armando Rios",
@@ -2265,7 +2265,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -2283,7 +2283,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Marvin Benard",
@@ -2301,7 +2301,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ellis Burks",
@@ -2319,7 +2319,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Stan Javier",
@@ -2337,7 +2337,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Armando Rios",
@@ -2355,7 +2355,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "F.P. Santangelo",
@@ -2373,7 +2373,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0,
-      "CS%": NaN
+      "CS%": null
     }
   ]
 }

@@ -27,7 +27,7 @@
       "SLG": 0.5,
       "OPS": 0.7,
       "TB": 5,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Mark McGwire",
@@ -56,7 +56,7 @@
       "SLG": 0.9,
       "OPS": 1.3285714285714285,
       "TB": 9,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Joe McEwing",
@@ -85,7 +85,7 @@
       "SLG": 0.25,
       "OPS": 0.65,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Fernando Tatis",
@@ -114,7 +114,7 @@
       "SLG": 0.9230769230769231,
       "OPS": 1.208791208791209,
       "TB": 12,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Edgar Renteria",
@@ -143,7 +143,7 @@
       "SLG": 0.375,
       "OPS": 0.8295454545454546,
       "TB": 3,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Ray Lankford",
@@ -172,7 +172,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "J.D. Drew",
@@ -201,7 +201,7 @@
       "SLG": 0.125,
       "OPS": 0.425,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Eric Davis",
@@ -230,7 +230,7 @@
       "SLG": 0.45454545454545453,
       "OPS": 0.9545454545454546,
       "TB": 5,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Darren Bragg",
@@ -259,7 +259,7 @@
       "SLG": 0.875,
       "OPS": 1.3194444444444444,
       "TB": 7,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Willie McGee",
@@ -288,7 +288,7 @@
       "SLG": 0.16666666666666666,
       "OPS": 0.3333333333333333,
       "TB": 1,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Alberto Castillo",
@@ -317,7 +317,7 @@
       "SLG": 0.3333333333333333,
       "OPS": 0.6666666666666666,
       "TB": 2,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Placido Polanco",
@@ -346,7 +346,7 @@
       "SLG": 0.4444444444444444,
       "OPS": 0.9444444444444444,
       "TB": 4,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Thomas Howard",
@@ -375,7 +375,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Craig Paquette",
@@ -404,7 +404,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Shawon Dunston",
@@ -433,7 +433,7 @@
       "SLG": 0.4,
       "OPS": 0.8545454545454545,
       "TB": 4,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Adam Kennedy",
@@ -462,7 +462,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "David Howard",
@@ -491,7 +491,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Marcus Jensen",
@@ -520,7 +520,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Eduardo Perez",
@@ -549,7 +549,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Luis Ordaz",
@@ -578,7 +578,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Darren Oliver",
@@ -607,7 +607,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Kent Bottenfield",
@@ -636,7 +636,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Jose Jimenez",
@@ -665,7 +665,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Kent Mercker",
@@ -694,7 +694,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Garrett Stephenson",
@@ -723,7 +723,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Juan Acevedo",
@@ -752,7 +752,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Larry Luebbers",
@@ -781,7 +781,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Manny Aybar",
@@ -810,7 +810,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Rick Ankiel",
@@ -839,7 +839,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Donovan Osborne",
@@ -868,7 +868,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Mark Thompson",
@@ -897,7 +897,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Lance Painter",
@@ -926,7 +926,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Ricky Bottalico",
@@ -955,7 +955,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Rich Croushore",
@@ -984,7 +984,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Mike Mohler",
@@ -1013,7 +1013,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Clint Sodowsky",
@@ -1042,7 +1042,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     },
     {
       "Player": "Rick Heiserman",
@@ -1071,7 +1071,7 @@
       "SLG": 0.0,
       "OPS": 0.0,
       "TB": 0,
-      "C Hits": NaN
+      "C Hits": null
     }
   ],
   "pitching": [
@@ -1731,7 +1731,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rick Ankiel",
@@ -1749,7 +1749,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Manny Aybar",
@@ -1767,7 +1767,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Alan Benes",
@@ -1785,7 +1785,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ricky Bottalico",
@@ -1803,7 +1803,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kent Bottenfield",
@@ -1821,7 +1821,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Busby",
@@ -1839,7 +1839,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rich Croushore",
@@ -1857,7 +1857,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Rick Heiserman",
@@ -1875,7 +1875,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Jose Jimenez",
@@ -1893,7 +1893,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Curtis King",
@@ -1911,7 +1911,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Larry Luebbers",
@@ -1929,7 +1929,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Kent Mercker",
@@ -1947,7 +1947,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mike Mohler",
@@ -1965,7 +1965,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Darren Oliver",
@@ -1983,7 +1983,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Donovan Osborne",
@@ -2001,7 +2001,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Lance Painter",
@@ -2019,7 +2019,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Scott Radinsky",
@@ -2037,7 +2037,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Heathcliff Slocumb",
@@ -2055,7 +2055,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Clint Sodowsky",
@@ -2073,7 +2073,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Garrett Stephenson",
@@ -2091,7 +2091,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark Thompson",
@@ -2109,7 +2109,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Alberto Castillo",
@@ -2181,7 +2181,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2199,7 +2199,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Eli Marrero",
@@ -2217,7 +2217,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2235,7 +2235,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Willie McGee",
@@ -2253,7 +2253,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Mark McGwire",
@@ -2271,7 +2271,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Craig Paquette",
@@ -2289,7 +2289,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Eduardo Perez",
@@ -2307,7 +2307,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2325,7 +2325,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Adam Kennedy",
@@ -2343,7 +2343,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2361,7 +2361,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Ordaz",
@@ -2379,7 +2379,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Craig Paquette",
@@ -2397,7 +2397,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Placido Polanco",
@@ -2415,7 +2415,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawon Dunston",
@@ -2433,7 +2433,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2451,7 +2451,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2469,7 +2469,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Ordaz",
@@ -2487,7 +2487,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Craig Paquette",
@@ -2505,7 +2505,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Placido Polanco",
@@ -2523,7 +2523,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Fernando Tatis",
@@ -2541,7 +2541,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawon Dunston",
@@ -2559,7 +2559,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2577,7 +2577,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2595,7 +2595,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Luis Ordaz",
@@ -2613,7 +2613,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Placido Polanco",
@@ -2631,7 +2631,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Edgar Renteria",
@@ -2649,7 +2649,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Darren Bragg",
@@ -2667,7 +2667,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.5,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "J.D. Drew",
@@ -2685,7 +2685,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawon Dunston",
@@ -2703,7 +2703,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2721,7 +2721,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Thomas Howard",
@@ -2739,7 +2739,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ray Lankford",
@@ -2757,7 +2757,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2775,7 +2775,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Willie McGee",
@@ -2793,7 +2793,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Craig Paquette",
@@ -2811,7 +2811,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Eduardo Perez",
@@ -2829,7 +2829,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Darren Bragg",
@@ -2847,7 +2847,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Eric Davis",
@@ -2865,7 +2865,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "J.D. Drew",
@@ -2883,7 +2883,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.8571428571428571,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawon Dunston",
@@ -2901,7 +2901,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -2919,7 +2919,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Ray Lankford",
@@ -2937,7 +2937,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -2955,7 +2955,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Willie McGee",
@@ -2973,7 +2973,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Darren Bragg",
@@ -2991,7 +2991,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Eric Davis",
@@ -3009,7 +3009,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 1.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Shawon Dunston",
@@ -3027,7 +3027,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "David Howard",
@@ -3045,7 +3045,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Thomas Howard",
@@ -3063,7 +3063,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Joe McEwing",
@@ -3081,7 +3081,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Willie McGee",
@@ -3099,7 +3099,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     },
     {
       "Player": "Craig Paquette",
@@ -3117,7 +3117,7 @@
       "CS": 0,
       "PkO": 0,
       "PCT": 0.0,
-      "CS%": NaN
+      "CS%": null
     }
   ]
 }
