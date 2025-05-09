@@ -1,4 +1,3 @@
-// components/Layout.js
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -19,29 +18,23 @@ export default function Layout({ children }) {
     <div className="min-h-screen bg-white text-black">
       <header className="bg-gray-900 text-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center">
-          <Link href="/" passHref>
-            <a className="mr-6">
-              <img src="/logos/league.png" alt="Logo" className="h-10 w-auto" />
-            </a>
+          <Link href="/" className="mr-6">
+            <img src="/logos/league.png" alt="Logo" className="h-10 w-auto" />
           </Link>
           <nav className="flex space-x-4">
-            {navItems.map(item => (
-              <Link key={item.path} href={item.path} passHref>
-                <a
-                  className={`text-lg font-medium ${
-                    router.pathname.startsWith(item.path)
-                      ? 'text-yellow-400 underline'
-                      : 'text-white hover:text-yellow-300'
-                  }`}
-                >
-                  {item.name}
-                </a>
+            {navItems.map((item) => (
+              <Link
+                key={item.path}
+                href={item.path}
+                className={`${router.pathname.startsWith(item.path) ? 'text-yellow-400 font-semibold' : 'text-white hover:text-yellow-300'} px-2`}
+              >
+                {item.name}
               </Link>
             ))}
           </nav>
         </div>
       </header>
-      <main className="max-w-7xl mx-auto px-4 py-6">{children}</main>
+      <main className="p-4 max-w-7xl mx-auto">{children}</main>
     </div>
   )
 }
