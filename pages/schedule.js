@@ -1,39 +1,79 @@
+import fs from 'fs'
+import path from 'path'
+import teams from '../data/teams.json'
 
-import games from '../data/games.json';
-import Link from 'next/link';
+export async function getStaticProps() {
+  const schedulePath = path.join(process.cwd(), 'data', 'schedule.json')
+  const raw = fs.readFileSync(schedulePath, 'utf8')
+  const schedule = JSON.parse(raw)
 
-export default function SchedulePage() {
+  return {
+    props: { schedule }
+  }
+}
+
+const teamName = (abbr) => {
+  const t = teams.find(t => t.id === abbr)
+  return t?.name || abbr
+}
+
+const formatScore = (game) => {
+  return `${game.road_score}–${game.home_score}`
+}
+
+const SchedulePage = ({ schedule }) => {
+  const grouped = schedule.reduce((acc, g) => {
+    if (!acc[g.date]) acc[g.date] = []
+    acc[g.date].push(g)
+    return acc
+  }, {})
+
+  const sortedDates = Object.keys(grouped).sort()
+
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">1999 Schedule</h1>
-      <table className="w-full text-sm border">
-        <thead className="bg-gray-100">
-          <tr>
-            <th className="text-left p-2">Date</th>
-            <th className="text-left p-2">Away</th>
-            <th className="text-left p-2">Home</th>
-            <th className="text-left p-2">Result</th>
-            <th className="text-left p-2">Boxscore</th>
-          </tr>
-        </thead>
-        <tbody>
-          {games.map(game => (
-            <tr key={game.id} className="border-t">
-              <td className="p-2">{game.date}</td>
-              <td className="p-2">{game.away}</td>
-              <td className="p-2">{game.home}</td>
-              <td className="p-2">{game.result}</td>
-              <td className="p-2">
-                {game.boxscoreId ? (
-                  <Link href={`/boxscores/${game.boxscoreId}`} className="text-blue-600 hover:underline">View</Link>
-                ) : (
-                  <span className="text-gray-400">—</span>
-                )}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <h1 className="text-2xl font-bold mb-6">1999 Season Schedule</h1>
+      {sortedDates.map(date => (
+        <div key={date} className="mb-6">
+          <h2 className="text-lg font-semibold mb-2">{date}</h2>
+          <table className="w-full border-collapse text-sm mb-2">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="border p-2 text-left">Road</th>
+                <th className="border p-2 text-left">Home</th>
+                <th className="border p-2 text-center">Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              {grouped[date].map((g, i) => (
+                <tr key={i} className="border-t">
+                  <td className="border p-2">
+                    <a href={`/teams/${g.road}`} className="text-blue-600 hover:underline">
+                      {teamName(g.road)}
+                    </a>
+                  </td>
+                  <td className="border p-2">
+                    <a href={`/teams/${g.home}`} className="text-blue-600 hover:underline">
+                      {teamName(g.home)}
+                    </a>
+                  </td>
+                  <td className="border p-2 text-center">
+                    {g.played ? (
+                      <a href={`/boxscores/${g.game_id}`} className="text-green-600 hover:underline">
+                        {formatScore(g)}
+                      </a>
+                    ) : (
+                      <span className="text-gray-500 italic">Scheduled</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
     </div>
-  );
+  )
 }
+
+export default SchedulePage
