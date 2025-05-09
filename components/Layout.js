@@ -22,7 +22,7 @@ export default function Layout({ children }) {
             <img src="/logos/league.png" alt="Logo" className="h-10 w-auto" />
           </Link>
           <nav className="flex space-x-4">
-            {navItems.map(item => (
+            {navItems.map((item) => (
               <Link
                 key={item.path}
                 href={item.path}
@@ -34,9 +34,7 @@ export default function Layout({ children }) {
           </nav>
         </div>
       </header>
-      <main className="p-4 max-w-7xl mx-auto">
-        {children}
-      </main>
+      <main className="p-4 max-w-7xl mx-auto">{children}</main>
     </div>
   )
 }
