@@ -49,3 +49,37 @@ export default function Home({ games, players, teams }) {
     </div>
   )
 }
+
+function calculateStandings(teams, games) {
+  const standings = Object.fromEntries(teams.map(t => [t.id, { ...t, w: 0, l: 0 }]));
+
+  for (const game of games) {
+    const { home, away, home_score, away_score } = game;
+
+    if (!(home in standings) || !(away in standings)) continue;
+
+    if (home_score > away_score) {
+      standings[home].w += 1;
+      standings[away].l += 1;
+    } else {
+      standings[away].w += 1;
+      standings[home].l += 1;
+    }
+  }
+
+  const sorted = Object.values(standings)
+    .map(t => ({
+      ...t,
+      gb: 0 // to be calculated next
+    }))
+    .sort((a, b) => b.w - a.w || a.l - b.l);
+
+  const topWins = sorted[0]?.w || 0;
+  const topLosses = sorted[0]?.l || 0;
+
+  for (const team of sorted) {
+    team.gb = ((topWins - team.w) + (team.l - topLosses)) / 2;
+  }
+
+  return sorted;
+}
