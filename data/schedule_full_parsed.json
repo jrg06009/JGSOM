@@ -1,0 +1,272 @@
+[
+  {
+    "date": "1999-04-04",
+    "played": true,
+    "home": "SD",
+    "road": "COL",
+    "home_score": 5.0,
+    "road_score": 2.0,
+    "game_id": "19990404_COL@SD"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "KC",
+    "road": "BOS",
+    "home_score": 2.0,
+    "road_score": 5.0,
+    "game_id": "19990405_BOS@KC"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "SEA",
+    "road": "CHW",
+    "home_score": 4.0,
+    "road_score": 17.0,
+    "game_id": "19990405_CHW@SEA"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "TEX",
+    "road": "DET",
+    "home_score": 6.0,
+    "road_score": 1.0,
+    "game_id": "19990405_DET@TEX"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "OAK",
+    "road": "NYY",
+    "home_score": 1.0,
+    "road_score": 5.0,
+    "game_id": "19990405_NYY@OAK"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "BAL",
+    "road": "TB",
+    "home_score": 5.0,
+    "road_score": 9.0,
+    "game_id": "19990405_TB@BAL"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "PIT",
+    "road": "MON",
+    "home_score": 10.0,
+    "road_score": 9.0,
+    "game_id": "19990405_MON@PIT"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "CIN",
+    "road": "SF",
+    "home_score": 1.0,
+    "road_score": 5.0,
+    "game_id": "19990405_SF@CIN"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "LA",
+    "road": "ARI",
+    "home_score": 0.0,
+    "road_score": 7.0,
+    "game_id": "19990405_ARI@LA"
+  },
+  {
+    "date": "1999-04-05",
+    "played": true,
+    "home": "STL",
+    "road": "MIL",
+    "home_score": 12.0,
+    "road_score": 0.0,
+    "game_id": "19990405_MIL@STL"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "SEA",
+    "road": "CHW",
+    "home_score": 9.0,
+    "road_score": 2.0,
+    "game_id": "19990406_CHW@SEA"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "TEX",
+    "road": "DET",
+    "home_score": 11.0,
+    "road_score": 6.0,
+    "game_id": "19990406_DET@TEX"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "OAK",
+    "road": "NYY",
+    "home_score": 3.0,
+    "road_score": 1.0,
+    "game_id": "19990406_NYY@OAK"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "PIT",
+    "road": "MON",
+    "home_score": 5.0,
+    "road_score": 3.0,
+    "game_id": "19990406_MON@PIT"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "CIN",
+    "road": "SF",
+    "home_score": 1.0,
+    "road_score": 9.0,
+    "game_id": "19990406_SF@CIN"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "LA",
+    "road": "ARI",
+    "home_score": 4.0,
+    "road_score": 3.0,
+    "game_id": "19990406_ARI@LA"
+  },
+  {
+    "date": "1999-04-06",
+    "played": true,
+    "home": "SD",
+    "road": "COL",
+    "home_score": 2.0,
+    "road_score": 4.0,
+    "game_id": "19990406_COL@SD"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "KC",
+    "road": "BOS",
+    "home_score": 4.0,
+    "road_score": 3.0,
+    "game_id": "19990407_BOS@KC"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "SEA",
+    "road": "CHW",
+    "home_score": 7.0,
+    "road_score": 2.0,
+    "game_id": "19990407_CHW@SEA"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "TEX",
+    "road": "DET",
+    "home_score": 17.0,
+    "road_score": 7.0,
+    "game_id": "19990407_DET@TEX"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "OAK",
+    "road": "NYY",
+    "home_score": 9.0,
+    "road_score": 10.0,
+    "game_id": "19990407_NYY@OAK"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "BAL",
+    "road": "TB",
+    "home_score": 5.0,
+    "road_score": 4.0,
+    "game_id": "19990407_TB@BAL"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "PIT",
+    "road": "MON",
+    "home_score": 5.0,
+    "road_score": 4.0,
+    "game_id": "19990407_MON@PIT"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "CIN",
+    "road": "SF",
+    "home_score": 1.0,
+    "road_score": 6.0,
+    "game_id": "19990407_SF@CIN"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "LA",
+    "road": "ARI",
+    "home_score": 9.0,
+    "road_score": 4.0,
+    "game_id": "19990407_ARI@LA"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "SD",
+    "road": "COL",
+    "home_score": 2.0,
+    "road_score": 8.0,
+    "game_id": "19990407_COL@SD"
+  },
+  {
+    "date": "1999-04-07",
+    "played": true,
+    "home": "STL",
+    "road": "MIL",
+    "home_score": 6.0,
+    "road_score": 5.0,
+    "game_id": "19990407_MIL@STL"
+  },
+  {
+    "date": "1999-04-08",
+    "played": true,
+    "home": "KC",
+    "road": "BOS",
+    "home_score": 3.0,
+    "road_score": 7.0,
+    "game_id": "19990408_BOS@KC"
+  },
+  {
+    "date": "1999-04-08",
+    "played": true,
+    "home": "BAL",
+    "road": "TB",
+    "home_score": 4.0,
+    "road_score": 0.0,
+    "game_id": "19990408_TB@BAL"
+  },
+  {
+    "date": "1999-04-08",
+    "played": true,
+    "home": "STL",
+    "road": "MIL",
+    "home_score": 4.0,
+    "road_score": 5.0,
+    "game_id": "19990408_MIL@STL"
+  }
+]
