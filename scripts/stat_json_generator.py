@@ -43,6 +43,12 @@ def clean_and_format(rows, rules, drop_fields=[], ip_field=None, min_games_field
         if min_games_field and str(row.get(min_games_field, "0")) in ("0", "", "0.0"):
             continue
         new_row = {}
+        pid = row.get("player ID") or row.get("player ID.1")
+        name = row.get("Players") or row.get("Players.1")
+        if pid and name:
+            new_row["id"] = pid
+            new_row["name"] = name
+            new_row["link"] = f"/players/{pid}"
         for k, v in row.items():
             if k.upper() in (df.upper() for df in drop_fields):
                 continue
@@ -70,6 +76,8 @@ def generate_stats_from_excel(excel_path, output_folder):
 
     os.makedirs(output_folder, exist_ok=True)
 
+    all_players = {}
+
     for team_id in team_ids:
         team_data = {}
 
@@ -80,11 +88,11 @@ def generate_stats_from_excel(excel_path, output_folder):
                 df = df.dropna(how="all")
                 records = df.to_dict(orient="records")
                 if stat_type == "batting":
-                    team_data[stat_type] = clean_and_format(records, {
+                    stats = clean_and_format(records, {
                         "AVG": ".3f", "OBP": ".3f", "SLG": ".3f", "OPS": ".3f"
                     }, drop_fields=["P/S", "MAX"], min_games_field="G")
                 elif stat_type == "pitching":
-                    team_data[stat_type] = clean_and_format(records, {
+                    stats = clean_and_format(records, {
                         "ERA": ".2f", "WHIP": ".2f", "H9": ".1f", "HR9": ".1f",
                         "BB9": ".1f", "SO9": ".1f", "SO/BB": ".1f"
                     }, drop_fields=["P/S", "MAX"], ip_field="IP", min_games_field="G")
@@ -92,12 +100,25 @@ def generate_stats_from_excel(excel_path, output_folder):
                     filtered = clean_and_format(records, {
                         "PCT": ".3f", "CS%": "percent0"
                     }, drop_fields=["P/S", "MAX"], ip_field="INN", min_games_field="G")
-                    team_data[stat_type] = [filter_fielding_by_position(p) for p in filtered]
+                    stats = [filter_fielding_by_position(p) for p in filtered]
+                team_data[stat_type] = stats
+
+                # Store for master player file
+                for player in stats:
+                    pid = player.get("id")
+                    if pid:
+                        all_players.setdefault(pid, {})
+                        all_players[pid].update(player)
             except Exception as e:
                 team_data[stat_type] = f"Error: {str(e)}"
 
         with open(os.path.join(output_folder, f"{team_id}.json"), "w") as f:
             json.dump(team_data, f, indent=2)
+
+    with open(os.path.join(output_folder, "players_combined.json"), "w") as f:
+        json.dump(list(all_players.values()), f, indent=2)
+
+    print("players_combined.json created.")
 
     # Generate standings.json
     print("Generating standings.json...")
@@ -147,8 +168,7 @@ def generate_stats_from_excel(excel_path, output_folder):
     for league in ["AL", "NL"]:
         for division in ["East", "Central", "West"]:
             subset = records_df[
-                (records_df["league"] == league) &
-                (records_df["division"] == division)
+                (records_df["league"] == league) & (records_df["division"] == division)
             ]
             sorted_div = subset.sort_values(by=["pct", "W"], ascending=[False, False])
             top_wins = sorted_div.iloc[0]["W"] if not sorted_div.empty else 0
