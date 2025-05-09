@@ -5,39 +5,54 @@ export default function StandingsTable({ games, teams }) {
 
   const standings = calculateStandingsByDivision(games, teams)
 
-  return (
-    <div>
-      {Object.entries(standings).map(([group, teams]) => (
-        <div key={group} className="my-6">
-          <h3 className="text-lg font-semibold mb-2">{group}</h3>
-          <table className="w-full border border-gray-400">
-            <thead>
-              <tr>
-                <th className="border border-gray-400 p-2">Team</th>
-                <th className="border border-gray-400 p-2">W</th>
-                <th className="border border-gray-400 p-2">L</th>
-                <th className="border border-gray-400 p-2">PCT</th>
-                <th className="border border-gray-400 p-2">GB</th>
-              </tr>
-            </thead>
-            <tbody>
-              {teams.map(team => (
-                <tr key={team.id}>
-                  <td className="border border-gray-400 p-2 text-blue-700">
-                    <Link href={`/teams/${team.id}`}>{team.name}</Link>
-                  </td>
-                  <td className="border border-gray-400 p-2 text-center">{team.W}</td>
-                  <td className="border border-gray-400 p-2 text-center">{team.L}</td>
-                  <td className="border border-gray-400 p-2 text-center">
-                    {team.pct === '1.000' ? '1.000' : team.pct.replace(/^0/, '')}
-                  </td>
-                  <td className="border border-gray-400 p-2 text-center">{team.GB}</td>
+  const orderedDivisions = ['East', 'Central', 'West']
+  const renderLeague = league => (
+    <div className="w-full md:w-1/2 px-2">
+      <h2 className="text-xl font-bold mb-2">{league}</h2>
+      {orderedDivisions.map(division => {
+        const groupKey = `${league} - ${division}`
+        const divisionTeams = standings[groupKey]
+        if (!divisionTeams) return null
+
+        return (
+          <div key={groupKey} className="mb-6 border rounded-md overflow-hidden">
+            <h3 className="text-lg font-semibold bg-gray-100 p-2 border-b">{division} Division</h3>
+            <table className="w-full border border-collapse border-gray-400">
+              <thead>
+                <tr>
+                  <th className="border border-gray-400 p-2">Team</th>
+                  <th className="border border-gray-400 p-2">W</th>
+                  <th className="border border-gray-400 p-2">L</th>
+                  <th className="border border-gray-400 p-2">PCT</th>
+                  <th className="border border-gray-400 p-2">GB</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      ))}
+              </thead>
+              <tbody>
+                {divisionTeams.map(team => (
+                  <tr key={team.id}>
+                    <td className="border border-gray-400 p-2 text-blue-700">
+                      <Link href={`/teams/${team.id}`}>{team.name}</Link>
+                    </td>
+                    <td className="border border-gray-400 p-2 text-center">{team.W}</td>
+                    <td className="border border-gray-400 p-2 text-center">{team.L}</td>
+                    <td className="border border-gray-400 p-2 text-center">
+                      {team.pct === '1.000' ? '1.000' : team.pct.replace(/^0/, '')}
+                    </td>
+                    <td className="border border-gray-400 p-2 text-center">{team.GB}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )
+      })}
+    </div>
+  )
+
+  return (
+    <div className="flex flex-col md:flex-row gap-4">
+      {renderLeague('AL')}
+      {renderLeague('NL')}
     </div>
   )
 }
@@ -78,7 +93,7 @@ function calculateStandingsByDivision(games, teams) {
     division.forEach(team => {
       const totalGames = team.W + team.L
       team.pct = totalGames === 0 ? '.000' : (team.W / totalGames).toFixed(3)
-      if (team.pct === '1.000') team.pct = '1.000' // Explicit full value
+      if (team.pct === '1.000') team.pct = '1.000'
       team.GB = (((leader.W - team.W) + (team.L - leader.L)) / 2).toFixed(1)
       if (team.GB === '0.0') team.GB = '-'
     })
