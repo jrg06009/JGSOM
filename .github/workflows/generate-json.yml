@@ -32,3 +32,5 @@ jobs:
           git add data/standings.json
           git commit -m "Auto-update stats and standings from Excel"
           git push
+      - name: Trigger Vercel Deployment
+        run: curl -X POST 'https://api.vercel.com/v1/integrations/deploy/prj_KVc1MRftUPAE4iQBGP6jSryRPfcz/IePnWdQdej'
