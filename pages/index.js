@@ -34,6 +34,14 @@ export default function Home({ games, players, teams }) {
       </ul>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Teams</h2>
+
+          import StandingsTable from '../components/StandingsTable'
+
+...
+
+<h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
+<StandingsTable games={games} teams={teams} />
+
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
         {teams && teams.map((team, idx) => (
           <li key={idx} className="border rounded p-2 bg-white shadow hover:shadow-md transition">
