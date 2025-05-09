@@ -29,5 +29,6 @@ jobs:
           git config --global user.name 'auto-updater'
           git config --global user.email 'auto@updater.com'
           git add data/stats/*.json
-          git commit -m "Auto-update stats from Excel"
+          git add data/standings.json
+          git commit -m "Auto-update stats and standings from Excel"
           git push
