@@ -14,7 +14,7 @@ export async function getStaticProps() {
 
 const teamName = (abbr) => {
   const t = teams.find(t => t.id === abbr)
-  return t?.name || abbr
+  return t?.name || abbr || 'TBD'
 }
 
 const formatScore = (game) => {
@@ -23,6 +23,7 @@ const formatScore = (game) => {
 
 const SchedulePage = ({ schedule }) => {
   const grouped = schedule.reduce((acc, g) => {
+    if (!g.date) return acc
     if (!acc[g.date]) acc[g.date] = []
     acc[g.date].push(g)
     return acc
@@ -48,20 +49,26 @@ const SchedulePage = ({ schedule }) => {
               {grouped[date].map((g, i) => (
                 <tr key={i} className="border-t">
                   <td className="border p-2">
-                    <a href={`/teams/${g.road}`} className="text-blue-600 hover:underline">
-                      {teamName(g.road)}
-                    </a>
+                    {g.road ? (
+                      <a href={`/teams/${g.road}`} className="text-blue-600 hover:underline">
+                        {teamName(g.road)}
+                      </a>
+                    ) : "TBD"}
                   </td>
                   <td className="border p-2">
-                    <a href={`/teams/${g.home}`} className="text-blue-600 hover:underline">
-                      {teamName(g.home)}
-                    </a>
+                    {g.home ? (
+                      <a href={`/teams/${g.home}`} className="text-blue-600 hover:underline">
+                        {teamName(g.home)}
+                      </a>
+                    ) : "TBD"}
                   </td>
                   <td className="border p-2 text-center">
                     {g.played ? (
-                      <a href={`/boxscores/${g.game_id}`} className="text-green-600 hover:underline">
-                        {formatScore(g)}
-                      </a>
+                      g.game_id ? (
+                        <a href={`/boxscores/${g.game_id}`} className="text-green-600 hover:underline">
+                          {formatScore(g)}
+                        </a>
+                      ) : formatScore(g)
                     ) : (
                       <span className="text-gray-500 italic">Scheduled</span>
                     )}
