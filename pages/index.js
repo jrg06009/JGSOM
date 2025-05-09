@@ -1,7 +1,7 @@
-
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
+import StandingsTable from '../components/StandingsTable'
 
 export async function getStaticProps() {
   const games = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'games.json'), 'utf8'))
@@ -33,15 +33,10 @@ export default function Home({ games, players, teams }) {
         ))}
       </ul>
 
+      <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
+      <StandingsTable games={games} teams={teams} />
+
       <h2 className="text-xl font-semibold mt-6 mb-2">Teams</h2>
-
-          import StandingsTable from '../components/StandingsTable'
-
-...
-
-<h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-<StandingsTable games={games} teams={teams} />
-
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
         {teams && teams.map((team, idx) => (
           <li key={idx} className="border rounded p-2 bg-white shadow hover:shadow-md transition">
@@ -51,10 +46,6 @@ export default function Home({ games, players, teams }) {
           </li>
         ))}
       </ul>
-
-      <h2 className="text-xl font-semibold mt-6 mb-2">Player Count</h2>
-      <p>{players?.length || 0} players loaded.</p>
     </div>
   )
 }
-
