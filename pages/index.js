@@ -20,7 +20,7 @@ export async function getStaticProps() {
 export default function Home({ games, players, teams }) {
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Welcome to the 1999 Strat-O-Matic Season Replay</h1>
+      <h1 className="text-2xl font-bold mb-4">Welcome to the 1999 Strat-O-Matic Season</h1>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Recent Games</h2>
       <ul className="mb-6">
