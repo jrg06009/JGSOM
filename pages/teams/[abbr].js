@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { useState } from 'react'
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join(process.cwd(), 'data/stats'))
@@ -25,42 +26,67 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default function TeamPage({ abbr, stats, team }) {
-  const renderTable = (title, data) => {
-    if (!data || data.length === 0) return null
-    const columns = Object.keys(data[0])
+function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
+  const [sortKey, setSortKey] = useState(defaultSortKey)
+  const [sortAsc, setSortAsc] = useState(false)
 
-    return (
-      <div className="mb-10">
-        <h2 className="text-xl font-bold mb-2">{title}</h2>
-        <div className="overflow-auto border border-gray-400 rounded">
-          <table className="table-auto border-collapse w-full text-sm">
-            <thead>
-              <tr>
-                {columns.map(col => (
-                  <th key={col} className="border border-gray-400 p-2 bg-gray-100 text-left">
-                    {col}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {data.map((row, i) => (
-                <tr key={i}>
-                  {columns.map(col => (
-                    <td key={col} className="border border-gray-300 p-2 text-center">
-                      {row[col]}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    )
+  if (!data || data.length === 0) return null
+
+  const headers = Object.keys(data[0])
+  const sorted = [...data].sort((a, b) => {
+    const valA = a[sortKey]
+    const valB = b[sortKey]
+    if (numericSort && !isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
+      return sortAsc ? parseFloat(valA) - parseFloat(valB) : parseFloat(valB) - parseFloat(valA)
+    }
+    return sortAsc ? String(valA).localeCompare(String(valB)) : String(valB).localeCompare(String(valA))
+  })
+
+  const handleSort = (key) => {
+    if (key === sortKey) {
+      setSortAsc(!sortAsc)
+    } else {
+      setSortKey(key)
+      setSortAsc(false)
+    }
   }
 
+  return (
+    <div className="mb-10">
+      <h2 className="text-xl font-bold mb-2">{title}</h2>
+      <div className="overflow-auto border border-gray-400 rounded">
+        <table className="table-auto border-collapse w-full text-sm">
+          <thead>
+            <tr>
+              {headers.map((key) => (
+                <th
+                  key={key}
+                  onClick={() => handleSort(key)}
+                  className="cursor-pointer border border-gray-400 p-2 bg-gray-100 hover:bg-gray-200 text-left"
+                >
+                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((row, idx) => (
+              <tr key={idx}>
+                {headers.map((key) => (
+                  <td key={key} className="border border-gray-300 p-2 text-center">
+                    {row[key]}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
+export default function TeamPage({ abbr, stats, team }) {
   return (
     <div className="p-4">
       {team ? (
@@ -71,16 +97,14 @@ export default function TeamPage({ abbr, stats, team }) {
               alt={`${team.name} logo`}
               className="h-12 w-12 mr-4"
             />
-            <h1
-              className="text-3xl font-bold"
-              style={{ color: team.color || '#000' }}
-            >
+            <h1 className="text-3xl font-bold" style={{ color: team.color || '#000' }}>
               {team.name}
             </h1>
           </div>
-          {renderTable('Batting', stats.batting)}
-          {renderTable('Pitching', stats.pitching)}
-          {renderTable('Fielding', stats.fielding)}
+
+          <SortableTable title="Batting" data={stats.batting} defaultSortKey="PA" />
+          <SortableTable title="Pitching" data={stats.pitching} defaultSortKey="IP" />
+          <SortableTable title="Fielding" data={stats.fielding} defaultSortKey="INN" />
         </>
       ) : (
         <p className="text-red-600">Team not found.</p>
