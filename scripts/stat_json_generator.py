@@ -1,5 +1,3 @@
-print("=== STARTING STAT GENERATOR ===")
-
 import pandas as pd
 import numpy as np
 import json
@@ -45,12 +43,6 @@ def clean_and_format(rows, rules, drop_fields=[], ip_field=None, min_games_field
         if min_games_field and str(row.get(min_games_field, "0")) in ("0", "", "0.0"):
             continue
         new_row = {}
-        pid = row.get("player ID") or row.get("player ID.1")
-        name = row.get("Players") or row.get("Players.1")
-        if pid and name:
-            new_row["id"] = pid
-            new_row["name"] = name
-            new_row["link"] = f"/players/{pid}"
         for k, v in row.items():
             if k.upper() in (df.upper() for df in drop_fields):
                 continue
@@ -72,7 +64,6 @@ def clean_and_format(rows, rules, drop_fields=[], ip_field=None, min_games_field
     return cleaned
 
 def generate_stats_from_excel(excel_path, output_folder):
-    from pathlib import Path
     xls = pd.ExcelFile(excel_path)
     sheet_names = xls.sheet_names
     team_ids = sorted(set(name.split()[0] for name in sheet_names if " " in name and name.split()[1] in ["B", "P", "F"]))
@@ -82,6 +73,7 @@ def generate_stats_from_excel(excel_path, output_folder):
 
     for team_id in team_ids:
         team_data = {}
+
         for stat_type, suffix in [('batting', 'B'), ('pitching', 'P'), ('fielding', 'F')]:
             sheet_name = f"{team_id} {suffix}"
             try:
@@ -103,18 +95,120 @@ def generate_stats_from_excel(excel_path, output_folder):
                     }, drop_fields=["P/S", "MAX"], ip_field="INN", min_games_field="G")
                     stats = [filter_fielding_by_position(p) for p in filtered]
                 team_data[stat_type] = stats
+
                 for player in stats:
-                    pid = player.get("id")
-                    if pid:
-                        all_players.setdefault(pid, {})
-                        all_players[pid].update(player)
+                    pid = player.get("id") or player.get("player ID") or player.get("player ID.1") or player.get("Player ID")
+                    name = player.get("name") or player.get("Players") or player.get("Players.1") or player.get("Player")
+                    if not pid or not name:
+                        continue
+                    all_players.setdefault(pid, {"id": pid, "name": name, "link": f"/players/{pid}", "batting": {}, "pitching": {}, "fielding": []})
+                    if stat_type == "batting":
+                        all_players[pid]["batting"].update(player)
+                    elif stat_type == "pitching":
+                        all_players[pid]["pitching"].update(player)
+                    elif stat_type == "fielding":
+                        all_players[pid]["fielding"].append(player)
             except Exception as e:
-                print(f"Error parsing {sheet_name}: {e}")
-                continue
+                team_data[stat_type] = f"Error: {str(e)}"
 
         with open(os.path.join(output_folder, f"{team_id}.json"), "w") as f:
             json.dump(team_data, f, indent=2)
 
     with open(os.path.join(output_folder, "players_combined.json"), "w") as f:
         json.dump(list(all_players.values()), f, indent=2)
+
     print("players_combined.json created.")
+
+    # STANDINGS
+    print("Generating standings.json...")
+    gamelog_df = xls.parse("GameLog").dropna(subset=["Game ID", "Team", "R"])
+    gamelog_df["Game ID"] = gamelog_df["Game ID"].astype(str).str.strip()
+    gamelog_df["Team"] = gamelog_df["Team"].astype(str).str.strip()
+    gamelog_df["R"] = pd.to_numeric(gamelog_df["R"], errors="coerce")
+    team_game_scores = gamelog_df.groupby(["Game ID", "Team"])["R"].sum().reset_index()
+
+    standings = defaultdict(lambda: {"W": 0, "L": 0})
+    for game_id, group in team_game_scores.groupby("Game ID"):
+        if len(group) != 2:
+            continue
+        team1, team2 = group.iloc[0], group.iloc[1]
+        if team1["R"] > team2["R"]:
+            standings[team1["Team"]]["W"] += 1
+            standings[team2["Team"]]["L"] += 1
+        else:
+            standings[team2["Team"]]["W"] += 1
+            standings[team1["Team"]]["L"] += 1
+
+    with open("data/teams.json", "r") as tf:
+        teams = json.load(tf)
+    teams_df = pd.DataFrame([{"id": t["id"], "league": t["league"], "division": t["division"]} for t in teams])
+
+    records = []
+    for team in teams_df.to_dict(orient="records"):
+        tid = team["id"]
+        rec = standings.get(tid, {"W": 0, "L": 0})
+        W, L = rec["W"], rec["L"]
+        pct = f"{W / (W + L):.3f}" if (W + L) > 0 else ".000"
+        records.append({
+            "id": tid,
+            "league": team["league"],
+            "division": team["division"],
+            "W": W,
+            "L": L,
+            "pct": pct
+        })
+
+    final_standings_output = []
+    for league in ["AL", "NL"]:
+        for division in ["East", "Central", "West"]:
+            subset = pd.DataFrame(records).query("league == @league and division == @division")
+            if subset.empty:
+                continue
+            sorted_div = subset.sort_values(by=["pct", "W"], ascending=[False, False])
+            top_wins, top_losses = sorted_div.iloc[0]["W"], sorted_div.iloc[0]["L"]
+            block = {
+                "league": league,
+                "division": division,
+                "teams": []
+            }
+            for _, row in sorted_div.iterrows():
+                gb = ((top_wins - row["W"]) + (row["L"] - top_losses)) / 2
+                block["teams"].append({
+                    "id": row["id"],
+                    "W": row["W"],
+                    "L": row["L"],
+                    "pct": row["pct"],
+                    "GB": "-" if gb == 0 else f"{gb:.1f}"
+                })
+            final_standings_output.append(block)
+
+    with open(os.path.join(output_folder, "standings.json"), "w") as f:
+        json.dump(final_standings_output, f, indent=2)
+
+    print("standings.json created.")
+
+    # SCHEDULE
+    print("Generating schedule.json...")
+    schedule_df = xls.parse("Schedule", usecols="A:O")
+    schedule = []
+    for _, row in schedule_df.iterrows():
+        date = row.get("Date")
+        gid = row.get("GameID")
+        played = isinstance(gid, str) and "@" in gid
+        game = {
+            "date": str(date.date()) if not pd.isna(date) else None,
+            "played": played,
+            "home": str(row.get("act H")).strip().upper() if not played else str(row.get("Home Team")).strip().upper(),
+            "road": str(row.get("act R")).strip().upper() if not played else str(row.get("Road Team")).strip().upper(),
+            "home_score": row.get("Score.1") if played else None,
+            "road_score": row.get("Score") if played else None,
+            "game_id": gid if played else None
+        }
+        schedule.append(game)
+
+    with open(os.path.join(output_folder, "schedule.json"), "w") as f:
+        json.dump(schedule, f, indent=2)
+    print("schedule.json created.")
+
+if __name__ == "__main__":
+    generate_stats_from_excel("data/SOM 1999 Full Season Replay.xlsm", "data/stats")
