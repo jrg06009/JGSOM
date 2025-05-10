@@ -4,7 +4,7 @@ import fs from 'fs'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'public/data/stats/batting.json')
+  const filePath = path.join(process.cwd(), 'data/stats/batting.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   return { props: { data } }
 }
