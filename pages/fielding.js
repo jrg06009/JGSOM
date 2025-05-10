@@ -5,21 +5,21 @@ import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data', 'stats', 'pitching.json')
+  const filePath = path.join(process.cwd(), 'data', 'stats', 'fielding.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   const teamToLeague = getTeamToLeagueMap()
 
   return { props: { data, teamToLeague } }
 }
 
-export default function PitchingPage({ data, teamToLeague }) {
+export default function FieldingPage({ data, teamToLeague }) {
   const [showQualified, setShowQualified] = useState(false)
   const [showSplit, setShowSplit] = useState(true)
   const [league, setLeague] = useState('All')
 
   const filteredData = data.filter(player => {
-    const ip = parseFloat(player.IP || 0)
-    const isQualified = !showQualified || ip >= 5
+    const g = parseInt(player.G || 0, 10)
+    const isQualified = !showQualified || g >= 5
     const isSplitOK =
       showSplit ||
       player.team === 'TOT' ||
@@ -33,7 +33,7 @@ export default function PitchingPage({ data, teamToLeague }) {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Pitching Stats</h1>
+      <h1 className="text-2xl font-bold mb-4">Fielding Stats</h1>
       <div className="mb-4 flex flex-wrap gap-6 items-center">
         <label className="flex items-center">
           <input type="checkbox" checked={showQualified} onChange={() => setShowQualified(!showQualified)} className="mr-2" />
@@ -54,9 +54,9 @@ export default function PitchingPage({ data, teamToLeague }) {
       </div>
 
       <SortableTable
-        title="League Pitching"
+        title="League Fielding"
         data={filteredData}
-        defaultSortKey="IP"
+        defaultSortKey="G"
         exclude={["Player ID"]}
         nameLinkField="Player"
         idField="Player ID"
