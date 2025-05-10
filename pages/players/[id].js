@@ -28,13 +28,24 @@ export async function getStaticProps({ params }) {
 }
 
 export default function PlayerPage({ player }) {
-  const exclude = new Set(['id', 'name'])
-  const battingKeys = Object.keys(player).filter(key => !exclude.has(key) && !key.includes('.1'))
-  const pitchingKeys = Object.keys(player).filter(key => key.includes('.1') || ['ERA', 'WHIP', 'SO9'].includes(key))
+  const exclude = new Set(['id', 'name', 'link'])
+
+  const battingKeys = Object.keys(player).filter(key =>
+    !exclude.has(key) &&
+    !key.includes('.1') &&
+    typeof player[key] !== 'undefined' &&
+    player[key] !== null
+  )
+
+  const pitchingKeys = Object.keys(player).filter(key =>
+    (key.includes('.1') || ['ERA', 'WHIP', 'SO9', 'IP', 'BB9', 'H9', 'HR9'].includes(key)) &&
+    typeof player[key] !== 'undefined' &&
+    player[key] !== null
+  )
 
   return (
     <Layout>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto px-4">
         <h1 className="text-3xl font-bold mb-4">{player.name}</h1>
 
         {battingKeys.length > 0 && (
@@ -83,6 +94,10 @@ export default function PlayerPage({ player }) {
               </table>
             </div>
           </>
+        )}
+
+        {battingKeys.length === 0 && pitchingKeys.length === 0 && (
+          <p className="text-gray-600 mt-4">No available statistics for this player.</p>
         )}
       </div>
     </Layout>
