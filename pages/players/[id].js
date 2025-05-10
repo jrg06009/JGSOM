@@ -81,17 +81,20 @@ function SortableTable({ title, data, numericSort = true }) {
 export default function PlayerPage({ player }) {
   const { name, batting, pitching, fielding } = player
 
-  const filterStats = (stats, keysToExclude = ["id", "name", "link", "team"]) =>
-    stats
-      .map(row => {
-        const filtered = {}
-        Object.entries(row).forEach(([key, value]) => {
-          if (!keysToExclude.includes(key)) {
-            filtered[key] = value
-          }
-        })
-        return filtered
+  const keysToExclude = [
+    "id", "name", "link", "Player", "Players", "Player ID", "player ID", "PlayerID", "Players.1"
+  ]
+
+  const filterStats = (stats) =>
+    stats.map(row => {
+      const filtered = {}
+      Object.entries(row).forEach(([key, value]) => {
+        if (!keysToExclude.includes(key)) {
+          filtered[key] = value
+        }
       })
+      return filtered
+    })
 
   const renderStatTable = (title, sectionData) => {
     if (!sectionData || sectionData.length === 0) return null
