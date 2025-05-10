@@ -3,7 +3,7 @@ name: Generate Stat JSONs
 on:
   push:
     paths:
-      - 'data/**'
+      - 'data/**'  # Trigger on any file inside /data/
 
 jobs:
   build:
@@ -22,16 +22,24 @@ jobs:
         run: pip install pandas numpy openpyxl xlrd
 
       - name: Run stat generator
-        run: python scripts/stat_json_generator.py
+        run: |
+          echo "=== STARTING STAT GENERATOR ==="
+          python scripts/stat_json_generator.py
 
       - name: List output files
         run: ls -lR data/
 
-      - name: Commit and push JSON
+      - name: Force add and push updated JSON files
         run: |
           git config --global user.name 'auto-updater'
           git config --global user.email 'auto@updater.com'
-          git add data/stats/
-          git commit -m "Auto-update stats"
+          git status
+          git add -f data/stats/
+          git add -f data/standings.json
+          git add -f data/schedule.json
+          git commit -m "Auto-update stats and standings from Excel" || echo "Nothing to commit"
           git push
         continue-on-error: true
+
+      - name: Trigger Vercel Deployment
+        run: curl -X POST 'https://api.vercel.com/v1/integrations/deploy/prj_KVc1MRftUPAE4iQBGP6jSryRPfcz/IePnWdQdej'
