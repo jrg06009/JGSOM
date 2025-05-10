@@ -1,4 +1,4 @@
-name: Generate Stat and Schedule JSONs
+name: Generate Stat JSONs
 
 on:
   push:
@@ -24,15 +24,20 @@ jobs:
       - name: Run stat generator
         run: python scripts/stat_json_generator.py
 
-      - name: Run schedule and standings generator
-        run: python scripts/schedule_and_standings_generator.py
+      - name: Copy players_combined.json to public folder
+        run: |
+          mkdir -p public/data/stats
+          cp data/stats/players_combined.json public/data/stats/players_combined.json
 
       - name: Commit and push updated JSON files
         run: |
           git config --global user.name 'auto-updater'
           git config --global user.email 'auto@updater.com'
-          git add data/stats/*.json
-          git commit -m "Auto-update stats, schedule, and standings from Excel"
+          git add data/stats/
+          git add data/standings.json
+          git add data/schedule.json
+          git add public/data/stats/players_combined.json
+          git commit -m "Auto-update stats and push player JSON to public folder"
           git push
 
       - name: Trigger Vercel Deployment
