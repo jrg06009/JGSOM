@@ -3,20 +3,99 @@ import path from 'path'
 import { useState } from 'react'
 import Link from 'next/link'
 
+// Utility helpers
+function parseJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, 'utf8'))
+}
+
+function sum(stats, key) {
+  return stats.reduce((acc, obj) => acc + (parseFloat(obj[key]) || 0), 0)
+}
+
+function calculateBattingTotals(players) {
+  const total = {}
+  for (const key of Object.keys(players[0] || {})) {
+    if (key !== 'Player' && key !== 'Player ID') total[key] = sum(players, key)
+  }
+  const { H = 0, AB = 0, BB = 0, HBP = 0, SF = 0, TB = 0 } = total
+  const OBP = (H + BB + HBP) / (AB + BB + HBP + SF || 1)
+  const SLG = TB / (AB || 1)
+  return {
+    Player: 'Total',
+    ...total,
+    AVG: (H / (AB || 1)).toFixed(3),
+    OBP: OBP.toFixed(3),
+    SLG: SLG.toFixed(3),
+    OPS: (OBP + SLG).toFixed(3)
+  }
+}
+
+function calculatePitchingTotals(players, teamId, schedule) {
+  const total = {}
+  for (const key of Object.keys(players[0] || {})) {
+    if (key !== 'Player' && key !== 'Player ID') total[key] = sum(players, key)
+  }
+  const { W = 0, L = 0, BB = 0, H = 0, IP = 0, SO = 0, HR = 0 } = total
+  const games = W + L
+  const SHO = schedule.filter(game => {
+    const isHome = game.home === teamId
+    const isAway = game.away === teamId
+    const opponentRuns = isHome ? game.away_score : isAway ? game.home_score : null
+    return opponentRuns === 0
+  }).length
+
+  return {
+    Player: 'Total',
+    ...total,
+    SHO,
+    'W-L%': ((W / (games || 1)).toFixed(3)),
+    WHIP: ((BB + H) / (IP || 1)).toFixed(2),
+    H9: ((H * 9) / (IP || 1)).toFixed(2),
+    BB9: ((BB * 9) / (IP || 1)).toFixed(2),
+    SO9: ((SO * 9) / (IP || 1)).toFixed(2),
+    'SO/BB': (SO / (BB || 1)).toFixed(2),
+    HR9: ((HR * 9) / (IP || 1)).toFixed(2)
+  }
+}
+
+function calculateFieldingTotals(players) {
+  const total = {}
+  for (const key of Object.keys(players[0] || {})) {
+    if (key !== 'Player' && key !== 'Player ID') total[key] = sum(players, key)
+  }
+  const { PO = 0, A = 0, E = 0, CS = 0, SB = 0 } = total
+  return {
+    Player: 'Total',
+    ...total,
+    'Fld Pct': ((PO + A) / (PO + A + E || 1)).toFixed(3),
+    'CS%': (CS / (CS + SB || 1)).toFixed(3)
+  }
+}
+
+// Static Paths
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join(process.cwd(), 'data/stats'))
-  const paths = files.map(file => ({
-    params: { abbr: file.replace('.json', '') }
-  }))
+  const paths = files
+    .filter(f => f.endsWith('.json'))
+    .map(file => ({ params: { abbr: file.replace('.json', '') } }))
   return { paths, fallback: false }
 }
 
+// Static Props with team total logic
 export async function getStaticProps({ params }) {
   const statsPath = path.join(process.cwd(), 'data/stats', `${params.abbr}.json`)
   const stats = JSON.parse(fs.readFileSync(statsPath, 'utf8'))
 
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
+  const schedule = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data/schedule.json'), 'utf8'))
   const team = teams.find(t => t.id === params.abbr) || null
+
+  if (stats.batting?.length)
+    stats.batting.push(calculateBattingTotals(stats.batting))
+  if (stats.pitching?.length)
+    stats.pitching.push(calculatePitchingTotals(stats.pitching, params.abbr, schedule))
+  if (stats.fielding?.length)
+    stats.fielding.push(calculateFieldingTotals(stats.fielding))
 
   return {
     props: {
@@ -27,6 +106,7 @@ export async function getStaticProps({ params }) {
   }
 }
 
+// Sortable Table with Total row styling
 function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
   const [sortKey, setSortKey] = useState(defaultSortKey)
   const [sortAsc, setSortAsc] = useState(false)
@@ -36,7 +116,7 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
   const hiddenFields = new Set(["id", "PlayerID", "Player ID", "player ID"])
   const headers = Object.keys(data[0]).filter(key => !hiddenFields.has(key))
 
-  const sorted = [...data].sort((a, b) => {
+  const sorted = [...data.slice(0, -1)].sort((a, b) => {
     const valA = a[sortKey]
     const valB = b[sortKey]
     if (numericSort && !isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
@@ -45,10 +125,11 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
     return sortAsc ? String(valA).localeCompare(String(valB)) : String(valB).localeCompare(String(valA))
   })
 
+  const totalRow = data[data.length - 1]
+
   const handleSort = (key) => {
-    if (key === sortKey) {
-      setSortAsc(!sortAsc)
-    } else {
+    if (key === sortKey) setSortAsc(!sortAsc)
+    else {
       setSortKey(key)
       setSortAsc(false)
     }
@@ -88,6 +169,14 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
                 ))}
               </tr>
             ))}
+            {/* Total row */}
+            <tr className="font-bold bg-gray-100">
+              {headers.map((key) => (
+                <td key={key} className="border border-gray-400 p-2 text-center">
+                  {totalRow[key] || ''}
+                </td>
+              ))}
+            </tr>
           </tbody>
         </table>
       </div>
@@ -101,11 +190,7 @@ export default function TeamPage({ abbr, stats, team }) {
       {team ? (
         <>
           <div className="flex items-center mb-6">
-            <img
-              src={team.logo}
-              alt={`${team.name} logo`}
-              className="h-12 w-12 mr-4"
-            />
+            <img src={team.logo} alt={`${team.name} logo`} className="h-12 w-12 mr-4" />
             <h1 className="text-3xl font-bold" style={{ color: team.color || '#000' }}>
               {team.name}
             </h1>
@@ -122,14 +207,17 @@ export default function TeamPage({ abbr, stats, team }) {
               return acc
             }, {})
 
-            return Object.entries(grouped).map(([pos, group]) => (
-              <SortableTable
-                key={pos}
-                title={`Fielding - ${pos}`}
-                data={group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN))}
-                defaultSortKey="INN"
-              />
-            ))
+            return Object.entries(grouped).map(([pos, group]) => {
+              const total = calculateFieldingTotals(group)
+              return (
+                <SortableTable
+                  key={pos}
+                  title={`Fielding - ${pos}`}
+                  data={[...group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN)), total]}
+                  defaultSortKey="INN"
+                />
+              )
+            })
           })()}
         </>
       ) : (
