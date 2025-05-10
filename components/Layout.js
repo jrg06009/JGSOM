@@ -127,7 +127,7 @@ export default function Layout({ children }) {
               onMouseEnter={() => setShowTeams(true)}
               onMouseLeave={() => setShowTeams(false)}
             >
-              <button className="text-white hover:text-yellow-300 font-medium px-2">Teams</button>
+              <button className="text-white hover:text-yellow-300">Teams</button>
               {showTeams && (
                 <div className="absolute top-full left-0 mt-2 w-[400px] bg-white text-black shadow-lg z-50 rounded p-4 grid grid-cols-2 gap-4">
                   {Object.entries(divisions).map(([division, teams]) => (
