@@ -33,8 +33,10 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
 
   if (!data || data.length === 0) return null
 
-  const visibleHeaders = Object.keys(data[0]).filter(key =>
-    !["id", "PlayerID"].includes(key)
+const visibleHeaders = Object.keys(data[0]).filter(key =>
+  !["id", "PlayerID", "Player ID", "player ID"].includes(key)
+)
+
   )
 
   const sorted = [...data].sort((a, b) => {
