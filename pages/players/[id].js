@@ -1,3 +1,5 @@
+// pages/players/[id].js
+
 import fs from 'fs'
 import path from 'path'
 import Layout from '../../components/Layout'
@@ -29,7 +31,6 @@ export default function PlayerPage({ player }) {
     <Layout>
       <div className="p-6">
         <h1 className="text-2xl font-bold mb-4">{player.name}</h1>
-
         <div className="grid grid-cols-2 gap-4">
           {Object.entries(player).map(([key, value]) => {
             if (['id', 'name', 'link'].includes(key)) return null
