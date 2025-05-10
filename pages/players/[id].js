@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import { useState } from 'react'
-import Layout from '../../components/Layout'
 
 export async function getStaticPaths() {
   const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
@@ -103,18 +102,16 @@ export default function PlayerPage({ player }) {
   }
 
   return (
-    <Layout>
-      <div className="max-w-3xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-6">{name}</h1>
+    <div className="max-w-3xl mx-auto px-4">
+      <h1 className="text-3xl font-bold mb-6">{name}</h1>
 
-        {Array.isArray(batting) && batting.length > 0 && renderStatTable("Batting Stats", batting)}
-        {Array.isArray(pitching) && pitching.length > 0 && renderStatTable("Pitching Stats", pitching)}
-        {Array.isArray(fielding) && fielding.length > 0 && renderStatTable("Fielding Stats", fielding)}
+      {Array.isArray(batting) && batting.length > 0 && renderStatTable("Batting Stats", batting)}
+      {Array.isArray(pitching) && pitching.length > 0 && renderStatTable("Pitching Stats", pitching)}
+      {Array.isArray(fielding) && fielding.length > 0 && renderStatTable("Fielding Stats", fielding)}
 
-        {!batting && !pitching && (!fielding || fielding.length === 0) && (
-          <p className="text-gray-600 mt-4">No available statistics for this player.</p>
-        )}
-      </div>
-    </Layout>
+      {!batting && !pitching && (!fielding || fielding.length === 0) && (
+        <p className="text-gray-600 mt-4">No available statistics for this player.</p>
+      )}
+    </div>
   )
 }
