@@ -168,7 +168,7 @@ export default function Layout({ children }) {
                     return (
                       <li
                         key={player.id}
-                        className={\`p-2 cursor-pointer flex justify-between items-center \${idx === activeIndex ? 'bg-blue-100' : 'hover:bg-gray-100'}\`}
+                        className={`p-2 cursor-pointer flex justify-between items-center ${idx === activeIndex ? 'bg-blue-100' : 'hover:bg-gray-100'}`}
                         onMouseDown={() => handleSelect(player.id)}
                       >
                         <span>{highlightMatch(player.name)}</span>
@@ -190,7 +190,7 @@ export default function Layout({ children }) {
 function NavLink({ href, current, children }) {
   return (
     <Link href={href} passHref>
-      <a className={\`text-lg font-medium px-2 \${current ? 'text-yellow-400 underline' : 'text-white hover:text-yellow-300'}\`}>
+        <a className={`text-lg font-medium px-2 ${current ? 'text-yellow-400 underline' : 'text-white hover:text-yellow-300'}`}>
         {children}
       </a>
     </Link>
