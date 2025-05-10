@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Damian Miller",
+      "Player ID": "milleda02",
       "G": 1,
       "PA": 5,
       "AB": 5,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Travis Lee",
+      "Player ID": "leetr01",
       "G": 3,
       "PA": 14,
       "AB": 10,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Jay Bell",
+      "Player ID": "bellja01",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Matt Williams",
+      "Player ID": "willima04",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Andy Fox",
+      "Player ID": "foxan01",
       "G": 3,
       "PA": 2,
       "AB": 1,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Luis Gonzalez",
+      "Player ID": "gonzalu01",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Steve Finley",
+      "Player ID": "finlest01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Kelly Stinnett",
+      "Player ID": "stinnke01",
       "G": 2,
       "PA": 8,
       "AB": 7,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Bernard Gilkey",
+      "Player ID": "gilkebe01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Hanley Frias",
+      "Player ID": "friasha01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Tony Batista",
+      "Player ID": "batisto01",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Greg Colbrunn",
+      "Player ID": "colbrgr01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "David Dellucci",
+      "Player ID": "delluda01",
       "G": 3,
       "PA": 3,
       "AB": 3,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Ernie Young",
+      "Player ID": "younger02",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Randy Johnson",
+      "Player ID": "johnsra05",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Andy Benes",
+      "Player ID": "benesan01",
       "G": 1,
       "PA": 1,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Armando Reynoso",
+      "Player ID": "reynoar02",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Brian Anderson",
+      "Player ID": "anderbr02",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Todd Stottlemyre",
+      "Player ID": "stottto01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -534,6 +553,7 @@
     },
     {
       "Player": "Greg Swindell",
+      "Player ID": "swindgr01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -562,6 +582,7 @@
     },
     {
       "Player": "Darren Holmes",
+      "Player ID": "holmeda01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -590,6 +611,7 @@
     },
     {
       "Player": "Gregg Olson",
+      "Player ID": "olsongr01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -618,6 +640,7 @@
     },
     {
       "Player": "John Frascatore",
+      "Player ID": "frascjo01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -648,6 +671,7 @@
   "pitching": [
     {
       "Player": "Brian Anderson",
+      "Player ID": "anderbr02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -677,6 +701,7 @@
     },
     {
       "Player": "Andy Benes",
+      "Player ID": "benesan01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -706,6 +731,7 @@
     },
     {
       "Player": "John Frascatore",
+      "Player ID": "frascjo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -735,6 +761,7 @@
     },
     {
       "Player": "Darren Holmes",
+      "Player ID": "holmeda01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -764,6 +791,7 @@
     },
     {
       "Player": "Randy Johnson",
+      "Player ID": "johnsra05",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -793,6 +821,7 @@
     },
     {
       "Player": "Gregg Olson",
+      "Player ID": "olsongr01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -822,6 +851,7 @@
     },
     {
       "Player": "Armando Reynoso",
+      "Player ID": "reynoar02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -851,6 +881,7 @@
     },
     {
       "Player": "Todd Stottlemyre",
+      "Player ID": "stottto01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -880,6 +911,7 @@
     },
     {
       "Player": "Greg Swindell",
+      "Player ID": "swindgr01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -911,6 +943,7 @@
   "fielding": [
     {
       "Player": "Brian Anderson",
+      "Player ID": "anderbr02",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -928,6 +961,7 @@
     },
     {
       "Player": "Andy Benes",
+      "Player ID": "benesan01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -945,6 +979,7 @@
     },
     {
       "Player": "John Frascatore",
+      "Player ID": "frascjo01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -962,6 +997,7 @@
     },
     {
       "Player": "Darren Holmes",
+      "Player ID": "holmeda01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -979,6 +1015,7 @@
     },
     {
       "Player": "Randy Johnson",
+      "Player ID": "johnsra05",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -996,6 +1033,7 @@
     },
     {
       "Player": "Gregg Olson",
+      "Player ID": "olsongr01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1013,6 +1051,7 @@
     },
     {
       "Player": "Armando Reynoso",
+      "Player ID": "reynoar02",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1030,6 +1069,7 @@
     },
     {
       "Player": "Todd Stottlemyre",
+      "Player ID": "stottto01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -1047,6 +1087,7 @@
     },
     {
       "Player": "Greg Swindell",
+      "Player ID": "swindgr01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1064,6 +1105,7 @@
     },
     {
       "Player": "Damian Miller",
+      "Player ID": "milleda02",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -1081,6 +1123,7 @@
     },
     {
       "Player": "Kelly Stinnett",
+      "Player ID": "stinnke01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -1098,6 +1141,7 @@
     },
     {
       "Player": "Travis Lee",
+      "Player ID": "leetr01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -1111,6 +1155,7 @@
     },
     {
       "Player": "Jay Bell",
+      "Player ID": "bellja01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1124,6 +1169,7 @@
     },
     {
       "Player": "Matt Williams",
+      "Player ID": "willima04",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1137,6 +1183,7 @@
     },
     {
       "Player": "Tony Batista",
+      "Player ID": "batisto01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1150,6 +1197,7 @@
     },
     {
       "Player": "Hanley Frias",
+      "Player ID": "friasha01",
       "POS": "SS",
       "G": 1,
       "GS": 0,
@@ -1163,6 +1211,7 @@
     },
     {
       "Player": "David Dellucci",
+      "Player ID": "delluda01",
       "POS": "LF",
       "G": 1,
       "GS": 0,
@@ -1176,6 +1225,7 @@
     },
     {
       "Player": "Luis Gonzalez",
+      "Player ID": "gonzalu01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1189,6 +1239,7 @@
     },
     {
       "Player": "Steve Finley",
+      "Player ID": "finlest01",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1202,6 +1253,7 @@
     },
     {
       "Player": "David Dellucci",
+      "Player ID": "delluda01",
       "POS": "RF",
       "G": 1,
       "GS": 0,
@@ -1215,6 +1267,7 @@
     },
     {
       "Player": "Bernard Gilkey",
+      "Player ID": "gilkebe01",
       "POS": "RF",
       "G": 3,
       "GS": 3,
@@ -1228,6 +1281,7 @@
     },
     {
       "Player": "Ernie Young",
+      "Player ID": "younger02",
       "POS": "RF",
       "G": 1,
       "GS": 0,

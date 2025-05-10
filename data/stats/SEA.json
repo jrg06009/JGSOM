@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Dan Wilson",
+      "Player ID": "wilsoda01",
       "G": 2,
       "PA": 7,
       "AB": 7,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "David Segui",
+      "Player ID": "seguida01",
       "G": 3,
       "PA": 14,
       "AB": 10,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "David Bell",
+      "Player ID": "bellda01",
       "G": 2,
       "PA": 4,
       "AB": 3,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Russ Davis",
+      "Player ID": "davisru01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Alex Rodriguez",
+      "Player ID": "rodrial01",
       "G": 2,
       "PA": 9,
       "AB": 8,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Ken Griffey",
+      "Player ID": "griffke02",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Jay Buhner",
+      "Player ID": "buhneja01",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Edgar Martinez",
+      "Player ID": "martied01",
       "G": 3,
       "PA": 13,
       "AB": 9,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Butch Huskey",
+      "Player ID": "huskebu01",
       "G": 2,
       "PA": 5,
       "AB": 5,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "John Mabry",
+      "Player ID": "mabryjo01",
       "G": 3,
       "PA": 9,
       "AB": 6,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Raul Ibanez",
+      "Player ID": "ibanera01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Tom Lampkin",
+      "Player ID": "lampkto01",
       "G": 2,
       "PA": 5,
       "AB": 5,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Charles Gipson",
+      "Player ID": "gipsoch01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Matt Mieske",
+      "Player ID": "mieskma01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Carlos Guillen",
+      "Player ID": "guillca01",
       "G": 3,
       "PA": 15,
       "AB": 14,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Jeff Fassero",
+      "Player ID": "fasseje01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "John Halama",
+      "Player ID": "halamjo01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Freddy Garcia",
+      "Player ID": "garcifr01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Jamie Moyer",
+      "Player ID": "moyerja01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -536,6 +555,7 @@
   "pitching": [
     {
       "Player": "Jamie Moyer",
+      "Player ID": "moyerja01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -565,6 +585,7 @@
     },
     {
       "Player": "Freddy Garcia",
+      "Player ID": "garcifr01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -594,6 +615,7 @@
     },
     {
       "Player": "John Halama",
+      "Player ID": "halamjo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -623,6 +645,7 @@
     },
     {
       "Player": "Jeff Fassero",
+      "Player ID": "fasseje01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -652,6 +675,7 @@
     },
     {
       "Player": "Jose Paniagua",
+      "Player ID": "paniajo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -681,6 +705,7 @@
     },
     {
       "Player": "Mac Suzuki",
+      "Player ID": "suzukma01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -710,6 +735,7 @@
     },
     {
       "Player": "Brett Hinchliffe",
+      "Player ID": "hinchbr01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -739,6 +765,7 @@
     },
     {
       "Player": "Eric Weaver",
+      "Player ID": "weaveer01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -768,6 +795,7 @@
     },
     {
       "Player": "John Mabry",
+      "Player ID": "mabryjo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -799,6 +827,7 @@
   "fielding": [
     {
       "Player": "Jeff Fassero",
+      "Player ID": "fasseje01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -816,6 +845,7 @@
     },
     {
       "Player": "Freddy Garcia",
+      "Player ID": "garcifr01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -833,6 +863,7 @@
     },
     {
       "Player": "John Halama",
+      "Player ID": "halamjo01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -850,6 +881,7 @@
     },
     {
       "Player": "Brett Hinchliffe",
+      "Player ID": "hinchbr01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -867,6 +899,7 @@
     },
     {
       "Player": "Jamie Moyer",
+      "Player ID": "moyerja01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -884,6 +917,7 @@
     },
     {
       "Player": "Jose Paniagua",
+      "Player ID": "paniajo01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -901,6 +935,7 @@
     },
     {
       "Player": "Mac Suzuki",
+      "Player ID": "suzukma01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -918,6 +953,7 @@
     },
     {
       "Player": "Eric Weaver",
+      "Player ID": "weaveer01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -935,6 +971,7 @@
     },
     {
       "Player": "Tom Lampkin",
+      "Player ID": "lampkto01",
       "POS": "C",
       "G": 2,
       "GS": 1,
@@ -952,6 +989,7 @@
     },
     {
       "Player": "Dan Wilson",
+      "Player ID": "wilsoda01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -969,6 +1007,7 @@
     },
     {
       "Player": "David Segui",
+      "Player ID": "seguida01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -982,6 +1021,7 @@
     },
     {
       "Player": "David Bell",
+      "Player ID": "bellda01",
       "POS": "2B",
       "G": 2,
       "GS": 1,
@@ -995,6 +1035,7 @@
     },
     {
       "Player": "Carlos Guillen",
+      "Player ID": "guillca01",
       "POS": "2B",
       "G": 2,
       "GS": 2,
@@ -1008,6 +1049,7 @@
     },
     {
       "Player": "Russ Davis",
+      "Player ID": "davisru01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1021,6 +1063,7 @@
     },
     {
       "Player": "Charles Gipson",
+      "Player ID": "gipsoch01",
       "POS": "SS",
       "G": 1,
       "GS": 0,
@@ -1034,6 +1077,7 @@
     },
     {
       "Player": "Carlos Guillen",
+      "Player ID": "guillca01",
       "POS": "SS",
       "G": 1,
       "GS": 1,
@@ -1047,6 +1091,7 @@
     },
     {
       "Player": "Alex Rodriguez",
+      "Player ID": "rodrial01",
       "POS": "SS",
       "G": 2,
       "GS": 2,
@@ -1060,6 +1105,7 @@
     },
     {
       "Player": "Butch Huskey",
+      "Player ID": "huskebu01",
       "POS": "LF",
       "G": 2,
       "GS": 1,
@@ -1073,6 +1119,7 @@
     },
     {
       "Player": "John Mabry",
+      "Player ID": "mabryjo01",
       "POS": "LF",
       "G": 3,
       "GS": 2,
@@ -1086,6 +1133,7 @@
     },
     {
       "Player": "Ken Griffey",
+      "Player ID": "griffke02",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1099,6 +1147,7 @@
     },
     {
       "Player": "Matt Mieske",
+      "Player ID": "mieskma01",
       "POS": "CF",
       "G": 1,
       "GS": 0,
@@ -1112,6 +1161,7 @@
     },
     {
       "Player": "Jay Buhner",
+      "Player ID": "buhneja01",
       "POS": "RF",
       "G": 3,
       "GS": 3,
@@ -1125,6 +1175,7 @@
     },
     {
       "Player": "Raul Ibanez",
+      "Player ID": "ibanera01",
       "POS": "RF",
       "G": 1,
       "GS": 0,

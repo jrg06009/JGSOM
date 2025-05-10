@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Brent Mayne",
+      "Player ID": "maynebr01",
       "G": 2,
       "PA": 8,
       "AB": 7,
@@ -31,6 +32,7 @@
     },
     {
       "Player": "J.T. Snow",
+      "Player ID": "snowj.01",
       "G": 3,
       "PA": 14,
       "AB": 14,
@@ -60,6 +62,7 @@
     },
     {
       "Player": "Jeff Kent",
+      "Player ID": "kentje01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -89,6 +92,7 @@
     },
     {
       "Player": "Bill Mueller",
+      "Player ID": "muellbi02",
       "G": 1,
       "PA": 5,
       "AB": 4,
@@ -118,6 +122,7 @@
     },
     {
       "Player": "Rich Aurilia",
+      "Player ID": "aurilri01",
       "G": 3,
       "PA": 13,
       "AB": 10,
@@ -147,6 +152,7 @@
     },
     {
       "Player": "Barry Bonds",
+      "Player ID": "bondsba01",
       "G": 3,
       "PA": 14,
       "AB": 7,
@@ -176,6 +182,7 @@
     },
     {
       "Player": "Marvin Benard",
+      "Player ID": "benarma01",
       "G": 3,
       "PA": 11,
       "AB": 9,
@@ -205,6 +212,7 @@
     },
     {
       "Player": "Ellis Burks",
+      "Player ID": "burksel01",
       "G": 3,
       "PA": 10,
       "AB": 8,
@@ -234,6 +242,7 @@
     },
     {
       "Player": "Stan Javier",
+      "Player ID": "javiest01",
       "G": 2,
       "PA": 6,
       "AB": 5,
@@ -263,6 +272,7 @@
     },
     {
       "Player": "Charlie Hayes",
+      "Player ID": "hayesch01",
       "G": 2,
       "PA": 10,
       "AB": 6,
@@ -292,6 +302,7 @@
     },
     {
       "Player": "F.P. Santangelo",
+      "Player ID": "santaf.01",
       "G": 1,
       "PA": 5,
       "AB": 5,
@@ -321,6 +332,7 @@
     },
     {
       "Player": "Scott Servais",
+      "Player ID": "servasc01",
       "G": 1,
       "PA": 4,
       "AB": 3,
@@ -350,6 +362,7 @@
     },
     {
       "Player": "Russ Ortiz",
+      "Player ID": "ortizru01",
       "G": 1,
       "PA": 2,
       "AB": 2,
@@ -379,6 +392,7 @@
     },
     {
       "Player": "Kirk Rueter",
+      "Player ID": "rueteki01",
       "G": 1,
       "PA": 4,
       "AB": 3,
@@ -408,6 +422,7 @@
     },
     {
       "Player": "Mark Gardner",
+      "Player ID": "gardnma01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -437,6 +452,7 @@
     },
     {
       "Player": "Julian Tavarez",
+      "Player ID": "tavarju01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -468,6 +484,7 @@
   "pitching": [
     {
       "Player": "Alan Embree",
+      "Player ID": "embreal01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -497,6 +514,7 @@
     },
     {
       "Player": "Mark Gardner",
+      "Player ID": "gardnma01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -526,6 +544,7 @@
     },
     {
       "Player": "John Johnstone",
+      "Player ID": "johnsjo07",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -555,6 +574,7 @@
     },
     {
       "Player": "Robb Nen",
+      "Player ID": "nenro01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -584,6 +604,7 @@
     },
     {
       "Player": "Russ Ortiz",
+      "Player ID": "ortizru01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -613,6 +634,7 @@
     },
     {
       "Player": "Kirk Rueter",
+      "Player ID": "rueteki01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -642,6 +664,7 @@
     },
     {
       "Player": "Julian Tavarez",
+      "Player ID": "tavarju01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -673,6 +696,7 @@
   "fielding": [
     {
       "Player": "Alan Embree",
+      "Player ID": "embreal01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -690,6 +714,7 @@
     },
     {
       "Player": "Mark Gardner",
+      "Player ID": "gardnma01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -707,6 +732,7 @@
     },
     {
       "Player": "John Johnstone",
+      "Player ID": "johnsjo07",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -724,6 +750,7 @@
     },
     {
       "Player": "Robb Nen",
+      "Player ID": "nenro01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -741,6 +768,7 @@
     },
     {
       "Player": "Russ Ortiz",
+      "Player ID": "ortizru01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -758,6 +786,7 @@
     },
     {
       "Player": "Kirk Rueter",
+      "Player ID": "rueteki01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -775,6 +804,7 @@
     },
     {
       "Player": "Julian Tavarez",
+      "Player ID": "tavarju01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -792,6 +822,7 @@
     },
     {
       "Player": "Brent Mayne",
+      "Player ID": "maynebr01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -809,6 +840,7 @@
     },
     {
       "Player": "Scott Servais",
+      "Player ID": "servasc01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -826,6 +858,7 @@
     },
     {
       "Player": "J.T. Snow",
+      "Player ID": "snowj.01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -839,6 +872,7 @@
     },
     {
       "Player": "Jeff Kent",
+      "Player ID": "kentje01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -852,6 +886,7 @@
     },
     {
       "Player": "Charlie Hayes",
+      "Player ID": "hayesch01",
       "POS": "3B",
       "G": 2,
       "GS": 2,
@@ -865,6 +900,7 @@
     },
     {
       "Player": "Bill Mueller",
+      "Player ID": "muellbi02",
       "POS": "3B",
       "G": 1,
       "GS": 1,
@@ -878,6 +914,7 @@
     },
     {
       "Player": "Rich Aurilia",
+      "Player ID": "aurilri01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -891,6 +928,7 @@
     },
     {
       "Player": "Barry Bonds",
+      "Player ID": "bondsba01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -904,6 +942,7 @@
     },
     {
       "Player": "Marvin Benard",
+      "Player ID": "benarma01",
       "POS": "CF",
       "G": 2,
       "GS": 2,
@@ -917,6 +956,7 @@
     },
     {
       "Player": "F.P. Santangelo",
+      "Player ID": "santaf.01",
       "POS": "CF",
       "G": 1,
       "GS": 1,
@@ -930,6 +970,7 @@
     },
     {
       "Player": "Ellis Burks",
+      "Player ID": "burksel01",
       "POS": "RF",
       "G": 2,
       "GS": 2,
@@ -943,6 +984,7 @@
     },
     {
       "Player": "Stan Javier",
+      "Player ID": "javiest01",
       "POS": "RF",
       "G": 1,
       "GS": 1,

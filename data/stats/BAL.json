@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Charles Johnson",
+      "PlayerID": "johnsch04",
       "G": 2,
       "PA": 8,
       "AB": 6,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Jeff Conine",
+      "PlayerID": "coninje01",
       "G": 2,
       "PA": 8,
       "AB": 6,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Cal Ripken",
+      "PlayerID": "ripkeca01",
       "G": 1,
       "PA": 4,
       "AB": 4,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Mike Bordick",
+      "PlayerID": "bordimi01",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "B.J. Surhoff",
+      "PlayerID": "surhob.01",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Brady Anderson",
+      "PlayerID": "anderbr01",
       "G": 3,
       "PA": 14,
       "AB": 8,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Albert Belle",
+      "PlayerID": "belleal01",
       "G": 3,
       "PA": 13,
       "AB": 10,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Harold Baines",
+      "PlayerID": "baineha01",
       "G": 3,
       "PA": 6,
       "AB": 5,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Will Clark",
+      "PlayerID": "clarkwi02",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Jeff Reboulet",
+      "PlayerID": "rebouje01",
       "G": 3,
       "PA": 11,
       "AB": 7,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Willis Otanez",
+      "PlayerID": "otanewi01",
       "G": 2,
       "PA": 8,
       "AB": 8,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Lenny Webster",
+      "PlayerID": "webstle01",
       "G": 1,
       "PA": 4,
       "AB": 3,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Jesse Garcia",
+      "PlayerID": "garcije01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Mike Mussina",
+      "PlayerID": "mussimi01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Scott Erickson",
+      "PlayerID": "ericksc01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Juan Guzman",
+      "PlayerID": "guzmaju01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Doug Johns",
+      "PlayerID": "johnsdo04",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -480,6 +497,7 @@
   "pitching": [
     {
       "Player": "Ricky Bones",
+      "Player ID": "bonesri01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -509,6 +527,7 @@
     },
     {
       "Player": "Scott Erickson",
+      "Player ID": "ericksc01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -538,6 +557,7 @@
     },
     {
       "Player": "Mike Fetters",
+      "Player ID": "fettemi01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -567,6 +587,7 @@
     },
     {
       "Player": "Juan Guzman",
+      "Player ID": "guzmaju01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -596,6 +617,7 @@
     },
     {
       "Player": "Doug Johns",
+      "Player ID": "johnsdo04",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -625,6 +647,7 @@
     },
     {
       "Player": "Mike Mussina",
+      "Player ID": "mussimi01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -654,6 +677,7 @@
     },
     {
       "Player": "Jesse Orosco",
+      "Player ID": "oroscje01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -683,6 +707,7 @@
     },
     {
       "Player": "Arthur Rhodes",
+      "Player ID": "rhodear01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -712,6 +737,7 @@
     },
     {
       "Player": "Heathcliff Slocumb",
+      "Player ID": "slocuhe01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -741,6 +767,7 @@
     },
     {
       "Player": "Mike Timlin",
+      "Player ID": "timlimi01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -772,6 +799,7 @@
   "fielding": [
     {
       "Player": "Ricky Bones",
+      "Player ID": "bonesri01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -789,6 +817,7 @@
     },
     {
       "Player": "Scott Erickson",
+      "Player ID": "ericksc01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -806,6 +835,7 @@
     },
     {
       "Player": "Mike Fetters",
+      "Player ID": "fettemi01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -823,6 +853,7 @@
     },
     {
       "Player": "Juan Guzman",
+      "Player ID": "guzmaju01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -840,6 +871,7 @@
     },
     {
       "Player": "Doug Johns",
+      "Player ID": "johnsdo04",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -857,6 +889,7 @@
     },
     {
       "Player": "Mike Mussina",
+      "Player ID": "mussimi01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -874,6 +907,7 @@
     },
     {
       "Player": "Jesse Orosco",
+      "Player ID": "oroscje01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -891,6 +925,7 @@
     },
     {
       "Player": "Arthur Rhodes",
+      "Player ID": "rhodear01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -908,6 +943,7 @@
     },
     {
       "Player": "Heathcliff Slocumb",
+      "Player ID": "slocuhe01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -925,6 +961,7 @@
     },
     {
       "Player": "Mike Timlin",
+      "Player ID": "timlimi01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -942,6 +979,7 @@
     },
     {
       "Player": "Charles Johnson",
+      "Player ID": "johnsch04",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -959,6 +997,7 @@
     },
     {
       "Player": "Lenny Webster",
+      "Player ID": "webstle01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -976,6 +1015,7 @@
     },
     {
       "Player": "Will Clark",
+      "Player ID": "clarkwi02",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -989,6 +1029,7 @@
     },
     {
       "Player": "Jesse Garcia",
+      "Player ID": "garcije01",
       "POS": "2B",
       "G": 2,
       "GS": 0,
@@ -1002,6 +1043,7 @@
     },
     {
       "Player": "Jeff Reboulet",
+      "Player ID": "rebouje01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1015,6 +1057,7 @@
     },
     {
       "Player": "Willis Otanez",
+      "Player ID": "otanewi01",
       "POS": "3B",
       "G": 2,
       "GS": 2,
@@ -1028,6 +1071,7 @@
     },
     {
       "Player": "Jeff Reboulet",
+      "Player ID": "rebouje01",
       "POS": "3B",
       "G": 1,
       "GS": 0,
@@ -1041,6 +1085,7 @@
     },
     {
       "Player": "Cal Ripken",
+      "Player ID": "ripkeca01",
       "POS": "3B",
       "G": 1,
       "GS": 1,
@@ -1054,6 +1099,7 @@
     },
     {
       "Player": "Mike Bordick",
+      "Player ID": "bordimi01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1067,6 +1113,7 @@
     },
     {
       "Player": "B.J. Surhoff",
+      "Player ID": "surhob.01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1080,6 +1127,7 @@
     },
     {
       "Player": "Brady Anderson",
+      "Player ID": "anderbr01",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1093,6 +1141,7 @@
     },
     {
       "Player": "Albert Belle",
+      "Player ID": "belleal01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

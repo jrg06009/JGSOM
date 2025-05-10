@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Jason Kendall",
+      "Player ID": "kendaja01",
       "G": 3,
       "PA": 15,
       "AB": 14,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Kevin Young",
+      "Player ID": "youngke01",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Warren Morris",
+      "Player ID": "morriwa02",
       "G": 3,
       "PA": 15,
       "AB": 11,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Ed Sprague",
+      "Player ID": "spraged02",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Mike Benjamin",
+      "Player ID": "benjami01",
       "G": 3,
       "PA": 12,
       "AB": 10,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Al Martin",
+      "Player ID": "martial03",
       "G": 3,
       "PA": 5,
       "AB": 5,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Brian Giles",
+      "Player ID": "gilesbr02",
       "G": 3,
       "PA": 14,
       "AB": 11,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Adrian Brown",
+      "Player ID": "brownad01",
       "G": 3,
       "PA": 2,
       "AB": 2,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Brant Brown",
+      "Player ID": "brownbr01",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Abraham Nunez",
+      "Player ID": "nunezab01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Jose Guillen",
+      "Player ID": "guilljo01",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Turner Ward",
+      "Player ID": "wardtu01",
       "G": 3,
       "PA": 3,
       "AB": 3,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Jason Schmidt",
+      "Player ID": "schmija01",
       "G": 1,
       "PA": 2,
       "AB": 1,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Francisco Cordova",
+      "Player ID": "cordofr01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Pete Schourek",
+      "Player ID": "schoupe01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Chris Peters",
+      "Player ID": "peterch01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Mike Williams",
+      "Player ID": "willimi03",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Scott Sauerbeck",
+      "Player ID": "sauersc01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Jason Christiansen",
+      "Player ID": "chrisja01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -536,6 +555,7 @@
   "pitching": [
     {
       "Player": "Jason Christiansen",
+      "Player ID": "chrisja01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -565,6 +585,7 @@
     },
     {
       "Player": "Francisco Cordova",
+      "Player ID": "cordofr01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -594,6 +615,7 @@
     },
     {
       "Player": "Rich Loiselle",
+      "Player ID": "loiseri01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -623,6 +645,7 @@
     },
     {
       "Player": "Chris Peters",
+      "Player ID": "peterch01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -652,6 +675,7 @@
     },
     {
       "Player": "Jason Phillips",
+      "Player ID": "phillja03",
       "W": 2,
       "L": 0,
       "W-L%": 1,
@@ -681,6 +705,7 @@
     },
     {
       "Player": "Scott Sauerbeck",
+      "Player ID": "sauersc01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -710,6 +735,7 @@
     },
     {
       "Player": "Jason Schmidt",
+      "Player ID": "schmija01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -739,6 +765,7 @@
     },
     {
       "Player": "Pete Schourek",
+      "Player ID": "schoupe01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -768,6 +795,7 @@
     },
     {
       "Player": "Mike Williams",
+      "Player ID": "willimi03",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -799,6 +827,7 @@
   "fielding": [
     {
       "Player": "Jason Christiansen",
+      "Player ID": "chrisja01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -816,6 +845,7 @@
     },
     {
       "Player": "Francisco Cordova",
+      "Player ID": "cordofr01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -833,6 +863,7 @@
     },
     {
       "Player": "Rich Loiselle",
+      "Player ID": "loiseri01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -850,6 +881,7 @@
     },
     {
       "Player": "Chris Peters",
+      "Player ID": "peterch01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -867,6 +899,7 @@
     },
     {
       "Player": "Jason Phillips",
+      "Player ID": "phillja03",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -884,6 +917,7 @@
     },
     {
       "Player": "Scott Sauerbeck",
+      "Player ID": "sauersc01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -901,6 +935,7 @@
     },
     {
       "Player": "Jason Schmidt",
+      "Player ID": "schmija01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -918,6 +953,7 @@
     },
     {
       "Player": "Pete Schourek",
+      "Player ID": "schoupe01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -935,6 +971,7 @@
     },
     {
       "Player": "Mike Williams",
+      "Player ID": "willimi03",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -952,6 +989,7 @@
     },
     {
       "Player": "Jason Kendall",
+      "Player ID": "kendaja01",
       "POS": "C",
       "G": 3,
       "GS": 3,
@@ -969,6 +1007,7 @@
     },
     {
       "Player": "Kevin Young",
+      "Player ID": "youngke01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -982,6 +1021,7 @@
     },
     {
       "Player": "Warren Morris",
+      "Player ID": "morriwa02",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -995,6 +1035,7 @@
     },
     {
       "Player": "Ed Sprague",
+      "Player ID": "spraged02",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1008,6 +1049,7 @@
     },
     {
       "Player": "Mike Benjamin",
+      "Player ID": "benjami01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1021,6 +1063,7 @@
     },
     {
       "Player": "Brian Giles",
+      "Player ID": "gilesbr02",
       "POS": "LF",
       "G": 3,
       "GS": 2,
@@ -1034,6 +1077,7 @@
     },
     {
       "Player": "Al Martin",
+      "Player ID": "martial03",
       "POS": "LF",
       "G": 1,
       "GS": 1,
@@ -1047,6 +1091,7 @@
     },
     {
       "Player": "Adrian Brown",
+      "Player ID": "brownad01",
       "POS": "CF",
       "G": 2,
       "GS": 0,
@@ -1060,6 +1105,7 @@
     },
     {
       "Player": "Brant Brown",
+      "Player ID": "brownbr01",
       "POS": "CF",
       "G": 3,
       "GS": 2,
@@ -1073,6 +1119,7 @@
     },
     {
       "Player": "Brian Giles",
+      "Player ID": "gilesbr02",
       "POS": "CF",
       "G": 1,
       "GS": 1,
@@ -1086,6 +1133,7 @@
     },
     {
       "Player": "Jose Guillen",
+      "Player ID": "guilljo01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

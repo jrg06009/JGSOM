@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Eli Marrero",
+      "Player ID": "marreel01",
       "G": 3,
       "PA": 10,
       "AB": 10,
@@ -26,11 +27,11 @@
       "OBP": ".200",
       "SLG": ".500",
       "OPS": ".700",
-      "TB": 5,
-      "C Hits": null
+      "TB": 5
     },
     {
       "Player": "Mark McGwire",
+      "Player ID": "mcgwima01",
       "G": 3,
       "PA": 14,
       "AB": 10,
@@ -55,11 +56,11 @@
       "OBP": ".429",
       "SLG": ".900",
       "OPS": "1.329",
-      "TB": 9,
-      "C Hits": null
+      "TB": 9
     },
     {
       "Player": "Joe McEwing",
+      "Player ID": "mcewijo01",
       "G": 3,
       "PA": 5,
       "AB": 4,
@@ -84,11 +85,11 @@
       "OBP": ".400",
       "SLG": ".250",
       "OPS": ".650",
-      "TB": 1,
-      "C Hits": null
+      "TB": 1
     },
     {
       "Player": "Fernando Tatis",
+      "Player ID": "tatisfe01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -113,11 +114,11 @@
       "OBP": ".286",
       "SLG": ".923",
       "OPS": "1.209",
-      "TB": 12,
-      "C Hits": null
+      "TB": 12
     },
     {
       "Player": "Edgar Renteria",
+      "Player ID": "renteed01",
       "G": 3,
       "PA": 11,
       "AB": 8,
@@ -142,11 +143,11 @@
       "OBP": ".455",
       "SLG": ".375",
       "OPS": ".830",
-      "TB": 3,
-      "C Hits": null
+      "TB": 3
     },
     {
       "Player": "J.D. Drew",
+      "Player ID": "drewj.01",
       "G": 3,
       "PA": 10,
       "AB": 8,
@@ -171,11 +172,11 @@
       "OBP": ".300",
       "SLG": ".125",
       "OPS": ".425",
-      "TB": 1,
-      "C Hits": null
+      "TB": 1
     },
     {
       "Player": "Eric Davis",
+      "Player ID": "daviser01",
       "G": 3,
       "PA": 14,
       "AB": 11,
@@ -200,11 +201,11 @@
       "OBP": ".500",
       "SLG": ".455",
       "OPS": ".955",
-      "TB": 5,
-      "C Hits": null
+      "TB": 5
     },
     {
       "Player": "Darren Bragg",
+      "Player ID": "braggda01",
       "G": 3,
       "PA": 10,
       "AB": 8,
@@ -229,11 +230,11 @@
       "OBP": ".444",
       "SLG": ".875",
       "OPS": "1.319",
-      "TB": 7,
-      "C Hits": null
+      "TB": 7
     },
     {
       "Player": "Willie McGee",
+      "Player ID": "mcgeewi01",
       "G": 2,
       "PA": 6,
       "AB": 6,
@@ -258,11 +259,11 @@
       "OBP": ".167",
       "SLG": ".167",
       "OPS": ".333",
-      "TB": 1,
-      "C Hits": null
+      "TB": 1
     },
     {
       "Player": "Alberto Castillo",
+      "Player ID": "castial01",
       "G": 2,
       "PA": 6,
       "AB": 6,
@@ -287,11 +288,11 @@
       "OBP": ".333",
       "SLG": ".333",
       "OPS": ".667",
-      "TB": 2,
-      "C Hits": null
+      "TB": 2
     },
     {
       "Player": "Placido Polanco",
+      "Player ID": "polanpl01",
       "G": 3,
       "PA": 10,
       "AB": 9,
@@ -316,11 +317,11 @@
       "OBP": ".500",
       "SLG": ".444",
       "OPS": ".944",
-      "TB": 4,
-      "C Hits": null
+      "TB": 4
     },
     {
       "Player": "Shawon Dunston",
+      "Player ID": "dunstsh01",
       "G": 3,
       "PA": 11,
       "AB": 10,
@@ -345,11 +346,11 @@
       "OBP": ".455",
       "SLG": ".400",
       "OPS": ".855",
-      "TB": 4,
-      "C Hits": null
+      "TB": 4
     },
     {
       "Player": "Luis Ordaz",
+      "Player ID": "ordazlu01",
       "G": 2,
       "PA": 2,
       "AB": 2,
@@ -374,11 +375,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Kent Bottenfield",
+      "Player ID": "botteke01",
       "G": 1,
       "PA": 2,
       "AB": 2,
@@ -403,11 +404,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Kent Mercker",
+      "Player ID": "merckke01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -432,11 +433,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Juan Acevedo",
+      "Player ID": "aceveju01",
       "G": 3,
       "PA": 0,
       "AB": 0,
@@ -461,11 +462,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Manny Aybar",
+      "Player ID": "aybarma01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -490,11 +491,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Donovan Osborne",
+      "Player ID": "osbordo01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -519,11 +520,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Lance Painter",
+      "Player ID": "paintla01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -548,11 +549,11 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     },
     {
       "Player": "Ricky Bottalico",
+      "Player ID": "bottari01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -577,13 +578,13 @@
       "OBP": ".000",
       "SLG": ".000",
       "OPS": ".000",
-      "TB": 0,
-      "C Hits": null
+      "TB": 0
     }
   ],
   "pitching": [
     {
       "Player": "Juan Acevedo",
+      "Player ID": "aceveju01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -613,6 +614,7 @@
     },
     {
       "Player": "Manny Aybar",
+      "Player ID": "aybarma01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -642,6 +644,7 @@
     },
     {
       "Player": "Ricky Bottalico",
+      "Player ID": "bottari01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -671,6 +674,7 @@
     },
     {
       "Player": "Kent Bottenfield",
+      "Player ID": "botteke01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -700,6 +704,7 @@
     },
     {
       "Player": "Mike Busby",
+      "Player ID": "busbymi01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -729,6 +734,7 @@
     },
     {
       "Player": "Kent Mercker",
+      "Player ID": "merckke01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -758,6 +764,7 @@
     },
     {
       "Player": "Donovan Osborne",
+      "Player ID": "osbordo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -787,6 +794,7 @@
     },
     {
       "Player": "Lance Painter",
+      "Player ID": "paintla01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -816,6 +824,7 @@
     },
     {
       "Player": "Scott Radinsky",
+      "Player ID": "radinsc01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -847,6 +856,7 @@
   "fielding": [
     {
       "Player": "Juan Acevedo",
+      "Player ID": "aceveju01",
       "POS": "P",
       "G": 3,
       "GS": 0,
@@ -864,6 +874,7 @@
     },
     {
       "Player": "Manny Aybar",
+      "Player ID": "aybarma01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -881,6 +892,7 @@
     },
     {
       "Player": "Ricky Bottalico",
+      "Player ID": "bottari01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -898,6 +910,7 @@
     },
     {
       "Player": "Kent Bottenfield",
+      "Player ID": "botteke01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -915,6 +928,7 @@
     },
     {
       "Player": "Mike Busby",
+      "Player ID": "busbymi01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -932,6 +946,7 @@
     },
     {
       "Player": "Kent Mercker",
+      "Player ID": "merckke01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -949,6 +964,7 @@
     },
     {
       "Player": "Donovan Osborne",
+      "Player ID": "osbordo01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -966,6 +982,7 @@
     },
     {
       "Player": "Lance Painter",
+      "Player ID": "paintla01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -983,6 +1000,7 @@
     },
     {
       "Player": "Scott Radinsky",
+      "Player ID": "radinsc01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1000,6 +1018,7 @@
     },
     {
       "Player": "Alberto Castillo",
+      "Player ID": "castial01",
       "POS": "C",
       "G": 2,
       "GS": 1,
@@ -1017,6 +1036,7 @@
     },
     {
       "Player": "Eli Marrero",
+      "Player ID": "marreel01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -1034,6 +1054,7 @@
     },
     {
       "Player": "Mark McGwire",
+      "Player ID": "mcgwima01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -1047,6 +1068,7 @@
     },
     {
       "Player": "Joe McEwing",
+      "Player ID": "mcewijo01",
       "POS": "2B",
       "G": 1,
       "GS": 1,
@@ -1060,6 +1082,7 @@
     },
     {
       "Player": "Luis Ordaz",
+      "Player ID": "ordazlu01",
       "POS": "2B",
       "G": 1,
       "GS": 0,
@@ -1073,6 +1096,7 @@
     },
     {
       "Player": "Placido Polanco",
+      "Player ID": "polanpl01",
       "POS": "2B",
       "G": 2,
       "GS": 2,
@@ -1086,6 +1110,7 @@
     },
     {
       "Player": "Fernando Tatis",
+      "Player ID": "tatisfe01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1099,6 +1124,7 @@
     },
     {
       "Player": "Shawon Dunston",
+      "Player ID": "dunstsh01",
       "POS": "SS",
       "G": 1,
       "GS": 1,
@@ -1112,6 +1138,7 @@
     },
     {
       "Player": "Luis Ordaz",
+      "Player ID": "ordazlu01",
       "POS": "SS",
       "G": 1,
       "GS": 0,
@@ -1125,6 +1152,7 @@
     },
     {
       "Player": "Edgar Renteria",
+      "Player ID": "renteed01",
       "POS": "SS",
       "G": 3,
       "GS": 2,
@@ -1138,6 +1166,7 @@
     },
     {
       "Player": "Darren Bragg",
+      "Player ID": "braggda01",
       "POS": "LF",
       "G": 1,
       "GS": 1,
@@ -1151,6 +1180,7 @@
     },
     {
       "Player": "Shawon Dunston",
+      "Player ID": "dunstsh01",
       "POS": "LF",
       "G": 2,
       "GS": 1,
@@ -1164,6 +1194,7 @@
     },
     {
       "Player": "Willie McGee",
+      "Player ID": "mcgeewi01",
       "POS": "LF",
       "G": 2,
       "GS": 1,
@@ -1177,6 +1208,7 @@
     },
     {
       "Player": "Darren Bragg",
+      "Player ID": "braggda01",
       "POS": "CF",
       "G": 1,
       "GS": 1,
@@ -1190,6 +1222,7 @@
     },
     {
       "Player": "J.D. Drew",
+      "Player ID": "drewj.01",
       "POS": "CF",
       "G": 3,
       "GS": 2,
@@ -1203,6 +1236,7 @@
     },
     {
       "Player": "Shawon Dunston",
+      "Player ID": "dunstsh01",
       "POS": "CF",
       "G": 1,
       "GS": 0,
@@ -1216,6 +1250,7 @@
     },
     {
       "Player": "Eric Davis",
+      "Player ID": "daviser01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

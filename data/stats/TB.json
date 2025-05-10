@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "John Flaherty",
+      "Player ID": "flahejo01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Fred McGriff",
+      "Player ID": "mcgrifr01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Miguel Cairo",
+      "Player ID": "cairomi01",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Wade Boggs",
+      "Player ID": "boggswa01",
       "G": 3,
       "PA": 10,
       "AB": 10,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Kevin Stocker",
+      "Player ID": "stockke01",
       "G": 3,
       "PA": 9,
       "AB": 8,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Randy Winn",
+      "Player ID": "winnra01",
       "G": 3,
       "PA": 13,
       "AB": 13,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Dave Martinez",
+      "Player ID": "martida01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Jose Canseco",
+      "Player ID": "cansejo01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Paul Sorrento",
+      "Player ID": "sorrepa01",
       "G": 2,
       "PA": 7,
       "AB": 7,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Bob Smith",
+      "Player ID": "smithbo06",
       "G": 1,
       "PA": 4,
       "AB": 3,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Quinton McCracken",
+      "Player ID": "mccraqu01",
       "G": 2,
       "PA": 6,
       "AB": 6,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "David Lamb",
+      "Player ID": "lambda01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Wilson Alvarez",
+      "Player ID": "alvarwi01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Bobby Witt",
+      "Player ID": "wittbo01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -396,6 +410,7 @@
   "pitching": [
     {
       "Player": "Scott Aldred",
+      "Player ID": "aldresc01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -425,6 +440,7 @@
     },
     {
       "Player": "Wilson Alvarez",
+      "Player ID": "alvarwi01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -454,6 +470,7 @@
     },
     {
       "Player": "Mike Duvall",
+      "Player ID": "duvalmi01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -483,6 +500,7 @@
     },
     {
       "Player": "Roberto Hernandez",
+      "Player ID": "hernaro01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -512,6 +530,7 @@
     },
     {
       "Player": "Albie Lopez",
+      "Player ID": "lopezal02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -541,6 +560,7 @@
     },
     {
       "Player": "Jim Mecir",
+      "Player ID": "mecirji01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -570,6 +590,7 @@
     },
     {
       "Player": "Tony Saunders",
+      "Player ID": "saundto01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -599,6 +620,7 @@
     },
     {
       "Player": "Rick White",
+      "Player ID": "whiteri01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -628,6 +650,7 @@
     },
     {
       "Player": "Bobby Witt",
+      "Player ID": "wittbo01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -659,6 +682,7 @@
   "fielding": [
     {
       "Player": "Scott Aldred",
+      "Player ID": "aldresc01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -676,6 +700,7 @@
     },
     {
       "Player": "Wilson Alvarez",
+      "Player ID": "alvarwi01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -693,6 +718,7 @@
     },
     {
       "Player": "Mike Duvall",
+      "Player ID": "duvalmi01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -710,6 +736,7 @@
     },
     {
       "Player": "Roberto Hernandez",
+      "Player ID": "hernaro01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -727,6 +754,7 @@
     },
     {
       "Player": "Albie Lopez",
+      "Player ID": "lopezal02",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -744,6 +772,7 @@
     },
     {
       "Player": "Jim Mecir",
+      "Player ID": "mecirji01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -761,6 +790,7 @@
     },
     {
       "Player": "Tony Saunders",
+      "Player ID": "saundto01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -778,6 +808,7 @@
     },
     {
       "Player": "Rick White",
+      "Player ID": "whiteri01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -795,6 +826,7 @@
     },
     {
       "Player": "Bobby Witt",
+      "Player ID": "wittbo01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -812,6 +844,7 @@
     },
     {
       "Player": "John Flaherty",
+      "Player ID": "flahejo01",
       "POS": "C",
       "G": 3,
       "GS": 3,
@@ -829,6 +862,7 @@
     },
     {
       "Player": "Fred McGriff",
+      "Player ID": "mcgrifr01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -842,6 +876,7 @@
     },
     {
       "Player": "Miguel Cairo",
+      "Player ID": "cairomi01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -855,6 +890,7 @@
     },
     {
       "Player": "Wade Boggs",
+      "Player ID": "boggswa01",
       "POS": "3B",
       "G": 2,
       "GS": 2,
@@ -868,6 +904,7 @@
     },
     {
       "Player": "Bob Smith",
+      "Player ID": "smithbo06",
       "POS": "3B",
       "G": 1,
       "GS": 1,
@@ -881,6 +918,7 @@
     },
     {
       "Player": "David Lamb",
+      "Player ID": "lambda01",
       "POS": "SS",
       "G": 1,
       "GS": 0,
@@ -894,6 +932,7 @@
     },
     {
       "Player": "Kevin Stocker",
+      "Player ID": "stockke01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -907,6 +946,7 @@
     },
     {
       "Player": "Quinton McCracken",
+      "Player ID": "mccraqu01",
       "POS": "LF",
       "G": 2,
       "GS": 1,
@@ -920,6 +960,7 @@
     },
     {
       "Player": "Paul Sorrento",
+      "Player ID": "sorrepa01",
       "POS": "LF",
       "G": 2,
       "GS": 2,
@@ -933,6 +974,7 @@
     },
     {
       "Player": "Randy Winn",
+      "Player ID": "winnra01",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -946,6 +988,7 @@
     },
     {
       "Player": "Dave Martinez",
+      "Player ID": "martida01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

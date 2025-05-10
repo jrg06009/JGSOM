@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Todd Helton",
+      "Player ID": "heltoto01",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Neifi Perez",
+      "Player ID": "perezne01",
       "G": 3,
       "PA": 13,
       "AB": 13,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Vinny Castilla",
+      "Player ID": "castivi02",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Dante Bichette",
+      "Player ID": "bicheda01",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Darryl Hamilton",
+      "Player ID": "hamilda02",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Angel Echevarria",
+      "Player ID": "echevan01",
       "G": 2,
       "PA": 2,
       "AB": 2,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Lenny Harris",
+      "Player ID": "harrile01",
       "G": 3,
       "PA": 9,
       "AB": 9,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Kirt Manwaring",
+      "Player ID": "manwaki01",
       "G": 2,
       "PA": 7,
       "AB": 3,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Mike Lansing",
+      "Player ID": "lansimi01",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Jeff Reed",
+      "Player ID": "reedje02",
       "G": 1,
       "PA": 4,
       "AB": 4,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Pat Watkins",
+      "Player ID": "watkipa01",
       "G": 2,
       "PA": 4,
       "AB": 2,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Pedro Astacio",
+      "Player ID": "astacpe01",
       "G": 1,
       "PA": 3,
       "AB": 2,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Darryl Kile",
+      "Player ID": "kileda01",
       "G": 1,
       "PA": 2,
       "AB": 2,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Jamey Wright",
+      "Player ID": "wrighja01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Bobby M. Jones",
+      "Player ID": "jonesbo04",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Roberto Ramirez",
+      "Player ID": "ramirro01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Jerry Dipoto",
+      "Player ID": "dipotje01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Curt Leskanic",
+      "Player ID": "leskacu01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Chuck McElroy",
+      "Player ID": "mcelrch01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -534,6 +553,7 @@
     },
     {
       "Player": "Mike DeJean",
+      "Player ID": "dejeami01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -562,6 +582,7 @@
     },
     {
       "Player": "Dave Veres",
+      "Player ID": "veresda01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -592,6 +613,7 @@
   "pitching": [
     {
       "Player": "Pedro Astacio",
+      "Player ID": "astacpe01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -621,6 +643,7 @@
     },
     {
       "Player": "Darryl Kile",
+      "Player ID": "kileda01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -650,6 +673,7 @@
     },
     {
       "Player": "Bobby M. Jones",
+      "Player ID": "jonesbo04",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -679,6 +703,7 @@
     },
     {
       "Player": "Jamey Wright",
+      "Player ID": "wrighja01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -708,6 +733,7 @@
     },
     {
       "Player": "Dave Veres",
+      "Player ID": "veresda01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -737,6 +763,7 @@
     },
     {
       "Player": "Jerry Dipoto",
+      "Player ID": "dipotje01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -766,6 +793,7 @@
     },
     {
       "Player": "Curt Leskanic",
+      "Player ID": "leskacu01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -795,6 +823,7 @@
     },
     {
       "Player": "Mike DeJean",
+      "Player ID": "dejeami01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -824,6 +853,7 @@
     },
     {
       "Player": "Chuck McElroy",
+      "Player ID": "mcelrch01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -853,6 +883,7 @@
     },
     {
       "Player": "Roberto Ramirez",
+      "Player ID": "ramirro01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -884,6 +915,7 @@
   "fielding": [
     {
       "Player": "Pedro Astacio",
+      "Player ID": "astacpe01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -901,6 +933,7 @@
     },
     {
       "Player": "Mike DeJean",
+      "Player ID": "dejeami01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -918,6 +951,7 @@
     },
     {
       "Player": "Jerry DiPoto",
+      "Player ID": "dipotje01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -935,6 +969,7 @@
     },
     {
       "Player": "Bobby M. Jones",
+      "Player ID": "jonesbo04",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -952,6 +987,7 @@
     },
     {
       "Player": "Darryl Kile",
+      "Player ID": "kileda01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -969,6 +1005,7 @@
     },
     {
       "Player": "Curt Leskanic",
+      "Player ID": "leskacu01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -986,6 +1023,7 @@
     },
     {
       "Player": "Chuck McElroy",
+      "Player ID": "mcelrch01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1003,6 +1041,7 @@
     },
     {
       "Player": "Roberto Ramirez",
+      "Player ID": "ramirro01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1020,6 +1059,7 @@
     },
     {
       "Player": "Dave Veres",
+      "Player ID": "veresda01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1037,6 +1077,7 @@
     },
     {
       "Player": "Jamey Wright",
+      "Player ID": "wrighja01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -1054,6 +1095,7 @@
     },
     {
       "Player": "Kirt Manwaring",
+      "Player ID": "manwaki01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -1071,6 +1113,7 @@
     },
     {
       "Player": "Jeff Reed",
+      "Player ID": "reedje02",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -1088,6 +1131,7 @@
     },
     {
       "Player": "Todd Helton",
+      "Player ID": "heltoto01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -1101,6 +1145,7 @@
     },
     {
       "Player": "Mike Lansing",
+      "Player ID": "lansimi01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1114,6 +1159,7 @@
     },
     {
       "Player": "Vinny Castilla",
+      "Player ID": "castivi02",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1127,6 +1173,7 @@
     },
     {
       "Player": "Neifi Perez",
+      "Player ID": "perezne01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1140,6 +1187,7 @@
     },
     {
       "Player": "Dante Bichette",
+      "Player ID": "bicheda01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1153,6 +1201,7 @@
     },
     {
       "Player": "Darryl Hamilton",
+      "Player ID": "hamilda02",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1166,6 +1215,7 @@
     },
     {
       "Player": "Lenny Harris",
+      "Player ID": "harrile01",
       "POS": "RF",
       "G": 2,
       "GS": 2,
@@ -1179,6 +1229,7 @@
     },
     {
       "Player": "Pat Watkins",
+      "Player ID": "watkipa01",
       "POS": "RF",
       "G": 2,
       "GS": 1,

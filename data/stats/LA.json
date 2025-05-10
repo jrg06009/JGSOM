@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Todd Hundley",
+      "Player ID": "hundlto01",
       "G": 3,
       "PA": 12,
       "AB": 10,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Eric Karros",
+      "Player ID": "karroer01",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Eric Young",
+      "Player ID": "younger01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Adrian Beltre",
+      "Player ID": "beltrad01",
       "G": 3,
       "PA": 11,
       "AB": 9,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Mark Grudzielanek",
+      "Player ID": "grudzma01",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Gary Sheffield",
+      "Player ID": "sheffga01",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Devon White",
+      "Player ID": "whitede03",
       "G": 3,
       "PA": 13,
       "AB": 13,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Raul Mondesi",
+      "Player ID": "mondera01",
       "G": 3,
       "PA": 13,
       "AB": 13,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Jose Vizcaino",
+      "Player ID": "vizcajo01",
       "G": 3,
       "PA": 3,
       "AB": 3,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Dave Hansen",
+      "Player ID": "hanseda01",
       "G": 2,
       "PA": 1,
       "AB": 1,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Paul Lo Duca",
+      "Player ID": "loducpa01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Tripp Cromer",
+      "Player ID": "crometr01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Jacob Brumfield",
+      "Player ID": "brumfja01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Rick Wilkins",
+      "Player ID": "wilkiri01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Kevin Brown",
+      "Player ID": "brownke01",
       "G": 1,
       "PA": 2,
       "AB": 1,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Chan Ho Park",
+      "Player ID": "parkch01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Ismael Valdez",
+      "Player ID": "valdeis01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Onan Masaoka",
+      "Player ID": "masaoon01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Alan Mills",
+      "Player ID": "millsal01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -534,6 +553,7 @@
     },
     {
       "Player": "Pedro Borbon",
+      "Player ID": "borbope02",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -562,6 +582,7 @@
     },
     {
       "Player": "Dave Mlicki",
+      "Player ID": "mlickda01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -590,6 +611,7 @@
     },
     {
       "Player": "Jeff Shaw",
+      "Player ID": "shawje01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -618,6 +640,7 @@
     },
     {
       "Player": "Mel Rojas",
+      "Player ID": "rojasme01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -648,6 +671,7 @@
   "pitching": [
     {
       "Player": "Pedro Borbon",
+      "Player ID": "borbope02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -677,6 +701,7 @@
     },
     {
       "Player": "Kevin Brown",
+      "Player ID": "brownke01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -706,6 +731,7 @@
     },
     {
       "Player": "Onan Masaoka",
+      "Player ID": "masaoon01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -735,6 +761,7 @@
     },
     {
       "Player": "Alan Mills",
+      "Player ID": "millsal01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -764,6 +791,7 @@
     },
     {
       "Player": "Dave Mlicki",
+      "Player ID": "mlickda01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -793,6 +821,7 @@
     },
     {
       "Player": "Chan Ho Park",
+      "Player ID": "parkch01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -822,6 +851,7 @@
     },
     {
       "Player": "Mel Rojas",
+      "Player ID": "rojasme01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -851,6 +881,7 @@
     },
     {
       "Player": "Jeff Shaw",
+      "Player ID": "shawje01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -880,6 +911,7 @@
     },
     {
       "Player": "Ismael Valdez",
+      "Player ID": "valdeis01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -911,6 +943,7 @@
   "fielding": [
     {
       "Player": "Pedro Borbon",
+      "Player ID": "borbope02",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -928,6 +961,7 @@
     },
     {
       "Player": "Kevin Brown",
+      "Player ID": "brownke01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -945,6 +979,7 @@
     },
     {
       "Player": "Onan Masaoka",
+      "Player ID": "masaoon01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -962,6 +997,7 @@
     },
     {
       "Player": "Alan Mills",
+      "Player ID": "millsal01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -979,6 +1015,7 @@
     },
     {
       "Player": "Dave Mlicki",
+      "Player ID": "mlickda01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -996,6 +1033,7 @@
     },
     {
       "Player": "Chan Ho Park",
+      "Player ID": "parkch01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -1013,6 +1051,7 @@
     },
     {
       "Player": "Mel Rojas",
+      "Player ID": "rojasme01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -1030,6 +1069,7 @@
     },
     {
       "Player": "Jeff Shaw",
+      "Player ID": "shawje01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -1047,6 +1087,7 @@
     },
     {
       "Player": "Ismael Valdez",
+      "Player ID": "valdeis01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -1064,6 +1105,7 @@
     },
     {
       "Player": "Todd Hundley",
+      "Player ID": "hundlto01",
       "POS": "C",
       "G": 3,
       "GS": 3,
@@ -1081,6 +1123,7 @@
     },
     {
       "Player": "Paul Lo Duca",
+      "Player ID": "loducpa01",
       "POS": "C",
       "G": 1,
       "GS": 0,
@@ -1098,6 +1141,7 @@
     },
     {
       "Player": "Eric Karros",
+      "Player ID": "karroer01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -1111,6 +1155,7 @@
     },
     {
       "Player": "Jose Vizcaino",
+      "Player ID": "vizcajo01",
       "POS": "2B",
       "G": 1,
       "GS": 0,
@@ -1124,6 +1169,7 @@
     },
     {
       "Player": "Eric Young",
+      "Player ID": "younger01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1137,6 +1183,7 @@
     },
     {
       "Player": "Adrian Beltre",
+      "Player ID": "beltrad01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1150,6 +1197,7 @@
     },
     {
       "Player": "Jose Vizcaino",
+      "Player ID": "vizcajo01",
       "POS": "3B",
       "G": 1,
       "GS": 0,
@@ -1163,6 +1211,7 @@
     },
     {
       "Player": "Mark Grudzielanek",
+      "Player ID": "grudzma01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1176,6 +1225,7 @@
     },
     {
       "Player": "Gary Sheffield",
+      "Player ID": "sheffga01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1189,6 +1239,7 @@
     },
     {
       "Player": "Devon White",
+      "Player ID": "whitede03",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1202,6 +1253,7 @@
     },
     {
       "Player": "Raul Mondesi",
+      "Player ID": "mondera01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

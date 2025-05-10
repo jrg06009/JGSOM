@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Chris Widger",
+      "Player ID": "widgech01",
       "G": 3,
       "PA": 11,
       "AB": 9,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Brad Fullmer",
+      "Player ID": "fullmbr01",
       "G": 3,
       "PA": 10,
       "AB": 8,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Jose Vidro",
+      "Player ID": "vidrojo01",
       "G": 3,
       "PA": 7,
       "AB": 7,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Shane Andrews",
+      "Player ID": "andresh01",
       "G": 3,
       "PA": 7,
       "AB": 7,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Orlando Cabrera",
+      "Player ID": "cabreor01",
       "G": 3,
       "PA": 15,
       "AB": 15,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Rondell White",
+      "Player ID": "whitero02",
       "G": 3,
       "PA": 15,
       "AB": 13,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Manny Martinez",
+      "Player ID": "martima02",
       "G": 3,
       "PA": 12,
       "AB": 11,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Vladimir Guerrero",
+      "Player ID": "guerrvl01",
       "G": 3,
       "PA": 14,
       "AB": 14,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Michael Barrett",
+      "Player ID": "barremi01",
       "G": 3,
       "PA": 13,
       "AB": 13,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Wilton Guerrero",
+      "Player ID": "guerrwi01",
       "G": 3,
       "PA": 16,
       "AB": 14,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Orlando Merced",
+      "Player ID": "merceor01",
       "G": 3,
       "PA": 2,
       "AB": 2,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "James Mouton",
+      "Player ID": "moutoja01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Dustin Hermanson",
+      "Player ID": "hermadu01",
       "G": 1,
       "PA": 3,
       "AB": 1,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Javier Vazquez",
+      "Player ID": "vazquja01",
       "G": 1,
       "PA": 3,
       "AB": 3,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Carl Pavano",
+      "Player ID": "pavanca01",
       "G": 1,
       "PA": 2,
       "AB": 2,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Ugueth Urbina",
+      "Player ID": "urbinug01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Anthony Telford",
+      "Player ID": "telfoan01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Steve Kline",
+      "Player ID": "klinest02",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Bobby Ayala",
+      "Player ID": "ayalabo01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -536,6 +555,7 @@
   "pitching": [
     {
       "Player": "Bobby Ayala",
+      "Player ID": "ayalabo01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -565,6 +585,7 @@
     },
     {
       "Player": "Dustin Hermanson",
+      "Player ID": "hermadu01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -594,6 +615,7 @@
     },
     {
       "Player": "Steve Kline",
+      "Player ID": "klinest02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -623,6 +645,7 @@
     },
     {
       "Player": "Mike Maddux",
+      "Player ID": "maddumi01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -652,6 +675,7 @@
     },
     {
       "Player": "Carl Pavano",
+      "Player ID": "pavanca01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -681,6 +705,7 @@
     },
     {
       "Player": "Anthony Telford",
+      "Player ID": "telfoan01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -710,6 +735,7 @@
     },
     {
       "Player": "Ugueth Urbina",
+      "Player ID": "urbinug01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -739,6 +765,7 @@
     },
     {
       "Player": "Javier Vazquez",
+      "Player ID": "vazquja01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -770,6 +797,7 @@
   "fielding": [
     {
       "Player": "Bobby Ayala",
+      "Player ID": "ayalabo01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -787,6 +815,7 @@
     },
     {
       "Player": "Dustin Hermanson",
+      "Player ID": "hermadu01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -804,6 +833,7 @@
     },
     {
       "Player": "Steve Kline",
+      "Player ID": "klinest02",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -821,6 +851,7 @@
     },
     {
       "Player": "Mike Maddux",
+      "Player ID": "maddumi01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -838,6 +869,7 @@
     },
     {
       "Player": "Carl Pavano",
+      "Player ID": "pavanca01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -855,6 +887,7 @@
     },
     {
       "Player": "Anthony Telford",
+      "Player ID": "telfoan01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -872,6 +905,7 @@
     },
     {
       "Player": "Ugueth Urbina",
+      "Player ID": "urbinug01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -889,6 +923,7 @@
     },
     {
       "Player": "Javier Vazquez",
+      "Player ID": "vazquja01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -906,6 +941,7 @@
     },
     {
       "Player": "Michael Barrett",
+      "Player ID": "barremi01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -923,6 +959,7 @@
     },
     {
       "Player": "Chris Widger",
+      "Player ID": "widgech01",
       "POS": "C",
       "G": 3,
       "GS": 2,
@@ -940,6 +977,7 @@
     },
     {
       "Player": "Brad Fullmer",
+      "Player ID": "fullmbr01",
       "POS": "1B",
       "G": 3,
       "GS": 2,
@@ -953,6 +991,7 @@
     },
     {
       "Player": "Jose Vidro",
+      "Player ID": "vidrojo01",
       "POS": "1B",
       "G": 1,
       "GS": 1,
@@ -966,6 +1005,7 @@
     },
     {
       "Player": "Wilton Guerrero",
+      "Player ID": "guerrwi01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -979,6 +1019,7 @@
     },
     {
       "Player": "Jose Vidro",
+      "Player ID": "vidrojo01",
       "POS": "2B",
       "G": 1,
       "GS": 0,
@@ -992,6 +1033,7 @@
     },
     {
       "Player": "Shane Andrews",
+      "Player ID": "andresh01",
       "POS": "3B",
       "G": 2,
       "GS": 1,
@@ -1005,6 +1047,7 @@
     },
     {
       "Player": "Michael Barrett",
+      "Player ID": "barremi01",
       "POS": "3B",
       "G": 3,
       "GS": 2,
@@ -1018,6 +1061,7 @@
     },
     {
       "Player": "Orlando Cabrera",
+      "Player ID": "cabreor01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1031,6 +1075,7 @@
     },
     {
       "Player": "Rondell White",
+      "Player ID": "whitero02",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1044,6 +1089,7 @@
     },
     {
       "Player": "Manny Martinez",
+      "Player ID": "martima02",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1057,6 +1103,7 @@
     },
     {
       "Player": "Vladimir Guerrero",
+      "Player ID": "guerrvl01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

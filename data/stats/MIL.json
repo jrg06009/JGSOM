@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Dave Nilsson",
+      "Player ID": "nilssda01",
       "G": 3,
       "PA": 10,
       "AB": 9,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Mark Loretta",
+      "Player ID": "loretma01",
       "G": 2,
       "PA": 8,
       "AB": 8,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Jeff Cirillo",
+      "Player ID": "cirilje01",
       "G": 3,
       "PA": 15,
       "AB": 12,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Jose Valentin",
+      "Player ID": "valenjo03",
       "G": 3,
       "PA": 6,
       "AB": 5,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Geoff Jenkins",
+      "Player ID": "jenkige01",
       "G": 2,
       "PA": 7,
       "AB": 6,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Marquis Grissom",
+      "Player ID": "grissma02",
       "G": 3,
       "PA": 15,
       "AB": 13,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Jeromy Burnitz",
+      "Player ID": "burnije01",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Alex Ochoa",
+      "Player ID": "ochoaal01",
       "G": 3,
       "PA": 7,
       "AB": 5,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Sean Berry",
+      "Player ID": "berryse01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Brian Banks",
+      "Player ID": "banksbr01",
       "G": 3,
       "PA": 3,
       "AB": 3,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Fernando Vina",
+      "Player ID": "vinafe01",
       "G": 3,
       "PA": 15,
       "AB": 14,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Rich Becker",
+      "Player ID": "beckeri01",
       "G": 1,
       "PA": 1,
       "AB": 1,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Bobby Hughes",
+      "Player ID": "hughebo01",
       "G": 1,
       "PA": 4,
       "AB": 3,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Steve Woodard",
+      "Player ID": "woodast01",
       "G": 1,
       "PA": 2,
       "AB": 1,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Jim Abbott",
+      "Player ID": "abbotji01",
       "G": 1,
       "PA": 2,
       "AB": 2,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Rafael Roque",
+      "Player ID": "roquera01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "David Weathers",
+      "Player ID": "weathda01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -478,6 +495,7 @@
     },
     {
       "Player": "Bob Wickman",
+      "Player ID": "wickmbo01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -506,6 +524,7 @@
     },
     {
       "Player": "Mike Myers",
+      "Player ID": "myersmi01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -534,6 +553,7 @@
     },
     {
       "Player": "Chad Fox",
+      "Player ID": "foxch02",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -564,6 +584,7 @@
   "pitching": [
     {
       "Player": "Jim Abbott",
+      "Player ID": "abbotji01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -593,6 +614,7 @@
     },
     {
       "Player": "Valerio de los Santos",
+      "Player ID": "delosva01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -622,6 +644,7 @@
     },
     {
       "Player": "Chad Fox",
+      "Player ID": "foxch02",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -651,6 +674,7 @@
     },
     {
       "Player": "Mike Myers",
+      "Player ID": "myersmi01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -680,6 +704,7 @@
     },
     {
       "Player": "Eric Plunk",
+      "Player ID": "plunker01",
       "W": 1,
       "L": 1,
       "W-L%": 0.5,
@@ -709,6 +734,7 @@
     },
     {
       "Player": "Rafael Roque",
+      "Player ID": "roquera01",
       "W": 0,
       "L": 1,
       "W-L%": 0.0,
@@ -738,6 +764,7 @@
     },
     {
       "Player": "David Weathers",
+      "Player ID": "weathda01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -767,6 +794,7 @@
     },
     {
       "Player": "Bob Wickman",
+      "Player ID": "wickmbo01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -796,6 +824,7 @@
     },
     {
       "Player": "Steve Woodard",
+      "Player ID": "woodast01",
       "W": 0,
       "L": 0,
       "W-L%": 0.0,
@@ -827,6 +856,7 @@
   "fielding": [
     {
       "Player": "Jim Abbott",
+      "Player ID": "abbotji01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -844,6 +874,7 @@
     },
     {
       "Player": "Valerio de los Santos",
+      "Player ID": "delosva01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -861,6 +892,7 @@
     },
     {
       "Player": "Chad Fox",
+      "Player ID": "foxch02",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -878,6 +910,7 @@
     },
     {
       "Player": "Mike Myers",
+      "Player ID": "myersmi01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -895,6 +928,7 @@
     },
     {
       "Player": "Eric Plunk",
+      "Player ID": "plunker01",
       "POS": "P",
       "G": 3,
       "GS": 0,
@@ -912,6 +946,7 @@
     },
     {
       "Player": "Rafael Roque",
+      "Player ID": "roquera01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -929,6 +964,7 @@
     },
     {
       "Player": "David Weathers",
+      "Player ID": "weathda01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -946,6 +982,7 @@
     },
     {
       "Player": "Bob Wickman",
+      "Player ID": "wickmbo01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -963,6 +1000,7 @@
     },
     {
       "Player": "Steve Woodard",
+      "Player ID": "woodast01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -980,6 +1018,7 @@
     },
     {
       "Player": "Bobby Hughes",
+      "Player ID": "hughebo01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -997,6 +1036,7 @@
     },
     {
       "Player": "Dave Nilsson",
+      "Player ID": "nilssda01",
       "POS": "C",
       "G": 3,
       "GS": 2,
@@ -1014,6 +1054,7 @@
     },
     {
       "Player": "Sean Berry",
+      "Player ID": "berryse01",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -1027,6 +1068,7 @@
     },
     {
       "Player": "Fernando Vina",
+      "Player ID": "vinafe01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1040,6 +1082,7 @@
     },
     {
       "Player": "Jeff Cirillo",
+      "Player ID": "cirilje01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1053,6 +1096,7 @@
     },
     {
       "Player": "Mark Loretta",
+      "Player ID": "loretma01",
       "POS": "SS",
       "G": 2,
       "GS": 2,
@@ -1066,6 +1110,7 @@
     },
     {
       "Player": "Jose Valentin",
+      "Player ID": "valenjo03",
       "POS": "SS",
       "G": 2,
       "GS": 1,
@@ -1079,6 +1124,7 @@
     },
     {
       "Player": "Geoff Jenkins",
+      "Player ID": "jenkige01",
       "POS": "LF",
       "G": 2,
       "GS": 2,
@@ -1092,6 +1138,7 @@
     },
     {
       "Player": "Alex Ochoa",
+      "Player ID": "ochoaal01",
       "POS": "LF",
       "G": 1,
       "GS": 1,
@@ -1105,6 +1152,7 @@
     },
     {
       "Player": "Marquis Grissom",
+      "Player ID": "grissma02",
       "POS": "CF",
       "G": 3,
       "GS": 3,
@@ -1118,6 +1166,7 @@
     },
     {
       "Player": "Jeromy Burnitz",
+      "Player ID": "burnije01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

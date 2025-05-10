@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Jason Varitek",
+      "Player ID": "varitja01",
       "G": 2,
       "PA": 9,
       "AB": 9,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Mike Stanley",
+      "Player ID": "stanlmi02",
       "G": 3,
       "PA": 14,
       "AB": 14,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Jose Offerman",
+      "Player ID": "offerjo01",
       "G": 3,
       "PA": 15,
       "AB": 11,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "John Valentin",
+      "Player ID": "valenjo02",
       "G": 3,
       "PA": 15,
       "AB": 15,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Nomar Garciaparra",
+      "Player ID": "garcino01",
       "G": 2,
       "PA": 10,
       "AB": 9,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Troy O'Leary",
+      "Player ID": "o'leatr01",
       "G": 3,
       "PA": 13,
       "AB": 11,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Darren Lewis",
+      "Player ID": "lewisda01",
       "G": 3,
       "PA": 13,
       "AB": 10,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Trot Nixon",
+      "Player ID": "nixontr01",
       "G": 3,
       "PA": 10,
       "AB": 9,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Brian Daubach",
+      "Player ID": "daubabr01",
       "G": 1,
       "PA": 1,
       "AB": 0,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Damon Buford",
+      "Player ID": "buforda01",
       "G": 2,
       "PA": 4,
       "AB": 4,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Jeff Frye",
+      "Player ID": "fryeje01",
       "G": 3,
       "PA": 12,
       "AB": 9,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Donnie Sadler",
+      "Player ID": "sadledo01",
       "G": 2,
       "PA": 5,
       "AB": 5,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Scott Hatteberg",
+      "Player ID": "hattesc01",
       "G": 1,
       "PA": 4,
       "AB": 4,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Bret Saberhagen",
+      "Player ID": "saberbr01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Tim Wakefield",
+      "Player ID": "wakefti01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Pedro Martinez",
+      "Player ID": "martipe02",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -452,6 +468,7 @@
   "pitching": [
     {
       "Player": "Pedro Martinez",
+      "Player ID": "martipe02",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -481,6 +498,7 @@
     },
     {
       "Player": "Tim Wakefield",
+      "Player ID": "wakefti01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -510,6 +528,7 @@
     },
     {
       "Player": "Bret Saberhagen",
+      "Player ID": "saberbr01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -539,6 +558,7 @@
     },
     {
       "Player": "Derek Lowe",
+      "Player ID": "lowede01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -568,6 +588,7 @@
     },
     {
       "Player": "Rheal Cormier",
+      "Player ID": "cormirh01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -597,6 +618,7 @@
     },
     {
       "Player": "Mark Guthrie",
+      "Player ID": "guthrma01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -626,6 +648,7 @@
     },
     {
       "Player": "Jim Corsi",
+      "Player ID": "corsiji01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -655,6 +678,7 @@
     },
     {
       "Player": "Tom Gordon",
+      "Player ID": "gordoto01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -684,6 +708,7 @@
     },
     {
       "Player": "Kip Gross",
+      "Player ID": "grosski01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -715,6 +740,7 @@
   "fielding": [
     {
       "Player": "Rheal Cormier",
+      "Player ID": "cormirh01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -732,6 +758,7 @@
     },
     {
       "Player": "Jim Corsi",
+      "Player ID": "corsiji01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -749,6 +776,7 @@
     },
     {
       "Player": "Tom Gordon",
+      "Player ID": "gordoto01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -766,6 +794,7 @@
     },
     {
       "Player": "Kip Gross",
+      "Player ID": "grosski01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -783,6 +812,7 @@
     },
     {
       "Player": "Mark Guthrie",
+      "Player ID": "guthrma01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -800,6 +830,7 @@
     },
     {
       "Player": "Derek Lowe",
+      "Player ID": "lowede01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -817,6 +848,7 @@
     },
     {
       "Player": "Pedro Martinez",
+      "Player ID": "martipe02",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -834,6 +866,7 @@
     },
     {
       "Player": "Bret Saberhagen",
+      "Player ID": "saberbr01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -851,6 +884,7 @@
     },
     {
       "Player": "Tim Wakefield",
+      "Player ID": "wakefti01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -868,6 +902,7 @@
     },
     {
       "Player": "Scott Hatteberg",
+      "Player ID": "hattesc01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -885,6 +920,7 @@
     },
     {
       "Player": "Jason Varitek",
+      "Player ID": "varitja01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -902,6 +938,7 @@
     },
     {
       "Player": "Mike Stanley",
+      "Player ID": "stanlmi02",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -915,6 +952,7 @@
     },
     {
       "Player": "Jeff Frye",
+      "Player ID": "fryeje01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -928,6 +966,7 @@
     },
     {
       "Player": "John Valentin",
+      "Player ID": "valenjo02",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -941,6 +980,7 @@
     },
     {
       "Player": "Nomar Garciaparra",
+      "Player ID": "garcino01",
       "POS": "SS",
       "G": 2,
       "GS": 2,
@@ -954,6 +994,7 @@
     },
     {
       "Player": "Donnie Sadler",
+      "Player ID": "sadledo01",
       "POS": "SS",
       "G": 1,
       "GS": 1,
@@ -967,6 +1008,7 @@
     },
     {
       "Player": "Troy O'Leary",
+      "Player ID": "o'leatr01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -980,6 +1022,7 @@
     },
     {
       "Player": "Damon Buford",
+      "Player ID": "buforda01",
       "POS": "CF",
       "G": 1,
       "GS": 1,
@@ -993,6 +1036,7 @@
     },
     {
       "Player": "Darren Lewis",
+      "Player ID": "lewisda01",
       "POS": "CF",
       "G": 2,
       "GS": 2,
@@ -1006,6 +1050,7 @@
     },
     {
       "Player": "Donnie Sadler",
+      "Player ID": "sadledo01",
       "POS": "CF",
       "G": 1,
       "GS": 0,
@@ -1019,6 +1064,7 @@
     },
     {
       "Player": "Darren Lewis",
+      "Player ID": "lewisda01",
       "POS": "RF",
       "G": 1,
       "GS": 1,
@@ -1032,6 +1078,7 @@
     },
     {
       "Player": "Trot Nixon",
+      "Player ID": "nixontr01",
       "POS": "RF",
       "G": 3,
       "GS": 2,
@@ -1045,6 +1092,7 @@
     },
     {
       "Player": "Donnie Sadler",
+      "Player ID": "sadledo01",
       "POS": "RF",
       "G": 1,
       "GS": 0,

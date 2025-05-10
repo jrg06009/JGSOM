@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Brook Fordyce",
+      "Player ID": "fordybr01",
       "G": 3,
       "PA": 9,
       "AB": 8,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Paul Konerko",
+      "Player ID": "konerpa01",
       "G": 3,
       "PA": 11,
       "AB": 10,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Ray Durham",
+      "Player ID": "durhara01",
       "G": 3,
       "PA": 15,
       "AB": 13,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Greg Norton",
+      "Player ID": "nortogr01",
       "G": 3,
       "PA": 12,
       "AB": 10,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Mike Caruso",
+      "Player ID": "carusmi01",
       "G": 3,
       "PA": 14,
       "AB": 14,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Chris Singleton",
+      "Player ID": "singlch01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Magglio Ordonez",
+      "Player ID": "ordonma01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Frank Thomas",
+      "Player ID": "thomafr04",
       "G": 3,
       "PA": 13,
       "AB": 9,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Craig Wilson",
+      "Player ID": "wilsocr02",
       "G": 2,
       "PA": 1,
       "AB": 1,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Mark Johnson",
+      "Player ID": "johnsma02",
       "G": 2,
       "PA": 2,
       "AB": 2,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Darrin Jackson",
+      "Player ID": "jacksda03",
       "G": 3,
       "PA": 12,
       "AB": 12,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Jeff Liefer",
+      "Player ID": "liefeje01",
       "G": 2,
       "PA": 4,
       "AB": 4,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Jeff Abbott",
+      "Player ID": "abbotje01",
       "G": 3,
       "PA": 10,
       "AB": 10,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "McKay Christensen",
+      "Player ID": "chrismc01",
       "G": 2,
       "PA": 3,
       "AB": 3,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Jim Parque",
+      "Player ID": "parquji01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "James Baldwin",
+      "Player ID": "baldwja01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "Keith Foulke",
+      "Player ID": "foulkke01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -480,6 +497,7 @@
   "pitching": [
     {
       "Player": "James Baldwin",
+      "Player ID": "baldwja01",
       "W": 1,
       "L": 0,
       "W-L%": 1,
@@ -509,6 +527,7 @@
     },
     {
       "Player": "Keith Foulke",
+      "Player ID": "foulkke01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -538,6 +557,7 @@
     },
     {
       "Player": "Sean Lowe",
+      "Player ID": "lowese01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -567,6 +587,7 @@
     },
     {
       "Player": "David Lundquist",
+      "Player ID": "lundqda01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -596,6 +617,7 @@
     },
     {
       "Player": "Jim Parque",
+      "Player ID": "parquji01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -625,6 +647,7 @@
     },
     {
       "Player": "Bill Simas",
+      "Player ID": "simasbi01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -654,6 +677,7 @@
     },
     {
       "Player": "John Snyder",
+      "Player ID": "snydejo02",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -683,6 +707,7 @@
     },
     {
       "Player": "Bryan Ward",
+      "Player ID": "wardbr01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -714,6 +739,7 @@
   "fielding": [
     {
       "Player": "James Baldwin",
+      "Player ID": "baldwja01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -731,6 +757,7 @@
     },
     {
       "Player": "Keith Foulke",
+      "Player ID": "foulkke01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -748,6 +775,7 @@
     },
     {
       "Player": "Sean Lowe",
+      "Player ID": "lowese01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -765,6 +793,7 @@
     },
     {
       "Player": "David Lundquist",
+      "Player ID": "lundqda01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -782,6 +811,7 @@
     },
     {
       "Player": "Jim Parque",
+      "Player ID": "parquji01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -799,6 +829,7 @@
     },
     {
       "Player": "Bill Simas",
+      "Player ID": "simasbi01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -816,6 +847,7 @@
     },
     {
       "Player": "John Snyder",
+      "Player ID": "snydejo02",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -833,6 +865,7 @@
     },
     {
       "Player": "Bryan Ward",
+      "Player ID": "wardbr01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -850,6 +883,7 @@
     },
     {
       "Player": "Brook Fordyce",
+      "Player ID": "fordybr01",
       "POS": "C",
       "G": 3,
       "GS": 2,
@@ -867,6 +901,7 @@
     },
     {
       "Player": "Mark Johnson",
+      "Player ID": "johnsma02",
       "POS": "C",
       "G": 2,
       "GS": 1,
@@ -884,6 +919,7 @@
     },
     {
       "Player": "Paul Konerko",
+      "Player ID": "konerpa01",
       "POS": "1B",
       "G": 1,
       "GS": 1,
@@ -897,6 +933,7 @@
     },
     {
       "Player": "Jeff Liefer",
+      "Player ID": "liefeje01",
       "POS": "1B",
       "G": 2,
       "GS": 1,
@@ -910,6 +947,7 @@
     },
     {
       "Player": "Frank Thomas",
+      "Player ID": "thomafr04",
       "POS": "1B",
       "G": 1,
       "GS": 1,
@@ -923,6 +961,7 @@
     },
     {
       "Player": "Ray Durham",
+      "Player ID": "durhara01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -936,6 +975,7 @@
     },
     {
       "Player": "Craig Wilson",
+      "Player ID": "wilsocr02",
       "POS": "2B",
       "G": 1,
       "GS": 0,
@@ -949,6 +989,7 @@
     },
     {
       "Player": "Greg Norton",
+      "Player ID": "nortogr01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -962,6 +1003,7 @@
     },
     {
       "Player": "Mike Caruso",
+      "Player ID": "carusmi01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -975,6 +1017,7 @@
     },
     {
       "Player": "Jeff Abbott",
+      "Player ID": "abbotje01",
       "POS": "LF",
       "G": 3,
       "GS": 2,
@@ -988,6 +1031,7 @@
     },
     {
       "Player": "Darrin Jackson",
+      "Player ID": "jacksda03",
       "POS": "LF",
       "G": 1,
       "GS": 1,
@@ -1001,6 +1045,7 @@
     },
     {
       "Player": "Chris Singleton",
+      "Player ID": "singlch01",
       "POS": "LF",
       "G": 1,
       "GS": 0,
@@ -1014,6 +1059,7 @@
     },
     {
       "Player": "McKay Christensen",
+      "Player ID": "chrismc01",
       "POS": "CF",
       "G": 2,
       "GS": 1,
@@ -1027,6 +1073,7 @@
     },
     {
       "Player": "Darrin Jackson",
+      "Player ID": "jacksda03",
       "POS": "CF",
       "G": 3,
       "GS": 2,
@@ -1040,6 +1087,7 @@
     },
     {
       "Player": "Darrin Jackson",
+      "Player ID": "jacksda03",
       "POS": "RF",
       "G": 1,
       "GS": 0,
@@ -1053,6 +1101,7 @@
     },
     {
       "Player": "Magglio Ordonez",
+      "Player ID": "ordonma01",
       "POS": "RF",
       "G": 3,
       "GS": 3,

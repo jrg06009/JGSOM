@@ -2,6 +2,7 @@
   "batting": [
     {
       "Player": "Brad Ausmus",
+      "Player ID": "ausmubr01",
       "G": 2,
       "PA": 7,
       "AB": 7,
@@ -30,6 +31,7 @@
     },
     {
       "Player": "Tony Clark",
+      "Player ID": "clarkto02",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -58,6 +60,7 @@
     },
     {
       "Player": "Damion Easley",
+      "Player ID": "easleda01",
       "G": 3,
       "PA": 14,
       "AB": 12,
@@ -86,6 +89,7 @@
     },
     {
       "Player": "Dean Palmer",
+      "Player ID": "palmede01",
       "G": 3,
       "PA": 13,
       "AB": 12,
@@ -114,6 +118,7 @@
     },
     {
       "Player": "Deivi Cruz",
+      "Player ID": "cruzde01",
       "G": 3,
       "PA": 10,
       "AB": 10,
@@ -142,6 +147,7 @@
     },
     {
       "Player": "Juan Encarnacion",
+      "Player ID": "encarju01",
       "G": 3,
       "PA": 14,
       "AB": 13,
@@ -170,6 +176,7 @@
     },
     {
       "Player": "Gabe Kapler",
+      "Player ID": "kaplega01",
       "G": 1,
       "PA": 5,
       "AB": 5,
@@ -198,6 +205,7 @@
     },
     {
       "Player": "Bobby Higginson",
+      "Player ID": "higgibo02",
       "G": 3,
       "PA": 12,
       "AB": 10,
@@ -226,6 +234,7 @@
     },
     {
       "Player": "Karim Garcia",
+      "Player ID": "garcika01",
       "G": 1,
       "PA": 5,
       "AB": 5,
@@ -254,6 +263,7 @@
     },
     {
       "Player": "Gregg Jefferies",
+      "Player ID": "jeffegr01",
       "G": 3,
       "PA": 10,
       "AB": 10,
@@ -282,6 +292,7 @@
     },
     {
       "Player": "Bill Haselman",
+      "Player ID": "haselbi01",
       "G": 1,
       "PA": 4,
       "AB": 4,
@@ -310,6 +321,7 @@
     },
     {
       "Player": "Brian Hunter",
+      "Player ID": "huntebr02",
       "G": 2,
       "PA": 7,
       "AB": 7,
@@ -338,6 +350,7 @@
     },
     {
       "Player": "Luis Garcia",
+      "Player ID": "garcilu01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -366,6 +379,7 @@
     },
     {
       "Player": "Justin Thompson",
+      "Player ID": "thompju02",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -394,6 +408,7 @@
     },
     {
       "Player": "Brian Moehler",
+      "Player ID": "moehlbr01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -422,6 +437,7 @@
     },
     {
       "Player": "Willie Blair",
+      "Player ID": "blairwi01",
       "G": 1,
       "PA": 0,
       "AB": 0,
@@ -450,6 +466,7 @@
     },
     {
       "Player": "C.J. Nitkowski",
+      "Player ID": "nitkoc.01",
       "G": 2,
       "PA": 0,
       "AB": 0,
@@ -480,6 +497,7 @@
   "pitching": [
     {
       "Player": "Brian Moehler",
+      "Player ID": "moehlbr01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -509,6 +527,7 @@
     },
     {
       "Player": "Justin Thompson",
+      "Player ID": "thompju02",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -538,6 +557,7 @@
     },
     {
       "Player": "Willie Blair",
+      "Player ID": "blairwi01",
       "W": 0,
       "L": 1,
       "W-L%": 0,
@@ -567,6 +587,7 @@
     },
     {
       "Player": "Doug Brocail",
+      "Player ID": "brocado01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -596,6 +617,7 @@
     },
     {
       "Player": "C.J. Nitkowski",
+      "Player ID": "nitkoc.01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -625,6 +647,7 @@
     },
     {
       "Player": "Todd Jones",
+      "Player ID": "jonesto02",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -654,6 +677,7 @@
     },
     {
       "Player": "Masao Kida",
+      "Player ID": "kidama01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -683,6 +707,7 @@
     },
     {
       "Player": "Matt Anderson",
+      "Player ID": "anderma01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -712,6 +737,7 @@
     },
     {
       "Player": "Sean Runyan",
+      "Player ID": "runyase01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -741,6 +767,7 @@
     },
     {
       "Player": "Felipe Lira",
+      "Player ID": "lirafe01",
       "W": 0,
       "L": 0,
       "W-L%": 0,
@@ -772,6 +799,7 @@
   "fielding": [
     {
       "Player": "Matt Anderson",
+      "Player ID": "anderma01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -789,6 +817,7 @@
     },
     {
       "Player": "Willie Blair",
+      "Player ID": "blairwi01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -806,6 +835,7 @@
     },
     {
       "Player": "Doug Brocail",
+      "Player ID": "brocado01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -823,6 +853,7 @@
     },
     {
       "Player": "Todd Jones",
+      "Player ID": "jonesto02",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -840,6 +871,7 @@
     },
     {
       "Player": "Masao Kida",
+      "Player ID": "kidama01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -857,6 +889,7 @@
     },
     {
       "Player": "Felipe Lira",
+      "Player ID": "lirafe01",
       "POS": "P",
       "G": 1,
       "GS": 0,
@@ -874,6 +907,7 @@
     },
     {
       "Player": "Brian Moehler",
+      "Player ID": "moehlbr01",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -891,6 +925,7 @@
     },
     {
       "Player": "C.J. Nitkowski",
+      "Player ID": "nitkoc.01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -908,6 +943,7 @@
     },
     {
       "Player": "Sean Runyan",
+      "Player ID": "runyase01",
       "POS": "P",
       "G": 2,
       "GS": 0,
@@ -925,6 +961,7 @@
     },
     {
       "Player": "Justin Thompson",
+      "Player ID": "thompju02",
       "POS": "P",
       "G": 1,
       "GS": 1,
@@ -942,6 +979,7 @@
     },
     {
       "Player": "Brad Ausmus",
+      "Player ID": "ausmubr01",
       "POS": "C",
       "G": 2,
       "GS": 2,
@@ -959,6 +997,7 @@
     },
     {
       "Player": "Bill Haselman",
+      "Player ID": "haselbi01",
       "POS": "C",
       "G": 1,
       "GS": 1,
@@ -976,6 +1015,7 @@
     },
     {
       "Player": "Tony Clark",
+      "Player ID": "clarkto02",
       "POS": "1B",
       "G": 3,
       "GS": 3,
@@ -989,6 +1029,7 @@
     },
     {
       "Player": "Damion Easley",
+      "Player ID": "easleda01",
       "POS": "2B",
       "G": 3,
       "GS": 3,
@@ -1002,6 +1043,7 @@
     },
     {
       "Player": "Dean Palmer",
+      "Player ID": "palmede01",
       "POS": "3B",
       "G": 3,
       "GS": 3,
@@ -1015,6 +1057,7 @@
     },
     {
       "Player": "Deivi Cruz",
+      "Player ID": "cruzde01",
       "POS": "SS",
       "G": 3,
       "GS": 3,
@@ -1028,6 +1071,7 @@
     },
     {
       "Player": "Luis Garcia",
+      "Player ID": "garcilu01",
       "POS": "SS",
       "G": 1,
       "GS": 0,
@@ -1041,6 +1085,7 @@
     },
     {
       "Player": "Juan Encarnacion",
+      "Player ID": "encarju01",
       "POS": "LF",
       "G": 3,
       "GS": 3,
@@ -1054,6 +1099,7 @@
     },
     {
       "Player": "Brian Hunter",
+      "Player ID": "huntebr02",
       "POS": "CF",
       "G": 2,
       "GS": 2,
@@ -1067,6 +1113,7 @@
     },
     {
       "Player": "Gabe Kapler",
+      "Player ID": "kaplega01",
       "POS": "CF",
       "G": 1,
       "GS": 1,
@@ -1080,6 +1127,7 @@
     },
     {
       "Player": "Karim Garcia",
+      "Player ID": "garcika01",
       "POS": "RF",
       "G": 1,
       "GS": 1,
@@ -1093,6 +1141,7 @@
     },
     {
       "Player": "Bobby Higginson",
+      "Player ID": "higgibo02",
       "POS": "RF",
       "G": 2,
       "GS": 2,
