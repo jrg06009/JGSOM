@@ -107,7 +107,7 @@
     "league": "AL",
     "division": "Central",
     "color": "#004687",
-    "logo": "/logos/KCR.png"
+    "logo": "/logos/KC.png"
   },
   {
     "id": "ANA",
@@ -127,7 +127,7 @@
     "league": "NL",
     "division": "West",
     "color": "#005A9C",
-    "logo": "/logos/LAD.png"
+    "logo": "/logos/LA.png"
   },
   {
     "id": "FLA",
@@ -217,7 +217,7 @@
     "league": "NL",
     "division": "West",
     "color": "#002D62",
-    "logo": "/logos/SDP.png"
+    "logo": "/logos/SD.png"
   },
   {
     "id": "SEA",
@@ -237,7 +237,7 @@
     "league": "NL",
     "division": "West",
     "color": "#FD5A1E",
-    "logo": "/logos/SFG.png"
+    "logo": "/logos/SF.png"
   },
   {
     "id": "STL",
@@ -257,7 +257,7 @@
     "league": "AL",
     "division": "East",
     "color": "#092C5C",
-    "logo": "/logos/TBD.png"
+    "logo": "/logos/TB.png"
   },
   {
     "id": "TEX",
