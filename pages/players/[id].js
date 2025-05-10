@@ -1,9 +1,10 @@
 import fs from 'fs'
 import path from 'path'
+import { useState } from 'react'
 import Layout from '../../components/Layout'
 
 export async function getStaticPaths() {
-  const filePath = path.join(process.cwd(), 'data', 'players_combined.json')
+  const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
 
   const paths = data
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const filePath = path.join(process.cwd(), 'data', 'players_combined.json')
+  const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   const player = data.find(p => p.id === params.id)
 
@@ -27,94 +28,85 @@ export async function getStaticProps({ params }) {
   }
 }
 
+function SortableTable({ title, data, numericSort = true }) {
+  const [sortKey, setSortKey] = useState(Object.keys(data[0])[0])
+  const [sortAsc, setSortAsc] = useState(false)
+
+  const headers = Object.keys(data[0])
+  const sorted = [...data].sort((a, b) => {
+    const valA = a[sortKey]
+    const valB = b[sortKey]
+    if (numericSort && !isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
+      return sortAsc ? parseFloat(valA) - parseFloat(valB) : parseFloat(valB) - parseFloat(valA)
+    }
+    return sortAsc ? String(valA).localeCompare(String(valB)) : String(valB).localeCompare(String(valA))
+  })
+
+  const handleSort = (key) => {
+    if (key === sortKey) {
+      setSortAsc(!sortAsc)
+    } else {
+      setSortKey(key)
+      setSortAsc(false)
+    }
+  }
+
+  return (
+    <div className="mb-10">
+      <h2 className="text-xl font-bold mb-2">{title}</h2>
+      <div className="overflow-auto border border-gray-400 rounded">
+        <table className="table-auto border-collapse w-full text-sm">
+          <thead>
+            <tr>
+              {headers.map((key) => (
+                <th
+                  key={key}
+                  onClick={() => handleSort(key)}
+                  className="cursor-pointer border border-gray-400 p-2 bg-gray-100 hover:bg-gray-200 text-left"
+                >
+                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((row, idx) => (
+              <tr key={idx}>
+                {headers.map((key) => (
+                  <td key={key} className="border border-gray-300 p-2 text-center">
+                    {row[key]}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
 export default function PlayerPage({ player }) {
+  const { batting, pitching, fielding } = player
+
   return (
     <Layout>
       <div className="max-w-3xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-4">{player.name}</h1>
+        <h1 className="text-3xl font-bold mb-6">{player.name}</h1>
 
-        {/* Batting */}
-        {player.batting && Object.keys(player.batting).length > 0 && (
-          <>
-            <h2 className="text-xl font-semibold mt-4 mb-2">Batting Stats</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full table-auto border border-gray-300 mb-6">
-                <thead>
-                  <tr>
-                    {Object.keys(player.batting).map(key => (
-                      <th key={key} className="border px-2 py-1 text-left">{key}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    {Object.keys(player.batting).map(key => (
-                      <td key={key} className="border px-2 py-1">{player.batting[key]}</td>
-                    ))}
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </>
+        {batting && Object.keys(batting).length > 0 && (
+          <SortableTable title="Batting Stats" data={[batting]} />
         )}
 
-        {/* Pitching */}
-        {player.pitching && Object.keys(player.pitching).length > 0 && (
-          <>
-            <h2 className="text-xl font-semibold mt-4 mb-2">Pitching Stats</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full table-auto border border-gray-300 mb-6">
-                <thead>
-                  <tr>
-                    {Object.keys(player.pitching).map(key => (
-                      <th key={key} className="border px-2 py-1 text-left">{key}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    {Object.keys(player.pitching).map(key => (
-                      <td key={key} className="border px-2 py-1">{player.pitching[key]}</td>
-                    ))}
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </>
+        {pitching && Object.keys(pitching).length > 0 && (
+          <SortableTable title="Pitching Stats" data={[pitching]} />
         )}
 
-        {/* Fielding by position */}
-        {player.fielding && Object.keys(player.fielding).length > 0 && (
-          <>
-            <h2 className="text-xl font-semibold mt-4 mb-2">Fielding Stats</h2>
-            {Object.entries(player.fielding).map(([pos, stats]) => (
-              <div key={pos}>
-                <h3 className="text-lg font-medium mt-4 mb-1">{pos}</h3>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full table-auto border border-gray-300 mb-6">
-                    <thead>
-                      <tr>
-                        {Object.keys(stats).map(key => (
-                          <th key={key} className="border px-2 py-1 text-left">{key}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        {Object.keys(stats).map(key => (
-                          <td key={key} className="border px-2 py-1">{stats[key]}</td>
-                        ))}
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            ))}
-          </>
+        {fielding && fielding.length > 0 && (
+          <SortableTable title="Fielding Stats" data={fielding} />
         )}
 
-        {/* No data fallback */}
-        {!player.batting && !player.pitching && (!player.fielding || Object.keys(player.fielding).length === 0) && (
+        {!batting && !pitching && (!fielding || fielding.length === 0) && (
           <p className="text-gray-600 mt-4">No available statistics for this player.</p>
         )}
       </div>
