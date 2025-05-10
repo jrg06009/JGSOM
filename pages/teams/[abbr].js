@@ -33,7 +33,10 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
 
   if (!data || data.length === 0) return null
 
-  const headers = Object.keys(data[0])
+  const hiddenFields = new Set(["Player ID", "player ID", "PlayerID", "id"])
+
+  const headers = Object.keys(data[0]).filter(key => !hiddenFields.has(key))
+
   const sorted = [...data].sort((a, b) => {
     const valA = a[sortKey]
     const valB = b[sortKey]
@@ -75,10 +78,8 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
               <tr key={idx}>
                 {headers.map((key) => (
                   <td key={key} className="border border-gray-300 p-2 text-center">
-                    {key === 'name' && row.id ? (
-                      <Link href={`/players/${row.id}`}>
-                        <a className="text-blue-600 underline">{row[key]}</a>
-                      </Link>
+                    {key === "Player" && row.link ? (
+                      <Link href={row.link} className="text-blue-600 hover:underline">{row[key]}</Link>
                     ) : (
                       row[key]
                     )}
