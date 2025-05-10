@@ -4,7 +4,7 @@ import path from 'path'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data', 'batting.json')
+  const filePath = path.join(process.cwd(), 'data', 'stats', 'batting.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
 
   return {
