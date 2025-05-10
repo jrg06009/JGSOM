@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "KC",
       "Player": "Chad Kreuter",
       "Player ID": "kreutch01",
       "G": 2,
@@ -30,6 +31,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Mike Sweeney",
       "Player ID": "sweenmi01",
       "G": 1,
@@ -59,6 +61,7 @@
       "TB": 2
     },
     {
+      "team": "KC",
       "Player": "Carlos Febles",
       "Player ID": "febleca01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 2
     },
     {
+      "team": "KC",
       "Player": "Joe Randa",
       "Player ID": "randajo01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 10
     },
     {
+      "team": "KC",
       "Player": "Rey Sanchez",
       "Player ID": "sanchre01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 7
     },
     {
+      "team": "KC",
       "Player": "Johnny Damon",
       "Player ID": "damonjo01",
       "G": 3,
@@ -175,6 +181,7 @@
       "TB": 6
     },
     {
+      "team": "KC",
       "Player": "Carlos Beltran",
       "Player ID": "beltrca01",
       "G": 3,
@@ -204,6 +211,7 @@
       "TB": 7
     },
     {
+      "team": "KC",
       "Player": "Jermaine Dye",
       "Player ID": "dyeje01",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 8
     },
     {
+      "team": "KC",
       "Player": "Tim Spehr",
       "Player ID": "spehrti01",
       "G": 1,
@@ -262,6 +271,7 @@
       "TB": 1
     },
     {
+      "team": "KC",
       "Player": "Scott Pose",
       "Player ID": "posesc01",
       "G": 2,
@@ -291,6 +301,7 @@
       "TB": 1
     },
     {
+      "team": "KC",
       "Player": "Larry Sutton",
       "Player ID": "suttola01",
       "G": 2,
@@ -320,6 +331,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Scott Leius",
       "Player ID": "leiussc01",
       "G": 1,
@@ -349,6 +361,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Jeff King",
       "Player ID": "kingje01",
       "G": 3,
@@ -378,6 +391,7 @@
       "TB": 1
     },
     {
+      "team": "KC",
       "Player": "Jeff Suppan",
       "Player ID": "suppaje01",
       "G": 1,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Jose Rosado",
       "Player ID": "rosadjo01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Jay Witasick",
       "Player ID": "witasja01",
       "G": 1,
@@ -465,6 +481,7 @@
       "TB": 0
     },
     {
+      "team": "KC",
       "Player": "Kevin Appier",
       "Player ID": "appieke01",
       "G": 1,
@@ -496,6 +513,7 @@
   ],
   "pitching": [
     {
+      "team": "KC",
       "Player": "Jeff Suppan",
       "Player ID": "suppaje01",
       "W": 0,
@@ -526,6 +544,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "KC",
       "Player": "Jose Rosado",
       "Player ID": "rosadjo01",
       "W": 0,
@@ -556,6 +575,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "KC",
       "Player": "Jay Witasick",
       "Player ID": "witasja01",
       "W": 0,
@@ -586,6 +606,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "KC",
       "Player": "Kevin Appier",
       "Player ID": "appieke01",
       "W": 0,
@@ -616,6 +637,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "KC",
       "Player": "Scott Service",
       "Player ID": "servisc01",
       "W": 0,
@@ -646,6 +668,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "KC",
       "Player": "Jeff Montgomery",
       "Player ID": "montgje01",
       "W": 0,
@@ -676,6 +699,7 @@
       "SO/BB": "0.5"
     },
     {
+      "team": "KC",
       "Player": "Jose Santiago",
       "Player ID": "santijo03",
       "W": 0,
@@ -706,6 +730,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "KC",
       "Player": "Matt Whisenant",
       "Player ID": "whisema01",
       "W": 1,
@@ -736,6 +761,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "KC",
       "Player": "Don Wengert",
       "Player ID": "wengedo01",
       "W": 0,
@@ -768,6 +794,7 @@
   ],
   "fielding": [
     {
+      "team": "KC",
       "Player": "Kevin Appier",
       "Player ID": "appieke01",
       "POS": "P",
@@ -779,6 +806,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 2,
@@ -786,6 +814,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jeff Montgomery",
       "Player ID": "montgje01",
       "POS": "P",
@@ -797,6 +826,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -804,6 +834,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jose Rosado",
       "Player ID": "rosadjo01",
       "POS": "P",
@@ -815,6 +846,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -822,6 +854,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jose Santiago",
       "Player ID": "santijo03",
       "POS": "P",
@@ -833,6 +866,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -840,6 +874,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Scott Service",
       "Player ID": "servisc01",
       "POS": "P",
@@ -851,6 +886,7 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -858,6 +894,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jeff Suppan",
       "Player ID": "suppaje01",
       "POS": "P",
@@ -869,6 +906,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -876,6 +914,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Don Wengert",
       "Player ID": "wengedo01",
       "POS": "P",
@@ -887,6 +926,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -894,6 +934,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Matt Whisenant",
       "Player ID": "whisema01",
       "POS": "P",
@@ -905,6 +946,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -912,6 +954,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jay Witasick",
       "Player ID": "witasja01",
       "POS": "P",
@@ -923,6 +966,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -930,6 +974,7 @@
       "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Chad Kreuter",
       "Player ID": "kreutch01",
       "POS": "C",
@@ -944,10 +989,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "KC",
       "Player": "Tim Spehr",
       "Player ID": "spehrti01",
       "POS": "C",
@@ -962,10 +1009,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "KC",
       "Player": "Jeff King",
       "Player ID": "kingje01",
       "POS": "1B",
@@ -977,9 +1026,15 @@
       "ERR": 0,
       "DP": 6,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Carlos Febles",
       "Player ID": "febleca01",
       "POS": "2B",
@@ -991,9 +1046,15 @@
       "ERR": 0,
       "DP": 5,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Joe Randa",
       "Player ID": "randajo01",
       "POS": "3B",
@@ -1005,9 +1066,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Rey Sanchez",
       "Player ID": "sanchre01",
       "POS": "SS",
@@ -1019,9 +1086,15 @@
       "ERR": 0,
       "DP": 5,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Johnny Damon",
       "Player ID": "damonjo01",
       "POS": "LF",
@@ -1033,9 +1106,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Carlos Beltran",
       "Player ID": "beltrca01",
       "POS": "CF",
@@ -1047,9 +1126,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "KC",
       "Player": "Jermaine Dye",
       "Player ID": "dyeje01",
       "POS": "RF",
@@ -1061,7 +1146,12 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "SD",
       "Player": "Wally Joyner",
       "Player ID": "joynewa01",
       "G": 3,
@@ -30,6 +31,7 @@
       "TB": 3
     },
     {
+      "team": "SD",
       "Player": "Quilvio Veras",
       "Player ID": "verasqu01",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Damian Jackson",
       "Player ID": "jacksda04",
       "G": 1,
@@ -88,6 +91,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Reggie Sanders",
       "Player ID": "sandere02",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 6
     },
     {
+      "team": "SD",
       "Player": "Ruben Rivera",
       "Player ID": "riverru01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 4
     },
     {
+      "team": "SD",
       "Player": "Tony Gwynn",
       "Player ID": "gwynnto01",
       "G": 3,
@@ -175,6 +181,7 @@
       "TB": 6
     },
     {
+      "team": "SD",
       "Player": "Dave Magadan",
       "Player ID": "magadda01",
       "G": 2,
@@ -204,6 +211,7 @@
       "TB": 2
     },
     {
+      "team": "SD",
       "Player": "John Vander Wal",
       "Player ID": "vandejo02",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Chris Gomez",
       "Player ID": "gomezch02",
       "G": 3,
@@ -262,6 +271,7 @@
       "TB": 1
     },
     {
+      "team": "SD",
       "Player": "George Arias",
       "Player ID": "ariasge01",
       "G": 3,
@@ -291,6 +301,7 @@
       "TB": 1
     },
     {
+      "team": "SD",
       "Player": "Jim Leyritz",
       "Player ID": "leyriji01",
       "G": 2,
@@ -320,6 +331,7 @@
       "TB": 4
     },
     {
+      "team": "SD",
       "Player": "Greg Myers",
       "Player ID": "myersgr01",
       "G": 2,
@@ -349,6 +361,7 @@
       "TB": 2
     },
     {
+      "team": "SD",
       "Player": "Carlos Garcia",
       "Player ID": "garcica01",
       "G": 1,
@@ -378,6 +391,7 @@
       "TB": 1
     },
     {
+      "team": "SD",
       "Player": "Woody Williams",
       "Player ID": "williwo02",
       "G": 1,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Andy Ashby",
       "Player ID": "ashbyan01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Sterling Hitchcock",
       "Player ID": "hitchst01",
       "G": 1,
@@ -465,6 +481,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Brian Boehringer",
       "Player ID": "boehrbr01",
       "G": 2,
@@ -494,6 +511,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Trevor Hoffman",
       "Player ID": "hoffmtr01",
       "G": 1,
@@ -523,6 +541,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Carlos Reyes",
       "Player ID": "reyesca01",
       "G": 2,
@@ -552,6 +571,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Donne Wall",
       "Player ID": "walldo01",
       "G": 1,
@@ -581,6 +601,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Dan Miceli",
       "Player ID": "micelda01",
       "G": 2,
@@ -610,6 +631,7 @@
       "TB": 0
     },
     {
+      "team": "SD",
       "Player": "Roberto Rivera",
       "Player ID": "riverro01",
       "G": 2,
@@ -641,6 +663,7 @@
   ],
   "pitching": [
     {
+      "team": "SD",
       "Player": "Woody Williams",
       "Player ID": "williwo02",
       "W": 0,
@@ -671,6 +694,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SD",
       "Player": "Andy Ashby",
       "Player ID": "ashbyan01",
       "W": 1,
@@ -701,6 +725,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "SD",
       "Player": "Sterling Hitchcock",
       "Player ID": "hitchst01",
       "W": 0,
@@ -731,6 +756,7 @@
       "SO/BB": "0.8"
     },
     {
+      "team": "SD",
       "Player": "Trevor Hoffman",
       "Player ID": "hoffmtr01",
       "W": 0,
@@ -761,6 +787,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SD",
       "Player": "Brian Boehringer",
       "Player ID": "boehrbr01",
       "W": 0,
@@ -791,6 +818,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SD",
       "Player": "Carlos Reyes",
       "Player ID": "reyesca01",
       "W": 0,
@@ -821,6 +849,7 @@
       "SO/BB": "2.0"
     },
     {
+      "team": "SD",
       "Player": "Donne Wall",
       "Player ID": "walldo01",
       "W": 0,
@@ -851,6 +880,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SD",
       "Player": "Dan Miceli",
       "Player ID": "micelda01",
       "W": 0,
@@ -881,6 +911,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SD",
       "Player": "Roberto Rivera",
       "Player ID": "riverro01",
       "W": 0,
@@ -913,6 +944,7 @@
   ],
   "fielding": [
     {
+      "team": "SD",
       "Player": "Andy Ashby",
       "Player ID": "ashbyan01",
       "POS": "P",
@@ -924,6 +956,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -931,6 +964,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Brian Boehringer",
       "Player ID": "boehrbr01",
       "POS": "P",
@@ -942,6 +976,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -949,6 +984,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Sterling Hitchcock",
       "Player ID": "hitchst01",
       "POS": "P",
@@ -960,6 +996,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -967,6 +1004,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Trevor Hoffman",
       "Player ID": "hoffmtr01",
       "POS": "P",
@@ -978,6 +1016,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -985,6 +1024,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Dan Miceli",
       "Player ID": "micelda01",
       "POS": "P",
@@ -996,6 +1036,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1003,6 +1044,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Carlos Reyes",
       "Player ID": "reyesca01",
       "POS": "P",
@@ -1014,6 +1056,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1021,6 +1064,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Roberto Rivera",
       "Player ID": "riverro01",
       "POS": "P",
@@ -1032,6 +1076,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1039,6 +1084,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Donne Wall",
       "Player ID": "walldo01",
       "POS": "P",
@@ -1050,6 +1096,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1057,6 +1104,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Woody Williams",
       "Player ID": "williwo02",
       "POS": "P",
@@ -1068,6 +1116,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1075,6 +1124,7 @@
       "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Jim Leyritz",
       "Player ID": "leyriji01",
       "POS": "C",
@@ -1089,10 +1139,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "SD",
       "Player": "Greg Myers",
       "Player ID": "myersgr01",
       "POS": "C",
@@ -1107,10 +1159,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "SD",
       "Player": "Wally Joyner",
       "Player ID": "joynewa01",
       "POS": "1B",
@@ -1122,9 +1176,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Quilvio Veras",
       "Player ID": "verasqu01",
       "POS": "2B",
@@ -1136,9 +1196,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "George Arias",
       "Player ID": "ariasge01",
       "POS": "3B",
@@ -1150,9 +1216,15 @@
       "ERR": 1,
       "DP": 1,
       "TP": 0,
-      "PCT": ".800"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".800",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Dave Magadan",
       "Player ID": "magadda01",
       "POS": "3B",
@@ -1164,9 +1236,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Chris Gomez",
       "Player ID": "gomezch02",
       "POS": "SS",
@@ -1178,9 +1256,15 @@
       "ERR": 3,
       "DP": 1,
       "TP": 0,
-      "PCT": ".824"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".824",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Reggie Sanders",
       "Player ID": "sandere02",
       "POS": "LF",
@@ -1192,9 +1276,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "John Vander Wal",
       "Player ID": "vandejo02",
       "POS": "LF",
@@ -1206,9 +1296,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Ruben Rivera",
       "Player ID": "riverru01",
       "POS": "CF",
@@ -1220,9 +1316,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Reggie Sanders",
       "Player ID": "sandere02",
       "POS": "CF",
@@ -1234,9 +1336,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "SD",
       "Player": "Tony Gwynn",
       "Player ID": "gwynnto01",
       "POS": "RF",
@@ -1248,7 +1356,12 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "TB",
       "Player": "John Flaherty",
       "Player ID": "flahejo01",
       "G": 3,
@@ -30,6 +31,7 @@
       "TB": 2
     },
     {
+      "team": "TB",
       "Player": "Fred McGriff",
       "Player ID": "mcgrifr01",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 9
     },
     {
+      "team": "TB",
       "Player": "Miguel Cairo",
       "Player ID": "cairomi01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 3
     },
     {
+      "team": "TB",
       "Player": "Wade Boggs",
       "Player ID": "boggswa01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 4
     },
     {
+      "team": "TB",
       "Player": "Kevin Stocker",
       "Player ID": "stockke01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 4
     },
     {
+      "team": "TB",
       "Player": "Randy Winn",
       "Player ID": "winnra01",
       "G": 3,
@@ -175,6 +181,7 @@
       "TB": 6
     },
     {
+      "team": "TB",
       "Player": "Dave Martinez",
       "Player ID": "martida01",
       "G": 3,
@@ -204,6 +211,7 @@
       "TB": 3
     },
     {
+      "team": "TB",
       "Player": "Jose Canseco",
       "Player ID": "cansejo01",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 4
     },
     {
+      "team": "TB",
       "Player": "Paul Sorrento",
       "Player ID": "sorrepa01",
       "G": 2,
@@ -262,6 +271,7 @@
       "TB": 2
     },
     {
+      "team": "TB",
       "Player": "Bob Smith",
       "Player ID": "smithbo06",
       "G": 1,
@@ -291,6 +301,7 @@
       "TB": 1
     },
     {
+      "team": "TB",
       "Player": "Quinton McCracken",
       "Player ID": "mccraqu01",
       "G": 2,
@@ -320,6 +331,7 @@
       "TB": 2
     },
     {
+      "team": "TB",
       "Player": "David Lamb",
       "Player ID": "lambda01",
       "G": 1,
@@ -349,6 +361,7 @@
       "TB": 0
     },
     {
+      "team": "TB",
       "Player": "Wilson Alvarez",
       "Player ID": "alvarwi01",
       "G": 1,
@@ -378,6 +391,7 @@
       "TB": 0
     },
     {
+      "team": "TB",
       "Player": "Bobby Witt",
       "Player ID": "wittbo01",
       "G": 1,
@@ -409,6 +423,7 @@
   ],
   "pitching": [
     {
+      "team": "TB",
       "Player": "Scott Aldred",
       "Player ID": "aldresc01",
       "W": 0,
@@ -439,6 +454,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "TB",
       "Player": "Wilson Alvarez",
       "Player ID": "alvarwi01",
       "W": 0,
@@ -469,6 +485,7 @@
       "SO/BB": "0.2"
     },
     {
+      "team": "TB",
       "Player": "Mike Duvall",
       "Player ID": "duvalmi01",
       "W": 1,
@@ -499,6 +516,7 @@
       "SO/BB": "0.5"
     },
     {
+      "team": "TB",
       "Player": "Roberto Hernandez",
       "Player ID": "hernaro01",
       "W": 0,
@@ -529,6 +547,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "TB",
       "Player": "Albie Lopez",
       "Player ID": "lopezal02",
       "W": 0,
@@ -559,6 +578,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "TB",
       "Player": "Jim Mecir",
       "Player ID": "mecirji01",
       "W": 0,
@@ -589,6 +609,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "TB",
       "Player": "Tony Saunders",
       "Player ID": "saundto01",
       "W": 0,
@@ -619,6 +640,7 @@
       "SO/BB": "0.3"
     },
     {
+      "team": "TB",
       "Player": "Rick White",
       "Player ID": "whiteri01",
       "W": 0,
@@ -649,6 +671,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "TB",
       "Player": "Bobby Witt",
       "Player ID": "wittbo01",
       "W": 0,
@@ -681,6 +704,7 @@
   ],
   "fielding": [
     {
+      "team": "TB",
       "Player": "Scott Aldred",
       "Player ID": "aldresc01",
       "POS": "P",
@@ -692,6 +716,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -699,6 +724,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Wilson Alvarez",
       "Player ID": "alvarwi01",
       "POS": "P",
@@ -710,6 +736,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -717,6 +744,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Mike Duvall",
       "Player ID": "duvalmi01",
       "POS": "P",
@@ -728,6 +756,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -735,6 +764,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Roberto Hernandez",
       "Player ID": "hernaro01",
       "POS": "P",
@@ -746,6 +776,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -753,6 +784,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Albie Lopez",
       "Player ID": "lopezal02",
       "POS": "P",
@@ -764,6 +796,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -771,6 +804,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Jim Mecir",
       "Player ID": "mecirji01",
       "POS": "P",
@@ -782,6 +816,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -789,6 +824,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Tony Saunders",
       "Player ID": "saundto01",
       "POS": "P",
@@ -800,6 +836,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -807,6 +844,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Rick White",
       "Player ID": "whiteri01",
       "POS": "P",
@@ -818,6 +856,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -825,6 +864,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Bobby Witt",
       "Player ID": "wittbo01",
       "POS": "P",
@@ -836,6 +876,7 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -843,6 +884,7 @@
       "CS%": null
     },
     {
+      "team": "TB",
       "Player": "John Flaherty",
       "Player ID": "flahejo01",
       "POS": "C",
@@ -857,10 +899,12 @@
       "PB": 1,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "TB",
       "Player": "Fred McGriff",
       "Player ID": "mcgrifr01",
       "POS": "1B",
@@ -872,9 +916,15 @@
       "ERR": 1,
       "DP": 6,
       "TP": 0,
-      "PCT": ".963"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".963",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Miguel Cairo",
       "Player ID": "cairomi01",
       "POS": "2B",
@@ -886,9 +936,15 @@
       "ERR": 0,
       "DP": 4,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Wade Boggs",
       "Player ID": "boggswa01",
       "POS": "3B",
@@ -900,9 +956,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Bob Smith",
       "Player ID": "smithbo06",
       "POS": "3B",
@@ -914,9 +976,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "David Lamb",
       "Player ID": "lambda01",
       "POS": "SS",
@@ -928,9 +996,15 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Kevin Stocker",
       "Player ID": "stockke01",
       "POS": "SS",
@@ -942,9 +1016,15 @@
       "ERR": 0,
       "DP": 4,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Quinton McCracken",
       "Player ID": "mccraqu01",
       "POS": "LF",
@@ -956,9 +1036,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Paul Sorrento",
       "Player ID": "sorrepa01",
       "POS": "LF",
@@ -970,9 +1056,15 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".667"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".667",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Randy Winn",
       "Player ID": "winnra01",
       "POS": "CF",
@@ -984,9 +1076,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "TB",
       "Player": "Dave Martinez",
       "Player ID": "martida01",
       "POS": "RF",
@@ -998,7 +1096,12 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".800"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".800",
+      "CS%": null
     }
   ]
 }

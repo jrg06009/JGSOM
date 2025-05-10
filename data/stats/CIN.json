@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "CIN",
       "Player": "Ed Taubensee",
       "Player ID": "taubeed01",
       "G": 2,
@@ -30,6 +31,7 @@
       "TB": 7
     },
     {
+      "team": "CIN",
       "Player": "Sean Casey",
       "Player ID": "caseyse01",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 1
     },
     {
+      "team": "CIN",
       "Player": "Pokey Reese",
       "Player ID": "reesepo01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 2
     },
     {
+      "team": "CIN",
       "Player": "Aaron Boone",
       "Player ID": "booneaa01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 8
     },
     {
+      "team": "CIN",
       "Player": "Barry Larkin",
       "Player ID": "larkiba01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 5
     },
     {
+      "team": "CIN",
       "Player": "Greg Vaughn",
       "Player ID": "vaughgr01",
       "G": 3,
@@ -175,6 +181,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Mike Cameron",
       "Player ID": "camermi01",
       "G": 3,
@@ -204,6 +211,7 @@
       "TB": 4
     },
     {
+      "team": "CIN",
       "Player": "Dmitri Young",
       "Player ID": "youngdm01",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Jeffrey Hammonds",
       "Player ID": "hammoje01",
       "G": 1,
@@ -262,6 +271,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Mark Lewis",
       "Player ID": "lewisma01",
       "G": 1,
@@ -291,6 +301,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Brian Johnson",
       "Player ID": "johnsbr01",
       "G": 1,
@@ -320,6 +331,7 @@
       "TB": 4
     },
     {
+      "team": "CIN",
       "Player": "Chris Stynes",
       "Player ID": "stynech01",
       "G": 1,
@@ -349,6 +361,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Hal Morris",
       "Player ID": "morriha02",
       "G": 1,
@@ -378,6 +391,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Mark Sweeney",
       "Player ID": "sweenma01",
       "G": 2,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Brett Tomko",
       "Player ID": "tomkobr01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Steve Avery",
       "Player ID": "averyst01",
       "G": 1,
@@ -465,6 +481,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Scott Sullivan",
       "Player ID": "sullisc01",
       "G": 2,
@@ -494,6 +511,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Jason Bere",
       "Player ID": "bereja01",
       "G": 1,
@@ -523,6 +541,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Scott Williamson",
       "Player ID": "willisc01",
       "G": 2,
@@ -552,6 +571,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Danny Graves",
       "Player ID": "graveda01",
       "G": 1,
@@ -581,6 +601,7 @@
       "TB": 0
     },
     {
+      "team": "CIN",
       "Player": "Dennys Reyes",
       "Player ID": "reyesde01",
       "G": 1,
@@ -612,6 +633,7 @@
   ],
   "pitching": [
     {
+      "team": "CIN",
       "Player": "Steve Avery",
       "Player ID": "averyst01",
       "W": 0,
@@ -642,6 +664,7 @@
       "SO/BB": "1.3"
     },
     {
+      "team": "CIN",
       "Player": "Jason Bere",
       "Player ID": "bereja01",
       "W": 0,
@@ -672,6 +695,7 @@
       "SO/BB": "0.8"
     },
     {
+      "team": "CIN",
       "Player": "Danny Graves",
       "Player ID": "graveda01",
       "W": 0,
@@ -702,6 +726,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "CIN",
       "Player": "John Hudek",
       "Player ID": "hudekjo01",
       "W": 0,
@@ -732,6 +757,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "CIN",
       "Player": "Dennys Reyes",
       "Player ID": "reyesde01",
       "W": 0,
@@ -762,6 +788,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "CIN",
       "Player": "Scott Sullivan",
       "Player ID": "sullisc01",
       "W": 0,
@@ -792,6 +819,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "CIN",
       "Player": "Brett Tomko",
       "Player ID": "tomkobr01",
       "W": 0,
@@ -822,6 +850,7 @@
       "SO/BB": "1.5"
     },
     {
+      "team": "CIN",
       "Player": "Gabe White",
       "Player ID": "whitega01",
       "W": 0,
@@ -852,6 +881,7 @@
       "SO/BB": "2.0"
     },
     {
+      "team": "CIN",
       "Player": "Scott Williamson",
       "Player ID": "willisc01",
       "W": 0,
@@ -884,6 +914,7 @@
   ],
   "fielding": [
     {
+      "team": "CIN",
       "Player": "Steve Avery",
       "Player ID": "averyst01",
       "POS": "P",
@@ -895,6 +926,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 1,
       "PkO": 0,
@@ -902,6 +934,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Jason Bere",
       "Player ID": "bereja01",
       "POS": "P",
@@ -913,6 +946,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -920,6 +954,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Danny Graves",
       "Player ID": "graveda01",
       "POS": "P",
@@ -931,6 +966,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -938,6 +974,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "John Hudek",
       "Player ID": "hudekjo01",
       "POS": "P",
@@ -949,6 +986,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -956,6 +994,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Dennys Reyes",
       "Player ID": "reyesde01",
       "POS": "P",
@@ -967,6 +1006,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -974,6 +1014,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Scott Sullivan",
       "Player ID": "sullisc01",
       "POS": "P",
@@ -985,6 +1026,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -992,6 +1034,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Brett Tomko",
       "Player ID": "tomkobr01",
       "POS": "P",
@@ -1003,6 +1046,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -1010,6 +1054,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Gabe White",
       "Player ID": "whitega01",
       "POS": "P",
@@ -1021,6 +1066,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1028,6 +1074,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Scott Williamson",
       "Player ID": "willisc01",
       "POS": "P",
@@ -1039,6 +1086,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -1046,6 +1094,7 @@
       "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Brian Johnson",
       "Player ID": "johnsbr01",
       "POS": "C",
@@ -1060,10 +1109,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "CIN",
       "Player": "Ed Taubensee",
       "Player ID": "taubeed01",
       "POS": "C",
@@ -1078,10 +1129,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 1,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "50%"
     },
     {
+      "team": "CIN",
       "Player": "Sean Casey",
       "Player ID": "caseyse01",
       "POS": "1B",
@@ -1093,9 +1146,15 @@
       "ERR": 0,
       "DP": 3,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Pokey Reese",
       "Player ID": "reesepo01",
       "POS": "2B",
@@ -1107,9 +1166,15 @@
       "ERR": 0,
       "DP": 3,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Aaron Boone",
       "Player ID": "booneaa01",
       "POS": "3B",
@@ -1121,9 +1186,15 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".800"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".800",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Mark Lewis",
       "Player ID": "lewisma01",
       "POS": "3B",
@@ -1135,9 +1206,15 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".500"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".500",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Barry Larkin",
       "Player ID": "larkiba01",
       "POS": "SS",
@@ -1149,9 +1226,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Greg Vaughn",
       "Player ID": "vaughgr01",
       "POS": "LF",
@@ -1163,9 +1246,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Mike Cameron",
       "Player ID": "camermi01",
       "POS": "CF",
@@ -1177,9 +1266,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CIN",
       "Player": "Dmitri Young",
       "Player ID": "youngdm01",
       "POS": "RF",
@@ -1191,7 +1286,12 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".889"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".889",
+      "CS%": null
     }
   ]
 }

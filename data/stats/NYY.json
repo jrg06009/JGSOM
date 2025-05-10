@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "NYY",
       "Player": "Jorge Posada",
       "Player ID": "posadjo01",
       "G": 2,
@@ -30,6 +31,7 @@
       "TB": 2
     },
     {
+      "team": "NYY",
       "Player": "Tino Martinez",
       "Player ID": "martiti02",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 5
     },
     {
+      "team": "NYY",
       "Player": "Chuck Knoblauch",
       "Player ID": "knoblch01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 6
     },
     {
+      "team": "NYY",
       "Player": "Scott Brosius",
       "Player ID": "brosisc01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 1
     },
     {
+      "team": "NYY",
       "Player": "Derek Jeter",
       "Player ID": "jeterde01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 10
     },
     {
+      "team": "NYY",
       "Player": "Chad Curtis",
       "Player ID": "curtich01",
       "G": 2,
@@ -175,6 +181,7 @@
       "TB": 6
     },
     {
+      "team": "NYY",
       "Player": "Bernie Williams",
       "Player ID": "willibe02",
       "G": 3,
@@ -204,6 +211,7 @@
       "TB": 3
     },
     {
+      "team": "NYY",
       "Player": "Paul O'Neill",
       "Player ID": "o'neipa01",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 2
     },
     {
+      "team": "NYY",
       "Player": "Chili Davis",
       "Player ID": "davisch01",
       "G": 3,
@@ -262,6 +271,7 @@
       "TB": 11
     },
     {
+      "team": "NYY",
       "Player": "Ricky Ledee",
       "Player ID": "ledeeri01",
       "G": 1,
@@ -291,6 +301,7 @@
       "TB": 2
     },
     {
+      "team": "NYY",
       "Player": "Joe Girardi",
       "Player ID": "girarjo01",
       "G": 1,
@@ -320,6 +331,7 @@
       "TB": 0
     },
     {
+      "team": "NYY",
       "Player": "Shane Spencer",
       "Player ID": "spencsh01",
       "G": 1,
@@ -349,6 +361,7 @@
       "TB": 0
     },
     {
+      "team": "NYY",
       "Player": "Clay Bellinger",
       "Player ID": "bellicl01",
       "G": 2,
@@ -378,6 +391,7 @@
       "TB": 0
     },
     {
+      "team": "NYY",
       "Player": "Roger Clemens",
       "Player ID": "clemero02",
       "G": 1,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "NYY",
       "Player": "Orlando Hernandez",
       "Player ID": "hernaor01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "NYY",
       "Player": "Mike Stanton",
       "Player ID": "stantmi02",
       "G": 2,
@@ -467,6 +483,7 @@
   ],
   "pitching": [
     {
+      "team": "NYY",
       "Player": "Orlando Hernandez",
       "Player ID": "hernaor01",
       "W": 0,
@@ -497,6 +514,7 @@
       "SO/BB": "1.7"
     },
     {
+      "team": "NYY",
       "Player": "Roger Clemens",
       "Player ID": "clemero02",
       "W": 1,
@@ -527,6 +545,7 @@
       "SO/BB": "5.0"
     },
     {
+      "team": "NYY",
       "Player": "Ramiro Mendoza",
       "Player ID": "mendora01",
       "W": 0,
@@ -557,6 +576,7 @@
       "SO/BB": "0.2"
     },
     {
+      "team": "NYY",
       "Player": "Jason Grimsley",
       "Player ID": "grimsja01",
       "W": 0,
@@ -587,6 +607,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "NYY",
       "Player": "Mariano Rivera",
       "Player ID": "riverma01",
       "W": 0,
@@ -617,6 +638,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "NYY",
       "Player": "Mike Stanton",
       "Player ID": "stantmi02",
       "W": 0,
@@ -647,6 +669,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "NYY",
       "Player": "Jeff Nelson",
       "Player ID": "nelsoje01",
       "W": 1,
@@ -679,6 +702,7 @@
   ],
   "fielding": [
     {
+      "team": "NYY",
       "Player": "Roger Clemens",
       "Player ID": "clemero02",
       "POS": "P",
@@ -690,6 +714,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -697,6 +722,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Jason Grimsley",
       "Player ID": "grimsja01",
       "POS": "P",
@@ -708,6 +734,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -715,6 +742,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Orlando Hernandez",
       "Player ID": "hernaor01",
       "POS": "P",
@@ -726,6 +754,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -733,6 +762,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Ramiro Mendoza",
       "Player ID": "mendora01",
       "POS": "P",
@@ -744,6 +774,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -751,6 +782,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Jeff Nelson",
       "Player ID": "nelsoje01",
       "POS": "P",
@@ -762,6 +794,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -769,6 +802,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Mariano Rivera",
       "Player ID": "riverma01",
       "POS": "P",
@@ -780,6 +814,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -787,6 +822,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Mike Stanton",
       "Player ID": "stantmi02",
       "POS": "P",
@@ -798,6 +834,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -805,6 +842,7 @@
       "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Joe Girardi",
       "Player ID": "girarjo01",
       "POS": "C",
@@ -819,10 +857,12 @@
       "PB": 2,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "NYY",
       "Player": "Jorge Posada",
       "Player ID": "posadjo01",
       "POS": "C",
@@ -837,10 +877,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "NYY",
       "Player": "Tino Martinez",
       "Player ID": "martiti02",
       "POS": "1B",
@@ -852,9 +894,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Chuck Knoblauch",
       "Player ID": "knoblch01",
       "POS": "2B",
@@ -866,9 +914,15 @@
       "ERR": 2,
       "DP": 1,
       "TP": 0,
-      "PCT": ".867"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".867",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Scott Brosius",
       "Player ID": "brosisc01",
       "POS": "3B",
@@ -880,9 +934,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Derek Jeter",
       "Player ID": "jeterde01",
       "POS": "SS",
@@ -894,9 +954,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Chad Curtis",
       "Player ID": "curtich01",
       "POS": "LF",
@@ -908,9 +974,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Ricky Ledee",
       "Player ID": "ledeeri01",
       "POS": "LF",
@@ -922,9 +994,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Shane Spencer",
       "Player ID": "spencsh01",
       "POS": "LF",
@@ -936,9 +1014,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Bernie Williams",
       "Player ID": "willibe02",
       "POS": "CF",
@@ -950,9 +1034,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "NYY",
       "Player": "Paul O'Neill",
       "Player ID": "o'neipa01",
       "POS": "RF",
@@ -964,7 +1054,12 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".800"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".800",
+      "CS%": null
     }
   ]
 }

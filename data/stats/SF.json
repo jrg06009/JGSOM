@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "SF",
       "Player": "Brent Mayne",
       "Player ID": "maynebr01",
       "G": 2,
@@ -31,6 +32,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "J.T. Snow",
       "Player ID": "snowj.01",
       "G": 3,
@@ -61,6 +63,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Jeff Kent",
       "Player ID": "kentje01",
       "G": 3,
@@ -91,6 +94,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Bill Mueller",
       "Player ID": "muellbi02",
       "G": 1,
@@ -121,6 +125,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Rich Aurilia",
       "Player ID": "aurilri01",
       "G": 3,
@@ -151,6 +156,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Barry Bonds",
       "Player ID": "bondsba01",
       "G": 3,
@@ -181,6 +187,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Marvin Benard",
       "Player ID": "benarma01",
       "G": 3,
@@ -211,6 +218,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Ellis Burks",
       "Player ID": "burksel01",
       "G": 3,
@@ -241,6 +249,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Stan Javier",
       "Player ID": "javiest01",
       "G": 2,
@@ -271,6 +280,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Charlie Hayes",
       "Player ID": "hayesch01",
       "G": 2,
@@ -301,6 +311,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "F.P. Santangelo",
       "Player ID": "santaf.01",
       "G": 1,
@@ -331,6 +342,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Scott Servais",
       "Player ID": "servasc01",
       "G": 1,
@@ -361,6 +373,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Russ Ortiz",
       "Player ID": "ortizru01",
       "G": 1,
@@ -391,6 +404,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Kirk Rueter",
       "Player ID": "rueteki01",
       "G": 1,
@@ -421,6 +435,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Mark Gardner",
       "Player ID": "gardnma01",
       "G": 1,
@@ -451,6 +466,7 @@
       "C Hits": null
     },
     {
+      "team": "SF",
       "Player": "Julian Tavarez",
       "Player ID": "tavarju01",
       "G": 2,
@@ -483,6 +499,7 @@
   ],
   "pitching": [
     {
+      "team": "SF",
       "Player": "Alan Embree",
       "Player ID": "embreal01",
       "W": 0,
@@ -513,6 +530,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SF",
       "Player": "Mark Gardner",
       "Player ID": "gardnma01",
       "W": 1,
@@ -543,6 +561,7 @@
       "SO/BB": "8.0"
     },
     {
+      "team": "SF",
       "Player": "John Johnstone",
       "Player ID": "johnsjo07",
       "W": 0,
@@ -573,6 +592,7 @@
       "SO/BB": "2.0"
     },
     {
+      "team": "SF",
       "Player": "Robb Nen",
       "Player ID": "nenro01",
       "W": 0,
@@ -603,6 +623,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "SF",
       "Player": "Russ Ortiz",
       "Player ID": "ortizru01",
       "W": 1,
@@ -633,6 +654,7 @@
       "SO/BB": "1.2"
     },
     {
+      "team": "SF",
       "Player": "Kirk Rueter",
       "Player ID": "rueteki01",
       "W": 1,
@@ -663,6 +685,7 @@
       "SO/BB": "4.0"
     },
     {
+      "team": "SF",
       "Player": "Julian Tavarez",
       "Player ID": "tavarju01",
       "W": 0,
@@ -695,6 +718,7 @@
   ],
   "fielding": [
     {
+      "team": "SF",
       "Player": "Alan Embree",
       "Player ID": "embreal01",
       "POS": "P",
@@ -706,6 +730,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -713,6 +738,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Mark Gardner",
       "Player ID": "gardnma01",
       "POS": "P",
@@ -724,6 +750,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -731,6 +758,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "John Johnstone",
       "Player ID": "johnsjo07",
       "POS": "P",
@@ -742,6 +770,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -749,6 +778,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Robb Nen",
       "Player ID": "nenro01",
       "POS": "P",
@@ -760,6 +790,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -767,6 +798,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Russ Ortiz",
       "Player ID": "ortizru01",
       "POS": "P",
@@ -778,6 +810,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -785,6 +818,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Kirk Rueter",
       "Player ID": "rueteki01",
       "POS": "P",
@@ -796,6 +830,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -803,6 +838,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Julian Tavarez",
       "Player ID": "tavarju01",
       "POS": "P",
@@ -814,6 +850,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -821,6 +858,7 @@
       "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Brent Mayne",
       "Player ID": "maynebr01",
       "POS": "C",
@@ -835,10 +873,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "SF",
       "Player": "Scott Servais",
       "Player ID": "servasc01",
       "POS": "C",
@@ -853,10 +893,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "SF",
       "Player": "J.T. Snow",
       "Player ID": "snowj.01",
       "POS": "1B",
@@ -868,9 +910,15 @@
       "ERR": 0,
       "DP": 5,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Jeff Kent",
       "Player ID": "kentje01",
       "POS": "2B",
@@ -882,9 +930,15 @@
       "ERR": 0,
       "DP": 5,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Charlie Hayes",
       "Player ID": "hayesch01",
       "POS": "3B",
@@ -896,9 +950,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Bill Mueller",
       "Player ID": "muellbi02",
       "POS": "3B",
@@ -910,9 +970,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Rich Aurilia",
       "Player ID": "aurilri01",
       "POS": "SS",
@@ -924,9 +990,15 @@
       "ERR": 0,
       "DP": 5,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Barry Bonds",
       "Player ID": "bondsba01",
       "POS": "LF",
@@ -938,9 +1010,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Marvin Benard",
       "Player ID": "benarma01",
       "POS": "CF",
@@ -952,9 +1030,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "F.P. Santangelo",
       "Player ID": "santaf.01",
       "POS": "CF",
@@ -966,9 +1050,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Ellis Burks",
       "Player ID": "burksel01",
       "POS": "RF",
@@ -980,9 +1070,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "SF",
       "Player": "Stan Javier",
       "Player ID": "javiest01",
       "POS": "RF",
@@ -994,7 +1090,12 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     }
   ]
 }

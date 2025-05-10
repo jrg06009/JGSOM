@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "DET",
       "Player": "Brad Ausmus",
       "Player ID": "ausmubr01",
       "G": 2,
@@ -30,6 +31,7 @@
       "TB": 2
     },
     {
+      "team": "DET",
       "Player": "Tony Clark",
       "Player ID": "clarkto02",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 5
     },
     {
+      "team": "DET",
       "Player": "Damion Easley",
       "Player ID": "easleda01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 9
     },
     {
+      "team": "DET",
       "Player": "Dean Palmer",
       "Player ID": "palmede01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 4
     },
     {
+      "team": "DET",
       "Player": "Deivi Cruz",
       "Player ID": "cruzde01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 3
     },
     {
+      "team": "DET",
       "Player": "Juan Encarnacion",
       "Player ID": "encarju01",
       "G": 3,
@@ -175,6 +181,7 @@
       "TB": 7
     },
     {
+      "team": "DET",
       "Player": "Gabe Kapler",
       "Player ID": "kaplega01",
       "G": 1,
@@ -204,6 +211,7 @@
       "TB": 0
     },
     {
+      "team": "DET",
       "Player": "Bobby Higginson",
       "Player ID": "higgibo02",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 6
     },
     {
+      "team": "DET",
       "Player": "Karim Garcia",
       "Player ID": "garcika01",
       "G": 1,
@@ -262,6 +271,7 @@
       "TB": 5
     },
     {
+      "team": "DET",
       "Player": "Gregg Jefferies",
       "Player ID": "jeffegr01",
       "G": 3,
@@ -291,6 +301,7 @@
       "TB": 5
     },
     {
+      "team": "DET",
       "Player": "Bill Haselman",
       "Player ID": "haselbi01",
       "G": 1,
@@ -320,6 +331,7 @@
       "TB": 4
     },
     {
+      "team": "DET",
       "Player": "Brian Hunter",
       "Player ID": "huntebr02",
       "G": 2,
@@ -349,6 +361,7 @@
       "TB": 3
     },
     {
+      "team": "DET",
       "Player": "Luis Garcia",
       "Player ID": "garcilu01",
       "G": 1,
@@ -378,6 +391,7 @@
       "TB": 0
     },
     {
+      "team": "DET",
       "Player": "Justin Thompson",
       "Player ID": "thompju02",
       "G": 1,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "DET",
       "Player": "Brian Moehler",
       "Player ID": "moehlbr01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "DET",
       "Player": "Willie Blair",
       "Player ID": "blairwi01",
       "G": 1,
@@ -465,6 +481,7 @@
       "TB": 0
     },
     {
+      "team": "DET",
       "Player": "C.J. Nitkowski",
       "Player ID": "nitkoc.01",
       "G": 2,
@@ -496,6 +513,7 @@
   ],
   "pitching": [
     {
+      "team": "DET",
       "Player": "Brian Moehler",
       "Player ID": "moehlbr01",
       "W": 0,
@@ -526,6 +544,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "Justin Thompson",
       "Player ID": "thompju02",
       "W": 0,
@@ -556,6 +575,7 @@
       "SO/BB": "0.5"
     },
     {
+      "team": "DET",
       "Player": "Willie Blair",
       "Player ID": "blairwi01",
       "W": 0,
@@ -586,6 +606,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "DET",
       "Player": "Doug Brocail",
       "Player ID": "brocado01",
       "W": 0,
@@ -616,6 +637,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "C.J. Nitkowski",
       "Player ID": "nitkoc.01",
       "W": 0,
@@ -646,6 +668,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "Todd Jones",
       "Player ID": "jonesto02",
       "W": 0,
@@ -676,6 +699,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "Masao Kida",
       "Player ID": "kidama01",
       "W": 0,
@@ -706,6 +730,7 @@
       "SO/BB": "1.5"
     },
     {
+      "team": "DET",
       "Player": "Matt Anderson",
       "Player ID": "anderma01",
       "W": 0,
@@ -736,6 +761,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "Sean Runyan",
       "Player ID": "runyase01",
       "W": 0,
@@ -766,6 +792,7 @@
       "SO/BB": "0.0"
     },
     {
+      "team": "DET",
       "Player": "Felipe Lira",
       "Player ID": "lirafe01",
       "W": 0,
@@ -798,6 +825,7 @@
   ],
   "fielding": [
     {
+      "team": "DET",
       "Player": "Matt Anderson",
       "Player ID": "anderma01",
       "POS": "P",
@@ -809,6 +837,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -816,6 +845,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Willie Blair",
       "Player ID": "blairwi01",
       "POS": "P",
@@ -827,6 +857,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -834,6 +865,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Doug Brocail",
       "Player ID": "brocado01",
       "POS": "P",
@@ -845,6 +877,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -852,6 +885,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Todd Jones",
       "Player ID": "jonesto02",
       "POS": "P",
@@ -863,6 +897,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -870,6 +905,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Masao Kida",
       "Player ID": "kidama01",
       "POS": "P",
@@ -881,6 +917,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 1,
       "PkO": 0,
@@ -888,6 +925,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Felipe Lira",
       "Player ID": "lirafe01",
       "POS": "P",
@@ -899,6 +937,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -906,6 +945,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Brian Moehler",
       "Player ID": "moehlbr01",
       "POS": "P",
@@ -917,6 +957,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -924,6 +965,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "C.J. Nitkowski",
       "Player ID": "nitkoc.01",
       "POS": "P",
@@ -935,6 +977,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -942,6 +985,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Sean Runyan",
       "Player ID": "runyase01",
       "POS": "P",
@@ -953,6 +997,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -960,6 +1005,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Justin Thompson",
       "Player ID": "thompju02",
       "POS": "P",
@@ -971,6 +1017,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -978,6 +1025,7 @@
       "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Brad Ausmus",
       "Player ID": "ausmubr01",
       "POS": "C",
@@ -992,10 +1040,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 1,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "50%"
     },
     {
+      "team": "DET",
       "Player": "Bill Haselman",
       "Player ID": "haselbi01",
       "POS": "C",
@@ -1010,10 +1060,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "DET",
       "Player": "Tony Clark",
       "Player ID": "clarkto02",
       "POS": "1B",
@@ -1025,9 +1077,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Damion Easley",
       "Player ID": "easleda01",
       "POS": "2B",
@@ -1039,9 +1097,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Dean Palmer",
       "Player ID": "palmede01",
       "POS": "3B",
@@ -1053,9 +1117,15 @@
       "ERR": 2,
       "DP": 1,
       "TP": 0,
-      "PCT": ".778"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".778",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Deivi Cruz",
       "Player ID": "cruzde01",
       "POS": "SS",
@@ -1067,9 +1137,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Luis Garcia",
       "Player ID": "garcilu01",
       "POS": "SS",
@@ -1081,9 +1157,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Juan Encarnacion",
       "Player ID": "encarju01",
       "POS": "LF",
@@ -1095,9 +1177,15 @@
       "ERR": 1,
       "DP": 0,
       "TP": 0,
-      "PCT": ".833"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".833",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Brian Hunter",
       "Player ID": "huntebr02",
       "POS": "CF",
@@ -1109,9 +1197,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Gabe Kapler",
       "Player ID": "kaplega01",
       "POS": "CF",
@@ -1123,9 +1217,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Karim Garcia",
       "Player ID": "garcika01",
       "POS": "RF",
@@ -1137,9 +1237,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "DET",
       "Player": "Bobby Higginson",
       "Player ID": "higgibo02",
       "POS": "RF",
@@ -1151,7 +1257,12 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     }
   ]
 }

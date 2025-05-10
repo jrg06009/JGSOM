@@ -1,6 +1,7 @@
 {
   "batting": [
     {
+      "team": "CHW",
       "Player": "Brook Fordyce",
       "Player ID": "fordybr01",
       "G": 3,
@@ -30,6 +31,7 @@
       "TB": 6
     },
     {
+      "team": "CHW",
       "Player": "Paul Konerko",
       "Player ID": "konerpa01",
       "G": 3,
@@ -59,6 +61,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Ray Durham",
       "Player ID": "durhara01",
       "G": 3,
@@ -88,6 +91,7 @@
       "TB": 5
     },
     {
+      "team": "CHW",
       "Player": "Greg Norton",
       "Player ID": "nortogr01",
       "G": 3,
@@ -117,6 +121,7 @@
       "TB": 11
     },
     {
+      "team": "CHW",
       "Player": "Mike Caruso",
       "Player ID": "carusmi01",
       "G": 3,
@@ -146,6 +151,7 @@
       "TB": 7
     },
     {
+      "team": "CHW",
       "Player": "Chris Singleton",
       "Player ID": "singlch01",
       "G": 1,
@@ -175,6 +181,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Magglio Ordonez",
       "Player ID": "ordonma01",
       "G": 3,
@@ -204,6 +211,7 @@
       "TB": 8
     },
     {
+      "team": "CHW",
       "Player": "Frank Thomas",
       "Player ID": "thomafr04",
       "G": 3,
@@ -233,6 +241,7 @@
       "TB": 6
     },
     {
+      "team": "CHW",
       "Player": "Craig Wilson",
       "Player ID": "wilsocr02",
       "G": 2,
@@ -262,6 +271,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Mark Johnson",
       "Player ID": "johnsma02",
       "G": 2,
@@ -291,6 +301,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Darrin Jackson",
       "Player ID": "jacksda03",
       "G": 3,
@@ -320,6 +331,7 @@
       "TB": 4
     },
     {
+      "team": "CHW",
       "Player": "Jeff Liefer",
       "Player ID": "liefeje01",
       "G": 2,
@@ -349,6 +361,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Jeff Abbott",
       "Player ID": "abbotje01",
       "G": 3,
@@ -378,6 +391,7 @@
       "TB": 10
     },
     {
+      "team": "CHW",
       "Player": "McKay Christensen",
       "Player ID": "chrismc01",
       "G": 2,
@@ -407,6 +421,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Jim Parque",
       "Player ID": "parquji01",
       "G": 1,
@@ -436,6 +451,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "James Baldwin",
       "Player ID": "baldwja01",
       "G": 1,
@@ -465,6 +481,7 @@
       "TB": 0
     },
     {
+      "team": "CHW",
       "Player": "Keith Foulke",
       "Player ID": "foulkke01",
       "G": 1,
@@ -496,6 +513,7 @@
   ],
   "pitching": [
     {
+      "team": "CHW",
       "Player": "James Baldwin",
       "Player ID": "baldwja01",
       "W": 1,
@@ -526,6 +544,7 @@
       "SO/BB": "0.4"
     },
     {
+      "team": "CHW",
       "Player": "Keith Foulke",
       "Player ID": "foulkke01",
       "W": 0,
@@ -556,6 +575,7 @@
       "SO/BB": "0.5"
     },
     {
+      "team": "CHW",
       "Player": "Sean Lowe",
       "Player ID": "lowese01",
       "W": 0,
@@ -586,6 +606,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "CHW",
       "Player": "David Lundquist",
       "Player ID": "lundqda01",
       "W": 0,
@@ -616,6 +637,7 @@
       "SO/BB": "2.0"
     },
     {
+      "team": "CHW",
       "Player": "Jim Parque",
       "Player ID": "parquji01",
       "W": 0,
@@ -646,6 +668,7 @@
       "SO/BB": "1.0"
     },
     {
+      "team": "CHW",
       "Player": "Bill Simas",
       "Player ID": "simasbi01",
       "W": 0,
@@ -676,6 +699,7 @@
       "SO/BB": "2.0"
     },
     {
+      "team": "CHW",
       "Player": "John Snyder",
       "Player ID": "snydejo02",
       "W": 0,
@@ -706,6 +730,7 @@
       "SO/BB": "0.5"
     },
     {
+      "team": "CHW",
       "Player": "Bryan Ward",
       "Player ID": "wardbr01",
       "W": 0,
@@ -738,6 +763,7 @@
   ],
   "fielding": [
     {
+      "team": "CHW",
       "Player": "James Baldwin",
       "Player ID": "baldwja01",
       "POS": "P",
@@ -749,6 +775,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -756,6 +783,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Keith Foulke",
       "Player ID": "foulkke01",
       "POS": "P",
@@ -767,6 +795,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -774,6 +803,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Sean Lowe",
       "Player ID": "lowese01",
       "POS": "P",
@@ -785,6 +815,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -792,6 +823,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "David Lundquist",
       "Player ID": "lundqda01",
       "POS": "P",
@@ -803,6 +835,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -810,6 +843,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Jim Parque",
       "Player ID": "parquji01",
       "POS": "P",
@@ -821,6 +855,7 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
+      "PB": 0,
       "SB": 1,
       "CS": 0,
       "PkO": 0,
@@ -828,6 +863,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Bill Simas",
       "Player ID": "simasbi01",
       "POS": "P",
@@ -839,6 +875,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -846,6 +883,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "John Snyder",
       "Player ID": "snydejo02",
       "POS": "P",
@@ -857,6 +895,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -864,6 +903,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Bryan Ward",
       "Player ID": "wardbr01",
       "POS": "P",
@@ -875,6 +915,7 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
+      "PB": 0,
       "SB": 0,
       "CS": 0,
       "PkO": 0,
@@ -882,6 +923,7 @@
       "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Brook Fordyce",
       "Player ID": "fordybr01",
       "POS": "C",
@@ -896,10 +938,12 @@
       "PB": 0,
       "SB": 1,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "CHW",
       "Player": "Mark Johnson",
       "Player ID": "johnsma02",
       "POS": "C",
@@ -914,10 +958,12 @@
       "PB": 0,
       "SB": 0,
       "CS": 0,
+      "PkO": 0,
       "PCT": "1.000",
       "CS%": "0%"
     },
     {
+      "team": "CHW",
       "Player": "Paul Konerko",
       "Player ID": "konerpa01",
       "POS": "1B",
@@ -929,9 +975,15 @@
       "ERR": 0,
       "DP": 1,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Jeff Liefer",
       "Player ID": "liefeje01",
       "POS": "1B",
@@ -943,9 +995,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Frank Thomas",
       "Player ID": "thomafr04",
       "POS": "1B",
@@ -957,9 +1015,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Ray Durham",
       "Player ID": "durhara01",
       "POS": "2B",
@@ -971,9 +1035,15 @@
       "ERR": 0,
       "DP": 2,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Craig Wilson",
       "Player ID": "wilsocr02",
       "POS": "2B",
@@ -985,9 +1055,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Greg Norton",
       "Player ID": "nortogr01",
       "POS": "3B",
@@ -999,9 +1075,15 @@
       "ERR": 2,
       "DP": 0,
       "TP": 0,
-      "PCT": ".714"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".714",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Mike Caruso",
       "Player ID": "carusmi01",
       "POS": "SS",
@@ -1013,9 +1095,15 @@
       "ERR": 2,
       "DP": 3,
       "TP": 0,
-      "PCT": ".889"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".889",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Jeff Abbott",
       "Player ID": "abbotje01",
       "POS": "LF",
@@ -1027,9 +1115,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Darrin Jackson",
       "Player ID": "jacksda03",
       "POS": "LF",
@@ -1041,9 +1135,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Chris Singleton",
       "Player ID": "singlch01",
       "POS": "LF",
@@ -1055,9 +1155,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "McKay Christensen",
       "Player ID": "chrismc01",
       "POS": "CF",
@@ -1069,9 +1175,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Darrin Jackson",
       "Player ID": "jacksda03",
       "POS": "CF",
@@ -1083,9 +1195,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Darrin Jackson",
       "Player ID": "jacksda03",
       "POS": "RF",
@@ -1097,9 +1215,15 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": ".000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": ".000",
+      "CS%": null
     },
     {
+      "team": "CHW",
       "Player": "Magglio Ordonez",
       "Player ID": "ordonma01",
       "POS": "RF",
@@ -1111,7 +1235,12 @@
       "ERR": 0,
       "DP": 0,
       "TP": 0,
-      "PCT": "1.000"
+      "PB": 0,
+      "SB": 0,
+      "CS": 0,
+      "PkO": 0,
+      "PCT": "1.000",
+      "CS%": null
     }
   ]
 }
