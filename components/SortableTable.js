@@ -9,14 +9,18 @@ export default function SortableTable({
   exclude = [],
   nameLinkField = 'Player',
   idField = 'Player ID',
-  linkBase = '/players'
+  teamField = 'team',
+  linkBase = '/players',
+  teamLinkBase = '/teams'
 }) {
   const [sortKey, setSortKey] = useState(defaultSortKey)
   const [sortAsc, setSortAsc] = useState(false)
 
   if (!data || data.length === 0) return null
 
-  const headers = Object.keys(data[0]).filter(k => !exclude.includes(k))
+  const headers = Object.keys(data[0]).filter(
+    k => !exclude.includes(k) && k !== idField // exclude the ID column from headers
+  )
 
   const sorted = [...data].sort((a, b) => {
     const valA = a[sortKey]
@@ -63,6 +67,10 @@ export default function SortableTable({
                   <td key={key} className="border border-gray-300 p-2 text-center">
                     {key === nameLinkField && row[idField] ? (
                       <Link href={`${linkBase}/${row[idField]}`}>
+                        <a className="text-blue-600 hover:underline">{row[key]}</a>
+                      </Link>
+                    ) : key === teamField ? (
+                      <Link href={`${teamLinkBase}/${row[key]}`}>
                         <a className="text-blue-600 hover:underline">{row[key]}</a>
                       </Link>
                     ) : (
