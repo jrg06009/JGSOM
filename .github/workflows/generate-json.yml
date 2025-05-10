@@ -3,7 +3,7 @@ name: Generate Stat JSONs
 on:
   push:
     paths:
-      - 'data/*.xlsm'
+      - 'data/**'
 
 jobs:
   build:
