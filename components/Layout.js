@@ -1,55 +1,113 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 const divisions = {
   'AL East': [
-    { name: 'BAL Orioles', abbr: 'BAL' },
-    { name: 'BOS Red Sox', abbr: 'BOS' },
-    { name: 'NYY Yankees', abbr: 'NYY' },
-    { name: 'TB Rays', abbr: 'TB' },
-    { name: 'TOR Blue Jays', abbr: 'TOR' },
+    { name: 'Baltimore Orioles', abbr: 'BAL' },
+    { name: 'Boston Red Sox', abbr: 'BOS' },
+    { name: 'New York Yankees', abbr: 'NYY' },
+    { name: 'Tampa Bay Devil Rays', abbr: 'TB' },
+    { name: 'Toronto Blue Jays', abbr: 'TOR' },
   ],
   'AL Central': [
-    { name: 'CWS White Sox', abbr: 'CWS' },
-    { name: 'CLE Guardians', abbr: 'CLE' },
-    { name: 'DET Tigers', abbr: 'DET' },
-    { name: 'KC Royals', abbr: 'KC' },
-    { name: 'MIN Twins', abbr: 'MIN' },
+    { name: 'Chicago White Sox', abbr: 'CWS' },
+    { name: 'Cleveland Indians', abbr: 'CLE' },
+    { name: 'Detroit Tigers', abbr: 'DET' },
+    { name: 'Kansas City Royals', abbr: 'KC' },
+    { name: 'Minnesota Twins', abbr: 'MIN' },
   ],
   'AL West': [
-    { name: 'HOU Astros', abbr: 'HOU' },
-    { name: 'LAA Angels', abbr: 'LAA' },
-    { name: 'OAK Athletics', abbr: 'OAK' },
-    { name: 'SEA Mariners', abbr: 'SEA' },
-    { name: 'TEX Rangers', abbr: 'TEX' },
+    { name: 'Anaheim Angels', abbr: 'ANA' },
+    { name: 'Oakland Athletics', abbr: 'OAK' },
+    { name: 'Seattle Mariners', abbr: 'SEA' },
+    { name: 'Texas Rangers', abbr: 'TEX' },
   ],
   'NL East': [
-    { name: 'ATL Braves', abbr: 'ATL' },
-    { name: 'MIA Marlins', abbr: 'MIA' },
-    { name: 'NYM Mets', abbr: 'NYM' },
-    { name: 'PHI Phillies', abbr: 'PHI' },
-    { name: 'WSH Nationals', abbr: 'WSH' },
+    { name: 'Atlanta Braves', abbr: 'ATL' },
+    { name: 'Florida Marlins', abbr: 'FLA' },
+    { name: 'New York Mets', abbr: 'NYM' },
+    { name: 'Philadelphia Phillies', abbr: 'PHI' },
+    { name: 'Washington Nationals', abbr: 'WSH' },
   ],
   'NL Central': [
-    { name: 'CHC Cubs', abbr: 'CHC' },
-    { name: 'CIN Reds', abbr: 'CIN' },
-    { name: 'MIL Brewers', abbr: 'MIL' },
-    { name: 'PIT Pirates', abbr: 'PIT' },
-    { name: 'STL Cardinals', abbr: 'STL' },
+    { name: 'Chicago Cubs', abbr: 'CHC' },
+    { name: 'Cincinnati Reds', abbr: 'CIN' },
+    { name: 'Houston Astros', abbr: 'HOU' },
+    { name: 'Milwaukee Brewers', abbr: 'MIL' },
+    { name: 'Pittsburgh Pirates', abbr: 'PIT' },
+    { name: 'St. Louis Cardinals', abbr: 'STL' },
   ],
   'NL West': [
-    { name: 'ARI Diamondbacks', abbr: 'ARI' },
-    { name: 'COL Rockies', abbr: 'COL' },
-    { name: 'LA Dodgers', abbr: 'LA' },
-    { name: 'SD Padres', abbr: 'SD' },
-    { name: 'SF Giants', abbr: 'SF' },
+    { name: 'Arizona Diamondbacks', abbr: 'ARI' },
+    { name: 'Colorado Rockies', abbr: 'COL' },
+    { name: 'Los Angeles Dodgers', abbr: 'LA' },
+    { name: 'San Diego Padres', abbr: 'SD' },
+    { name: 'San Francisco Giants', abbr: 'SF' },
   ],
 }
 
 export default function Layout({ children }) {
   const router = useRouter()
   const [showTeams, setShowTeams] = useState(false)
+  const [players, setPlayers] = useState([])
+  const [query, setQuery] = useState("")
+  const [filtered, setFiltered] = useState([])
+  const [activeIndex, setActiveIndex] = useState(-1)
+
+  useEffect(() => {
+    async function fetchPlayers() {
+      const res = await fetch('/data/stats/players_combined.json')
+      const data = await res.json()
+      setPlayers(data)
+    }
+    fetchPlayers()
+  }, [])
+
+  useEffect(() => {
+    if (query.length === 0) {
+      setFiltered([])
+      setActiveIndex(-1)
+    } else {
+      const results = players
+        .filter(p => p.name.toLowerCase().includes(query.toLowerCase()))
+        .slice(0, 10)
+      setFiltered(results)
+      setActiveIndex(-1)
+    }
+  }, [query, players])
+
+  const handleSelect = (id) => {
+    setQuery("")
+    setFiltered([])
+    setActiveIndex(-1)
+    router.push(`/players/${id}`)
+  }
+
+  const handleKeyDown = (e) => {
+    if (e.key === "ArrowDown") {
+      e.preventDefault()
+      setActiveIndex(prev => Math.min(prev + 1, filtered.length - 1))
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault()
+      setActiveIndex(prev => Math.max(prev - 1, 0))
+    } else if (e.key === "Enter" && activeIndex >= 0) {
+      e.preventDefault()
+      handleSelect(filtered[activeIndex].id)
+    }
+  }
+
+  const highlightMatch = (name) => {
+    const index = name.toLowerCase().indexOf(query.toLowerCase())
+    if (index === -1) return name
+    return (
+      <>
+        {name.slice(0, index)}
+        <span className="font-bold text-blue-700">{name.slice(index, index + query.length)}</span>
+        {name.slice(index + query.length)}
+      </>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-white text-black">
@@ -60,11 +118,10 @@ export default function Layout({ children }) {
               <img src="/logos/league.png" alt="Logo" className="h-10 w-auto" />
             </a>
           </Link>
-          <nav className="flex space-x-6 relative">
+          <nav className="flex space-x-6 relative items-center">
             <NavLink href="/" current={router.pathname === '/'}>Home</NavLink>
             <NavLink href="/standings" current={router.pathname.startsWith('/standings')}>Standings</NavLink>
             <NavLink href="/schedule" current={router.pathname.startsWith('/schedule')}>Schedule</NavLink>
-            {/* Teams Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setShowTeams(true)}
@@ -93,6 +150,35 @@ export default function Layout({ children }) {
             <NavLink href="/batting" current={router.pathname.startsWith('/batting')}>Batting</NavLink>
             <NavLink href="/pitching" current={router.pathname.startsWith('/pitching')}>Pitching</NavLink>
             <NavLink href="/fielding" current={router.pathname.startsWith('/fielding')}>Fielding</NavLink>
+
+            {/* Search bar */}
+            <div className="relative ml-4 w-64">
+              <input
+                type="text"
+                placeholder="Search players..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={handleKeyDown}
+                className="p-1 px-2 text-black w-full rounded"
+              />
+              {filtered.length > 0 && (
+                <ul className="absolute mt-1 w-full bg-white text-black border border-gray-300 rounded shadow-md max-h-64 overflow-y-auto z-50">
+                  {filtered.map((player, idx) => {
+                    const team = (player.batting?.[0]?.team || player.pitching?.[0]?.team || player.fielding?.[0]?.team || "").toUpperCase()
+                    return (
+                      <li
+                        key={player.id}
+                        className={\`p-2 cursor-pointer flex justify-between items-center \${idx === activeIndex ? 'bg-blue-100' : 'hover:bg-gray-100'}\`}
+                        onMouseDown={() => handleSelect(player.id)}
+                      >
+                        <span>{highlightMatch(player.name)}</span>
+                        <span className="text-xs text-gray-600 ml-2">{team}</span>
+                      </li>
+                    )
+                  })}
+                </ul>
+              )}
+            </div>
           </nav>
         </div>
       </header>
@@ -104,7 +190,7 @@ export default function Layout({ children }) {
 function NavLink({ href, current, children }) {
   return (
     <Link href={href} passHref>
-      <a className={`text-lg font-medium px-2 ${current ? 'text-yellow-400 underline' : 'text-white hover:text-yellow-300'}`}>
+      <a className={\`text-lg font-medium px-2 \${current ? 'text-yellow-400 underline' : 'text-white hover:text-yellow-300'}\`}>
         {children}
       </a>
     </Link>
