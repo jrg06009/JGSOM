@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join(process.cwd(), 'data/stats'))
@@ -74,7 +75,13 @@ function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
               <tr key={idx}>
                 {headers.map((key) => (
                   <td key={key} className="border border-gray-300 p-2 text-center">
-                    {row[key]}
+                    {key === 'name' && row.id ? (
+                      <Link href={`/players/${row.id}`}>
+                        <a className="text-blue-600 underline">{row[key]}</a>
+                      </Link>
+                    ) : (
+                      row[key]
+                    )}
                   </td>
                 ))}
               </tr>
@@ -104,24 +111,24 @@ export default function TeamPage({ abbr, stats, team }) {
 
           <SortableTable title="Batting" data={stats.batting} defaultSortKey="PA" />
           <SortableTable title="Pitching" data={stats.pitching} defaultSortKey="IP" />
-{stats.fielding && (() => {
-  const grouped = stats.fielding.reduce((acc, player) => {
-    const pos = player.POS || "Unknown"
-    if (!acc[pos]) acc[pos] = []
-    acc[pos].push(player)
-    return acc
-  }, {})
 
-  return Object.entries(grouped).map(([pos, group]) => (
-    <SortableTable
-      key={pos}
-      title={`Fielding - ${pos}`}
-      data={group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN))}
-      defaultSortKey="INN"
-    />
-  ))
-})()}
+          {stats.fielding && (() => {
+            const grouped = stats.fielding.reduce((acc, player) => {
+              const pos = player.POS || "Unknown"
+              if (!acc[pos]) acc[pos] = []
+              acc[pos].push(player)
+              return acc
+            }, {})
 
+            return Object.entries(grouped).map(([pos, group]) => (
+              <SortableTable
+                key={pos}
+                title={`Fielding - ${pos}`}
+                data={group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN))}
+                defaultSortKey="INN"
+              />
+            ))
+          })()}
         </>
       ) : (
         <p className="text-red-600">Team not found.</p>
