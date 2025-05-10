@@ -9,10 +9,7 @@ export async function getStaticPaths() {
 
   const paths = data
     .filter(player => typeof player.id === 'string' && player.id.trim() !== '')
-    .map(player => ({
-      params: { id: player.id }
-    }))
-
+    .map(player => ({ params: { id: player.id } }))
   return { paths, fallback: false }
 }
 
@@ -20,12 +17,7 @@ export async function getStaticProps({ params }) {
   const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   const player = data.find(p => p.id === params.id)
-
-  return {
-    props: {
-      player
-    }
-  }
+  return { props: { player } }
 }
 
 function SortableTable({ title, data, numericSort = true }) {
@@ -87,24 +79,34 @@ function SortableTable({ title, data, numericSort = true }) {
 }
 
 export default function PlayerPage({ player }) {
-  const { batting, pitching, fielding } = player
+  const { name, batting, pitching, fielding } = player
+
+  const filterStats = (stats, keysToExclude = ["id", "name", "link", "team"]) =>
+    stats
+      .map(row => {
+        const filtered = {}
+        Object.entries(row).forEach(([key, value]) => {
+          if (!keysToExclude.includes(key)) {
+            filtered[key] = value
+          }
+        })
+        return filtered
+      })
+
+  const renderStatTable = (title, sectionData) => {
+    if (!sectionData || sectionData.length === 0) return null
+    const data = filterStats(sectionData)
+    return <SortableTable title={title} data={data} />
+  }
 
   return (
     <Layout>
       <div className="max-w-3xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-6">{player.name}</h1>
+        <h1 className="text-3xl font-bold mb-6">{name}</h1>
 
-        {batting && Object.keys(batting).length > 0 && (
-          <SortableTable title="Batting Stats" data={[batting]} />
-        )}
-
-        {pitching && Object.keys(pitching).length > 0 && (
-          <SortableTable title="Pitching Stats" data={[pitching]} />
-        )}
-
-        {fielding && fielding.length > 0 && (
-          <SortableTable title="Fielding Stats" data={fielding} />
-        )}
+        {Array.isArray(batting) && batting.length > 0 && renderStatTable("Batting Stats", batting)}
+        {Array.isArray(pitching) && pitching.length > 0 && renderStatTable("Pitching Stats", pitching)}
+        {Array.isArray(fielding) && fielding.length > 0 && renderStatTable("Fielding Stats", fielding)}
 
         {!batting && !pitching && (!fielding || fielding.length === 0) && (
           <p className="text-gray-600 mt-4">No available statistics for this player.</p>
