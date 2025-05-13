@@ -236,7 +236,7 @@ def group_stats(gamelog_df, schedule_df):
 
     return batting, pitching, fielding, boxscores
 if __name__ == "__main__":
-    input_file = "/mnt/data/1999 Replay.xlsx"
+    input_file = "/data/1999 Replay.xlsx"
     output_dir = "data/stats"
     boxscore_dir = "data/boxscores"
 
