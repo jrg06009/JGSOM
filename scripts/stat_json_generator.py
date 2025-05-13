@@ -82,7 +82,42 @@ def generate_stats_from_excel(excel_path, output_folder):
     for team_id in team_ids:
         team_data = {}
 
-        # (Omitting unchanged batting and pitching logic here...)
+        # Batting
+        try:
+            df = xls.parse(f"{team_id} B").replace({np.nan: None, pd.NA: None}).dropna(how="all")
+            batting = clean_and_format(df.to_dict(orient="records"), {
+                "AVG": ".3f", "OBP": ".3f", "SLG": ".3f", "OPS": ".3f"
+            }, team_id, drop_fields=["P/S", "MAX"], min_games_field="G")
+            team_data["batting"] = batting
+            for row in batting:
+                pid = row.get("Player ID") or row.get("player ID") or row.get("PlayerID")
+                name = row.get("Player") or row.get("Players")
+                if pid and name:
+                    all_players[pid]["name"] = name
+                    all_players[pid]["id"] = pid
+                    all_players[pid]["link"] = f"/players/{pid}"
+                    all_players[pid]["batting"].append(row)
+        except Exception as e:
+            team_data["batting"] = f"Error: {str(e)}"
+
+        # Pitching
+        try:
+            df = xls.parse(f"{team_id} P").replace({np.nan: None, pd.NA: None}).dropna(how="all")
+            pitching = clean_and_format(df.to_dict(orient="records"), {
+                "ERA": ".2f", "WHIP": ".2f", "H9": ".1f", "HR9": ".1f",
+                "BB9": ".1f", "SO9": ".1f", "SO/BB": ".1f", "W-L%": ".3f"
+            }, team_id, drop_fields=["P/S", "MAX"], ip_field="IP", min_games_field="G")
+            team_data["pitching"] = pitching
+            for row in pitching:
+                pid = row.get("Player ID") or row.get("player ID") or row.get("PlayerID")
+                name = row.get("Player") or row.get("Players")
+                if pid and name:
+                    all_players[pid]["name"] = name
+                    all_players[pid]["id"] = pid
+                    all_players[pid]["link"] = f"/players/{pid}"
+                    all_players[pid]["pitching"].append(row)
+        except Exception as e:
+            team_data["pitching"] = f"Error: {str(e)}"
 
         # Fielding
         try:
