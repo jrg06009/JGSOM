@@ -39,7 +39,8 @@ def generate_schedule(schedule_df):
             "away_team": row["Away"],
             "home_score": row["Home Score"],
             "away_score": row["Away Score"],
-            "completed": bool(row["Played"])
+            "completed": bool(row["Played"]),
+            "simDate": row["Played On"]
         })
     return schedule
 
