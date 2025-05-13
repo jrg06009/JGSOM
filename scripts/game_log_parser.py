@@ -33,7 +33,7 @@ def generate_schedule(schedule_df):
     schedule = []
     for _, row in schedule_df.iterrows():
         schedule.append({
-            "game_id": str(row["Game ID"]),
+            "game_id": str(row["Game#"]),
             "date": str(row["Date"]),
             "home_team": row["Home"],
             "away_team": row["Away"],
@@ -75,9 +75,9 @@ def group_stats(gamelog_df):
     boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
 
     for _, row in gamelog_df.iterrows():
-        game_id = str(row["Game ID"])
+        game_id = str(row["Game#"])
         team = row["Team"]
-        player = row["Player"]
+        player = row["Player Name"]
         pid = row["Player ID"]
         pos = row.get("POS", "")
         bop = row.get("BOP", "")
@@ -92,7 +92,7 @@ def group_stats(gamelog_df):
         # Batting
         if not pd.isna(row.get("AB")):
             bline = {
-                "Player": player,
+                "Player Name": player,
                 "BOP": int(bop) if bop else None,
                 "AB": int(row.get("AB", 0)),
                 "H": int(row.get("H", 0)),
@@ -107,7 +107,7 @@ def group_stats(gamelog_df):
             }
             boxscores[game_id]["batting"][team].append(bline)
             for stat in bline:
-                if stat != "Player" and stat != "BOP" and stat != "Removed":
+                if stat != "Player Name" and stat != "BOP" and stat != "Removed":
                     batting[(pid, team)][stat] += bline[stat]
 
         # Pitching
@@ -124,7 +124,7 @@ def group_stats(gamelog_df):
                 "L": int(row.get("L", 0)),
                 "SV": int(row.get("SV", 0))
             }
-            boxscores[game_id]["pitching"][team].append({"Player": player, **pstats})
+            boxscores[game_id]["pitching"][team].append({"Player Name": player, **pstats})
             for k, v in pstats.items():
                 pitching[(pid, team)][k] += v
 
@@ -151,8 +151,91 @@ def save_json(data, path):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
+
+def safe_int(val):
+    try:
+        return int(val)
+    except:
+        return 0
+
+def group_stats(gamelog_df, schedule_df):
+    batting, pitching, fielding = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
+    boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
+
+    game_map = { row["Game#"]: str(row["Game ID"]) for _, row in schedule_df.iterrows() }
+
+    for _, row in gamelog_df.iterrows():
+        game_num = row["Game#"]
+        game_id = game_map.get(game_num, str(game_num))
+        team = row["Team"]
+        player = row["Player Name"]
+        pid = row["Player ID"]
+        pos = row.get("POS", "")
+        bop = row.get("BOP", "")
+        removed = row.get("Removed", "")
+
+        # Boxscore meta
+        for field in ["Date", "Home", "Away", "Home Score", "Away Score"]:
+            if field.lower().replace(" ", "_") not in boxscores[game_id]["meta"]:
+                boxscores[game_id]["meta"][field.lower().replace(" ", "_")] = row.get(field, "")
+
+        # Batting
+        if not pd.isna(row.get("AB")):
+            bline = {
+                "Player": player,
+                "BOP": safe_int(bop),
+                "AB": safe_int(row.get("AB")),
+                "H": safe_int(row.get("H")),
+                "2B": safe_int(row.get("2B")),
+                "3B": safe_int(row.get("3B")),
+                "HR": safe_int(row.get("HR")),
+                "BB": safe_int(row.get("BB")),
+                "SO": safe_int(row.get("SO")),
+                "R": safe_int(row.get("R")),
+                "RBI": safe_int(row.get("RBI")),
+                "Removed": removed if removed else None
+            }
+            boxscores[game_id]["batting"][team].append(bline)
+            for stat in bline:
+                if stat not in {"Player", "BOP", "Removed"}:
+                    batting[(pid, team)][stat] += bline[stat]
+
+        # Pitching
+        if not pd.isna(row.get("IP")):
+            ip = format_ip(row.get("IP", 0))
+            pstats = {
+                "IP": ip,
+                "ER": safe_int(row.get("ER")),
+                "H": safe_int(row.get("H allowed")),
+                "BB": safe_int(row.get("BB against")),
+                "SO": safe_int(row.get("SO against")),
+                "HR": safe_int(row.get("HR allowed")),
+                "W": safe_int(row.get("W")),
+                "L": safe_int(row.get("L")),
+                "SV": safe_int(row.get("SV"))
+            }
+            boxscores[game_id]["pitching"][team].append({"Player": player, **pstats})
+            for k, v in pstats.items():
+                pitching[(pid, team)][k] += v
+            pitching[(pid, team)][f"GAMES_{game_id}"] = ip
+            pitching[(pid, team)][f"SHO_{game_id}"] = (ip >= 9 and row.get("R against", 0) == 0)
+
+        # Fielding
+        if not pd.isna(row.get("INN")):
+            inn = format_ip(row.get("INN", 0))
+            fstats = {
+                "PO": safe_int(row.get("PO")),
+                "A": safe_int(row.get("A")),
+                "E": safe_int(row.get("ERR")),
+                "INN": inn
+            }
+            key = (pid, team, pos)
+            for k, v in fstats.items():
+                fielding[key][k] += v
+
+    return batting, pitching, fielding, boxscores
 if __name__ == "__main__":
-    input_file = "data/1999 Replay.xlsx"
+    input_file = "/mnt/data/1999 Replay.xlsx"
     output_dir = "data/stats"
     boxscore_dir = "data/boxscores"
 
@@ -162,7 +245,7 @@ if __name__ == "__main__":
     gamelog_df, schedule_df = load_data(input_file)
     schedule = generate_schedule(schedule_df)
     standings = generate_standings(schedule_df)
-    batting, pitching, fielding, boxscores = group_stats(gamelog_df)
+    batting, pitching, fielding, boxscores = group_stats(gamelog_df, schedule_df)
 
     # Save schedule and standings
     save_json(schedule, os.path.join(output_dir, "schedule.json"))
