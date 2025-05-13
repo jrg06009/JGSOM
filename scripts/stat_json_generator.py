@@ -171,9 +171,10 @@ for pid, p in all_players.items():
             if len(teams) > 1:
                 p[section] = merge_totals(p[section])
 
-    with open(os.path.join(output_folder, "players_combined.json"), "w") as f:
-        json.dump(list(all_players.values()), f, indent=2)
-    print("players_combined.json created.")
+with open(os.path.join(output_folder, "players_combined.json"), "w") as f:
+    json.dump(list(all_players.values()), f, indent=2)
+
+print("players_combined.json created.")
 
     # You can add your standings/schedule logic here if needed
 
