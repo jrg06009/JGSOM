@@ -1,32 +1,37 @@
 import { useState } from 'react'
 import fs from 'fs'
 import path from 'path'
-import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
+import { getTeamToLeagueMap } from '../lib/teamUtils'
+import { getTeamGamesPlayed } from '../lib/qualification'
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data', 'stats', 'pitching.json')
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+  const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data/stats/pitching.json'), 'utf8'))
+  const schedule = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data/schedule.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap()
-
-  return { props: { data, teamToLeague } }
+  const gamesPlayed = getTeamGamesPlayed(schedule)
+  return { props: { data, teamToLeague, gamesPlayed } }
 }
 
-export default function PitchingPage({ data, teamToLeague }) {
+export default function PitchingPage({ data, teamToLeague, gamesPlayed }) {
   const [showQualified, setShowQualified] = useState(false)
   const [showSplit, setShowSplit] = useState(true)
   const [league, setLeague] = useState('All')
 
   const filteredData = data.filter(player => {
+    const team = player.team
     const ip = parseFloat(player.IP || 0)
-    const isQualified = !showQualified || ip >= 5
-    const isSplitOK =
-      showSplit ||
-      player.team === 'TOT' ||
-      !data.some(p => p["Player ID"] === player["Player ID"] && p.team === 'TOT')
+    const games = gamesPlayed[team] || 0
+    const ipMin = 1.0 * games
+
+    const isQualified = !showQualified || ip >= ipMin
+    const isSplitOK = showQualified
+      ? false
+      : (showSplit || player.team === 'TOT' || !data.some(p => p["Player ID"] === player["Player ID"] && p.team === 'TOT'))
+
     const isLeagueMatch =
       league === 'All' ||
-      (player.team in teamToLeague && teamToLeague[player.team] === league)
+      (team in teamToLeague && teamToLeague[team] === league)
 
     return isQualified && isSplitOK && isLeagueMatch
   })
@@ -34,18 +39,40 @@ export default function PitchingPage({ data, teamToLeague }) {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Pitching Stats</h1>
+
       <div className="mb-4 flex flex-wrap gap-6 items-center">
         <label className="flex items-center">
-          <input type="checkbox" checked={showQualified} onChange={() => setShowQualified(!showQualified)} className="mr-2" />
+          <input
+            type="checkbox"
+            checked={showQualified}
+            onChange={() => {
+              const next = !showQualified
+              setShowQualified(next)
+              if (next) setShowSplit(false)
+            }}
+            className="mr-2"
+          />
           Only show qualified players
         </label>
+
         <label className="flex items-center">
-          <input type="checkbox" checked={showSplit} onChange={() => setShowSplit(!showSplit)} className="mr-2" />
+          <input
+            type="checkbox"
+            checked={showSplit}
+            onChange={() => setShowSplit(!showSplit)}
+            disabled={showQualified}
+            className="mr-2"
+          />
           Show split seasons
         </label>
+
         <label className="flex items-center">
           <span className="mr-2 font-medium">League:</span>
-          <select value={league} onChange={e => setLeague(e.target.value)} className="border border-gray-300 rounded px-2 py-1">
+          <select
+            value={league}
+            onChange={e => setLeague(e.target.value)}
+            className="border border-gray-300 rounded px-2 py-1"
+          >
             <option value="All">All Leagues</option>
             <option value="AL">American League</option>
             <option value="NL">National League</option>
@@ -61,6 +88,7 @@ export default function PitchingPage({ data, teamToLeague }) {
         nameLinkField="Player"
         idField="Player ID"
         linkBase="/players"
+        teamField="Team"
       />
     </div>
   )
