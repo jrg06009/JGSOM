@@ -80,7 +80,6 @@ def generate_stats_from_excel(excel_path, output_folder):
     all_players = defaultdict(lambda: {"batting": [], "pitching": [], "fielding": []})
 
     for team_id in team_ids:
-        team_data = {}
 
         # Batting
         try:
@@ -168,33 +167,11 @@ def generate_stats_from_excel(excel_path, output_folder):
 
     print("players_combined.json created.")
 
-
-    # Write league-wide batting, pitching, and fielding JSON files
-    league_batting = []
-    league_pitching = []
-    league_fielding = []
-
-    for team_file in os.listdir(output_folder):
-        if not team_file.endswith(".json") or team_file == "players_combined.json":
+        if not team_file.endswith(".json"):
             continue
         with open(os.path.join(output_folder, team_file)) as tf:
             team_data = json.load(tf)
-            if isinstance(team_data.get("batting"), list):
-                league_batting.extend(team_data["batting"])
-            if isinstance(team_data.get("pitching"), list):
-                league_pitching.extend(team_data["pitching"])
-            if isinstance(team_data.get("fielding"), list):
-                league_fielding.extend(team_data["fielding"])
-
-    with open(os.path.join(output_folder, "batting.json"), "w") as f:
-        json.dump(league_batting, f, indent=2)
-
-    with open(os.path.join(output_folder, "pitching.json"), "w") as f:
-        json.dump(league_pitching, f, indent=2)
-
-    with open(os.path.join(output_folder, "fielding.json"), "w") as f:
-        json.dump(league_fielding, f, indent=2)
-
-    print("batting.json, pitching.json, fielding.json created.")
+            if not isinstance(team_data, dict):
+                continue
 if __name__ == "__main__":
     generate_stats_from_excel("data/SOM 1999 Full Season Replay.xlsm", "data/stats")
