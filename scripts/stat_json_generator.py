@@ -122,11 +122,36 @@ def generate_stats_from_excel(excel_path, output_folder):
         # Fielding
         try:
             df = xls.parse(f"{team_id} F").replace({np.nan: None, pd.NA: None}).dropna(how="all")
-            fielding = clean_and_format(df.to_dict(orient="records"), {
-                "PCT": ".3f", "CS%": "percent0"
-            }, team_id, drop_fields=["P/S", "MAX"], ip_field="INN", min_games_field="G")
-            team_data["fielding"] = fielding
-            for row in fielding:
+            raw_rows = df.to_dict(orient="records")
+            cleaned = []
+            for row in raw_rows:
+                if str(row.get("G", "0")) in ("0", "", "0.0"):
+                    continue
+
+                new_row = {"team": team_id}
+                for k, v in row.items():
+                    if k in ["P/S", "MAX"]:
+                        continue
+                    new_row[k] = v
+
+                # Recalculate Fld Pct = (PO + A) / (PO + A + E)
+                po = float(row.get("PO") or 0)
+                a = float(row.get("A") or 0)
+                e = float(row.get("E") or 0)
+                fld_pct = (po + a) / (po + a + e) if (po + a + e) > 0 else 0
+                new_row["Fld Pct"] = format_stat(fld_pct, ".3f")
+
+                # Recalculate CS% = whole % value
+                cs = float(row.get("CS") or 0)
+                sb = float(row.get("SB") or 0)
+                cs_pct = int(round(100 * cs / (cs + sb))) if (cs + sb) > 0 else 0
+                new_row["CS%"] = f"{cs_pct}%"
+
+                cleaned.append(new_row)
+
+            team_data["fielding"] = cleaned
+
+            for row in cleaned:
                 pid = row.get("Player ID") or row.get("player ID") or row.get("PlayerID")
                 name = row.get("Player") or row.get("Players")
                 if pid and name:
@@ -134,16 +159,16 @@ def generate_stats_from_excel(excel_path, output_folder):
                     all_players[pid]["id"] = pid
                     all_players[pid]["link"] = f"/players/{pid}"
                     all_players[pid]["fielding"].append(row)
+
         except Exception as e:
             team_data["fielding"] = f"Error: {str(e)}"
 
-        with open(os.path.join(output_folder, f"{team_id}.json"), "w") as f:
-            json.dump(team_data, f, indent=2)
-
     # Add TOT row for multi-team players
-    for pid, p in all_players.items():
+for pid, p in all_players.items():
         for section in ["batting", "pitching", "fielding"]:
-            if len(p[section]) > 1:
+            # Only count as multi-team if more than one distinct team
+            teams = set(row.get("team") for row in p[section])
+            if len(teams) > 1:
                 p[section] = merge_totals(p[section])
 
     with open(os.path.join(output_folder, "players_combined.json"), "w") as f:
