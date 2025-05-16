@@ -13,8 +13,8 @@ export async function getStaticProps() {
 }
 
 export default function BattingPage({ data, teamToLeague }) {
-  const [showQualified, setShowQualified] = useState(false)
-  const [showSplit, setShowSplit] = useState(true)
+  const [showQualified, setShowQualified] = useState(true)
+  const [showSplit, setShowSplit] = useState(false)
   const [league, setLeague] = useState('All')
 
   const formatRateStat = (value) => {
@@ -38,6 +38,7 @@ export default function BattingPage({ data, teamToLeague }) {
   }).map(row => {
     const formatted = { ...row }
     formatted.Team = formatted.team
+    formatted.Player = row.Player // ensure name is preserved
     delete formatted.team
     for (const stat of ["AVG", "OBP", "SLG", "OPS"]) {
       if (formatted[stat] !== undefined) {
