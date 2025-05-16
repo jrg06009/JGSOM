@@ -35,22 +35,7 @@ def load_data(file_path):
     schedule = xls.parse("Schedule")
     return gamelog, schedule
 
-
 def generate_schedule(schedule_df):
-    schedule = []
-    for _, row in schedule_df.iterrows():
-        schedule.append({
-            "game_id": str(row["Game#"]),
-            "date": str(row["Date"]),
-            "home_team": row["Home"],
-            "away_team": row["Away"],
-            "home_score": safe_int(row["Home Score"]),
-            "away_score": safe_int(row["Away Score"]),
-            "completed": bool(row["Played"]),
-            "simDate": row["Played On"]
-        })
-    return schedule
-
     schedule = []
     for _, row in schedule_df.iterrows():
         schedule.append({
@@ -168,8 +153,7 @@ def group_stats(gamelog_df, schedule_df):
 
     return batting, pitching, fielding, boxscores
 
-# REPLACED WITH clean_for_json
-# def save_json(data, path):
+# Replaced with cleaned version below
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
@@ -195,7 +179,6 @@ if __name__ == "__main__":
 
     for gid, data in boxscores.items():
         save_json(data, os.path.join(boxscore_dir, f"{gid}.json"))
-
 
 def clean_for_json(obj):
     if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
