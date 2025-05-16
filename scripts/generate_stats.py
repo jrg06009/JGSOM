@@ -29,6 +29,19 @@ def format_ip(ip):
     except:
         return 0.0
 
+def clean_for_json(obj):
+    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
+        return None
+    if isinstance(obj, dict):
+        return {k: clean_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_for_json(v) for v in obj]
+    return obj
+
+def save_json(data, path):
+    with open(path, "w") as f:
+        json.dump(clean_for_json(data), f, indent=2)
+
 def load_data(file_path):
     xls = pd.ExcelFile(file_path)
     gamelog = xls.parse("GameLog")
@@ -43,8 +56,8 @@ def generate_schedule(schedule_df):
             "date": str(row["Date"]),
             "home_team": row["Home"],
             "away_team": row["Away"],
-            "home_score": row["Home Score"],
-            "away_score": row["Away Score"],
+            "home_score": safe_int(row["Home Score"]),
+            "away_score": safe_int(row["Away Score"]),
             "completed": bool(row["Played"]),
             "simDate": row["Played On"]
         })
@@ -80,8 +93,7 @@ def generate_standings(schedule_df):
 def group_stats(gamelog_df, schedule_df):
     batting, pitching, fielding = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
     boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
-
-    game_map = { row["Game#"]: str(row["Game ID"]) for _, row in schedule_df.iterrows() }
+    game_map = {row["Game#"]: str(row["Game ID"]) for _, row in schedule_df.iterrows()}
 
     for _, row in gamelog_df.iterrows():
         pid = row.get("Player ID")
@@ -153,10 +165,6 @@ def group_stats(gamelog_df, schedule_df):
 
     return batting, pitching, fielding, boxscores
 
-# Replaced with cleaned version below
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
-
 if __name__ == "__main__":
     input_file = "data/1999 Replay.xlsx"
     output_dir = "data/stats"
@@ -172,23 +180,9 @@ if __name__ == "__main__":
 
     save_json(schedule, os.path.join(output_dir, "schedule.json"))
     save_json(standings, os.path.join(output_dir, "standings.json"))
-
     save_json([{"Player ID": k[0], "team": k[1], **v} for k, v in batting.items()], os.path.join(output_dir, "batting.json"))
     save_json([{"Player ID": k[0], "team": k[1], **v} for k, v in pitching.items()], os.path.join(output_dir, "pitching.json"))
     save_json([{"Player ID": k[0], "team": k[1], "POS": k[2], **v} for k, v in fielding.items()], os.path.join(output_dir, "fielding.json"))
 
     for gid, data in boxscores.items():
         save_json(data, os.path.join(boxscore_dir, f"{gid}.json"))
-
-def clean_for_json(obj):
-    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
-        return None
-    if isinstance(obj, dict):
-        return {k: clean_for_json(v) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [clean_for_json(v) for v in obj]
-    return obj
-
-def save_json(data, path):
-    with open(path, "w") as f:
-        json.dump(clean_for_json(data), f, indent=2)
