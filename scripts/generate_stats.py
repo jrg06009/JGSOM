@@ -91,34 +91,10 @@ def generate_standings(schedule_df):
         })
     return standings
 
-def calculate_batting_derived_stats(stats):
-    ab = stats.get("AB", 0)
-    h = stats.get("H", 0)
-    bb = stats.get("BB", 0)
-    ibb = stats.get("IBB", 0)
-    hbp = stats.get("HBP", 0)
-    sf = stats.get("SF", 0)
-    tb = h + stats.get("2B", 0) + 2 * stats.get("3B", 0) + 3 * stats.get("HR", 0)
-
-    pa = ab + bb + hbp + sf
-    obp_den = ab + bb + hbp + sf
-    slg_den = ab
-
-    avg = h / ab if ab > 0 else 0.0
-    obp = (h + bb + hbp) / obp_den if obp_den > 0 else 0.0
-    slg = tb / slg_den if slg_den > 0 else 0.0
-    ops = obp + slg
-
-    stats["PA"] = pa
-    stats["TB"] = tb
-    stats["AVG"] = round(avg, 3)
-    stats["OBP"] = round(obp, 3)
-    stats["SLG"] = round(slg, 3)
-    stats["OPS"] = round(ops, 3)
-    return stats
-
 def group_stats(gamelog_df, schedule_df):
-    batting, pitching, fielding = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
+    batting = defaultdict(lambda: defaultdict(float))
+    pitching = defaultdict(lambda: defaultdict(float))
+    fielding = defaultdict(lambda: defaultdict(float))
     boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
     game_map = {row["Game#"]: str(row["Game ID"]) for _, row in schedule_df.iterrows()}
 
@@ -157,13 +133,15 @@ def group_stats(gamelog_df, schedule_df):
                 "SH": safe_int(row.get("SH")),
                 "SF": safe_int(row.get("SF")),
                 "GIDP": safe_int(row.get("GIDP")),
+                "SB": safe_int(row.get("SB")),
+                "CS": safe_int(row.get("CS")),
                 "Removed": removed if removed else None
             }
             boxscores[game_id]["batting"][team].append(bline)
             for stat in bline:
                 if stat not in {"Player", "BOP", "Removed"}:
                     batting[(pid, team)][stat] += bline[stat]
-            batting[(pid, team)] = calculate_batting_derived_stats(batting[(pid, team)])
+            batting[(pid, team)]["Player"] = player
 
         if not pd.isna(row.get("IP")):
             ip = format_ip(row.get("IP", 0))
