@@ -17,11 +17,10 @@ export default function BattingPage({ data, teamToLeague }) {
   const [showSplit, setShowSplit] = useState(false)
   const [league, setLeague] = useState('All')
 
-  const formatRateStat = (value) => {
-    const num = parseFloat(value)
-    if (isNaN(num)) return value
-    if (num === 1) return "1.000"
-    return num.toFixed(3).replace(/^0\./, '.')
+  const formatRate = (val) => {
+    const num = parseFloat(val)
+    if (isNaN(num)) return val
+    return num === 1 ? "1.000" : num.toFixed(3).replace(/^0\./, '.')
   }
 
   const filteredData = data.filter(player => {
@@ -37,14 +36,11 @@ export default function BattingPage({ data, teamToLeague }) {
     return isQualified && isSplitOK && isLeagueMatch
   }).map(row => {
     const formatted = { ...row }
-    formatted.Team = formatted.team
-    formatted.Player = row.Player // ensure name is preserved
-    delete formatted.team
-    for (const stat of ["AVG", "OBP", "SLG", "OPS"]) {
-      if (formatted[stat] !== undefined) {
-        formatted[stat] = formatRateStat(formatted[stat])
-      }
-    }
+    formatted.Team = row.team
+    formatted.AVG = formatRate(row.AVG)
+    formatted.OBP = formatRate(row.OBP)
+    formatted.SLG = formatRate(row.SLG)
+    formatted.OPS = formatRate(row.OPS)
     return formatted
   })
 
@@ -80,7 +76,7 @@ export default function BattingPage({ data, teamToLeague }) {
         title="League Batting"
         data={filteredData}
         defaultSortKey="PA"
-        exclude={["Player ID"]}
+        exclude={["Player ID", "team"]}
         nameLinkField="Player"
         idField="Player ID"
         linkBase="/players"
