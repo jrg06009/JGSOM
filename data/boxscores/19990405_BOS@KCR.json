@@ -10,9 +10,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 1,
+        "IBB": 0,
         "SO": 0,
         "R": 1,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -24,9 +29,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 0,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 2,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -38,9 +48,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 2,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -52,9 +67,14 @@
         "3B": 0,
         "HR": 1,
         "BB": 0,
+        "IBB": 0,
         "SO": 0,
         "R": 1,
         "RBI": 2,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -66,9 +86,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 2,
+        "IBB": 0,
         "SO": 1,
         "R": 1,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -80,9 +105,14 @@
         "3B": 0,
         "HR": 1,
         "BB": 0,
+        "IBB": 0,
         "SO": 0,
         "R": 1,
         "RBI": 2,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -94,9 +124,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 0,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -108,9 +143,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 1,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -122,9 +162,14 @@
         "3B": 0,
         "HR": 1,
         "BB": 0,
+        "IBB": 0,
         "SO": 0,
         "R": 1,
         "RBI": 1,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       }
     ],
@@ -138,9 +183,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 2,
         "R": 1,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -152,9 +202,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -166,9 +221,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 2,
         "R": 0,
         "RBI": 1,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -180,9 +240,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 3,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -194,9 +259,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -208,9 +278,14 @@
         "3B": 0,
         "HR": 1,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 1,
         "RBI": 1,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -222,9 +297,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 1,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": "x"
       },
       {
@@ -236,9 +316,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -250,9 +335,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 1,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       },
       {
@@ -264,9 +354,14 @@
         "3B": 0,
         "HR": 0,
         "BB": 0,
+        "IBB": 0,
         "SO": 2,
         "R": 0,
         "RBI": 0,
+        "HBP": 0,
+        "SH": 0,
+        "SF": 0,
+        "GIDP": 0,
         "Removed": null
       }
     ]
