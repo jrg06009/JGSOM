@@ -10,6 +10,12 @@ def safe_float(val):
     except:
         return 0.0
 
+def safe_int(val):
+    try:
+        return int(val)
+    except:
+        return 0
+
 def format_ip(ip):
     try:
         ip = float(ip)
@@ -71,94 +77,6 @@ def generate_standings(schedule_df):
         })
     return standings
 
-def group_stats(gamelog_df):
-    batting, pitching, fielding = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
-    boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
-
-    for _, row in gamelog_df.iterrows():
-        game_id = str(row["Game#"])
-        team = row["Team"]
-        player = row["Player Name"]
-        pid = row["Player ID"]
-        pos = row.get("POS", "")
-        bop = row.get("BOP", "")
-        removed = row.get("Removed", "")
-
-        # Boxscore setup
-        meta_fields = ["Date", "Home", "Away", "Home Score", "Away Score"]
-        for field in meta_fields:
-            if field not in boxscores[game_id]["meta"]:
-                boxscores[game_id]["meta"][field.lower().replace(" ", "_")] = row.get(field, "")
-
-        # Batting
-        if not pd.isna(row.get("AB")):
-            bline = {
-                "Player Name": player,
-                "BOP": int(bop) if bop else None,
-                "AB": int(row.get("AB", 0)),
-                "H": int(row.get("H", 0)),
-                "2B": int(row.get("2B", 0)),
-                "3B": int(row.get("3B", 0)),
-                "HR": int(row.get("HR", 0)),
-                "BB": int(row.get("BB", 0)),
-                "SO": int(row.get("SO", 0)),
-                "R": int(row.get("R", 0)),
-                "RBI": int(row.get("RBI", 0)),
-                "Removed": removed if removed else None
-            }
-            boxscores[game_id]["batting"][team].append(bline)
-            for stat in bline:
-                if stat != "Player Name" and stat != "BOP" and stat != "Removed":
-                    batting[(pid, team)][stat] += bline[stat]
-
-        # Pitching
-        if not pd.isna(row.get("IP")):
-            ip = format_ip(row.get("IP", 0))
-            pstats = {
-                "IP": ip,
-                "ER": int(row.get("ER", 0)),
-                "H": int(row.get("H allowed", 0)),
-                "BB": int(row.get("BB against", 0)),
-                "SO": int(row.get("SO against", 0)),
-                "HR": int(row.get("HR allowed", 0)),
-                "W": int(row.get("W", 0)),
-                "L": int(row.get("L", 0)),
-                "SV": int(row.get("SV", 0))
-            }
-            boxscores[game_id]["pitching"][team].append({"Player Name": player, **pstats})
-            for k, v in pstats.items():
-                pitching[(pid, team)][k] += v
-
-            # CG / SHO candidate tagging
-            pitching[(pid, team)][f"GAMES_{game_id}"] = ip
-            pitching[(pid, team)][f"SHO_{game_id}"] = (ip >= 9 and row.get("R against", 0) == 0)
-
-        # Fielding
-        if not pd.isna(row.get("INN")):
-            inn = format_ip(row.get("INN", 0))
-            fstats = {
-                "PO": int(row.get("PO", 0)),
-                "A": int(row.get("A", 0)),
-                "E": int(row.get("ERR", 0)),
-                "INN": inn
-            }
-            key = (pid, team, pos)
-            for k, v in fstats.items():
-                fielding[key][k] += v
-
-    return batting, pitching, fielding, boxscores
-
-def save_json(data, path):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
-
-
-def safe_int(val):
-    try:
-        return int(val)
-    except:
-        return 0
-
 def group_stats(gamelog_df, schedule_df):
     batting, pitching, fielding = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
     boxscores = defaultdict(lambda: {"batting": defaultdict(list), "pitching": defaultdict(list), "meta": {}})
@@ -166,21 +84,22 @@ def group_stats(gamelog_df, schedule_df):
     game_map = { row["Game#"]: str(row["Game ID"]) for _, row in schedule_df.iterrows() }
 
     for _, row in gamelog_df.iterrows():
+        pid = row.get("Player ID")
+        if pd.isna(pid) or pid == "":
+            continue
+
         game_num = row["Game#"]
         game_id = game_map.get(game_num, str(game_num))
         team = row["Team"]
         player = row["Player Name"]
-        pid = row["Player ID"]
         pos = row.get("POS", "")
         bop = row.get("BOP", "")
         removed = row.get("Removed", "")
 
-        # Boxscore meta
         for field in ["Date", "Home", "Away", "Home Score", "Away Score"]:
             if field.lower().replace(" ", "_") not in boxscores[game_id]["meta"]:
                 boxscores[game_id]["meta"][field.lower().replace(" ", "_")] = row.get(field, "")
 
-        # Batting
         if not pd.isna(row.get("AB")):
             bline = {
                 "Player": player,
@@ -201,7 +120,6 @@ def group_stats(gamelog_df, schedule_df):
                 if stat not in {"Player", "BOP", "Removed"}:
                     batting[(pid, team)][stat] += bline[stat]
 
-        # Pitching
         if not pd.isna(row.get("IP")):
             ip = format_ip(row.get("IP", 0))
             pstats = {
@@ -221,7 +139,6 @@ def group_stats(gamelog_df, schedule_df):
             pitching[(pid, team)][f"GAMES_{game_id}"] = ip
             pitching[(pid, team)][f"SHO_{game_id}"] = (ip >= 9 and row.get("R against", 0) == 0)
 
-        # Fielding
         if not pd.isna(row.get("INN")):
             inn = format_ip(row.get("INN", 0))
             fstats = {
@@ -235,6 +152,11 @@ def group_stats(gamelog_df, schedule_df):
                 fielding[key][k] += v
 
     return batting, pitching, fielding, boxscores
+
+def save_json(data, path):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+
 if __name__ == "__main__":
     input_file = "data/1999 Replay.xlsx"
     output_dir = "data/stats"
@@ -248,15 +170,12 @@ if __name__ == "__main__":
     standings = generate_standings(schedule_df)
     batting, pitching, fielding, boxscores = group_stats(gamelog_df, schedule_df)
 
-    # Save schedule and standings
     save_json(schedule, os.path.join(output_dir, "schedule.json"))
     save_json(standings, os.path.join(output_dir, "standings.json"))
 
-    # Save player stats
     save_json([{"Player ID": k[0], "team": k[1], **v} for k, v in batting.items()], os.path.join(output_dir, "batting.json"))
     save_json([{"Player ID": k[0], "team": k[1], **v} for k, v in pitching.items()], os.path.join(output_dir, "pitching.json"))
     save_json([{"Player ID": k[0], "team": k[1], "POS": k[2], **v} for k, v in fielding.items()], os.path.join(output_dir, "fielding.json"))
 
-    # Save boxscores
     for gid, data in boxscores.items():
         save_json(data, os.path.join(boxscore_dir, f"{gid}.json"))
