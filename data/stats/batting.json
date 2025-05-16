@@ -16,12 +16,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 1.0,
-    "AVG": 0.077,
-    "OBP": 0.143,
-    "SLG": 0.077,
-    "OPS": 0.22
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Darryl Hamilton"
   },
   {
     "Player ID": "perezne01",
@@ -40,12 +37,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.154,
-    "OBP": 0.154,
-    "SLG": 0.154,
-    "OPS": 0.308
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Neifi Perez"
   },
   {
     "Player ID": "harrile01",
@@ -64,12 +58,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 1.0,
-    "AVG": 0.111,
-    "OBP": 0.111,
-    "SLG": 0.111,
-    "OPS": 0.222
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Lenny Harris"
   },
   {
     "Player ID": "bicheda01",
@@ -88,12 +79,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 6.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.5,
-    "OPS": 0.75
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dante Bichette"
   },
   {
     "Player ID": "castivi02",
@@ -112,12 +100,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 9.0,
-    "AVG": 0.583,
-    "OBP": 0.583,
-    "SLG": 0.75,
-    "OPS": 1.333
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Vinny Castilla"
   },
   {
     "Player ID": "heltoto01",
@@ -136,12 +121,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 9.0,
-    "AVG": 0.455,
-    "OBP": 0.5,
-    "SLG": 0.818,
-    "OPS": 1.318
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Todd Helton"
   },
   {
     "Player ID": "lansimi01",
@@ -160,12 +142,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Lansing"
   },
   {
     "Player ID": "manwaki01",
@@ -184,12 +163,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.571,
-    "SLG": 0.0,
-    "OPS": 0.571
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kirt Manwaring"
   },
   {
     "Player ID": "kileda01",
@@ -208,12 +184,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Darryl Kile"
   },
   {
     "Player ID": "echevan01",
@@ -232,12 +205,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 2.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 1.0,
-    "OPS": 1.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Angel Echevarria"
   },
   {
     "Player ID": "verasqu01",
@@ -256,12 +226,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.231,
-    "SLG": 0.0,
-    "OPS": 0.231
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Quilvio Veras"
   },
   {
     "Player ID": "sandere02",
@@ -280,12 +247,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 6.0,
-    "AVG": 0.182,
-    "OBP": 0.308,
-    "SLG": 0.545,
-    "OPS": 0.853
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Reggie Sanders"
   },
   {
     "Player ID": "gwynnto01",
@@ -304,12 +268,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 6.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.5,
-    "OPS": 0.75
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tony Gwynn"
   },
   {
     "Player ID": "joynewa01",
@@ -328,12 +289,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 3.0,
-    "AVG": 0.222,
-    "OBP": 0.417,
-    "SLG": 0.333,
-    "OPS": 0.75
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Wally Joyner"
   },
   {
     "Player ID": "myersgr01",
@@ -352,12 +310,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 2.0,
-    "AVG": 0.286,
-    "OBP": 0.375,
-    "SLG": 0.286,
-    "OPS": 0.661
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Greg Myers"
   },
   {
     "Player ID": "ariasge01",
@@ -376,12 +331,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 1.0,
-    "AVG": 0.111,
-    "OBP": 0.111,
-    "SLG": 0.111,
-    "OPS": 0.222
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "George Arias"
   },
   {
     "Player ID": "riverru01",
@@ -400,12 +352,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 4.0,
-    "AVG": 0.125,
-    "OBP": 0.125,
-    "SLG": 0.5,
-    "OPS": 0.625
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ruben Rivera"
   },
   {
     "Player ID": "gomezch02",
@@ -424,12 +373,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 1.0,
-    "AVG": 0.125,
-    "OBP": 0.3,
-    "SLG": 0.125,
-    "OPS": 0.425
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chris Gomez"
   },
   {
     "Player ID": "ashbyan01",
@@ -448,12 +394,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Andy Ashby"
   },
   {
     "Player ID": "offerjo01",
@@ -472,12 +415,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 4.0,
-    "AVG": 0.364,
-    "OBP": 0.533,
-    "SLG": 0.364,
-    "OPS": 0.897
+    "SB": 2.0,
+    "CS": 0.0,
+    "Player": "Jose Offerman"
   },
   {
     "Player ID": "lewisda01",
@@ -496,12 +436,9 @@
     "SH": 2.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 3.0,
-    "AVG": 0.2,
-    "OBP": 0.273,
-    "SLG": 0.3,
-    "OPS": 0.573
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Darren Lewis"
   },
   {
     "Player ID": "valenjo02",
@@ -520,12 +457,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 1.0,
-    "AVG": 0.067,
-    "OBP": 0.067,
-    "SLG": 0.067,
-    "OPS": 0.133
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "John Valentin"
   },
   {
     "Player ID": "garcino01",
@@ -544,12 +478,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 8.0,
-    "AVG": 0.556,
-    "OBP": 0.6,
-    "SLG": 0.889,
-    "OPS": 1.489
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Nomar Garciaparra"
   },
   {
     "Player ID": "o'leatr01",
@@ -568,12 +499,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 11.0,
-    "AVG": 0.455,
-    "OBP": 0.538,
-    "SLG": 1.0,
-    "OPS": 1.538
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Troy O'Leary"
   },
   {
     "Player ID": "stanlmi02",
@@ -592,12 +520,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 7.0,
-    "AVG": 0.286,
-    "OBP": 0.286,
-    "SLG": 0.5,
-    "OPS": 0.786
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Stanley"
   },
   {
     "Player ID": "hattesc01",
@@ -616,12 +541,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 1.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.25,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Hatteberg"
   },
   {
     "Player ID": "fryeje01",
@@ -640,12 +562,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 5.0,
-    "AVG": 0.333,
-    "OBP": 0.5,
-    "SLG": 0.556,
-    "OPS": 1.056
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Frye"
   },
   {
     "Player ID": "nixontr01",
@@ -664,12 +583,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 7.0,
-    "AVG": 0.333,
-    "OBP": 0.4,
-    "SLG": 0.778,
-    "OPS": 1.178
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Trot Nixon"
   },
   {
     "Player ID": "beltrca01",
@@ -688,12 +604,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 7.0,
-    "AVG": 0.357,
-    "OBP": 0.4,
-    "SLG": 0.5,
-    "OPS": 0.9
+    "SB": 2.0,
+    "CS": 0.0,
+    "Player": "Carlos Beltran"
   },
   {
     "Player ID": "randajo01",
@@ -712,12 +625,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 10.0,
-    "AVG": 0.462,
-    "OBP": 0.5,
-    "SLG": 0.769,
-    "OPS": 1.269
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Joe Randa"
   },
   {
     "Player ID": "damonjo01",
@@ -736,12 +646,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 6.0,
-    "AVG": 0.385,
-    "OBP": 0.429,
-    "SLG": 0.462,
-    "OPS": 0.89
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Johnny Damon"
   },
   {
     "Player ID": "kingje01",
@@ -760,12 +667,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 1.0,
-    "AVG": 0.091,
-    "OBP": 0.286,
-    "SLG": 0.091,
-    "OPS": 0.377
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff King"
   },
   {
     "Player ID": "suttola01",
@@ -784,12 +688,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.143,
-    "SLG": 0.0,
-    "OPS": 0.143
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Larry Sutton"
   },
   {
     "Player ID": "dyeje01",
@@ -808,12 +709,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 8.0,
-    "AVG": 0.333,
-    "OBP": 0.385,
-    "SLG": 0.667,
-    "OPS": 1.051
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jermaine Dye"
   },
   {
     "Player ID": "kreutch01",
@@ -832,12 +730,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.25,
-    "SLG": 0.0,
-    "OPS": 0.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chad Kreuter"
   },
   {
     "Player ID": "posesc01",
@@ -856,12 +751,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 1.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.5,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Pose"
   },
   {
     "Player ID": "sanchre01",
@@ -880,12 +772,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 7.0,
-    "AVG": 0.308,
-    "OBP": 0.308,
-    "SLG": 0.538,
-    "OPS": 0.846
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Rey Sanchez"
   },
   {
     "Player ID": "febleca01",
@@ -904,12 +793,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.182,
-    "OBP": 0.231,
-    "SLG": 0.182,
-    "OPS": 0.413
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Carlos Febles"
   },
   {
     "Player ID": "finlest01",
@@ -928,12 +814,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 7.0,
-    "AVG": 0.154,
-    "OBP": 0.214,
-    "SLG": 0.538,
-    "OPS": 0.753
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Steve Finley"
   },
   {
     "Player ID": "bellja01",
@@ -952,12 +835,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 2.0,
-    "AVG": 0.083,
-    "OBP": 0.214,
-    "SLG": 0.167,
-    "OPS": 0.381
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jay Bell"
   },
   {
     "Player ID": "leetr01",
@@ -976,12 +856,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 4.0,
-    "AVG": 0.2,
-    "OBP": 0.429,
-    "SLG": 0.4,
-    "OPS": 0.829
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Travis Lee"
   },
   {
     "Player ID": "willima04",
@@ -1000,12 +877,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.167,
-    "OBP": 0.286,
-    "SLG": 0.417,
-    "OPS": 0.702
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Matt Williams"
   },
   {
     "Player ID": "gonzalu01",
@@ -1024,12 +898,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 11.0,
-    "AVG": 0.333,
-    "OBP": 0.429,
-    "SLG": 0.917,
-    "OPS": 1.345
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Luis Gonzalez"
   },
   {
     "Player ID": "gilkebe01",
@@ -1048,12 +919,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.333,
-    "OBP": 0.385,
-    "SLG": 0.417,
-    "OPS": 0.801
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Bernard Gilkey"
   },
   {
     "Player ID": "batisto01",
@@ -1072,12 +940,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 4.0,
-    "AVG": 0.273,
-    "OBP": 0.333,
-    "SLG": 0.364,
-    "OPS": 0.697
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tony Batista"
   },
   {
     "Player ID": "stinnke01",
@@ -1096,12 +961,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 5.0,
-    "AVG": 0.286,
-    "OBP": 0.375,
-    "SLG": 0.714,
-    "OPS": 1.089
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kelly Stinnett"
   },
   {
     "Player ID": "johnsra05",
@@ -1120,12 +982,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.333,
-    "OPS": 0.667
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Randy Johnson"
   },
   {
     "Player ID": "colbrgr01",
@@ -1144,12 +1003,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Greg Colbrunn"
   },
   {
     "Player ID": "younger01",
@@ -1168,12 +1024,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 10.0,
-    "AVG": 0.462,
-    "OBP": 0.5,
-    "SLG": 0.769,
-    "OPS": 1.269
+    "SB": 1.0,
+    "CS": 2.0,
+    "Player": "Eric Young"
   },
   {
     "Player ID": "grudzma01",
@@ -1192,12 +1045,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 7.0,
-    "AVG": 0.417,
-    "OBP": 0.417,
-    "SLG": 0.583,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Grudzielanek"
   },
   {
     "Player ID": "sheffga01",
@@ -1216,12 +1066,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.182,
-    "OBP": 0.308,
-    "SLG": 0.182,
-    "OPS": 0.49
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Gary Sheffield"
   },
   {
     "Player ID": "mondera01",
@@ -1240,12 +1087,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 1.0,
-    "AVG": 0.077,
-    "OBP": 0.077,
-    "SLG": 0.077,
-    "OPS": 0.154
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Raul Mondesi"
   },
   {
     "Player ID": "whitede03",
@@ -1264,12 +1108,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 8.0,
-    "AVG": 0.231,
-    "OBP": 0.231,
-    "SLG": 0.615,
-    "OPS": 0.846
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Devon White"
   },
   {
     "Player ID": "karroer01",
@@ -1288,12 +1129,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 7.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.583,
-    "OPS": 0.917
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Eric Karros"
   },
   {
     "Player ID": "hundlto01",
@@ -1312,12 +1150,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 7.0,
-    "AVG": 0.3,
-    "OBP": 0.417,
-    "SLG": 0.7,
-    "OPS": 1.117
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Todd Hundley"
   },
   {
     "Player ID": "beltrad01",
@@ -1336,12 +1171,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 4.0,
-    "AVG": 0.444,
-    "OBP": 0.545,
-    "SLG": 0.444,
-    "OPS": 0.99
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Adrian Beltre"
   },
   {
     "Player ID": "hanseda01",
@@ -1360,12 +1192,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dave Hansen"
   },
   {
     "Player ID": "brownke01",
@@ -1384,12 +1213,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kevin Brown"
   },
   {
     "Player ID": "vizcajo01",
@@ -1408,12 +1234,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.333,
-    "OPS": 0.667
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jose Vizcaino"
   },
   {
     "Player ID": "milleda02",
@@ -1432,12 +1255,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 2.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 0.4,
-    "OPS": 0.8
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Damian Miller"
   },
   {
     "Player ID": "stottto01",
@@ -1456,12 +1276,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 2.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.667,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Todd Stottlemyre"
   },
   {
     "Player ID": "delluda01",
@@ -1480,12 +1297,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "David Dellucci"
   },
   {
     "Player ID": "parkch01",
@@ -1504,12 +1318,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chan Ho Park"
   },
   {
     "Player ID": "wilkiri01",
@@ -1528,12 +1339,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 1.0,
-    "AVG": 1.0,
-    "OBP": 1.0,
-    "SLG": 1.0,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Rick Wilkins"
   },
   {
     "Player ID": "crometr01",
@@ -1552,12 +1360,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 1.0,
-    "AVG": 1.0,
-    "OBP": 1.0,
-    "SLG": 1.0,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tripp Cromer"
   },
   {
     "Player ID": "watkipa01",
@@ -1576,12 +1381,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.5,
-    "SLG": 0.0,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Pat Watkins"
   },
   {
     "Player ID": "astacpe01",
@@ -1600,12 +1402,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.333,
-    "SLG": 0.0,
-    "OPS": 0.333
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Pedro Astacio"
   },
   {
     "Player ID": "leyriji01",
@@ -1624,12 +1423,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 4.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.8,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jim Leyritz"
   },
   {
     "Player ID": "magadda01",
@@ -1648,12 +1444,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 2.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 1.0,
-    "OPS": 1.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dave Magadan"
   },
   {
     "Player ID": "hitchst01",
@@ -1672,12 +1465,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Sterling Hitchcock"
   },
   {
     "Player ID": "vandejo02",
@@ -1696,12 +1486,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "John Vander Wal"
   },
   {
     "Player ID": "sadledo01",
@@ -1720,12 +1507,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 4.0,
-    "AVG": 0.6,
-    "OBP": 0.6,
-    "SLG": 0.8,
-    "OPS": 1.4
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Donnie Sadler"
   },
   {
     "Player ID": "buforda01",
@@ -1744,12 +1528,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Damon Buford"
   },
   {
     "Player ID": "varitja01",
@@ -1768,12 +1549,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 5.0,
-    "AVG": 0.222,
-    "OBP": 0.222,
-    "SLG": 0.556,
-    "OPS": 0.778
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jason Varitek"
   },
   {
     "Player ID": "leiussc01",
@@ -1792,12 +1570,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Leius"
   },
   {
     "Player ID": "foxan01",
@@ -1816,12 +1591,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Andy Fox"
   },
   {
     "Player ID": "friasha01",
@@ -1840,12 +1612,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Hanley Frias"
   },
   {
     "Player ID": "loducpa01",
@@ -1864,12 +1633,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Paul Lo Duca"
   },
   {
     "Player ID": "valdeis01",
@@ -1888,12 +1654,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ismael Valdez"
   },
   {
     "Player ID": "reedje02",
@@ -1912,12 +1675,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Reed"
   },
   {
     "Player ID": "wrighja01",
@@ -1936,12 +1696,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jamey Wright"
   },
   {
     "Player ID": "williwo02",
@@ -1960,12 +1717,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Woody Williams"
   },
   {
     "Player ID": "garcica01",
@@ -1984,12 +1738,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 1.0,
-    "AVG": 1.0,
-    "OBP": 1.0,
-    "SLG": 1.0,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Carlos Garcia"
   },
   {
     "Player ID": "sweenmi01",
@@ -2008,12 +1759,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.5,
-    "OPS": 0.75
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Sweeney"
   },
   {
     "Player ID": "spehrti01",
@@ -2032,12 +1780,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.5,
-    "SLG": 0.333,
-    "OPS": 0.833
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tim Spehr"
   },
   {
     "Player ID": "durhara01",
@@ -2056,12 +1801,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 5.0,
-    "AVG": 0.231,
-    "OBP": 0.333,
-    "SLG": 0.385,
-    "OPS": 0.718
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ray Durham"
   },
   {
     "Player ID": "carusmi01",
@@ -2080,12 +1822,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 7.0,
-    "AVG": 0.357,
-    "OBP": 0.357,
-    "SLG": 0.5,
-    "OPS": 0.857
+    "SB": 1.0,
+    "CS": 1.0,
+    "Player": "Mike Caruso"
   },
   {
     "Player ID": "thomafr04",
@@ -2104,12 +1843,9 @@
     "SH": 0.0,
     "SF": 2.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 6.0,
-    "AVG": 0.333,
-    "OBP": 0.385,
-    "SLG": 0.667,
-    "OPS": 1.051
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Frank Thomas"
   },
   {
     "Player ID": "liefeje01",
@@ -2128,12 +1864,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Liefer"
   },
   {
     "Player ID": "konerpa01",
@@ -2152,12 +1885,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.091,
-    "SLG": 0.0,
-    "OPS": 0.091
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Paul Konerko"
   },
   {
     "Player ID": "ordonma01",
@@ -2176,12 +1906,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 8.0,
-    "AVG": 0.417,
-    "OBP": 0.385,
-    "SLG": 0.667,
-    "OPS": 1.051
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Magglio Ordonez"
   },
   {
     "Player ID": "chrismc01",
@@ -2200,12 +1927,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "McKay Christensen"
   },
   {
     "Player ID": "nortogr01",
@@ -2224,12 +1948,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 11.0,
-    "AVG": 0.4,
-    "OBP": 0.5,
-    "SLG": 1.1,
-    "OPS": 1.6
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Greg Norton"
   },
   {
     "Player ID": "abbotje01",
@@ -2248,12 +1969,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 10.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 1.0,
-    "OPS": 1.4
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Abbott"
   },
   {
     "Player ID": "jacksda03",
@@ -2272,12 +1990,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 4.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.333,
-    "OPS": 0.667
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Darrin Jackson"
   },
   {
     "Player ID": "fordybr01",
@@ -2296,12 +2011,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 6.0,
-    "AVG": 0.625,
-    "OBP": 0.667,
-    "SLG": 0.75,
-    "OPS": 1.417
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brook Fordyce"
   },
   {
     "Player ID": "guillca01",
@@ -2320,12 +2032,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 3.0,
-    "AVG": 0.214,
-    "OBP": 0.267,
-    "SLG": 0.214,
-    "OPS": 0.481
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Carlos Guillen"
   },
   {
     "Player ID": "rodrial01",
@@ -2344,12 +2053,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.333,
-    "SLG": 0.25,
-    "OPS": 0.583
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Alex Rodriguez"
   },
   {
     "Player ID": "gipsoch01",
@@ -2368,12 +2074,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Charles Gipson"
   },
   {
     "Player ID": "griffke02",
@@ -2392,12 +2095,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 15.0,
-    "AVG": 0.727,
-    "OBP": 0.769,
-    "SLG": 1.364,
-    "OPS": 2.133
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ken Griffey Jr"
   },
   {
     "Player ID": "mieskma01",
@@ -2416,12 +2116,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 1.0,
-    "AVG": 1.0,
-    "OBP": 1.0,
-    "SLG": 1.0,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Matt Mieske"
   },
   {
     "Player ID": "martied01",
@@ -2440,12 +2137,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 7.0,
-    "AVG": 0.333,
-    "OBP": 0.538,
-    "SLG": 0.778,
-    "OPS": 1.316
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Edgar Martinez"
   },
   {
     "Player ID": "huskebu01",
@@ -2464,12 +2158,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 3.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 0.6,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Butch Huskey"
   },
   {
     "Player ID": "seguida01",
@@ -2488,12 +2179,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 4.0,
-    "AVG": 0.4,
-    "OBP": 0.571,
-    "SLG": 0.4,
-    "OPS": 0.971
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "David Segui"
   },
   {
     "Player ID": "buhneja01",
@@ -2512,12 +2200,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.273,
-    "OBP": 0.385,
-    "SLG": 0.455,
-    "OPS": 0.839
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jay Buhner"
   },
   {
     "Player ID": "ibanera01",
@@ -2536,12 +2221,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Raul Ibanez"
   },
   {
     "Player ID": "mabryjo01",
@@ -2560,12 +2242,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 3.0,
-    "AVG": 0.333,
-    "OBP": 0.556,
-    "SLG": 0.5,
-    "OPS": 1.056
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "John Mabry"
   },
   {
     "Player ID": "davisru01",
@@ -2584,12 +2263,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 1.0,
-    "AVG": 0.077,
-    "OBP": 0.143,
-    "SLG": 0.077,
-    "OPS": 0.22
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Russ Davis"
   },
   {
     "Player ID": "wilsoda01",
@@ -2608,12 +2284,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 1.0,
-    "AVG": 0.143,
-    "OBP": 0.143,
-    "SLG": 0.143,
-    "OPS": 0.286
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dan Wilson"
   },
   {
     "Player ID": "lampkto01",
@@ -2632,12 +2305,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 3.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 0.6,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tom Lampkin"
   },
   {
     "Player ID": "wilsocr02",
@@ -2656,12 +2326,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Craig Wilson"
   },
   {
     "Player ID": "johnsma02",
@@ -2680,12 +2347,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Johnson"
   },
   {
     "Player ID": "bellda01",
@@ -2704,12 +2368,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.25,
-    "SLG": 0.0,
-    "OPS": 0.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "David Bell"
   },
   {
     "Player ID": "encarju01",
@@ -2728,12 +2389,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 7.0,
-    "AVG": 0.308,
-    "OBP": 0.357,
-    "SLG": 0.538,
-    "OPS": 0.896
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Juan Encarnacion"
   },
   {
     "Player ID": "jeffegr01",
@@ -2752,12 +2410,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 5.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.5,
-    "OPS": 0.7
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Gregg Jefferies"
   },
   {
     "Player ID": "easleda01",
@@ -2776,12 +2431,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 9.0,
-    "AVG": 0.333,
-    "OBP": 0.429,
-    "SLG": 0.75,
-    "OPS": 1.179
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Damion Easley"
   },
   {
     "Player ID": "clarkto02",
@@ -2800,12 +2452,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.167,
-    "OBP": 0.286,
-    "SLG": 0.417,
-    "OPS": 0.702
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tony Clark"
   },
   {
     "Player ID": "palmede01",
@@ -2824,12 +2473,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 4.0,
-    "AVG": 0.083,
-    "OBP": 0.154,
-    "SLG": 0.333,
-    "OPS": 0.487
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dean Palmer"
   },
   {
     "Player ID": "higgibo02",
@@ -2848,12 +2494,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 6.0,
-    "AVG": 0.2,
-    "OBP": 0.333,
-    "SLG": 0.6,
-    "OPS": 0.933
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Bobby Higginson"
   },
   {
     "Player ID": "cruzde01",
@@ -2872,12 +2515,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 3.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.3,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Deivi Cruz"
   },
   {
     "Player ID": "ausmubr01",
@@ -2896,12 +2536,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 2.0,
-    "AVG": 0.143,
-    "OBP": 0.143,
-    "SLG": 0.286,
-    "OPS": 0.429
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brad Ausmus"
   },
   {
     "Player ID": "huntebr02",
@@ -2920,12 +2557,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 3.0,
-    "AVG": 0.286,
-    "OBP": 0.286,
-    "SLG": 0.429,
-    "OPS": 0.714
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brian Hunter"
   },
   {
     "Player ID": "goodwto01",
@@ -2944,12 +2578,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 6.0,
-    "AVG": 0.545,
-    "OBP": 0.545,
-    "SLG": 0.545,
-    "OPS": 1.091
+    "SB": 1.0,
+    "CS": 1.0,
+    "Player": "Tom Goodwin"
   },
   {
     "Player ID": "alicelu01",
@@ -2968,12 +2599,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 8.0,
-    "AVG": 0.364,
-    "OBP": 0.462,
-    "SLG": 0.727,
-    "OPS": 1.189
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Luis Alicea"
   },
   {
     "Player ID": "greerru01",
@@ -2992,12 +2620,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 9.0,
-    "AVG": 0.286,
-    "OBP": 0.286,
-    "SLG": 0.643,
-    "OPS": 0.929
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Rusty Greer"
   },
   {
     "Player ID": "gonzaju03",
@@ -3016,12 +2641,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 8.0,
-    "AVG": 0.308,
-    "OBP": 0.308,
-    "SLG": 0.615,
-    "OPS": 0.923
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Juan Gonzalez"
   },
   {
     "Player ID": "palmera01",
@@ -3040,12 +2662,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 13.0,
-    "AVG": 0.385,
-    "OBP": 0.385,
-    "SLG": 1.0,
-    "OPS": 1.385
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Rafael Palmeiro"
   },
   {
     "Player ID": "rodriiv01",
@@ -3064,12 +2683,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 10.0,
-    "AVG": 0.429,
-    "OBP": 0.429,
-    "SLG": 0.714,
-    "OPS": 1.143
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ivan Rodriguez"
   },
   {
     "Player ID": "stevele01",
@@ -3088,12 +2704,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 13.0,
-    "AVG": 0.462,
-    "OBP": 0.462,
-    "SLG": 1.0,
-    "OPS": 1.462
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Lee Stevens"
   },
   {
     "Player ID": "zeileto01",
@@ -3112,12 +2725,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.4,
-    "OBP": 0.538,
-    "SLG": 0.5,
-    "OPS": 1.038
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Todd Zeile"
   },
   {
     "Player ID": "claytro01",
@@ -3136,12 +2746,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 7.0,
-    "AVG": 0.455,
-    "OBP": 0.5,
-    "SLG": 0.636,
-    "OPS": 1.136
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Royce Clayton"
   },
   {
     "Player ID": "garcika01",
@@ -3160,12 +2767,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 5.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 1.0,
-    "OPS": 1.4
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Karim Garcia"
   },
   {
     "Player ID": "kaplega01",
@@ -3184,12 +2788,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Gabe Kapler"
   },
   {
     "Player ID": "haselbi01",
@@ -3208,12 +2809,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 4.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 1.0,
-    "OPS": 1.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Bill Haselman"
   },
   {
     "Player ID": "kellyro01",
@@ -3232,12 +2830,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.5,
-    "SLG": 0.333,
-    "OPS": 0.833
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Roberto Kelly"
   },
   {
     "Player ID": "zaungr01",
@@ -3256,12 +2851,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Gregg Zaun"
   },
   {
     "Player ID": "shavejo01",
@@ -3280,12 +2872,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 1.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.5,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jon Shave"
   },
   {
     "Player ID": "knoblch01",
@@ -3304,12 +2893,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 6.0,
-    "AVG": 0.273,
-    "OBP": 0.467,
-    "SLG": 0.545,
-    "OPS": 1.012
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Chuck Knoblauch"
   },
   {
     "Player ID": "jeterde01",
@@ -3328,12 +2914,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 10.0,
-    "AVG": 0.538,
-    "OBP": 0.571,
-    "SLG": 0.769,
-    "OPS": 1.341
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Derek Jeter"
   },
   {
     "Player ID": "o'neipa01",
@@ -3352,12 +2935,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 2.0,
-    "AVG": 0.2,
-    "OBP": 0.429,
-    "SLG": 0.2,
-    "OPS": 0.629
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Paul O'Neill"
   },
   {
     "Player ID": "willibe02",
@@ -3376,12 +2956,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 3.0,
-    "AVG": 0.154,
-    "OBP": 0.214,
-    "SLG": 0.231,
-    "OPS": 0.445
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Bernie Williams"
   },
   {
     "Player ID": "martiti02",
@@ -3400,12 +2977,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.308,
-    "OBP": 0.286,
-    "SLG": 0.385,
-    "OPS": 0.67
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tino Martinez"
   },
   {
     "Player ID": "davisch01",
@@ -3424,12 +2998,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 11.0,
-    "AVG": 0.545,
-    "OBP": 0.615,
-    "SLG": 1.0,
-    "OPS": 1.615
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chili Davis"
   },
   {
     "Player ID": "ledeeri01",
@@ -3448,12 +3019,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 2.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 1.0,
-    "OPS": 1.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ricky Ledee"
   },
   {
     "Player ID": "spencsh01",
@@ -3472,12 +3040,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Shane Spencer"
   },
   {
     "Player ID": "brosisc01",
@@ -3496,12 +3061,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 1.0,
-    "AVG": 0.083,
-    "OBP": 0.083,
-    "SLG": 0.083,
-    "OPS": 0.167
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Brosius"
   },
   {
     "Player ID": "girarjo01",
@@ -3520,12 +3082,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Joe Girardi"
   },
   {
     "Player ID": "phillto02",
@@ -3544,12 +3103,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.333,
-    "OBP": 0.385,
-    "SLG": 0.417,
-    "OPS": 0.801
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tony Phillips"
   },
   {
     "Player ID": "mcdonja02",
@@ -3568,12 +3124,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 1.0,
-    "AVG": 0.091,
-    "OBP": 0.231,
-    "SLG": 0.091,
-    "OPS": 0.322
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jason McDonald"
   },
   {
     "Player ID": "giambja01",
@@ -3592,12 +3145,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.364,
-    "OBP": 0.462,
-    "SLG": 0.455,
-    "OPS": 0.916
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jason Giambi"
   },
   {
     "Player ID": "stairma01",
@@ -3616,12 +3166,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 1.0,
-    "AVG": 0.111,
-    "OBP": 0.385,
-    "SLG": 0.111,
-    "OPS": 0.496
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Matt Stairs"
   },
   {
     "Player ID": "jahajo01",
@@ -3640,12 +3187,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 6.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 1.2,
-    "OPS": 1.6
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "John Jaha"
   },
   {
     "Player ID": "grievbe01",
@@ -3664,12 +3208,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 13.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 1.3,
-    "OPS": 1.7
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ben Grieve"
   },
   {
     "Player ID": "chaveer01",
@@ -3688,12 +3229,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Eric Chavez"
   },
   {
     "Player ID": "hincha.01",
@@ -3712,12 +3250,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.111,
-    "SLG": 0.0,
-    "OPS": 0.111
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "A.J. Hinch"
   },
   {
     "Player ID": "tejadmi01",
@@ -3736,12 +3271,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 7.0,
-    "AVG": 0.3,
-    "OBP": 0.3,
-    "SLG": 0.7,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Miguel Tejada"
   },
   {
     "Player ID": "posadjo01",
@@ -3760,12 +3292,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 2.0,
-    "AVG": 0.286,
-    "OBP": 0.444,
-    "SLG": 0.286,
-    "OPS": 0.73
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Jorge Posada"
   },
   {
     "Player ID": "curtich01",
@@ -3784,12 +3313,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 6.0,
-    "AVG": 0.375,
-    "OBP": 0.444,
-    "SLG": 0.75,
-    "OPS": 1.194
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chad Curtis"
   },
   {
     "Player ID": "raineti01",
@@ -3808,12 +3334,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 1.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.2,
-    "OPS": 0.4
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Tim Raines"
   },
   {
     "Player ID": "spiezsc01",
@@ -3832,12 +3355,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 4.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 1.0,
-    "OPS": 1.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Spiezio"
   },
   {
     "Player ID": "winnra01",
@@ -3856,12 +3376,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 6.0,
-    "AVG": 0.308,
-    "OBP": 0.308,
-    "SLG": 0.462,
-    "OPS": 0.769
+    "SB": 1.0,
+    "CS": 1.0,
+    "Player": "Randy Winn"
   },
   {
     "Player ID": "martida01",
@@ -3880,12 +3397,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 3.0,
-    "AVG": 0.167,
-    "OBP": 0.231,
-    "SLG": 0.25,
-    "OPS": 0.481
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dave Martinez"
   },
   {
     "Player ID": "cansejo01",
@@ -3904,12 +3418,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 4.0,
-    "AVG": 0.333,
-    "OBP": 0.385,
-    "SLG": 0.333,
-    "OPS": 0.718
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jose Canseco"
   },
   {
     "Player ID": "mcgrifr01",
@@ -3928,12 +3439,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 9.0,
-    "AVG": 0.417,
-    "OBP": 0.462,
-    "SLG": 0.75,
-    "OPS": 1.212
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Fred McGriff"
   },
   {
     "Player ID": "flahejo01",
@@ -3952,12 +3460,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.167,
-    "OBP": 0.154,
-    "SLG": 0.167,
-    "OPS": 0.321
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "John Flaherty"
   },
   {
     "Player ID": "boggswa01",
@@ -3976,12 +3481,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 4.0,
-    "AVG": 0.3,
-    "OBP": 0.3,
-    "SLG": 0.4,
-    "OPS": 0.7
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Wade Boggs"
   },
   {
     "Player ID": "sorrepa01",
@@ -4000,12 +3502,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 2.0,
-    "AVG": 0.286,
-    "OBP": 0.286,
-    "SLG": 0.286,
-    "OPS": 0.571
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Paul Sorrento"
   },
   {
     "Player ID": "mccraqu01",
@@ -4024,12 +3523,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 2.0,
-    "AVG": 0.167,
-    "OBP": 0.167,
-    "SLG": 0.333,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Quinton McCracken"
   },
   {
     "Player ID": "cairomi01",
@@ -4048,12 +3544,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 3.0,
-    "AVG": 0.273,
-    "OBP": 0.385,
-    "SLG": 0.273,
-    "OPS": 0.657
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Miguel Cairo"
   },
   {
     "Player ID": "stockke01",
@@ -4072,12 +3565,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 4.0,
-    "AVG": 0.375,
-    "OBP": 0.375,
-    "SLG": 0.5,
-    "OPS": 0.875
+    "SB": 2.0,
+    "CS": 0.0,
+    "Player": "Kevin Stocker"
   },
   {
     "Player ID": "anderbr01",
@@ -4096,12 +3586,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.571,
-    "SLG": 0.25,
-    "OPS": 0.821
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brady Anderson"
   },
   {
     "Player ID": "bordimi01",
@@ -4120,12 +3607,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 11.0,
-    "AVG": 0.727,
-    "OBP": 0.769,
-    "SLG": 1.0,
-    "OPS": 1.769
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Bordick"
   },
   {
     "Player ID": "clarkwi02",
@@ -4144,12 +3628,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.077,
-    "SLG": 0.0,
-    "OPS": 0.077
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Will Clark"
   },
   {
     "Player ID": "belleal01",
@@ -4168,12 +3649,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.3,
-    "OBP": 0.462,
-    "SLG": 0.5,
-    "OPS": 0.962
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Albert Belle"
   },
   {
     "Player ID": "coninje01",
@@ -4192,12 +3670,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 1.0,
-    "AVG": 0.167,
-    "OBP": 0.25,
-    "SLG": 0.167,
-    "OPS": 0.417
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Conine"
   },
   {
     "Player ID": "ripkeca01",
@@ -4216,12 +3691,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.5,
-    "OPS": 0.75
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Cal Ripken Jr"
   },
   {
     "Player ID": "surhob.01",
@@ -4240,12 +3712,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 2.0,
-    "AVG": 0.182,
-    "OBP": 0.25,
-    "SLG": 0.182,
-    "OPS": 0.432
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "B.J. Surhoff"
   },
   {
     "Player ID": "johnsch04",
@@ -4264,12 +3733,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 2.0,
-    "AVG": 0.167,
-    "OBP": 0.375,
-    "SLG": 0.333,
-    "OPS": 0.708
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Charles Johnson"
   },
   {
     "Player ID": "rebouje01",
@@ -4288,12 +3754,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 3.0,
-    "AVG": 0.143,
-    "OBP": 0.455,
-    "SLG": 0.429,
-    "OPS": 0.883
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Reboulet"
   },
   {
     "Player ID": "baineha01",
@@ -4312,12 +3775,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 1.0,
-    "AVG": 0.2,
-    "OBP": 0.333,
-    "SLG": 0.2,
-    "OPS": 0.533
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Harold Baines"
   },
   {
     "Player ID": "otanewi01",
@@ -4336,12 +3796,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.25,
-    "SLG": 0.25,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Willis Otanez"
   },
   {
     "Player ID": "smithbo06",
@@ -4360,12 +3817,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.5,
-    "SLG": 0.333,
-    "OPS": 0.833
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Bob Smith"
   },
   {
     "Player ID": "lambda01",
@@ -4384,12 +3838,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "David Lamb"
   },
   {
     "Player ID": "webstle01",
@@ -4408,12 +3859,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.25,
-    "SLG": 0.0,
-    "OPS": 0.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Lenny Webster"
   },
   {
     "Player ID": "guerrwi01",
@@ -4432,12 +3880,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 16.0,
-    "TB": 8.0,
-    "AVG": 0.286,
-    "OBP": 0.375,
-    "SLG": 0.571,
-    "OPS": 0.946
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Wilton Guerrero"
   },
   {
     "Player ID": "cabreor01",
@@ -4456,12 +3901,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 6.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.4,
-    "OPS": 0.6
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Orlando Cabrera"
   },
   {
     "Player ID": "whitero02",
@@ -4480,12 +3922,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 7.0,
-    "AVG": 0.308,
-    "OBP": 0.4,
-    "SLG": 0.538,
-    "OPS": 0.938
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Rondell White"
   },
   {
     "Player ID": "guerrvl01",
@@ -4504,12 +3943,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 17.0,
-    "AVG": 0.571,
-    "OBP": 0.571,
-    "SLG": 1.214,
-    "OPS": 1.786
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Vladimir Guerrero"
   },
   {
     "Player ID": "fullmbr01",
@@ -4528,12 +3964,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 3.0,
-    "AVG": 0.375,
-    "OBP": 0.5,
-    "SLG": 0.375,
-    "OPS": 0.875
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brad Fullmer"
   },
   {
     "Player ID": "barremi01",
@@ -4552,12 +3985,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.154,
-    "OBP": 0.154,
-    "SLG": 0.154,
-    "OPS": 0.308
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Michael Barrett"
   },
   {
     "Player ID": "vidrojo01",
@@ -4576,12 +4006,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 4.0,
-    "AVG": 0.429,
-    "OBP": 0.429,
-    "SLG": 0.571,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jose Vidro"
   },
   {
     "Player ID": "widgech01",
@@ -4600,12 +4027,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 1.0,
-    "AVG": 0.111,
-    "OBP": 0.2,
-    "SLG": 0.111,
-    "OPS": 0.311
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chris Widger"
   },
   {
     "Player ID": "martima02",
@@ -4624,12 +4048,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 6.0,
-    "AVG": 0.273,
-    "OBP": 0.333,
-    "SLG": 0.545,
-    "OPS": 0.879
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Manny Martinez"
   },
   {
     "Player ID": "merceor01",
@@ -4648,12 +4069,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 1.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.5,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Orlando Merced"
   },
   {
     "Player ID": "hermadu01",
@@ -4672,12 +4090,9 @@
     "SH": 2.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dustin Hermanson"
   },
   {
     "Player ID": "andresh01",
@@ -4696,12 +4111,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 5.0,
-    "AVG": 0.714,
-    "OBP": 0.714,
-    "SLG": 0.714,
-    "OPS": 1.429
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Shane Andrews"
   },
   {
     "Player ID": "kendaja01",
@@ -4720,12 +4132,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 8.0,
-    "AVG": 0.429,
-    "OBP": 0.467,
-    "SLG": 0.571,
-    "OPS": 1.038
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Jason Kendall"
   },
   {
     "Player ID": "morriwa02",
@@ -4744,12 +4153,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 4.0,
-    "AVG": 0.273,
-    "OBP": 0.467,
-    "SLG": 0.364,
-    "OPS": 0.83
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Warren Morris"
   },
   {
     "Player ID": "gilesbr02",
@@ -4768,12 +4174,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.455,
-    "OBP": 0.571,
-    "SLG": 0.455,
-    "OPS": 1.026
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brian Giles"
   },
   {
     "Player ID": "youngke01",
@@ -4792,12 +4195,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 8.0,
-    "AVG": 0.417,
-    "OBP": 0.5,
-    "SLG": 0.667,
-    "OPS": 1.167
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kevin Young"
   },
   {
     "Player ID": "brownbr01",
@@ -4816,12 +4216,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 5.0,
-    "AVG": 0.182,
-    "OBP": 0.25,
-    "SLG": 0.455,
-    "OPS": 0.705
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brant Brown"
   },
   {
     "Player ID": "spraged02",
@@ -4840,12 +4237,9 @@
     "SH": 0.0,
     "SF": 2.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.182,
-    "OBP": 0.154,
-    "SLG": 0.182,
-    "OPS": 0.336
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ed Sprague"
   },
   {
     "Player ID": "guilljo01",
@@ -4864,12 +4258,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 2.0,
-    "AVG": 0.167,
-    "OBP": 0.167,
-    "SLG": 0.167,
-    "OPS": 0.333
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jose Guillen"
   },
   {
     "Player ID": "benjami01",
@@ -4888,12 +4279,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 2.0,
-    "AVG": 0.1,
-    "OBP": 0.25,
-    "SLG": 0.2,
-    "OPS": 0.45
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Benjamin"
   },
   {
     "Player ID": "cordofr01",
@@ -4912,12 +4300,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 1.0,
-    "AVG": 1.0,
-    "OBP": 1.0,
-    "SLG": 1.0,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Francisco Cordova"
   },
   {
     "Player ID": "martial03",
@@ -4936,12 +4321,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Al Martin"
   },
   {
     "Player ID": "wardtu01",
@@ -4960,12 +4342,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Turner Ward"
   },
   {
     "Player ID": "brownad01",
@@ -4984,12 +4363,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 1.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.5,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Adrian Brown"
   },
   {
     "Player ID": "pavanca01",
@@ -5008,12 +4384,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 1.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.5,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Carl Pavano"
   },
   {
     "Player ID": "schmija01",
@@ -5032,12 +4405,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.5,
-    "SLG": 0.0,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jason Schmidt"
   },
   {
     "Player ID": "vazquja01",
@@ -5056,12 +4426,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.333,
-    "OPS": 0.667
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Javier Vazquez"
   },
   {
     "Player ID": "schoupe01",
@@ -5080,12 +4447,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Pete Schourek"
   },
   {
     "Player ID": "benarma01",
@@ -5104,12 +4468,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 6.0,
-    "AVG": 0.333,
-    "OBP": 0.455,
-    "SLG": 0.667,
-    "OPS": 1.121
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Marvin Benard"
   },
   {
     "Player ID": "muellbi02",
@@ -5128,12 +4489,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 2.0,
-    "AVG": 0.25,
-    "OBP": 0.4,
-    "SLG": 0.5,
-    "OPS": 0.9
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Bill Mueller"
   },
   {
     "Player ID": "bondsba01",
@@ -5152,12 +4510,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.286,
-    "OBP": 0.643,
-    "SLG": 0.714,
-    "OPS": 1.357
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Barry Bonds"
   },
   {
     "Player ID": "kentje01",
@@ -5176,12 +4531,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.154,
-    "OBP": 0.214,
-    "SLG": 0.385,
-    "OPS": 0.599
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Kent"
   },
   {
     "Player ID": "snowj.01",
@@ -5200,12 +4552,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 8.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 0.571,
-    "OPS": 1.071
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "J.T. Snow"
   },
   {
     "Player ID": "burksel01",
@@ -5224,12 +4573,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 1.0,
-    "AVG": 0.125,
-    "OBP": 0.3,
-    "SLG": 0.125,
-    "OPS": 0.425
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ellis Burks"
   },
   {
     "Player ID": "maynebr01",
@@ -5248,12 +4594,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 3.0,
-    "AVG": 0.286,
-    "OBP": 0.375,
-    "SLG": 0.429,
-    "OPS": 0.804
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brent Mayne"
   },
   {
     "Player ID": "aurilri01",
@@ -5272,12 +4615,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 2.0,
-    "AVG": 0.2,
-    "OBP": 0.308,
-    "SLG": 0.2,
-    "OPS": 0.508
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Rich Aurilia"
   },
   {
     "Player ID": "gardnma01",
@@ -5296,12 +4636,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 2.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.667,
-    "OPS": 1.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Gardner"
   },
   {
     "Player ID": "javiest01",
@@ -5320,12 +4657,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.167,
-    "SLG": 0.0,
-    "OPS": 0.167
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Stan Javier"
   },
   {
     "Player ID": "camermi01",
@@ -5344,12 +4678,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 4.0,
-    "AVG": 0.167,
-    "OBP": 0.231,
-    "SLG": 0.333,
-    "OPS": 0.564
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mike Cameron"
   },
   {
     "Player ID": "larkiba01",
@@ -5368,12 +4699,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 13.0,
-    "TB": 5.0,
-    "AVG": 0.25,
-    "OBP": 0.308,
-    "SLG": 0.417,
-    "OPS": 0.724
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Barry Larkin"
   },
   {
     "Player ID": "caseyse01",
@@ -5392,12 +4720,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 1.0,
-    "AVG": 0.1,
-    "OBP": 0.25,
-    "SLG": 0.1,
-    "OPS": 0.35
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Sean Casey"
   },
   {
     "Player ID": "vaughgr01",
@@ -5416,12 +4741,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.167,
-    "SLG": 0.0,
-    "OPS": 0.167
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Greg Vaughn"
   },
   {
     "Player ID": "youngdm01",
@@ -5440,12 +4762,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 12.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dmitri Young"
   },
   {
     "Player ID": "taubeed01",
@@ -5464,12 +4783,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 7.0,
-    "AVG": 0.5,
-    "OBP": 0.625,
-    "SLG": 1.167,
-    "OPS": 1.792
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Ed Taubensee"
   },
   {
     "Player ID": "booneaa01",
@@ -5488,12 +4804,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 8.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 1.0,
-    "OPS": 1.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Aaron Boone"
   },
   {
     "Player ID": "reesepo01",
@@ -5512,12 +4825,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 2.0,
-    "AVG": 0.143,
-    "OBP": 0.4,
-    "SLG": 0.286,
-    "OPS": 0.686
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Pokey Reese"
   },
   {
     "Player ID": "tomkobr01",
@@ -5536,12 +4846,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brett Tomko"
   },
   {
     "Player ID": "sweenma01",
@@ -5560,12 +4867,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Sweeney"
   },
   {
     "Player ID": "hayesch01",
@@ -5584,12 +4888,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 1.0,
-    "AVG": 0.167,
-    "OBP": 0.4,
-    "SLG": 0.167,
-    "OPS": 0.567
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Charlie Hayes"
   },
   {
     "Player ID": "rueteki01",
@@ -5608,12 +4909,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kirk Rueter"
   },
   {
     "Player ID": "johnsbr01",
@@ -5632,12 +4930,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 4.0,
-    "AVG": 0.667,
-    "OBP": 0.667,
-    "SLG": 1.333,
-    "OPS": 2.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brian Johnson"
   },
   {
     "Player ID": "bereja01",
@@ -5656,12 +4951,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jason Bere"
   },
   {
     "Player ID": "hammoje01",
@@ -5680,12 +4972,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeffrey Hammonds"
   },
   {
     "Player ID": "stynech01",
@@ -5704,12 +4993,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Chris Stynes"
   },
   {
     "Player ID": "santaf.01",
@@ -5728,12 +5014,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 2.0,
-    "AVG": 0.4,
-    "OBP": 0.4,
-    "SLG": 0.4,
-    "OPS": 0.8
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "F.P. Santangelo"
   },
   {
     "Player ID": "servasc01",
@@ -5752,12 +5035,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 1.0,
-    "AVG": 0.333,
-    "OBP": 0.5,
-    "SLG": 0.333,
-    "OPS": 0.833
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Scott Servais"
   },
   {
     "Player ID": "ortizru01",
@@ -5776,12 +5056,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 2.0,
-    "AVG": 0.5,
-    "OBP": 0.5,
-    "SLG": 1.0,
-    "OPS": 1.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Russ Ortiz"
   },
   {
     "Player ID": "lewisma01",
@@ -5800,12 +5077,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Lewis"
   },
   {
     "Player ID": "morriha02",
@@ -5824,12 +5098,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Hal Morris"
   },
   {
     "Player ID": "averyst01",
@@ -5848,12 +5119,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Steve Avery"
   },
   {
     "Player ID": "vinafe01",
@@ -5872,12 +5140,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 8.0,
-    "AVG": 0.429,
-    "OBP": 0.467,
-    "SLG": 0.571,
-    "OPS": 1.038
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Fernando Vina"
   },
   {
     "Player ID": "grissma02",
@@ -5896,12 +5161,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 6.0,
-    "AVG": 0.308,
-    "OBP": 0.333,
-    "SLG": 0.462,
-    "OPS": 0.795
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Marquis Grissom"
   },
   {
     "Player ID": "cirilje01",
@@ -5920,12 +5182,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 15.0,
-    "TB": 1.0,
-    "AVG": 0.083,
-    "OBP": 0.267,
-    "SLG": 0.083,
-    "OPS": 0.35
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeff Cirillo"
   },
   {
     "Player ID": "burnije01",
@@ -5944,12 +5203,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.167,
-    "OBP": 0.286,
-    "SLG": 0.417,
-    "OPS": 0.702
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jeromy Burnitz"
   },
   {
     "Player ID": "berryse01",
@@ -5968,12 +5224,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 9.0,
-    "AVG": 0.462,
-    "OBP": 0.5,
-    "SLG": 0.692,
-    "OPS": 1.192
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Sean Berry"
   },
   {
     "Player ID": "nilssda01",
@@ -5992,12 +5245,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 1.0,
-    "AVG": 0.111,
-    "OBP": 0.2,
-    "SLG": 0.111,
-    "OPS": 0.311
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Dave Nilsson"
   },
   {
     "Player ID": "loretma01",
@@ -6016,12 +5266,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 6.0,
-    "AVG": 0.625,
-    "OBP": 0.625,
-    "SLG": 0.75,
-    "OPS": 1.375
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark Loretta"
   },
   {
     "Player ID": "beckeri01",
@@ -6040,12 +5287,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Rich Becker"
   },
   {
     "Player ID": "jenkige01",
@@ -6064,12 +5308,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 7.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.143,
-    "SLG": 0.0,
-    "OPS": 0.143
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Geoff Jenkins"
   },
   {
     "Player ID": "banksbr01",
@@ -6088,12 +5329,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 3.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Brian Banks"
   },
   {
     "Player ID": "ochoaal01",
@@ -6112,12 +5350,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 2.0,
-    "AVG": 0.2,
-    "OBP": 0.333,
-    "SLG": 0.4,
-    "OPS": 0.733
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Alex Ochoa"
   },
   {
     "Player ID": "valenjo03",
@@ -6136,12 +5371,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 1.0,
-    "AVG": 0.2,
-    "OBP": 0.333,
-    "SLG": 0.2,
-    "OPS": 0.533
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jose Valentin"
   },
   {
     "Player ID": "renteed01",
@@ -6160,12 +5392,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 3.0,
-    "AVG": 0.25,
-    "OBP": 0.333,
-    "SLG": 0.375,
-    "OPS": 0.708
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Edgar Renteria"
   },
   {
     "Player ID": "ordazlu01",
@@ -6184,12 +5413,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Luis Ordaz"
   },
   {
     "Player ID": "drewj.01",
@@ -6208,12 +5434,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 8.0,
-    "TB": 1.0,
-    "AVG": 0.125,
-    "OBP": 0.125,
-    "SLG": 0.125,
-    "OPS": 0.25
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "J.D. Drew"
   },
   {
     "Player ID": "castial01",
@@ -6232,12 +5455,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 2.0,
-    "AVG": 0.333,
-    "OBP": 0.333,
-    "SLG": 0.333,
-    "OPS": 0.667
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Alberto Castillo"
   },
   {
     "Player ID": "mcgwima01",
@@ -6256,12 +5476,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 9.0,
-    "AVG": 0.3,
-    "OBP": 0.429,
-    "SLG": 0.9,
-    "OPS": 1.329
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Mark McGwire"
   },
   {
     "Player ID": "daviser01",
@@ -6280,12 +5497,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 5.0,
-    "AVG": 0.364,
-    "OBP": 0.5,
-    "SLG": 0.455,
-    "OPS": 0.955
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Eric Davis"
   },
   {
     "Player ID": "tatisfe01",
@@ -6304,12 +5518,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 14.0,
-    "TB": 12.0,
-    "AVG": 0.231,
-    "OBP": 0.286,
-    "SLG": 0.923,
-    "OPS": 1.209
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Fernando Tatis"
   },
   {
     "Player ID": "dunstsh01",
@@ -6328,12 +5539,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 11.0,
-    "TB": 4.0,
-    "AVG": 0.4,
-    "OBP": 0.455,
-    "SLG": 0.4,
-    "OPS": 0.855
+    "SB": 1.0,
+    "CS": 0.0,
+    "Player": "Shawon Dunston"
   },
   {
     "Player ID": "marreel01",
@@ -6352,12 +5560,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 10.0,
-    "TB": 5.0,
-    "AVG": 0.2,
-    "OBP": 0.2,
-    "SLG": 0.5,
-    "OPS": 0.7
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Eli Marrero"
   },
   {
     "Player ID": "polanpl01",
@@ -6376,12 +5581,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 4.0,
-    "AVG": 0.444,
-    "OBP": 0.444,
-    "SLG": 0.444,
-    "OPS": 0.889
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Placido Polanco"
   },
   {
     "Player ID": "osbordo01",
@@ -6400,12 +5602,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Donovan Osborne"
   },
   {
     "Player ID": "mcewijo01",
@@ -6424,12 +5623,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 5.0,
-    "TB": 1.0,
-    "AVG": 0.25,
-    "OBP": 0.4,
-    "SLG": 0.25,
-    "OPS": 0.65
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Joe McEwing"
   },
   {
     "Player ID": "braggda01",
@@ -6448,12 +5644,9 @@
     "SH": 1.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 9.0,
-    "TB": 7.0,
-    "AVG": 0.375,
-    "OBP": 0.444,
-    "SLG": 0.875,
-    "OPS": 1.319
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Darren Bragg"
   },
   {
     "Player ID": "mcgeewi01",
@@ -6472,12 +5665,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 6.0,
-    "TB": 1.0,
-    "AVG": 0.167,
-    "OBP": 0.167,
-    "SLG": 0.167,
-    "OPS": 0.333
+    "SB": 0.0,
+    "CS": 1.0,
+    "Player": "Willie McGee"
   },
   {
     "Player ID": "woodast01",
@@ -6496,12 +5686,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.5,
-    "SLG": 0.0,
-    "OPS": 0.5
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Steve Woodard"
   },
   {
     "Player ID": "botteke01",
@@ -6520,12 +5707,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kent Bottenfield"
   },
   {
     "Player ID": "hughebo01",
@@ -6544,12 +5728,9 @@
     "SH": 0.0,
     "SF": 1.0,
     "GIDP": 0.0,
-    "PA": 4.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Bobby Hughes"
   },
   {
     "Player ID": "abbotji01",
@@ -6568,12 +5749,9 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 2.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Jim Abbott"
   },
   {
     "Player ID": "merckke01",
@@ -6592,11 +5770,8 @@
     "SH": 0.0,
     "SF": 0.0,
     "GIDP": 0.0,
-    "PA": 1.0,
-    "TB": 0.0,
-    "AVG": 0.0,
-    "OBP": 0.0,
-    "SLG": 0.0,
-    "OPS": 0.0
+    "SB": 0.0,
+    "CS": 0.0,
+    "Player": "Kent Mercker"
   }
 ]
