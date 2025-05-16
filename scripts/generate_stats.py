@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 import os
@@ -153,7 +154,8 @@ def group_stats(gamelog_df, schedule_df):
 
     return batting, pitching, fielding, boxscores
 
-def save_json(data, path):
+# REPLACED WITH clean_for_json
+# def save_json(data, path):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
@@ -179,3 +181,17 @@ if __name__ == "__main__":
 
     for gid, data in boxscores.items():
         save_json(data, os.path.join(boxscore_dir, f"{gid}.json"))
+
+
+def clean_for_json(obj):
+    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
+        return None
+    if isinstance(obj, dict):
+        return {k: clean_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_for_json(v) for v in obj]
+    return obj
+
+def save_json(data, path):
+    with open(path, "w") as f:
+        json.dump(clean_for_json(data), f, indent=2)
