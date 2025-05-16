@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import os
@@ -40,6 +39,16 @@ def generate_schedule(schedule_df):
     schedule = []
     for _, row in schedule_df.iterrows():
         schedule.append({
+            "game_id": str(row["Game#"]),
+            "date": str(row["Date"]),
+            "home_team": row["Home"],
+            "away_team": row["Away"],
+            "home_score": safe_int(row["Home Score"]),
+            "away_score": safe_int(row["Away Score"]),
+            "completed": bool(row["Played"]),
+            "simDate": row["Played On"]
+        })
+    return schedule
             "game_id": str(row["Game#"]),
             "date": str(row["Date"]),
             "home_team": row["Home"],
