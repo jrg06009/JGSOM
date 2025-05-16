@@ -4,7 +4,6 @@ import fs from 'fs'
 import path from 'path'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
-import Link from 'next/link'
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'stats', 'batting.json')
@@ -37,25 +36,6 @@ export default function BattingPage({ data, teamToLeague }) {
     "GIDP", "HBP", "SH", "SF", "IBB"
   ]
 
-  const dataWithLinks = filteredData.map(row => {
-    const newRow = { ...row }
-    if (row["Player ID"]) {
-      newRow.Player = (
-        <Link href={`/players/${row["Player ID"]}`}>
-          <a className="text-blue-600 hover:underline">{row.Player}</a>
-        </Link>
-      )
-    }
-    if (row.team) {
-      newRow.team = (
-        <Link href={`/teams/${row.team}`}>
-          <a className="text-blue-600 hover:underline">{row.team}</a>
-        </Link>
-      )
-    }
-    return newRow
-  })
-
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Batting Stats</h1>
@@ -80,7 +60,7 @@ export default function BattingPage({ data, teamToLeague }) {
 
       <SortableTable
         title="League Batting"
-        data={dataWithLinks}
+        data={filteredData}
         defaultSortKey="PA"
         exclude={["Player ID"]}
         nameLinkField="Player"
