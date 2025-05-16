@@ -17,6 +17,13 @@ export default function BattingPage({ data, teamToLeague }) {
   const [showSplit, setShowSplit] = useState(true)
   const [league, setLeague] = useState('All')
 
+  const formatRateStat = (value) => {
+    const num = parseFloat(value)
+    if (isNaN(num)) return value
+    if (num === 1) return "1.000"
+    return num.toFixed(3).replace(/^0\./, '.')
+  }
+
   const filteredData = data.filter(player => {
     const pa = parseInt(player.PA || 0, 10)
     const isQualified = !showQualified || pa >= 10
@@ -28,10 +35,20 @@ export default function BattingPage({ data, teamToLeague }) {
       league === 'All' ||
       (player.team in teamToLeague && teamToLeague[player.team] === league)
     return isQualified && isSplitOK && isLeagueMatch
+  }).map(row => {
+    const formatted = { ...row }
+    formatted.Team = formatted.team
+    delete formatted.team
+    for (const stat of ["AVG", "OBP", "SLG", "OPS"]) {
+      if (formatted[stat] !== undefined) {
+        formatted[stat] = formatRateStat(formatted[stat])
+      }
+    }
+    return formatted
   })
 
   const displayedColumns = [
-    "Player", "team", "G", "PA", "AB", "R", "H", "2B", "3B", "HR", "RBI",
+    "Player", "Team", "G", "PA", "AB", "R", "H", "2B", "3B", "HR", "RBI",
     "SB", "CS", "BB", "SO", "AVG", "OBP", "SLG", "OPS", "TB",
     "GIDP", "HBP", "SH", "SF", "IBB"
   ]
