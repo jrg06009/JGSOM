@@ -13,7 +13,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "F.P. Santangelo",
@@ -27,7 +27,7 @@
         "SO": 1,
         "R": 2,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Barry Bonds",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff Kent",
@@ -55,7 +55,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Charlie Hayes",
@@ -69,7 +69,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "J.T. Snow",
@@ -83,7 +83,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Rich Aurilia",
@@ -97,7 +97,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Scott Servais",
@@ -111,7 +111,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Russ Ortiz",
@@ -169,7 +169,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Barry Larkin",
@@ -183,7 +183,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Sean Casey",
@@ -197,7 +197,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Greg Vaughn",
@@ -211,7 +211,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Dmitri Young",
@@ -225,7 +225,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Ed Taubensee",
@@ -239,7 +239,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mark Lewis",
@@ -281,7 +281,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Steve Avery",
@@ -323,7 +323,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

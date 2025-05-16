@@ -13,7 +13,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Marquis Grissom",
@@ -27,7 +27,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff Cirillo",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeromy Burnitz",
@@ -55,7 +55,7 @@
         "SO": 2,
         "R": 1,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Sean Berry",
@@ -69,7 +69,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Dave Nilsson",
@@ -83,7 +83,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jose Valentin",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Geoff Jenkins",
@@ -111,7 +111,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Steve Woodard",
@@ -155,7 +155,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "J.D. Drew",
@@ -169,7 +169,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mark McGwire",
@@ -183,7 +183,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 4,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Eric Davis",
@@ -197,7 +197,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Fernando Tatis",
@@ -211,7 +211,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Darren Bragg",
@@ -239,7 +239,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Placido Polanco",
@@ -253,7 +253,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Kent Bottenfield",
@@ -295,7 +295,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

@@ -13,7 +13,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Darren Lewis",
@@ -41,7 +41,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "John Valentin",
@@ -55,7 +55,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Nomar Garciaparra",
@@ -69,7 +69,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mike Stanley",
@@ -83,7 +83,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Troy O'Leary",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Damon Buford",
@@ -125,7 +125,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jason Varitek",
@@ -139,7 +139,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff Frye",
@@ -153,7 +153,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ],
     "KCR": [
@@ -169,7 +169,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Joe Randa",
@@ -183,7 +183,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Johnny Damon",
@@ -197,7 +197,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff King",
@@ -211,7 +211,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Larry Sutton",
@@ -253,7 +253,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jermaine Dye",
@@ -267,7 +267,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Chad Kreuter",
@@ -281,7 +281,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Rey Sanchez",
@@ -295,7 +295,7 @@
         "SO": 2,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Carlos Febles",
@@ -309,7 +309,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

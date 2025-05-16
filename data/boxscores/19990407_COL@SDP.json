@@ -13,7 +13,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Neifi Perez",
@@ -27,7 +27,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Lenny Harris",
@@ -55,7 +55,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Vinny Castilla",
@@ -69,7 +69,7 @@
         "SO": 0,
         "R": 3,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Todd Helton",
@@ -83,7 +83,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mike Lansing",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff Reed",
@@ -111,7 +111,7 @@
         "SO": 3,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jamey Wright",
@@ -155,7 +155,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Reggie Sanders",
@@ -169,7 +169,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Tony Gwynn",
@@ -183,7 +183,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Wally Joyner",
@@ -197,7 +197,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "John Vander Wal",
@@ -239,7 +239,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "George Arias",
@@ -267,7 +267,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Chris Gomez",
@@ -281,7 +281,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Woody Williams",
@@ -323,7 +323,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

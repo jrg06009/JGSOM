@@ -13,7 +13,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Derek Jeter",
@@ -27,7 +27,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Paul O'Neill",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Bernie Williams",
@@ -55,7 +55,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Tino Martinez",
@@ -69,7 +69,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Chili Davis",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Scott Brosius",
@@ -111,7 +111,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Chad Curtis",
@@ -125,7 +125,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ],
     "OAK": [
@@ -141,7 +141,7 @@
         "SO": 2,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jason McDonald",
@@ -155,7 +155,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jason McDonald",
@@ -169,7 +169,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jason Giambi",
@@ -183,7 +183,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Matt Stairs",
@@ -197,7 +197,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Ben Grieve",
@@ -225,7 +225,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Scott Spiezio",
@@ -253,7 +253,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "A.J. Hinch",
@@ -295,7 +295,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

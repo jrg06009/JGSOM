@@ -13,7 +13,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jay Bell",
@@ -27,7 +27,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Travis Lee",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Matt Williams",
@@ -55,7 +55,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Luis Gonzalez",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Kelly Stinnett",
@@ -111,7 +111,7 @@
         "SO": 2,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Randy Johnson",
@@ -155,7 +155,7 @@
         "SO": 3,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mark Grudzielanek",
@@ -169,7 +169,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Gary Sheffield",
@@ -183,7 +183,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Raul Mondesi",
@@ -197,7 +197,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Devon White",
@@ -211,7 +211,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Eric Karros",
@@ -225,7 +225,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Todd Hundley",
@@ -239,7 +239,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Adrian Beltre",
@@ -295,7 +295,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

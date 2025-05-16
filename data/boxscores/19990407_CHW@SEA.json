@@ -13,7 +13,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mike Caruso",
@@ -27,7 +27,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Frank Thomas",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jeff Liefer",
@@ -69,7 +69,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Magglio Ordonez",
@@ -83,7 +83,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Greg Norton",
@@ -97,7 +97,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Darrin Jackson",
@@ -111,7 +111,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Mark Johnson",
@@ -167,7 +167,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ],
     "SEA": [
@@ -183,7 +183,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "David Bell",
@@ -197,7 +197,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Ken Griffey Jr",
@@ -211,7 +211,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Edgar Martinez",
@@ -225,7 +225,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "David Segui",
@@ -239,7 +239,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Jay Buhner",
@@ -253,7 +253,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "John Mabry",
@@ -267,7 +267,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Russ Davis",
@@ -281,7 +281,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Dan Wilson",
@@ -295,7 +295,7 @@
         "SO": 1,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },

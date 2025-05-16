@@ -13,7 +13,7 @@
         "SO": 2,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Bobby Higginson",
@@ -27,7 +27,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Damion Easley",
@@ -41,7 +41,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Tony Clark",
@@ -55,7 +55,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Dean Palmer",
@@ -69,7 +69,7 @@
         "SO": 3,
         "R": 1,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Karim Garcia",
@@ -83,7 +83,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Gabe Kapler",
@@ -97,7 +97,7 @@
         "SO": 2,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Bill Haselman",
@@ -111,7 +111,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Deivi Cruz",
@@ -155,7 +155,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Ivan Rodriguez",
@@ -169,7 +169,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Rusty Greer",
@@ -183,7 +183,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 2,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Juan Gonzalez",
@@ -197,7 +197,7 @@
         "SO": 1,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Rafael Palmeiro",
@@ -211,7 +211,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Roberto Kelly",
@@ -225,7 +225,7 @@
         "SO": 0,
         "R": 1,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Todd Zeile",
@@ -239,7 +239,7 @@
         "SO": 0,
         "R": 2,
         "RBI": 0,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Lee Stevens",
@@ -253,7 +253,7 @@
         "SO": 1,
         "R": 3,
         "RBI": 3,
-        "Removed": NaN
+        "Removed": null
       },
       {
         "Player": "Luis Alicea",
@@ -267,7 +267,7 @@
         "SO": 0,
         "R": 0,
         "RBI": 1,
-        "Removed": NaN
+        "Removed": null
       }
     ]
   },
