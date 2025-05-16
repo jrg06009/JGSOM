@@ -35,6 +35,7 @@ def load_data(file_path):
     schedule = xls.parse("Schedule")
     return gamelog, schedule
 
+
 def generate_schedule(schedule_df):
     schedule = []
     for _, row in schedule_df.iterrows():
@@ -49,6 +50,10 @@ def generate_schedule(schedule_df):
             "simDate": row["Played On"]
         })
     return schedule
+
+    schedule = []
+    for _, row in schedule_df.iterrows():
+        schedule.append({
             "game_id": str(row["Game#"]),
             "date": str(row["Date"]),
             "home_team": row["Home"],
