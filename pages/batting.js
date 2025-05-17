@@ -36,7 +36,6 @@ export default function BattingPage({ data, teamToLeague }) {
     return isQualified && isSplitOK && isLeagueMatch
   }).map(row => {
     const formatted = { ...row }
-    formatted.Team = row.team
     formatted.AVG = formatRate(row.AVG)
     formatted.OBP = formatRate(row.OBP)
     formatted.SLG = formatRate(row.SLG)
@@ -45,7 +44,7 @@ export default function BattingPage({ data, teamToLeague }) {
   })
 
   const displayedColumns = [
-    "Player", "Team", "G", "PA", "AB", "R", "H", "2B", "3B", "HR", "RBI",
+    "Player", "team", "G", "PA", "AB", "R", "H", "2B", "3B", "HR", "RBI",
     "SB", "CS", "BB", "SO", "AVG", "OBP", "SLG", "OPS", "TB",
     "GIDP", "HBP", "SH", "SF", "IBB"
   ]
@@ -76,7 +75,7 @@ export default function BattingPage({ data, teamToLeague }) {
         title="League Batting"
         data={filteredData}
         defaultSortKey="PA"
-        exclude={["Player ID", "team"]}
+        exclude={["Player ID"]}
         nameLinkField="Player"
         idField="Player ID"
         linkBase="/players"
