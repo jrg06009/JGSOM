@@ -941,7 +941,7 @@
     "SB": 1,
     "CS": "",
     "CS%": "0%",
-    "PkO": "",
+    "PkO": 2,
     "Player ID": "appieke01"
   },
   {
@@ -1214,7 +1214,7 @@
     "SB": "",
     "CS": "",
     "CS%": "",
-    "PkO": "",
+    "PkO": 1,
     "Player ID": "johnsra05"
   },
   {
@@ -1634,7 +1634,7 @@
     "SB": 1,
     "CS": 1,
     "CS%": "50%",
-    "PkO": "",
+    "PkO": 1,
     "Player ID": "stottto01"
   },
   {
