@@ -19,7 +19,7 @@ export default function PitchingPage({ data, teamToLeague }) {
 
   const filteredData = data.filter(player => {
     const ip = parseFloat(player.IP || 0)
-    const isQualified = !showQualified || ip >= 10
+    const isQualified = !showQualified || ip >= 3
     const isSplitOK =
       showSplit ||
       player.team === 'TOT' ||
