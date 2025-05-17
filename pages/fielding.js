@@ -8,12 +8,20 @@ export async function getStaticProps() {
   const path = await import('path')
   const filePath = path.join(process.cwd(), 'data', 'stats', 'fielding.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-  const teamToLeague = getTeamToLeagueMap()
   const schedulePath = path.join(process.cwd(), 'data', 'schedule.json')
-  const schedule = JSON.parse(fs.readFileSync(schedulePath, 'utf8'))
+  const teams = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8')
+  )
+  const schedule = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'data', 'schedule.json'), 'utf8')
+  )
+  const teamToLeague = getTeamToLeagueMapFromTeams(teams)
   const teamGames = getTeamGamesPlayedFromSchedule(schedule)
+  const fieldingData = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'fielding.json'), 'utf8')
+  )
 
-  return { props: { data, teamToLeague, teamGames } }
+  return { props: { data:fieldingData, teamToLeague, teamGames } }
 }
 
 export default function FieldingPage({ data, teamToLeague, teamGames }) {
