@@ -1,5 +1,34 @@
+
 import { useState } from 'react'
 import Link from 'next/link'
+
+const headerLabels = {
+  team: "Team",
+  Player: "Player",
+  G: "G",
+  PA: "PA",
+  AB: "AB",
+  R: "R",
+  H: "H",
+  "2B": "2B",
+  "3B": "3B",
+  HR: "HR",
+  RBI: "RBI",
+  SB: "SB",
+  CS: "CS",
+  BB: "BB",
+  SO: "SO",
+  AVG: "AVG",
+  OBP: "OBP",
+  SLG: "SLG",
+  OPS: "OPS",
+  TB: "TB",
+  GIDP: "GIDP",
+  HBP: "HBP",
+  SH: "SH",
+  SF: "SF",
+  IBB: "IBB"
+}
 
 export default function SortableTable({
   title,
@@ -19,7 +48,7 @@ export default function SortableTable({
   if (!data || data.length === 0) return null
 
   const headers = Object.keys(data[0]).filter(
-    k => !exclude.includes(k) && k !== idField // exclude the ID column from headers
+    k => !exclude.includes(k) && k !== idField
   )
 
   const sorted = [...data].sort((a, b) => {
@@ -55,7 +84,7 @@ export default function SortableTable({
                   onClick={() => handleSort(key)}
                   className="cursor-pointer border border-gray-400 p-2 bg-gray-100 hover:bg-gray-200 text-left"
                 >
-                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
+                  {headerLabels[key] || key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
                 </th>
               ))}
             </tr>
