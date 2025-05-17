@@ -288,8 +288,8 @@ def group_fielding_stats(gamelog_df):
         fielding[key]["DP"] += safe_int(row.get("DP"))
         fielding[key]["PB"] += safe_int(row.get("PB"))
         fielding[key]["WP"] += safe_int(row.get("WP"))
-        fielding[key]["SB"] += safe_int(row.get("SB"))
-        fielding[key]["CS"] += safe_int(row.get("CS"))
+        fielding[key]["SB"] += safe_int(row.get("SB against"))
+        fielding[key]["CS"] += safe_int(row.get("CS against"))
         fielding[key]["PkO"] += safe_int(row.get("PkO"))
 
     result = []
