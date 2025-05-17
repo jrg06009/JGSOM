@@ -5,28 +5,15 @@ import os
 import json
 from collections import defaultdict
 
-def safe_float(val):
-    try:
-        return float(val)
-    except:
-        return 0.0
-
 def safe_int(val):
     try:
         return int(val)
     except:
         return 0
 
-def format_ip(ip):
+def safe_float(val):
     try:
-        ip = float(ip)
-        whole = int(ip)
-        frac = round((ip - whole) * 10)
-        if frac == 1:
-            return whole + 1/3
-        elif frac == 2:
-            return whole + 2/3
-        return whole
+        return float(val)
     except:
         return 0.0
 
@@ -51,6 +38,7 @@ def load_data(file_path):
 
 def group_stats(gamelog_df):
     batting = defaultdict(lambda: defaultdict(float))
+    games_played = defaultdict(set)
 
     for _, row in gamelog_df.iterrows():
         pid = row.get("Player ID")
@@ -59,9 +47,11 @@ def group_stats(gamelog_df):
 
         team = row["Team"]
         player = row["Player Name"]
+        game_num = row["Game#"]
+        key = (pid, team)
 
         if not pd.isna(row.get("AB")):
-            key = (pid, team)
+            games_played[key].add(game_num)
             batting[key]["Player"] = player
             batting[key]["AB"] += safe_int(row.get("AB"))
             batting[key]["H"] += safe_int(row.get("H"))
@@ -79,7 +69,6 @@ def group_stats(gamelog_df):
             batting[key]["GIDP"] += safe_int(row.get("GIDP"))
             batting[key]["SB"] += safe_int(row.get("SB"))
             batting[key]["CS"] += safe_int(row.get("CS"))
-            batting[key]["G"] += 1  # count appearances
 
     result = []
     for (pid, team), stats in batting.items():
@@ -96,16 +85,36 @@ def group_stats(gamelog_df):
         slg = round(tb / ab, 3) if ab else 0
         ops = round(obp + slg, 3)
 
-        stats["AVG"] = avg
-        stats["OBP"] = obp
-        stats["SLG"] = slg
-        stats["OPS"] = ops
-        stats["TB"] = tb
-        stats["PA"] = pa
-        stats["Player ID"] = pid
-        stats["team"] = team
+        entry = {
+            "Player": stats["Player"],
+            "Team": team,
+            "G": len(games_played[(pid, team)]),
+            "PA": pa,
+            "AB": ab,
+            "R": stats.get("R", 0),
+            "H": h,
+            "2B": stats.get("2B", 0),
+            "3B": stats.get("3B", 0),
+            "HR": stats.get("HR", 0),
+            "RBI": stats.get("RBI", 0),
+            "SB": stats.get("SB", 0),
+            "CS": stats.get("CS", 0),
+            "BB": bb,
+            "SO": stats.get("SO", 0),
+            "AVG": avg,
+            "OBP": obp,
+            "SLG": slg,
+            "OPS": ops,
+            "TB": tb,
+            "GIDP": stats.get("GIDP", 0),
+            "HBP": hbp,
+            "SH": stats.get("SH", 0),
+            "SF": sf,
+            "IBB": stats.get("IBB", 0),
+            "Player ID": pid
+        }
 
-        result.append(stats)
+        result.append(entry)
 
     return result
 
