@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import os
@@ -118,6 +117,8 @@ def group_stats(gamelog_df):
 
     return result
 
+# Future: Implement pitching group_stats() here with full stat and order logic
+
 if __name__ == "__main__":
     input_file = "data/1999 Replay.xlsx"
     output_dir = "data/stats"
@@ -127,3 +128,100 @@ if __name__ == "__main__":
     batting_stats = group_stats(gamelog_df)
 
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
+
+    # Placeholder for pitching.json generation
+    pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
+    save_json(pitching_stats, os.path.join(output_dir, 'pitching.json'))
+    # save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
+
+
+
+def group_pitching_stats(gamelog_df, schedule_df):
+    pitching = defaultdict(lambda: defaultdict(float))
+    games = defaultdict(set)
+
+    for _, row in gamelog_df.iterrows():
+        pid = row.get("Player ID")
+        if pd.isna(pid) or pid == "":
+            continue
+
+        team = row["Team"]
+        player = row["Player Name"]
+        game_id = row["Game#"]
+        key = (pid, team)
+
+        ip = safe_float(row.get("IP", 0))
+        pitching[key]["Player"] = player
+        pitching[key]["IP"] += ip
+        pitching[key]["W"] += safe_int(row.get("W"))
+        pitching[key]["L"] += safe_int(row.get("L"))
+        pitching[key]["SV"] += safe_int(row.get("SV"))
+        pitching[key]["GS"] += safe_int(row.get("GS"))
+        pitching[key]["CG"] += safe_int(row.get("CG"))
+        pitching[key]["SHO"] += safe_int(row.get("SHO"))
+        pitching[key]["H"] += safe_int(row.get("H allowed"))
+        pitching[key]["R"] += safe_int(row.get("R against"))
+        pitching[key]["ER"] += safe_int(row.get("ER"))
+        pitching[key]["HR"] += safe_int(row.get("HR allowed"))
+        pitching[key]["BB"] += safe_int(row.get("BB against"))
+        pitching[key]["IBB"] += safe_int(row.get("IBB against"))
+        pitching[key]["SO"] += safe_int(row.get("SO against"))
+        pitching[key]["HBP"] += safe_int(row.get("HBP against"))
+        pitching[key]["BK"] += safe_int(row.get("BK"))
+        pitching[key]["WP"] += safe_int(row.get("WP"))
+        games[key].add(game_id)
+
+    result = []
+    for (pid, team), stats in pitching.items():
+        ip = stats.get("IP", 0)
+        er = stats.get("ER", 0)
+        h = stats.get("H", 0)
+        hr = stats.get("HR", 0)
+        bb = stats.get("BB", 0)
+        so = stats.get("SO", 0)
+
+        era = round((er * 9 / ip), 2) if ip else 0.00
+        h9 = round(h * 9 / ip, 1) if ip else 0.0
+        hr9 = round(hr * 9 / ip, 1) if ip else 0.0
+        bb9 = round(bb * 9 / ip, 1) if ip else 0.0
+        so9 = round(so * 9 / ip, 1) if ip else 0.0
+        so_bb = round(so / bb, 1) if bb else 0.0
+
+        w = stats.get("W", 0)
+        l = stats.get("L", 0)
+        wl_pct = round(w / (w + l), 3) if (w + l) else 0.000
+
+        entry = {
+            "Player": stats["Player"],
+            "team": team,
+            "W": w,
+            "L": l,
+            "W-L%": wl_pct,
+            "ERA": era,
+            "G": len(games[(pid, team)]),
+            "GS": stats.get("GS", 0),
+            "CG": stats.get("CG", 0),
+            "SHO": stats.get("SHO", 0),
+            "SV": stats.get("SV", 0),
+            "IP": round(ip, 2),
+            "H": h,
+            "R": stats.get("R", 0),
+            "ER": er,
+            "HR": hr,
+            "BB": bb,
+            "IBB": stats.get("IBB", 0),
+            "SO": so,
+            "HBP": stats.get("HBP", 0),
+            "BK": stats.get("BK", 0),
+            "WP": stats.get("WP", 0),
+            "H9": h9,
+            "HR9": hr9,
+            "BB9": bb9,
+            "SO9": so9,
+            "SO/BB": so_bb,
+            "Player ID": pid
+        }
+
+        result.append(entry)
+
+    return result
