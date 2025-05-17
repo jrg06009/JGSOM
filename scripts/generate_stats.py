@@ -66,7 +66,7 @@ def group_stats(gamelog_df):
             batting[key]["HBP"] += safe_int(row.get("HBP"))
             batting[key]["SH"] += safe_int(row.get("SH"))
             batting[key]["SF"] += safe_int(row.get("SF"))
-            batting[key]["GIDP"] += safe_int(row.get("GIDP"))
+            batting[key]["GDP"] += safe_int(row.get("GDP"))
             batting[key]["SB"] += safe_int(row.get("SB"))
             batting[key]["CS"] += safe_int(row.get("CS"))
 
@@ -87,7 +87,7 @@ def group_stats(gamelog_df):
 
         entry = {
             "Player": stats["Player"],
-            "Team": team,
+            "team": team,
             "G": len(games_played[(pid, team)]),
             "PA": pa,
             "AB": ab,
@@ -106,7 +106,7 @@ def group_stats(gamelog_df):
             "SLG": slg,
             "OPS": ops,
             "TB": tb,
-            "GIDP": stats.get("GIDP", 0),
+            "GDP": stats.get("GDP", 0),
             "HBP": hbp,
             "SH": stats.get("SH", 0),
             "SF": sf,
