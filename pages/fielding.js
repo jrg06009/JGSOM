@@ -24,7 +24,7 @@ export default function FieldingPage({ data, teamToLeague, teamGames }) {
 
   const filteredData = data.filter(player => {
     const g = parseInt(player.G || 0, 10)
-    const team = player.team
+    const team = player.team?.toUpperCase()
     const teamGameTotal = teamGames[team] || 0
     const qualified = !showQualified || (teamGameTotal > 0 && g >= 0.67 * teamGameTotal)
 
