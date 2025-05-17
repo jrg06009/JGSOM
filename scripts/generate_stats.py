@@ -203,7 +203,7 @@ def group_pitching_stats(gamelog_df, schedule_df):
             "team": team,
             "W": w,
             "L": l,
-            "W-L%": "1.000" if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0")
+            "W-L%": "1.000" if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0"),
             "ERA": era,
             "G": len(games[(pid, team)]),
             "GS": stats.get("GS", 0),
