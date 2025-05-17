@@ -25,6 +25,16 @@ def clean_for_json(obj):
         return [clean_for_json(v) for v in obj]
     return obj
 
+def format_ip_for_display(ip):
+    ip = round(ip, 2)
+    whole = int(ip)
+    remainder = round((ip - whole) * 100)
+    if remainder == 33:
+        return f"{whole}.1"
+    elif remainder == 67:
+        return f"{whole}.2"
+    return str(ip)
+
 def save_json(data, path):
     with open(path, "w") as f:
         json.dump(clean_for_json(data), f, indent=2)
@@ -118,6 +128,17 @@ def group_stats(gamelog_df):
     return result
 
 def group_pitching_stats(gamelog_df, schedule_df):
+    # Compute CG and SHO using position = 1
+    cg_sho_counts = defaultdict(lambda: {"CG": 0, "SHO": 0})
+    for (game, team), group in gamelog_df[gamelog_df["Player ID"].notna()].groupby(["Game#", "Team"]):
+        team_pitchers = group[group["POS"] == 1]
+        if len(team_pitchers) == 1:
+            row = team_pitchers.iloc[0]
+            pid = row["Player ID"]
+            cg_sho_counts[pid]["CG"] += 1
+            if row.get("R against", 1) == 0:
+                cg_sho_counts[pid]["SHO"] += 1
+                
     pitching = defaultdict(lambda: defaultdict(float))
     games = defaultdict(set)
 
@@ -177,14 +198,14 @@ def group_pitching_stats(gamelog_df, schedule_df):
             "team": team,
             "W": w,
             "L": l,
-            "W-L%": wl_pct,
+            "W-L%": wl_pct if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0")
             "ERA": era,
             "G": len(games[(pid, team)]),
             "GS": stats.get("GS", 0),
-            "CG": stats.get("CG", 0),
-            "SHO": stats.get("SHO", 0),
+            "CG": cg_sho_counts[pid]["CG"],
+            "SHO": cg_sho_counts[pid]["SHO"],
             "SV": stats.get("SV", 0),
-            "IP": round(ip, 2),
+            "IP": format_ip_for_display(ip),
             "H": h,
             "R": stats.get("R", 0),
             "ER": er,
