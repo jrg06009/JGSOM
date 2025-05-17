@@ -87,7 +87,7 @@ def group_stats(gamelog_df):
 
         entry = {
             "Player": stats["Player"],
-            "Team": team,
+            "team": team,
             "G": len(games_played[(pid, team)]),
             "PA": pa,
             "AB": ab,
