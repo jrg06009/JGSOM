@@ -2,13 +2,16 @@ import { useState } from 'react'
 import fs from 'fs'
 import path from 'path'
 import { getTeamToLeagueMap, getTeamGamesPlayedMap } from '../lib/teamUtils'
+import { getTeamGamesPlayedFromSchedule } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'stats', 'fielding.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   const teamToLeague = getTeamToLeagueMap()
-  const teamGames = getTeamGamesPlayedFromSchedule()
+  const schedulePath = path.join(process.cwd(), 'data', 'schedule.json')
+  const schedule = JSON.parse(fs.readFileSync(schedulePath, 'utf8'))
+  const teamGames = getTeamGamesPlayedFromSchedule(schedule)
 
   return { props: { data, teamToLeague, teamGames } }
 }
