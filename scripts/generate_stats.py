@@ -187,7 +187,7 @@ def group_pitching_stats(gamelog_df, schedule_df):
         bb = stats.get("BB", 0)
         so = stats.get("SO", 0)
 
-        era = round((er * 9 / ip), 2) if ip else 0.00
+        era = "---" if ip == 0 else round((er * 9 / ip), 2)
         h9 = round(h * 9 / ip, 1) if ip else 0.0
         hr9 = round(hr * 9 / ip, 1) if ip else 0.0
         bb9 = round(bb * 9 / ip, 1) if ip else 0.0
@@ -196,7 +196,7 @@ def group_pitching_stats(gamelog_df, schedule_df):
 
         w = stats.get("W", 0)
         l = stats.get("L", 0)
-        wl_pct = round(w / (w + l), 3) if (w + l) else .000
+        wl_pct = round(w / (w + l), 3) if (w + l) else 0.000
 
         entry = {
             "Player": stats["Player"],
