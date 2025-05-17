@@ -6,9 +6,10 @@ import SortableTable from '../components/SortableTable'
 export async function getStaticProps() {
   const fs = await import('fs')
   const path = await import('path')
-  const filePath = path.join(process.cwd(), 'data', 'stats', 'pitching.json')
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+
+  const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'pitching.json'), 'utf8'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
+
   const teamToLeague = getTeamToLeagueMap(teams)
 
   return { props: { data, teamToLeague } }
@@ -30,22 +31,7 @@ export default function PitchingPage({ data, teamToLeague }) {
       league === 'All' ||
       (player.team in teamToLeague && teamToLeague[player.team] === league)
     return isQualified && isSplitOK && isLeagueMatch
-  }).map(row => ({
-    ...row,
-    ERA: parseFloat(row.ERA).toFixed(2),
-    "W-L%": parseFloat(row["W-L%"]).toFixed(3),
-    H9: parseFloat(row.H9).toFixed(1),
-    HR9: parseFloat(row.HR9).toFixed(1),
-    BB9: parseFloat(row.BB9).toFixed(1),
-    SO9: parseFloat(row.SO9).toFixed(1),
-    "SO/BB": parseFloat(row["SO/BB"]).toFixed(1)
-  }))
-
-  const displayedColumns = [
-    "Player", "team", "W", "L", "W-L%", "ERA", "G", "GS", "CG", "SHO", "SV",
-    "IP", "H", "R", "ER", "HR", "BB", "IBB", "SO", "HBP", "BK", "WP",
-    "H9", "HR9", "BB9", "SO9", "SO/BB"
-  ]
+  })
 
   return (
     <div className="p-4">
@@ -77,7 +63,6 @@ export default function PitchingPage({ data, teamToLeague }) {
         nameLinkField="Player"
         idField="Player ID"
         linkBase="/players"
-        includeColumns={displayedColumns}
       />
     </div>
   )
