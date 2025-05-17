@@ -46,7 +46,7 @@ export default function BattingPage({ data, teamToLeague }) {
   const displayedColumns = [
     "Player", "team", "G", "PA", "AB", "R", "H", "2B", "3B", "HR", "RBI",
     "SB", "CS", "BB", "SO", "AVG", "OBP", "SLG", "OPS", "TB",
-    "GIDP", "HBP", "SH", "SF", "IBB"
+    "GDP", "HBP", "SH", "SF", "IBB"
   ]
 
   return (
