@@ -154,6 +154,9 @@ def group_pitching_stats(gamelog_df, schedule_df):
         game_id = row["Game#"]
         key = (pid, team)
 
+        if row.get("POS") != 1:
+            continue  # Skip players who were not pitchers
+        
         ip = safe_float(row.get("IP", 0))
         pitching[key]["Player"] = player
         pitching[key]["IP"] += ip
@@ -193,14 +196,14 @@ def group_pitching_stats(gamelog_df, schedule_df):
 
         w = stats.get("W", 0)
         l = stats.get("L", 0)
-        wl_pct = round(w / (w + l), 3) if (w + l) else 0.000
+        wl_pct = round(w / (w + l), 3) if (w + l) else .000
 
         entry = {
             "Player": stats["Player"],
             "team": team,
             "W": w,
             "L": l,
-            "W-L%": wl_pct if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0"),
+            "W-L%": "1.000" if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0")
             "ERA": era,
             "G": len(games[(pid, team)]),
             "GS": stats.get("GS", 0),
