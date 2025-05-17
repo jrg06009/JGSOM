@@ -31,7 +31,16 @@ export default function PitchingPage({ data, teamToLeague }) {
       league === 'All' ||
       (player.team in teamToLeague && teamToLeague[player.team] === league)
     return isQualified && isSplitOK && isLeagueMatch
-  })
+  }).map(row => ({
+    ...row,
+    ERA: parseFloat(row.ERA).toFixed(2),
+    H9: parseFloat(row.H9).toFixed(1),
+    HR9: parseFloat(row.HR9).toFixed(1),
+    BB9: parseFloat(row.BB9).toFixed(1),
+    SO9: parseFloat(row.SO9).toFixed(1),
+    "SO/BB": parseFloat(row["SO/BB"]).toFixed(1)
+  }))
+
 
   return (
     <div className="p-4">
