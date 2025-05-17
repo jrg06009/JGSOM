@@ -117,25 +117,6 @@ def group_stats(gamelog_df):
 
     return result
 
-# Future: Implement pitching group_stats() here with full stat and order logic
-
-if __name__ == "__main__":
-    input_file = "data/1999 Replay.xlsx"
-    output_dir = "data/stats"
-    os.makedirs(output_dir, exist_ok=True)
-
-    gamelog_df, schedule_df = load_data(input_file)
-    batting_stats = group_stats(gamelog_df)
-
-    save_json(batting_stats, os.path.join(output_dir, "batting.json"))
-
-    # Placeholder for pitching.json generation
-    pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
-    save_json(pitching_stats, os.path.join(output_dir, 'pitching.json'))
-    # save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
-
-
-
 def group_pitching_stats(gamelog_df, schedule_df):
     pitching = defaultdict(lambda: defaultdict(float))
     games = defaultdict(set)
@@ -225,3 +206,15 @@ def group_pitching_stats(gamelog_df, schedule_df):
         result.append(entry)
 
     return result
+
+if __name__ == "__main__":
+    input_file = "data/1999 Replay.xlsx"
+    output_dir = "data/stats"
+    os.makedirs(output_dir, exist_ok=True)
+
+    gamelog_df, schedule_df = load_data(input_file)
+    batting_stats = group_stats(gamelog_df)
+    pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
+
+    save_json(batting_stats, os.path.join(output_dir, "batting.json"))
+    save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
