@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
-const { getTeamToLeagueMap } = await import('../lib/teamUtils.js')
-const teamToLeague = await getTeamToLeagueMap()
+import { getTeamToLeagueMap } from '../lib/teamUtils'
+const teamToLeague = await getTeamToLeagueMap(teams)
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
