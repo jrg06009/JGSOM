@@ -1,27 +1,20 @@
+
 import { useState } from 'react'
-import { getTeamToLeagueMap, getTeamGamesPlayedMap } from '../lib/teamUtils'
-import { getTeamGamesPlayedFromSchedule } from '../lib/teamUtils'
+import { getTeamToLeagueMap, getTeamGamesPlayedFromSchedule } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
   const fs = await import('fs')
   const path = await import('path')
-  const filePath = path.join(process.cwd(), 'data', 'stats', 'fielding.json')
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-  const schedulePath = path.join(process.cwd(), 'data', 'schedule.json')
-  const teams = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8')
-  )
-  const schedule = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'data', 'schedule.json'), 'utf8')
-  )
+
+  const fieldingData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'fielding.json'), 'utf8'))
+  const schedule = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'schedule.json'), 'utf8'))
+  const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
+
   const teamToLeague = getTeamToLeagueMap(teams)
   const teamGames = getTeamGamesPlayedFromSchedule(schedule)
-  const fieldingData = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'fielding.json'), 'utf8')
-  )
 
-  return { props: { data:fieldingData, teamToLeague, teamGames } }
+  return { props: { data: fieldingData, teamToLeague, teamGames } }
 }
 
 export default function FieldingPage({ data, teamToLeague, teamGames }) {
