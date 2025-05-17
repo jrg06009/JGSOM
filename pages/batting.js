@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { getTeamToLeagueMap } from '../lib/teamUtils'
+import { getTeamToLeagueMap } from '../lib/teamUtils''
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
@@ -9,8 +9,8 @@ export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'stats', 'batting.json')
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-  const { getTeamToLeagueMapFromTeams } = await import('../lib/teamUtils.js')
-  const teamToLeague = getTeamToLeagueMapFromTeams(teams)
+  const { getTeamToLeagueMap } = await import('../lib/teamUtils.js')
+  const teamToLeague = getTeamToLeagueMap(teams)
 
   return { props: { data, teamToLeague } }
 }
