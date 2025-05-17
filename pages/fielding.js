@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data', 'stats', 'fielding.json')
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
   const teamToLeague = getTeamToLeagueMap()
-  const teamGames = getTeamGamesPlayedMap()
+  const teamGames = getTeamGamesPlayedFromSchedule()
 
   return { props: { data, teamToLeague, teamGames } }
 }
