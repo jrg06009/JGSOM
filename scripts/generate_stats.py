@@ -26,6 +26,8 @@ def clean_for_json(obj):
     return obj
 
 def format_ip_for_display(ip):
+    if pd.isna(ip):
+        return "0.0"  # or return "" if you prefer blank
     ip = round(ip, 2)
     whole = int(ip)
     remainder = round((ip - whole) * 100)
