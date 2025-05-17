@@ -1,14 +1,17 @@
 
 import { useState } from 'react'
-import fs from 'fs'
-import path from 'path'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
 
 export async function getStaticProps() {
+  const fs = await import('fs')
+  const path = await import('path')
   const filePath = path.join(process.cwd(), 'data', 'stats', 'batting.json')
+  const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-  const teamToLeague = getTeamToLeagueMap()
+  const { getTeamToLeagueMapFromTeams } = await import('../lib/teamUtils.js')
+  const teamToLeague = getTeamToLeagueMapFromTeams(teams)
+
   return { props: { data, teamToLeague } }
 }
 
