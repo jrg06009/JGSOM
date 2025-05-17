@@ -37,6 +37,18 @@ def format_ip_for_display(ip):
         return f"{whole}.2"
     return str(ip)
 
+def compute_fielding_cg(gamelog_df):
+    cg_by_player = defaultdict(int)
+    filtered = gamelog_df[gamelog_df["POS"].notna() & gamelog_df["Player ID"].notna()]
+
+    for (game, team, pos), group in filtered.groupby(["Game#", "Team", "POS"]):
+        if len(group) == 1:
+            pid = group.iloc[0]["Player ID"]
+            cg_by_player[pid] += 1
+
+    return cg_by_player
+
+
 def save_json(data, path):
     with open(path, "w") as f:
         json.dump(clean_for_json(data), f, indent=2)
@@ -130,7 +142,6 @@ def group_stats(gamelog_df):
     return result
 
 def group_pitching_stats(gamelog_df, schedule_df):
-    # Compute CG and SHO using position = 1
     cg_sho_counts = defaultdict(lambda: {"CG": 0, "SHO": 0})
     for (game, team), group in gamelog_df[gamelog_df["Player ID"].notna()].groupby(["Game#", "Team"]):
         team_pitchers = group[group["POS"] == 1]
@@ -233,14 +244,103 @@ def group_pitching_stats(gamelog_df, schedule_df):
 
     return result
 
+def group_fielding_stats(gamelog_df):
+    cg_by_player = compute_fielding_cg(gamelog_df)
+    from collections import defaultdict
+
+    def format_ip_for_display(ip):
+        if pd.isna(ip):
+            return "0.0"
+        ip = round(ip, 2)
+        whole = int(ip)
+        remainder = round((ip - whole) * 100)
+        if remainder == 33:
+            return f"{whole}.1"
+        elif remainder == 67:
+            return f"{whole}.2"
+        return str(ip)
+
+    fielding = defaultdict(lambda: defaultdict(float))
+    games = defaultdict(set)
+
+    for _, row in gamelog_df.iterrows():
+        pid = row.get("Player ID")
+        if pd.isna(pid) or pid == "":
+            continue
+
+        pos = row.get("POS", "")
+        if pos not in range(1, 10):  # skip DH, PH, PR, etc.
+            continue
+
+        team = row["Team"]
+        player = row["Player Name"]
+        game_id = row["Game#"]
+        key = (pid, team)
+
+        games[key].add(game_id)
+        fielding[key]["Player"] = player
+        fielding[key]["GS"] += safe_int(row.get("GS"))
+        fielding[key]["CG"] += safe_int(row.get("CG"))
+        fielding[key]["INN"] += safe_float(row.get("INN"))
+        fielding[key]["PO"] += safe_int(row.get("PO"))
+        fielding[key]["A"] += safe_int(row.get("A"))
+        fielding[key]["E"] += safe_int(row.get("ERR"))
+        fielding[key]["DP"] += safe_int(row.get("DP"))
+        fielding[key]["PB"] += safe_int(row.get("PB"))
+        fielding[key]["WP"] += safe_int(row.get("WP"))
+        fielding[key]["SB"] += safe_int(row.get("SB"))
+        fielding[key]["CS"] += safe_int(row.get("CS"))
+        fielding[key]["PkO"] += safe_int(row.get("PkO"))
+
+    result = []
+    for (pid, team), stats in fielding.items():
+        po = stats["PO"]
+        a = stats["A"]
+        e = stats["E"]
+        ch = po + a + e
+        fld_pct = (po + a) / ch if ch else None
+        sb = stats["SB"]
+        cs = stats["CS"]
+        cs_pct = (cs / (sb + cs)) if (sb + cs) else None
+
+        entry = {
+            "Player": stats["Player"],
+            "team": team,
+            "G": len(games[(pid, team)]),
+            "GS": int(stats["GS"]),
+            "CG": cg_by_player.get(pid, 0),
+            "Inn": format_ip_for_display(stats["INN"]),
+            "Ch": int(ch),
+            "PO": int(po),
+            "A": int(a),
+            "E": int(e),
+            "DP": int(stats["DP"]),
+            "Fld%": "1.000" if fld_pct == 1 else f"{fld_pct:.3f}".lstrip("0") if fld_pct is not None else "",
+            "PB": int(stats["PB"]) if stats["PB"] else "",
+            "WP": int(stats["WP"]) if stats["WP"] else "",
+            "SB": int(sb) if sb else "",
+            "CS": int(cs) if cs else "",
+            "CS%": f"{round(cs_pct * 100)}%" if cs_pct is not None else "",
+            "PkO": int(stats["PkO"]) if stats["PkO"] else "",
+            "Player ID": pid
+        }
+
+        result.append(entry)
+
+    return result
+
 if __name__ == "__main__":
     input_file = "data/1999 Replay.xlsx"
     output_dir = "data/stats"
     os.makedirs(output_dir, exist_ok=True)
 
     gamelog_df, schedule_df = load_data(input_file)
+    
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
+    fielding_stats = group_fielding_stats(gamelog_df)
 
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
     save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
+    save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
+
