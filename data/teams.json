@@ -100,7 +100,7 @@
     "logo": "/logos/HOU.png"
   },
   {
-    "id": "KC",
+    "id": "KCR",
     "name": "Kansas City Royals",
     "cityname": "Kansas City",
     "nickname": "Royals",
@@ -120,7 +120,7 @@
     "logo": "/logos/ANA.png"
   },
   {
-    "id": "LA",
+    "id": "LAD",
     "name": "Los Angeles Dodgers",
     "cityname": "Los Angeles",
     "nickname": "Dodgers",
@@ -210,7 +210,7 @@
     "logo": "/logos/PIT.png"
   },
   {
-    "id": "SD",
+    "id": "SDP",
     "name": "San Diego Padres",
     "cityname": "San Diego",
     "nickname": "Padres",
@@ -230,7 +230,7 @@
     "logo": "/logos/SEA.png"
   },
   {
-    "id": "SF",
+    "id": "SFG",
     "name": "San Francisco Giants",
     "cityname": "San Francisco",
     "nickname": "Giants",
@@ -250,7 +250,7 @@
     "logo": "/logos/STL.png"
   },
   {
-    "id": "TB",
+    "id": "TBD",
     "name": "Tampa Bay Devil Rays",
     "cityname": "Tampa Bay",
     "nickname": "Devil Rays",
