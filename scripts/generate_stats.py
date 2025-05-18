@@ -340,6 +340,88 @@ if __name__ == "__main__":
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
     fielding_stats = group_fielding_stats(gamelog_df)
 
+    # Generate schedule.json
+    schedule_data = []
+    for _, row in schedule_df.iterrows():
+        game = {
+            "id": str(row.get("Game ID")),
+            "date": row["Date"].date().isoformat() if not pd.isna(row["Date"]) else "",
+            "home_team": row.get("Home"),
+            "away_team": row.get("Away"),
+            "home_score": safe_int(row.get("Home Score")),
+            "away_score": safe_int(row.get("Away Score")),
+            "simDate": "" if pd.isna(row.get("Played On")) else str(row.get("Played On")).strip(),
+            "completed": str(row.get("Played", "")).strip().lower() == "yes"
+        }
+        schedule_data.append(game)
+
+    save_json(schedule_data, os.path.join(output_dir, "schedule.json"))
+
+    # Generate standings.json
+    standings = {}
+    for game in schedule_data:
+        if not game["completed"]:
+            continue
+
+        home = game["home_team"]
+        away = game["away_team"]
+        home_score = game["home_score"]
+        away_score = game["away_score"]
+
+        if home_score is None or away_score is None:
+            continue
+
+        for team in [home, away]:
+            if team not in standings:
+                standings[team] = {"W": 0, "L": 0}
+
+        if home_score > away_score:
+            standings[home]["W"] += 1
+            standings[away]["L"] += 1
+        else:
+            standings[away]["W"] += 1
+            standings[home]["L"] += 1
+
+    with open("data/teams.json", "r") as tf:
+        teams = json.load(tf)
+
+    team_meta = {t["id"]: {"league": t["league"], "division": t["division"]} for t in teams}
+    all_team_ids = [t["id"] for t in teams]
+
+    complete = {}
+    for tid in all_team_ids:
+        record = standings.get(tid, {"W": 0, "L": 0})
+        wins = record["W"]
+        losses = record["L"]
+        total = wins + losses
+        pct = wins / total if total > 0 else 0
+        record["W-L%"] = f".{int(round(pct * 1000)):03d}"
+        complete[tid] = record
+
+    from collections import defaultdict
+    grouped = defaultdict(lambda: defaultdict(list))
+    for team_id, record in complete.items():
+        meta = team_meta.get(team_id)
+        if meta:
+            league = meta["league"]
+            division = meta["division"]
+            grouped[league][division].append({"team": team_id, **record})
+
+    league_order = ["AL", "NL"]
+    division_order = ["East", "Central", "West"]
+    ordered = {}
+
+    for league in league_order:
+        if league in grouped:
+            ordered[league] = {}
+            for division in division_order:
+                if division in grouped[league]:
+                    ordered[league][division] = sorted(
+                        grouped[league][division],
+                        key=lambda x: (-x["W"], x["L"])
+                    )
+
+    save_json(ordered, os.path.join(output_dir, "standings.json"))
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
     save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
     save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
