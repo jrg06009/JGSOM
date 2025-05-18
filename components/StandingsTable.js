@@ -8,7 +8,7 @@ export default function StandingsTable({ games, teams }) {
 
   const renderLeague = league => (
     <div key={league} className="w-full md:w-1/2 md:px-4">
-      <h2 className="text-2xl font-bold mb-4 text-center">{league} League</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">{league}</h2>
       {orderedDivisions.map(division => {
         const key = `${league} - ${division}`
         const divisionTeams = standings[key]
