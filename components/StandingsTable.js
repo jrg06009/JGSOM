@@ -71,14 +71,15 @@ function calculateStandingsByDivision(games, teams) {
     const awayScore = parseInt(awayScoreStr)
     const homeScore = parseInt(homeScoreStr)
 
-    if (homeScore > awayScore) {
-      standings[home].W++
-      standings[away].L++
-    } else {
-      standings[away].W++
-      standings[home].L++
-    }
-  })
+if (standings[home] && standings[away]) {
+  if (homeScore > awayScore) {
+    standings[home].W++
+    standings[away].L++
+  } else {
+    standings[away].W++
+    standings[home].L++
+  }
+}
 
   const grouped = {}
   teams.forEach(team => {
