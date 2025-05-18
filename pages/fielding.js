@@ -26,6 +26,10 @@ export default function FieldingPage({ data, teamToLeague, teamGames }) {
     const g = parseInt(player.G || 0, 10)
     const team = player.team?.toUpperCase()
     const teamGameTotal = teamGames[team] || 0
+
+    if (!(team in teamToLeague)) {
+      console.log("Missing league info for team:", team)
+    }  
     const qualified = !showQualified || (teamGameTotal > 0 && g >= 0.67 * teamGameTotal)
 
     const isSplitOK =
