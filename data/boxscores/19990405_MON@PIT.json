@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "MON": {
+      "Wilton Guerrero": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 2,
+        "PO": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "Orlando Cabrera": {
+        "AB": 6,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Rondell White": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1,
+        "GDP": 1,
+        "PO": 2
+      },
+      "Vladimir Guerrero": {
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 2
+      },
+      "Brad Fullmer": {
+        "AB": 3,
+        "H": 1,
+        "RBI": 2,
+        "HBP": 2,
+        "PO": 5,
+        "A": 3
+      },
+      "Michael Barrett": {
+        "AB": 4,
+        "H": 1,
+        "GDP": 1,
+        "A": 1
+      },
+      "Steve Kline": {
+        "IP": "1.1",
+        "SO against": 1
+      },
+      "Jose Vidro": {
+        "AB": 1
+      },
+      "Anthony Telford": {
+        "L": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 1,
+        "HBP against": 1,
+        "PO": 1,
+        "SB against": 1
+      },
+      "Chris Widger": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SO": 2,
+        "PO": 8,
+        "PB": 1,
+        "SB against": 1
+      },
+      "Manny Martinez": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Orlando Merced": {
+        "AB": 1
+      },
+      "Dustin Hermanson": {
+        "AB": 1,
+        "RBI": 1,
+        "SO": 1,
+        "SH": 2,
+        "IP": "4.0",
+        "H allowed": 9,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 5,
+        "PO": 1
+      },
+      "Bobby Ayala": {
+        "IP": "1.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Shane Andrews": {
+        "AB": 2,
+        "H": 2,
+        "PO": 1
+      }
+    },
+    "PIT": {
+      "Jason Kendall": {
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "2B": 2,
+        "RBI": 1,
+        "SB": 1,
+        "HBP": 1,
+        "PO": 7,
+        "SB against": 1
+      },
+      "Warren Morris": {
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "RBI": 2,
+        "BB": 2,
+        "SO": 1,
+        "PO": 5,
+        "A": 3,
+        "DP": 2
+      },
+      "Brian Giles": {
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Kevin Young": {
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 1,
+        "PO": 8,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Brant Brown": {
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 3,
+        "PO": 2
+      },
+      "Mike Williams": {
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 2,
+        "BB against": 1
+      },
+      "Ed Sprague": {
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Jose Guillen": {
+        "AB": 4,
+        "PO": 1
+      },
+      "Mike Benjamin": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "A": 5,
+        "DP": 2
+      },
+      "Francisco Cordova": {
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 8,
+        "ER": 8,
+        "HR allowed": 4,
+        "BB against": 1,
+        "SO against": 5,
+        "HBP against": 1,
+        "A": 2
+      },
+      "Al Martin": {
+        "AB": 1,
+        "SO": 1
+      },
+      "Scott Sauerbeck": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 2,
+        "SO against": 1,
+        "A": 1
+      },
+      "Turner Ward": {
+        "AB": 1
+      },
+      "Rich Loiselle": {
+        "IP": "2.0",
+        "H allowed": 3
+      },
+      "Jason Phillips": {
+        "W": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1,
+        "HBP against": 1,
+        "SB against": 1
+      },
+      "Adrian Brown": {
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "MON": [
+      [
+        1,
+        "Wilton Guerrero"
+      ],
+      [
+        2,
+        "Orlando Cabrera"
+      ],
+      [
+        3,
+        "Rondell White"
+      ],
+      [
+        4,
+        "Vladimir Guerrero"
+      ],
+      [
+        5,
+        "Brad Fullmer"
+      ],
+      [
+        6,
+        "Michael Barrett"
+      ],
+      [
+        6,
+        "Steve Kline"
+      ],
+      [
+        6,
+        "Jose Vidro"
+      ],
+      [
+        6,
+        "Anthony Telford"
+      ],
+      [
+        7,
+        "Chris Widger"
+      ],
+      [
+        8,
+        "Manny Martinez"
+      ],
+      [
+        8,
+        "Orlando Merced"
+      ],
+      [
+        9,
+        "Dustin Hermanson"
+      ],
+      [
+        9,
+        "Bobby Ayala"
+      ],
+      [
+        9,
+        "Shane Andrews"
+      ],
+      [
+        9,
+        "James Mouton"
+      ]
+    ],
+    "PIT": [
+      [
+        1,
+        "Jason Kendall"
+      ],
+      [
+        2,
+        "Warren Morris"
+      ],
+      [
+        3,
+        "Brian Giles"
+      ],
+      [
+        4,
+        "Kevin Young"
+      ],
+      [
+        5,
+        "Brant Brown"
+      ],
+      [
+        5,
+        "Mike Williams"
+      ],
+      [
+        6,
+        "Ed Sprague"
+      ],
+      [
+        7,
+        "Jose Guillen"
+      ],
+      [
+        8,
+        "Mike Benjamin"
+      ],
+      [
+        9,
+        "Francisco Cordova"
+      ],
+      [
+        9,
+        "Al Martin"
+      ],
+      [
+        9,
+        "Scott Sauerbeck"
+      ],
+      [
+        9,
+        "Turner Ward"
+      ],
+      [
+        9,
+        "Rich Loiselle"
+      ],
+      [
+        9,
+        "Jason Phillips"
+      ],
+      [
+        9,
+        "Adrian Brown"
+      ],
+      [
+        9,
+        "Adrian Brown"
+      ]
+    ]
+  },
+  "positions": {
+    "MON": {
+      "Wilton Guerrero": [
+        "4"
+      ],
+      "Orlando Cabrera": [
+        "6"
+      ],
+      "Rondell White": [
+        "7"
+      ],
+      "Vladimir Guerrero": [
+        "9"
+      ],
+      "Brad Fullmer": [
+        "3"
+      ],
+      "Michael Barrett": [
+        "5"
+      ],
+      "Steve Kline": [
+        "1"
+      ],
+      "Jose Vidro": [
+        "PH"
+      ],
+      "Anthony Telford": [
+        "1"
+      ],
+      "Chris Widger": [
+        "2"
+      ],
+      "Manny Martinez": [
+        "8"
+      ],
+      "Orlando Merced": [
+        "PH"
+      ],
+      "Dustin Hermanson": [
+        "1"
+      ],
+      "Bobby Ayala": [
+        "1"
+      ],
+      "Shane Andrews": [
+        "5"
+      ],
+      "James Mouton": [
+        "PR"
+      ]
+    },
+    "PIT": {
+      "Jason Kendall": [
+        "2"
+      ],
+      "Warren Morris": [
+        "4"
+      ],
+      "Brian Giles": [
+        "7"
+      ],
+      "Kevin Young": [
+        "3"
+      ],
+      "Brant Brown": [
+        "8"
+      ],
+      "Mike Williams": [
+        "1"
+      ],
+      "Ed Sprague": [
+        "5"
+      ],
+      "Jose Guillen": [
+        "9"
+      ],
+      "Mike Benjamin": [
+        "6"
+      ],
+      "Francisco Cordova": [
+        "1"
+      ],
+      "Al Martin": [
+        "PH"
+      ],
+      "Scott Sauerbeck": [
+        "1"
+      ],
+      "Turner Ward": [
+        "PH"
+      ],
+      "Rich Loiselle": [
+        "1"
+      ],
+      "Jason Phillips": [
+        "1"
+      ],
+      "Adrian Brown": [
+        "PH",
+        "8"
+      ]
+    }
+  },
+  "games_started": {
+    "MON": {
+      "Wilton Guerrero": 1,
+      "Orlando Cabrera": 1,
+      "Rondell White": 1,
+      "Vladimir Guerrero": 1,
+      "Brad Fullmer": 1,
+      "Michael Barrett": 1,
+      "Chris Widger": 1,
+      "Manny Martinez": 1,
+      "Dustin Hermanson": 1
+    },
+    "PIT": {
+      "Jason Kendall": 1,
+      "Warren Morris": 1,
+      "Brian Giles": 1,
+      "Kevin Young": 1,
+      "Brant Brown": 1,
+      "Ed Sprague": 1,
+      "Jose Guillen": 1,
+      "Mike Benjamin": 1,
+      "Francisco Cordova": 1
+    }
+  }
+}

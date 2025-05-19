@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "DET": {
+      "Juan Encarnacion": {
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 2
+      },
+      "Gregg Jefferies": {
+        "AB": 4,
+        "H": 1,
+        "RBI": 1
+      },
+      "Damion Easley": {
+        "AB": 4,
+        "H": 1,
+        "3B": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Tony Clark": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Dean Palmer": {
+        "AB": 4,
+        "SO": 2,
+        "A": 2,
+        "ERR": 2
+      },
+      "Bobby Higginson": {
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "PO": 2
+      },
+      "Deivi Cruz": {
+        "AB": 3,
+        "SO": 2,
+        "PO": 1,
+        "A": 2
+      },
+      "Brad Ausmus": {
+        "AB": 3,
+        "SO": 2,
+        "PO": 9,
+        "A": 1,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "Brian Hunter": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "PO": 3
+      }
+    },
+    "TEX": {
+      "Tom Goodwin": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "SB": 1,
+        "CS": 1,
+        "PO": 3
+      },
+      "Luis Alicea": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Rusty Greer": {
+        "AB": 4,
+        "R": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Juan Gonzalez": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1
+      },
+      "Rafael Palmeiro": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 2
+      },
+      "Ivan Rodriguez": {
+        "AB": 4,
+        "H": 2,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 11
+      },
+      "Lee Stevens": {
+        "AB": 4,
+        "SO": 3,
+        "PO": 6,
+        "A": 1
+      },
+      "Todd Zeile": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "HBP": 1,
+        "PO": 2
+      },
+      "Royce Clayton": {
+        "AB": 4,
+        "H": 2,
+        "SO": 1,
+        "PO": 1,
+        "A": 2
+      }
+    }
+  },
+  "pitching": {
+    "DET": {
+      "Brian Moehler": {
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 5,
+        "ER": 4,
+        "HR allowed": 1,
+        "SO against": 7,
+        "HBP against": 1,
+        "WP": 1,
+        "SB against": 1
+      },
+      "C.J. Nitkowski": {
+        "IP": "1.0"
+      },
+      "Masao Kida": {
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1,
+        "CS against": 1
+      }
+    },
+    "TEX": {
+      "Rick Helling": {
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 5,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 10,
+        "PO": 1,
+        "A": 2
+      }
+    }
+  },
+  "batting_order": {
+    "DET": [
+      [
+        1,
+        "Juan Encarnacion"
+      ],
+      [
+        2,
+        "Gregg Jefferies"
+      ],
+      [
+        3,
+        "Damion Easley"
+      ],
+      [
+        4,
+        "Tony Clark"
+      ],
+      [
+        5,
+        "Dean Palmer"
+      ],
+      [
+        6,
+        "Bobby Higginson"
+      ],
+      [
+        7,
+        "Deivi Cruz"
+      ],
+      [
+        8,
+        "Brad Ausmus"
+      ],
+      [
+        9,
+        "Brian Hunter"
+      ]
+    ],
+    "TEX": [
+      [
+        1,
+        "Tom Goodwin"
+      ],
+      [
+        2,
+        "Luis Alicea"
+      ],
+      [
+        3,
+        "Rusty Greer"
+      ],
+      [
+        4,
+        "Juan Gonzalez"
+      ],
+      [
+        5,
+        "Rafael Palmeiro"
+      ],
+      [
+        6,
+        "Ivan Rodriguez"
+      ],
+      [
+        7,
+        "Lee Stevens"
+      ],
+      [
+        8,
+        "Todd Zeile"
+      ],
+      [
+        9,
+        "Royce Clayton"
+      ]
+    ]
+  },
+  "positions": {
+    "DET": {
+      "Juan Encarnacion": [
+        "7"
+      ],
+      "Damion Easley": [
+        "4"
+      ],
+      "Tony Clark": [
+        "3"
+      ],
+      "Dean Palmer": [
+        "5"
+      ],
+      "Bobby Higginson": [
+        "9"
+      ],
+      "Deivi Cruz": [
+        "6"
+      ],
+      "Brad Ausmus": [
+        "2"
+      ],
+      "Brian Hunter": [
+        "8"
+      ],
+      "Brian Moehler": [
+        "1"
+      ],
+      "C.J. Nitkowski": [
+        "1"
+      ],
+      "Masao Kida": [
+        "1"
+      ]
+    },
+    "TEX": {
+      "Tom Goodwin": [
+        "8"
+      ],
+      "Luis Alicea": [
+        "4"
+      ],
+      "Rusty Greer": [
+        "7"
+      ],
+      "Juan Gonzalez": [
+        "9"
+      ],
+      "Ivan Rodriguez": [
+        "2"
+      ],
+      "Lee Stevens": [
+        "3"
+      ],
+      "Todd Zeile": [
+        "5"
+      ],
+      "Royce Clayton": [
+        "6"
+      ],
+      "Rick Helling": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "DET": {
+      "Juan Encarnacion": 1,
+      "Gregg Jefferies": 1,
+      "Damion Easley": 1,
+      "Tony Clark": 1,
+      "Dean Palmer": 1,
+      "Bobby Higginson": 1,
+      "Deivi Cruz": 1,
+      "Brad Ausmus": 1,
+      "Brian Hunter": 1,
+      "Brian Moehler": 1
+    },
+    "TEX": {
+      "Tom Goodwin": 1,
+      "Luis Alicea": 1,
+      "Rusty Greer": 1,
+      "Juan Gonzalez": 1,
+      "Rafael Palmeiro": 1,
+      "Ivan Rodriguez": 1,
+      "Lee Stevens": 1,
+      "Todd Zeile": 1,
+      "Royce Clayton": 1,
+      "Rick Helling": 1
+    }
+  }
+}

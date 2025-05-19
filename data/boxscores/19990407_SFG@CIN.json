@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "SFG": {
+      "Stan Javier": {
+        "AB": 4,
+        "BB": 1,
+        "CS": 1,
+        "PO": 1
+      },
+      "F.P. Santangelo": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Barry Bonds": {
+        "AB": 2,
+        "R": 2,
+        "H": 1,
+        "BB": 2,
+        "HBP": 1
+      },
+      "Jeff Kent": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3,
+        "BB": 1,
+        "PO": 3,
+        "A": 3,
+        "DP": 2
+      },
+      "Charlie Hayes": {
+        "AB": 4,
+        "BB": 1,
+        "A": 2
+      },
+      "J.T. Snow": {
+        "AB": 5,
+        "H": 2,
+        "RBI": 2,
+        "SO": 2,
+        "PO": 10,
+        "A": 1,
+        "DP": 2
+      },
+      "Rich Aurilia": {
+        "AB": 5,
+        "H": 2,
+        "SO": 1,
+        "PO": 2,
+        "A": 7,
+        "DP": 2
+      },
+      "Scott Servais": {
+        "AB": 3,
+        "H": 1,
+        "SO": 2,
+        "HBP": 1,
+        "PO": 9,
+        "SB against": 1
+      },
+      "Russ Ortiz": {
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "W": 1,
+        "IP": "5.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 4,
+        "SO against": 5,
+        "PO": 1
+      },
+      "Marvin Benard": {
+        "AB": 1
+      },
+      "Alan Embree": {
+        "IP": "0.1",
+        "BB against": 2,
+        "SB against": 1
+      },
+      "John Johnstone": {
+        "IP": "1.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Ellis Burks": {
+        "AB": 1
+      },
+      "Julian Tavarez": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Robb Nen": {
+        "IP": "1.0",
+        "SO against": 1
+      }
+    },
+    "CIN": {
+      "Mike Cameron": {
+        "AB": 4,
+        "BB": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Barry Larkin": {
+        "AB": 4,
+        "H": 2,
+        "3B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Sean Casey": {
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 8
+      },
+      "Greg Vaughn": {
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1
+      },
+      "Dmitri Young": {
+        "AB": 4,
+        "SO": 2,
+        "PO": 5
+      },
+      "Ed Taubensee": {
+        "AB": 2,
+        "H": 1,
+        "BB": 2,
+        "PO": 8,
+        "A": 1,
+        "CS against": 1
+      },
+      "Mark Lewis": {
+        "AB": 3,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Gabe White": {
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1,
+        "A": 1
+      },
+      "Hal Morris": {
+        "AB": 1
+      },
+      "Danny Graves": {
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1
+      },
+      "Pokey Reese": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3,
+        "A": 2
+      },
+      "Steve Avery": {
+        "AB": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 6,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 1,
+        "BB against": 3,
+        "SO against": 4,
+        "CS against": 1
+      },
+      "Mark Sweeney": {
+        "AB": 1,
+        "SO": 1
+      },
+      "Scott Sullivan": {
+        "IP": "1.2",
+        "H allowed": 1,
+        "WP": 1
+      },
+      "Aaron Boone": {
+        "AB": 2,
+        "H": 1,
+        "2B": 1
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "SFG": [
+      [
+        1,
+        "Stan Javier"
+      ],
+      [
+        2,
+        "F.P. Santangelo"
+      ],
+      [
+        3,
+        "Barry Bonds"
+      ],
+      [
+        4,
+        "Jeff Kent"
+      ],
+      [
+        5,
+        "Charlie Hayes"
+      ],
+      [
+        6,
+        "J.T. Snow"
+      ],
+      [
+        7,
+        "Rich Aurilia"
+      ],
+      [
+        8,
+        "Scott Servais"
+      ],
+      [
+        9,
+        "Russ Ortiz"
+      ],
+      [
+        9,
+        "Marvin Benard"
+      ],
+      [
+        9,
+        "Alan Embree"
+      ],
+      [
+        9,
+        "John Johnstone"
+      ],
+      [
+        9,
+        "Ellis Burks"
+      ],
+      [
+        9,
+        "Julian Tavarez"
+      ],
+      [
+        9,
+        "Robb Nen"
+      ]
+    ],
+    "CIN": [
+      [
+        1,
+        "Mike Cameron"
+      ],
+      [
+        2,
+        "Barry Larkin"
+      ],
+      [
+        3,
+        "Sean Casey"
+      ],
+      [
+        4,
+        "Greg Vaughn"
+      ],
+      [
+        5,
+        "Dmitri Young"
+      ],
+      [
+        6,
+        "Ed Taubensee"
+      ],
+      [
+        7,
+        "Mark Lewis"
+      ],
+      [
+        7,
+        "Gabe White"
+      ],
+      [
+        7,
+        "Hal Morris"
+      ],
+      [
+        7,
+        "Danny Graves"
+      ],
+      [
+        8,
+        "Pokey Reese"
+      ],
+      [
+        9,
+        "Steve Avery"
+      ],
+      [
+        9,
+        "Mark Sweeney"
+      ],
+      [
+        9,
+        "Scott Sullivan"
+      ],
+      [
+        9,
+        "Aaron Boone"
+      ]
+    ]
+  },
+  "positions": {
+    "SFG": {
+      "Stan Javier": [
+        "9"
+      ],
+      "F.P. Santangelo": [
+        "8"
+      ],
+      "Barry Bonds": [
+        "7"
+      ],
+      "Jeff Kent": [
+        "4"
+      ],
+      "Charlie Hayes": [
+        "5"
+      ],
+      "J.T. Snow": [
+        "3"
+      ],
+      "Rich Aurilia": [
+        "6"
+      ],
+      "Scott Servais": [
+        "2"
+      ],
+      "Russ Ortiz": [
+        "1"
+      ],
+      "Marvin Benard": [
+        "PH"
+      ],
+      "Alan Embree": [
+        "1"
+      ],
+      "John Johnstone": [
+        "1"
+      ],
+      "Ellis Burks": [
+        "PH"
+      ],
+      "Julian Tavarez": [
+        "1"
+      ],
+      "Robb Nen": [
+        "1"
+      ]
+    },
+    "CIN": {
+      "Mike Cameron": [
+        "8"
+      ],
+      "Barry Larkin": [
+        "6"
+      ],
+      "Sean Casey": [
+        "3"
+      ],
+      "Greg Vaughn": [
+        "7"
+      ],
+      "Dmitri Young": [
+        "9"
+      ],
+      "Ed Taubensee": [
+        "2"
+      ],
+      "Mark Lewis": [
+        "5"
+      ],
+      "Gabe White": [
+        "1"
+      ],
+      "Hal Morris": [
+        "PH"
+      ],
+      "Danny Graves": [
+        "1"
+      ],
+      "Pokey Reese": [
+        "4"
+      ],
+      "Steve Avery": [
+        "1"
+      ],
+      "Mark Sweeney": [
+        "PH"
+      ],
+      "Scott Sullivan": [
+        "1"
+      ],
+      "Aaron Boone": [
+        "5"
+      ]
+    }
+  },
+  "games_started": {
+    "SFG": {
+      "Stan Javier": 1,
+      "F.P. Santangelo": 1,
+      "Barry Bonds": 1,
+      "Jeff Kent": 1,
+      "Charlie Hayes": 1,
+      "J.T. Snow": 1,
+      "Rich Aurilia": 1,
+      "Scott Servais": 1,
+      "Russ Ortiz": 1
+    },
+    "CIN": {
+      "Mike Cameron": 1,
+      "Barry Larkin": 1,
+      "Sean Casey": 1,
+      "Greg Vaughn": 1,
+      "Dmitri Young": 1,
+      "Ed Taubensee": 1,
+      "Mark Lewis": 1,
+      "Pokey Reese": 1,
+      "Steve Avery": 1
+    }
+  }
+}

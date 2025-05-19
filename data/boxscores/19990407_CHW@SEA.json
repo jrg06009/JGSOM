@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "CHW": {
+      "Ray Durham": {
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 4,
+        "A": 4,
+        "DP": 2
+      },
+      "Mike Caruso": {
+        "AB": 4,
+        "H": 2,
+        "SO": 2,
+        "SB": 1,
+        "CS": 1,
+        "PO": 1,
+        "A": 4,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Frank Thomas": {
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SF": 1
+      },
+      "Jeff Liefer": {
+        "AB": 3,
+        "PO": 9,
+        "DP": 2
+      },
+      "Craig Wilson": {
+        "AB": 1
+      },
+      "Magglio Ordonez": {
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Greg Norton": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Darrin Jackson": {
+        "AB": 3,
+        "SO": 1,
+        "PO": 2
+      },
+      "Mark Johnson": {
+        "AB": 2,
+        "SO": 1,
+        "PO": 3,
+        "A": 1
+      },
+      "Paul Konerko": {
+        "AB": 1,
+        "SO": 1
+      },
+      "Brook Fordyce": {
+        "PO": 1
+      },
+      "McKay Christensen": {
+        "AB": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Jeff Abbott": {
+        "AB": 1,
+        "H": 1
+      }
+    },
+    "SEA": {
+      "Carlos Guillen": {
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 1,
+        "PO": 3,
+        "A": 2,
+        "DP": 1
+      },
+      "David Bell": {
+        "AB": 3,
+        "BB": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 1
+      },
+      "Ken Griffey Jr": {
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "GDP": 1,
+        "PO": 8
+      },
+      "Edgar Martinez": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1
+      },
+      "David Segui": {
+        "AB": 4,
+        "H": 3,
+        "PO": 5,
+        "A": 1,
+        "DP": 1
+      },
+      "Jay Buhner": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 3
+      },
+      "John Mabry": {
+        "AB": 4,
+        "R": 1,
+        "H": 1
+      },
+      "Russ Davis": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Dan Wilson": {
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 6,
+        "A": 1,
+        "SB against": 1,
+        "CS against": 1
+      }
+    }
+  },
+  "pitching": {
+    "CHW": {
+      "John Snyder": {
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 9,
+        "R against": 5,
+        "ER": 4,
+        "BB against": 2,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Bryan Ward": {
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1
+      },
+      "David Lundquist": {
+        "IP": "1.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      }
+    },
+    "SEA": {
+      "Freddy Garcia": {
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 3,
+        "PO": 1,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "John Halama": {
+        "IP": "2.0",
+        "H allowed": 1,
+        "SO against": 3
+      }
+    }
+  },
+  "batting_order": {
+    "CHW": [
+      [
+        1,
+        "Ray Durham"
+      ],
+      [
+        2,
+        "Mike Caruso"
+      ],
+      [
+        3,
+        "Frank Thomas"
+      ],
+      [
+        4,
+        "Jeff Liefer"
+      ],
+      [
+        4,
+        "Craig Wilson"
+      ],
+      [
+        5,
+        "Magglio Ordonez"
+      ],
+      [
+        6,
+        "Greg Norton"
+      ],
+      [
+        7,
+        "Darrin Jackson"
+      ],
+      [
+        8,
+        "Mark Johnson"
+      ],
+      [
+        8,
+        "Paul Konerko"
+      ],
+      [
+        8,
+        "Brook Fordyce"
+      ],
+      [
+        9,
+        "McKay Christensen"
+      ],
+      [
+        9,
+        "Jeff Abbott"
+      ],
+      [
+        7,
+        "Darrin Jackson"
+      ],
+      [
+        9,
+        "Jeff Abbott"
+      ]
+    ],
+    "SEA": [
+      [
+        1,
+        "Carlos Guillen"
+      ],
+      [
+        2,
+        "David Bell"
+      ],
+      [
+        3,
+        "Ken Griffey Jr"
+      ],
+      [
+        4,
+        "Edgar Martinez"
+      ],
+      [
+        5,
+        "David Segui"
+      ],
+      [
+        6,
+        "Jay Buhner"
+      ],
+      [
+        7,
+        "John Mabry"
+      ],
+      [
+        8,
+        "Russ Davis"
+      ],
+      [
+        9,
+        "Dan Wilson"
+      ]
+    ]
+  },
+  "positions": {
+    "CHW": {
+      "Ray Durham": [
+        "4"
+      ],
+      "Mike Caruso": [
+        "6"
+      ],
+      "Jeff Liefer": [
+        "3"
+      ],
+      "Craig Wilson": [
+        "PH"
+      ],
+      "Magglio Ordonez": [
+        "9"
+      ],
+      "Greg Norton": [
+        "5"
+      ],
+      "Darrin Jackson": [
+        "7",
+        "8"
+      ],
+      "Mark Johnson": [
+        "2"
+      ],
+      "Paul Konerko": [
+        "PH"
+      ],
+      "Brook Fordyce": [
+        "2"
+      ],
+      "McKay Christensen": [
+        "8"
+      ],
+      "Jeff Abbott": [
+        "PH",
+        "7"
+      ],
+      "John Snyder": [
+        "1"
+      ],
+      "Bryan Ward": [
+        "1"
+      ],
+      "David Lundquist": [
+        "1"
+      ]
+    },
+    "SEA": {
+      "Carlos Guillen": [
+        "6"
+      ],
+      "David Bell": [
+        "4"
+      ],
+      "Ken Griffey Jr": [
+        "8"
+      ],
+      "David Segui": [
+        "3"
+      ],
+      "Jay Buhner": [
+        "9"
+      ],
+      "John Mabry": [
+        "7"
+      ],
+      "Russ Davis": [
+        "5"
+      ],
+      "Dan Wilson": [
+        "2"
+      ],
+      "Freddy Garcia": [
+        "1"
+      ],
+      "John Halama": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CHW": {
+      "Ray Durham": 1,
+      "Mike Caruso": 1,
+      "Frank Thomas": 1,
+      "Jeff Liefer": 1,
+      "Magglio Ordonez": 1,
+      "Greg Norton": 1,
+      "Darrin Jackson": 1,
+      "Mark Johnson": 1,
+      "McKay Christensen": 1,
+      "John Snyder": 1
+    },
+    "SEA": {
+      "Carlos Guillen": 1,
+      "David Bell": 1,
+      "Ken Griffey Jr": 1,
+      "Edgar Martinez": 1,
+      "David Segui": 1,
+      "Jay Buhner": 1,
+      "John Mabry": 1,
+      "Russ Davis": 1,
+      "Dan Wilson": 1,
+      "Freddy Garcia": 1
+    }
+  }
+}

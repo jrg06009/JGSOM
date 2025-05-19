@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "MIL": {
+      "Fernando Vina": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 3,
+        "A": 1
+      },
+      "Marquis Grissom": {
+        "AB": 4,
+        "RBI": 1,
+        "SO": 1,
+        "SF": 1,
+        "PO": 1
+      },
+      "Jeff Cirillo": {
+        "AB": 4,
+        "H": 1,
+        "BB": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Jeromy Burnitz": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 2,
+        "PO": 3
+      },
+      "Sean Berry": {
+        "AB": 5,
+        "H": 1,
+        "SO": 1,
+        "PO": 3,
+        "ERR": 1
+      },
+      "Dave Nilsson": {
+        "AB": 5,
+        "R": 2,
+        "PO": 5,
+        "SB against": 1
+      },
+      "Jose Valentin": {
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 3
+      },
+      "Geoff Jenkins": {
+        "AB": 3,
+        "HBP": 1,
+        "PO": 3
+      },
+      "Steve Woodard": {
+        "AB": 1,
+        "BB": 1,
+        "GDP": 1,
+        "IP": "5.0",
+        "H allowed": 9,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 2,
+        "BB against": 1,
+        "IBB against": 1,
+        "PO": 2,
+        "A": 1,
+        "SB against": 1
+      },
+      "Brian Banks": {
+        "AB": 1,
+        "SO": 1
+      },
+      "Eric Plunk": {
+        "L": 1,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "SO against": 5
+      },
+      "Alex Ochoa": {
+        "HBP": 1
+      },
+      "Chad Fox": {
+        "IP": "1.0"
+      }
+    },
+    "STL": {
+      "Edgar Renteria": {
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "J.D. Drew": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 4,
+        "ERR": 1
+      },
+      "Mark McGwire": {
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "HR": 2,
+        "RBI": 4,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 7,
+        "A": 1,
+        "DP": 1
+      },
+      "Eric Davis": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "SB": 1,
+        "PO": 3
+      },
+      "Fernando Tatis": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Darren Bragg": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Juan Acevedo": {
+        "SV": 1,
+        "IP": "1.1",
+        "H allowed": 1
+      },
+      "Eli Marrero": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 6
+      },
+      "Placido Polanco": {
+        "AB": 4,
+        "H": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Kent Bottenfield": {
+        "AB": 2,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 5,
+        "R against": 4,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 4,
+        "HBP against": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Joe McEwing": {
+        "AB": 1,
+        "R": 1,
+        "H": 1
+      },
+      "Ricky Bottalico": {
+        "IP": "1.1",
+        "R against": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Lance Painter": {
+        "IP": "0.1",
+        "H allowed": 1,
+        "HBP against": 1
+      },
+      "Shawon Dunston": {
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "MIL": [
+      [
+        1,
+        "Fernando Vina"
+      ],
+      [
+        2,
+        "Marquis Grissom"
+      ],
+      [
+        3,
+        "Jeff Cirillo"
+      ],
+      [
+        4,
+        "Jeromy Burnitz"
+      ],
+      [
+        5,
+        "Sean Berry"
+      ],
+      [
+        6,
+        "Dave Nilsson"
+      ],
+      [
+        7,
+        "Jose Valentin"
+      ],
+      [
+        8,
+        "Geoff Jenkins"
+      ],
+      [
+        9,
+        "Steve Woodard"
+      ],
+      [
+        9,
+        "Brian Banks"
+      ],
+      [
+        9,
+        "Eric Plunk"
+      ],
+      [
+        9,
+        "Alex Ochoa"
+      ],
+      [
+        9,
+        "Chad Fox"
+      ]
+    ],
+    "STL": [
+      [
+        1,
+        "Edgar Renteria"
+      ],
+      [
+        2,
+        "J.D. Drew"
+      ],
+      [
+        3,
+        "Mark McGwire"
+      ],
+      [
+        4,
+        "Eric Davis"
+      ],
+      [
+        5,
+        "Fernando Tatis"
+      ],
+      [
+        6,
+        "Darren Bragg"
+      ],
+      [
+        6,
+        "Juan Acevedo"
+      ],
+      [
+        7,
+        "Eli Marrero"
+      ],
+      [
+        8,
+        "Placido Polanco"
+      ],
+      [
+        9,
+        "Kent Bottenfield"
+      ],
+      [
+        9,
+        "Joe McEwing"
+      ],
+      [
+        9,
+        "Ricky Bottalico"
+      ],
+      [
+        9,
+        "Lance Painter"
+      ],
+      [
+        9,
+        "Shawon Dunston"
+      ]
+    ]
+  },
+  "positions": {
+    "MIL": {
+      "Fernando Vina": [
+        "4"
+      ],
+      "Marquis Grissom": [
+        "8"
+      ],
+      "Jeff Cirillo": [
+        "5"
+      ],
+      "Jeromy Burnitz": [
+        "9"
+      ],
+      "Sean Berry": [
+        "3"
+      ],
+      "Dave Nilsson": [
+        "2"
+      ],
+      "Jose Valentin": [
+        "6"
+      ],
+      "Geoff Jenkins": [
+        "7"
+      ],
+      "Steve Woodard": [
+        "1"
+      ],
+      "Brian Banks": [
+        "PH"
+      ],
+      "Eric Plunk": [
+        "1"
+      ],
+      "Alex Ochoa": [
+        "PH"
+      ],
+      "Chad Fox": [
+        "1"
+      ]
+    },
+    "STL": {
+      "Edgar Renteria": [
+        "6"
+      ],
+      "J.D. Drew": [
+        "8"
+      ],
+      "Mark McGwire": [
+        "3"
+      ],
+      "Eric Davis": [
+        "9"
+      ],
+      "Fernando Tatis": [
+        "5"
+      ],
+      "Darren Bragg": [
+        "7"
+      ],
+      "Juan Acevedo": [
+        "1"
+      ],
+      "Eli Marrero": [
+        "2"
+      ],
+      "Placido Polanco": [
+        "4"
+      ],
+      "Kent Bottenfield": [
+        "1"
+      ],
+      "Joe McEwing": [
+        "PH"
+      ],
+      "Ricky Bottalico": [
+        "1"
+      ],
+      "Lance Painter": [
+        "1"
+      ],
+      "Shawon Dunston": [
+        "7"
+      ]
+    }
+  },
+  "games_started": {
+    "MIL": {
+      "Fernando Vina": 1,
+      "Marquis Grissom": 1,
+      "Jeff Cirillo": 1,
+      "Jeromy Burnitz": 1,
+      "Sean Berry": 1,
+      "Dave Nilsson": 1,
+      "Jose Valentin": 1,
+      "Geoff Jenkins": 1,
+      "Steve Woodard": 1
+    },
+    "STL": {
+      "Edgar Renteria": 1,
+      "J.D. Drew": 1,
+      "Mark McGwire": 1,
+      "Eric Davis": 1,
+      "Fernando Tatis": 1,
+      "Darren Bragg": 1,
+      "Eli Marrero": 1,
+      "Placido Polanco": 1,
+      "Kent Bottenfield": 1
+    }
+  }
+}

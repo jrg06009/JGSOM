@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "DET": {
+      "Juan Encarnacion": {
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "3B": 1,
+        "RBI": 1,
+        "PO": 1
+      },
+      "Gregg Jefferies": {
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1
+      },
+      "Damion Easley": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 4,
+        "A": 5,
+        "DP": 2
+      },
+      "Tony Clark": {
+        "AB": 5,
+        "H": 1,
+        "RBI": 2,
+        "PO": 11,
+        "DP": 2
+      },
+      "Dean Palmer": {
+        "AB": 4,
+        "SO": 2,
+        "A": 1,
+        "DP": 1
+      },
+      "Bobby Higginson": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Deivi Cruz": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 1
+      },
+      "Brad Ausmus": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Brian Hunter": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1
+      }
+    },
+    "TEX": {
+      "Tom Goodwin": {
+        "AB": 6,
+        "R": 2,
+        "H": 4,
+        "RBI": 4,
+        "PO": 4
+      },
+      "Ivan Rodriguez": {
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "HR": 1,
+        "RBI": 4,
+        "GDP": 1,
+        "PO": 3,
+        "ERR": 1
+      },
+      "Gregg Zaun": {
+        "AB": 1,
+        "PO": 2
+      },
+      "Rusty Greer": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Juan Gonzalez": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 3
+      },
+      "Rafael Palmeiro": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2
+      },
+      "Todd Zeile": {
+        "AB": 5,
+        "R": 3,
+        "H": 3,
+        "A": 1
+      },
+      "Lee Stevens": {
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "2B": 1,
+        "SO": 1,
+        "PO": 10
+      },
+      "Luis Alicea": {
+        "AB": 3,
+        "R": 3,
+        "H": 1,
+        "2B": 1,
+        "BB": 2,
+        "SO": 1,
+        "PO": 3
+      },
+      "Royce Clayton": {
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 2
+      },
+      "Jon Shave": {
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "SO": 1
+      }
+    }
+  },
+  "pitching": {
+    "DET": {
+      "Willie Blair": {
+        "L": 1,
+        "IP": "2.0",
+        "H allowed": 9,
+        "R against": 8,
+        "ER": 8,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "WP": 1,
+        "A": 1
+      },
+      "Masao Kida": {
+        "IP": "2.0",
+        "H allowed": 6,
+        "R against": 5,
+        "ER": 5,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "C.J. Nitkowski": {
+        "IP": "2.0",
+        "H allowed": 6,
+        "R against": 4,
+        "ER": 4
+      },
+      "Sean Runyan": {
+        "IP": "1.0",
+        "H allowed": 1
+      },
+      "Todd Jones": {
+        "IP": "1.0",
+        "SO against": 1
+      }
+    },
+    "TEX": {
+      "Mark Clark": {
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 9,
+        "R against": 7,
+        "ER": 6,
+        "HR allowed": 2,
+        "SO against": 4,
+        "HBP against": 1,
+        "WP": 2,
+        "A": 4,
+        "ERR": 1
+      },
+      "Mike Morgan": {
+        "IP": "2.0",
+        "H allowed": 1,
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "DET": [
+      [
+        1,
+        "Juan Encarnacion"
+      ],
+      [
+        2,
+        "Gregg Jefferies"
+      ],
+      [
+        3,
+        "Damion Easley"
+      ],
+      [
+        4,
+        "Tony Clark"
+      ],
+      [
+        5,
+        "Dean Palmer"
+      ],
+      [
+        6,
+        "Bobby Higginson"
+      ],
+      [
+        7,
+        "Deivi Cruz"
+      ],
+      [
+        8,
+        "Brad Ausmus"
+      ],
+      [
+        9,
+        "Brian Hunter"
+      ]
+    ],
+    "TEX": [
+      [
+        1,
+        "Tom Goodwin"
+      ],
+      [
+        2,
+        "Ivan Rodriguez"
+      ],
+      [
+        2,
+        "Gregg Zaun"
+      ],
+      [
+        3,
+        "Rusty Greer"
+      ],
+      [
+        4,
+        "Juan Gonzalez"
+      ],
+      [
+        5,
+        "Rafael Palmeiro"
+      ],
+      [
+        6,
+        "Todd Zeile"
+      ],
+      [
+        7,
+        "Lee Stevens"
+      ],
+      [
+        8,
+        "Luis Alicea"
+      ],
+      [
+        9,
+        "Royce Clayton"
+      ],
+      [
+        9,
+        "Jon Shave"
+      ],
+      [
+        9,
+        "Jon Shave"
+      ]
+    ]
+  },
+  "positions": {
+    "DET": {
+      "Juan Encarnacion": [
+        "7"
+      ],
+      "Damion Easley": [
+        "4"
+      ],
+      "Tony Clark": [
+        "3"
+      ],
+      "Dean Palmer": [
+        "5"
+      ],
+      "Bobby Higginson": [
+        "9"
+      ],
+      "Deivi Cruz": [
+        "6"
+      ],
+      "Brad Ausmus": [
+        "2"
+      ],
+      "Brian Hunter": [
+        "8"
+      ],
+      "Willie Blair": [
+        "1"
+      ],
+      "Masao Kida": [
+        "1"
+      ],
+      "C.J. Nitkowski": [
+        "1"
+      ],
+      "Sean Runyan": [
+        "1"
+      ],
+      "Todd Jones": [
+        "1"
+      ]
+    },
+    "TEX": {
+      "Tom Goodwin": [
+        "8"
+      ],
+      "Ivan Rodriguez": [
+        "2"
+      ],
+      "Gregg Zaun": [
+        "2"
+      ],
+      "Rusty Greer": [
+        "7"
+      ],
+      "Juan Gonzalez": [
+        "9"
+      ],
+      "Todd Zeile": [
+        "5"
+      ],
+      "Lee Stevens": [
+        "3"
+      ],
+      "Luis Alicea": [
+        "4"
+      ],
+      "Royce Clayton": [
+        "6"
+      ],
+      "Jon Shave": [
+        "PH",
+        "6"
+      ],
+      "Mark Clark": [
+        "1"
+      ],
+      "Mike Morgan": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "DET": {
+      "Juan Encarnacion": 1,
+      "Gregg Jefferies": 1,
+      "Damion Easley": 1,
+      "Tony Clark": 1,
+      "Dean Palmer": 1,
+      "Bobby Higginson": 1,
+      "Deivi Cruz": 1,
+      "Brad Ausmus": 1,
+      "Brian Hunter": 1,
+      "Willie Blair": 1
+    },
+    "TEX": {
+      "Tom Goodwin": 1,
+      "Ivan Rodriguez": 1,
+      "Rusty Greer": 1,
+      "Juan Gonzalez": 1,
+      "Rafael Palmeiro": 1,
+      "Todd Zeile": 1,
+      "Lee Stevens": 1,
+      "Luis Alicea": 1,
+      "Royce Clayton": 1,
+      "Mark Clark": 1
+    }
+  }
+}

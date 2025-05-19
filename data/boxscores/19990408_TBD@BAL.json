@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "TBD": {
+      "Randy Winn": {
+        "AB": 4,
+        "H": 1,
+        "SB": 1,
+        "CS": 1,
+        "PO": 3
+      },
+      "Dave Martinez": {
+        "AB": 3,
+        "BB": 1
+      },
+      "Jose Canseco": {
+        "AB": 4,
+        "SO": 3
+      },
+      "Fred McGriff": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 7,
+        "A": 2,
+        "DP": 3
+      },
+      "John Flaherty": {
+        "AB": 4,
+        "H": 1,
+        "PO": 2
+      },
+      "Quinton McCracken": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "GDP": 1,
+        "PO": 4
+      },
+      "Bob Smith": {
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "CS": 1,
+        "PO": 3,
+        "DP": 1
+      },
+      "Miguel Cairo": {
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 3,
+        "A": 1,
+        "DP": 1
+      },
+      "Kevin Stocker": {
+        "AB": 2,
+        "SO": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 2
+      },
+      "Wade Boggs": {
+        "AB": 1,
+        "H": 1
+      },
+      "David Lamb": {
+        "AB": 1,
+        "ERR": 1
+      }
+    },
+    "BAL": {
+      "Brady Anderson": {
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "BB": 2,
+        "PO": 3
+      },
+      "Mike Bordick": {
+        "AB": 4,
+        "H": 3,
+        "3B": 1,
+        "RBI": 2,
+        "PO": 2,
+        "A": 3,
+        "ERR": 1
+      },
+      "Will Clark": {
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 5,
+        "A": 2,
+        "DP": 1
+      },
+      "Albert Belle": {
+        "AB": 2,
+        "RBI": 1,
+        "BB": 2,
+        "PO": 5
+      },
+      "Harold Baines": {
+        "AB": 3,
+        "BB": 1
+      },
+      "B.J. Surhoff": {
+        "AB": 4,
+        "H": 2,
+        "PO": 1
+      },
+      "Lenny Webster": {
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 5,
+        "A": 2,
+        "SB against": 1,
+        "CS against": 2
+      },
+      "Willis Otanez": {
+        "AB": 4,
+        "SO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Jeff Reboulet": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      }
+    }
+  },
+  "pitching": {
+    "TBD": {
+      "Bobby Witt": {
+        "L": 1,
+        "IP": "6.1",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 0,
+        "BB against": 7,
+        "SO against": 2,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Jim Mecir": {
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 1,
+        "BB against": 1
+      },
+      "Scott Aldred": {
+        "IP": "0.1"
+      }
+    },
+    "BAL": {
+      "Scott Erickson": {
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 6,
+        "BB against": 1,
+        "SO against": 3,
+        "A": 1,
+        "ERR": 1,
+        "SB against": 1,
+        "CS against": 2
+      },
+      "Arthur Rhodes": {
+        "IP": "1.2",
+        "BB against": 3,
+        "SO against": 2
+      },
+      "Mike Timlin": {
+        "SV": 1,
+        "IP": "0.1",
+        "PO": 1
+      }
+    }
+  },
+  "batting_order": {
+    "TBD": [
+      [
+        1,
+        "Randy Winn"
+      ],
+      [
+        2,
+        "Dave Martinez"
+      ],
+      [
+        3,
+        "Jose Canseco"
+      ],
+      [
+        4,
+        "Fred McGriff"
+      ],
+      [
+        5,
+        "John Flaherty"
+      ],
+      [
+        6,
+        "Quinton McCracken"
+      ],
+      [
+        7,
+        "Bob Smith"
+      ],
+      [
+        8,
+        "Miguel Cairo"
+      ],
+      [
+        9,
+        "Kevin Stocker"
+      ],
+      [
+        9,
+        "Wade Boggs"
+      ],
+      [
+        9,
+        "David Lamb"
+      ]
+    ],
+    "BAL": [
+      [
+        1,
+        "Brady Anderson"
+      ],
+      [
+        2,
+        "Mike Bordick"
+      ],
+      [
+        3,
+        "Will Clark"
+      ],
+      [
+        4,
+        "Albert Belle"
+      ],
+      [
+        5,
+        "Harold Baines"
+      ],
+      [
+        6,
+        "B.J. Surhoff"
+      ],
+      [
+        7,
+        "Lenny Webster"
+      ],
+      [
+        8,
+        "Willis Otanez"
+      ],
+      [
+        9,
+        "Jeff Reboulet"
+      ]
+    ]
+  },
+  "positions": {
+    "TBD": {
+      "Randy Winn": [
+        "8"
+      ],
+      "Dave Martinez": [
+        "9"
+      ],
+      "Fred McGriff": [
+        "3"
+      ],
+      "John Flaherty": [
+        "2"
+      ],
+      "Quinton McCracken": [
+        "7"
+      ],
+      "Bob Smith": [
+        "5"
+      ],
+      "Miguel Cairo": [
+        "4"
+      ],
+      "Kevin Stocker": [
+        "6"
+      ],
+      "Wade Boggs": [
+        "PH"
+      ],
+      "David Lamb": [
+        "6"
+      ],
+      "Bobby Witt": [
+        "1"
+      ],
+      "Jim Mecir": [
+        "1"
+      ],
+      "Scott Aldred": [
+        "1"
+      ]
+    },
+    "BAL": {
+      "Brady Anderson": [
+        "8"
+      ],
+      "Mike Bordick": [
+        "6"
+      ],
+      "Will Clark": [
+        "3"
+      ],
+      "Albert Belle": [
+        "9"
+      ],
+      "B.J. Surhoff": [
+        "7"
+      ],
+      "Lenny Webster": [
+        "2"
+      ],
+      "Willis Otanez": [
+        "5"
+      ],
+      "Jeff Reboulet": [
+        "4"
+      ],
+      "Scott Erickson": [
+        "1"
+      ],
+      "Arthur Rhodes": [
+        "1"
+      ],
+      "Mike Timlin": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "TBD": {
+      "Randy Winn": 1,
+      "Dave Martinez": 1,
+      "Jose Canseco": 1,
+      "Fred McGriff": 1,
+      "John Flaherty": 1,
+      "Quinton McCracken": 1,
+      "Bob Smith": 1,
+      "Miguel Cairo": 1,
+      "Kevin Stocker": 1,
+      "Bobby Witt": 1
+    },
+    "BAL": {
+      "Brady Anderson": 1,
+      "Mike Bordick": 1,
+      "Will Clark": 1,
+      "Albert Belle": 1,
+      "Harold Baines": 1,
+      "B.J. Surhoff": 1,
+      "Lenny Webster": 1,
+      "Willis Otanez": 1,
+      "Jeff Reboulet": 1,
+      "Scott Erickson": 1
+    }
+  }
+}

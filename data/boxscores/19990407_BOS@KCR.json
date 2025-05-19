@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "BOS": {
+      "Jose Offerman": {
+        "AB": 3,
+        "BB": 2,
+        "SO": 2
+      },
+      "Darren Lewis": {
+        "AB": 2,
+        "H": 1,
+        "BB": 1,
+        "PO": 5
+      },
+      "Brian Daubach": {
+        "HBP": 1
+      },
+      "Donnie Sadler": {
+        "AB": 1,
+        "SO": 1
+      },
+      "John Valentin": {
+        "AB": 5,
+        "H": 1,
+        "GDP": 1,
+        "PO": 2
+      },
+      "Nomar Garciaparra": {
+        "AB": 4,
+        "H": 2,
+        "HBP": 1,
+        "PO": 3,
+        "A": 2
+      },
+      "Mike Stanley": {
+        "AB": 5,
+        "PO": 4
+      },
+      "Troy O'Leary": {
+        "AB": 5,
+        "R": 2,
+        "H": 4,
+        "HR": 2,
+        "RBI": 2,
+        "GDP": 1,
+        "PO": 3
+      },
+      "Damon Buford": {
+        "AB": 3,
+        "SO": 1,
+        "GDP": 1
+      },
+      "Trot Nixon": {
+        "AB": 2
+      },
+      "Jason Varitek": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 8
+      },
+      "Jeff Frye": {
+        "AB": 2,
+        "BB": 2,
+        "PO": 2,
+        "A": 1
+      }
+    },
+    "KCR": {
+      "Carlos Beltran": {
+        "AB": 6,
+        "R": 2,
+        "H": 4,
+        "2B": 2,
+        "RBI": 1,
+        "PO": 1
+      },
+      "Joe Randa": {
+        "AB": 5,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Johnny Damon": {
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 2
+      },
+      "Jeff King": {
+        "AB": 4,
+        "H": 1,
+        "BB": 1,
+        "PO": 13,
+        "DP": 3
+      },
+      "Larry Sutton": {
+        "AB": 2,
+        "BB": 1,
+        "SO": 1
+      },
+      "Scott Leius": {
+        "AB": 1
+      },
+      "Scott Pose": {
+        "AB": 1,
+        "H": 1
+      },
+      "Jermaine Dye": {
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "SO": 2,
+        "PO": 2
+      },
+      "Chad Kreuter": {
+        "AB": 4,
+        "BB": 1,
+        "PO": 5
+      },
+      "Rey Sanchez": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "3B": 1,
+        "SO": 2,
+        "PO": 3,
+        "A": 6,
+        "DP": 2
+      },
+      "Carlos Febles": {
+        "AB": 4,
+        "H": 2,
+        "RBI": 1,
+        "SO": 2,
+        "SF": 1,
+        "PO": 3,
+        "A": 7,
+        "DP": 3
+      }
+    }
+  },
+  "pitching": {
+    "BOS": {
+      "Bret Saberhagen": {
+        "IP": "4.1",
+        "H allowed": 7,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 3,
+        "SO against": 3
+      },
+      "Jim Corsi": {
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Rheal Cormier": {
+        "IP": "2.0",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Derek Lowe": {
+        "IP": "1.1",
+        "H allowed": 3,
+        "SO against": 2,
+        "A": 1
+      },
+      "Tom Gordon": {
+        "L": 1,
+        "IP": "0.2",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      }
+    },
+    "KCR": {
+      "Jose Rosado": {
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 3,
+        "SO against": 3,
+        "A": 1
+      },
+      "Jose Santiago": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "HBP against": 2
+      },
+      "Scott Service": {
+        "IP": "1.0"
+      },
+      "Jeff Montgomery": {
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 1
+      },
+      "Matt Whisenant": {
+        "W": 1,
+        "IP": "0.2",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "BOS": [
+      [
+        1,
+        "Jose Offerman"
+      ],
+      [
+        2,
+        "Darren Lewis"
+      ],
+      [
+        2,
+        "Brian Daubach"
+      ],
+      [
+        2,
+        "Donnie Sadler"
+      ],
+      [
+        2,
+        "Donnie Sadler"
+      ],
+      [
+        2,
+        "Donnie Sadler"
+      ],
+      [
+        3,
+        "John Valentin"
+      ],
+      [
+        4,
+        "Nomar Garciaparra"
+      ],
+      [
+        5,
+        "Mike Stanley"
+      ],
+      [
+        6,
+        "Troy O'Leary"
+      ],
+      [
+        7,
+        "Damon Buford"
+      ],
+      [
+        7,
+        "Trot Nixon"
+      ],
+      [
+        8,
+        "Jason Varitek"
+      ],
+      [
+        9,
+        "Jeff Frye"
+      ],
+      [
+        7,
+        "Trot Nixon"
+      ]
+    ],
+    "KCR": [
+      [
+        1,
+        "Carlos Beltran"
+      ],
+      [
+        2,
+        "Joe Randa"
+      ],
+      [
+        3,
+        "Johnny Damon"
+      ],
+      [
+        4,
+        "Jeff King"
+      ],
+      [
+        5,
+        "Larry Sutton"
+      ],
+      [
+        5,
+        "Scott Leius"
+      ],
+      [
+        5,
+        "Scott Pose"
+      ],
+      [
+        6,
+        "Jermaine Dye"
+      ],
+      [
+        7,
+        "Chad Kreuter"
+      ],
+      [
+        8,
+        "Rey Sanchez"
+      ],
+      [
+        9,
+        "Carlos Febles"
+      ]
+    ]
+  },
+  "positions": {
+    "BOS": {
+      "Darren Lewis": [
+        "9"
+      ],
+      "Brian Daubach": [
+        "PH"
+      ],
+      "Donnie Sadler": [
+        "9",
+        "PR",
+        "8"
+      ],
+      "John Valentin": [
+        "5"
+      ],
+      "Nomar Garciaparra": [
+        "6"
+      ],
+      "Mike Stanley": [
+        "3"
+      ],
+      "Troy O'Leary": [
+        "7"
+      ],
+      "Damon Buford": [
+        "8"
+      ],
+      "Trot Nixon": [
+        "PH",
+        "9"
+      ],
+      "Jason Varitek": [
+        "2"
+      ],
+      "Jeff Frye": [
+        "4"
+      ],
+      "Bret Saberhagen": [
+        "1"
+      ],
+      "Jim Corsi": [
+        "1"
+      ],
+      "Rheal Cormier": [
+        "1"
+      ],
+      "Derek Lowe": [
+        "1"
+      ],
+      "Tom Gordon": [
+        "1"
+      ]
+    },
+    "KCR": {
+      "Carlos Beltran": [
+        "8"
+      ],
+      "Joe Randa": [
+        "5"
+      ],
+      "Johnny Damon": [
+        "7"
+      ],
+      "Jeff King": [
+        "3"
+      ],
+      "Scott Leius": [
+        "PH"
+      ],
+      "Scott Pose": [
+        "PH"
+      ],
+      "Jermaine Dye": [
+        "9"
+      ],
+      "Chad Kreuter": [
+        "2"
+      ],
+      "Rey Sanchez": [
+        "6"
+      ],
+      "Carlos Febles": [
+        "4"
+      ],
+      "Jose Rosado": [
+        "1"
+      ],
+      "Jose Santiago": [
+        "1"
+      ],
+      "Scott Service": [
+        "1"
+      ],
+      "Jeff Montgomery": [
+        "1"
+      ],
+      "Matt Whisenant": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "BOS": {
+      "Jose Offerman": 1,
+      "Darren Lewis": 1,
+      "John Valentin": 1,
+      "Nomar Garciaparra": 1,
+      "Mike Stanley": 1,
+      "Troy O'Leary": 1,
+      "Damon Buford": 1,
+      "Jason Varitek": 1,
+      "Jeff Frye": 1,
+      "Bret Saberhagen": 1
+    },
+    "KCR": {
+      "Carlos Beltran": 1,
+      "Joe Randa": 1,
+      "Johnny Damon": 1,
+      "Jeff King": 1,
+      "Larry Sutton": 1,
+      "Jermaine Dye": 1,
+      "Chad Kreuter": 1,
+      "Rey Sanchez": 1,
+      "Carlos Febles": 1,
+      "Jose Rosado": 1
+    }
+  }
+}

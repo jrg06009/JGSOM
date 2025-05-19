@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "NYY": {
+      "Chuck Knoblauch": {
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 1,
+        "ERR": 1
+      },
+      "Derek Jeter": {
+        "AB": 4,
+        "H": 2,
+        "RBI": 1,
+        "A": 1
+      },
+      "Paul O'Neill": {
+        "AB": 4,
+        "H": 2,
+        "RBI": 1,
+        "PO": 3
+      },
+      "Bernie Williams": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 4,
+        "A": 1
+      },
+      "Tino Martinez": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Chili Davis": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "SO": 1
+      },
+      "Ricky Ledee": {
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 2
+      },
+      "Shane Spencer": {
+        "AB": 2
+      },
+      "Scott Brosius": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "RBI": 2
+      },
+      "Joe Girardi": {
+        "AB": 2,
+        "SH": 1,
+        "PO": 11,
+        "PB": 2
+      }
+    },
+    "OAK": {
+      "Tony Phillips": {
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 5,
+        "A": 2
+      },
+      "Jason McDonald": {
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4
+      },
+      "Jason Giambi": {
+        "AB": 4,
+        "H": 1,
+        "SO": 2
+      },
+      "Matt Stairs": {
+        "AB": 3,
+        "BB": 1,
+        "SO": 2
+      },
+      "John Jaha": {
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Ben Grieve": {
+        "AB": 3,
+        "SO": 2,
+        "PO": 3
+      },
+      "Eric Chavez": {
+        "AB": 3,
+        "A": 1
+      },
+      "A.J. Hinch": {
+        "AB": 3,
+        "PO": 4
+      },
+      "Miguel Tejada": {
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 2
+      }
+    }
+  },
+  "pitching": {
+    "NYY": {
+      "Roger Clemens": {
+        "W": 1,
+        "IP": "8.0",
+        "H allowed": 5,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 10
+      }
+    },
+    "OAK": {
+      "Gil Heredia": {
+        "L": 1,
+        "IP": "4.1",
+        "H allowed": 6,
+        "R against": 5,
+        "ER": 5,
+        "SO against": 2,
+        "A": 2
+      },
+      "Buddy Groom": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "PO": 1
+      },
+      "Brad Rigby": {
+        "IP": "2.2",
+        "H allowed": 2,
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "NYY": [
+      [
+        1,
+        "Chuck Knoblauch"
+      ],
+      [
+        2,
+        "Derek Jeter"
+      ],
+      [
+        3,
+        "Paul O'Neill"
+      ],
+      [
+        4,
+        "Bernie Williams"
+      ],
+      [
+        5,
+        "Tino Martinez"
+      ],
+      [
+        6,
+        "Chili Davis"
+      ],
+      [
+        7,
+        "Ricky Ledee"
+      ],
+      [
+        7,
+        "Shane Spencer"
+      ],
+      [
+        8,
+        "Scott Brosius"
+      ],
+      [
+        9,
+        "Joe Girardi"
+      ],
+      [
+        7,
+        "Shane Spencer"
+      ]
+    ],
+    "OAK": [
+      [
+        1,
+        "Tony Phillips"
+      ],
+      [
+        2,
+        "Jason McDonald"
+      ],
+      [
+        3,
+        "Jason Giambi"
+      ],
+      [
+        4,
+        "Matt Stairs"
+      ],
+      [
+        5,
+        "John Jaha"
+      ],
+      [
+        6,
+        "Ben Grieve"
+      ],
+      [
+        7,
+        "Eric Chavez"
+      ],
+      [
+        8,
+        "A.J. Hinch"
+      ],
+      [
+        9,
+        "Miguel Tejada"
+      ]
+    ]
+  },
+  "positions": {
+    "NYY": {
+      "Chuck Knoblauch": [
+        "4"
+      ],
+      "Derek Jeter": [
+        "6"
+      ],
+      "Paul O'Neill": [
+        "9"
+      ],
+      "Bernie Williams": [
+        "8"
+      ],
+      "Tino Martinez": [
+        "3"
+      ],
+      "Ricky Ledee": [
+        "7"
+      ],
+      "Shane Spencer": [
+        "PH",
+        "7"
+      ],
+      "Scott Brosius": [
+        "5"
+      ],
+      "Joe Girardi": [
+        "2"
+      ],
+      "Roger Clemens": [
+        "1"
+      ]
+    },
+    "OAK": {
+      "Tony Phillips": [
+        "4"
+      ],
+      "Jason McDonald": [
+        "8"
+      ],
+      "Matt Stairs": [
+        "9"
+      ],
+      "John Jaha": [
+        "3"
+      ],
+      "Ben Grieve": [
+        "7"
+      ],
+      "Eric Chavez": [
+        "5"
+      ],
+      "A.J. Hinch": [
+        "2"
+      ],
+      "Miguel Tejada": [
+        "6"
+      ],
+      "Gil Heredia": [
+        "1"
+      ],
+      "Buddy Groom": [
+        "1"
+      ],
+      "Brad Rigby": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "NYY": {
+      "Chuck Knoblauch": 1,
+      "Derek Jeter": 1,
+      "Paul O'Neill": 1,
+      "Bernie Williams": 1,
+      "Tino Martinez": 1,
+      "Chili Davis": 1,
+      "Ricky Ledee": 1,
+      "Scott Brosius": 1,
+      "Joe Girardi": 1,
+      "Roger Clemens": 1
+    },
+    "OAK": {
+      "Tony Phillips": 1,
+      "Jason McDonald": 1,
+      "Jason Giambi": 1,
+      "Matt Stairs": 1,
+      "John Jaha": 1,
+      "Ben Grieve": 1,
+      "Eric Chavez": 1,
+      "A.J. Hinch": 1,
+      "Miguel Tejada": 1,
+      "Gil Heredia": 1
+    }
+  }
+}

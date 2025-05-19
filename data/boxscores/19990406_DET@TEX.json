@@ -1,0 +1,436 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "DET": {
+      "Juan Encarnacion": {
+        "AB": 4,
+        "BB": 1,
+        "SO": 2,
+        "PO": 2,
+        "ERR": 1
+      },
+      "Bobby Higginson": {
+        "AB": 3,
+        "R": 1,
+        "BB": 2,
+        "SO": 1,
+        "GDP": 1
+      },
+      "Damion Easley": {
+        "AB": 4,
+        "H": 2,
+        "2B": 2,
+        "BB": 1,
+        "A": 4
+      },
+      "Tony Clark": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 2,
+        "SO": 1,
+        "PO": 13,
+        "A": 1
+      },
+      "Dean Palmer": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 3,
+        "A": 4
+      },
+      "Karim Garcia": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 4
+      },
+      "Gabe Kapler": {
+        "AB": 5,
+        "R": 1,
+        "SO": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Bill Haselman": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Deivi Cruz": {
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "A": 5
+      },
+      "Gregg Jefferies": {
+        "AB": 1,
+        "GDP": 1
+      }
+    },
+    "TEX": {
+      "Royce Clayton": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
+        "RBI": 1,
+        "PO": 1,
+        "A": 4,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Ivan Rodriguez": {
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "PO": 12,
+        "A": 1
+      },
+      "Rusty Greer": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 1
+      },
+      "Juan Gonzalez": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Rafael Palmeiro": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3
+      },
+      "Roberto Kelly": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "PO": 2
+      },
+      "Todd Zeile": {
+        "AB": 2,
+        "R": 2,
+        "BB": 2
+      },
+      "Lee Stevens": {
+        "AB": 4,
+        "R": 3,
+        "H": 3,
+        "HR": 2,
+        "RBI": 3,
+        "SO": 1,
+        "PO": 6,
+        "DP": 2
+      },
+      "Luis Alicea": {
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "PO": 4,
+        "A": 3,
+        "DP": 2
+      }
+    }
+  },
+  "pitching": {
+    "DET": {
+      "Justin Thompson": {
+        "L": 1,
+        "IP": "2.1",
+        "H allowed": 8,
+        "R against": 9,
+        "ER": 9,
+        "HR allowed": 2,
+        "BB against": 2,
+        "SO against": 1,
+        "A": 1
+      },
+      "Felipe Lira": {
+        "IP": "2.2",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 2,
+        "BB against": 1
+      },
+      "Sean Runyan": {
+        "IP": "0.2",
+        "PO": 1
+      },
+      "Matt Anderson": {
+        "IP": "1.1",
+        "SO against": 1
+      },
+      "Doug Brocail": {
+        "IP": "1.0"
+      }
+    },
+    "TEX": {
+      "Aaron Sele": {
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 5,
+        "ER": 3,
+        "HR allowed": 4,
+        "BB against": 2,
+        "SO against": 6,
+        "WP": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Esteban Loaiza": {
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 2,
+        "SO against": 3
+      },
+      "Tim Crabtree": {
+        "IP": "0.2"
+      },
+      "Danny Patterson": {
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 3
+      },
+      "John Wetteland": {
+        "SV": 1,
+        "IP": "0.2",
+        "SO against": 2
+      }
+    }
+  },
+  "batting_order": {
+    "DET": [
+      [
+        1,
+        "Juan Encarnacion"
+      ],
+      [
+        2,
+        "Bobby Higginson"
+      ],
+      [
+        3,
+        "Damion Easley"
+      ],
+      [
+        4,
+        "Tony Clark"
+      ],
+      [
+        5,
+        "Dean Palmer"
+      ],
+      [
+        6,
+        "Karim Garcia"
+      ],
+      [
+        7,
+        "Gabe Kapler"
+      ],
+      [
+        8,
+        "Bill Haselman"
+      ],
+      [
+        9,
+        "Deivi Cruz"
+      ],
+      [
+        9,
+        "Gregg Jefferies"
+      ],
+      [
+        9,
+        "Luis Garcia"
+      ]
+    ],
+    "TEX": [
+      [
+        1,
+        "Royce Clayton"
+      ],
+      [
+        2,
+        "Ivan Rodriguez"
+      ],
+      [
+        3,
+        "Rusty Greer"
+      ],
+      [
+        4,
+        "Juan Gonzalez"
+      ],
+      [
+        5,
+        "Rafael Palmeiro"
+      ],
+      [
+        6,
+        "Roberto Kelly"
+      ],
+      [
+        7,
+        "Todd Zeile"
+      ],
+      [
+        8,
+        "Lee Stevens"
+      ],
+      [
+        9,
+        "Luis Alicea"
+      ]
+    ]
+  },
+  "positions": {
+    "DET": {
+      "Juan Encarnacion": [
+        "7"
+      ],
+      "Damion Easley": [
+        "4"
+      ],
+      "Tony Clark": [
+        "3"
+      ],
+      "Dean Palmer": [
+        "5"
+      ],
+      "Karim Garcia": [
+        "9"
+      ],
+      "Gabe Kapler": [
+        "8"
+      ],
+      "Bill Haselman": [
+        "2"
+      ],
+      "Deivi Cruz": [
+        "6"
+      ],
+      "Gregg Jefferies": [
+        "PH"
+      ],
+      "Luis Garcia": [
+        "6"
+      ],
+      "Justin Thompson": [
+        "1"
+      ],
+      "Felipe Lira": [
+        "1"
+      ],
+      "Sean Runyan": [
+        "1"
+      ],
+      "Matt Anderson": [
+        "1"
+      ],
+      "Doug Brocail": [
+        "1"
+      ]
+    },
+    "TEX": {
+      "Royce Clayton": [
+        "6"
+      ],
+      "Ivan Rodriguez": [
+        "2"
+      ],
+      "Rusty Greer": [
+        "7"
+      ],
+      "Juan Gonzalez": [
+        "9"
+      ],
+      "Roberto Kelly": [
+        "8"
+      ],
+      "Todd Zeile": [
+        "5"
+      ],
+      "Lee Stevens": [
+        "3"
+      ],
+      "Luis Alicea": [
+        "4"
+      ],
+      "Aaron Sele": [
+        "1"
+      ],
+      "Esteban Loaiza": [
+        "1"
+      ],
+      "Tim Crabtree": [
+        "1"
+      ],
+      "Danny Patterson": [
+        "1"
+      ],
+      "John Wetteland": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "DET": {
+      "Juan Encarnacion": 1,
+      "Bobby Higginson": 1,
+      "Damion Easley": 1,
+      "Tony Clark": 1,
+      "Dean Palmer": 1,
+      "Karim Garcia": 1,
+      "Gabe Kapler": 1,
+      "Bill Haselman": 1,
+      "Deivi Cruz": 1,
+      "Justin Thompson": 1
+    },
+    "TEX": {
+      "Royce Clayton": 1,
+      "Ivan Rodriguez": 1,
+      "Rusty Greer": 1,
+      "Juan Gonzalez": 1,
+      "Rafael Palmeiro": 1,
+      "Roberto Kelly": 1,
+      "Todd Zeile": 1,
+      "Lee Stevens": 1,
+      "Luis Alicea": 1,
+      "Aaron Sele": 1
+    }
+  }
+}

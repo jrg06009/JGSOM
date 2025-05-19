@@ -10,184 +10,165 @@
     "COL": {
       "Darryl Hamilton": {
         "AB": 4,
-        "PO": 4
-      },
-      "Neifi Perez": {
-        "AB": 4,
+        "R": 1,
         "H": 1,
-        "PO": 2,
-        "A": 2
-      },
-      "Lenny Harris": {
-        "AB": 4,
-        "H": 1,
+        "BB": 1,
+        "SB": 1,
         "PO": 2
       },
+      "Neifi Perez": {
+        "AB": 5,
+        "PO": 1,
+        "A": 3,
+        "ERR": 1
+      },
+      "Pat Watkins": {
+        "AB": 2,
+        "R": 1,
+        "BB": 2
+      },
       "Dante Bichette": {
-        "AB": 4
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "RBI": 2,
+        "GDP": 1,
+        "PO": 1
       },
       "Vinny Castilla": {
         "AB": 4,
-        "R": 2,
-        "H": 2,
-        "2B": 1,
-        "SO": 1
+        "H": 2
       },
       "Todd Helton": {
-        "AB": 3,
-        "H": 2,
+        "AB": 4,
+        "H": 1,
         "RBI": 1,
-        "BB": 1,
-        "PO": 6
-      },
-      "Mike Lansing": {
-        "AB": 3,
-        "RBI": 1,
-        "SF": 1,
-        "PO": 2,
+        "SO": 2,
+        "PO": 10,
         "A": 1
       },
-      "Kirt Manwaring": {
-        "AB": 1,
-        "BB": 2,
-        "PO": 8,
-        "A": 1,
-        "ERR": 3,
-        "SB against": 1,
-        "CS against": 1
-      },
-      "Darryl Kile": {
-        "AB": 2,
+      "Mike Lansing": {
+        "AB": 4,
+        "SO": 2,
         "GDP": 1,
-        "L": 1,
-        "IP": "5.1",
-        "H allowed": 5,
-        "R against": 4,
-        "ER": 4,
-        "HR allowed": 2,
-        "BB against": 3,
-        "IBB against": 1,
-        "SO against": 5
+        "PO": 2,
+        "A": 5
       },
-      "Mike DeJean": {
-        "IP": "0.2",
-        "BB against": 1,
-        "CS against": 1
-      },
-      "Angel Echevarria": {
-        "AB": 1,
-        "GDP": 1
-      },
-      "Bobby Jones": {
-        "IP": "1.1",
-        "R against": 1,
-        "BB against": 1,
-        "SO against": 1,
-        "WP": 1,
+      "Kirt Manwaring": {
+        "AB": 2,
+        "BB": 2,
+        "PO": 10,
         "SB against": 1
       },
-      "Curt Leskanic": {
-        "IP": "0.2",
+      "Pedro Astacio": {
+        "AB": 2,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 1,
+        "SO against": 7,
+        "PO": 1,
+        "SB against": 1
+      },
+      "Jerry Dipoto": {
+        "IP": "1.0",
         "SO against": 1
+      },
+      "Lenny Harris": {
+        "AB": 1
+      },
+      "Dave Veres": {
+        "SV": 1,
+        "IP": "1.0",
+        "SO against": 2
       }
     },
     "SDP": {
       "Quilvio Veras": {
-        "AB": 3,
-        "R": 1,
-        "BB": 1,
-        "SO": 1,
-        "SB": 1,
-        "PO": 4,
-        "A": 3,
-        "DP": 1
+        "AB": 4,
+        "PO": 2,
+        "A": 5
       },
       "Reggie Sanders": {
         "AB": 4,
         "R": 1,
         "H": 1,
-        "HR": 1,
-        "RBI": 1,
-        "SO": 1,
-        "PO": 2
-      },
-      "Tony Gwynn": {
-        "AB": 4
-      },
-      "Wally Joyner": {
-        "AB": 3,
-        "R": 1,
-        "H": 2,
         "2B": 1,
-        "BB": 1,
-        "PO": 10,
-        "A": 1,
-        "DP": 2
-      },
-      "Greg Myers": {
-        "AB": 4,
-        "R": 1,
-        "H": 1,
-        "PO": 2
-      },
-      "George Arias": {
-        "AB": 4,
-        "SO": 3,
-        "PO": 1,
-        "A": 1,
-        "ERR": 1,
-        "DP": 1
-      },
-      "Ruben Rivera": {
-        "AB": 4,
-        "R": 1,
-        "H": 1,
-        "HR": 1,
-        "RBI": 3,
-        "SO": 1,
-        "PO": 3
-      },
-      "Chris Gomez": {
-        "AB": 1,
-        "BB": 2,
-        "IBB": 1,
-        "PO": 4,
-        "A": 4,
-        "DP": 1
-      },
-      "Andy Ashby": {
-        "AB": 2,
-        "SO": 1,
-        "W": 1,
-        "IP": "6.0",
-        "H allowed": 5,
-        "R against": 2,
-        "ER": 2,
-        "BB against": 1,
-        "SO against": 1,
+        "SO": 2,
+        "SB": 1,
         "PO": 1
       },
-      "John Vander Wal": {
-        "BB": 1
+      "Tony Gwynn": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1
       },
-      "Damian Jackson": {
-        "CS": 1
+      "Wally Joyner": {
+        "AB": 4,
+        "PO": 10,
+        "A": 1
       },
-      "Roberto Rivera": {
-        "BB against": 1
+      "Jim Leyritz": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 3,
+        "PO": 10,
+        "SB against": 1
       },
-      "Carlos Reyes": {
-        "IP": "1.0",
-        "BB against": 1
+      "George Arias": {
+        "AB": 2,
+        "SO": 2
       },
-      "Dan Miceli": {
-        "IP": "1.0",
+      "Dave Magadan": {
+        "AB": 1
+      },
+      "Ruben Rivera": {
+        "AB": 3,
+        "SO": 1,
+        "PO": 2
+      },
+      "Chris Gomez": {
+        "AB": 3,
+        "PO": 1,
+        "A": 3,
+        "ERR": 1
+      },
+      "Sterling Hitchcock": {
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "6.2",
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 6,
+        "SO against": 5,
+        "WP": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Donne Wall": {
+        "IP": "0.2",
         "H allowed": 1
       },
-      "Trevor Hoffman": {
-        "SV": 1,
-        "IP": "1.0",
-        "A": 1
+      "John Vander Wal": {
+        "AB": 1,
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1
+      },
+      "Brian Boehringer": {
+        "IP": "1.2",
+        "PO": 1
       }
     }
   },
@@ -204,7 +185,7 @@
       ],
       [
         3,
-        "Lenny Harris"
+        "Pat Watkins"
       ],
       [
         4,
@@ -228,23 +209,19 @@
       ],
       [
         9,
-        "Darryl Kile"
+        "Pedro Astacio"
       ],
       [
         9,
-        "Mike DeJean"
+        "Jerry Dipoto"
       ],
       [
         9,
-        "Angel Echevarria"
+        "Lenny Harris"
       ],
       [
         9,
-        "Bobby Jones"
-      ],
-      [
-        9,
-        "Curt Leskanic"
+        "Dave Veres"
       ]
     ],
     "SDP": [
@@ -266,11 +243,15 @@
       ],
       [
         5,
-        "Greg Myers"
+        "Jim Leyritz"
       ],
       [
         6,
         "George Arias"
+      ],
+      [
+        6,
+        "Dave Magadan"
       ],
       [
         7,
@@ -282,31 +263,31 @@
       ],
       [
         9,
-        "Andy Ashby"
+        "Sterling Hitchcock"
+      ],
+      [
+        9,
+        "Donne Wall"
       ],
       [
         9,
         "John Vander Wal"
       ],
       [
-        9,
-        "Damian Jackson"
-      ],
-      [
-        9,
+        7,
         "Roberto Rivera"
       ],
       [
-        9,
-        "Carlos Reyes"
+        7,
+        "Brian Boehringer"
       ],
       [
-        9,
-        "Dan Miceli"
+        2,
+        "Reggie Sanders"
       ],
       [
-        9,
-        "Trevor Hoffman"
+        6,
+        "Dave Magadan"
       ]
     ]
   },
@@ -318,7 +299,7 @@
       "Neifi Perez": [
         "6"
       ],
-      "Lenny Harris": [
+      "Pat Watkins": [
         "9"
       ],
       "Dante Bichette": [
@@ -336,19 +317,16 @@
       "Kirt Manwaring": [
         "2"
       ],
-      "Darryl Kile": [
+      "Pedro Astacio": [
         "1"
       ],
-      "Mike DeJean": [
+      "Jerry Dipoto": [
         "1"
       ],
-      "Angel Echevarria": [
+      "Lenny Harris": [
         "PH"
       ],
-      "Bobby Jones": [
-        "1"
-      ],
-      "Curt Leskanic": [
+      "Dave Veres": [
         "1"
       ]
     },
@@ -357,7 +335,8 @@
         "4"
       ],
       "Reggie Sanders": [
-        "7"
+        "7",
+        "8"
       ],
       "Tony Gwynn": [
         "9"
@@ -365,10 +344,14 @@
       "Wally Joyner": [
         "3"
       ],
-      "Greg Myers": [
+      "Jim Leyritz": [
         "2"
       ],
       "George Arias": [
+        "5"
+      ],
+      "Dave Magadan": [
+        "PH",
         "5"
       ],
       "Ruben Rivera": [
@@ -377,25 +360,19 @@
       "Chris Gomez": [
         "6"
       ],
-      "Andy Ashby": [
+      "Sterling Hitchcock": [
+        "1"
+      ],
+      "Donne Wall": [
         "1"
       ],
       "John Vander Wal": [
-        "PH"
-      ],
-      "Damian Jackson": [
-        "PR"
+        "7"
       ],
       "Roberto Rivera": [
         "1"
       ],
-      "Carlos Reyes": [
-        "1"
-      ],
-      "Dan Miceli": [
-        "1"
-      ],
-      "Trevor Hoffman": [
+      "Brian Boehringer": [
         "1"
       ]
     }
@@ -404,24 +381,24 @@
     "COL": {
       "Darryl Hamilton": 1,
       "Neifi Perez": 1,
-      "Lenny Harris": 1,
+      "Pat Watkins": 1,
       "Dante Bichette": 1,
       "Vinny Castilla": 1,
       "Todd Helton": 1,
       "Mike Lansing": 1,
       "Kirt Manwaring": 1,
-      "Darryl Kile": 1
+      "Pedro Astacio": 1
     },
     "SDP": {
       "Quilvio Veras": 1,
       "Reggie Sanders": 1,
       "Tony Gwynn": 1,
       "Wally Joyner": 1,
-      "Greg Myers": 1,
+      "Jim Leyritz": 1,
       "George Arias": 1,
       "Ruben Rivera": 1,
       "Chris Gomez": 1,
-      "Andy Ashby": 1
+      "Sterling Hitchcock": 1
     }
   }
 }

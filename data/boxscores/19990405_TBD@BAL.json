@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "TBD": {
+      "Randy Winn": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "SO": 3,
+        "PO": 5,
+        "A": 1,
+        "DP": 1
+      },
+      "Dave Martinez": {
+        "AB": 5,
+        "R": 2,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Jose Canseco": {
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "BB": 1
+      },
+      "Fred McGriff": {
+        "AB": 4,
+        "R": 3,
+        "H": 3,
+        "RBI": 1,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 5,
+        "A": 2,
+        "ERR": 1,
+        "DP": 1
+      },
+      "John Flaherty": {
+        "AB": 5,
+        "H": 1,
+        "RBI": 1,
+        "PO": 4,
+        "DP": 1,
+        "PB": 1
+      },
+      "Wade Boggs": {
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 3,
+        "SO": 1
+      },
+      "Paul Sorrento": {
+        "AB": 3,
+        "H": 2,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Quinton McCracken": {
+        "AB": 2,
+        "RBI": 1,
+        "CS": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Miguel Cairo": {
+        "AB": 5,
+        "H": 1,
+        "SO": 2,
+        "PO": 6,
+        "A": 2,
+        "DP": 1
+      },
+      "Kevin Stocker": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "SO": 2,
+        "SB": 1,
+        "PO": 1,
+        "A": 5,
+        "DP": 1
+      }
+    },
+    "BAL": {
+      "Brady Anderson": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "BB": 2
+      },
+      "Mike Bordick": {
+        "AB": 3,
+        "H": 2,
+        "RBI": 1,
+        "BB": 2,
+        "PO": 2,
+        "A": 6,
+        "DP": 2
+      },
+      "Will Clark": {
+        "AB": 5,
+        "SO": 1,
+        "PO": 7,
+        "A": 1,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Albert Belle": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 1
+      },
+      "Jeff Conine": {
+        "AB": 4,
+        "RBI": 1,
+        "SF": 1
+      },
+      "Cal Ripken Jr": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1
+      },
+      "B.J. Surhoff": {
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 3
+      },
+      "Charles Johnson": {
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 10,
+        "A": 1,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "Jeff Reboulet": {
+        "AB": 1,
+        "R": 2,
+        "BB": 2,
+        "PO": 3,
+        "A": 4,
+        "ERR": 1,
+        "TP": 1
+      },
+      "Harold Baines": {
+        "AB": 1,
+        "GDP": 1
+      }
+    }
+  },
+  "pitching": {
+    "TBD": {
+      "Wilson Alvarez": {
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 4,
+        "ER": 4,
+        "BB against": 6,
+        "IBB against": 1,
+        "SO against": 1
+      },
+      "Mike Duvall": {
+        "W": 1,
+        "IP": "2.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 1,
+        "PO": 2
+      },
+      "Rick White": {
+        "IP": "3.0",
+        "H allowed": 2,
+        "SO against": 1
+      },
+      "Jim Mecir": {
+        "IP": "2.0",
+        "BB against": 1
+      }
+    },
+    "BAL": {
+      "Mike Mussina": {
+        "L": 1,
+        "IP": "3.1",
+        "H allowed": 12,
+        "R against": 8,
+        "ER": 6,
+        "BB against": 1,
+        "SO against": 5,
+        "PO": 1
+      },
+      "Heathcliff Slocumb": {
+        "IP": "1.2",
+        "SO against": 3
+      },
+      "Jesse Orosco": {
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1
+      },
+      "Ricky Bones": {
+        "IP": "1.2",
+        "H allowed": 3,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "Doug Johns": {
+        "IP": "2.0",
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "TBD": [
+      [
+        1,
+        "Randy Winn"
+      ],
+      [
+        2,
+        "Dave Martinez"
+      ],
+      [
+        3,
+        "Jose Canseco"
+      ],
+      [
+        4,
+        "Fred McGriff"
+      ],
+      [
+        5,
+        "John Flaherty"
+      ],
+      [
+        6,
+        "Wade Boggs"
+      ],
+      [
+        7,
+        "Paul Sorrento"
+      ],
+      [
+        7,
+        "Quinton McCracken"
+      ],
+      [
+        7,
+        "Quinton McCracken"
+      ],
+      [
+        8,
+        "Miguel Cairo"
+      ],
+      [
+        9,
+        "Kevin Stocker"
+      ]
+    ],
+    "BAL": [
+      [
+        1,
+        "Brady Anderson"
+      ],
+      [
+        2,
+        "Mike Bordick"
+      ],
+      [
+        3,
+        "Will Clark"
+      ],
+      [
+        4,
+        "Albert Belle"
+      ],
+      [
+        5,
+        "Jeff Conine"
+      ],
+      [
+        6,
+        "Cal Ripken Jr"
+      ],
+      [
+        7,
+        "B.J. Surhoff"
+      ],
+      [
+        8,
+        "Charles Johnson"
+      ],
+      [
+        9,
+        "Jeff Reboulet"
+      ],
+      [
+        9,
+        "Harold Baines"
+      ]
+    ]
+  },
+  "positions": {
+    "TBD": {
+      "Randy Winn": [
+        "8"
+      ],
+      "Dave Martinez": [
+        "9"
+      ],
+      "Fred McGriff": [
+        "3"
+      ],
+      "John Flaherty": [
+        "2"
+      ],
+      "Wade Boggs": [
+        "5"
+      ],
+      "Paul Sorrento": [
+        "7"
+      ],
+      "Quinton McCracken": [
+        "PH",
+        "7"
+      ],
+      "Miguel Cairo": [
+        "4"
+      ],
+      "Kevin Stocker": [
+        "6"
+      ],
+      "Wilson Alvarez": [
+        "1"
+      ],
+      "Mike Duvall": [
+        "1"
+      ],
+      "Rick White": [
+        "1"
+      ],
+      "Jim Mecir": [
+        "1"
+      ]
+    },
+    "BAL": {
+      "Brady Anderson": [
+        "8"
+      ],
+      "Mike Bordick": [
+        "6"
+      ],
+      "Will Clark": [
+        "3"
+      ],
+      "Albert Belle": [
+        "9"
+      ],
+      "Cal Ripken Jr": [
+        "5"
+      ],
+      "B.J. Surhoff": [
+        "7"
+      ],
+      "Charles Johnson": [
+        "2"
+      ],
+      "Jeff Reboulet": [
+        "4"
+      ],
+      "Harold Baines": [
+        "PH"
+      ],
+      "Mike Mussina": [
+        "1"
+      ],
+      "Heathcliff Slocumb": [
+        "1"
+      ],
+      "Jesse Orosco": [
+        "1"
+      ],
+      "Ricky Bones": [
+        "1"
+      ],
+      "Doug Johns": [
+        "1"
+      ],
+      "Jesse Garcia": [
+        "4"
+      ]
+    }
+  },
+  "games_started": {
+    "TBD": {
+      "Randy Winn": 1,
+      "Dave Martinez": 1,
+      "Jose Canseco": 1,
+      "Fred McGriff": 1,
+      "John Flaherty": 1,
+      "Wade Boggs": 1,
+      "Paul Sorrento": 1,
+      "Miguel Cairo": 1,
+      "Kevin Stocker": 1,
+      "Wilson Alvarez": 1
+    },
+    "BAL": {
+      "Brady Anderson": 1,
+      "Mike Bordick": 1,
+      "Will Clark": 1,
+      "Albert Belle": 1,
+      "Jeff Conine": 1,
+      "Cal Ripken Jr": 1,
+      "B.J. Surhoff": 1,
+      "Charles Johnson": 1,
+      "Jeff Reboulet": 1,
+      "Mike Mussina": 1
+    }
+  }
+}

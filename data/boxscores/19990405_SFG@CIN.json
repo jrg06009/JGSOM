@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "SFG": {
+      "Marvin Benard": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 2,
+        "SO": 1,
+        "PO": 2
+      },
+      "Bill Mueller": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SB": 1,
+        "GDP": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Barry Bonds": {
+        "AB": 2,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 2,
+        "IBB": 2,
+        "SO": 1,
+        "PO": 1
+      },
+      "Jeff Kent": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "PO": 2,
+        "A": 1,
+        "DP": 1
+      },
+      "J.T. Snow": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "GDP": 1,
+        "PO": 5,
+        "DP": 1
+      },
+      "Ellis Burks": {
+        "AB": 3,
+        "BB": 1,
+        "SO": 3,
+        "PO": 5
+      },
+      "Brent Mayne": {
+        "AB": 4,
+        "SO": 2,
+        "PO": 10
+      },
+      "Rich Aurilia": {
+        "AB": 3,
+        "BB": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Mark Gardner": {
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "W": 1,
+        "IP": "7.1",
+        "H allowed": 5,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 8,
+        "HBP against": 1,
+        "A": 1
+      },
+      "Alan Embree": {
+        "IP": "0.2"
+      },
+      "Stan Javier": {
+        "AB": 1
+      },
+      "John Johnstone": {
+        "IP": "1.0",
+        "SO against": 1
+      }
+    },
+    "CIN": {
+      "Mike Cameron": {
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 3
+      },
+      "Barry Larkin": {
+        "AB": 4,
+        "H": 1,
+        "A": 4,
+        "DP": 2
+      },
+      "Sean Casey": {
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 8,
+        "DP": 3
+      },
+      "Greg Vaughn": {
+        "AB": 4,
+        "SO": 4,
+        "PO": 3
+      },
+      "Dmitri Young": {
+        "AB": 4,
+        "PO": 1
+      },
+      "Ed Taubensee": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 8,
+        "A": 1,
+        "SB against": 1
+      },
+      "Aaron Boone": {
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Pokey Reese": {
+        "AB": 2,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 4,
+        "A": 3,
+        "DP": 3
+      },
+      "Brett Tomko": {
+        "AB": 1,
+        "SH": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 4,
+        "R against": 4,
+        "ER": 4,
+        "BB against": 4,
+        "IBB against": 2,
+        "SO against": 6,
+        "SB against": 1
+      },
+      "Dennys Reyes": {
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Scott Sullivan": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 2,
+        "A": 1
+      },
+      "Mark Sweeney": {
+        "AB": 1,
+        "SO": 1
+      },
+      "Scott Williamson": {
+        "IP": "1.0",
+        "BB against": 2
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "SFG": [
+      [
+        1,
+        "Marvin Benard"
+      ],
+      [
+        2,
+        "Bill Mueller"
+      ],
+      [
+        3,
+        "Barry Bonds"
+      ],
+      [
+        4,
+        "Jeff Kent"
+      ],
+      [
+        5,
+        "J.T. Snow"
+      ],
+      [
+        6,
+        "Ellis Burks"
+      ],
+      [
+        7,
+        "Brent Mayne"
+      ],
+      [
+        8,
+        "Rich Aurilia"
+      ],
+      [
+        9,
+        "Mark Gardner"
+      ],
+      [
+        9,
+        "Alan Embree"
+      ],
+      [
+        9,
+        "Stan Javier"
+      ],
+      [
+        9,
+        "John Johnstone"
+      ]
+    ],
+    "CIN": [
+      [
+        1,
+        "Mike Cameron"
+      ],
+      [
+        2,
+        "Barry Larkin"
+      ],
+      [
+        3,
+        "Sean Casey"
+      ],
+      [
+        4,
+        "Greg Vaughn"
+      ],
+      [
+        5,
+        "Dmitri Young"
+      ],
+      [
+        6,
+        "Ed Taubensee"
+      ],
+      [
+        7,
+        "Aaron Boone"
+      ],
+      [
+        8,
+        "Pokey Reese"
+      ],
+      [
+        9,
+        "Brett Tomko"
+      ],
+      [
+        9,
+        "Dennys Reyes"
+      ],
+      [
+        9,
+        "Scott Sullivan"
+      ],
+      [
+        9,
+        "Mark Sweeney"
+      ],
+      [
+        9,
+        "Scott Williamson"
+      ]
+    ]
+  },
+  "positions": {
+    "SFG": {
+      "Marvin Benard": [
+        "8"
+      ],
+      "Bill Mueller": [
+        "5"
+      ],
+      "Barry Bonds": [
+        "7"
+      ],
+      "Jeff Kent": [
+        "4"
+      ],
+      "J.T. Snow": [
+        "3"
+      ],
+      "Ellis Burks": [
+        "9"
+      ],
+      "Brent Mayne": [
+        "2"
+      ],
+      "Rich Aurilia": [
+        "6"
+      ],
+      "Mark Gardner": [
+        "1"
+      ],
+      "Alan Embree": [
+        "1"
+      ],
+      "Stan Javier": [
+        "PH"
+      ],
+      "John Johnstone": [
+        "1"
+      ]
+    },
+    "CIN": {
+      "Mike Cameron": [
+        "8"
+      ],
+      "Barry Larkin": [
+        "6"
+      ],
+      "Sean Casey": [
+        "3"
+      ],
+      "Greg Vaughn": [
+        "7"
+      ],
+      "Dmitri Young": [
+        "9"
+      ],
+      "Ed Taubensee": [
+        "2"
+      ],
+      "Aaron Boone": [
+        "5"
+      ],
+      "Pokey Reese": [
+        "4"
+      ],
+      "Brett Tomko": [
+        "1"
+      ],
+      "Dennys Reyes": [
+        "1"
+      ],
+      "Scott Sullivan": [
+        "1"
+      ],
+      "Mark Sweeney": [
+        "PH"
+      ],
+      "Scott Williamson": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "SFG": {
+      "Marvin Benard": 1,
+      "Bill Mueller": 1,
+      "Barry Bonds": 1,
+      "Jeff Kent": 1,
+      "J.T. Snow": 1,
+      "Ellis Burks": 1,
+      "Brent Mayne": 1,
+      "Rich Aurilia": 1,
+      "Mark Gardner": 1
+    },
+    "CIN": {
+      "Mike Cameron": 1,
+      "Barry Larkin": 1,
+      "Sean Casey": 1,
+      "Greg Vaughn": 1,
+      "Dmitri Young": 1,
+      "Ed Taubensee": 1,
+      "Aaron Boone": 1,
+      "Pokey Reese": 1,
+      "Brett Tomko": 1
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "CHW": {
+      "Ray Durham": {
+        "AB": 5,
+        "A": 1
+      },
+      "Mike Caruso": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "PO": 2,
+        "A": 3,
+        "DP": 1
+      },
+      "Frank Thomas": {
+        "AB": 4,
+        "SO": 2
+      },
+      "Paul Konerko": {
+        "AB": 3,
+        "BB": 1,
+        "PO": 6,
+        "A": 1,
+        "DP": 1
+      },
+      "Magglio Ordonez": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "GDP": 1
+      },
+      "Greg Norton": {
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "ERR": 2
+      },
+      "Jeff Abbott": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Darrin Jackson": {
+        "AB": 4,
+        "H": 2,
+        "RBI": 1,
+        "PO": 4
+      },
+      "Brook Fordyce": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 9,
+        "A": 1,
+        "SB against": 1
+      }
+    },
+    "SEA": {
+      "Carlos Guillen": {
+        "AB": 5,
+        "H": 1,
+        "SO": 2,
+        "PO": 5,
+        "A": 3,
+        "DP": 2
+      },
+      "Alex Rodriguez": {
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 1,
+        "SO": 2,
+        "SB": 1,
+        "PO": 1,
+        "A": 4,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Ken Griffey Jr": {
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 2
+      },
+      "Edgar Martinez": {
+        "AB": 4,
+        "H": 1,
+        "RBI": 2,
+        "BB": 1
+      },
+      "David Segui": {
+        "AB": 3,
+        "R": 2,
+        "BB": 2,
+        "SO": 2,
+        "PO": 9,
+        "DP": 2
+      },
+      "Jay Buhner": {
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 2,
+        "PO": 5
+      },
+      "Russ Davis": {
+        "AB": 4,
+        "BB": 1,
+        "SO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Butch Huskey": {
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "SO": 1,
+        "ERR": 1
+      },
+      "Tom Lampkin": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "GDP": 1,
+        "PO": 5
+      }
+    }
+  },
+  "pitching": {
+    "CHW": {
+      "Jim Parque": {
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 5,
+        "ER": 5,
+        "BB against": 3,
+        "SO against": 3,
+        "WP": 1,
+        "A": 1,
+        "DP": 1,
+        "SB against": 1
+      },
+      "Sean Lowe": {
+        "IP": "2.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 2,
+        "WP": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Bill Simas": {
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Keith Foulke": {
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 1
+      }
+    },
+    "SEA": {
+      "Jamie Moyer": {
+        "W": 1,
+        "IP": "6.2",
+        "H allowed": 6,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 2,
+        "A": 2
+      },
+      "Jose Paniagua": {
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "John Halama": {
+        "IP": "1.0",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CHW": [
+      [
+        1,
+        "Ray Durham"
+      ],
+      [
+        2,
+        "Mike Caruso"
+      ],
+      [
+        3,
+        "Frank Thomas"
+      ],
+      [
+        4,
+        "Paul Konerko"
+      ],
+      [
+        5,
+        "Magglio Ordonez"
+      ],
+      [
+        6,
+        "Greg Norton"
+      ],
+      [
+        7,
+        "Jeff Abbott"
+      ],
+      [
+        8,
+        "Darrin Jackson"
+      ],
+      [
+        9,
+        "Brook Fordyce"
+      ]
+    ],
+    "SEA": [
+      [
+        1,
+        "Carlos Guillen"
+      ],
+      [
+        2,
+        "Alex Rodriguez"
+      ],
+      [
+        3,
+        "Ken Griffey Jr"
+      ],
+      [
+        4,
+        "Edgar Martinez"
+      ],
+      [
+        5,
+        "David Segui"
+      ],
+      [
+        6,
+        "Jay Buhner"
+      ],
+      [
+        7,
+        "Russ Davis"
+      ],
+      [
+        8,
+        "Butch Huskey"
+      ],
+      [
+        8,
+        "John Mabry"
+      ],
+      [
+        9,
+        "Tom Lampkin"
+      ]
+    ]
+  },
+  "positions": {
+    "CHW": {
+      "Ray Durham": [
+        "4"
+      ],
+      "Mike Caruso": [
+        "6"
+      ],
+      "Paul Konerko": [
+        "3"
+      ],
+      "Magglio Ordonez": [
+        "9"
+      ],
+      "Greg Norton": [
+        "5"
+      ],
+      "Jeff Abbott": [
+        "7"
+      ],
+      "Darrin Jackson": [
+        "8"
+      ],
+      "Brook Fordyce": [
+        "2"
+      ],
+      "Jim Parque": [
+        "1"
+      ],
+      "Sean Lowe": [
+        "1"
+      ],
+      "Bill Simas": [
+        "1"
+      ],
+      "Keith Foulke": [
+        "1"
+      ]
+    },
+    "SEA": {
+      "Carlos Guillen": [
+        "4"
+      ],
+      "Alex Rodriguez": [
+        "6"
+      ],
+      "Ken Griffey Jr": [
+        "8"
+      ],
+      "David Segui": [
+        "3"
+      ],
+      "Jay Buhner": [
+        "9"
+      ],
+      "Russ Davis": [
+        "5"
+      ],
+      "Butch Huskey": [
+        "7"
+      ],
+      "John Mabry": [
+        "7"
+      ],
+      "Tom Lampkin": [
+        "2"
+      ],
+      "Jamie Moyer": [
+        "1"
+      ],
+      "Jose Paniagua": [
+        "1"
+      ],
+      "John Halama": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CHW": {
+      "Ray Durham": 1,
+      "Mike Caruso": 1,
+      "Frank Thomas": 1,
+      "Paul Konerko": 1,
+      "Magglio Ordonez": 1,
+      "Greg Norton": 1,
+      "Jeff Abbott": 1,
+      "Darrin Jackson": 1,
+      "Brook Fordyce": 1,
+      "Jim Parque": 1
+    },
+    "SEA": {
+      "Carlos Guillen": 1,
+      "Alex Rodriguez": 1,
+      "Ken Griffey Jr": 1,
+      "Edgar Martinez": 1,
+      "David Segui": 1,
+      "Jay Buhner": 1,
+      "Russ Davis": 1,
+      "Butch Huskey": 1,
+      "Tom Lampkin": 1,
+      "Jamie Moyer": 1
+    }
+  }
+}

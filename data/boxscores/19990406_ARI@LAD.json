@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "ARI": {
+      "Steve Finley": {
+        "AB": 5,
+        "SO": 1,
+        "PO": 2
+      },
+      "Jay Bell": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 3
+      },
+      "Travis Lee": {
+        "AB": 4,
+        "BB": 1,
+        "SO": 1,
+        "PO": 12,
+        "ERR": 1
+      },
+      "Matt Williams": {
+        "AB": 5,
+        "SO": 1,
+        "A": 2
+      },
+      "Luis Gonzalez": {
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1
+      },
+      "Bernard Gilkey": {
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 1,
+        "SO": 2,
+        "SB": 1,
+        "PO": 1
+      },
+      "Tony Batista": {
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Damian Miller": {
+        "AB": 5,
+        "H": 2,
+        "SO": 2,
+        "PO": 9,
+        "A": 1,
+        "SB against": 2,
+        "CS against": 1
+      },
+      "Todd Stottlemyre": {
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "IP": "7.0",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 2,
+        "SO against": 7,
+        "HBP against": 1,
+        "A": 2,
+        "SB against": 1,
+        "CS against": 1,
+        "Pko": 1
+      },
+      "Andy Fox": {
+        "BB": 1
+      },
+      "Darren Holmes": {
+        "IP": "0.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SB against": 1
+      },
+      "Greg Swindell": {
+        "IP": "1.2",
+        "BB against": 1,
+        "SO against": 1
+      },
+      "David Dellucci": {
+        "AB": 1
+      },
+      "Gregg Olson": {
+        "L": 1,
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1
+      }
+    },
+    "LAD": {
+      "Eric Young": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "3B": 1,
+        "RBI": 2,
+        "SB": 1,
+        "HBP": 1,
+        "A": 2
+      },
+      "Todd Hundley": {
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 10,
+        "SB against": 1
+      },
+      "Gary Sheffield": {
+        "AB": 4,
+        "SO": 3,
+        "PO": 2,
+        "ERR": 1
+      },
+      "Raul Mondesi": {
+        "AB": 4,
+        "SO": 2,
+        "CS": 1,
+        "PO": 3
+      },
+      "Devon White": {
+        "AB": 4,
+        "PO": 1
+      },
+      "Eric Karros": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
+        "SO": 1,
+        "PO": 10,
+        "A": 1
+      },
+      "Mark Grudzielanek": {
+        "AB": 4,
+        "SO": 1,
+        "PO": 1,
+        "A": 4
+      },
+      "Adrian Beltre": {
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Chan Ho Park": {
+        "AB": 1,
+        "SO": 1,
+        "IP": "5.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 4,
+        "SO against": 6,
+        "PO": 1,
+        "A": 2,
+        "SB against": 1
+      },
+      "Mel Rojas": {
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "IBB against": 1
+      },
+      "Jose Vizcaino": {
+        "AB": 1
+      },
+      "Onan Masaoka": {
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Dave Mlicki": {
+        "IP": "0.1",
+        "H allowed": 1,
+        "BB against": 2,
+        "PO": 1
+      },
+      "Pedro Borbon": {
+        "IP": "0.1"
+      },
+      "Rick Wilkins": {
+        "AB": 1,
+        "H": 1
+      },
+      "Jacob Brumfield": {
+        "R": 1,
+        "SB": 1
+      },
+      "Jeff Shaw": {
+        "W": 1,
+        "IP": "2.0",
+        "H allowed": 2,
+        "SO against": 2
+      },
+      "Tripp Cromer": {
+        "AB": 1,
+        "H": 1
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "ARI": [
+      [
+        1,
+        "Steve Finley"
+      ],
+      [
+        2,
+        "Jay Bell"
+      ],
+      [
+        3,
+        "Travis Lee"
+      ],
+      [
+        4,
+        "Matt Williams"
+      ],
+      [
+        5,
+        "Luis Gonzalez"
+      ],
+      [
+        6,
+        "Bernard Gilkey"
+      ],
+      [
+        7,
+        "Tony Batista"
+      ],
+      [
+        8,
+        "Damian Miller"
+      ],
+      [
+        9,
+        "Todd Stottlemyre"
+      ],
+      [
+        9,
+        "Andy Fox"
+      ],
+      [
+        9,
+        "Darren Holmes"
+      ],
+      [
+        9,
+        "Greg Swindell"
+      ],
+      [
+        9,
+        "David Dellucci"
+      ],
+      [
+        9,
+        "Gregg Olson"
+      ]
+    ],
+    "LAD": [
+      [
+        1,
+        "Eric Young"
+      ],
+      [
+        2,
+        "Todd Hundley"
+      ],
+      [
+        3,
+        "Gary Sheffield"
+      ],
+      [
+        4,
+        "Raul Mondesi"
+      ],
+      [
+        5,
+        "Devon White"
+      ],
+      [
+        6,
+        "Eric Karros"
+      ],
+      [
+        7,
+        "Mark Grudzielanek"
+      ],
+      [
+        8,
+        "Adrian Beltre"
+      ],
+      [
+        9,
+        "Chan Ho Park"
+      ],
+      [
+        9,
+        "Dave Hansen"
+      ],
+      [
+        9,
+        "Mel Rojas"
+      ],
+      [
+        9,
+        "Jose Vizcaino"
+      ],
+      [
+        9,
+        "Onan Masaoka"
+      ],
+      [
+        9,
+        "Dave Mlicki"
+      ],
+      [
+        9,
+        "Pedro Borbon"
+      ],
+      [
+        9,
+        "Rick Wilkins"
+      ],
+      [
+        9,
+        "Jacob Brumfield"
+      ],
+      [
+        9,
+        "Jeff Shaw"
+      ],
+      [
+        9,
+        "Tripp Cromer"
+      ]
+    ]
+  },
+  "positions": {
+    "ARI": {
+      "Steve Finley": [
+        "8"
+      ],
+      "Jay Bell": [
+        "4"
+      ],
+      "Travis Lee": [
+        "3"
+      ],
+      "Matt Williams": [
+        "5"
+      ],
+      "Luis Gonzalez": [
+        "7"
+      ],
+      "Bernard Gilkey": [
+        "9"
+      ],
+      "Tony Batista": [
+        "6"
+      ],
+      "Damian Miller": [
+        "2"
+      ],
+      "Todd Stottlemyre": [
+        "1"
+      ],
+      "Andy Fox": [
+        "PH"
+      ],
+      "Darren Holmes": [
+        "1"
+      ],
+      "Greg Swindell": [
+        "1"
+      ],
+      "David Dellucci": [
+        "PH"
+      ],
+      "Gregg Olson": [
+        "1"
+      ]
+    },
+    "LAD": {
+      "Eric Young": [
+        "4"
+      ],
+      "Todd Hundley": [
+        "2"
+      ],
+      "Gary Sheffield": [
+        "7"
+      ],
+      "Raul Mondesi": [
+        "9"
+      ],
+      "Devon White": [
+        "8"
+      ],
+      "Eric Karros": [
+        "3"
+      ],
+      "Mark Grudzielanek": [
+        "6"
+      ],
+      "Adrian Beltre": [
+        "5"
+      ],
+      "Chan Ho Park": [
+        "1"
+      ],
+      "Dave Hansen": [
+        "PH"
+      ],
+      "Mel Rojas": [
+        "1"
+      ],
+      "Jose Vizcaino": [
+        "PH"
+      ],
+      "Onan Masaoka": [
+        "1"
+      ],
+      "Dave Mlicki": [
+        "1"
+      ],
+      "Pedro Borbon": [
+        "1"
+      ],
+      "Rick Wilkins": [
+        "PH"
+      ],
+      "Jacob Brumfield": [
+        "PR"
+      ],
+      "Jeff Shaw": [
+        "1"
+      ],
+      "Tripp Cromer": [
+        "PH"
+      ]
+    }
+  },
+  "games_started": {
+    "ARI": {
+      "Steve Finley": 1,
+      "Jay Bell": 1,
+      "Travis Lee": 1,
+      "Matt Williams": 1,
+      "Luis Gonzalez": 1,
+      "Bernard Gilkey": 1,
+      "Tony Batista": 1,
+      "Damian Miller": 1,
+      "Todd Stottlemyre": 1
+    },
+    "LAD": {
+      "Eric Young": 1,
+      "Todd Hundley": 1,
+      "Gary Sheffield": 1,
+      "Raul Mondesi": 1,
+      "Devon White": 1,
+      "Eric Karros": 1,
+      "Mark Grudzielanek": 1,
+      "Adrian Beltre": 1,
+      "Chan Ho Park": 1
+    }
+  }
+}

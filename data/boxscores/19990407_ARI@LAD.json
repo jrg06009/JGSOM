@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "date": "",
+    "home": "",
+    "away": "",
+    "home_score": "",
+    "away_score": ""
+  },
+  "batting": {
+    "ARI": {
+      "Steve Finley": {
+        "AB": 3,
+        "H": 1,
+        "3B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "CS": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Jay Bell": {
+        "AB": 4,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Travis Lee": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "PO": 4,
+        "ERR": 1
+      },
+      "Matt Williams": {
+        "AB": 2,
+        "R": 1,
+        "BB": 2,
+        "SO": 2,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Luis Gonzalez": {
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Bernard Gilkey": {
+        "AB": 3,
+        "SO": 2,
+        "PO": 1
+      },
+      "Brian Anderson": {
+        "IP": "3.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 2,
+        "HBP against": 1
+      },
+      "Andy Fox": {
+        "AB": 1
+      },
+      "Kelly Stinnett": {
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "HBP": 1,
+        "PO": 7,
+        "A": 2,
+        "CS against": 2
+      },
+      "Tony Batista": {
+        "AB": 2,
+        "PO": 2,
+        "A": 2
+      },
+      "John Frascatore": {
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "HBP against": 1
+      },
+      "David Dellucci": {
+        "AB": 2,
+        "PO": 2
+      },
+      "Andy Benes": {
+        "SH": 1,
+        "L": 1,
+        "IP": "3.2",
+        "H allowed": 10,
+        "R against": 6,
+        "ER": 6,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "WP": 1,
+        "CS against": 2
+      },
+      "Hanley Frias": {
+        "AB": 3,
+        "PO": 1,
+        "ERR": 1
+      }
+    },
+    "LAD": {
+      "Eric Young": {
+        "AB": 5,
+        "R": 2,
+        "H": 4,
+        "2B": 2,
+        "RBI": 1,
+        "CS": 2,
+        "PO": 1,
+        "A": 2
+      },
+      "Alan Mills": {
+        "IP": "2.0",
+        "BB against": 1
+      },
+      "Devon White": {
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 2,
+        "PO": 2
+      },
+      "Gary Sheffield": {
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "HBP": 1,
+        "PO": 1
+      },
+      "Raul Mondesi": {
+        "AB": 5,
+        "H": 1,
+        "RBI": 1,
+        "PO": 3
+      },
+      "Todd Hundley": {
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 7,
+        "A": 1,
+        "CS against": 1
+      },
+      "Paul Lo Duca": {
+        "AB": 1,
+        "A": 1
+      },
+      "Eric Karros": {
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "PO": 8
+      },
+      "Mark Grudzielanek": {
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "2B": 2,
+        "RBI": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Adrian Beltre": {
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 2,
+        "PO": 2,
+        "A": 2,
+        "ERR": 1
+      },
+      "Ismael Valdez": {
+        "AB": 3,
+        "SO": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 4,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 1,
+        "BB against": 3,
+        "SO against": 6,
+        "HBP against": 1,
+        "CS against": 1
+      },
+      "Jose Vizcaino": {
+        "AB": 1,
+        "PO": 1
+      }
+    }
+  },
+  "pitching": {},
+  "batting_order": {
+    "ARI": [
+      [
+        1,
+        "Steve Finley"
+      ],
+      [
+        2,
+        "Jay Bell"
+      ],
+      [
+        3,
+        "Travis Lee"
+      ],
+      [
+        4,
+        "Matt Williams"
+      ],
+      [
+        5,
+        "Luis Gonzalez"
+      ],
+      [
+        6,
+        "Bernard Gilkey"
+      ],
+      [
+        6,
+        "Brian Anderson"
+      ],
+      [
+        6,
+        "Andy Fox"
+      ],
+      [
+        7,
+        "Kelly Stinnett"
+      ],
+      [
+        8,
+        "Tony Batista"
+      ],
+      [
+        8,
+        "John Frascatore"
+      ],
+      [
+        8,
+        "David Dellucci"
+      ],
+      [
+        9,
+        "Andy Benes"
+      ],
+      [
+        9,
+        "Hanley Frias"
+      ]
+    ],
+    "LAD": [
+      [
+        1,
+        "Eric Young"
+      ],
+      [
+        1,
+        "Alan Mills"
+      ],
+      [
+        2,
+        "Devon White"
+      ],
+      [
+        3,
+        "Gary Sheffield"
+      ],
+      [
+        4,
+        "Raul Mondesi"
+      ],
+      [
+        5,
+        "Todd Hundley"
+      ],
+      [
+        5,
+        "Paul Lo Duca"
+      ],
+      [
+        6,
+        "Eric Karros"
+      ],
+      [
+        7,
+        "Mark Grudzielanek"
+      ],
+      [
+        8,
+        "Adrian Beltre"
+      ],
+      [
+        9,
+        "Ismael Valdez"
+      ],
+      [
+        9,
+        "Jose Vizcaino"
+      ],
+      [
+        9,
+        "Jose Vizcaino"
+      ]
+    ]
+  },
+  "positions": {
+    "ARI": {
+      "Steve Finley": [
+        "8"
+      ],
+      "Jay Bell": [
+        "4"
+      ],
+      "Travis Lee": [
+        "3"
+      ],
+      "Matt Williams": [
+        "5"
+      ],
+      "Luis Gonzalez": [
+        "7"
+      ],
+      "Bernard Gilkey": [
+        "9"
+      ],
+      "Brian Anderson": [
+        "1"
+      ],
+      "Andy Fox": [
+        "PH"
+      ],
+      "Kelly Stinnett": [
+        "2"
+      ],
+      "Tony Batista": [
+        "6"
+      ],
+      "John Frascatore": [
+        "1"
+      ],
+      "David Dellucci": [
+        "9"
+      ],
+      "Andy Benes": [
+        "1"
+      ],
+      "Hanley Frias": [
+        "6"
+      ]
+    },
+    "LAD": {
+      "Eric Young": [
+        "4"
+      ],
+      "Alan Mills": [
+        "1"
+      ],
+      "Devon White": [
+        "8"
+      ],
+      "Gary Sheffield": [
+        "7"
+      ],
+      "Raul Mondesi": [
+        "9"
+      ],
+      "Todd Hundley": [
+        "2"
+      ],
+      "Paul Lo Duca": [
+        "2"
+      ],
+      "Eric Karros": [
+        "3"
+      ],
+      "Mark Grudzielanek": [
+        "6"
+      ],
+      "Adrian Beltre": [
+        "5"
+      ],
+      "Ismael Valdez": [
+        "1"
+      ],
+      "Jose Vizcaino": [
+        "PH",
+        "4"
+      ]
+    }
+  },
+  "games_started": {
+    "ARI": {
+      "Steve Finley": 1,
+      "Jay Bell": 1,
+      "Travis Lee": 1,
+      "Matt Williams": 1,
+      "Luis Gonzalez": 1,
+      "Bernard Gilkey": 1,
+      "Kelly Stinnett": 1,
+      "Tony Batista": 1,
+      "Andy Benes": 1
+    },
+    "LAD": {
+      "Eric Young": 1,
+      "Devon White": 1,
+      "Gary Sheffield": 1,
+      "Raul Mondesi": 1,
+      "Todd Hundley": 1,
+      "Eric Karros": 1,
+      "Mark Grudzielanek": 1,
+      "Adrian Beltre": 1,
+      "Ismael Valdez": 1
+    }
+  }
+}
