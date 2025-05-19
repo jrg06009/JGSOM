@@ -439,7 +439,6 @@ if __name__ == "__main__":
     os.makedirs(output_dir, exist_ok=True)
 
     gamelog_df, schedule_df, linescore_df = load_data(input_file)
-    print("Linescore columns:", linescore_df.columns.tolist())
     
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
@@ -558,23 +557,21 @@ for league in league_order:
     }
 
     linescore_data = {}
+    inning_cols = [col for col in linescore_df.columns if isinstance(col, int)]
+    inning_cols = sorted(inning_cols)
     for _, row in linescore_df.iterrows():
-        game_id = str(row["Game ID"])
-        team = row["Team"]
+        game_id = str(row["Game ID"]).strip()
+        team = str(row["Team"]).strip()
 
         if game_id not in completed_game_ids:
             continue  # Skip unplayed games
 
         innings = []
-        # Automatically detect inning columns regardless of formatting
-        inning_cols = [col for col in linescore_df.columns if str(col).strip().isdigit()]
-        inning_cols = sorted(inning_cols, key=lambda x: int(str(x)))  # Ensure they're in order
-        
-        innings = []
         for col in inning_cols:
             val = row.get(col, "")
-            innings.append(str(val).strip() if not pd.isna(val) else "")
-
+            val = str(val).strip() if pd.notna(val) else ""
+            innings.append(val)
+        print("Checking", game_id, team, "innings:", innings)
         if all(v == "" for v in innings):
             continue  # Skip if all innings are blank
 
