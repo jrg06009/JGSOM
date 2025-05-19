@@ -344,7 +344,6 @@ def generate_boxscores(gamelog_df, schedule_df):
     def safe_str(val):
         return str(val) if not pd.isna(val) else ""
 
-    # Step 1: Build Game# to Game ID map
     game_lookup = {}
     for _, row in schedule_df.iterrows():
         game_num = row["Game#"]
