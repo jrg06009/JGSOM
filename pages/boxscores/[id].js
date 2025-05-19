@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 export async function getStaticPaths() {
   const dir = path.join(process.cwd(), 'data/boxscores')
+  if (!fs.existsSync(dir)) return { paths: [], fallback: false }
   const files = fs.readdirSync(dir)
   const paths = files.map(file => ({
     params: { id: file.replace('.json', '') }
