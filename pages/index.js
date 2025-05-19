@@ -38,11 +38,11 @@ export default function Home({ games, players, teams, standings }) {
       <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-xl font-semibold mb-2">American League</h2>
+          <h3 className="text-xl font-semibold mb-2">American League</h3>
           <StandingsTable standings={{ AL: standings.AL }} teams={teams} useFullName={false} />
         </div>
         <div>
-          <h3 className="text-xl font-semibold mb-2">National League</h2>
+          <h3 className="text-xl font-semibold mb-2">National League</h3>
           <StandingsTable standings={{ NL: standings.NL }} teams={teams} useFullName={false} />
         </div>
       </div>
