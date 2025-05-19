@@ -47,3 +47,4 @@ export default function StandingsTable({ standings, teams, useFullName = false }
       ))}
     </div>
   )
+}
