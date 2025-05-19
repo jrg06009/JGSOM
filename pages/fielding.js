@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const path = await import('path')
 
   const fieldingData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'fielding.json'), 'utf8'))
-  const schedule = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'schedule.json'), 'utf8'))
+  const schedule = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'schedule.json'), 'utf8'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
 
   const teamToLeague = getTeamToLeagueMap(teams)
