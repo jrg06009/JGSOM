@@ -3,7 +3,7 @@ import path from 'path'
 import teams from '../data/teams.json'
 
 export async function getStaticProps() {
-  const schedulePath = path.join(process.cwd(), 'data', 'schedule.json')
+  const schedulePath = path.join(process.cwd(), 'data', 'stats' 'schedule.json')
   const raw = fs.readFileSync(schedulePath, 'utf8')
   const schedule = JSON.parse(raw)
 
