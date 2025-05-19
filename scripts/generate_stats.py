@@ -329,9 +329,17 @@ def group_fielding_stats(gamelog_df):
 
     return result
 
-def generate_boxscores(gamelog_df):
+def generate_boxscores(gamelog_df, schedule_df):
     def safe_str(val):
         return str(val) if not pd.isna(val) else ""
+
+    # Step 1: Build Game# to Game ID map
+    game_lookup = {}
+    for _, row in schedule_df.iterrows():
+        game_num = row["Game#"]
+        game_id = row["Game ID"]
+        if not pd.isna(game_num) and not pd.isna(game_id):
+            game_lookup[int(game_num)] = str(game_id)
 
     boxscores = defaultdict(lambda: {
         "meta": {},
@@ -343,7 +351,11 @@ def generate_boxscores(gamelog_df):
     })
 
     for _, row in gamelog_df.iterrows():
-        game_id = row["Game ID"]
+        game_num = row["Game#"]
+        game_id = game_lookup.get(int(game_num))
+        if not game_id:
+            continue  # skip unknown games
+
         team = row["Team"]
         player = row["Player Name"]
         pid = row["Player ID"]
@@ -393,7 +405,7 @@ if __name__ == "__main__":
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
     fielding_stats = group_fielding_stats(gamelog_df)
-    boxscores = generate_boxscores(gamelog_df)
+    boxscores = generate_boxscores(gamelog_df, schedule_df)
     os.makedirs("data/boxscores", exist_ok=True)
     for gid, data in boxscores.items():
         save_json(data, os.path.join("data/boxscores", f"{gid}.json"))
