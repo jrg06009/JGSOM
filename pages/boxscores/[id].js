@@ -33,8 +33,9 @@ const BoxscorePage = ({ boxscore }) => {
   const teams = [meta.away, meta.home]
 
   const getPlayerLink = name => {
-    const pid = name.split('::')[1]
-    return pid ? `/players/${pid}` : '#'
+    if (typeof name !== 'string') return '#'
+    const parts = name.split('::')
+    return parts.length > 1 ? `/players/${parts[1]}` : '#'
   }
 
   const groupBattingLines = entries => {
