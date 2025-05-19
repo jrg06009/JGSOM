@@ -1,120 +1,160 @@
+import fs from 'fs'
+import path from 'path'
+import teams from '../../data/teams.json'
+import Link from 'next/link'
 
-import { useRouter } from 'next/router';
-import boxscores from '../../data/boxscores.json';
+export async function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'data/boxscores')
+  const files = fs.readdirSync(dir)
+  const paths = files.map(file => ({
+    params: { id: file.replace('.json', '') }
+  }))
+  return { paths, fallback: false }
+}
 
-const teamColors = {
-  ARI: '#A71930', ATL: '#CE1141', BAL: '#DF4601', BOS: '#BD3039', CHC: '#0E3386',
-  CIN: '#C6011F', CLE: '#0C2340', COL: '#33006F', DET: '#0C2340', HOU: '#EB6E1F',
-  KCR: '#004687', LAA: '#BA0021', LA: '#005A9C', MIA: '#00A3E0', MIL: '#12284B',
-  MIN: '#002B5C', NYM: '#002D72', NYY: '#003087', OAK: '#003831', PHI: '#E81828',
-  PIT: '#FDB827', SDP: '#002D62', SEA: '#0C2C56', SFG: '#FD5A1E', STL: '#C41E3A',
-  TBR: '#092C5C', TEX: '#003278', TOR: '#134A8E', WSN: '#AB0003'
-};
+export async function getStaticProps({ params }) {
+  const filePath = path.join(process.cwd(), 'data/boxscores', `${params.id}.json`)
+  const raw = fs.readFileSync(filePath, 'utf8')
+  const boxscore = JSON.parse(raw)
+  return { props: { boxscore } }
+}
 
-export default function BoxscorePage() {
-  const router = useRouter();
-  const { id } = router.query;
-  const box = boxscores.find(b => b.id === id);
-  if (!box) return <div className="p-4">Boxscore not found.</div>;
+const getTeamName = abbr => {
+  const t = teams.find(t => t.id === abbr)
+  return t?.name || abbr
+}
 
-  const sumStats = (players, stat) => players?.reduce((acc, p) => acc + (p[stat] || 0), 0);
-  const headerStyle = (abbr) => ({
-    backgroundColor: teamColors[abbr] || '#e5e7eb',
-    color: '#ffffff'
-  });
+const BoxscorePage = ({ boxscore }) => {
+  const { meta, batting, pitching } = boxscore
+  const teams = [meta.away_team, meta.home_team]
 
-  const renderBattingTable = (players, abbr) => (
-    <table className="text-sm w-full mb-2 border border-gray-300">
-      <thead style={headerStyle(abbr)}>
-        <tr>
-          <th className="border border-gray-300 px-2 py-1">Player</th>
-          <th className="border border-gray-300 px-2 py-1">AB</th>
-          <th className="border border-gray-300 px-2 py-1">R</th>
-          <th className="border border-gray-300 px-2 py-1">H</th>
-          <th className="border border-gray-300 px-2 py-1">HR</th>
-          <th className="border border-gray-300 px-2 py-1">RBI</th>
-        </tr>
-      </thead>
-      <tbody>
-        {players.map(p => (
-          <tr key={p.name}>
-            <td className="border border-gray-200 px-2 py-1">{p.name}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.ab}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.r}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.h}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.hr}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.rbi}</td>
+  const getPlayerLink = name => {
+    const pid = name.split('::')[1]
+    return pid ? `/players/${pid}` : '#'
+  }
+
+  const groupBattingLines = lines => {
+    const grouped = {}
+    lines.forEach(line => {
+      const name = line["Player"]
+      if (!grouped[name]) {
+        grouped[name] = { ...line, POS: new Set() }
+      }
+      Object.keys(line).forEach(k => {
+        if (k !== "Player" && k !== "POS" && typeof line[k] === 'number') {
+          grouped[name][k] += line[k]
+        }
+      })
+      if (line.POS) grouped[name].POS.add(line.POS)
+    })
+    return Object.values(grouped).map(l => ({
+      ...l,
+      POS: Array.from(l.POS).join('-')
+    }))
+  }
+
+  const renderBatting = team => {
+    const lines = groupBattingLines(batting[team])
+    return (
+      <>
+        <h3 className="font-semibold mt-4">{getTeamName(team)} Batting</h3>
+        <table className="w-full text-sm border border-collapse mb-2">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border p-1 text-left">Player</th>
+              <th className="border p-1 text-center">AB</th>
+              <th className="border p-1 text-center">R</th>
+              <th className="border p-1 text-center">H</th>
+              <th className="border p-1 text-center">RBI</th>
+              <th className="border p-1 text-center">BB</th>
+              <th className="border p-1 text-center">SO</th>
+              <th className="border p-1 text-center">PA</th>
+              <th className="border p-1 text-center">PO</th>
+              <th className="border p-1 text-center">A</th>
+            </tr>
+          </thead>
+          <tbody>
+            {lines.map((p, i) => {
+              const pa = (p.AB || 0) + (p.BB || 0) + (p.HBP || 0) + (p.SF || 0)
+              return (
+                <tr key={i}>
+                  <td className="border p-1">
+                    <Link href={getPlayerLink(p["Player"])} className="text-blue-700 underline">
+                      {p["Player"].split("::")[0]} {p.POS ? p.POS : ""}
+                    </Link>
+                  </td>
+                  <td className="border p-1 text-center">{p.AB || 0}</td>
+                  <td className="border p-1 text-center">{p.R || 0}</td>
+                  <td className="border p-1 text-center">{p.H || 0}</td>
+                  <td className="border p-1 text-center">{p.RBI || 0}</td>
+                  <td className="border p-1 text-center">{p.BB || 0}</td>
+                  <td className="border p-1 text-center">{p.SO || 0}</td>
+                  <td className="border p-1 text-center">{pa}</td>
+                  <td className="border p-1 text-center">{p.PO || 0}</td>
+                  <td className="border p-1 text-center">{p.A || 0}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </>
+    )
+  }
+
+  const renderPitching = team => (
+    <>
+      <h3 className="font-semibold mt-4">{getTeamName(team)} Pitching</h3>
+      <table className="w-full text-sm border border-collapse mb-2">
+        <thead>
+          <tr className="bg-gray-100">
+            <th className="border p-1 text-left">Pitcher</th>
+            <th className="border p-1 text-center">IP</th>
+            <th className="border p-1 text-center">H</th>
+            <th className="border p-1 text-center">R</th>
+            <th className="border p-1 text-center">ER</th>
+            <th className="border p-1 text-center">BB</th>
+            <th className="border p-1 text-center">SO</th>
+            <th className="border p-1 text-center">HR</th>
           </tr>
-        ))}
-        <tr className="font-bold">
-          <td className="border border-gray-300 px-2 py-1">Total</td>
-          <td className="border border-gray-300 px-2 py-1">{sumStats(players, 'ab')}</td>
-          <td className="border border-gray-300 px-2 py-1">{sumStats(players, 'r')}</td>
-          <td className="border border-gray-300 px-2 py-1">{sumStats(players, 'h')}</td>
-          <td className="border border-gray-300 px-2 py-1">{sumStats(players, 'hr')}</td>
-          <td className="border border-gray-300 px-2 py-1">{sumStats(players, 'rbi')}</td>
-        </tr>
-      </tbody>
-    </table>
-  );
-
-  const renderPitchingTable = (players, abbr) => (
-    <table className="text-sm w-full mb-2 border border-gray-300">
-      <thead style={headerStyle(abbr)}>
-        <tr>
-          <th className="border border-gray-300 px-2 py-1">Pitcher</th>
-          <th className="border border-gray-300 px-2 py-1">IP</th>
-          <th className="border border-gray-300 px-2 py-1">H</th>
-          <th className="border border-gray-300 px-2 py-1">R</th>
-          <th className="border border-gray-300 px-2 py-1">ER</th>
-          <th className="border border-gray-300 px-2 py-1">BB</th>
-          <th className="border border-gray-300 px-2 py-1">SO</th>
-          <th className="border border-gray-300 px-2 py-1">HR</th>
-          <th className="border border-gray-300 px-2 py-1">WLS</th>
-        </tr>
-      </thead>
-      <tbody>
-        {players.map(p => (
-          <tr key={p.name}>
-            <td className="border border-gray-200 px-2 py-1">{p.name}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.ip}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.h}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.r}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.er}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.bb}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.so}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.hr}</td>
-            <td className="border border-gray-200 px-2 py-1">{p.wls}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
+        </thead>
+        <tbody>
+          {pitching[team].map((p, i) => (
+            <tr key={i}>
+              <td className="border p-1">
+                <Link href={getPlayerLink(p["Player"])} className="text-blue-700 underline">
+                  {p["Player"].split("::")[0]}
+                </Link>
+              </td>
+              <td className="border p-1 text-center">{p.IP}</td>
+              <td className="border p-1 text-center">{p["H"]}</td>
+              <td className="border p-1 text-center">{p["R"]}</td>
+              <td className="border p-1 text-center">{p["ER"]}</td>
+              <td className="border p-1 text-center">{p["BB"]}</td>
+              <td className="border p-1 text-center">{p["SO"]}</td>
+              <td className="border p-1 text-center">{p["HR"]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">{box.date}: {box.away} @ {box.home}</h1>
-      <p className="mb-6 text-sm text-gray-600">Final: {box.away_score}–{box.home_score}</p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-white p-4 rounded-lg shadow-sm border">
-          <h2 className="text-xl font-semibold mb-2">{box.away}</h2>
-          <h3 className="text-md font-medium mb-1">Batting</h3>
-          {box.away_batting?.length ? renderBattingTable(box.away_batting, box.away) : <p>No batting data.</p>}
-          <hr className="my-2" />
-          <h3 className="text-md font-medium mb-1">Pitching</h3>
-          {box.away_pitching?.length ? renderPitchingTable(box.away_pitching, box.away) : <p>No pitching data.</p>}
+      <h1 className="text-xl font-bold mb-2">
+        {getTeamName(meta.away_team)} @ {getTeamName(meta.home_team)} — {meta.date}
+      </h1>
+      <p className="mb-4">
+        Final Score: {meta.away_score}–{meta.home_score}
+      </p>
+      {teams.map(t => (
+        <div key={t} className="mb-8">
+          {renderBatting(t)}
+          {renderPitching(t)}
         </div>
-
-        <div className="bg-white p-4 rounded-lg shadow-sm border">
-          <h2 className="text-xl font-semibold mb-2">{box.home}</h2>
-          <h3 className="text-md font-medium mb-1">Batting</h3>
-          {box.home_batting?.length ? renderBattingTable(box.home_batting, box.home) : <p>No batting data.</p>}
-          <hr className="my-2" />
-          <h3 className="text-md font-medium mb-1">Pitching</h3>
-          {box.home_pitching?.length ? renderPitchingTable(box.home_pitching, box.home) : <p>No pitching data.</p>}
-        </div>
-      </div>
+      ))}
     </div>
-  );
+  )
 }
+
+export default BoxscorePage
