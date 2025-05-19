@@ -362,6 +362,8 @@ def generate_boxscores(gamelog_df, schedule_df):
 
     for _, row in gamelog_df.iterrows():
         game_num = row["Game#"]
+        if pd.isna(game_num):
+            continue
         game_id = game_lookup.get(int(game_num))
         if not game_id:
             continue  # skip unknown games
