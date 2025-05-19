@@ -60,7 +60,7 @@ const BoxscorePage = ({ boxscore }) => {
 
   const renderBatting = team => {
     if (!batting?.[team]) return null
-    const lines = groupBattingLines(Object.entries(batting[team]))
+    const lines = Object.entries(batting[team])
     return (
       <>
         <h3 className="font-semibold mt-4">{getTeamName(team)} Batting</h3>
