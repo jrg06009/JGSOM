@@ -181,6 +181,9 @@ const renderPitching = team => {
                 <Link href={getPlayerLink(p["Player ID"])} className="text-blue-700 underline">
                   {p["Player"]}
                 </Link>
+                {["W", "L", "SV"].map(k => p[k] > 0 ? (
+                  <span key={k} className="italic">, {k}</span>
+                ) : null)}            
               </td>
               {Object.keys(pitchingDisplayMap).map((rawKey, j) => (
                 <td key={j} className="border p-1 text-center">
