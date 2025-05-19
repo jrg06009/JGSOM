@@ -402,12 +402,12 @@ def generate_boxscores(gamelog_df, schedule_df):
         if gs:
             boxscores[game_id]["games_started"][team][player] += gs
 
-         # Add to batting if BOP > 0
-         if bop > 0:
-            for stat in stat_list:
-                val = row.get(stat, 0)
-                if pd.notna(val):
-                    if "Player ID" not in boxscores[game_id]["batting"][team][player]:
+        for stat in stat_list:
+            val = row.get(stat, 0)
+            if pd.notna(val):
+                # Batting section (if BOP > 0)
+                if bop > 0:
+                    if "Player" not in boxscores[game_id]["batting"][team][player]:
                         boxscores[game_id]["batting"][team][player]["Player"] = player
                         boxscores[game_id]["batting"][team][player]["Player ID"] = pid
                     if stat not in boxscores[game_id]["batting"][team][player]:
@@ -417,12 +417,9 @@ def generate_boxscores(gamelog_df, schedule_df):
                     else:
                         boxscores[game_id]["batting"][team][player][stat] += safe_int(val)
 
-        # Add to pitching if POS == 1
-        if pos == '1':
-            for stat in stat_list:
-                val = row.get(stat, 0)
-                if pd.notna(val):
-                    if "Player ID" not in boxscores[game_id]["pitching"][team][player]:
+                # Pitching section (if POS == '1')
+                if pos == '1':
+                    if "Player" not in boxscores[game_id]["pitching"][team][player]:
                         boxscores[game_id]["pitching"][team][player]["Player"] = player
                         boxscores[game_id]["pitching"][team][player]["Player ID"] = pid
                     if stat not in boxscores[game_id]["pitching"][team][player]:
