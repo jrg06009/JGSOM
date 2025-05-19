@@ -27,15 +27,6 @@ def convert_sets_to_lists(obj):
     else:
         return obj
 
-def clean_for_json(obj):
-    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
-        return None
-    if isinstance(obj, dict):
-        return {k: clean_for_json(v) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [clean_for_json(v) for v in obj]
-    return obj
-
 def format_ip_for_display(ip):
     if pd.isna(ip):
         return "0.0"  # or return "" if you prefer blank
@@ -47,6 +38,15 @@ def format_ip_for_display(ip):
     elif remainder == 67:
         return f"{whole}.2"
     return str(ip)
+
+def clean_for_json(obj):
+    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
+        return None
+    if isinstance(obj, dict):
+        return {k: clean_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_for_json(v) for v in obj]
+    return obj
 
 def compute_fielding_cg(gamelog_df):
     cg_by_player = defaultdict(int)
@@ -394,7 +394,7 @@ def generate_boxscores(gamelog_df, schedule_df):
                 if stat not in boxscores[game_id][box][team][player]:
                     boxscores[game_id][box][team][player][stat] = 0
                 if stat == "IP":
-                    boxscores[game_id][box][team][player][stat] += format_ip_for_display(val)
+                    boxscores[game_id][box][team][player][stat] = format_ip_for_display(val)
                 else:
                     boxscores[game_id][box][team][player][stat] += safe_int(val)
 
