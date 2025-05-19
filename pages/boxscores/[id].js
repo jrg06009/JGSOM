@@ -151,7 +151,7 @@ const renderPitching = team => {
   return (
     <div className="p-4">
       <h1 className="text-xl font-bold mb-2">
-        {getTeamName(meta.away)} @ {getTeamName(meta.hom)} — — {new Date(meta.date).toLocaleDateString()}
+        {getTeamName(meta.away)} @ {getTeamName(meta.home)} — — {new Date(meta.date).toLocaleDateString()}
       </h1>
       <p className="mb-4">
         Final Score: {parseInt(meta.away_score)}–{parseInt(meta.home_score)}
