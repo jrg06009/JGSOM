@@ -60,7 +60,7 @@ const getPositionString = (team, player) => {
   const posSet = boxscore.positions?.[team]?.[player];
   if (!posSet) return '';
   const readable = Array.from(posSet)
-    .map(p => positionMap[p] || p)
+    .map(p => positionMap[p] || (p === 'DH' ? 'DH' : p))
     .join('-');
   return readable;
 };
@@ -85,7 +85,7 @@ const getPositionString = (team, player) => {
       summaryStats.forEach(stat => {
         if (p[stat]) {
           if (!summary[stat]) summary[stat] = []
-          summary[stat].push(`${p["Player"]} ${p[stat]}`)
+          summary[stat].push(p[stat] > 1 ? `${p["Player"]} ${p[stat]}` : p["Player"])
         }
       })
     })
@@ -157,7 +157,7 @@ const renderPitching = team => {
     summaryStats.forEach(stat => {
       if (p[stat]) {
         if (!summary[stat]) summary[stat] = []
-        summary[stat].push(`${p["Player"]} ${p[stat]}`)
+        summary[stat].push(p[stat] > 1 ? `${p["Player"]} ${p[stat]}` : p["Player"])
       }
     })
   })
