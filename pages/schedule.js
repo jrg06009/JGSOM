@@ -12,25 +12,25 @@ export async function getStaticProps() {
   }
 }
 
-const teamName = (abbr) => {
-  const t = teams.find(t => t.id === abbr)
-  return t?.name || abbr || 'TBD'
-}
+const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
+
+const teamName = (abbr) => teamMap[abbr]?.name || abbr || 'TBD'
+const getTeamColor = (abbr) => teamMap[abbr]?.color || "#000"
+
 
 const formatScore = (game) => {
   const score = `${game.away_score}–${game.home_score}`
-  const winner =
-    game.away_score > game.home_score
-      ? game.away_team
-      : game.home_team
+  const winner = game.away_score > game.home_score ? game.away_team : game.home_team
+  const color = getTeamColor(winner)
 
   return (
     <>
       <strong>{score}</strong>
-      <span className="text-green-600 font-semibold">, {winner}</span>
+      <span style={{ color, fontWeight: 600 }}>, {winner}</span>
     </>
   )
 }
+
 
 
 const SchedulePage = ({ schedule }) => {
