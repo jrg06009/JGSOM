@@ -32,11 +32,9 @@ const BoxscorePage = ({ boxscore }) => {
   const { meta, batting, pitching } = boxscore
   const teams = [meta.away, meta.home]
 
-  const getPlayerLink = name => {
-    if (typeof name !== 'string') return '#'
-    const parts = name.split('::')
-    return parts.length > 1 ? `/players/${parts[1]}` : '#'
-  }
+  const getPlayerLink = pid => {
+  return pid ? `/players/${pid}` : '#'
+}
 
   const groupBattingLines = entries => {
     const grouped = {}
@@ -87,8 +85,8 @@ const BoxscorePage = ({ boxscore }) => {
               return (
                 <tr key={i}>
                   <td className="border p-1">
-                    <Link href={getPlayerLink(p["Player"])} className="text-blue-700 underline">
-                      {p["Player"].split("::")[0]} {p.POS ? p.POS : ""}
+                    <Link href={getPlayerLink(p["Player ID"])} className="text-blue-700 underline">
+                      {p["Player"]} {p.POS ? p.POS : ""}
                     </Link>
                   </td>
                   <td className="border p-1 text-center">{p.AB || 0}</td>
@@ -132,8 +130,8 @@ const renderPitching = team => {
           {Object.values(pitching[team]).map((p, i) => (
             <tr key={i}>
               <td className="border p-1">
-                <Link href={getPlayerLink(p["Player"])} className="text-blue-700 underline">
-                  {p["Player"].split("::")[0]}
+                <Link href={getPlayerLink(p["Player ID"])} className="text-blue-700 underline">
+                  {p["Player"]}
                 </Link>
               </td>
               <td className="border p-1 text-center">{p.IP}</td>
