@@ -210,20 +210,24 @@ const renderPitching = team => {
   return (
     <div className="p-4">
       <div className="text-center mb-6">
-        <img
-          src="/logos/league.png"
-          alt="League Logo"
-          className="mx-auto h-16 mb-2"
-        />
-        <div className="text-xl font-bold flex justify-center items-center gap-2 mb-1">
-          <Link href={`/teams/${meta.away}`} className="text-blue-700 underline">{getTeamName(meta.away)}</Link>
-          <span>@</span>
-          <Link href={`/teams/${meta.home}`} className="text-blue-700 underline">{getTeamName(meta.home)}</Link>
+        <div className="flex justify-center items-center gap-16 mb-2">
+          {[meta.away, meta.home].map((abbr, i) => {
+            const team = teams.find(t => t.id === abbr)
+            return (
+              <div key={i} className="flex flex-col items-center">
+                <img src={team.logo} alt={team.name} className="h-16 mb-1" />
+                <Link href={`/teams/${abbr}`} className="text-blue-700 underline font-semibold">
+                  {team.name}
+                </Link>
+                <div className="text-3xl font-bold mt-1">
+                  {i === 0 ? parseInt(meta.away_score) : parseInt(meta.home_score)}
+                </div>
+              </div>
+            )      
+          })}
         </div>
-        <div className="text-3xl font-bold mb-1">
-          {parseInt(meta.away_score)} – {parseInt(meta.home_score)}
-        </div>
-        <div className="text-sm text-gray-700">
+        <div className="text-xl font-semibold">vs</div>
+        <div className="text-sm text-gray-700 mt-1">
           {new Date(meta.date).toLocaleDateString()}
         </div>
       </div>
