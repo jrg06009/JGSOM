@@ -82,7 +82,7 @@ const getPositionString = (team, player) => {
               <th className="border p-1 text-center">BB</th>
               <th className="border p-1 text-center">SO</th>
               <th className="border p-1 text-center">PA</th>
-              <th className="border border-l-1 border-black p-1 text-center">PO</th>
+              <th className="border p-1 border-l-2 border-l-black text-center">PO</th>
               <th className="border p-1 text-center">A</th>
             </tr>
           </thead>
@@ -106,7 +106,7 @@ const getPositionString = (team, player) => {
                   <td className="border p-1 text-center">{p.BB || 0}</td>
                   <td className="border p-1 text-center">{p.SO || 0}</td>
                   <td className="border p-1 text-center">{pa}</td>
-                  <td className="border border-l-1 border-black p-1 text-center">{p.PO || 0}</td>
+                  <td className="border p-1 border-l-2 border-l-black text-center">{p.PO || 0}</td>
                   <td className="border p-1 text-center">{p.A || 0}</td>
                 </tr>
               )
