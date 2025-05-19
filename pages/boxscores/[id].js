@@ -78,6 +78,18 @@ const getPositionString = (team, player) => {
   const renderBatting = team => {
     if (!batting?.[team]) return null
     const lines = groupBattingLines(Object.entries(batting[team]))
+
+    const summaryStats = ["2B", "3B", "HR", "HBP", "IBB", "SH", "SF", "SB", "CS", "GDP"]
+    const summary = {}
+    lines.forEach(p => {
+      summaryStats.forEach(stat => {
+        if (p[stat]) {
+          if (!summary[stat]) summary[stat] = []
+          summary[stat].push(`${p["Player"]} ${p[stat]}`)
+        }
+      })
+    })
+
     return (
       <>
         <h3 className="font-semibold mt-4">{getTeamName(team)} Batting</h3>
@@ -123,15 +135,25 @@ const getPositionString = (team, player) => {
             })}
           </tbody>
         </table>
+        {Object.keys(summary).length > 0 && (
+          <div className="text-sm mt-2 space-y-1">
+            {Object.entries(summary).map(([stat, players]) => (
+              <div key={stat}>
+                <strong>{stat}: </strong>{players.join("; ")}
+              </div>
+            ))}
+          </div>
+        )}
       </>
     )
   }
 
-{(() => {
-  const summaryStats = ["2B", "3B", "HR", "HBP", "IBB", "SH", "SF", "SB", "CS", "GDP"]
-  const summary = {}
+const renderPitching = team => {
+  if (!pitching?.[team]) return null
 
-  lines.forEach(p => {
+  const summaryStats = ["IBB against", "HBP against", "BK", "WP", "SB against", "CS against", "Pko"]
+  const summary = {}
+  Object.values(pitching[team]).forEach(p => {
     summaryStats.forEach(stat => {
       if (p[stat]) {
         if (!summary[stat]) summary[stat] = []
@@ -139,20 +161,6 @@ const getPositionString = (team, player) => {
       }
     })
   })
-
-  return Object.keys(summary).length > 0 && (
-    <div className="text-sm mt-2 space-y-1">
-      {Object.entries(summary).map(([stat, players]) => (
-        <div key={stat}>
-          <strong>{stat}: </strong>{players.join("; ")}
-        </div>
-      ))}
-    </div>
-  )
-})()}
-
-const renderPitching = team => {
-  if (!pitching?.[team]) return null
 
   return (
     <>
@@ -183,33 +191,18 @@ const renderPitching = team => {
           ))}
         </tbody>
       </table>
+      {Object.keys(summary).length > 0 && (
+        <div className="text-sm mt-2 space-y-1">
+          {Object.entries(summary).map(([stat, players]) => (
+            <div key={stat}>
+              <strong>{stat.replace(" against", "")}: </strong>{players.join("; ")}
+            </div>
+          ))}
+        </div>
+      )}
     </>
   )
 }
-
-{(() => {
-  const summaryStats = ["IBB against", "HBP against", "BK", "WP", "SB against", "CS against", "Pko"]
-  const summary = {}
-
-  Object.values(pitching[team]).forEach(p => {
-    summaryStats.forEach(stat => {
-      if (p[stat]) {
-        if (!summary[stat]) summary[stat] = []
-        summary[stat].push(`${p["Player"]} ${p[stat]}`)
-      }
-    })
-  })
-
-  return Object.keys(summary).length > 0 && (
-    <div className="text-sm mt-2 space-y-1">
-      {Object.entries(summary).map(([stat, players]) => (
-        <div key={stat}>
-          <strong>{stat.replace(" against", "")}: </strong>{players.join("; ")}
-        </div>
-      ))}
-    </div>
-  )
-})()}
 
   return (
     <div className="p-4">
