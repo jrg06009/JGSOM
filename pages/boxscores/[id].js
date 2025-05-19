@@ -91,7 +91,7 @@ const getPositionString = (team, player) => {
               const pa = (p.AB || 0) + (p.BB || 0) + (p.HBP || 0) + (p.SF || 0)
               return (
                 <tr key={i}>
-                  <td className={`border p-1 ${boxscore.games_started?.[team]?.[p["Player"]] === 0 ? "pl-4" : ""}`}>>
+                  <td className={`border p-1 ${boxscore.games_started?.[team]?.[p["Player"]] === 0 ? "pl-4" : ""}`}>
                     <Link href={getPlayerLink(p["Player ID"])} className="text-blue-700 underline">
                       {p["Player"]}
                     </Link>
