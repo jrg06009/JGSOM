@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import teams from '../../data/teams.json'
 import schedule from '../../data/stats/schedule.json'
+import linescores from '../../data/stats/linescores.json'
 import Link from 'next/link'
 
 export async function getStaticPaths() {
@@ -18,7 +19,8 @@ export async function getStaticProps({ params }) {
   const filePath = path.join(process.cwd(), 'data/boxscores', `${params.id}.json`)
   const raw = fs.readFileSync(filePath, 'utf8')
   const boxscore = JSON.parse(raw)
-  return { props: { boxscore } }
+  const linescore = linescores[params.id] || null
+  return { props: { boxscore, linescore } }
 }
 
 const getTeamName = abbr => {
@@ -45,7 +47,7 @@ const getTeamRecordThroughDate = (schedule, team, dateStr) => {
   return `${W}-${L}`
 }
 
-const BoxscorePage = ({ boxscore }) => {
+const BoxscorePage = ({ boxscore, linescore }) => {
   if (!boxscore || !boxscore.meta || !boxscore.batting || !boxscore.pitching) {
   return <div className="p-4 text-red-600">Boxscore data missing or incomplete.</div>
 }
@@ -252,6 +254,83 @@ const renderPitching = team => {
         <div className="text-sm text-gray-700 mt-1">
           {new Date(meta.date).toLocaleDateString()}
         </div>
+        {linescore && (
+          (() => {
+            const away = linescore[meta.away] || []
+            const home = linescore[meta.home] || []
+
+    // Find the last inning index where at least one team has a value
+            const lastUsedInning = Math.max(
+              ...away.map((val, i) => val && val !== "" ? i : -1),
+              ...home.map((val, i) => val && val !== "" ? i : -1)
+            ) + 1 // +1 to include that inning
+            const trimmedAway = away.slice(0, lastUsedInning)
+            const trimmedHome = home.slice(0, lastUsedInning)
+            const paddedHome = trimmedHome.map((val, i) => {
+              const isLast = i === lastUsedInning - 1
+              const awayHasScore = trimmedAway[i] && trimmedAway[i] !== ""
+              return (val && val !== "") ? val : (isLast && awayHasScore ? "X" : "")
+            })
+
+            const sumInning = arr =>
+              arr.reduce((sum, val) => sum + (parseInt(val) || 0), 0)
+
+            const getHits = team => {
+              return Object.values(boxscore.batting?.[team] || {}).reduce(
+                (sum, player) => sum + (player.H || 0), 0
+              )
+            }
+
+            const getErrors = team => {
+              return Object.values(boxscore.batting?.[team] || {}).reduce(
+                (sum, player) => sum + (player.ERR || 0), 0
+              )
+            }
+
+            const R_away = sumInning(trimmedAway)
+            const R_home = sumInning(paddedHome)
+            const H_away = getHits(meta.away)
+            const H_home = getHits(meta.home)
+            const E_away = getErrors(meta.away)
+            const E_home = getErrors(meta.home)
+
+            return (
+              <table className="mx-auto mb-4 text-sm border border-collapse">
+                <thead>
+                  <tr className="bg-gray-100">
+                    <th className="border p-1 text-center"></th>
+                      {trimmedAway.map((_, i) => (
+                        <th key={i} className="border p-1 text-center">{i + 1}</th>
+                      <th className="border p-1 text-center font-semibold">R</th>
+                      <th className="border p-1 text-center font-semibold">H</th>
+                      <th className="border p-1 text-center font-semibold">E</th>                 
+                      ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border p-1 text-right font-semibold">{meta.away}</td>
+                    {trimmedAway.map((val, i) => (
+                      <td key={i} className="border p-1 text-center">{val}</td>
+                    <td className="border p-1 text-center font-semibold">{R_away}</td>
+                    <td className="border p-1 text-center font-semibold">{H_away}</td>
+                    <td className="border p-1 text-center font-semibold">{E_away}</td>
+                    ))}
+                  </tr>
+                  <tr>
+                    <td className="border p-1 text-right font-semibold">{meta.home}</td>
+                    {paddedHome.map((val, i) => (
+                      <td key={i} className="border p-1 text-center">{val}</td>
+                    <td className="border p-1 text-center font-semibold">{R_home}</td>
+                    <td className="border p-1 text-center font-semibold">{H_home}</td>
+                    <td className="border p-1 text-center font-semibold">{E_home}</td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            )
+          })()
+        )}
       </div>
 
       {teamIds.map(t => (
