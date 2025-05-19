@@ -42,6 +42,7 @@ const BoxscorePage = ({ boxscore }) => {
     entries.forEach(([name, stats]) => {
       if (!grouped[name]) {
         grouped[name] = { Player: name, ...stats, POS: new Set() }
+        grouped[name]["Player ID"] = stats["Player ID"]
       }  
 
       Object.keys(stats).forEach(k => {
@@ -60,7 +61,7 @@ const BoxscorePage = ({ boxscore }) => {
 
   const renderBatting = team => {
     if (!batting?.[team]) return null
-    const lines = Object.entries(batting[team])
+    const lines = groupBattingLines(Object.entries(batting[team]))
     return (
       <>
         <h3 className="font-semibold mt-4">{getTeamName(team)} Batting</h3>
@@ -152,7 +153,7 @@ const renderPitching = team => {
   return (
     <div className="p-4">
       <h1 className="text-xl font-bold mb-2">
-        {getTeamName(meta.away)} @ {getTeamName(meta.home)} — — {new Date(meta.date).toLocaleDateString()}
+        {getTeamName(meta.away)} @ {getTeamName(meta.home)} —— {new Date(meta.date).toLocaleDateString()}
       </h1>
       <p className="mb-4">
         Final Score: {parseInt(meta.away_score)}–{parseInt(meta.home_score)}
