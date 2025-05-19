@@ -18,7 +18,7 @@ const teamName = (abbr) => {
 }
 
 const formatScore = (game) => {
-  return `${game.road_score}–${game.home_score}`
+  return `${game.away_score}–${game.home_score}`
 }
 
 const SchedulePage = ({ schedule }) => {
@@ -49,26 +49,30 @@ const SchedulePage = ({ schedule }) => {
               {grouped[date].map((g, i) => (
                 <tr key={i} className="border-t">
                   <td className="border p-2">
-                    {g.road ? (
-                      <a href={`/teams/${g.road}`} className="text-blue-600 hover:underline">
-                        {teamName(g.road)}
+                    {g.away_team ? (
+                      <a href={`/teams/${g.away_team}`} className="text-blue-600 hover:underline">
+                        {teamName(g.away_team)}
                       </a>
                     ) : "TBD"}
                   </td>
                   <td className="border p-2">
-                    {g.home ? (
-                      <a href={`/teams/${g.home}`} className="text-blue-600 hover:underline">
-                        {teamName(g.home)}
+                    {g.home_team ? (
+                      <a href={`/teams/${g.home_team}`} className="text-blue-600 hover:underline">
+                        {teamName(g.home_team)}
                       </a>
                     ) : "TBD"}
                   </td>
                   <td className="border p-2 text-center">
-                    {g.played ? (
-                      g.game_id ? (
-                        <a href={`/boxscores/${g.game_id}`} className="text-green-600 hover:underline">
+                    {g.completed ? (
+                      g.id ? (
+                        <a href={`/boxscores/${g.id}`} className="text-green-600 hover:underline" title={g.simDate ? `Simulated on ${g.simDate}` : ""}>
                           {formatScore(g)}
                         </a>
-                      ) : formatScore(g)
+                      ) : (
+                        <span title={g.simDate ? `Simulated on ${g.simDate}` : ""}>
+                          {formatScore(g)}
+                        </span>
+                      )                
                     ) : (
                       <span className="text-gray-500 italic">Scheduled</span>
                     )}
