@@ -551,9 +551,12 @@ for league in league_order:
                 ordered[league][division] = sorted_teams
 
 # Generate linescores.json for completed games only
+    print("Completed games:", [
+        (row["Game ID"], row.get("Played")) for _, row in schedule_df.iterrows()
+    ])
     completed_game_ids = {
         str(row["Game ID"]) for _, row in schedule_df.iterrows()
-        if str(row.get("Played", "")).strip().lower() == "yes"
+        if str(row.get("Played", "")).strip().lower() == "Yes"
     }
 
     linescore_data = {}
