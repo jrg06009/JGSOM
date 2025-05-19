@@ -439,6 +439,7 @@ if __name__ == "__main__":
     os.makedirs(output_dir, exist_ok=True)
 
     gamelog_df, schedule_df, linescore_df = load_data(input_file)
+    print("Linescore columns:", linescore_df.columns.tolist())
     
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
@@ -551,9 +552,6 @@ for league in league_order:
                 ordered[league][division] = sorted_teams
 
 # Generate linescores.json for completed games only
-    print("Completed games:", [
-        (row["Game ID"], row.get("Played")) for _, row in schedule_df.iterrows()
-    ])
     completed_game_ids = {
         str(row["Game ID"]) for _, row in schedule_df.iterrows()
         if str(row.get("Played", "")).strip().lower() == "Yes"
@@ -568,8 +566,13 @@ for league in league_order:
             continue  # Skip unplayed games
 
         innings = []
-        for i in range(1, 21):
-            val = row.get(str(i), "")
+        # Automatically detect inning columns regardless of formatting
+        inning_cols = [col for col in linescore_df.columns if str(col).strip().isdigit()]
+        inning_cols = sorted(inning_cols, key=lambda x: int(str(x)))  # Ensure they're in order
+        
+        innings = []
+        for col in inning_cols:
+            val = row.get(col, "")
             innings.append(str(val).strip() if not pd.isna(val) else "")
 
         if all(v == "" for v in innings):
