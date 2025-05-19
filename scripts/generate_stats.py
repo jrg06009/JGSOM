@@ -438,7 +438,6 @@ for league in league_order:
 
                 ordered[league][division] = sorted_teams
 
-                    )
 
     save_json(ordered, os.path.join(output_dir, "standings.json"))
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
