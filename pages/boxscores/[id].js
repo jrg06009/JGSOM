@@ -26,6 +26,9 @@ const getTeamName = abbr => {
 }
 
 const BoxscorePage = ({ boxscore }) => {
+  if (!boxscore || !boxscore.meta || !boxscore.batting || !boxscore.pitching) {
+  return <div className="p-4 text-red-600">Boxscore data missing or incomplete.</div>
+}
   const { meta, batting, pitching } = boxscore
   const teams = [meta.away_team, meta.home_team]
 
@@ -55,6 +58,7 @@ const BoxscorePage = ({ boxscore }) => {
   }
 
   const renderBatting = team => {
+    if (!batting?.[team]) return null
     const lines = groupBattingLines(batting[team])
     return (
       <>
@@ -103,6 +107,9 @@ const BoxscorePage = ({ boxscore }) => {
   }
 
   const renderPitching = team => (
+    if (!pitching?.[team]) return null
+    
+    return (
     <>
       <h3 className="font-semibold mt-4">{getTeamName(team)} Pitching</h3>
       <table className="w-full text-sm border border-collapse mb-2">
