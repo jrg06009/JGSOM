@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-05 00:00:00",
+    "home": "SEA",
+    "away": "CHW",
+    "home_score": "4.0",
+    "away_score": "17.0"
   },
   "batting": {
     "CHW": {
@@ -433,8 +433,8 @@
         "7"
       ],
       "Darrin Jackson": [
-        "9",
-        "8"
+        "8",
+        "9"
       ],
       "Brook Fordyce": [
         "2"

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-08 00:00:00",
+    "home": "KCR",
+    "away": "BOS",
+    "home_score": "3.0",
+    "away_score": "7.0"
   },
   "batting": {
     "BOS": {

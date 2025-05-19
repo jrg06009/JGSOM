@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-07 00:00:00",
+    "home": "BAL",
+    "away": "TBD",
+    "home_score": "5.0",
+    "away_score": "4.0"
   },
   "batting": {
     "TBD": {

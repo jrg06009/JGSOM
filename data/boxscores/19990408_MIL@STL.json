@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-08 00:00:00",
+    "home": "STL",
+    "away": "MIL",
+    "home_score": "4.0",
+    "away_score": "5.0"
   },
   "batting": {
     "MIL": {
@@ -436,8 +436,8 @@
         "2"
       ],
       "Dave Nilsson": [
-        "PH",
-        "2"
+        "2",
+        "PH"
       ],
       "Alex Ochoa": [
         "7"
@@ -499,8 +499,8 @@
         "4"
       ],
       "J.D. Drew": [
-        "PH",
-        "8"
+        "8",
+        "PH"
       ],
       "Kent Mercker": [
         "1"

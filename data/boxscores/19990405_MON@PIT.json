@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-05 00:00:00",
+    "home": "PIT",
+    "away": "MON",
+    "home_score": "10.0",
+    "away_score": "9.0"
   },
   "batting": {
     "MON": {
@@ -490,8 +490,8 @@
         "1"
       ],
       "Adrian Brown": [
-        "PH",
-        "8"
+        "8",
+        "PH"
       ]
     }
   },

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "",
-    "home": "",
-    "away": "",
-    "home_score": "",
-    "away_score": ""
+    "date": "1999-04-07 00:00:00",
+    "home": "SDP",
+    "away": "COL",
+    "home_score": "2.0",
+    "away_score": "8.0"
   },
   "batting": {
     "COL": {
@@ -369,8 +369,8 @@
         "4"
       ],
       "Reggie Sanders": [
-        "7",
-        "8"
+        "8",
+        "7"
       ],
       "Tony Gwynn": [
         "9"
