@@ -106,10 +106,10 @@ const BoxscorePage = ({ boxscore }) => {
     )
   }
 
-  const renderPitching = team => (
-    if (!pitching?.[team]) return null
-    
-    return (
+const renderPitching = team => {
+  if (!pitching?.[team]) return null
+
+  return (
     <>
       <h3 className="font-semibold mt-4">{getTeamName(team)} Pitching</h3>
       <table className="w-full text-sm border border-collapse mb-2">
