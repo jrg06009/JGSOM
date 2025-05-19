@@ -37,27 +37,12 @@ const BoxscorePage = ({ boxscore }) => {
 }
 
   const groupBattingLines = entries => {
-    const grouped = {}
-
-    entries.forEach(([name, stats]) => {
-      if (!grouped[name]) {
-        grouped[name] = { Player: name, ...stats, POS: new Set() }
-        grouped[name]["Player ID"] = stats["Player ID"]
-      }  
-
-      Object.keys(stats).forEach(k => {
-        if (k !== "Player" && k !== "POS" && typeof stats[k] === 'number') {
-          grouped[name][k] = (grouped[name][k] || 0) + stats[k]
-        }
-      })
-    })
-
-    return Object.values(grouped).map(l => ({
-      ...l,
-      POS: Array.from(l.POS).join('-')
+    return entries.map(([name, stats]) => ({
+      ...stats,
+      Player: name,
+      POS: Array.isArray(stats.POS) ? stats.POS.join('-') : (stats.POS || "")
     }))
   }
-
 
   const renderBatting = team => {
     if (!batting?.[team]) return null
