@@ -550,18 +550,27 @@ for league in league_order:
 
                 ordered[league][division] = sorted_teams
 
-    # Generate linescores.json
+# Generate linescores.json for completed games only
+    completed_game_ids = {
+        str(row["Game ID"]) for _, row in schedule_df.iterrows()
+        if str(row.get("Played", "")).strip().lower() == "yes"
+    }
+
     linescore_data = {}
     for _, row in linescore_df.iterrows():
         game_id = str(row["Game ID"])
         team = row["Team"]
+
+        if game_id not in completed_game_ids:
+            continue  # Skip unplayed games
+
         innings = []
         for i in range(1, 21):
-            col = str(i)
-            val = row.get(col)
-            if pd.isna(val):
-                val = ""
-            innings.append(str(val).strip())
+            val = row.get(str(i), "")
+            innings.append(str(val).strip() if not pd.isna(val) else "")
+
+        if all(v == "" for v in innings):
+            continue  # Skip if all innings are blank
 
         if game_id not in linescore_data:
             linescore_data[game_id] = {}
