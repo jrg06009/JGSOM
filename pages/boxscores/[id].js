@@ -99,7 +99,7 @@ const getPositionString = (team, player) => {
     if (!batting?.[team]) return null
     const lines = groupBattingLines(Object.entries(batting[team]))
 
-    const summaryStats = ["2B", "3B", "HR", "HBP", "IBB", "SH", "SF", "SB", "CS", "GDP"]
+    const summaryStats = ["2B", "3B", "HR", "HBP", "IBB", "SH", "SF", "SB", "CS", "GDP", "ERR"]
     const summary = {}
     lines.forEach(p => {
       summaryStats.forEach(stat => {
