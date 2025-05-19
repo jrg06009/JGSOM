@@ -68,7 +68,8 @@ def load_data(file_path):
     xls = pd.ExcelFile(file_path)
     gamelog = xls.parse("GameLog")
     schedule = xls.parse("Schedule")
-    return gamelog, schedule
+    linescore = xls.parse("Linescores")
+    return gamelog, schedule, linescore
 
 def group_stats(gamelog_df):
     batting = defaultdict(lambda: defaultdict(float))
@@ -437,7 +438,7 @@ if __name__ == "__main__":
     output_dir = "data/stats"
     os.makedirs(output_dir, exist_ok=True)
 
-    gamelog_df, schedule_df = load_data(input_file)
+    gamelog_df, schedule_df, linescore_df = load_data(input_file)
     
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
@@ -549,7 +550,25 @@ for league in league_order:
 
                 ordered[league][division] = sorted_teams
 
+    # Generate linescores.json
+    linescore_data = {}
+    for _, row in linescore_df.iterrows():
+        game_id = str(row["Game ID"])
+        team = row["Team"]
+        innings = []
+        for i in range(1, 21):
+            col = str(i)
+            val = row.get(col)
+            if pd.isna(val):
+                val = ""
+            innings.append(str(val).strip())
 
+        if game_id not in linescore_data:
+            linescore_data[game_id] = {}
+
+        linescore_data[game_id][team] = innings
+
+    save_json(linescore_data, os.path.join(output_dir, "linescores.json"))
     save_json(ordered, os.path.join(output_dir, "standings.json"))
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
     save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
