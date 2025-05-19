@@ -329,6 +329,60 @@ def group_fielding_stats(gamelog_df):
 
     return result
 
+def generate_boxscores(gamelog_df):
+    def safe_str(val):
+        return str(val) if not pd.isna(val) else ""
+
+    boxscores = defaultdict(lambda: {
+        "meta": {},
+        "batting": defaultdict(lambda: defaultdict(dict)),
+        "pitching": defaultdict(lambda: defaultdict(dict)),
+        "batting_order": defaultdict(list),
+        "positions": defaultdict(lambda: defaultdict(set)),
+        "games_started": defaultdict(lambda: defaultdict(int))
+    })
+
+    for _, row in gamelog_df.iterrows():
+        game_id = row["Game ID"]
+        team = row["Team"]
+        player = row["Player Name"]
+        pid = row["Player ID"]
+        bop = safe_int(row.get("BOP"))
+        gs = safe_int(row.get("GS"))
+        pos = str(row.get("POS")) if not pd.isna(row.get("POS")) else ""
+
+        if pos and pos != 'DH':
+            boxscores[game_id]["positions"][team][player].add(pos)
+
+        if bop > 0:
+            boxscores[game_id]["batting_order"][team].append((bop, player))
+        if gs:
+            boxscores[game_id]["games_started"][team][player] += gs
+
+        for stat in [
+            "AB","R","H","2B","3B","HR","RBI","BB","IBB","SO","SB","CS","GDP","HBP","SH","SF",
+            "W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against",
+            "SO against","HBP against","BK","WP","PO","A","ERR","DP","TP","PB","SB against",
+            "CS against","Pko"
+        ]:
+            val = row.get(stat, 0)
+            if pd.notna(val):
+                box = "batting" if bop > 0 else ("pitching" if pos == '1' else "batting")
+                if stat not in boxscores[game_id][box][team][player]:
+                    boxscores[game_id][box][team][player][stat] = 0
+                if stat == "IP":
+                    boxscores[game_id][box][team][player][stat] += format_ip_for_display(val)
+                else:
+                    boxscores[game_id][box][team][player][stat] += safe_int(val)
+
+        meta = boxscores[game_id]["meta"]
+        for key in ["Date", "Home", "Away", "Home Score", "Away Score"]:
+            meta_key = key.lower().replace(" ", "_")
+            if meta_key not in meta:
+                meta[meta_key] = safe_str(row.get(key))
+
+    return boxscores
+
 if __name__ == "__main__":
     input_file = "data/1999 Replay.xlsx"
     output_dir = "data/stats"
@@ -339,6 +393,11 @@ if __name__ == "__main__":
     batting_stats = group_stats(gamelog_df)
     pitching_stats = group_pitching_stats(gamelog_df, schedule_df)
     fielding_stats = group_fielding_stats(gamelog_df)
+    boxscores = generate_boxscores(gamelog_df)
+    os.makedirs("data/boxscores", exist_ok=True)
+    for gid, data in boxscores.items():
+        save_json(data, os.path.join("data/boxscores", f"{gid}.json"))
+
 
     # Generate schedule.json
     schedule_data = []
