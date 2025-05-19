@@ -9,6 +9,8 @@
   "batting": {
     "MON": {
       "Wilton Guerrero": {
+        "Player ID": "guerrwi01",
+        "Player": "Wilton Guerrero",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -20,10 +22,14 @@
         "DP": 2
       },
       "Ugueth Urbina": {
+        "Player ID": "urbinug01",
+        "Player": "Ugueth Urbina",
         "IP": "2.0",
         "SO against": 3
       },
       "Mike Maddux": {
+        "Player ID": "maddumi01",
+        "Player": "Mike Maddux",
         "L": 1,
         "IP": "0.1",
         "H allowed": 2,
@@ -32,6 +38,8 @@
         "BB against": 1
       },
       "Orlando Cabrera": {
+        "Player ID": "cabreor01",
+        "Player": "Orlando Cabrera",
         "AB": 5,
         "SO": 2,
         "PO": 3,
@@ -39,6 +47,8 @@
         "DP": 2
       },
       "Rondell White": {
+        "Player ID": "whitero02",
+        "Player": "Rondell White",
         "AB": 5,
         "SO": 1,
         "GDP": 1,
@@ -46,6 +56,8 @@
         "ERR": 1
       },
       "Vladimir Guerrero": {
+        "Player ID": "guerrvl01",
+        "Player": "Vladimir Guerrero",
         "AB": 5,
         "R": 2,
         "H": 4,
@@ -55,6 +67,8 @@
         "PO": 2
       },
       "Jose Vidro": {
+        "Player ID": "vidrojo01",
+        "Player": "Jose Vidro",
         "AB": 5,
         "H": 3,
         "2B": 1,
@@ -65,20 +79,28 @@
         "GDP": 1
       },
       "Shane Andrews": {
+        "Player ID": "andresh01",
+        "Player": "Shane Andrews",
         "AB": 4,
         "H": 3
       },
       "Brad Fullmer": {
+        "Player ID": "fullmbr01",
+        "Player": "Brad Fullmer",
         "AB": 1,
         "H": 1,
         "PO": 1
       },
       "Michael Barrett": {
+        "Player ID": "barremi01",
+        "Player": "Michael Barrett",
         "AB": 5,
         "PO": 11,
         "GDP": 1
       },
       "Manny Martinez": {
+        "Player ID": "martima02",
+        "Player": "Manny Martinez",
         "AB": 4,
         "H": 2,
         "2B": 1,
@@ -88,6 +110,8 @@
         "PO": 2
       },
       "Javier Vazquez": {
+        "Player ID": "vazquja01",
+        "Player": "Javier Vazquez",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -100,6 +124,8 @@
         "SO against": 7
       },
       "Bobby Ayala": {
+        "Player ID": "ayalabo01",
+        "Player": "Bobby Ayala",
         "IP": "1.1",
         "H allowed": 2,
         "R against": 1,
@@ -109,11 +135,15 @@
         "HBP against": 1
       },
       "Steve Kline": {
+        "Player ID": "klinest02",
+        "Player": "Steve Kline",
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
       },
       "Chris Widger": {
+        "Player ID": "widgech01",
+        "Player": "Chris Widger",
         "BB": 1,
         "IBB": 1,
         "AB": 1,
@@ -123,6 +153,8 @@
     },
     "PIT": {
       "Jason Kendall": {
+        "Player ID": "kendaja01",
+        "Player": "Jason Kendall",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -132,6 +164,8 @@
         "SB against": 1
       },
       "Warren Morris": {
+        "Player ID": "morriwa02",
+        "Player": "Warren Morris",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -142,9 +176,13 @@
         "DP": 2
       },
       "Abraham Nunez": {
+        "Player ID": "nunezab01",
+        "Player": "Abraham Nunez",
         "R": 1
       },
       "Brian Giles": {
+        "Player ID": "gilesbr02",
+        "Player": "Brian Giles",
         "AB": 5,
         "H": 3,
         "SO": 1,
@@ -152,6 +190,8 @@
         "RBI": 1
       },
       "Kevin Young": {
+        "Player ID": "youngke01",
+        "Player": "Kevin Young",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -161,12 +201,16 @@
         "DP": 3
       },
       "Al Martin": {
+        "Player ID": "martial03",
+        "Player": "Al Martin",
         "AB": 3,
         "SO": 1,
         "GDP": 1,
         "ERR": 1
       },
       "Rich Loiselle": {
+        "Player ID": "loiseri01",
+        "Player": "Rich Loiselle",
         "IP": "1.1",
         "H allowed": 3,
         "R against": 1,
@@ -175,15 +219,21 @@
         "SO against": 2
       },
       "Chris Peters": {
+        "Player ID": "peterch01",
+        "Player": "Chris Peters",
         "IP": "0.2",
         "BB against": 1,
         "IBB against": 1
       },
       "Turner Ward": {
+        "Player ID": "wardtu01",
+        "Player": "Turner Ward",
         "AB": 1,
         "SO": 1
       },
       "Jason Phillips": {
+        "Player ID": "phillja03",
+        "Player": "Jason Phillips",
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -192,20 +242,28 @@
         "SB against": 1
       },
       "Adrian Brown": {
+        "Player ID": "brownad01",
+        "Player": "Adrian Brown",
         "AB": 1,
         "H": 1,
         "RBI": 1
       },
       "Ed Sprague": {
+        "Player ID": "spraged02",
+        "Player": "Ed Sprague",
         "AB": 4,
         "A": 2
       },
       "Jose Guillen": {
+        "Player ID": "guilljo01",
+        "Player": "Jose Guillen",
         "AB": 4,
         "H": 1,
         "SO": 3
       },
       "Mike Benjamin": {
+        "Player ID": "benjami01",
+        "Player": "Mike Benjamin",
         "AB": 3,
         "R": 1,
         "BB": 1,
@@ -216,6 +274,8 @@
         "ERR": 3
       },
       "Pete Schourek": {
+        "Player ID": "schoupe01",
+        "Player": "Pete Schourek",
         "AB": 1,
         "SO": 1,
         "IP": "6.0",
@@ -227,6 +287,8 @@
         "A": 2
       },
       "Brant Brown": {
+        "Player ID": "brownbr01",
+        "Player": "Brant Brown",
         "AB": 2,
         "R": 1,
         "SO": 1,
@@ -428,8 +490,8 @@
         "3"
       ],
       "Michael Barrett": [
-        "2",
-        "5"
+        "5",
+        "2"
       ],
       "Manny Martinez": [
         "8"
@@ -447,8 +509,8 @@
         "PH"
       ],
       "Chris Widger": [
-        "2",
-        "PH"
+        "PH",
+        "2"
       ]
     },
     "PIT": {
@@ -499,8 +561,8 @@
         "1"
       ],
       "Brant Brown": [
-        "8",
-        "PH"
+        "PH",
+        "8"
       ]
     }
   },

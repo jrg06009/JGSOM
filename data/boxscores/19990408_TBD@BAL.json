@@ -9,6 +9,8 @@
   "batting": {
     "TBD": {
       "Randy Winn": {
+        "Player ID": "winnra01",
+        "Player": "Randy Winn",
         "AB": 4,
         "H": 1,
         "SB": 1,
@@ -16,14 +18,20 @@
         "PO": 3
       },
       "Dave Martinez": {
+        "Player ID": "martida01",
+        "Player": "Dave Martinez",
         "AB": 3,
         "BB": 1
       },
       "Jose Canseco": {
+        "Player ID": "cansejo01",
+        "Player": "Jose Canseco",
         "AB": 4,
         "SO": 3
       },
       "Fred McGriff": {
+        "Player ID": "mcgrifr01",
+        "Player": "Fred McGriff",
         "AB": 4,
         "SO": 1,
         "PO": 7,
@@ -31,11 +39,15 @@
         "DP": 3
       },
       "John Flaherty": {
+        "Player ID": "flahejo01",
+        "Player": "John Flaherty",
         "AB": 4,
         "H": 1,
         "PO": 2
       },
       "Quinton McCracken": {
+        "Player ID": "mccraqu01",
+        "Player": "Quinton McCracken",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -43,6 +55,8 @@
         "PO": 4
       },
       "Bob Smith": {
+        "Player ID": "smithbo06",
+        "Player": "Bob Smith",
         "AB": 3,
         "H": 1,
         "BB": 1,
@@ -51,6 +65,8 @@
         "DP": 1
       },
       "Miguel Cairo": {
+        "Player ID": "cairomi01",
+        "Player": "Miguel Cairo",
         "AB": 3,
         "H": 1,
         "BB": 1,
@@ -59,6 +75,8 @@
         "DP": 1
       },
       "Kevin Stocker": {
+        "Player ID": "stockke01",
+        "Player": "Kevin Stocker",
         "AB": 2,
         "SO": 1,
         "PO": 1,
@@ -66,16 +84,22 @@
         "DP": 2
       },
       "Wade Boggs": {
+        "Player ID": "boggswa01",
+        "Player": "Wade Boggs",
         "AB": 1,
         "H": 1
       },
       "David Lamb": {
+        "Player ID": "lambda01",
+        "Player": "David Lamb",
         "AB": 1,
         "ERR": 1
       }
     },
     "BAL": {
       "Brady Anderson": {
+        "Player ID": "anderbr01",
+        "Player": "Brady Anderson",
         "AB": 3,
         "R": 2,
         "H": 1,
@@ -83,6 +107,8 @@
         "PO": 3
       },
       "Mike Bordick": {
+        "Player ID": "bordimi01",
+        "Player": "Mike Bordick",
         "AB": 4,
         "H": 3,
         "3B": 1,
@@ -92,6 +118,8 @@
         "ERR": 1
       },
       "Will Clark": {
+        "Player ID": "clarkwi02",
+        "Player": "Will Clark",
         "AB": 3,
         "BB": 1,
         "GDP": 1,
@@ -100,21 +128,29 @@
         "DP": 1
       },
       "Albert Belle": {
+        "Player ID": "belleal01",
+        "Player": "Albert Belle",
         "AB": 2,
         "RBI": 1,
         "BB": 2,
         "PO": 5
       },
       "Harold Baines": {
+        "Player ID": "baineha01",
+        "Player": "Harold Baines",
         "AB": 3,
         "BB": 1
       },
       "B.J. Surhoff": {
+        "Player ID": "surhob.01",
+        "Player": "B.J. Surhoff",
         "AB": 4,
         "H": 2,
         "PO": 1
       },
       "Lenny Webster": {
+        "Player ID": "webstle01",
+        "Player": "Lenny Webster",
         "AB": 3,
         "BB": 1,
         "GDP": 1,
@@ -124,12 +160,16 @@
         "CS against": 2
       },
       "Willis Otanez": {
+        "Player ID": "otanewi01",
+        "Player": "Willis Otanez",
         "AB": 4,
         "SO": 1,
         "A": 1,
         "ERR": 1
       },
       "Jeff Reboulet": {
+        "Player ID": "rebouje01",
+        "Player": "Jeff Reboulet",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -145,6 +185,8 @@
   "pitching": {
     "TBD": {
       "Bobby Witt": {
+        "Player ID": "wittbo01",
+        "Player": "Bobby Witt",
         "L": 1,
         "IP": "6.1",
         "H allowed": 5,
@@ -158,17 +200,23 @@
         "DP": 1
       },
       "Jim Mecir": {
+        "Player ID": "mecirji01",
+        "Player": "Jim Mecir",
         "IP": "1.1",
         "H allowed": 2,
         "R against": 1,
         "BB against": 1
       },
       "Scott Aldred": {
+        "Player ID": "aldresc01",
+        "Player": "Scott Aldred",
         "IP": "0.1"
       }
     },
     "BAL": {
       "Scott Erickson": {
+        "Player ID": "ericksc01",
+        "Player": "Scott Erickson",
         "W": 1,
         "IP": "7.0",
         "H allowed": 6,
@@ -180,11 +228,15 @@
         "CS against": 2
       },
       "Arthur Rhodes": {
+        "Player ID": "rhodear01",
+        "Player": "Arthur Rhodes",
         "IP": "1.2",
         "BB against": 3,
         "SO against": 2
       },
       "Mike Timlin": {
+        "Player ID": "timlimi01",
+        "Player": "Mike Timlin",
         "SV": 1,
         "IP": "0.1",
         "PO": 1

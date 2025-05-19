@@ -9,17 +9,23 @@
   "batting": {
     "DET": {
       "Juan Encarnacion": {
+        "Player ID": "encarju01",
+        "Player": "Juan Encarnacion",
         "AB": 4,
         "H": 1,
         "SO": 2,
         "PO": 2
       },
       "Gregg Jefferies": {
+        "Player ID": "jeffegr01",
+        "Player": "Gregg Jefferies",
         "AB": 4,
         "H": 1,
         "RBI": 1
       },
       "Damion Easley": {
+        "Player ID": "easleda01",
+        "Player": "Damion Easley",
         "AB": 4,
         "H": 1,
         "3B": 1,
@@ -28,30 +34,40 @@
         "A": 1
       },
       "Tony Clark": {
+        "Player ID": "clarkto02",
+        "Player": "Tony Clark",
         "AB": 4,
         "SO": 1,
         "PO": 5,
         "A": 1
       },
       "Dean Palmer": {
+        "Player ID": "palmede01",
+        "Player": "Dean Palmer",
         "AB": 4,
         "SO": 2,
         "A": 2,
         "ERR": 2
       },
       "Bobby Higginson": {
+        "Player ID": "higgibo02",
+        "Player": "Bobby Higginson",
         "AB": 3,
         "H": 1,
         "2B": 1,
         "PO": 2
       },
       "Deivi Cruz": {
+        "Player ID": "cruzde01",
+        "Player": "Deivi Cruz",
         "AB": 3,
         "SO": 2,
         "PO": 1,
         "A": 2
       },
       "Brad Ausmus": {
+        "Player ID": "ausmubr01",
+        "Player": "Brad Ausmus",
         "AB": 3,
         "SO": 2,
         "PO": 9,
@@ -60,6 +76,8 @@
         "CS against": 1
       },
       "Brian Hunter": {
+        "Player ID": "huntebr02",
+        "Player": "Brian Hunter",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -68,6 +86,8 @@
     },
     "TEX": {
       "Tom Goodwin": {
+        "Player ID": "goodwto01",
+        "Player": "Tom Goodwin",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -76,6 +96,8 @@
         "PO": 3
       },
       "Luis Alicea": {
+        "Player ID": "alicelu01",
+        "Player": "Luis Alicea",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -85,17 +107,23 @@
         "A": 1
       },
       "Rusty Greer": {
+        "Player ID": "greerru01",
+        "Player": "Rusty Greer",
         "AB": 4,
         "R": 1,
         "SO": 1,
         "PO": 2
       },
       "Juan Gonzalez": {
+        "Player ID": "gonzaju03",
+        "Player": "Juan Gonzalez",
         "AB": 4,
         "H": 1,
         "2B": 1
       },
       "Rafael Palmeiro": {
+        "Player ID": "palmera01",
+        "Player": "Rafael Palmeiro",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -104,6 +132,8 @@
         "SO": 2
       },
       "Ivan Rodriguez": {
+        "Player ID": "rodriiv01",
+        "Player": "Ivan Rodriguez",
         "AB": 4,
         "H": 2,
         "RBI": 2,
@@ -111,12 +141,16 @@
         "PO": 11
       },
       "Lee Stevens": {
+        "Player ID": "stevele01",
+        "Player": "Lee Stevens",
         "AB": 4,
         "SO": 3,
         "PO": 6,
         "A": 1
       },
       "Todd Zeile": {
+        "Player ID": "zeileto01",
+        "Player": "Todd Zeile",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -125,6 +159,8 @@
         "PO": 2
       },
       "Royce Clayton": {
+        "Player ID": "claytro01",
+        "Player": "Royce Clayton",
         "AB": 4,
         "H": 2,
         "SO": 1,
@@ -136,6 +172,8 @@
   "pitching": {
     "DET": {
       "Brian Moehler": {
+        "Player ID": "moehlbr01",
+        "Player": "Brian Moehler",
         "L": 1,
         "IP": "5.0",
         "H allowed": 10,
@@ -148,9 +186,13 @@
         "SB against": 1
       },
       "C.J. Nitkowski": {
+        "Player ID": "nitkoc.01",
+        "Player": "C.J. Nitkowski",
         "IP": "1.0"
       },
       "Masao Kida": {
+        "Player ID": "kidama01",
+        "Player": "Masao Kida",
         "IP": "2.0",
         "H allowed": 2,
         "R against": 1,
@@ -161,6 +203,8 @@
     },
     "TEX": {
       "Rick Helling": {
+        "Player ID": "helliri01",
+        "Player": "Rick Helling",
         "W": 1,
         "IP": "9.0",
         "H allowed": 5,

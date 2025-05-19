@@ -9,35 +9,47 @@
   "batting": {
     "MIL": {
       "Fernando Vina": {
+        "Player ID": "vinafe01",
+        "Player": "Fernando Vina",
         "AB": 4,
         "H": 2,
         "PO": 2,
         "A": 2
       },
       "Marquis Grissom": {
+        "Player ID": "grissma02",
+        "Player": "Marquis Grissom",
         "AB": 3,
         "BB": 1,
         "GDP": 1,
         "PO": 2
       },
       "Jeff Cirillo": {
+        "Player ID": "cirilje01",
+        "Player": "Jeff Cirillo",
         "AB": 4,
         "SO": 1,
         "A": 2
       },
       "Jeromy Burnitz": {
+        "Player ID": "burnije01",
+        "Player": "Jeromy Burnitz",
         "AB": 3,
         "BB": 1,
         "SO": 1,
         "PO": 1
       },
       "Sean Berry": {
+        "Player ID": "berryse01",
+        "Player": "Sean Berry",
         "AB": 3,
         "H": 2,
         "HBP": 1,
         "PO": 7
       },
       "Dave Nilsson": {
+        "Player ID": "nilssda01",
+        "Player": "Dave Nilsson",
         "AB": 3,
         "H": 1,
         "BB": 1,
@@ -46,12 +58,16 @@
         "SB against": 1
       },
       "Mark Loretta": {
+        "Player ID": "loretma01",
+        "Player": "Mark Loretta",
         "AB": 3,
         "H": 1,
         "PO": 2,
         "A": 1
       },
       "Eric Plunk": {
+        "Player ID": "plunker01",
+        "Player": "Eric Plunk",
         "IP": "1.0",
         "H allowed": 3,
         "R against": 3,
@@ -61,20 +77,28 @@
         "A": 1
       },
       "Bob Wickman": {
+        "Player ID": "wickmbo01",
+        "Player": "Bob Wickman",
         "IP": "1.0",
         "SO against": 1,
         "ERR": 1
       },
       "Rich Becker": {
+        "Player ID": "beckeri01",
+        "Player": "Rich Becker",
         "AB": 1,
         "GDP": 1
       },
       "Geoff Jenkins": {
+        "Player ID": "jenkige01",
+        "Player": "Geoff Jenkins",
         "AB": 3,
         "SO": 1,
         "PO": 1
       },
       "Rafael Roque": {
+        "Player ID": "roquera01",
+        "Player": "Rafael Roque",
         "L": 1,
         "IP": "2.0",
         "H allowed": 4,
@@ -86,10 +110,14 @@
         "HBP against": 1
       },
       "Brian Banks": {
+        "Player ID": "banksbr01",
+        "Player": "Brian Banks",
         "AB": 1,
         "SO": 1
       },
       "David Weathers": {
+        "Player ID": "weathda01",
+        "Player": "David Weathers",
         "IP": "2.0",
         "H allowed": 2,
         "R against": 0,
@@ -99,9 +127,13 @@
         "SO against": 2
       },
       "Alex Ochoa": {
+        "Player ID": "ochoaal01",
+        "Player": "Alex Ochoa",
         "AB": 1
       },
       "Chad Fox": {
+        "Player ID": "foxch02",
+        "Player": "Chad Fox",
         "IP": "1.0",
         "H allowed": 5,
         "R against": 4,
@@ -111,16 +143,22 @@
         "SB against": 1
       },
       "Mike Myers": {
+        "Player ID": "myersmi01",
+        "Player": "Mike Myers",
         "IP": "1.0",
         "SO against": 1
       },
       "Jose Valentin": {
+        "Player ID": "valenjo03",
+        "Player": "Jose Valentin",
         "AB": 1,
         "PO": 1
       }
     },
     "STL": {
       "Edgar Renteria": {
+        "Player ID": "renteed01",
+        "Player": "Edgar Renteria",
         "AB": 3,
         "R": 1,
         "BB": 1,
@@ -129,28 +167,38 @@
         "DP": 1
       },
       "Luis Ordaz": {
+        "Player ID": "ordazlu01",
+        "Player": "Luis Ordaz",
         "AB": 1,
         "PO": 3,
         "A": 2,
         "DP": 2
       },
       "J.D. Drew": {
+        "Player ID": "drewj.01",
+        "Player": "J.D. Drew",
         "AB": 4,
         "SO": 2,
         "PO": 1
       },
       "Ricky Bottalico": {
+        "Player ID": "bottari01",
+        "Player": "Ricky Bottalico",
         "IP": "1.0",
         "H allowed": 1,
         "BB against": 1,
         "SO against": 1
       },
       "Alberto Castillo": {
+        "Player ID": "castial01",
+        "Player": "Alberto Castillo",
         "AB": 1,
         "R": 1,
         "H": 1
       },
       "Mark McGwire": {
+        "Player ID": "mcgwima01",
+        "Player": "Mark McGwire",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -160,6 +208,8 @@
         "DP": 3
       },
       "Eric Davis": {
+        "Player ID": "daviser01",
+        "Player": "Eric Davis",
         "AB": 3,
         "R": 2,
         "H": 2,
@@ -168,6 +218,8 @@
         "PO": 1
       },
       "Fernando Tatis": {
+        "Player ID": "tatisfe01",
+        "Player": "Fernando Tatis",
         "AB": 4,
         "R": 3,
         "H": 2,
@@ -178,6 +230,8 @@
         "A": 2
       },
       "Shawon Dunston": {
+        "Player ID": "dunstsh01",
+        "Player": "Shawon Dunston",
         "AB": 4,
         "R": 2,
         "H": 3,
@@ -186,6 +240,8 @@
         "RBI": 1
       },
       "Eli Marrero": {
+        "Player ID": "marreel01",
+        "Player": "Eli Marrero",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -195,11 +251,15 @@
         "PO": 4
       },
       "Juan Acevedo": {
+        "Player ID": "aceveju01",
+        "Player": "Juan Acevedo",
         "IP": "1.0",
         "BB against": 2,
         "A": 1
       },
       "Placido Polanco": {
+        "Player ID": "polanpl01",
+        "Player": "Placido Polanco",
         "AB": 5,
         "H": 3,
         "RBI": 4,
@@ -208,6 +268,8 @@
         "DP": 3
       },
       "Donovan Osborne": {
+        "Player ID": "osbordo01",
+        "Player": "Donovan Osborne",
         "AB": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -216,6 +278,8 @@
         "A": 1
       },
       "Mike Busby": {
+        "Player ID": "busbymi01",
+        "Player": "Mike Busby",
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -223,21 +287,31 @@
         "A": 1
       },
       "Joe McEwing": {
+        "Player ID": "mcewijo01",
+        "Player": "Joe McEwing",
         "AB": 1
       },
       "Scott Radinsky": {
+        "Player ID": "radinsc01",
+        "Player": "Scott Radinsky",
         "IP": "1.0",
         "SO against": 1
       },
       "Darren Bragg": {
+        "Player ID": "braggda01",
+        "Player": "Darren Bragg",
         "AB": 1
       },
       "Manny Aybar": {
+        "Player ID": "aybarma01",
+        "Player": "Manny Aybar",
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1
       },
       "Willie McGee": {
+        "Player ID": "mcgeewi01",
+        "Player": "Willie McGee",
         "AB": 1,
         "RBI": 1
       }
@@ -481,8 +555,8 @@
         "1"
       ],
       "Alberto Castillo": [
-        "2",
-        "PH"
+        "PH",
+        "2"
       ],
       "Mark McGwire": [
         "3"
@@ -494,8 +568,8 @@
         "5"
       ],
       "Shawon Dunston": [
-        "7",
-        "8"
+        "8",
+        "7"
       ],
       "Eli Marrero": [
         "2"
@@ -525,8 +599,8 @@
         "1"
       ],
       "Willie McGee": [
-        "7",
-        "PH"
+        "PH",
+        "7"
       ]
     }
   },

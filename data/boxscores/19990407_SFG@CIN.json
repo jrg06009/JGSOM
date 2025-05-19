@@ -9,12 +9,16 @@
   "batting": {
     "SFG": {
       "Stan Javier": {
+        "Player ID": "javiest01",
+        "Player": "Stan Javier",
         "AB": 4,
         "BB": 1,
         "CS": 1,
         "PO": 1
       },
       "F.P. Santangelo": {
+        "Player ID": "santaf.01",
+        "Player": "F.P. Santangelo",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -23,6 +27,8 @@
         "PO": 2
       },
       "Barry Bonds": {
+        "Player ID": "bondsba01",
+        "Player": "Barry Bonds",
         "AB": 2,
         "R": 2,
         "H": 1,
@@ -30,6 +36,8 @@
         "HBP": 1
       },
       "Jeff Kent": {
+        "Player ID": "kentje01",
+        "Player": "Jeff Kent",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -41,11 +49,15 @@
         "DP": 2
       },
       "Charlie Hayes": {
+        "Player ID": "hayesch01",
+        "Player": "Charlie Hayes",
         "AB": 4,
         "BB": 1,
         "A": 2
       },
       "J.T. Snow": {
+        "Player ID": "snowj.01",
+        "Player": "J.T. Snow",
         "AB": 5,
         "H": 2,
         "RBI": 2,
@@ -55,6 +67,8 @@
         "DP": 2
       },
       "Rich Aurilia": {
+        "Player ID": "aurilri01",
+        "Player": "Rich Aurilia",
         "AB": 5,
         "H": 2,
         "SO": 1,
@@ -63,6 +77,8 @@
         "DP": 2
       },
       "Scott Servais": {
+        "Player ID": "servasc01",
+        "Player": "Scott Servais",
         "AB": 3,
         "H": 1,
         "SO": 2,
@@ -71,6 +87,8 @@
         "SB against": 1
       },
       "Russ Ortiz": {
+        "Player ID": "ortizru01",
+        "Player": "Russ Ortiz",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -85,41 +103,57 @@
         "PO": 1
       },
       "Marvin Benard": {
+        "Player ID": "benarma01",
+        "Player": "Marvin Benard",
         "AB": 1
       },
       "Alan Embree": {
+        "Player ID": "embreal01",
+        "Player": "Alan Embree",
         "IP": "0.1",
         "BB against": 2,
         "SB against": 1
       },
       "John Johnstone": {
+        "Player ID": "johnsjo07",
+        "Player": "John Johnstone",
         "IP": "1.2",
         "H allowed": 1,
         "BB against": 1,
         "SO against": 1
       },
       "Ellis Burks": {
+        "Player ID": "burksel01",
+        "Player": "Ellis Burks",
         "AB": 1
       },
       "Julian Tavarez": {
+        "Player ID": "tavarju01",
+        "Player": "Julian Tavarez",
         "IP": "1.0",
         "H allowed": 1,
         "SO against": 1,
         "WP": 1
       },
       "Robb Nen": {
+        "Player ID": "nenro01",
+        "Player": "Robb Nen",
         "IP": "1.0",
         "SO against": 1
       }
     },
     "CIN": {
       "Mike Cameron": {
+        "Player ID": "camermi01",
+        "Player": "Mike Cameron",
         "AB": 4,
         "BB": 1,
         "SO": 2,
         "PO": 1
       },
       "Barry Larkin": {
+        "Player ID": "larkiba01",
+        "Player": "Barry Larkin",
         "AB": 4,
         "H": 2,
         "3B": 1,
@@ -130,23 +164,31 @@
         "A": 3
       },
       "Sean Casey": {
+        "Player ID": "caseyse01",
+        "Player": "Sean Casey",
         "AB": 3,
         "BB": 1,
         "GDP": 1,
         "PO": 8
       },
       "Greg Vaughn": {
+        "Player ID": "vaughgr01",
+        "Player": "Greg Vaughn",
         "AB": 3,
         "BB": 1,
         "SO": 1,
         "SB": 1
       },
       "Dmitri Young": {
+        "Player ID": "youngdm01",
+        "Player": "Dmitri Young",
         "AB": 4,
         "SO": 2,
         "PO": 5
       },
       "Ed Taubensee": {
+        "Player ID": "taubeed01",
+        "Player": "Ed Taubensee",
         "AB": 2,
         "H": 1,
         "BB": 2,
@@ -155,6 +197,8 @@
         "CS against": 1
       },
       "Mark Lewis": {
+        "Player ID": "lewisma01",
+        "Player": "Mark Lewis",
         "AB": 3,
         "SO": 1,
         "GDP": 1,
@@ -162,6 +206,8 @@
         "ERR": 1
       },
       "Gabe White": {
+        "Player ID": "whitega01",
+        "Player": "Gabe White",
         "IP": "1.1",
         "H allowed": 1,
         "BB against": 1,
@@ -170,9 +216,13 @@
         "A": 1
       },
       "Hal Morris": {
+        "Player ID": "morriha02",
+        "Player": "Hal Morris",
         "AB": 1
       },
       "Danny Graves": {
+        "Player ID": "graveda01",
+        "Player": "Danny Graves",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 2,
@@ -182,6 +232,8 @@
         "HBP against": 1
       },
       "Pokey Reese": {
+        "Player ID": "reesepo01",
+        "Player": "Pokey Reese",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -192,6 +244,8 @@
         "A": 2
       },
       "Steve Avery": {
+        "Player ID": "averyst01",
+        "Player": "Steve Avery",
         "AB": 1,
         "L": 1,
         "IP": "5.0",
@@ -204,15 +258,21 @@
         "CS against": 1
       },
       "Mark Sweeney": {
+        "Player ID": "sweenma01",
+        "Player": "Mark Sweeney",
         "AB": 1,
         "SO": 1
       },
       "Scott Sullivan": {
+        "Player ID": "sullisc01",
+        "Player": "Scott Sullivan",
         "IP": "1.2",
         "H allowed": 1,
         "WP": 1
       },
       "Aaron Boone": {
+        "Player ID": "booneaa01",
+        "Player": "Aaron Boone",
         "AB": 2,
         "H": 1,
         "2B": 1

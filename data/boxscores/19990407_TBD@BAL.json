@@ -9,6 +9,8 @@
   "batting": {
     "TBD": {
       "Randy Winn": {
+        "Player ID": "winnra01",
+        "Player": "Randy Winn",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -17,6 +19,8 @@
         "A": 1
       },
       "Dave Martinez": {
+        "Player ID": "martida01",
+        "Player": "Dave Martinez",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -24,12 +28,16 @@
         "ERR": 1
       },
       "Jose Canseco": {
+        "Player ID": "cansejo01",
+        "Player": "Jose Canseco",
         "AB": 4,
         "R": 1,
         "H": 1,
         "SO": 1
       },
       "Fred McGriff": {
+        "Player ID": "mcgrifr01",
+        "Player": "Fred McGriff",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -41,6 +49,8 @@
         "DP": 2
       },
       "John Flaherty": {
+        "Player ID": "flahejo01",
+        "Player": "John Flaherty",
         "AB": 3,
         "RBI": 1,
         "SO": 1,
@@ -48,6 +58,8 @@
         "PO": 2
       },
       "Wade Boggs": {
+        "Player ID": "boggswa01",
+        "Player": "Wade Boggs",
         "AB": 4,
         "SO": 1,
         "PO": 1,
@@ -55,11 +67,15 @@
         "DP": 1
       },
       "Paul Sorrento": {
+        "Player ID": "sorrepa01",
+        "Player": "Paul Sorrento",
         "AB": 4,
         "SO": 3,
         "PO": 1
       },
       "Miguel Cairo": {
+        "Player ID": "cairomi01",
+        "Player": "Miguel Cairo",
         "AB": 3,
         "H": 1,
         "BB": 1,
@@ -69,6 +85,8 @@
         "DP": 2
       },
       "Kevin Stocker": {
+        "Player ID": "stockke01",
+        "Player": "Kevin Stocker",
         "AB": 2,
         "H": 1,
         "SO": 1,
@@ -80,12 +98,16 @@
     },
     "BAL": {
       "Brady Anderson": {
+        "Player ID": "anderbr01",
+        "Player": "Brady Anderson",
         "AB": 2,
         "R": 1,
         "BB": 2,
         "PO": 2
       },
       "Mike Bordick": {
+        "Player ID": "bordimi01",
+        "Player": "Mike Bordick",
         "AB": 4,
         "R": 2,
         "H": 3,
@@ -95,11 +117,15 @@
         "A": 1
       },
       "Will Clark": {
+        "Player ID": "clarkwi02",
+        "Player": "Will Clark",
         "AB": 4,
         "SO": 1,
         "PO": 9
       },
       "Albert Belle": {
+        "Player ID": "belleal01",
+        "Player": "Albert Belle",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -107,20 +133,28 @@
         "PO": 1
       },
       "Jeff Conine": {
+        "Player ID": "coninje01",
+        "Player": "Jeff Conine",
         "AB": 2,
         "H": 1,
         "BB": 1
       },
       "Harold Baines": {
+        "Player ID": "baineha01",
+        "Player": "Harold Baines",
         "AB": 1,
         "H": 1
       },
       "B.J. Surhoff": {
+        "Player ID": "surhob.01",
+        "Player": "B.J. Surhoff",
         "AB": 4,
         "GDP": 1,
         "PO": 4
       },
       "Charles Johnson": {
+        "Player ID": "johnsch04",
+        "Player": "Charles Johnson",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -131,11 +165,15 @@
         "SB against": 1
       },
       "Willis Otanez": {
+        "Player ID": "otanewi01",
+        "Player": "Willis Otanez",
         "AB": 4,
         "R": 1,
         "H": 2
       },
       "Jeff Reboulet": {
+        "Player ID": "rebouje01",
+        "Player": "Jeff Reboulet",
         "AB": 3,
         "BB": 1,
         "GDP": 1,
@@ -147,6 +185,8 @@
   "pitching": {
     "TBD": {
       "Tony Saunders": {
+        "Player ID": "saundto01",
+        "Player": "Tony Saunders",
         "IP": "5.0",
         "H allowed": 6,
         "R against": 4,
@@ -157,6 +197,8 @@
         "WP": 1
       },
       "Scott Aldred": {
+        "Player ID": "aldresc01",
+        "Player": "Scott Aldred",
         "L": 1,
         "IP": "0.2",
         "H allowed": 1,
@@ -165,15 +207,21 @@
         "BB against": 2
       },
       "Albie Lopez": {
+        "Player ID": "lopezal02",
+        "Player": "Albie Lopez",
         "IP": "1.1",
         "H allowed": 2
       },
       "Roberto Hernandez": {
+        "Player ID": "hernaro01",
+        "Player": "Roberto Hernandez",
         "IP": "1.0"
       }
     },
     "BAL": {
       "Juan Guzman": {
+        "Player ID": "guzmaju01",
+        "Player": "Juan Guzman",
         "IP": "5.0",
         "H allowed": 6,
         "R against": 4,
@@ -185,6 +233,8 @@
         "SB against": 1
       },
       "Mike Fetters": {
+        "Player ID": "fettemi01",
+        "Player": "Mike Fetters",
         "W": 1,
         "IP": "2.0",
         "H allowed": 1,
@@ -193,10 +243,14 @@
         "A": 1
       },
       "Arthur Rhodes": {
+        "Player ID": "rhodear01",
+        "Player": "Arthur Rhodes",
         "IP": "1.0",
         "SO against": 2
       },
       "Mike Timlin": {
+        "Player ID": "timlimi01",
+        "Player": "Mike Timlin",
         "SV": 1,
         "IP": "1.0",
         "SO against": 1

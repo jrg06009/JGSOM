@@ -9,6 +9,8 @@
   "batting": {
     "MIL": {
       "Fernando Vina": {
+        "Player ID": "vinafe01",
+        "Player": "Fernando Vina",
         "AB": 6,
         "R": 1,
         "H": 2,
@@ -18,6 +20,8 @@
         "DP": 1
       },
       "Marquis Grissom": {
+        "Player ID": "grissma02",
+        "Player": "Marquis Grissom",
         "AB": 6,
         "H": 4,
         "2B": 2,
@@ -26,17 +30,23 @@
         "PO": 3
       },
       "Jeff Cirillo": {
+        "Player ID": "cirilje01",
+        "Player": "Jeff Cirillo",
         "AB": 4,
         "BB": 2,
         "IBB": 1,
         "A": 4
       },
       "Jeromy Burnitz": {
+        "Player ID": "burnije01",
+        "Player": "Jeromy Burnitz",
         "AB": 5,
         "SO": 1,
         "PO": 2
       },
       "Sean Berry": {
+        "Player ID": "berryse01",
+        "Player": "Sean Berry",
         "AB": 5,
         "R": 2,
         "H": 3,
@@ -45,6 +55,8 @@
         "PO": 15
       },
       "Mark Loretta": {
+        "Player ID": "loretma01",
+        "Player": "Mark Loretta",
         "AB": 5,
         "H": 4,
         "2B": 1,
@@ -52,6 +64,8 @@
         "A": 2
       },
       "Bobby Hughes": {
+        "Player ID": "hughebo01",
+        "Player": "Bobby Hughes",
         "AB": 3,
         "RBI": 1,
         "SO": 1,
@@ -63,12 +77,16 @@
         "CS against": 1
       },
       "Dave Nilsson": {
+        "Player ID": "nilssda01",
+        "Player": "Dave Nilsson",
         "AB": 1,
         "GDP": 1,
         "PO": 2,
         "SB against": 1
       },
       "Alex Ochoa": {
+        "Player ID": "ochoaal01",
+        "Player": "Alex Ochoa",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -78,6 +96,8 @@
         "PO": 2
       },
       "Jim Abbott": {
+        "Player ID": "abbotji01",
+        "Player": "Jim Abbott",
         "AB": 2,
         "SO": 2,
         "IP": "5.1",
@@ -89,28 +109,40 @@
         "CS against": 1
       },
       "David Weathers": {
+        "Player ID": "weathda01",
+        "Player": "David Weathers",
         "IP": "0.2",
         "BB against": 1,
         "A": 1
       },
       "Jose Valentin": {
+        "Player ID": "valenjo03",
+        "Player": "Jose Valentin",
         "AB": 1,
         "SO": 1
       },
       "Mike Myers": {
+        "Player ID": "myersmi01",
+        "Player": "Mike Myers",
         "IP": "1.0",
         "SO against": 2,
         "A": 1
       },
       "Brian Banks": {
+        "Player ID": "banksbr01",
+        "Player": "Brian Banks",
         "AB": 1,
         "SO": 1
       },
       "Valerio de los Santos": {
+        "Player ID": "delosva01",
+        "Player": "Valerio de los Santos",
         "IP": "0.2",
         "H allowed": 1
       },
       "Bob Wickman": {
+        "Player ID": "wickmbo01",
+        "Player": "Bob Wickman",
         "IP": "1.1",
         "H allowed": 2,
         "R against": 2,
@@ -120,6 +152,8 @@
         "SO against": 2
       },
       "Eric Plunk": {
+        "Player ID": "plunker01",
+        "Player": "Eric Plunk",
         "SH": 1,
         "W": 1,
         "IP": "2.0",
@@ -131,6 +165,8 @@
     },
     "STL": {
       "Darren Bragg": {
+        "Player ID": "braggda01",
+        "Player": "Darren Bragg",
         "AB": 3,
         "H": 1,
         "2B": 1,
@@ -140,11 +176,15 @@
         "PO": 2
       },
       "Luis Ordaz": {
+        "Player ID": "ordazlu01",
+        "Player": "Luis Ordaz",
         "AB": 1,
         "SO": 1,
         "PO": 1
       },
       "Shawon Dunston": {
+        "Player ID": "dunstsh01",
+        "Player": "Shawon Dunston",
         "AB": 5,
         "H": 1,
         "RBI": 1,
@@ -154,6 +194,8 @@
         "DP": 1
       },
       "Juan Acevedo": {
+        "Player ID": "aceveju01",
+        "Player": "Juan Acevedo",
         "L": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -164,6 +206,8 @@
         "DP": 1
       },
       "Mark McGwire": {
+        "Player ID": "mcgwima01",
+        "Player": "Mark McGwire",
         "AB": 3,
         "RBI": 1,
         "BB": 1,
@@ -174,11 +218,15 @@
         "DP": 2
       },
       "Eric Davis": {
+        "Player ID": "daviser01",
+        "Player": "Eric Davis",
         "AB": 4,
         "BB": 1,
         "PO": 1
       },
       "Fernando Tatis": {
+        "Player ID": "tatisfe01",
+        "Player": "Fernando Tatis",
         "AB": 5,
         "R": 1,
         "H": 1,
@@ -188,6 +236,8 @@
         "A": 2
       },
       "Willie McGee": {
+        "Player ID": "mcgeewi01",
+        "Player": "Willie McGee",
         "AB": 5,
         "H": 1,
         "SO": 2,
@@ -195,6 +245,8 @@
         "PO": 2
       },
       "Alberto Castillo": {
+        "Player ID": "castial01",
+        "Player": "Alberto Castillo",
         "AB": 5,
         "R": 1,
         "H": 1,
@@ -202,6 +254,8 @@
         "PO": 9
       },
       "Joe McEwing": {
+        "Player ID": "mcewijo01",
+        "Player": "Joe McEwing",
         "AB": 2,
         "R": 1,
         "BB": 1,
@@ -211,11 +265,15 @@
         "DP": 1
       },
       "J.D. Drew": {
+        "Player ID": "drewj.01",
+        "Player": "J.D. Drew",
         "BB": 2,
         "SB": 1,
         "PO": 1
       },
       "Kent Mercker": {
+        "Player ID": "merckke01",
+        "Player": "Kent Mercker",
         "AB": 1,
         "IP": "6.0",
         "H allowed": 8,
@@ -228,10 +286,14 @@
         "A": 1
       },
       "Placido Polanco": {
+        "Player ID": "polanpl01",
+        "Player": "Placido Polanco",
         "R": 1,
         "BB": 1
       },
       "Lance Painter": {
+        "Player ID": "paintla01",
+        "Player": "Lance Painter",
         "IP": "2.0",
         "H allowed": 4,
         "R against": 2,
@@ -242,13 +304,19 @@
         "WP": 1
       },
       "Eli Marrero": {
+        "Player ID": "marreel01",
+        "Player": "Eli Marrero",
         "AB": 1
       },
       "Manny Aybar": {
+        "Player ID": "aybarma01",
+        "Player": "Manny Aybar",
         "IP": "1.0",
         "SO against": 1
       },
       "Edgar Renteria": {
+        "Player ID": "renteed01",
+        "Player": "Edgar Renteria",
         "BB": 2,
         "IBB": 1,
         "PO": 1,
@@ -436,8 +504,8 @@
         "2"
       ],
       "Dave Nilsson": [
-        "2",
-        "PH"
+        "PH",
+        "2"
       ],
       "Alex Ochoa": [
         "7"
@@ -499,8 +567,8 @@
         "4"
       ],
       "J.D. Drew": [
-        "8",
-        "PH"
+        "PH",
+        "8"
       ],
       "Kent Mercker": [
         "1"

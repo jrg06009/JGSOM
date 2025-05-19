@@ -9,6 +9,8 @@
   "batting": {
     "DET": {
       "Juan Encarnacion": {
+        "Player ID": "encarju01",
+        "Player": "Juan Encarnacion",
         "AB": 4,
         "BB": 1,
         "SO": 2,
@@ -16,6 +18,8 @@
         "ERR": 1
       },
       "Bobby Higginson": {
+        "Player ID": "higgibo02",
+        "Player": "Bobby Higginson",
         "AB": 3,
         "R": 1,
         "BB": 2,
@@ -23,6 +27,8 @@
         "GDP": 1
       },
       "Damion Easley": {
+        "Player ID": "easleda01",
+        "Player": "Damion Easley",
         "AB": 4,
         "H": 2,
         "2B": 2,
@@ -30,6 +36,8 @@
         "A": 4
       },
       "Tony Clark": {
+        "Player ID": "clarkto02",
+        "Player": "Tony Clark",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -41,6 +49,8 @@
         "A": 1
       },
       "Dean Palmer": {
+        "Player ID": "palmede01",
+        "Player": "Dean Palmer",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -51,6 +61,8 @@
         "A": 4
       },
       "Karim Garcia": {
+        "Player ID": "garcika01",
+        "Player": "Karim Garcia",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -60,6 +72,8 @@
         "PO": 4
       },
       "Gabe Kapler": {
+        "Player ID": "kaplega01",
+        "Player": "Gabe Kapler",
         "AB": 5,
         "R": 1,
         "SO": 2,
@@ -67,6 +81,8 @@
         "A": 1
       },
       "Bill Haselman": {
+        "Player ID": "haselbi01",
+        "Player": "Bill Haselman",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -76,18 +92,24 @@
         "PO": 3
       },
       "Deivi Cruz": {
+        "Player ID": "cruzde01",
+        "Player": "Deivi Cruz",
         "AB": 3,
         "H": 1,
         "SO": 1,
         "A": 5
       },
       "Gregg Jefferies": {
+        "Player ID": "jeffegr01",
+        "Player": "Gregg Jefferies",
         "AB": 1,
         "GDP": 1
       }
     },
     "TEX": {
       "Royce Clayton": {
+        "Player ID": "claytro01",
+        "Player": "Royce Clayton",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -99,6 +121,8 @@
         "DP": 2
       },
       "Ivan Rodriguez": {
+        "Player ID": "rodriiv01",
+        "Player": "Ivan Rodriguez",
         "AB": 5,
         "H": 1,
         "2B": 1,
@@ -106,6 +130,8 @@
         "A": 1
       },
       "Rusty Greer": {
+        "Player ID": "greerru01",
+        "Player": "Rusty Greer",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -115,6 +141,8 @@
         "PO": 1
       },
       "Juan Gonzalez": {
+        "Player ID": "gonzaju03",
+        "Player": "Juan Gonzalez",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -123,6 +151,8 @@
         "ERR": 1
       },
       "Rafael Palmeiro": {
+        "Player ID": "palmera01",
+        "Player": "Rafael Palmeiro",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -130,6 +160,8 @@
         "RBI": 3
       },
       "Roberto Kelly": {
+        "Player ID": "kellyro01",
+        "Player": "Roberto Kelly",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -137,11 +169,15 @@
         "PO": 2
       },
       "Todd Zeile": {
+        "Player ID": "zeileto01",
+        "Player": "Todd Zeile",
         "AB": 2,
         "R": 2,
         "BB": 2
       },
       "Lee Stevens": {
+        "Player ID": "stevele01",
+        "Player": "Lee Stevens",
         "AB": 4,
         "R": 3,
         "H": 3,
@@ -152,6 +188,8 @@
         "DP": 2
       },
       "Luis Alicea": {
+        "Player ID": "alicelu01",
+        "Player": "Luis Alicea",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -164,6 +202,8 @@
   "pitching": {
     "DET": {
       "Justin Thompson": {
+        "Player ID": "thompju02",
+        "Player": "Justin Thompson",
         "L": 1,
         "IP": "2.1",
         "H allowed": 8,
@@ -175,6 +215,8 @@
         "A": 1
       },
       "Felipe Lira": {
+        "Player ID": "lirafe01",
+        "Player": "Felipe Lira",
         "IP": "2.2",
         "H allowed": 4,
         "R against": 2,
@@ -183,19 +225,27 @@
         "BB against": 1
       },
       "Sean Runyan": {
+        "Player ID": "runyase01",
+        "Player": "Sean Runyan",
         "IP": "0.2",
         "PO": 1
       },
       "Matt Anderson": {
+        "Player ID": "anderma01",
+        "Player": "Matt Anderson",
         "IP": "1.1",
         "SO against": 1
       },
       "Doug Brocail": {
+        "Player ID": "brocado01",
+        "Player": "Doug Brocail",
         "IP": "1.0"
       }
     },
     "TEX": {
       "Aaron Sele": {
+        "Player ID": "seleaa01",
+        "Player": "Aaron Sele",
         "W": 1,
         "IP": "6.0",
         "H allowed": 6,
@@ -209,15 +259,21 @@
         "ERR": 1
       },
       "Esteban Loaiza": {
+        "Player ID": "loaizes01",
+        "Player": "Esteban Loaiza",
         "IP": "1.1",
         "H allowed": 1,
         "BB against": 2,
         "SO against": 3
       },
       "Tim Crabtree": {
+        "Player ID": "crabtti01",
+        "Player": "Tim Crabtree",
         "IP": "0.2"
       },
       "Danny Patterson": {
+        "Player ID": "patteda04",
+        "Player": "Danny Patterson",
         "IP": "0.1",
         "H allowed": 1,
         "R against": 1,
@@ -225,6 +281,8 @@
         "BB against": 3
       },
       "John Wetteland": {
+        "Player ID": "wettejo01",
+        "Player": "John Wetteland",
         "SV": 1,
         "IP": "0.2",
         "SO against": 2

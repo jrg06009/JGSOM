@@ -9,6 +9,8 @@
   "batting": {
     "DET": {
       "Juan Encarnacion": {
+        "Player ID": "encarju01",
+        "Player": "Juan Encarnacion",
         "AB": 5,
         "R": 2,
         "H": 3,
@@ -18,6 +20,8 @@
         "PO": 1
       },
       "Gregg Jefferies": {
+        "Player ID": "jeffegr01",
+        "Player": "Gregg Jefferies",
         "AB": 5,
         "R": 1,
         "H": 1,
@@ -25,6 +29,8 @@
         "RBI": 1
       },
       "Damion Easley": {
+        "Player ID": "easleda01",
+        "Player": "Damion Easley",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -37,6 +43,8 @@
         "DP": 2
       },
       "Tony Clark": {
+        "Player ID": "clarkto02",
+        "Player": "Tony Clark",
         "AB": 5,
         "H": 1,
         "RBI": 2,
@@ -44,12 +52,16 @@
         "DP": 2
       },
       "Dean Palmer": {
+        "Player ID": "palmede01",
+        "Player": "Dean Palmer",
         "AB": 4,
         "SO": 2,
         "A": 1,
         "DP": 1
       },
       "Bobby Higginson": {
+        "Player ID": "higgibo02",
+        "Player": "Bobby Higginson",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -59,6 +71,8 @@
         "PO": 1
       },
       "Deivi Cruz": {
+        "Player ID": "cruzde01",
+        "Player": "Deivi Cruz",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -67,6 +81,8 @@
         "DP": 1
       },
       "Brad Ausmus": {
+        "Player ID": "ausmubr01",
+        "Player": "Brad Ausmus",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -75,6 +91,8 @@
         "A": 1
       },
       "Brian Hunter": {
+        "Player ID": "huntebr02",
+        "Player": "Brian Hunter",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -85,6 +103,8 @@
     },
     "TEX": {
       "Tom Goodwin": {
+        "Player ID": "goodwto01",
+        "Player": "Tom Goodwin",
         "AB": 6,
         "R": 2,
         "H": 4,
@@ -92,6 +112,8 @@
         "PO": 4
       },
       "Ivan Rodriguez": {
+        "Player ID": "rodriiv01",
+        "Player": "Ivan Rodriguez",
         "AB": 5,
         "R": 1,
         "H": 3,
@@ -102,10 +124,14 @@
         "ERR": 1
       },
       "Gregg Zaun": {
+        "Player ID": "zaungr01",
+        "Player": "Gregg Zaun",
         "AB": 1,
         "PO": 2
       },
       "Rusty Greer": {
+        "Player ID": "greerru01",
+        "Player": "Rusty Greer",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -114,6 +140,8 @@
         "PO": 1
       },
       "Juan Gonzalez": {
+        "Player ID": "gonzaju03",
+        "Player": "Juan Gonzalez",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -123,6 +151,8 @@
         "PO": 3
       },
       "Rafael Palmeiro": {
+        "Player ID": "palmera01",
+        "Player": "Rafael Palmeiro",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -131,12 +161,16 @@
         "RBI": 2
       },
       "Todd Zeile": {
+        "Player ID": "zeileto01",
+        "Player": "Todd Zeile",
         "AB": 5,
         "R": 3,
         "H": 3,
         "A": 1
       },
       "Lee Stevens": {
+        "Player ID": "stevele01",
+        "Player": "Lee Stevens",
         "AB": 5,
         "R": 1,
         "H": 3,
@@ -145,6 +179,8 @@
         "PO": 10
       },
       "Luis Alicea": {
+        "Player ID": "alicelu01",
+        "Player": "Luis Alicea",
         "AB": 3,
         "R": 3,
         "H": 1,
@@ -154,6 +190,8 @@
         "PO": 3
       },
       "Royce Clayton": {
+        "Player ID": "claytro01",
+        "Player": "Royce Clayton",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -164,6 +202,8 @@
         "A": 2
       },
       "Jon Shave": {
+        "Player ID": "shavejo01",
+        "Player": "Jon Shave",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -174,6 +214,8 @@
   "pitching": {
     "DET": {
       "Willie Blair": {
+        "Player ID": "blairwi01",
+        "Player": "Willie Blair",
         "L": 1,
         "IP": "2.0",
         "H allowed": 9,
@@ -186,6 +228,8 @@
         "A": 1
       },
       "Masao Kida": {
+        "Player ID": "kidama01",
+        "Player": "Masao Kida",
         "IP": "2.0",
         "H allowed": 6,
         "R against": 5,
@@ -195,22 +239,30 @@
         "SO against": 2
       },
       "C.J. Nitkowski": {
+        "Player ID": "nitkoc.01",
+        "Player": "C.J. Nitkowski",
         "IP": "2.0",
         "H allowed": 6,
         "R against": 4,
         "ER": 4
       },
       "Sean Runyan": {
+        "Player ID": "runyase01",
+        "Player": "Sean Runyan",
         "IP": "1.0",
         "H allowed": 1
       },
       "Todd Jones": {
+        "Player ID": "jonesto02",
+        "Player": "Todd Jones",
         "IP": "1.0",
         "SO against": 1
       }
     },
     "TEX": {
       "Mark Clark": {
+        "Player ID": "clarkma01",
+        "Player": "Mark Clark",
         "W": 1,
         "IP": "7.0",
         "H allowed": 9,
@@ -224,6 +276,8 @@
         "ERR": 1
       },
       "Mike Morgan": {
+        "Player ID": "morgami01",
+        "Player": "Mike Morgan",
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1

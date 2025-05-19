@@ -9,6 +9,8 @@
   "batting": {
     "MON": {
       "Wilton Guerrero": {
+        "Player ID": "guerrwi01",
+        "Player": "Wilton Guerrero",
         "AB": 5,
         "R": 1,
         "H": 1,
@@ -19,6 +21,8 @@
         "DP": 1
       },
       "Orlando Cabrera": {
+        "Player ID": "cabreor01",
+        "Player": "Orlando Cabrera",
         "AB": 4,
         "SO": 1,
         "PO": 2,
@@ -26,6 +30,8 @@
         "DP": 1
       },
       "Rondell White": {
+        "Player ID": "whitero02",
+        "Player": "Rondell White",
         "AB": 3,
         "R": 1,
         "H": 2,
@@ -34,6 +40,8 @@
         "PO": 2
       },
       "Vladimir Guerrero": {
+        "Player ID": "guerrvl01",
+        "Player": "Vladimir Guerrero",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -42,6 +50,8 @@
         "ERR": 1
       },
       "Brad Fullmer": {
+        "Player ID": "fullmbr01",
+        "Player": "Brad Fullmer",
         "AB": 4,
         "H": 1,
         "PO": 5,
@@ -49,23 +59,33 @@
         "DP": 1
       },
       "Michael Barrett": {
+        "Player ID": "barremi01",
+        "Player": "Michael Barrett",
         "AB": 4,
         "H": 1,
         "ERR": 1
       },
       "Chris Widger": {
+        "Player ID": "widgech01",
+        "Player": "Chris Widger",
         "AB": 4,
         "PO": 6
       },
       "Manny Martinez": {
+        "Player ID": "martima02",
+        "Player": "Manny Martinez",
         "AB": 3,
         "SO": 1
       },
       "Jose Vidro": {
+        "Player ID": "vidrojo01",
+        "Player": "Jose Vidro",
         "AB": 1,
         "SO": 1
       },
       "Carl Pavano": {
+        "Player ID": "pavanca01",
+        "Player": "Carl Pavano",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -78,28 +98,38 @@
         "SO against": 3
       },
       "Shane Andrews": {
+        "Player ID": "andresh01",
+        "Player": "Shane Andrews",
         "AB": 1,
         "SO": 1
       },
       "Mike Maddux": {
+        "Player ID": "maddumi01",
+        "Player": "Mike Maddux",
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1,
         "PO": 1
       },
       "Anthony Telford": {
+        "Player ID": "telfoan01",
+        "Player": "Anthony Telford",
         "IP": "1.0",
         "H allowed": 1,
         "SO against": 2,
         "A": 1
       },
       "Orlando Merced": {
+        "Player ID": "merceor01",
+        "Player": "Orlando Merced",
         "AB": 1,
         "H": 1
       }
     },
     "PIT": {
       "Jason Kendall": {
+        "Player ID": "kendaja01",
+        "Player": "Jason Kendall",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -107,12 +137,16 @@
         "PO": 6
       },
       "Warren Morris": {
+        "Player ID": "morriwa02",
+        "Player": "Warren Morris",
         "AB": 4,
         "BB": 1,
         "PO": 3,
         "A": 2
       },
       "Brian Giles": {
+        "Player ID": "gilesbr02",
+        "Player": "Brian Giles",
         "AB": 2,
         "R": 2,
         "H": 1,
@@ -120,6 +154,8 @@
         "PO": 3
       },
       "Kevin Young": {
+        "Player ID": "youngke01",
+        "Player": "Kevin Young",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -130,12 +166,16 @@
         "ERR": 1
       },
       "Brant Brown": {
+        "Player ID": "brownbr01",
+        "Player": "Brant Brown",
         "AB": 4,
         "H": 1,
         "RBI": 1,
         "PO": 3
       },
       "Ed Sprague": {
+        "Player ID": "spraged02",
+        "Player": "Ed Sprague",
         "AB": 3,
         "H": 1,
         "RBI": 1,
@@ -145,6 +185,8 @@
         "ERR": 1
       },
       "Jose Guillen": {
+        "Player ID": "guilljo01",
+        "Player": "Jose Guillen",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -153,12 +195,16 @@
         "PO": 1
       },
       "Mike Benjamin": {
+        "Player ID": "benjami01",
+        "Player": "Mike Benjamin",
         "AB": 4,
         "SO": 2,
         "PO": 1,
         "A": 3
       },
       "Jason Schmidt": {
+        "Player ID": "schmija01",
+        "Player": "Jason Schmidt",
         "AB": 1,
         "R": 1,
         "BB": 1,
@@ -172,16 +218,24 @@
         "PO": 1
       },
       "Al Martin": {
+        "Player ID": "martial03",
+        "Player": "Al Martin",
         "AB": 1
       },
       "Jason Christiansen": {
+        "Player ID": "chrisja01",
+        "Player": "Jason Christiansen",
         "IP": "2.0",
         "A": 2
       },
       "Turner Ward": {
+        "Player ID": "wardtu01",
+        "Player": "Turner Ward",
         "AB": 1
       },
       "Mike Williams": {
+        "Player ID": "willimi03",
+        "Player": "Mike Williams",
         "SV": 1,
         "IP": "1.0",
         "H allowed": 1,

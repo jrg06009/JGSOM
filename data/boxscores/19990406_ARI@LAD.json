@@ -9,11 +9,15 @@
   "batting": {
     "ARI": {
       "Steve Finley": {
+        "Player ID": "finlest01",
+        "Player": "Steve Finley",
         "AB": 5,
         "SO": 1,
         "PO": 2
       },
       "Jay Bell": {
+        "Player ID": "bellja01",
+        "Player": "Jay Bell",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -23,6 +27,8 @@
         "A": 3
       },
       "Travis Lee": {
+        "Player ID": "leetr01",
+        "Player": "Travis Lee",
         "AB": 4,
         "BB": 1,
         "SO": 1,
@@ -30,11 +36,15 @@
         "ERR": 1
       },
       "Matt Williams": {
+        "Player ID": "willima04",
+        "Player": "Matt Williams",
         "AB": 5,
         "SO": 1,
         "A": 2
       },
       "Luis Gonzalez": {
+        "Player ID": "gonzalu01",
+        "Player": "Luis Gonzalez",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -44,6 +54,8 @@
         "SO": 1
       },
       "Bernard Gilkey": {
+        "Player ID": "gilkebe01",
+        "Player": "Bernard Gilkey",
         "AB": 4,
         "R": 2,
         "H": 1,
@@ -53,6 +65,8 @@
         "PO": 1
       },
       "Tony Batista": {
+        "Player ID": "batisto01",
+        "Player": "Tony Batista",
         "AB": 4,
         "H": 3,
         "2B": 1,
@@ -63,6 +77,8 @@
         "A": 3
       },
       "Damian Miller": {
+        "Player ID": "milleda02",
+        "Player": "Damian Miller",
         "AB": 5,
         "H": 2,
         "SO": 2,
@@ -72,6 +88,8 @@
         "CS against": 1
       },
       "Todd Stottlemyre": {
+        "Player ID": "stottto01",
+        "Player": "Todd Stottlemyre",
         "AB": 3,
         "H": 1,
         "2B": 1,
@@ -87,9 +105,13 @@
         "Pko": 1
       },
       "Andy Fox": {
+        "Player ID": "foxan01",
+        "Player": "Andy Fox",
         "BB": 1
       },
       "Darren Holmes": {
+        "Player ID": "holmeda01",
+        "Player": "Darren Holmes",
         "IP": "0.1",
         "H allowed": 2,
         "R against": 1,
@@ -97,14 +119,20 @@
         "SB against": 1
       },
       "Greg Swindell": {
+        "Player ID": "swindgr01",
+        "Player": "Greg Swindell",
         "IP": "1.2",
         "BB against": 1,
         "SO against": 1
       },
       "David Dellucci": {
+        "Player ID": "delluda01",
+        "Player": "David Dellucci",
         "AB": 1
       },
       "Gregg Olson": {
+        "Player ID": "olsongr01",
+        "Player": "Gregg Olson",
         "L": 1,
         "H allowed": 3,
         "R against": 1,
@@ -113,6 +141,8 @@
     },
     "LAD": {
       "Eric Young": {
+        "Player ID": "younger01",
+        "Player": "Eric Young",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -123,6 +153,8 @@
         "A": 2
       },
       "Todd Hundley": {
+        "Player ID": "hundlto01",
+        "Player": "Todd Hundley",
         "AB": 3,
         "H": 1,
         "RBI": 1,
@@ -131,22 +163,30 @@
         "SB against": 1
       },
       "Gary Sheffield": {
+        "Player ID": "sheffga01",
+        "Player": "Gary Sheffield",
         "AB": 4,
         "SO": 3,
         "PO": 2,
         "ERR": 1
       },
       "Raul Mondesi": {
+        "Player ID": "mondera01",
+        "Player": "Raul Mondesi",
         "AB": 4,
         "SO": 2,
         "CS": 1,
         "PO": 3
       },
       "Devon White": {
+        "Player ID": "whitede03",
+        "Player": "Devon White",
         "AB": 4,
         "PO": 1
       },
       "Eric Karros": {
+        "Player ID": "karroer01",
+        "Player": "Eric Karros",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -156,12 +196,16 @@
         "A": 1
       },
       "Mark Grudzielanek": {
+        "Player ID": "grudzma01",
+        "Player": "Mark Grudzielanek",
         "AB": 4,
         "SO": 1,
         "PO": 1,
         "A": 4
       },
       "Adrian Beltre": {
+        "Player ID": "beltrad01",
+        "Player": "Adrian Beltre",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -170,6 +214,8 @@
         "A": 1
       },
       "Chan Ho Park": {
+        "Player ID": "parkch01",
+        "Player": "Chan Ho Park",
         "AB": 1,
         "SO": 1,
         "IP": "5.0",
@@ -183,43 +229,61 @@
         "SB against": 1
       },
       "Mel Rojas": {
+        "Player ID": "rojasme01",
+        "Player": "Mel Rojas",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
         "IBB against": 1
       },
       "Jose Vizcaino": {
+        "Player ID": "vizcajo01",
+        "Player": "Jose Vizcaino",
         "AB": 1
       },
       "Onan Masaoka": {
+        "Player ID": "masaoon01",
+        "Player": "Onan Masaoka",
         "IP": "1.1",
         "H allowed": 1,
         "SO against": 1
       },
       "Dave Mlicki": {
+        "Player ID": "mlickda01",
+        "Player": "Dave Mlicki",
         "IP": "0.1",
         "H allowed": 1,
         "BB against": 2,
         "PO": 1
       },
       "Pedro Borbon": {
+        "Player ID": "borbope02",
+        "Player": "Pedro Borbon",
         "IP": "0.1"
       },
       "Rick Wilkins": {
+        "Player ID": "wilkiri01",
+        "Player": "Rick Wilkins",
         "AB": 1,
         "H": 1
       },
       "Jacob Brumfield": {
+        "Player ID": "brumfja01",
+        "Player": "Jacob Brumfield",
         "R": 1,
         "SB": 1
       },
       "Jeff Shaw": {
+        "Player ID": "shawje01",
+        "Player": "Jeff Shaw",
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
         "SO against": 2
       },
       "Tripp Cromer": {
+        "Player ID": "crometr01",
+        "Player": "Tripp Cromer",
         "AB": 1,
         "H": 1
       }

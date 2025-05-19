@@ -9,30 +9,42 @@
   "batting": {
     "BOS": {
       "Jose Offerman": {
+        "Player ID": "offerjo01",
+        "Player": "Jose Offerman",
         "AB": 3,
         "BB": 2,
         "SO": 2
       },
       "Darren Lewis": {
+        "Player ID": "lewisda01",
+        "Player": "Darren Lewis",
         "AB": 2,
         "H": 1,
         "BB": 1,
         "PO": 5
       },
       "Brian Daubach": {
+        "Player ID": "daubabr01",
+        "Player": "Brian Daubach",
         "HBP": 1
       },
       "Donnie Sadler": {
+        "Player ID": "sadledo01",
+        "Player": "Donnie Sadler",
         "AB": 1,
         "SO": 1
       },
       "John Valentin": {
+        "Player ID": "valenjo02",
+        "Player": "John Valentin",
         "AB": 5,
         "H": 1,
         "GDP": 1,
         "PO": 2
       },
       "Nomar Garciaparra": {
+        "Player ID": "garcino01",
+        "Player": "Nomar Garciaparra",
         "AB": 4,
         "H": 2,
         "HBP": 1,
@@ -40,10 +52,14 @@
         "A": 2
       },
       "Mike Stanley": {
+        "Player ID": "stanlmi02",
+        "Player": "Mike Stanley",
         "AB": 5,
         "PO": 4
       },
       "Troy O'Leary": {
+        "Player ID": "o'leatr01",
+        "Player": "Troy O'Leary",
         "AB": 5,
         "R": 2,
         "H": 4,
@@ -53,14 +69,20 @@
         "PO": 3
       },
       "Damon Buford": {
+        "Player ID": "buforda01",
+        "Player": "Damon Buford",
         "AB": 3,
         "SO": 1,
         "GDP": 1
       },
       "Trot Nixon": {
+        "Player ID": "nixontr01",
+        "Player": "Trot Nixon",
         "AB": 2
       },
       "Jason Varitek": {
+        "Player ID": "varitja01",
+        "Player": "Jason Varitek",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -69,6 +91,8 @@
         "PO": 8
       },
       "Jeff Frye": {
+        "Player ID": "fryeje01",
+        "Player": "Jeff Frye",
         "AB": 2,
         "BB": 2,
         "PO": 2,
@@ -77,6 +101,8 @@
     },
     "KCR": {
       "Carlos Beltran": {
+        "Player ID": "beltrca01",
+        "Player": "Carlos Beltran",
         "AB": 6,
         "R": 2,
         "H": 4,
@@ -85,6 +111,8 @@
         "PO": 1
       },
       "Joe Randa": {
+        "Player ID": "randajo01",
+        "Player": "Joe Randa",
         "AB": 5,
         "H": 1,
         "RBI": 1,
@@ -94,6 +122,8 @@
         "DP": 1
       },
       "Johnny Damon": {
+        "Player ID": "damonjo01",
+        "Player": "Johnny Damon",
         "AB": 4,
         "H": 3,
         "2B": 1,
@@ -102,6 +132,8 @@
         "PO": 2
       },
       "Jeff King": {
+        "Player ID": "kingje01",
+        "Player": "Jeff King",
         "AB": 4,
         "H": 1,
         "BB": 1,
@@ -109,18 +141,26 @@
         "DP": 3
       },
       "Larry Sutton": {
+        "Player ID": "suttola01",
+        "Player": "Larry Sutton",
         "AB": 2,
         "BB": 1,
         "SO": 1
       },
       "Scott Leius": {
+        "Player ID": "leiussc01",
+        "Player": "Scott Leius",
         "AB": 1
       },
       "Scott Pose": {
+        "Player ID": "posesc01",
+        "Player": "Scott Pose",
         "AB": 1,
         "H": 1
       },
       "Jermaine Dye": {
+        "Player ID": "dyeje01",
+        "Player": "Jermaine Dye",
         "AB": 5,
         "H": 1,
         "2B": 1,
@@ -128,11 +168,15 @@
         "PO": 2
       },
       "Chad Kreuter": {
+        "Player ID": "kreutch01",
+        "Player": "Chad Kreuter",
         "AB": 4,
         "BB": 1,
         "PO": 5
       },
       "Rey Sanchez": {
+        "Player ID": "sanchre01",
+        "Player": "Rey Sanchez",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -143,6 +187,8 @@
         "DP": 2
       },
       "Carlos Febles": {
+        "Player ID": "febleca01",
+        "Player": "Carlos Febles",
         "AB": 4,
         "H": 2,
         "RBI": 1,
@@ -157,6 +203,8 @@
   "pitching": {
     "BOS": {
       "Bret Saberhagen": {
+        "Player ID": "saberbr01",
+        "Player": "Bret Saberhagen",
         "IP": "4.1",
         "H allowed": 7,
         "R against": 3,
@@ -165,23 +213,31 @@
         "SO against": 3
       },
       "Jim Corsi": {
+        "Player ID": "corsiji01",
+        "Player": "Jim Corsi",
         "IP": "0.2",
         "H allowed": 1,
         "BB against": 1,
         "SO against": 1
       },
       "Rheal Cormier": {
+        "Player ID": "cormirh01",
+        "Player": "Rheal Cormier",
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1
       },
       "Derek Lowe": {
+        "Player ID": "lowede01",
+        "Player": "Derek Lowe",
         "IP": "1.1",
         "H allowed": 3,
         "SO against": 2,
         "A": 1
       },
       "Tom Gordon": {
+        "Player ID": "gordoto01",
+        "Player": "Tom Gordon",
         "L": 1,
         "IP": "0.2",
         "H allowed": 3,
@@ -192,6 +248,8 @@
     },
     "KCR": {
       "Jose Rosado": {
+        "Player ID": "rosadjo01",
+        "Player": "Jose Rosado",
         "IP": "6.0",
         "H allowed": 6,
         "R against": 2,
@@ -201,14 +259,20 @@
         "A": 1
       },
       "Jose Santiago": {
+        "Player ID": "santijo03",
+        "Player": "Jose Santiago",
         "IP": "1.0",
         "H allowed": 1,
         "HBP against": 2
       },
       "Scott Service": {
+        "Player ID": "servisc01",
+        "Player": "Scott Service",
         "IP": "1.0"
       },
       "Jeff Montgomery": {
+        "Player ID": "montgje01",
+        "Player": "Jeff Montgomery",
         "IP": "1.1",
         "H allowed": 2,
         "R against": 1,
@@ -217,6 +281,8 @@
         "SO against": 1
       },
       "Matt Whisenant": {
+        "Player ID": "whisema01",
+        "Player": "Matt Whisenant",
         "W": 1,
         "IP": "0.2",
         "H allowed": 1
@@ -343,8 +409,8 @@
       ],
       "Donnie Sadler": [
         "8",
-        "9",
-        "PR"
+        "PR",
+        "9"
       ],
       "John Valentin": [
         "5"

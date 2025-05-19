@@ -9,6 +9,8 @@
   "batting": {
     "NYY": {
       "Chuck Knoblauch": {
+        "Player ID": "knoblch01",
+        "Player": "Chuck Knoblauch",
         "AB": 3,
         "R": 1,
         "BB": 1,
@@ -17,24 +19,32 @@
         "ERR": 1
       },
       "Derek Jeter": {
+        "Player ID": "jeterde01",
+        "Player": "Derek Jeter",
         "AB": 4,
         "H": 2,
         "RBI": 1,
         "A": 1
       },
       "Paul O'Neill": {
+        "Player ID": "o'neipa01",
+        "Player": "Paul O'Neill",
         "AB": 4,
         "H": 2,
         "RBI": 1,
         "PO": 3
       },
       "Bernie Williams": {
+        "Player ID": "willibe02",
+        "Player": "Bernie Williams",
         "AB": 4,
         "SO": 1,
         "PO": 4,
         "A": 1
       },
       "Tino Martinez": {
+        "Player ID": "martiti02",
+        "Player": "Tino Martinez",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -43,12 +53,16 @@
         "PO": 2
       },
       "Chili Davis": {
+        "Player ID": "davisch01",
+        "Player": "Chili Davis",
         "AB": 4,
         "R": 1,
         "H": 2,
         "SO": 1
       },
       "Ricky Ledee": {
+        "Player ID": "ledeeri01",
+        "Player": "Ricky Ledee",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -57,15 +71,21 @@
         "PO": 2
       },
       "Shane Spencer": {
+        "Player ID": "spencsh01",
+        "Player": "Shane Spencer",
         "AB": 2
       },
       "Scott Brosius": {
+        "Player ID": "brosisc01",
+        "Player": "Scott Brosius",
         "AB": 3,
         "R": 1,
         "H": 1,
         "RBI": 2
       },
       "Joe Girardi": {
+        "Player ID": "girarjo01",
+        "Player": "Joe Girardi",
         "AB": 2,
         "SH": 1,
         "PO": 11,
@@ -74,6 +94,8 @@
     },
     "OAK": {
       "Tony Phillips": {
+        "Player ID": "phillto02",
+        "Player": "Tony Phillips",
         "AB": 4,
         "H": 1,
         "SO": 1,
@@ -81,22 +103,30 @@
         "A": 2
       },
       "Jason McDonald": {
+        "Player ID": "mcdonja02",
+        "Player": "Jason McDonald",
         "AB": 3,
         "BB": 1,
         "SO": 1,
         "PO": 4
       },
       "Jason Giambi": {
+        "Player ID": "giambja01",
+        "Player": "Jason Giambi",
         "AB": 4,
         "H": 1,
         "SO": 2
       },
       "Matt Stairs": {
+        "Player ID": "stairma01",
+        "Player": "Matt Stairs",
         "AB": 3,
         "BB": 1,
         "SO": 2
       },
       "John Jaha": {
+        "Player ID": "jahajo01",
+        "Player": "John Jaha",
         "AB": 3,
         "R": 1,
         "H": 2,
@@ -108,19 +138,27 @@
         "A": 1
       },
       "Ben Grieve": {
+        "Player ID": "grievbe01",
+        "Player": "Ben Grieve",
         "AB": 3,
         "SO": 2,
         "PO": 3
       },
       "Eric Chavez": {
+        "Player ID": "chaveer01",
+        "Player": "Eric Chavez",
         "AB": 3,
         "A": 1
       },
       "A.J. Hinch": {
+        "Player ID": "hincha.01",
+        "Player": "A.J. Hinch",
         "AB": 3,
         "PO": 4
       },
       "Miguel Tejada": {
+        "Player ID": "tejadmi01",
+        "Player": "Miguel Tejada",
         "AB": 3,
         "H": 1,
         "SO": 1,
@@ -132,6 +170,8 @@
   "pitching": {
     "NYY": {
       "Roger Clemens": {
+        "Player ID": "clemero02",
+        "Player": "Roger Clemens",
         "W": 1,
         "IP": "8.0",
         "H allowed": 5,
@@ -144,6 +184,8 @@
     },
     "OAK": {
       "Gil Heredia": {
+        "Player ID": "heredgi01",
+        "Player": "Gil Heredia",
         "L": 1,
         "IP": "4.1",
         "H allowed": 6,
@@ -153,11 +195,15 @@
         "A": 2
       },
       "Buddy Groom": {
+        "Player ID": "groombu01",
+        "Player": "Buddy Groom",
         "IP": "1.0",
         "H allowed": 1,
         "PO": 1
       },
       "Brad Rigby": {
+        "Player ID": "rigbybr01",
+        "Player": "Brad Rigby",
         "IP": "2.2",
         "H allowed": 2,
         "SO against": 1
@@ -271,8 +317,8 @@
         "7"
       ],
       "Shane Spencer": [
-        "7",
-        "PH"
+        "PH",
+        "7"
       ],
       "Scott Brosius": [
         "5"

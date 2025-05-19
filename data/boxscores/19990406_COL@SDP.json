@@ -9,6 +9,8 @@
   "batting": {
     "COL": {
       "Darryl Hamilton": {
+        "Player ID": "hamilda02",
+        "Player": "Darryl Hamilton",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -17,17 +19,23 @@
         "PO": 2
       },
       "Neifi Perez": {
+        "Player ID": "perezne01",
+        "Player": "Neifi Perez",
         "AB": 5,
         "PO": 1,
         "A": 3,
         "ERR": 1
       },
       "Pat Watkins": {
+        "Player ID": "watkipa01",
+        "Player": "Pat Watkins",
         "AB": 2,
         "R": 1,
         "BB": 2
       },
       "Dante Bichette": {
+        "Player ID": "bicheda01",
+        "Player": "Dante Bichette",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -36,10 +44,14 @@
         "PO": 1
       },
       "Vinny Castilla": {
+        "Player ID": "castivi02",
+        "Player": "Vinny Castilla",
         "AB": 4,
         "H": 2
       },
       "Todd Helton": {
+        "Player ID": "heltoto01",
+        "Player": "Todd Helton",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -48,6 +60,8 @@
         "A": 1
       },
       "Mike Lansing": {
+        "Player ID": "lansimi01",
+        "Player": "Mike Lansing",
         "AB": 4,
         "SO": 2,
         "GDP": 1,
@@ -55,12 +69,16 @@
         "A": 5
       },
       "Kirt Manwaring": {
+        "Player ID": "manwaki01",
+        "Player": "Kirt Manwaring",
         "AB": 2,
         "BB": 2,
         "PO": 10,
         "SB against": 1
       },
       "Pedro Astacio": {
+        "Player ID": "astacpe01",
+        "Player": "Pedro Astacio",
         "AB": 2,
         "R": 1,
         "BB": 1,
@@ -75,13 +93,19 @@
         "SB against": 1
       },
       "Jerry Dipoto": {
+        "Player ID": "dipotje01",
+        "Player": "Jerry Dipoto",
         "IP": "1.0",
         "SO against": 1
       },
       "Lenny Harris": {
+        "Player ID": "harrile01",
+        "Player": "Lenny Harris",
         "AB": 1
       },
       "Dave Veres": {
+        "Player ID": "veresda01",
+        "Player": "Dave Veres",
         "SV": 1,
         "IP": "1.0",
         "SO against": 2
@@ -89,11 +113,15 @@
     },
     "SDP": {
       "Quilvio Veras": {
+        "Player ID": "verasqu01",
+        "Player": "Quilvio Veras",
         "AB": 4,
         "PO": 2,
         "A": 5
       },
       "Reggie Sanders": {
+        "Player ID": "sandere02",
+        "Player": "Reggie Sanders",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -103,6 +131,8 @@
         "PO": 1
       },
       "Tony Gwynn": {
+        "Player ID": "gwynnto01",
+        "Player": "Tony Gwynn",
         "AB": 4,
         "H": 2,
         "2B": 1,
@@ -110,11 +140,15 @@
         "SO": 1
       },
       "Wally Joyner": {
+        "Player ID": "joynewa01",
+        "Player": "Wally Joyner",
         "AB": 4,
         "PO": 10,
         "A": 1
       },
       "Jim Leyritz": {
+        "Player ID": "leyriji01",
+        "Player": "Jim Leyritz",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -125,24 +159,34 @@
         "SB against": 1
       },
       "George Arias": {
+        "Player ID": "ariasge01",
+        "Player": "George Arias",
         "AB": 2,
         "SO": 2
       },
       "Dave Magadan": {
+        "Player ID": "magadda01",
+        "Player": "Dave Magadan",
         "AB": 1
       },
       "Ruben Rivera": {
+        "Player ID": "riverru01",
+        "Player": "Ruben Rivera",
         "AB": 3,
         "SO": 1,
         "PO": 2
       },
       "Chris Gomez": {
+        "Player ID": "gomezch02",
+        "Player": "Chris Gomez",
         "AB": 3,
         "PO": 1,
         "A": 3,
         "ERR": 1
       },
       "Sterling Hitchcock": {
+        "Player ID": "hitchst01",
+        "Player": "Sterling Hitchcock",
         "AB": 2,
         "SO": 1,
         "L": 1,
@@ -157,16 +201,22 @@
         "SB against": 1
       },
       "Donne Wall": {
+        "Player ID": "walldo01",
+        "Player": "Donne Wall",
         "IP": "0.2",
         "H allowed": 1
       },
       "John Vander Wal": {
+        "Player ID": "vandejo02",
+        "Player": "John Vander Wal",
         "AB": 1,
         "H allowed": 2,
         "R against": 1,
         "ER": 1
       },
       "Brian Boehringer": {
+        "Player ID": "boehrbr01",
+        "Player": "Brian Boehringer",
         "IP": "1.2",
         "PO": 1
       }
@@ -335,8 +385,8 @@
         "4"
       ],
       "Reggie Sanders": [
-        "7",
-        "8"
+        "8",
+        "7"
       ],
       "Tony Gwynn": [
         "9"
