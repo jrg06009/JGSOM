@@ -7,12 +7,14 @@ export async function getStaticProps() {
   const games = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'games.json'), 'utf8'))
   const players = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'players.json'), 'utf8'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
+  const standings = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stats', 'standings.json'), 'utf8'))
 
   return {
     props: {
       games,
       players,
-      teams
+      teams,
+      standings
     }
   }
 }
@@ -34,7 +36,7 @@ export default function Home({ games, players, teams }) {
       </ul>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-      <StandingsTable games={games} teams={teams} />
+      <StandingsTable standings={standings} teams={teams} useFullName={false} />
 
       <h2 className="text-xl font-semibold mt-6 mb-2">Teams</h2>
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
