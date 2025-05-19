@@ -9,8 +9,8 @@
   "batting": {
     "SFG": {
       "Marvin Benard": {
-        "Player ID": "benarma01",
         "Player": "Marvin Benard",
+        "Player ID": "benarma01",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -19,8 +19,8 @@
         "PO": 1
       },
       "Ellis Burks": {
-        "Player ID": "burksel01",
         "Player": "Ellis Burks",
+        "Player ID": "burksel01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -30,8 +30,8 @@
         "A": 1
       },
       "Barry Bonds": {
-        "Player ID": "bondsba01",
         "Player": "Barry Bonds",
+        "Player ID": "bondsba01",
         "AB": 3,
         "R": 2,
         "BB": 2,
@@ -39,8 +39,8 @@
         "PO": 1
       },
       "Jeff Kent": {
-        "Player ID": "kentje01",
         "Player": "Jeff Kent",
+        "Player ID": "kentje01",
         "AB": 5,
         "SO": 2,
         "PO": 4,
@@ -48,8 +48,8 @@
         "DP": 2
       },
       "J.T. Snow": {
-        "Player ID": "snowj.01",
         "Player": "J.T. Snow",
+        "Player ID": "snowj.01",
         "AB": 5,
         "R": 3,
         "H": 3,
@@ -59,8 +59,8 @@
         "DP": 2
       },
       "Charlie Hayes": {
-        "Player ID": "hayesch01",
         "Player": "Charlie Hayes",
+        "Player ID": "hayesch01",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -71,8 +71,8 @@
         "A": 2
       },
       "Brent Mayne": {
-        "Player ID": "maynebr01",
         "Player": "Brent Mayne",
+        "Player ID": "maynebr01",
         "AB": 3,
         "H": 2,
         "2B": 1,
@@ -81,8 +81,8 @@
         "PO": 5
       },
       "Rich Aurilia": {
-        "Player ID": "aurilri01",
         "Player": "Rich Aurilia",
+        "Player ID": "aurilri01",
         "AB": 2,
         "R": 1,
         "RBI": 1,
@@ -94,8 +94,8 @@
         "DP": 2
       },
       "Kirk Rueter": {
-        "Player ID": "rueteki01",
         "Player": "Kirk Rueter",
+        "Player ID": "rueteki01",
         "AB": 3,
         "SO": 1,
         "SH": 1,
@@ -111,16 +111,16 @@
         "A": 1
       },
       "Julian Tavarez": {
-        "Player ID": "tavarju01",
         "Player": "Julian Tavarez",
+        "Player ID": "tavarju01",
         "IP": "2.0",
         "BB against": 1
       }
     },
     "CIN": {
       "Mike Cameron": {
-        "Player ID": "camermi01",
         "Player": "Mike Cameron",
+        "Player ID": "camermi01",
         "AB": 4,
         "H": 1,
         "3B": 1,
@@ -128,22 +128,22 @@
         "PO": 3
       },
       "Barry Larkin": {
-        "Player ID": "larkiba01",
         "Player": "Barry Larkin",
+        "Player ID": "larkiba01",
         "AB": 4,
         "PO": 2,
         "A": 2
       },
       "Sean Casey": {
-        "Player ID": "caseyse01",
         "Player": "Sean Casey",
+        "Player ID": "caseyse01",
         "AB": 4,
         "H": 1,
         "PO": 6
       },
       "Greg Vaughn": {
-        "Player ID": "vaughgr01",
         "Player": "Greg Vaughn",
+        "Player ID": "vaughgr01",
         "AB": 3,
         "BB": 1,
         "SO": 1,
@@ -151,24 +151,24 @@
         "A": 1
       },
       "Dmitri Young": {
-        "Player ID": "youngdm01",
         "Player": "Dmitri Young",
+        "Player ID": "youngdm01",
         "AB": 4,
         "GDP": 2,
         "PO": 2,
         "ERR": 1
       },
       "Brian Johnson": {
-        "Player ID": "johnsbr01",
         "Player": "Brian Johnson",
+        "Player ID": "johnsbr01",
         "AB": 3,
         "H": 2,
         "2B": 2,
         "PO": 10
       },
       "Aaron Boone": {
-        "Player ID": "booneaa01",
         "Player": "Aaron Boone",
+        "Player ID": "booneaa01",
         "AB": 3,
         "R": 1,
         "H": 2,
@@ -179,8 +179,8 @@
         "ERR": 1
       },
       "Pokey Reese": {
-        "Player ID": "reesepo01",
         "Player": "Pokey Reese",
+        "Player ID": "reesepo01",
         "AB": 2,
         "BB": 1,
         "SO": 1,
@@ -188,8 +188,8 @@
         "A": 4
       },
       "Jason Bere": {
-        "Player ID": "bereja01",
         "Player": "Jason Bere",
+        "Player ID": "bereja01",
         "AB": 1,
         "SO": 1,
         "L": 1,
@@ -203,13 +203,13 @@
         "WP": 2
       },
       "Jeffrey Hammonds": {
-        "Player ID": "hammoje01",
         "Player": "Jeffrey Hammonds",
+        "Player ID": "hammoje01",
         "AB": 1
       },
       "Scott Williamson": {
-        "Player ID": "willisc01",
         "Player": "Scott Williamson",
+        "Player ID": "willisc01",
         "IP": "2.1",
         "R against": 1,
         "ER": 1,
@@ -218,25 +218,90 @@
         "A": 1
       },
       "Gabe White": {
-        "Player ID": "whitega01",
         "Player": "Gabe White",
+        "Player ID": "whitega01",
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
       },
       "Chris Stynes": {
-        "Player ID": "stynech01",
         "Player": "Chris Stynes",
+        "Player ID": "stynech01",
         "AB": 1
       },
       "John Hudek": {
-        "Player ID": "hudekjo01",
         "Player": "John Hudek",
+        "Player ID": "hudekjo01",
         "IP": "1.0"
       }
     }
   },
-  "pitching": {},
+  "pitching": {
+    "SFG": {
+      "Kirk Rueter": {
+        "Player": "Kirk Rueter",
+        "Player ID": "rueteki01",
+        "AB": 3,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 6,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 4,
+        "PO": 1,
+        "A": 1
+      },
+      "Julian Tavarez": {
+        "Player": "Julian Tavarez",
+        "Player ID": "tavarju01",
+        "IP": "2.0",
+        "BB against": 1
+      }
+    },
+    "CIN": {
+      "Jason Bere": {
+        "Player": "Jason Bere",
+        "Player ID": "bereja01",
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 8,
+        "R against": 8,
+        "ER": 7,
+        "HR allowed": 1,
+        "BB against": 5,
+        "SO against": 4,
+        "WP": 2
+      },
+      "Scott Williamson": {
+        "Player": "Scott Williamson",
+        "Player ID": "willisc01",
+        "IP": "2.1",
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 2,
+        "A": 1
+      },
+      "Gabe White": {
+        "Player": "Gabe White",
+        "Player ID": "whitega01",
+        "IP": "0.2",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "John Hudek": {
+        "Player": "John Hudek",
+        "Player ID": "hudekjo01",
+        "IP": "1.0"
+      }
+    }
+  },
   "batting_order": {
     "SFG": [
       [

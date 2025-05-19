@@ -9,8 +9,8 @@
   "batting": {
     "DET": {
       "Juan Encarnacion": {
-        "Player ID": "encarju01",
         "Player": "Juan Encarnacion",
+        "Player ID": "encarju01",
         "AB": 4,
         "BB": 1,
         "SO": 2,
@@ -18,8 +18,8 @@
         "ERR": 1
       },
       "Bobby Higginson": {
-        "Player ID": "higgibo02",
         "Player": "Bobby Higginson",
+        "Player ID": "higgibo02",
         "AB": 3,
         "R": 1,
         "BB": 2,
@@ -27,8 +27,8 @@
         "GDP": 1
       },
       "Damion Easley": {
-        "Player ID": "easleda01",
         "Player": "Damion Easley",
+        "Player ID": "easleda01",
         "AB": 4,
         "H": 2,
         "2B": 2,
@@ -36,8 +36,8 @@
         "A": 4
       },
       "Tony Clark": {
-        "Player ID": "clarkto02",
         "Player": "Tony Clark",
+        "Player ID": "clarkto02",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -49,8 +49,8 @@
         "A": 1
       },
       "Dean Palmer": {
-        "Player ID": "palmede01",
         "Player": "Dean Palmer",
+        "Player ID": "palmede01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -61,8 +61,8 @@
         "A": 4
       },
       "Karim Garcia": {
-        "Player ID": "garcika01",
         "Player": "Karim Garcia",
+        "Player ID": "garcika01",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -72,8 +72,8 @@
         "PO": 4
       },
       "Gabe Kapler": {
-        "Player ID": "kaplega01",
         "Player": "Gabe Kapler",
+        "Player ID": "kaplega01",
         "AB": 5,
         "R": 1,
         "SO": 2,
@@ -81,8 +81,8 @@
         "A": 1
       },
       "Bill Haselman": {
-        "Player ID": "haselbi01",
         "Player": "Bill Haselman",
+        "Player ID": "haselbi01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -92,24 +92,24 @@
         "PO": 3
       },
       "Deivi Cruz": {
-        "Player ID": "cruzde01",
         "Player": "Deivi Cruz",
+        "Player ID": "cruzde01",
         "AB": 3,
         "H": 1,
         "SO": 1,
         "A": 5
       },
       "Gregg Jefferies": {
-        "Player ID": "jeffegr01",
         "Player": "Gregg Jefferies",
+        "Player ID": "jeffegr01",
         "AB": 1,
         "GDP": 1
       }
     },
     "TEX": {
       "Royce Clayton": {
-        "Player ID": "claytro01",
         "Player": "Royce Clayton",
+        "Player ID": "claytro01",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -121,8 +121,8 @@
         "DP": 2
       },
       "Ivan Rodriguez": {
-        "Player ID": "rodriiv01",
         "Player": "Ivan Rodriguez",
+        "Player ID": "rodriiv01",
         "AB": 5,
         "H": 1,
         "2B": 1,
@@ -130,8 +130,8 @@
         "A": 1
       },
       "Rusty Greer": {
-        "Player ID": "greerru01",
         "Player": "Rusty Greer",
+        "Player ID": "greerru01",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -141,8 +141,8 @@
         "PO": 1
       },
       "Juan Gonzalez": {
-        "Player ID": "gonzaju03",
         "Player": "Juan Gonzalez",
+        "Player ID": "gonzaju03",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -151,8 +151,8 @@
         "ERR": 1
       },
       "Rafael Palmeiro": {
-        "Player ID": "palmera01",
         "Player": "Rafael Palmeiro",
+        "Player ID": "palmera01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -160,8 +160,8 @@
         "RBI": 3
       },
       "Roberto Kelly": {
-        "Player ID": "kellyro01",
         "Player": "Roberto Kelly",
+        "Player ID": "kellyro01",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -169,15 +169,15 @@
         "PO": 2
       },
       "Todd Zeile": {
-        "Player ID": "zeileto01",
         "Player": "Todd Zeile",
+        "Player ID": "zeileto01",
         "AB": 2,
         "R": 2,
         "BB": 2
       },
       "Lee Stevens": {
-        "Player ID": "stevele01",
         "Player": "Lee Stevens",
+        "Player ID": "stevele01",
         "AB": 4,
         "R": 3,
         "H": 3,
@@ -188,8 +188,8 @@
         "DP": 2
       },
       "Luis Alicea": {
-        "Player ID": "alicelu01",
         "Player": "Luis Alicea",
+        "Player ID": "alicelu01",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -202,8 +202,8 @@
   "pitching": {
     "DET": {
       "Justin Thompson": {
-        "Player ID": "thompju02",
         "Player": "Justin Thompson",
+        "Player ID": "thompju02",
         "L": 1,
         "IP": "2.1",
         "H allowed": 8,
@@ -215,8 +215,8 @@
         "A": 1
       },
       "Felipe Lira": {
-        "Player ID": "lirafe01",
         "Player": "Felipe Lira",
+        "Player ID": "lirafe01",
         "IP": "2.2",
         "H allowed": 4,
         "R against": 2,
@@ -225,27 +225,27 @@
         "BB against": 1
       },
       "Sean Runyan": {
-        "Player ID": "runyase01",
         "Player": "Sean Runyan",
+        "Player ID": "runyase01",
         "IP": "0.2",
         "PO": 1
       },
       "Matt Anderson": {
-        "Player ID": "anderma01",
         "Player": "Matt Anderson",
+        "Player ID": "anderma01",
         "IP": "1.1",
         "SO against": 1
       },
       "Doug Brocail": {
-        "Player ID": "brocado01",
         "Player": "Doug Brocail",
+        "Player ID": "brocado01",
         "IP": "1.0"
       }
     },
     "TEX": {
       "Aaron Sele": {
-        "Player ID": "seleaa01",
         "Player": "Aaron Sele",
+        "Player ID": "seleaa01",
         "W": 1,
         "IP": "6.0",
         "H allowed": 6,
@@ -259,21 +259,21 @@
         "ERR": 1
       },
       "Esteban Loaiza": {
-        "Player ID": "loaizes01",
         "Player": "Esteban Loaiza",
+        "Player ID": "loaizes01",
         "IP": "1.1",
         "H allowed": 1,
         "BB against": 2,
         "SO against": 3
       },
       "Tim Crabtree": {
-        "Player ID": "crabtti01",
         "Player": "Tim Crabtree",
+        "Player ID": "crabtti01",
         "IP": "0.2"
       },
       "Danny Patterson": {
-        "Player ID": "patteda04",
         "Player": "Danny Patterson",
+        "Player ID": "patteda04",
         "IP": "0.1",
         "H allowed": 1,
         "R against": 1,
@@ -281,8 +281,8 @@
         "BB against": 3
       },
       "John Wetteland": {
-        "Player ID": "wettejo01",
         "Player": "John Wetteland",
+        "Player ID": "wettejo01",
         "SV": 1,
         "IP": "0.2",
         "SO against": 2

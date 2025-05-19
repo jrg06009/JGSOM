@@ -9,8 +9,8 @@
   "batting": {
     "CHW": {
       "Ray Durham": {
-        "Player ID": "durhara01",
         "Player": "Ray Durham",
+        "Player ID": "durhara01",
         "AB": 5,
         "R": 3,
         "H": 3,
@@ -21,13 +21,13 @@
         "A": 4
       },
       "Craig Wilson": {
-        "Player ID": "wilsocr02",
         "Player": "Craig Wilson",
+        "Player ID": "wilsocr02",
         "A": 1
       },
       "Mike Caruso": {
-        "Player ID": "carusmi01",
         "Player": "Mike Caruso",
+        "Player ID": "carusmi01",
         "AB": 6,
         "R": 2,
         "H": 2,
@@ -38,8 +38,8 @@
         "ERR": 1
       },
       "Frank Thomas": {
-        "Player ID": "thomafr04",
         "Player": "Frank Thomas",
+        "Player ID": "thomafr04",
         "AB": 2,
         "R": 1,
         "H": 2,
@@ -50,21 +50,21 @@
         "PO": 6
       },
       "Jeff Liefer": {
-        "Player ID": "liefeje01",
         "Player": "Jeff Liefer",
+        "Player ID": "liefeje01",
         "AB": 1,
         "PO": 2
       },
       "Paul Konerko": {
-        "Player ID": "konerpa01",
         "Player": "Paul Konerko",
+        "Player ID": "konerpa01",
         "AB": 6,
         "R": 1,
         "RBI": 1
       },
       "Magglio Ordonez": {
-        "Player ID": "ordonma01",
         "Player": "Magglio Ordonez",
+        "Player ID": "ordonma01",
         "AB": 4,
         "R": 1,
         "H": 3,
@@ -74,13 +74,13 @@
         "PO": 1
       },
       "McKay Christensen": {
-        "Player ID": "chrismc01",
         "Player": "McKay Christensen",
+        "Player ID": "chrismc01",
         "AB": 1
       },
       "Greg Norton": {
-        "Player ID": "nortogr01",
         "Player": "Greg Norton",
+        "Player ID": "nortogr01",
         "AB": 4,
         "R": 2,
         "H": 2,
@@ -91,8 +91,8 @@
         "A": 1
       },
       "Jeff Abbott": {
-        "Player ID": "abbotje01",
         "Player": "Jeff Abbott",
+        "Player ID": "abbotje01",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -102,13 +102,13 @@
         "PO": 2
       },
       "Chris Singleton": {
-        "Player ID": "singlch01",
         "Player": "Chris Singleton",
+        "Player ID": "singlch01",
         "PO": 1
       },
       "Darrin Jackson": {
-        "Player ID": "jacksda03",
         "Player": "Darrin Jackson",
+        "Player ID": "jacksda03",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -117,8 +117,8 @@
         "PO": 4
       },
       "Brook Fordyce": {
-        "Player ID": "fordybr01",
         "Player": "Brook Fordyce",
+        "Player ID": "fordybr01",
         "AB": 4,
         "R": 2,
         "H": 3,
@@ -128,15 +128,15 @@
         "PO": 4
       },
       "Mark Johnson": {
-        "Player ID": "johnsma02",
         "Player": "Mark Johnson",
+        "Player ID": "johnsma02",
         "PO": 3
       }
     },
     "SEA": {
       "Carlos Guillen": {
-        "Player ID": "guillca01",
         "Player": "Carlos Guillen",
+        "Player ID": "guillca01",
         "AB": 5,
         "H": 1,
         "SO": 1,
@@ -145,13 +145,13 @@
         "DP": 1
       },
       "David Bell": {
-        "Player ID": "bellda01",
         "Player": "David Bell",
+        "Player ID": "bellda01",
         "PO": 1
       },
       "Alex Rodriguez": {
-        "Player ID": "rodrial01",
         "Player": "Alex Rodriguez",
+        "Player ID": "rodrial01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -160,31 +160,31 @@
         "DP": 1
       },
       "Charles Gipson": {
-        "Player ID": "gipsoch01",
         "Player": "Charles Gipson",
+        "Player ID": "gipsoch01",
         "AB": 1,
         "PO": 1,
         "A": 1
       },
       "Ken Griffey Jr": {
-        "Player ID": "griffke02",
         "Player": "Ken Griffey Jr",
+        "Player ID": "griffke02",
         "AB": 3,
         "R": 1,
         "H": 2,
         "HBP": 1
       },
       "Matt Mieske": {
-        "Player ID": "mieskma01",
         "Player": "Matt Mieske",
+        "Player ID": "mieskma01",
         "AB": 1,
         "R": 1,
         "H": 1,
         "PO": 1
       },
       "Edgar Martinez": {
-        "Player ID": "martied01",
         "Player": "Edgar Martinez",
+        "Player ID": "martied01",
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -193,14 +193,14 @@
         "BB": 2
       },
       "Butch Huskey": {
-        "Player ID": "huskebu01",
         "Player": "Butch Huskey",
+        "Player ID": "huskebu01",
         "AB": 1,
         "SO": 1
       },
       "David Segui": {
-        "Player ID": "seguida01",
         "Player": "David Segui",
+        "Player ID": "seguida01",
         "AB": 3,
         "H": 1,
         "RBI": 1,
@@ -210,21 +210,21 @@
         "DP": 1
       },
       "Jay Buhner": {
-        "Player ID": "buhneja01",
         "Player": "Jay Buhner",
+        "Player ID": "buhneja01",
         "AB": 4,
         "SO": 1,
         "PO": 2
       },
       "Raul Ibanez": {
-        "Player ID": "ibanera01",
         "Player": "Raul Ibanez",
+        "Player ID": "ibanera01",
         "AB": 1,
         "SO": 1
       },
       "John Mabry": {
-        "Player ID": "mabryjo01",
         "Player": "John Mabry",
+        "Player ID": "mabryjo01",
         "AB": 2,
         "H": 1,
         "2B": 1,
@@ -234,23 +234,23 @@
         "IP": "1.0"
       },
       "Russ Davis": {
-        "Player ID": "davisru01",
         "Player": "Russ Davis",
+        "Player ID": "davisru01",
         "AB": 5,
         "PO": 1,
         "A": 4
       },
       "Dan Wilson": {
-        "Player ID": "wilsoda01",
         "Player": "Dan Wilson",
+        "Player ID": "wilsoda01",
         "AB": 3,
         "SO": 1,
         "PO": 4,
         "SB against": 1
       },
       "Tom Lampkin": {
-        "Player ID": "lampkto01",
         "Player": "Tom Lampkin",
+        "Player ID": "lampkto01",
         "AB": 1,
         "SO": 1
       }
@@ -259,8 +259,8 @@
   "pitching": {
     "CHW": {
       "James Baldwin": {
-        "Player ID": "baldwja01",
         "Player": "James Baldwin",
+        "Player ID": "baldwja01",
         "W": 1,
         "IP": "6.0",
         "H allowed": 3,
@@ -272,8 +272,8 @@
         "WP": 2
       },
       "Bryan Ward": {
-        "Player ID": "wardbr01",
         "Player": "Bryan Ward",
+        "Player ID": "wardbr01",
         "IP": "2.0",
         "H allowed": 3,
         "R against": 1,
@@ -283,8 +283,8 @@
         "HBP against": 1
       },
       "David Lundquist": {
-        "Player ID": "lundqda01",
         "Player": "David Lundquist",
+        "Player ID": "lundqda01",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
@@ -295,8 +295,8 @@
     },
     "SEA": {
       "Jeff Fassero": {
-        "Player ID": "fasseje01",
         "Player": "Jeff Fassero",
+        "Player ID": "fasseje01",
         "L": 1,
         "IP": "3.2",
         "H allowed": 9,
@@ -309,8 +309,8 @@
         "SB against": 1
       },
       "Brett Hinchliffe": {
-        "Player ID": "hinchbr01",
         "Player": "Brett Hinchliffe",
+        "Player ID": "hinchbr01",
         "IP": "2.0",
         "H allowed": 4,
         "R against": 5,
@@ -321,8 +321,8 @@
         "ERR": 1
       },
       "Eric Weaver": {
-        "Player ID": "weaveer01",
         "Player": "Eric Weaver",
+        "Player ID": "weaveer01",
         "IP": "1.1",
         "H allowed": 3,
         "R against": 4,
@@ -332,13 +332,18 @@
         "WP": 1
       },
       "Mac Suzuki": {
-        "Player ID": "suzukma01",
         "Player": "Mac Suzuki",
+        "Player ID": "suzukma01",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
         "ER": 1,
         "HR allowed": 1
+      },
+      "John Mabry": {
+        "Player": "John Mabry",
+        "Player ID": "mabryjo01",
+        "IP": "1.0"
       }
     }
   },
@@ -556,8 +561,8 @@
         "9"
       ],
       "John Mabry": [
-        "7",
-        "1"
+        "1",
+        "7"
       ],
       "Russ Davis": [
         "5"

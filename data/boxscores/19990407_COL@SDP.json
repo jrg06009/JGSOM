@@ -9,15 +9,15 @@
   "batting": {
     "COL": {
       "Darryl Hamilton": {
-        "Player ID": "hamilda02",
         "Player": "Darryl Hamilton",
+        "Player ID": "hamilda02",
         "AB": 5,
         "SO": 2,
         "PO": 5
       },
       "Neifi Perez": {
-        "Player ID": "perezne01",
         "Player": "Neifi Perez",
+        "Player ID": "perezne01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -26,14 +26,14 @@
         "DP": 2
       },
       "Lenny Harris": {
-        "Player ID": "harrile01",
         "Player": "Lenny Harris",
+        "Player ID": "harrile01",
         "AB": 4,
         "PO": 1
       },
       "Dante Bichette": {
-        "Player ID": "bicheda01",
         "Player": "Dante Bichette",
+        "Player ID": "bicheda01",
         "AB": 4,
         "R": 2,
         "H": 1,
@@ -42,16 +42,16 @@
         "PO": 2
       },
       "Vinny Castilla": {
-        "Player ID": "castivi02",
         "Player": "Vinny Castilla",
+        "Player ID": "castivi02",
         "AB": 4,
         "R": 3,
         "H": 3,
         "2B": 1
       },
       "Todd Helton": {
-        "Player ID": "heltoto01",
         "Player": "Todd Helton",
+        "Player ID": "heltoto01",
         "AB": 4,
         "R": 2,
         "H": 2,
@@ -62,16 +62,16 @@
         "DP": 2
       },
       "Mike Lansing": {
-        "Player ID": "lansimi01",
         "Player": "Mike Lansing",
+        "Player ID": "lansimi01",
         "AB": 4,
         "PO": 2,
         "A": 9,
         "DP": 2
       },
       "Jeff Reed": {
-        "Player ID": "reedje02",
         "Player": "Jeff Reed",
+        "Player ID": "reedje02",
         "AB": 4,
         "R": 1,
         "SO": 3,
@@ -79,8 +79,8 @@
         "PB": 1
       },
       "Jamey Wright": {
-        "Player ID": "wrighja01",
         "Player": "Jamey Wright",
+        "Player ID": "wrighja01",
         "AB": 3,
         "SO": 1,
         "W": 1,
@@ -92,36 +92,36 @@
         "SO against": 3
       },
       "Chuck McElroy": {
-        "Player ID": "mcelrch01",
         "Player": "Chuck McElroy",
+        "Player ID": "mcelrch01",
         "IP": "0.1",
         "BB against": 1
       },
       "Roberto Ramirez": {
-        "Player ID": "ramirro01",
         "Player": "Roberto Ramirez",
+        "Player ID": "ramirro01",
         "IP": "0.2",
         "H allowed": 2,
         "BB against": 1
       },
       "Angel Echevarria": {
-        "Player ID": "echevan01",
         "Player": "Angel Echevarria",
+        "Player ID": "echevan01",
         "AB": 1,
         "H": 1,
         "2B": 1,
         "RBI": 2
       },
       "Jerry Dipoto": {
-        "Player ID": "dipotje01",
         "Player": "Jerry Dipoto",
+        "Player ID": "dipotje01",
         "IP": "0.1"
       }
     },
     "SDP": {
       "Quilvio Veras": {
-        "Player ID": "verasqu01",
         "Player": "Quilvio Veras",
+        "Player ID": "verasqu01",
         "AB": 3,
         "BB": 2,
         "SO": 1,
@@ -129,14 +129,14 @@
         "A": 6
       },
       "Reggie Sanders": {
-        "Player ID": "sandere02",
         "Player": "Reggie Sanders",
+        "Player ID": "sandere02",
         "AB": 3,
         "BB": 2
       },
       "Tony Gwynn": {
-        "Player ID": "gwynnto01",
         "Player": "Tony Gwynn",
+        "Player ID": "gwynnto01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -146,42 +146,42 @@
         "PO": 4
       },
       "Wally Joyner": {
-        "Player ID": "joynewa01",
         "Player": "Wally Joyner",
+        "Player ID": "joynewa01",
         "AB": 2,
         "BB": 2,
         "PO": 8
       },
       "John Vander Wal": {
-        "Player ID": "vandejo02",
         "Player": "John Vander Wal",
+        "Player ID": "vandejo02",
         "AB": 3,
         "SO": 1,
         "PO": 1
       },
       "Jim Leyritz": {
-        "Player ID": "leyriji01",
         "Player": "Jim Leyritz",
+        "Player ID": "leyriji01",
         "AB": 1
       },
       "Dan Miceli": {
-        "Player ID": "micelda01",
         "Player": "Dan Miceli",
+        "Player ID": "micelda01",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 2
       },
       "Greg Myers": {
-        "Player ID": "myersgr01",
         "Player": "Greg Myers",
+        "Player ID": "myersgr01",
         "AB": 3,
         "H": 1,
         "BB": 1,
         "PO": 6
       },
       "George Arias": {
-        "Player ID": "ariasge01",
         "Player": "George Arias",
+        "Player ID": "ariasge01",
         "AB": 3,
         "H": 1,
         "SO": 1,
@@ -190,27 +190,27 @@
         "A": 1
       },
       "Brian Boehringer": {
-        "Player ID": "boehrbr01",
         "Player": "Brian Boehringer",
+        "Player ID": "boehrbr01",
         "IP": "1.0"
       },
       "Ruben Rivera": {
-        "Player ID": "riverru01",
         "Player": "Ruben Rivera",
+        "Player ID": "riverru01",
         "AB": 1,
         "PO": 1
       },
       "Chris Gomez": {
-        "Player ID": "gomezch02",
         "Player": "Chris Gomez",
+        "Player ID": "gomezch02",
         "AB": 4,
         "H": 1,
         "PO": 2,
         "ERR": 2
       },
       "Woody Williams": {
-        "Player ID": "williwo02",
         "Player": "Woody Williams",
+        "Player ID": "williwo02",
         "AB": 2,
         "L": 1,
         "IP": "5.2",
@@ -221,8 +221,8 @@
         "SO against": 4
       },
       "Carlos Reyes": {
-        "Player ID": "reyesca01",
         "Player": "Carlos Reyes",
+        "Player ID": "reyesca01",
         "IP": "1.1",
         "H allowed": 1,
         "R against": 1,
@@ -231,22 +231,92 @@
         "SO against": 2
       },
       "Dave Magadan": {
-        "Player ID": "magadda01",
         "Player": "Dave Magadan",
+        "Player ID": "magadda01",
         "AB": 1,
         "R": 1,
         "H": 1,
         "2B": 1
       },
       "Carlos Garcia": {
-        "Player ID": "garcica01",
         "Player": "Carlos Garcia",
+        "Player ID": "garcica01",
         "AB": 1,
         "H": 1
       }
     }
   },
-  "pitching": {},
+  "pitching": {
+    "COL": {
+      "Jamey Wright": {
+        "Player": "Jamey Wright",
+        "Player ID": "wrighja01",
+        "AB": 3,
+        "SO": 1,
+        "W": 1,
+        "IP": "7.2",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 1,
+        "BB against": 5,
+        "SO against": 3
+      },
+      "Chuck McElroy": {
+        "Player": "Chuck McElroy",
+        "Player ID": "mcelrch01",
+        "IP": "0.1",
+        "BB against": 1
+      },
+      "Roberto Ramirez": {
+        "Player": "Roberto Ramirez",
+        "Player ID": "ramirro01",
+        "IP": "0.2",
+        "H allowed": 2,
+        "BB against": 1
+      },
+      "Jerry Dipoto": {
+        "Player": "Jerry Dipoto",
+        "Player ID": "dipotje01",
+        "IP": "0.1"
+      }
+    },
+    "SDP": {
+      "Dan Miceli": {
+        "Player": "Dan Miceli",
+        "Player ID": "micelda01",
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2
+      },
+      "Brian Boehringer": {
+        "Player": "Brian Boehringer",
+        "Player ID": "boehrbr01",
+        "IP": "1.0"
+      },
+      "Woody Williams": {
+        "Player": "Woody Williams",
+        "Player ID": "williwo02",
+        "AB": 2,
+        "L": 1,
+        "IP": "5.2",
+        "H allowed": 5,
+        "R against": 5,
+        "ER": 3,
+        "HR allowed": 1,
+        "SO against": 4
+      },
+      "Carlos Reyes": {
+        "Player": "Carlos Reyes",
+        "Player ID": "reyesca01",
+        "IP": "1.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "SO against": 2
+      }
+    }
+  },
   "batting_order": {
     "COL": [
       [
@@ -427,8 +497,8 @@
         "4"
       ],
       "Reggie Sanders": [
-        "8",
-        "7"
+        "7",
+        "8"
       ],
       "Tony Gwynn": [
         "9"

@@ -9,8 +9,8 @@
   "batting": {
     "NYY": {
       "Chuck Knoblauch": {
-        "Player ID": "knoblch01",
         "Player": "Chuck Knoblauch",
+        "Player ID": "knoblch01",
         "AB": 3,
         "R": 2,
         "H": 2,
@@ -24,8 +24,8 @@
         "ERR": 1
       },
       "Derek Jeter": {
-        "Player ID": "jeterde01",
         "Player": "Derek Jeter",
+        "Player ID": "jeterde01",
         "AB": 4,
         "R": 2,
         "H": 1,
@@ -34,16 +34,16 @@
         "PO": 1
       },
       "Paul O'Neill": {
-        "Player ID": "o'neipa01",
         "Player": "Paul O'Neill",
+        "Player ID": "o'neipa01",
         "AB": 2,
         "R": 1,
         "BB": 3,
         "ERR": 1
       },
       "Bernie Williams": {
-        "Player ID": "willibe02",
         "Player": "Bernie Williams",
+        "Player ID": "willibe02",
         "AB": 5,
         "R": 2,
         "H": 2,
@@ -53,8 +53,8 @@
         "PO": 2
       },
       "Tino Martinez": {
-        "Player ID": "martiti02",
         "Player": "Tino Martinez",
+        "Player ID": "martiti02",
         "AB": 4,
         "H": 2,
         "RBI": 3,
@@ -64,8 +64,8 @@
         "A": 1
       },
       "Chili Davis": {
-        "Player ID": "davisch01",
         "Player": "Chili Davis",
+        "Player ID": "davisch01",
         "AB": 3,
         "R": 1,
         "H": 2,
@@ -76,13 +76,13 @@
         "HBP": 1
       },
       "Clay Bellinger": {
-        "Player ID": "bellicl01",
         "Player": "Clay Bellinger",
+        "Player ID": "bellicl01",
         "R": 1
       },
       "Jorge Posada": {
-        "Player ID": "posadjo01",
         "Player": "Jorge Posada",
+        "Player ID": "posadjo01",
         "AB": 5,
         "H": 2,
         "RBI": 1,
@@ -91,16 +91,16 @@
         "PO": 5
       },
       "Scott Brosius": {
-        "Player ID": "brosisc01",
         "Player": "Scott Brosius",
+        "Player ID": "brosisc01",
         "AB": 5,
         "SO": 2,
         "PO": 1,
         "A": 1
       },
       "Chad Curtis": {
-        "Player ID": "curtich01",
         "Player": "Chad Curtis",
+        "Player ID": "curtich01",
         "AB": 5,
         "R": 1,
         "H": 1,
@@ -109,8 +109,8 @@
     },
     "OAK": {
       "Tony Phillips": {
-        "Player ID": "phillto02",
         "Player": "Tony Phillips",
+        "Player ID": "phillto02",
         "AB": 4,
         "R": 1,
         "BB": 1,
@@ -118,8 +118,8 @@
         "PO": 1
       },
       "Jason McDonald": {
-        "Player ID": "mcdonja02",
         "Player": "Jason McDonald",
+        "Player ID": "mcdonja02",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -127,8 +127,8 @@
         "PO": 2
       },
       "Jason Giambi": {
-        "Player ID": "giambja01",
         "Player": "Jason Giambi",
+        "Player ID": "giambja01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -137,8 +137,8 @@
         "DP": 2
       },
       "Matt Stairs": {
-        "Player ID": "stairma01",
         "Player": "Matt Stairs",
+        "Player ID": "stairma01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -147,8 +147,8 @@
         "PO": 1
       },
       "Ben Grieve": {
-        "Player ID": "grievbe01",
         "Player": "Ben Grieve",
+        "Player ID": "grievbe01",
         "AB": 3,
         "R": 2,
         "H": 2,
@@ -157,14 +157,14 @@
         "SO": 1
       },
       "John Jaha": {
-        "Player ID": "jahajo01",
         "Player": "John Jaha",
+        "Player ID": "jahajo01",
         "AB": 2,
         "SO": 1
       },
       "Scott Spiezio": {
-        "Player ID": "spiezsc01",
         "Player": "Scott Spiezio",
+        "Player ID": "spiezsc01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -175,19 +175,19 @@
         "DP": 2
       },
       "Ryan Christenson": {
-        "Player ID": "chrisry01",
         "Player": "Ryan Christenson",
+        "Player ID": "chrisry01",
         "R": 1
       },
       "Eric Chavez": {
-        "Player ID": "chaveer01",
         "Player": "Eric Chavez",
+        "Player ID": "chaveer01",
         "AB": 4,
         "A": 3
       },
       "A.J. Hinch": {
-        "Player ID": "hincha.01",
         "Player": "A.J. Hinch",
+        "Player ID": "hincha.01",
         "AB": 3,
         "PO": 6,
         "A": 1,
@@ -195,18 +195,18 @@
         "SB against": 2
       },
       "Tim Raines": {
-        "Player ID": "raineti01",
         "Player": "Tim Raines",
+        "Player ID": "raineti01",
         "AB": 1
       },
       "Mike Macfarlane": {
-        "Player ID": "macfami01",
         "Player": "Mike Macfarlane",
+        "Player ID": "macfami01",
         "SB against": 1
       },
       "Miguel Tejada": {
-        "Player ID": "tejadmi01",
         "Player": "Miguel Tejada",
+        "Player ID": "tejadmi01",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -222,8 +222,8 @@
   "pitching": {
     "NYY": {
       "Ramiro Mendoza": {
-        "Player ID": "mendora01",
         "Player": "Ramiro Mendoza",
+        "Player ID": "mendora01",
         "IP": "4.1",
         "H allowed": 6,
         "R against": 7,
@@ -234,8 +234,8 @@
         "A": 2
       },
       "Jason Grimsley": {
-        "Player ID": "grimsja01",
         "Player": "Jason Grimsley",
+        "Player ID": "grimsja01",
         "IP": "1.2",
         "H allowed": 1,
         "R against": 1,
@@ -244,13 +244,13 @@
         "SO against": 1
       },
       "Mike Stanton": {
-        "Player ID": "stantmi02",
         "Player": "Mike Stanton",
+        "Player ID": "stantmi02",
         "IP": "0.2"
       },
       "Jeff Nelson": {
-        "Player ID": "nelsoje01",
         "Player": "Jeff Nelson",
+        "Player ID": "nelsoje01",
         "W": 1,
         "IP": "1.1",
         "H allowed": 1,
@@ -258,16 +258,16 @@
         "SO against": 2
       },
       "Mariano Rivera": {
-        "Player ID": "riverma01",
         "Player": "Mariano Rivera",
+        "Player ID": "riverma01",
         "SV": 1,
         "IP": "1.0"
       }
     },
     "OAK": {
       "Jimmy Haynes": {
-        "Player ID": "hayneji01",
         "Player": "Jimmy Haynes",
+        "Player ID": "hayneji01",
         "IP": "3.0",
         "H allowed": 7,
         "R against": 8,
@@ -278,8 +278,8 @@
         "SB against": 1
       },
       "Tim Worrell": {
-        "Player ID": "worreti01",
         "Player": "Tim Worrell",
+        "Player ID": "worreti01",
         "IP": "2.0",
         "H allowed": 2,
         "BB against": 1,
@@ -287,8 +287,8 @@
         "HBP against": 1
       },
       "T.J. Mathews": {
-        "Player ID": "mathet.01",
         "Player": "T.J. Mathews",
+        "Player ID": "mathet.01",
         "IP": "2.0",
         "H allowed": 1,
         "R against": 1,
@@ -299,13 +299,13 @@
         "SB against": 1
       },
       "Buddy Groom": {
-        "Player ID": "groombu01",
         "Player": "Buddy Groom",
+        "Player ID": "groombu01",
         "IP": "1.0"
       },
       "Billy Taylor": {
-        "Player ID": "taylobi04",
         "Player": "Billy Taylor",
+        "Player ID": "taylobi04",
         "L": 1,
         "IP": "1.0",
         "H allowed": 2,
@@ -473,12 +473,12 @@
     },
     "OAK": {
       "Tony Phillips": [
-        "4",
-        "7"
+        "7",
+        "4"
       ],
       "Jason McDonald": [
-        "8",
-        "7"
+        "7",
+        "8"
       ],
       "Jason Giambi": [
         "3"

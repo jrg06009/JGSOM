@@ -9,8 +9,8 @@
   "batting": {
     "MON": {
       "Wilton Guerrero": {
-        "Player ID": "guerrwi01",
         "Player": "Wilton Guerrero",
+        "Player ID": "guerrwi01",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -22,14 +22,14 @@
         "DP": 2
       },
       "Ugueth Urbina": {
-        "Player ID": "urbinug01",
         "Player": "Ugueth Urbina",
+        "Player ID": "urbinug01",
         "IP": "2.0",
         "SO against": 3
       },
       "Mike Maddux": {
-        "Player ID": "maddumi01",
         "Player": "Mike Maddux",
+        "Player ID": "maddumi01",
         "L": 1,
         "IP": "0.1",
         "H allowed": 2,
@@ -38,8 +38,8 @@
         "BB against": 1
       },
       "Orlando Cabrera": {
-        "Player ID": "cabreor01",
         "Player": "Orlando Cabrera",
+        "Player ID": "cabreor01",
         "AB": 5,
         "SO": 2,
         "PO": 3,
@@ -47,8 +47,8 @@
         "DP": 2
       },
       "Rondell White": {
-        "Player ID": "whitero02",
         "Player": "Rondell White",
+        "Player ID": "whitero02",
         "AB": 5,
         "SO": 1,
         "GDP": 1,
@@ -56,8 +56,8 @@
         "ERR": 1
       },
       "Vladimir Guerrero": {
-        "Player ID": "guerrvl01",
         "Player": "Vladimir Guerrero",
+        "Player ID": "guerrvl01",
         "AB": 5,
         "R": 2,
         "H": 4,
@@ -67,8 +67,8 @@
         "PO": 2
       },
       "Jose Vidro": {
-        "Player ID": "vidrojo01",
         "Player": "Jose Vidro",
+        "Player ID": "vidrojo01",
         "AB": 5,
         "H": 3,
         "2B": 1,
@@ -79,28 +79,28 @@
         "GDP": 1
       },
       "Shane Andrews": {
-        "Player ID": "andresh01",
         "Player": "Shane Andrews",
+        "Player ID": "andresh01",
         "AB": 4,
         "H": 3
       },
       "Brad Fullmer": {
-        "Player ID": "fullmbr01",
         "Player": "Brad Fullmer",
+        "Player ID": "fullmbr01",
         "AB": 1,
         "H": 1,
         "PO": 1
       },
       "Michael Barrett": {
-        "Player ID": "barremi01",
         "Player": "Michael Barrett",
+        "Player ID": "barremi01",
         "AB": 5,
         "PO": 11,
         "GDP": 1
       },
       "Manny Martinez": {
-        "Player ID": "martima02",
         "Player": "Manny Martinez",
+        "Player ID": "martima02",
         "AB": 4,
         "H": 2,
         "2B": 1,
@@ -110,8 +110,8 @@
         "PO": 2
       },
       "Javier Vazquez": {
-        "Player ID": "vazquja01",
         "Player": "Javier Vazquez",
+        "Player ID": "vazquja01",
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -124,8 +124,8 @@
         "SO against": 7
       },
       "Bobby Ayala": {
-        "Player ID": "ayalabo01",
         "Player": "Bobby Ayala",
+        "Player ID": "ayalabo01",
         "IP": "1.1",
         "H allowed": 2,
         "R against": 1,
@@ -135,15 +135,15 @@
         "HBP against": 1
       },
       "Steve Kline": {
-        "Player ID": "klinest02",
         "Player": "Steve Kline",
+        "Player ID": "klinest02",
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
       },
       "Chris Widger": {
-        "Player ID": "widgech01",
         "Player": "Chris Widger",
+        "Player ID": "widgech01",
         "BB": 1,
         "IBB": 1,
         "AB": 1,
@@ -153,8 +153,8 @@
     },
     "PIT": {
       "Jason Kendall": {
-        "Player ID": "kendaja01",
         "Player": "Jason Kendall",
+        "Player ID": "kendaja01",
         "AB": 5,
         "R": 1,
         "H": 2,
@@ -164,8 +164,8 @@
         "SB against": 1
       },
       "Warren Morris": {
-        "Player ID": "morriwa02",
         "Player": "Warren Morris",
+        "Player ID": "morriwa02",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -176,13 +176,13 @@
         "DP": 2
       },
       "Abraham Nunez": {
-        "Player ID": "nunezab01",
         "Player": "Abraham Nunez",
+        "Player ID": "nunezab01",
         "R": 1
       },
       "Brian Giles": {
-        "Player ID": "gilesbr02",
         "Player": "Brian Giles",
+        "Player ID": "gilesbr02",
         "AB": 5,
         "H": 3,
         "SO": 1,
@@ -190,8 +190,8 @@
         "RBI": 1
       },
       "Kevin Young": {
-        "Player ID": "youngke01",
         "Player": "Kevin Young",
+        "Player ID": "youngke01",
         "AB": 4,
         "H": 1,
         "RBI": 1,
@@ -201,16 +201,16 @@
         "DP": 3
       },
       "Al Martin": {
-        "Player ID": "martial03",
         "Player": "Al Martin",
+        "Player ID": "martial03",
         "AB": 3,
         "SO": 1,
         "GDP": 1,
         "ERR": 1
       },
       "Rich Loiselle": {
-        "Player ID": "loiseri01",
         "Player": "Rich Loiselle",
+        "Player ID": "loiseri01",
         "IP": "1.1",
         "H allowed": 3,
         "R against": 1,
@@ -219,21 +219,21 @@
         "SO against": 2
       },
       "Chris Peters": {
-        "Player ID": "peterch01",
         "Player": "Chris Peters",
+        "Player ID": "peterch01",
         "IP": "0.2",
         "BB against": 1,
         "IBB against": 1
       },
       "Turner Ward": {
-        "Player ID": "wardtu01",
         "Player": "Turner Ward",
+        "Player ID": "wardtu01",
         "AB": 1,
         "SO": 1
       },
       "Jason Phillips": {
-        "Player ID": "phillja03",
         "Player": "Jason Phillips",
+        "Player ID": "phillja03",
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -242,28 +242,28 @@
         "SB against": 1
       },
       "Adrian Brown": {
-        "Player ID": "brownad01",
         "Player": "Adrian Brown",
+        "Player ID": "brownad01",
         "AB": 1,
         "H": 1,
         "RBI": 1
       },
       "Ed Sprague": {
-        "Player ID": "spraged02",
         "Player": "Ed Sprague",
+        "Player ID": "spraged02",
         "AB": 4,
         "A": 2
       },
       "Jose Guillen": {
-        "Player ID": "guilljo01",
         "Player": "Jose Guillen",
+        "Player ID": "guilljo01",
         "AB": 4,
         "H": 1,
         "SO": 3
       },
       "Mike Benjamin": {
-        "Player ID": "benjami01",
         "Player": "Mike Benjamin",
+        "Player ID": "benjami01",
         "AB": 3,
         "R": 1,
         "BB": 1,
@@ -274,8 +274,8 @@
         "ERR": 3
       },
       "Pete Schourek": {
-        "Player ID": "schoupe01",
         "Player": "Pete Schourek",
+        "Player ID": "schoupe01",
         "AB": 1,
         "SO": 1,
         "IP": "6.0",
@@ -287,8 +287,8 @@
         "A": 2
       },
       "Brant Brown": {
-        "Player ID": "brownbr01",
         "Player": "Brant Brown",
+        "Player ID": "brownbr01",
         "AB": 2,
         "R": 1,
         "SO": 1,
@@ -297,7 +297,100 @@
       }
     }
   },
-  "pitching": {},
+  "pitching": {
+    "MON": {
+      "Ugueth Urbina": {
+        "Player": "Ugueth Urbina",
+        "Player ID": "urbinug01",
+        "IP": "2.0",
+        "SO against": 3
+      },
+      "Mike Maddux": {
+        "Player": "Mike Maddux",
+        "Player ID": "maddumi01",
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1
+      },
+      "Javier Vazquez": {
+        "Player": "Javier Vazquez",
+        "Player ID": "vazquja01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 0,
+        "IP": "5.0",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 7
+      },
+      "Bobby Ayala": {
+        "Player": "Bobby Ayala",
+        "Player ID": "ayalabo01",
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1
+      },
+      "Steve Kline": {
+        "Player": "Steve Kline",
+        "Player ID": "klinest02",
+        "IP": "0.2",
+        "H allowed": 1,
+        "SO against": 1
+      }
+    },
+    "PIT": {
+      "Rich Loiselle": {
+        "Player": "Rich Loiselle",
+        "Player ID": "loiseri01",
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "SO against": 2
+      },
+      "Chris Peters": {
+        "Player": "Chris Peters",
+        "Player ID": "peterch01",
+        "IP": "0.2",
+        "BB against": 1,
+        "IBB against": 1
+      },
+      "Jason Phillips": {
+        "Player": "Jason Phillips",
+        "Player ID": "phillja03",
+        "W": 1,
+        "IP": "2.0",
+        "H allowed": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      },
+      "Pete Schourek": {
+        "Player": "Pete Schourek",
+        "Player ID": "schoupe01",
+        "AB": 1,
+        "SO": 1,
+        "IP": "6.0",
+        "H allowed": 11,
+        "R against": 3,
+        "ER": 2,
+        "SO against": 4,
+        "PO": 1,
+        "A": 2
+      }
+    }
+  },
   "batting_order": {
     "MON": [
       [
@@ -477,8 +570,8 @@
         "9"
       ],
       "Jose Vidro": [
-        "4",
-        "3"
+        "3",
+        "4"
       ],
       "Shane Andrews": [
         "5"
@@ -490,8 +583,8 @@
         "3"
       ],
       "Michael Barrett": [
-        "5",
-        "2"
+        "2",
+        "5"
       ],
       "Manny Martinez": [
         "8"
@@ -509,8 +602,8 @@
         "PH"
       ],
       "Chris Widger": [
-        "PH",
-        "2"
+        "2",
+        "PH"
       ]
     },
     "PIT": {
@@ -524,8 +617,8 @@
         "PR"
       ],
       "Brian Giles": [
-        "8",
-        "7"
+        "7",
+        "8"
       ],
       "Kevin Young": [
         "3"
@@ -561,8 +654,8 @@
         "1"
       ],
       "Brant Brown": [
-        "PH",
-        "8"
+        "8",
+        "PH"
       ]
     }
   },

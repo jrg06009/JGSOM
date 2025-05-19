@@ -9,14 +9,14 @@
   "batting": {
     "CHW": {
       "Ray Durham": {
-        "Player ID": "durhara01",
         "Player": "Ray Durham",
+        "Player ID": "durhara01",
         "AB": 5,
         "A": 1
       },
       "Mike Caruso": {
-        "Player ID": "carusmi01",
         "Player": "Mike Caruso",
+        "Player ID": "carusmi01",
         "AB": 4,
         "H": 1,
         "2B": 1,
@@ -25,14 +25,14 @@
         "DP": 1
       },
       "Frank Thomas": {
-        "Player ID": "thomafr04",
         "Player": "Frank Thomas",
+        "Player ID": "thomafr04",
         "AB": 4,
         "SO": 2
       },
       "Paul Konerko": {
-        "Player ID": "konerpa01",
         "Player": "Paul Konerko",
+        "Player ID": "konerpa01",
         "AB": 3,
         "BB": 1,
         "PO": 6,
@@ -40,16 +40,16 @@
         "DP": 1
       },
       "Magglio Ordonez": {
-        "Player ID": "ordonma01",
         "Player": "Magglio Ordonez",
+        "Player ID": "ordonma01",
         "AB": 4,
         "R": 1,
         "H": 1,
         "GDP": 1
       },
       "Greg Norton": {
-        "Player ID": "nortogr01",
         "Player": "Greg Norton",
+        "Player ID": "nortogr01",
         "AB": 3,
         "H": 1,
         "BB": 1,
@@ -58,8 +58,8 @@
         "ERR": 2
       },
       "Jeff Abbott": {
-        "Player ID": "abbotje01",
         "Player": "Jeff Abbott",
+        "Player ID": "abbotje01",
         "AB": 4,
         "R": 1,
         "H": 1,
@@ -67,16 +67,16 @@
         "PO": 1
       },
       "Darrin Jackson": {
-        "Player ID": "jacksda03",
         "Player": "Darrin Jackson",
+        "Player ID": "jacksda03",
         "AB": 4,
         "H": 2,
         "RBI": 1,
         "PO": 4
       },
       "Brook Fordyce": {
-        "Player ID": "fordybr01",
         "Player": "Brook Fordyce",
+        "Player ID": "fordybr01",
         "AB": 4,
         "H": 2,
         "2B": 1,
@@ -89,8 +89,8 @@
     },
     "SEA": {
       "Carlos Guillen": {
-        "Player ID": "guillca01",
         "Player": "Carlos Guillen",
+        "Player ID": "guillca01",
         "AB": 5,
         "H": 1,
         "SO": 2,
@@ -99,8 +99,8 @@
         "DP": 2
       },
       "Alex Rodriguez": {
-        "Player ID": "rodrial01",
         "Player": "Alex Rodriguez",
+        "Player ID": "rodrial01",
         "AB": 4,
         "R": 2,
         "H": 1,
@@ -113,8 +113,8 @@
         "DP": 1
       },
       "Ken Griffey Jr": {
-        "Player ID": "griffke02",
         "Player": "Ken Griffey Jr",
+        "Player ID": "griffke02",
         "AB": 4,
         "R": 2,
         "H": 3,
@@ -124,16 +124,16 @@
         "PO": 2
       },
       "Edgar Martinez": {
-        "Player ID": "martied01",
         "Player": "Edgar Martinez",
+        "Player ID": "martied01",
         "AB": 4,
         "H": 1,
         "RBI": 2,
         "BB": 1
       },
       "David Segui": {
-        "Player ID": "seguida01",
         "Player": "David Segui",
+        "Player ID": "seguida01",
         "AB": 3,
         "R": 2,
         "BB": 2,
@@ -142,8 +142,8 @@
         "DP": 2
       },
       "Jay Buhner": {
-        "Player ID": "buhneja01",
         "Player": "Jay Buhner",
+        "Player ID": "buhneja01",
         "AB": 3,
         "R": 2,
         "H": 2,
@@ -153,8 +153,8 @@
         "PO": 5
       },
       "Russ Davis": {
-        "Player ID": "davisru01",
         "Player": "Russ Davis",
+        "Player ID": "davisru01",
         "AB": 4,
         "BB": 1,
         "SO": 1,
@@ -162,8 +162,8 @@
         "DP": 1
       },
       "Butch Huskey": {
-        "Player ID": "huskebu01",
         "Player": "Butch Huskey",
+        "Player ID": "huskebu01",
         "AB": 4,
         "H": 2,
         "2B": 1,
@@ -172,8 +172,8 @@
         "ERR": 1
       },
       "Tom Lampkin": {
-        "Player ID": "lampkto01",
         "Player": "Tom Lampkin",
+        "Player ID": "lampkto01",
         "AB": 4,
         "R": 1,
         "H": 2,
@@ -187,8 +187,8 @@
   "pitching": {
     "CHW": {
       "Jim Parque": {
-        "Player ID": "parquji01",
         "Player": "Jim Parque",
+        "Player ID": "parquji01",
         "L": 1,
         "IP": "4.0",
         "H allowed": 8,
@@ -202,8 +202,8 @@
         "SB against": 1
       },
       "Sean Lowe": {
-        "Player ID": "lowese01",
         "Player": "Sean Lowe",
+        "Player ID": "lowese01",
         "IP": "2.0",
         "H allowed": 1,
         "R against": 1,
@@ -215,8 +215,8 @@
         "A": 1
       },
       "Bill Simas": {
-        "Player ID": "simasbi01",
         "Player": "Bill Simas",
+        "Player ID": "simasbi01",
         "IP": "1.0",
         "H allowed": 2,
         "R against": 2,
@@ -225,8 +225,8 @@
         "SO against": 2
       },
       "Keith Foulke": {
-        "Player ID": "foulkke01",
         "Player": "Keith Foulke",
+        "Player ID": "foulkke01",
         "IP": "1.0",
         "H allowed": 1,
         "R against": 1,
@@ -237,8 +237,8 @@
     },
     "SEA": {
       "Jamie Moyer": {
-        "Player ID": "moyerja01",
         "Player": "Jamie Moyer",
+        "Player ID": "moyerja01",
         "W": 1,
         "IP": "6.2",
         "H allowed": 6,
@@ -249,16 +249,16 @@
         "A": 2
       },
       "Jose Paniagua": {
-        "Player ID": "paniajo01",
         "Player": "Jose Paniagua",
+        "Player ID": "paniajo01",
         "IP": "1.1",
         "H allowed": 1,
         "BB against": 1,
         "SO against": 2
       },
       "John Halama": {
-        "Player ID": "halamjo01",
         "Player": "John Halama",
+        "Player ID": "halamjo01",
         "IP": "1.0",
         "H allowed": 1
       }
