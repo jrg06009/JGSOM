@@ -368,6 +368,18 @@ def generate_boxscores(gamelog_df, schedule_df):
         if not game_id:
             continue  # skip unknown games
 
+        # Set meta data from schedule_df instead of gamelog row
+        if game_id and "meta" in boxscores[game_id] and not boxscores[game_id]["meta"]:
+            sched_row = schedule_df[schedule_df["Game ID"] == game_id].iloc[0]
+            boxscores[game_id]["meta"] = {
+                "date": safe_str(sched_row.get("Date")),
+                "home": safe_str(sched_row.get("Home")),
+                "away": safe_str(sched_row.get("Away")),
+                "home_score": safe_str(sched_row.get("Home Score")),
+                "away_score": safe_str(sched_row.get("Away Score"))
+    }
+
+
         team = row["Team"]
         player = row["Player Name"]
         pid = row["Player ID"]
@@ -398,12 +410,6 @@ def generate_boxscores(gamelog_df, schedule_df):
                     boxscores[game_id][box][team][player][stat] = format_ip_for_display(val)
                 else:
                     boxscores[game_id][box][team][player][stat] += safe_int(val)
-
-        meta = boxscores[game_id]["meta"]
-        for key in ["Date", "Home", "Away", "Home Score", "Away Score"]:
-            meta_key = key.lower().replace(" ", "_")
-            if meta_key not in meta:
-                meta[meta_key] = safe_str(row.get(key))
 
     return boxscores
 
