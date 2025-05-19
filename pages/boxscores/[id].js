@@ -37,29 +37,31 @@ const BoxscorePage = ({ boxscore }) => {
     return pid ? `/players/${pid}` : '#'
   }
 
-  const groupBattingLines = lines => {
+  const groupBattingLines = entries => {
     const grouped = {}
-    lines.forEach(line => {
-      const name = line["Player"]
+
+    entries.forEach(([name, stats]) => {
       if (!grouped[name]) {
-        grouped[name] = { ...line, POS: new Set() }
-      }
-      Object.keys(line).forEach(k => {
-        if (k !== "Player" && k !== "POS" && typeof line[k] === 'number') {
-          grouped[name][k] += line[k]
+        grouped[name] = { Player: name, ...stats, POS: new Set() }
+      }  
+
+      Object.keys(stats).forEach(k => {
+        if (k !== "Player" && k !== "POS" && typeof stats[k] === 'number') {
+          grouped[name][k] = (grouped[name][k] || 0) + stats[k]
         }
       })
-      if (line.POS) grouped[name].POS.add(line.POS)
     })
+
     return Object.values(grouped).map(l => ({
       ...l,
       POS: Array.from(l.POS).join('-')
     }))
   }
 
+
   const renderBatting = team => {
     if (!batting?.[team]) return null
-    const lines = groupBattingLines(batting[team])
+    const lines = groupBattingLines(Object.entries(batting[team]))
     return (
       <>
         <h3 className="font-semibold mt-4">{getTeamName(team)} Batting</h3>
