@@ -18,7 +18,14 @@ const teamName = (abbr) => {
 }
 
 const formatScore = (game) => {
-  return `${game.away_score}–${game.home_score}`
+  const score = `${game.away_score}–${game.home_score}`
+  if (game.away_score > game.home_score) {
+    return `${score}, ${game.away_team}`
+  } else if (game.home_score > game.away_score) {
+    return `${score}, ${game.home_team}`
+  } else {
+    return `${score}` // in case of tie
+  }
 }
 
 const SchedulePage = ({ schedule }) => {
