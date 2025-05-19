@@ -19,7 +19,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ games, players, teams }) {
+export default function Home({ games, players, teams, standings }) {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Welcome to the 1999 Strat-O-Matic Season</h1>
