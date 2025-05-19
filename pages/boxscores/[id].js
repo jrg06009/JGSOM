@@ -65,6 +65,16 @@ const getPositionString = (team, player) => {
   return readable;
 };
 
+  const pitchingDisplayMap = {
+  "IP": "IP",
+  "H allowed": "H",
+  "R against": "R",
+  "ER": "ER",
+  "BB against": "BB",
+  "SO against": "SO",
+  "HR allowed": "HR"
+}
+
   const renderBatting = team => {
     if (!batting?.[team]) return null
     const lines = groupBattingLines(Object.entries(batting[team]))
@@ -127,13 +137,9 @@ const renderPitching = team => {
         <thead>
           <tr className="bg-gray-100">
             <th className="border p-1 text-left">Pitcher</th>
-            <th className="border p-1 text-center">IP</th>
-            <th className="border p-1 text-center">H</th>
-            <th className="border p-1 text-center">R</th>
-            <th className="border p-1 text-center">ER</th>
-            <th className="border p-1 text-center">BB</th>
-            <th className="border p-1 text-center">SO</th>
-            <th className="border p-1 text-center">HR</th>
+            {Object.values(pitchingDisplayMap).map((label, i) => (
+              <th key={i} className="border p-1 text-center">{label}</th>
+            ))}
           </tr>
         </thead>
         <tbody>
@@ -144,13 +150,11 @@ const renderPitching = team => {
                   {p["Player"]}
                 </Link>
               </td>
-              <td className="border p-1 text-center">{p.IP}</td>
-              <td className="border p-1 text-center">{p["H"]}</td>
-              <td className="border p-1 text-center">{p["R"]}</td>
-              <td className="border p-1 text-center">{p["ER"]}</td>
-              <td className="border p-1 text-center">{p["BB"]}</td>
-              <td className="border p-1 text-center">{p["SO"]}</td>
-              <td className="border p-1 text-center">{p["HR"]}</td>
+              {Object.keys(pitchingDisplayMap).map((rawKey, j) => (
+                <td key={j} className="border p-1 text-center">
+                  {p[rawKey] || 0}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>
