@@ -30,7 +30,7 @@ const BoxscorePage = ({ boxscore }) => {
   return <div className="p-4 text-red-600">Boxscore data missing or incomplete.</div>
 }
   const { meta, batting, pitching } = boxscore
-  const teams = [meta.away_team, meta.home_team]
+  const teams = [meta.away, meta.home]
 
   const getPlayerLink = name => {
     const pid = name.split('::')[1]
@@ -151,10 +151,10 @@ const renderPitching = team => {
   return (
     <div className="p-4">
       <h1 className="text-xl font-bold mb-2">
-        {getTeamName(meta.away_team)} @ {getTeamName(meta.home_team)} — {meta.date}
+        {getTeamName(meta.away)} @ {getTeamName(meta.hom)} — — {new Date(meta.date).toLocaleDateString()}
       </h1>
       <p className="mb-4">
-        Final Score: {meta.away_score}–{meta.home_score}
+        Final Score: {parseInt(meta.away_score)}–{parseInt(meta.home_score)}
       </p>
       {teams.map(t => (
         <div key={t} className="mb-8">
