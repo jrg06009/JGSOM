@@ -571,6 +571,8 @@ for league in league_order:
             val = row.get(col, "")
             val = str(val).strip() if pd.notna(val) else ""
             innings.append(val)
+        with open("debug_linescore_log.txt", "a") as debug_file:
+            debug_file.write(f"Checking {game_id} {team} innings: {innings}\n")
         print("Checking", game_id, team, "innings:", innings)
         if all(v == "" for v in innings):
             continue  # Skip if all innings are blank
