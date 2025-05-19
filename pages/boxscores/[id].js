@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import teams from '../../data/teams.json'
+import schedule from '../../data/stats/schedule.json'
 import Link from 'next/link'
 
 export async function getStaticPaths() {
@@ -23,6 +24,25 @@ export async function getStaticProps({ params }) {
 const getTeamName = abbr => {
   const t = teams.find(t => t.id === abbr)
   return t?.name || abbr
+}
+
+const getTeamRecordThroughDate = (schedule, team, dateStr) => {
+  const games = schedule.filter(g => {
+    const gDate = new Date(g.date)
+    return g.completed && gDate < new Date(dateStr) &&
+      (g.home_team === team || g.away_team === team)
+  })
+
+  let W = 0, L = 0
+  games.forEach(g => {
+    const isHome = g.home_team === team
+    const teamScore = isHome ? g.home_score : g.away_score
+    const oppScore = isHome ? g.away_score : g.home_score
+    if (teamScore > oppScore) W++
+    else L++
+  })
+
+  return `${W}-${L}`
 }
 
 const BoxscorePage = ({ boxscore }) => {
@@ -222,11 +242,13 @@ const renderPitching = team => {
                 <div className="text-3xl font-bold mt-1">
                   {i === 0 ? parseInt(meta.away_score) : parseInt(meta.home_score)}
                 </div>
+                <div className="text-xs text-gray-700 mt-1">
+                  {getTeamRecordThroughDate(schedule, abbr, meta.date)}
+                </div>
               </div>
             )      
           })}
         </div>
-        <div className="text-xl font-semibold">vs</div>
         <div className="text-sm text-gray-700 mt-1">
           {new Date(meta.date).toLocaleDateString()}
         </div>
