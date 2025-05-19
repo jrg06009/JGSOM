@@ -25,8 +25,7 @@ const formatScore = (game) => {
 
   return (
     <>
-      <strong>{score}</strong>
-      <span style={{ color, fontWeight: 600 }}>, {winner}</span>
+      <strong> <span style={{ color, fontWeight: 600 }}>{score}, {winner}</span></strong>
     </>
   )
 }
