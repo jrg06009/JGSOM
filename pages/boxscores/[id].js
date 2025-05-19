@@ -209,12 +209,25 @@ const renderPitching = team => {
 
   return (
     <div className="p-4">
-      <h1 className="text-xl font-bold mb-2">
-        {getTeamName(meta.away)} @ {getTeamName(meta.home)} —— {new Date(meta.date).toLocaleDateString()}
-      </h1>
-      <p className="mb-4">
-        Final Score: {parseInt(meta.away_score)}–{parseInt(meta.home_score)}
-      </p>
+      <div className="text-center mb-6">
+        <img
+          src="/logos/league.png"
+          alt="League Logo"
+          className="mx-auto h-16 mb-2"
+        />
+        <div className="text-xl font-bold flex justify-center items-center gap-2 mb-1">
+          <Link href={`/teams/${meta.away}`} className="text-blue-700 underline">{getTeamName(meta.away)}</Link>
+          <span>@</span>
+          <Link href={`/teams/${meta.home}`} className="text-blue-700 underline">{getTeamName(meta.home)}</Link>
+        </div>
+        <div className="text-3xl font-bold mb-1">
+          {parseInt(meta.away_score)} – {parseInt(meta.home_score)}
+        </div>
+        <div className="text-sm text-gray-700">
+          {new Date(meta.date).toLocaleDateString()}
+        </div>
+      </div>
+
       {teams.map(t => (
         <div key={t} className="mb-8">
           {renderBatting(t)}
