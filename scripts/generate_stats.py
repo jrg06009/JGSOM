@@ -395,7 +395,7 @@ if __name__ == "__main__":
         losses = record["L"]
         total = wins + losses
         pct = wins / total if total > 0 else 0
-        record["W-L%"] = f".{int(round(pct * 1000)):03d}"
+        record["W-L%"] = "1.000" if pct == 1 else f".{int(round(pct * 1000)):03d}"
         complete[tid] = record
 
     from collections import defaultdict
@@ -411,14 +411,33 @@ if __name__ == "__main__":
     division_order = ["East", "Central", "West"]
     ordered = {}
 
-    for league in league_order:
-        if league in grouped:
-            ordered[league] = {}
-            for division in division_order:
-                if division in grouped[league]:
-                    ordered[league][division] = sorted(
-                        grouped[league][division],
-                        key=lambda x: (-x["W"], x["L"])
+for league in league_order:
+    if league in grouped:
+        ordered[league] = {}
+        for division in division_order:
+            if division in grouped[league]:
+                teams = grouped[league][division]
+
+                # Sort by Win Percentage: W / (W + L)
+                sorted_teams = sorted(
+                    teams,
+                    key=lambda t: -(t["W"] / (t["W"] + t["L"]) if (t["W"] + t["L"]) > 0 else 0)
+                )
+
+                # Determine GB relative to leader
+                leader = sorted_teams[0]
+                leader_W, leader_L = leader["W"], leader["L"]
+
+                for team in sorted_teams:
+                    w, l = team["W"], team["L"]
+                    if (w == leader_W and l == leader_L):
+                        team["GB"] = "--"
+                    else:
+                        gb = ((leader_W - w) + (l - leader_L)) / 2
+                        team["GB"] = round(gb, 1)
+
+                ordered[league][division] = sorted_teams
+
                     )
 
     save_json(ordered, os.path.join(output_dir, "standings.json"))
