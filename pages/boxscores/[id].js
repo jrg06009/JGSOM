@@ -126,7 +126,7 @@ const renderPitching = team => {
           </tr>
         </thead>
         <tbody>
-          {pitching[team].map((p, i) => (
+          {Object.values(pitching[team]).map((p, i) => (
             <tr key={i}>
               <td className="border p-1">
                 <Link href={getPlayerLink(p["Player"])} className="text-blue-700 underline">
