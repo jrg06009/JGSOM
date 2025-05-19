@@ -146,6 +146,7 @@ const renderPitching = team => {
       </table>
     </>
   )
+}
 
   return (
     <div className="p-4">
