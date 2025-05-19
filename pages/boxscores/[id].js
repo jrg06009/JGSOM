@@ -30,7 +30,7 @@ const BoxscorePage = ({ boxscore }) => {
   return <div className="p-4 text-red-600">Boxscore data missing or incomplete.</div>
 }
   const { meta, batting, pitching, positions } = boxscore
-  const teams = [meta.away, meta.home]
+  const teamIds = [meta.away, meta.home]
 
   const getPlayerLink = pid => {
   return pid ? `/players/${pid}` : '#'
@@ -232,7 +232,7 @@ const renderPitching = team => {
         </div>
       </div>
 
-      {teams.map(t => (
+      {teamIds.map(t => (
         <div key={t} className="mb-8">
           {renderBatting(t)}
           {renderPitching(t)}
