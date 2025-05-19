@@ -16,6 +16,17 @@ def safe_float(val):
     except:
         return 0.0
 
+def convert_sets_to_lists(obj):
+    """Recursively convert sets in a nested dict or list to lists for JSON serialization."""
+    if isinstance(obj, dict):
+        return {k: convert_sets_to_lists(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_sets_to_lists(v) for v in obj]
+    elif isinstance(obj, set):
+        return list(obj)
+    else:
+        return obj
+
 def clean_for_json(obj):
     if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
         return None
@@ -407,8 +418,11 @@ if __name__ == "__main__":
     fielding_stats = group_fielding_stats(gamelog_df)
     boxscores = generate_boxscores(gamelog_df, schedule_df)
     os.makedirs("data/boxscores", exist_ok=True)
-    for gid, data in boxscores.items():
-        save_json(data, os.path.join("data/boxscores", f"{gid}.json"))
+    for gid, raw_data in boxscores.items():
+        cleaned = convert_sets_to_lists(raw_data)
+        with open(os.path.join("data/boxscores", f"{gid}.json"), "w") as f:
+            json.dump(cleaned, f, indent=2)
+
 
 
     # Generate schedule.json
