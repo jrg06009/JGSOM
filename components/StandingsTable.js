@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function StandingsTable({ standings, teams, useFullName = false }) {
+export default function StandingsTable({ standings, teams, useFullName = false, hideLeagueHeaders = false }) {
   // Create a lookup for team ID to team name
   const teamMap = {}
   teams.forEach(team => {
@@ -11,9 +11,12 @@ export default function StandingsTable({ standings, teams, useFullName = false }
     <div className="space-y-6">
       {Object.entries(standings).map(([league, divisions]) => (
         <div key={league}>
-          <h2 className="text-xl font-bold mt-4">
-            {league === "AL" ? "American League" : league === "NL" ? "National League" : league}
-          </h2>
+          {!hideLeagueHeaders && (
+            <h2 className="text-xl font-bold mt-4">
+              {league === "AL" ? "American League" : league === "NL" ? "National League" : league}
+            </h2>
+          )}
+
           {Object.entries(divisions).map(([division, teams]) => (
             <div key={division}>
               <h3 className="text-lg font-semibold mt-2">{division}</h3>
