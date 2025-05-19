@@ -29,13 +29,18 @@ const BoxscorePage = ({ boxscore }) => {
   if (!boxscore || !boxscore.meta || !boxscore.batting || !boxscore.pitching) {
   return <div className="p-4 text-red-600">Boxscore data missing or incomplete.</div>
 }
-  const { meta, batting, pitching } = boxscore
+  const { meta, batting, pitching, positions } = boxscore
   const teams = [meta.away, meta.home]
 
   const getPlayerLink = pid => {
   return pid ? `/players/${pid}` : '#'
 }
 
+  const getPositionString = (team, player) => {
+  const posList = positions?.[team]?.[player];
+  return Array.isArray(posList) ? posList.join('-') : "";
+};
+  
   const groupBattingLines = entries => {
     return entries.map(([name, stats]) => ({
       ...stats,
@@ -72,8 +77,11 @@ const BoxscorePage = ({ boxscore }) => {
                 <tr key={i}>
                   <td className="border p-1">
                     <Link href={getPlayerLink(p["Player ID"])} className="text-blue-700 underline">
-                      {p["Player"]} {p.POS ? p.POS : ""}
+                      {p["Player"]}
                     </Link>
+                    {getPositionString(team, p["Player"]) && (
+                      <span className="italic"> {getPositionString(team, p["Player"])}</span>
+                    )}
                   </td>
                   <td className="border p-1 text-center">{p.AB || 0}</td>
                   <td className="border p-1 text-center">{p.R || 0}</td>
