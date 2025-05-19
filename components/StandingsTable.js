@@ -29,7 +29,7 @@ export default function StandingsTable({ standings, teams, useFullName = false }
                   {teams.map(team => (
                     <tr key={team.team}>
                       <td className="border border-gray-300 px-2 py-1">
-                        <Link href={\`/teams/\${team.team}\`} className="text-blue-600 underline">
+                        <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
                           {useFullName ? teamMap[team.team] || team.team : team.team}
                         </Link>
                       </td>
