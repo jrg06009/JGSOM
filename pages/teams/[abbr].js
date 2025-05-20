@@ -34,7 +34,8 @@ const sumIP = (arr) => {
 const formatPct = (num) => {
   const parsed = parseFloat(num)
   if (isNaN(parsed)) return ''
-  return parsed === 1 ? '1.000' : parsed.toFixed(3)
+  const str = parsed.toFixed(3)
+  return str.startsWith('1.') ? '1.000' : str.replace(/^0/, '')
 }
 const formatRate = (num) => {
   const parsed = parseFloat(num)
