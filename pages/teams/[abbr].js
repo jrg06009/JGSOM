@@ -34,8 +34,7 @@ const sumIP = (arr) => {
 const formatPct = (num) => {
   const parsed = parseFloat(num)
   if (isNaN(parsed)) return ''
-  const str = parsed.toFixed(3)
-  return str.startsWith('1.') ? '1.000' : str.replace(/^0/, '')
+  return parsed.toFixed(3)
 }
 const formatRate = (num) => {
   const parsed = parseFloat(num)
@@ -85,8 +84,8 @@ const TeamPage = ({ abbr, team }) => {
             {keys.map(key => {
               const calc = calcFns[key]
               const val = calc ? calc(stats) : sumStat(stats, key)
-              const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
-                (key === 'ERA' || key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatRate(val) :
+              const formatted = (['AVG','OBP','SLG','OPS','W-L%','Fld%'].includes(key)) ? formatPct(val) :
+                (['ERA','H9','HR9','BB9','SO9','SO/BB'].includes(key)) ? formatRate(val) :
                 (key === 'IP') ? formatIP(val) : val
               return <td key={key} className="border p-1 text-center">{formatted}</td>
             })}
