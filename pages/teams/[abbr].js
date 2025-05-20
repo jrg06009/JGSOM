@@ -76,13 +76,12 @@ const StatTable = ({ title, players, columns }) => (
   </div>
 )
 
-const TeamPage = ({ teamId }) => {
-  const team = teamMap[teamId]
+const TeamPage = ({ abbr, team, batting, pitching, fielding }) => {
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
-  const batting = battingStats.filter(p => p.team === teamId)
-  const pitching = pitchingStats.filter(p => p.team === teamId)
-  const fielding = fieldingStats.filter(p => p.team === teamId)
+  const teamBatting = battingStats.filter(p => p.team === abbr)
+  const teamPitching = pitchingStats.filter(p => p.team === abbr)
+  const teamFielding = fieldingStats.filter(p => p.team === abbr)
 
   const battingCols = [
     { key: 'G', label: 'G' }, { key: 'PA', label: 'PA' }, { key: 'AB', label: 'AB' },
@@ -128,9 +127,9 @@ const TeamPage = ({ teamId }) => {
         <img src={team.logo} alt={team.name} className="h-12 mr-4" />
         <h1 className="text-2xl font-bold" style={{ color: team.color }}>{team.name}</h1>
       </div>
-      <StatTable title="Batting" players={batting} columns={battingCols} />
-      <StatTable title="Pitching" players={pitching} columns={pitchingCols} />
-      <StatTable title="Fielding" players={fielding} columns={fieldingCols} />
+      <StatTable title="Batting" players={teamBatting} columns={battingCols} />
+      <StatTable title="Pitching" players={teamPitching} columns={pitchingCols} />
+      <StatTable title="Fielding" players={teamFielding} columns={fieldingCols} />
     </div>
   )
 }
