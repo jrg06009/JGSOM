@@ -1,15 +1,41 @@
 import fs from 'fs'
 import path from 'path'
 import teams from '../data/teams.json'
+const boxscoresDir = path.join(process.cwd(), 'data/boxscores');
 
 export async function getStaticProps() {
   const schedulePath = path.join(process.cwd(), 'data', 'stats', 'schedule.json')
   const raw = fs.readFileSync(schedulePath, 'utf8')
   const schedule = JSON.parse(raw)
-
-  return {
-    props: { schedule }
+  const boxscoreFiles = fs.existsSync(boxscoresDir) ? fs.readdirSync(boxscoresDir) : []
+  const wlMap = {}
+  for (const file of boxscoreFiles) {
+    const gameId = file.replace('.json', '')
+    const boxscorePath = path.join(boxscoresDir, file)
+    const rawBox = fs.readFileSync(boxscorePath, 'utf8')
+    const box = JSON.parse(rawBox)
+    const allPitchers = [
+      ...Object.values(box.pitching?.[box.meta?.away] || {}),
+      ...Object.values(box.pitching?.[box.meta?.home] || {})
+    ]
+    const win = allPitchers.find(p => p.W > 0)
+    const loss = allPitchers.find(p => p.L > 0)
+    const save = allPitchers.find(p => p.SV > 0)
+    wlMap[gameId] = {
+      winner: win?.Player || "",
+      loser: loss?.Player || "",
+      save: save?.Player || ""
+    }
   }
+
+  // Add W/L/S to each completed game
+  for (const g of schedule) {
+    if (g.completed && g.id && wlMap[g.id]) {
+      Object.assign(g, wlMap[g.id])
+    }
+  }
+
+  return { props: { schedule } }
 }
 
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
@@ -54,6 +80,9 @@ const SchedulePage = ({ schedule }) => {
                 <th className="border p-2 text-left">Road</th>
                 <th className="border p-2 text-left">Home</th>
                 <th className="border p-2 text-center">Result</th>
+                <th className="border p-2 text-center">Win</th>
+                <th className="border p-2 text-center">Loss</th>
+                <th className="border p-2 text-center">Save</th>
               </tr>
             </thead>
             <tbody>
@@ -88,6 +117,9 @@ const SchedulePage = ({ schedule }) => {
                       <span className="text-gray-500 italic">Scheduled</span>
                     )}
                   </td>
+                  <td className="border p-2 text-center">{g.winner || ""}</td>    
+                  <td className="border p-2 text-center">{g.loser || ""}</td>
+                  <td className="border p-2 text-center">{g.save || ""}</td>
                 </tr>
               ))}
             </tbody>
