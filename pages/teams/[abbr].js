@@ -1,9 +1,7 @@
-import fs from 'fs'
-import path from 'path'
 import teams from '../../data/teams.json'
-import battingStats from '../../data/stats/batting.json'
-import pitchingStats from '../../data/stats/pitching.json'
-import fieldingStats from '../../data/stats/fielding.json'
+import batting from '../../data/stats/batting.json'
+import pitching from '../../data/stats/pitching.json'
+import fielding from '../../data/stats/fielding.json'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -15,7 +13,22 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  return { props: { teamId: params.id } }
+  const fs = (await import('fs')).default
+  const path = (await import('path')).default
+  const filePath = path.join(process.cwd(), 'data', 'teams.json')
+  const teamsRaw = fs.readFileSync(filePath, 'utf8')
+  const teamsData = JSON.parse(teamsRaw)
+  const team = teamsData.find(t => t.id === params.abbr)
+
+  return {
+    props: {
+      abbr: params.abbr,
+      team,
+      batting,
+      pitching,
+      fielding
+    }
+  }
 }
 
 const sumStat = (arr, field) => arr.reduce((sum, p) => sum + (parseFloat(p[field]) || 0), 0)
