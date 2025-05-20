@@ -568,14 +568,16 @@ for league in league_order:
 
         innings = []
         for col in inning_cols:
-            val = row.get(col, "")
-            val = str(val).strip() if pd.notna(val) else ""
-            innings.append(val)
+            val = row.get(col)
+            if pd.isna(val):
+                innings.append("")
+            else:
+                innings.append(str(int(val)) if isinstance(val, float) and val.is_integer() else str(val).strip())
         with open("debug_linescore_log.txt", "a") as debug_file:
             debug_file.write(f"Checking {game_id} {team} innings: {innings}\n")
         print("Checking", game_id, team, "innings:", innings)
-        if all(v == "" for v in innings):
-            continue  # Skip if all innings are blank
+        if not any(v.strip() for v in innings):
+            continue
 
         if game_id not in linescore_data:
             linescore_data[game_id] = {}
