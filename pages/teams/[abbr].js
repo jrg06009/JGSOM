@@ -25,7 +25,11 @@ const sumStat = (arr, key) => arr.reduce((sum, player) => {
   return sum + (parseFloat(player[key]) || 0)
 }, 0)
 
-const formatPct = (num) => (num === 1 ? '1.000' : num ? num.toFixed(3).slice(1) : '')
+const formatPct = (num) => {
+  const parsed = parseFloat(num)
+  if (isNaN(parsed)) return ''
+  return parsed === 1 ? '1.000' : parsed.toFixed(3).slice(1)
+}
 const formatRate = (num) => (num === '' || isNaN(num)) ? '' : parseFloat(num).toFixed(2)
 
 const TeamPage = ({ abbr, team }) => {
