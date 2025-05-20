@@ -301,10 +301,10 @@ const renderPitching = team => {
                     <th className="border p-1 text-center"></th>
                       {trimmedAway.map((_, i) => (
                         <th key={i} className="border p-1 text-center">{i + 1}</th>
-                        <th className="border p-1 text-center font-semibold">R</th>
-                        <th className="border p-1 text-center font-semibold">H</th>
-                        <th className="border p-1 text-center font-semibold">E</th>                 
-                      ))}
+                      ))}                        
+                      <th className="border p-1 text-center font-semibold">R</th>
+                      <th className="border p-1 text-center font-semibold">H</th>
+                      <th className="border p-1 text-center font-semibold">E</th>                 
                   </tr>
                 </thead>
                 <tbody>
@@ -312,19 +312,19 @@ const renderPitching = team => {
                     <td className="border p-1 text-right font-semibold">{meta.away}</td>
                     {trimmedAway.map((val, i) => (
                       <td key={i} className="border p-1 text-center">{val}</td>
-                      <td className="border p-1 text-center font-semibold">{R_away}</td>
-                      <td className="border p-1 text-center font-semibold">{H_away}</td>
-                      <td className="border p-1 text-center font-semibold">{E_away}</td>
                     ))}
+                    <td className="border p-1 text-center font-semibold">{R_away}</td>
+                    <td className="border p-1 text-center font-semibold">{H_away}</td>
+                    <td className="border p-1 text-center font-semibold">{E_away}</td>
                   </tr>
                   <tr>
                     <td className="border p-1 text-right font-semibold">{meta.home}</td>
                     {paddedHome.map((val, i) => (
                       <td key={i} className="border p-1 text-center">{val}</td>
-                      <td className="border p-1 text-center font-semibold">{R_home}</td>
-                      <td className="border p-1 text-center font-semibold">{H_home}</td>
-                      <td className="border p-1 text-center font-semibold">{E_home}</td>
-                    ))}
+                    ))}                      
+                    <td className="border p-1 text-center font-semibold">{R_home}</td>
+                    <td className="border p-1 text-center font-semibold">{H_home}</td>
+                    <td className="border p-1 text-center font-semibold">{E_home}</td>
                   </tr>
                 </tbody>
               </table>
