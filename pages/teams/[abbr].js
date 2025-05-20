@@ -32,14 +32,15 @@ const sumIP = (arr) => {
   }, 0)
 }
 const formatPct = (num) => {
-  const parsed = parseFloat(num)
-  if (isNaN(parsed)) return ''
-  return parsed.toFixed(3)
+  if (num === null || num === undefined || isNaN(num)) return ''
+  const val = parseFloat(num)
+  return val === 1 ? '1.000' : val.toFixed(3).replace(/^0\./, '.')
 }
+
 const formatRate = (num) => {
-  const parsed = parseFloat(num)
-  if (isNaN(parsed)) return ''
-  return parsed.toFixed(2)
+  if (num === null || num === undefined || isNaN(num)) return ''
+  const val = parseFloat(num)
+  return val >= 1 ? val.toFixed(2) : val.toFixed(2).replace(/^0\./, '.')
 }
 const formatIP = (num) => {
   const whole = Math.floor(num)
