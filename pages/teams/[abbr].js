@@ -79,9 +79,9 @@ const StatTable = ({ title, players, columns }) => (
 const TeamPage = ({ abbr, team, batting, pitching, fielding }) => {
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
-  const teamBatting = battingStats.filter(p => p.team === abbr)
-  const teamPitching = pitchingStats.filter(p => p.team === abbr)
-  const teamFielding = fieldingStats.filter(p => p.team === abbr)
+  const teamBatting = batting.filter(p => p.team === abbr)
+  const teamPitching = pitching.filter(p => p.team === abbr)
+  const teamFielding = fielding.filter(p => p.team === abbr)
 
   const battingCols = [
     { key: 'G', label: 'G' }, { key: 'PA', label: 'PA' }, { key: 'AB', label: 'AB' },
