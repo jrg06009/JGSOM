@@ -20,9 +20,9 @@ export async function getStaticProps({ params }) {
   }
 }
 
-const sumStat = (arr, key) => arr.reduce((sum, p) => {
-  if (!p || typeof p !== 'object' || !(key in p)) return sum
-  return sum + (parseFloat(p[key]) || 0)
+const sumStat = (arr, key) => arr.reduce((sum, player) => {
+  if (!player || typeof player !== 'object' || !(key in player)) return sum
+  return sum + (parseFloat(player[key]) || 0)
 }, 0)
 
 const formatPct = (num) => (num === 1 ? '1.000' : num ? num.toFixed(3).slice(1) : '')
@@ -35,17 +35,40 @@ const TeamPage = ({ abbr, team }) => {
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
 
-  const battingKeys = [
-    'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
-  ]
-
-  const pitchingKeys = [
-    'W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
-  ]
-
-  const fieldingKeys = [
-    'G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
-  ]
+  const renderTable = (title, data, columns, formatMap = {}) => (
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold mb-2">{title}</h2>
+      <table className="w-full text-sm border border-collapse">
+        <thead>
+          <tr className="bg-gray-100">
+            <th className="border p-1 text-left">Player</th>
+            {columns.map(col => (
+              <th key={col} className="border p-1 text-center">{col}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((p, i) => (
+            <tr key={i}>
+              <td className="border p-1 text-left">
+                <a href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</a>
+              </td>
+              {columns.map(col => (
+                <td key={col} className="border p-1 text-center">{formatMap[col] ? formatMap[col](p[col]) : (p[col] ?? '')}</td>
+              ))}
+            </tr>
+          ))}
+          <tr className="font-bold bg-gray-50">
+            <td className="border p-1 text-left">Total</td>
+            {columns.map(col => {
+              const total = sumStat(data, col)
+              return <td key={col} className="border p-1 text-center">{formatMap[col] ? formatMap[col](total) : total}</td>
+            })}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  )
 
   return (
     <div className="p-4">
@@ -53,27 +76,28 @@ const TeamPage = ({ abbr, team }) => {
         <img src={team.logo} alt={team.name} className="h-12 mr-4" />
         <h1 className="text-2xl font-bold" style={{ color: team.color }}>{team.name}</h1>
       </div>
-      <SortableTable
-        title="Batting"
-        data={bStats}
-        defaultSortKey="PA"
-        exclude={['team']}
-        columns={battingKeys}
-      />
-      <SortableTable
-        title="Pitching"
-        data={pStats}
-        defaultSortKey="IP"
-        exclude={['team']}
-        columns={pitchingKeys}
-      />
-      <SortableTable
-        title="Fielding"
-        data={fStats}
-        defaultSortKey="G"
-        exclude={['team']}
-        columns={fieldingKeys}
-      />
+      {renderTable("Batting", bStats, [
+        'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
+      ], {
+        'AVG': formatPct,
+        'OBP': formatPct,
+        'SLG': formatPct,
+        'OPS': formatPct
+      })}
+      {renderTable("Pitching", pStats, [
+        'W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
+      ], {
+        'ERA': formatRate,
+        'H9': formatRate,
+        'HR9': formatRate,
+        'BB9': formatRate,
+        'SO9': formatRate,
+        'SO/BB': formatRate,
+        'W-L%': formatPct
+      })}
+      {renderTable("Fielding", fStats, [
+        'G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
+      ])}
     </div>
   )
 }
