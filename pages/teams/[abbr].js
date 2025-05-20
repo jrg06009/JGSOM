@@ -8,8 +8,14 @@ import Link from 'next/link'
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 
 export async function getStaticPaths() {
-  const paths = teams.map(t => ({ params: { id: t.id } }))
-  return { paths, fallback: false }
+  const paths = teams.map(t => ({
+    params: { abbr: t.id }
+  }))
+
+  return {
+    paths,
+    fallback: false
+  }
 }
 
 export async function getStaticProps({ params }) {
