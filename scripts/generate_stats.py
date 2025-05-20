@@ -549,43 +549,44 @@ for league in league_order:
                         team["GB"] = round(gb, 1)
 
                 ordered[league][division] = sorted_teams
-
-# Generate linescores.json for completed games only
-    completed_game_ids = {
-        str(row["Game ID"]) for _, row in schedule_df.iterrows()
-        if str(row.get("Played", "")).strip().lower() == "Yes"
-    }
-
-    linescore_data = {}
-    inning_cols = [col for col in linescore_df.columns if isinstance(col, int)]
-    inning_cols = sorted(inning_cols)
-    for _, row in linescore_df.iterrows():
-        game_id = str(row["Game ID"]).strip()
-        team = str(row["Team"]).strip()
-
-        if game_id not in completed_game_ids:
-            continue  # Skip unplayed games
-
-        innings = []
-        for col in inning_cols:
-            val = row.get(col)
-            if pd.isna(val):
-                innings.append("")
-            else:
-                innings.append(str(int(val)) if isinstance(val, float) and val.is_integer() else str(val).strip())
-        with open("debug_linescore_log.txt", "a") as debug_file:
-            debug_file.write(f"Checking {game_id} {team} innings: {innings}\n")
-        print("Checking", game_id, team, "innings:", innings)
-        if not any(v.strip() for v in innings):
-            continue
-
-        if game_id not in linescore_data:
-            linescore_data[game_id] = {}
-
-        linescore_data[game_id][team] = innings
-
-    save_json(linescore_data, os.path.join(output_dir, "linescores.json"))
     save_json(ordered, os.path.join(output_dir, "standings.json"))
+
+# --- START linescores.json GENERATION BLOCK ---
+completed_game_ids = {
+    str(row["Game ID"]).strip()
+    for _, row in schedule_df.iterrows()
+    if str(row.get("Played", "")).strip().lower() == "yes"
+}
+
+linescore_data = {}
+inning_cols = [col for col in linescore_df.columns if isinstance(col, int)]
+inning_cols = sorted(inning_cols)
+
+for _, row in linescore_df.iterrows():
+    game_id = str(row["Game ID"]).strip()
+    team = str(row["Team"]).strip()
+
+    if game_id not in completed_game_ids:
+        continue
+
+    innings = []
+    for col in inning_cols:
+        val = row.get(col)
+        if pd.isna(val):
+            innings.append("")
+        else:
+            innings.append(str(int(val)) if isinstance(val, float) and val.is_integer() else str(val).strip())
+
+    if not any(v.strip() for v in innings):
+        continue
+
+    if game_id not in linescore_data:
+        linescore_data[game_id] = {}
+
+    linescore_data[game_id][team] = innings
+
+save_json(linescore_data, os.path.join(output_dir, "linescores.json"))
+# --- END linescores.json GENERATION BLOCK ---
     save_json(batting_stats, os.path.join(output_dir, "batting.json"))
     save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
     save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
