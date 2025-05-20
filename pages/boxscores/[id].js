@@ -328,6 +328,19 @@ const renderPitching = team => {
                   </tr>
                 </tbody>
               </table>
+              <div className="mt-2 text-sm font-medium">
+                {["W", "L", "SV"].map((label) => {
+                  const allPitchers = [...Object.entries(pitching[meta.away] || {}), ...Object.entries(pitching[meta.home] || {})]
+                  const match = allPitchers.find(([_, stats]) => stats[label] > 0)
+                  if (!match) return null
+                  const [_, stats] = match
+                  return (
+                    <span key={label} className="mr-4">
+                      {label}: <Link href={`/players/${stats["Player ID"]}`} className="text-blue-700 underline">{stats["Player"]}</Link>
+                    </span>
+                  )
+                })}
+              </div>
             )
           })()
         )}
