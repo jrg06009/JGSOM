@@ -1,170 +1,119 @@
 import fs from 'fs'
 import path from 'path'
-import { useState } from 'react'
+import teams from '../../data/teams.json'
+import battingStats from '../../data/stats/batting.json'
+import pitchingStats from '../../data/stats/pitching.json'
+import fieldingStats from '../../data/stats/fielding.json'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
-import {
-  calculateBattingTotals,
-  calculatePitchingTotals,
-  calculateFieldingTotals
-} from '../../lib/calculateTotals'
 
-function parseJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'))
-}
+const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join(process.cwd(), 'data/stats'))
-  const paths = files
-    .filter(f => f.endsWith('.json'))
-    .map(file => ({ params: { abbr: file.replace('.json', '') } }))
+  const paths = teams.map(t => ({ params: { id: t.id } }))
   return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params }) {
-  const statsPath = path.join(process.cwd(), 'data/stats', `${params.abbr}.json`)
-  const stats = parseJson(statsPath)
-
-  const teams = parseJson(path.join(process.cwd(), 'data/teams.json'))
-  const schedule = parseJson(path.join(process.cwd(), 'data/schedule.json'))
-  const team = teams.find(t => t.id === params.abbr) || null
-
-  if (stats.batting?.length)
-    stats.batting.push(calculateBattingTotals(stats.batting))
-
-  if (stats.pitching?.length)
-    stats.pitching.push(calculatePitchingTotals(stats.pitching, params.abbr, schedule))
-
-  if (stats.fielding?.length)
-    stats.fielding.push(calculateFieldingTotals(stats.fielding))
-
-  return {
-    props: {
-      abbr: params.abbr,
-      stats,
-      team
-    }
-  }
+  return { props: { teamId: params.id } }
 }
 
-function SortableTable({ title, data, defaultSortKey, numericSort = true }) {
-  const [sortKey, setSortKey] = useState(defaultSortKey)
-  const [sortAsc, setSortAsc] = useState(false)
+const sumStat = (arr, field) => arr.reduce((sum, p) => sum + (parseFloat(p[field]) || 0), 0)
+const formatPct = (num) => (num === 1 ? '1.000' : num ? num.toFixed(3).slice(1) : '')
+const formatRate = (num) => (num === '' || isNaN(num)) ? '' : `${num}`
 
-  if (!data || data.length === 0) return null
-
-  const hiddenFields = new Set(["id", "PlayerID", "Player ID", "player ID"])
-  const headers = Object.keys(data[0]).filter(key => !hiddenFields.has(key))
-
-  const sorted = [...data.slice(0, -1)].sort((a, b) => {
-    const valA = a[sortKey]
-    const valB = b[sortKey]
-    if (numericSort && !isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
-      return sortAsc ? parseFloat(valA) - parseFloat(valB) : parseFloat(valB) - parseFloat(valA)
-    }
-    return sortAsc
-      ? String(valA).localeCompare(String(valB))
-      : String(valB).localeCompare(String(valA))
-  })
-
-  const totalRow = data[data.length - 1]
-
-  const handleSort = (key) => {
-    if (key === sortKey) {
-      setSortAsc(!sortAsc)
-    } else {
-      setSortKey(key)
-      setSortAsc(false)
-    }
-  }
-
-  return (
-    <div className="mb-10">
-      <h2 className="text-xl font-bold mb-2">{title}</h2>
-      <div className="overflow-auto border border-gray-400 rounded">
-        <table className="table-auto border-collapse w-full text-sm">
-          <thead>
-            <tr>
-              {headers.map((key) => (
-                <th
-                  key={key}
-                  onClick={() => handleSort(key)}
-                  className="cursor-pointer border border-gray-400 p-2 bg-gray-100 hover:bg-gray-200 text-left"
-                >
-                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map((row, idx) => (
-              <tr key={idx}>
-                {headers.map((key) => (
-                  <td key={key} className="border border-gray-300 p-2 text-center">
-                    {key === "Player" && row["Player ID"] ? (
-                      <Link href={`/players/${row["Player ID"]}`} className="text-blue-600 hover:underline">
-                        {row[key]}
-                      </Link>
-                    ) : (
-                      row[key]
-                    )}
-                  </td>
-                ))}
-              </tr>
+const StatTable = ({ title, players, columns }) => (
+  <div className="mb-8">
+    <h2 className="text-xl font-semibold mb-2">{title}</h2>
+    <table className="w-full text-sm border border-collapse">
+      <thead>
+        <tr className="bg-gray-100">
+          <th className="border p-1 text-left">Player</th>
+          {columns.map(col => (
+            <th key={col.key} className="border p-1 text-center">{col.label}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {players.map((p, i) => (
+          <tr key={i}>
+            <td className="border p-1 text-left">
+              <Link href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</Link>
+            </td>
+            {columns.map(col => (
+              <td key={col.key} className="border p-1 text-center">{p[col.key] ?? ''}</td>
             ))}
-            {/* Total row */}
-            <tr className="font-bold bg-gray-100">
-              {headers.map((key) => (
-                <td key={key} className="border border-gray-400 p-2 text-center">
-                  {totalRow[key] || ''}
-                </td>
-              ))}
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  )
-}
+          </tr>
+        ))}
+        <tr className="font-bold bg-gray-50">
+          <td className="border p-1 text-left">Total</td>
+          {columns.map(col => {
+            const total = col.totalFn ? col.totalFn(players, col.key) : sumStat(players, col.key)
+            return <td key={col.key} className="border p-1 text-center">{col.format ? col.format(total) : total}</td>
+          })}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+)
 
-export default function TeamPage({ abbr, stats, team }) {
+const TeamPage = ({ teamId }) => {
+  const team = teamMap[teamId]
+  if (!team) return <div className="p-4 text-red-600">Team not found.</div>
+
+  const batting = battingStats.filter(p => p.team === teamId)
+  const pitching = pitchingStats.filter(p => p.team === teamId)
+  const fielding = fieldingStats.filter(p => p.team === teamId)
+
+  const battingCols = [
+    { key: 'G', label: 'G' }, { key: 'PA', label: 'PA' }, { key: 'AB', label: 'AB' },
+    { key: 'R', label: 'R' }, { key: 'H', label: 'H' }, { key: '2B', label: '2B' },
+    { key: '3B', label: '3B' }, { key: 'HR', label: 'HR' }, { key: 'RBI', label: 'RBI' },
+    { key: 'SB', label: 'SB' }, { key: 'CS', label: 'CS' }, { key: 'BB', label: 'BB' },
+    { key: 'SO', label: 'SO' },
+    { key: 'AVG', label: 'AVG', totalFn: (arr) => sumStat(arr, 'H') / sumStat(arr, 'AB'), format: formatPct },
+    { key: 'OBP', label: 'OBP', totalFn: (arr) => {
+      const H = sumStat(arr, 'H'), BB = sumStat(arr, 'BB'), HBP = sumStat(arr, 'HBP'), AB = sumStat(arr, 'AB'), SF = sumStat(arr, 'SF')
+      return (H + BB + HBP) / (AB + BB + HBP + SF)
+    }, format: formatPct },
+    { key: 'SLG', label: 'SLG', totalFn: (arr) => sumStat(arr, 'TB') / sumStat(arr, 'AB'), format: formatPct },
+    { key: 'OPS', label: 'OPS', totalFn: (arr) => {
+      const obp = (sumStat(arr, 'H') + sumStat(arr, 'BB') + sumStat(arr, 'HBP')) / (sumStat(arr, 'AB') + sumStat(arr, 'BB') + sumStat(arr, 'HBP') + sumStat(arr, 'SF'))
+      const slg = sumStat(arr, 'TB') / sumStat(arr, 'AB')
+      return obp + slg
+    }, format: formatPct }
+  ]
+
+  const pitchingCols = [
+    { key: 'W', label: 'W' }, { key: 'L', label: 'L' }, { key: 'ERA', label: 'ERA' },
+    { key: 'G', label: 'G' }, { key: 'GS', label: 'GS' }, { key: 'CG', label: 'CG' },
+    { key: 'SHO', label: 'SHO' }, { key: 'SV', label: 'SV' }, { key: 'IP', label: 'IP' },
+    { key: 'H', label: 'H' }, { key: 'R', label: 'R' }, { key: 'ER', label: 'ER' },
+    { key: 'HR', label: 'HR' }, { key: 'BB', label: 'BB' }, { key: 'IBB', label: 'IBB' },
+    { key: 'SO', label: 'SO' }, { key: 'HBP', label: 'HBP' }, { key: 'BK', label: 'BK' },
+    { key: 'WP', label: 'WP' }, { key: 'H9', label: 'H9' }, { key: 'HR9', label: 'HR9' },
+    { key: 'BB9', label: 'BB9' }, { key: 'SO9', label: 'SO9' }, { key: 'SO/BB', label: 'SO/BB' }
+  ]
+
+  const fieldingCols = [
+    { key: 'G', label: 'G' }, { key: 'GS', label: 'GS' }, { key: 'CG', label: 'CG' },
+    { key: 'Inn', label: 'Inn' }, { key: 'Ch', label: 'Ch' }, { key: 'PO', label: 'PO' },
+    { key: 'A', label: 'A' }, { key: 'E', label: 'E' }, { key: 'DP', label: 'DP' },
+    { key: 'Fld%', label: 'Fld%' }, { key: 'PB', label: 'PB' }, { key: 'WP', label: 'WP' },
+    { key: 'SB', label: 'SB' }, { key: 'CS', label: 'CS' }, { key: 'CS%', label: 'CS%' }, { key: 'PkO', label: 'PkO' }
+  ]
+
   return (
     <div className="p-4">
-      {team ? (
-        <>
-          <div className="flex items-center mb-6">
-            <img src={team.logo} alt={`${team.name} logo`} className="h-12 w-12 mr-4" />
-            <h1 className="text-3xl font-bold" style={{ color: team.color || '#000' }}>
-              {team.name}
-            </h1>
-          </div>
-
-          <SortableTable title="Batting" data={stats.batting} defaultSortKey="PA" />
-          <SortableTable title="Pitching" data={stats.pitching} defaultSortKey="IP" />
-
-          {stats.fielding && (() => {
-            const grouped = stats.fielding.reduce((acc, player) => {
-              const pos = player.POS || "Unknown"
-              if (!acc[pos]) acc[pos] = []
-              acc[pos].push(player)
-              return acc
-            }, {})
-
-            return Object.entries(grouped).map(([pos, group]) => {
-              const total = calculateFieldingTotals(group)
-              return (
-                <SortableTable
-                  key={pos}
-                  title={`Fielding - ${pos}`}
-                  data={[...group.sort((a, b) => parseFloat(b.INN) - parseFloat(a.INN)), total]}
-                  defaultSortKey="INN"
-                />
-              )
-            })
-          })()}
-        </>
-      ) : (
-        <p className="text-red-600">Team not found.</p>
-      )}
+      <div className="flex items-center mb-6">
+        <img src={team.logo} alt={team.name} className="h-12 mr-4" />
+        <h1 className="text-2xl font-bold" style={{ color: team.color }}>{team.name}</h1>
+      </div>
+      <StatTable title="Batting" players={batting} columns={battingCols} />
+      <StatTable title="Pitching" players={pitching} columns={pitchingCols} />
+      <StatTable title="Fielding" players={fielding} columns={fieldingCols} />
     </div>
   )
 }
+
+export default TeamPage
