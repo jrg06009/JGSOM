@@ -295,52 +295,54 @@ const renderPitching = team => {
             const E_home = getErrors(meta.home)
 
             return (
-              <table className="mx-auto mb-4 text-sm border border-collapse">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="border p-1 text-center"></th>
-                      {trimmedAway.map((_, i) => (
-                        <th key={i} className="border p-1 text-center">{i + 1}</th>
-                      ))}                        
-                      <th className="border p-1 text-center font-semibold">R</th>
-                      <th className="border p-1 text-center font-semibold">H</th>
-                      <th className="border p-1 text-center font-semibold">E</th>                 
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="border p-1 text-right font-semibold">{getTeamName(meta.away)}</td>
-                    {trimmedAway.map((val, i) => (
-                      <td key={i} className="border p-1 text-center">{val}</td>
-                    ))}
-                    <td className="border p-1 text-center font-semibold">{R_away}</td>
-                    <td className="border p-1 text-center font-semibold">{H_away}</td>
-                    <td className="border p-1 text-center font-semibold">{E_away}</td>
-                  </tr>
-                  <tr>
-                    <td className="border p-1 text-right font-semibold">{getTeamName(meta.home)}</td>
-                    {paddedHome.map((val, i) => (
-                      <td key={i} className="border p-1 text-center">{val}</td>
-                    ))}                      
-                    <td className="border p-1 text-center font-semibold">{R_home}</td>
-                    <td className="border p-1 text-center font-semibold">{H_home}</td>
-                    <td className="border p-1 text-center font-semibold">{E_home}</td>
-                  </tr>
-                </tbody>
-              </table>
-              <div className="mt-2 text-sm font-medium">
-                {["W", "L", "SV"].map((label) => {
-                  const allPitchers = [...Object.entries(pitching[meta.away] || {}), ...Object.entries(pitching[meta.home] || {})]
-                  const match = allPitchers.find(([_, stats]) => stats[label] > 0)
-                  if (!match) return null
-                  const [_, stats] = match
-                  return (
-                    <span key={label} className="mr-4">
-                      {label}: <Link href={`/players/${stats["Player ID"]}`} className="text-blue-700 underline">{stats["Player"]}</Link>
-                    </span>
-                  )
-                })}
-              </div>
+              <>
+                <table className="mx-auto mb-4 text-sm border border-collapse">
+                  <thead>
+                    <tr className="bg-gray-100">
+                      <th className="border p-1 text-center"></th>
+                        {trimmedAway.map((_, i) => (
+                          <th key={i} className="border p-1 text-center">{i + 1}</th>
+                        ))}                        
+                        <th className="border p-1 text-center font-semibold">R</th>
+                        <th className="border p-1 text-center font-semibold">H</th>
+                        <th className="border p-1 text-center font-semibold">E</th>                 
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border p-1 text-right font-semibold">{getTeamName(meta.away)}</td>
+                      {trimmedAway.map((val, i) => (
+                        <td key={i} className="border p-1 text-center">{val}</td>
+                      ))}
+                      <td className="border p-1 text-center font-semibold">{R_away}</td>
+                      <td className="border p-1 text-center font-semibold">{H_away}</td>
+                      <td className="border p-1 text-center font-semibold">{E_away}</td>
+                    </tr>
+                    <tr>
+                      <td className="border p-1 text-right font-semibold">{getTeamName(meta.home)}</td>
+                      {paddedHome.map((val, i) => (
+                        <td key={i} className="border p-1 text-center">{val}</td>
+                      ))}                      
+                      <td className="border p-1 text-center font-semibold">{R_home}</td>
+                      <td className="border p-1 text-center font-semibold">{H_home}</td>
+                      <td className="border p-1 text-center font-semibold">{E_home}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="mt-2 text-sm font-medium">
+                  {["W", "L", "SV"].map((label) => {
+                    const allPitchers = [...Object.entries(pitching[meta.away] || {}), ...Object.entries(pitching[meta.home] || {})]
+                    const match = allPitchers.find(([_, stats]) => stats[label] > 0)
+                    if (!match) return null
+                    const [_, stats] = match
+                    return (
+                      <span key={label} className="mr-4">
+                        {label}: <Link href={`/players/${stats["Player ID"]}`} className="text-blue-700 underline">{stats["Player"]}</Link>
+                      </span>
+                    )
+                  })}
+                </div>
+              </>
             )
           })()
         )}
