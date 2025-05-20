@@ -44,8 +44,8 @@ const formatRate = (num) => {
 const formatIP = (num) => {
   const whole = Math.floor(num)
   const decimal = num - whole
-  if (Math.abs(decimal - 0.6667) < 0.01) return `${whole}.2`
-  if (Math.abs(decimal - 0.3333) < 0.01) return `${whole}.1`
+  if (Math.abs(decimal - 2 / 3) < 0.01) return `${whole}.2`
+  if (Math.abs(decimal - 1 / 3) < 0.01) return `${whole}.1`
   return `${whole}`
 }
 
@@ -84,8 +84,8 @@ const TeamPage = ({ abbr, team }) => {
             {keys.map(key => {
               const calc = calcFns[key]
               const val = calc ? calc(stats) : sumStat(stats, key)
-              const formatted = (['AVG','OBP','SLG','OPS','W-L%','Fld%'].includes(key)) ? formatPct(val) :
-                (['ERA','H9','HR9','BB9','SO9','SO/BB'].includes(key)) ? formatRate(val) :
+              const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
+                (key === 'ERA' || key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatRate(val) :
                 (key === 'IP') ? formatIP(val) : val
               return <td key={key} className="border p-1 text-center">{formatted}</td>
             })}
