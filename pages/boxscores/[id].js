@@ -251,7 +251,7 @@ const renderPitching = team => {
             )      
           })}
         </div>
-        <div className="text-sm text-gray-700 mt-1">
+        <div className="text-sm text-gray-700 mt-1 mb-4">
           {new Date(meta.date).toLocaleDateString()}
         </div>
         {linescore && (
@@ -309,7 +309,7 @@ const renderPitching = team => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="border p-1 text-right font-semibold">{meta.away}</td>
+                    <td className="border p-1 text-right font-semibold">{getTeamName(meta.away)}</td>
                     {trimmedAway.map((val, i) => (
                       <td key={i} className="border p-1 text-center">{val}</td>
                     ))}
@@ -318,7 +318,7 @@ const renderPitching = team => {
                     <td className="border p-1 text-center font-semibold">{E_away}</td>
                   </tr>
                   <tr>
-                    <td className="border p-1 text-right font-semibold">{meta.home}</td>
+                    <td className="border p-1 text-right font-semibold">{getTeamName(meta.home)}</td>
                     {paddedHome.map((val, i) => (
                       <td key={i} className="border p-1 text-center">{val}</td>
                     ))}                      
