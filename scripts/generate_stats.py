@@ -587,7 +587,7 @@ for _, row in linescore_df.iterrows():
 
 save_json(linescore_data, os.path.join(output_dir, "linescores.json"))
 # --- END linescores.json GENERATION BLOCK ---
-    save_json(batting_stats, os.path.join(output_dir, "batting.json"))
-    save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
-    save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
+save_json(batting_stats, os.path.join(output_dir, "batting.json"))
+save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
+save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
 
