@@ -25,6 +25,45 @@ const sumStat = (arr, key) => arr.reduce((sum, p) => sum + (parseFloat(p[key]) |
 const formatPct = (num) => (num === 1 ? '1.000' : num ? num.toFixed(3).slice(1) : '')
 const formatRate = (num) => (num === '' || isNaN(num)) ? '' : parseFloat(num).toFixed(2)
 
+const calcTotal = {
+  AVG: (arr) => formatPct(sumStat(arr, 'H') / sumStat(arr, 'AB')),
+  OBP: (arr) => formatPct((sumStat(arr, 'H') + sumStat(arr, 'BB') + sumStat(arr, 'HBP')) / (sumStat(arr, 'AB') + sumStat(arr, 'BB') + sumStat(arr, 'HBP') + sumStat(arr, 'SF'))),
+  SLG: (arr) => formatPct(sumStat(arr, 'TB') / sumStat(arr, 'AB')),
+  OPS: (arr) => {
+    const obp = (sumStat(arr, 'H') + sumStat(arr, 'BB') + sumStat(arr, 'HBP')) / (sumStat(arr, 'AB') + sumStat(arr, 'BB') + sumStat(arr, 'HBP') + sumStat(arr, 'SF'))
+    const slg = sumStat(arr, 'TB') / sumStat(arr, 'AB')
+    return formatPct(obp + slg)
+  },
+  ERA: (arr) => formatRate((sumStat(arr, 'ER') * 9) / sumStat(arr, 'IP')),
+  'W-L%': (arr) => {
+    const w = sumStat(arr, 'W')
+    const l = sumStat(arr, 'L')
+    if (w + l === 0) return ''
+    return formatPct(w / (w + l))
+  },
+  H9: (arr) => formatRate(sumStat(arr, 'H') * 9 / sumStat(arr, 'IP')),
+  HR9: (arr) => formatRate(sumStat(arr, 'HR') * 9 / sumStat(arr, 'IP')),
+  BB9: (arr) => formatRate(sumStat(arr, 'BB') * 9 / sumStat(arr, 'IP')),
+  SO9: (arr) => formatRate(sumStat(arr, 'SO') * 9 / sumStat(arr, 'IP')),
+  'SO/BB': (arr) => formatRate(sumStat(arr, 'SO') / sumStat(arr, 'BB')),
+  Fld%: (arr) => {
+    const po = sumStat(arr, 'PO')
+    const a = sumStat(arr, 'A')
+    const e = sumStat(arr, 'E')
+    const ch = po + a + e
+    if (!ch) return ''
+    const pct = (po + a) / ch
+    return pct === 1 ? '1.000' : pct.toFixed(3).slice(1)
+  },
+  'CS%': (arr) => {
+    const cs = sumStat(arr, 'CS')
+    const sb = sumStat(arr, 'SB')
+    const attempts = sb + cs
+    if (!attempts) return ''
+    return `${Math.round((cs / attempts) * 100)}%`
+  }
+}
+
 const TeamPage = ({ abbr, team }) => {
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
@@ -33,28 +72,12 @@ const TeamPage = ({ abbr, team }) => {
   const fStats = fielding.filter(p => p.team === abbr)
 
   const battingKeys = [
-    'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO',
-    'AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
+    'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
   ]
-  const battingFormats = {
-    AVG: formatPct,
-    OBP: formatPct,
-    SLG: formatPct,
-    OPS: formatPct
-  }
 
   const pitchingKeys = [
     'W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
   ]
-  const pitchingFormats = {
-    'ERA': formatRate,
-    'W-L%': formatPct,
-    'H9': formatRate,
-    'HR9': formatRate,
-    'BB9': formatRate,
-    'SO9': formatRate,
-    'SO/BB': formatRate
-  }
 
   const fieldingKeys = [
     'G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
@@ -72,8 +95,7 @@ const TeamPage = ({ abbr, team }) => {
         defaultSortKey="PA"
         exclude={['team']}
         columns={battingKeys}
-        columnFormats={battingFormats}
-        showTotals={true}
+        totals={calcTotal}
       />
       <SortableTable
         title="Pitching"
@@ -81,8 +103,7 @@ const TeamPage = ({ abbr, team }) => {
         defaultSortKey="IP"
         exclude={['team']}
         columns={pitchingKeys}
-        columnFormats={pitchingFormats}
-        showTotals={true}
+        totals={calcTotal}
       />
       <SortableTable
         title="Fielding"
@@ -90,7 +111,7 @@ const TeamPage = ({ abbr, team }) => {
         defaultSortKey="G"
         exclude={['team']}
         columns={fieldingKeys}
-        showTotals={true}
+        totals={calcTotal}
       />
     </div>
   )
