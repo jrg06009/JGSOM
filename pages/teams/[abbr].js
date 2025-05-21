@@ -62,7 +62,7 @@ const TeamPage = ({ abbr, team }) => {
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
 
-  const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = "PA") => (
+  const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = "PA") => {
     const [sortKey, setSortKey] = useState(defaultSortKey || keys[0])
     const [sortAsc, setSortAsc] = useState(false)
     if (!stats || stats.length === 0) return null
