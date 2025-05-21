@@ -1,117 +1,92 @@
-import fs from 'fs'
-import path from 'path'
-import { useState } from 'react'
+import { useRouter } from 'next/router'
+import batting from '../../data/stats/batting.json'
+import pitching from '../../data/stats/pitching.json'
+import fielding from '../../data/stats/fielding.json'
+import fieldingByPosition from '../../data/stats/fielding_by_position.json'
+import Link from 'next/link'
 
-export async function getStaticPaths() {
-  const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-
-  const paths = data
-    .filter(player => typeof player.id === 'string' && player.id.trim() !== '')
-    .map(player => ({ params: { id: player.id } }))
-  return { paths, fallback: false }
+const positionMap = {
+  '1': 'P', '2': 'C', '3': '1B', '4': '2B', '5': '3B',
+  '6': 'SS', '7': 'LF', '8': 'CF', '9': 'RF'
 }
 
-export async function getStaticProps({ params }) {
-  const filePath = path.join(process.cwd(), 'data/stats/players_combined.json')
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-  const player = data.find(p => p.id === params.id)
-  return { props: { player } }
+const sumStat = (arr, key) => arr.reduce((sum, p) => sum + (parseFloat(p[key]) || 0), 0)
+const sumIP = arr => arr.reduce((sum, p) => {
+  const val = p["IP"]
+  if (!val) return sum
+  const [whole, frac] = val.split(".").map(Number)
+  const thirds = frac === 2 ? 2 : frac === 1 ? 1 : 0
+  return sum + whole + thirds / 3
+}, 0)
+const formatPct = num => isNaN(num) ? '' : num === 1 ? '1.000' : num.toFixed(3).replace(/^0\./, '.')
+const formatRate = num => isNaN(num) ? '' : num.toFixed(2).replace(/^0\./, '.')
+const formatIP = num => {
+  const whole = Math.floor(num)
+  const decimal = num - whole
+  if (Math.abs(decimal - 2 / 3) < 0.01) return `${whole}.2`
+  if (Math.abs(decimal - 1 / 3) < 0.01) return `${whole}.1`
+  return `${whole}`
 }
 
-function SortableTable({ title, data, numericSort = true }) {
-  const [sortKey, setSortKey] = useState(Object.keys(data[0])[0])
-  const [sortAsc, setSortAsc] = useState(false)
-
-  const headers = Object.keys(data[0])
-  const sorted = [...data].sort((a, b) => {
-    const valA = a[sortKey]
-    const valB = b[sortKey]
-    if (numericSort && !isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
-      return sortAsc ? parseFloat(valA) - parseFloat(valB) : parseFloat(valB) - parseFloat(valA)
-    }
-    return sortAsc ? String(valA).localeCompare(String(valB)) : String(valB).localeCompare(String(valA))
-  })
-
-  const handleSort = (key) => {
-    if (key === sortKey) {
-      setSortAsc(!sortAsc)
-    } else {
-      setSortKey(key)
-      setSortAsc(false)
-    }
-  }
-
-  return (
-    <div className="mb-10">
-      <h2 className="text-xl font-bold mb-2">{title}</h2>
-      <div className="overflow-auto border border-gray-400 rounded">
-        <table className="table-auto border-collapse w-full text-sm">
-          <thead>
-            <tr>
-              {headers.map((key) => (
-                <th
-                  key={key}
-                  onClick={() => handleSort(key)}
-                  className="cursor-pointer border border-gray-400 p-2 bg-gray-100 hover:bg-gray-200 text-left"
-                >
-                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map((row, idx) => (
-              <tr key={idx}>
-                {headers.map((key) => (
-                  <td key={key} className="border border-gray-300 p-2 text-center">
-                    {row[key]}
-                  </td>
-                ))}
-              </tr>
+const renderTable = (title, stats, keys, format = {}) => (
+  <div className="mb-8">
+    <h2 className="text-xl font-semibold mb-2">{title}</h2>
+    <table className="w-full text-sm border border-collapse">
+      <thead>
+        <tr className="bg-gray-100">
+          {Object.keys(stats[0] || {}).map(k => keys.includes(k) && (
+            <th key={k} className="border p-1 text-center">{k}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {stats.map((row, i) => (
+          <tr key={i}>
+            {keys.map(k => (
+              <td key={k} className="border p-1 text-center">
+                {format[k] ? format[k](row[k]) : row[k]}
+              </td>
             ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  )
-}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)
 
-export default function PlayerPage({ player }) {
-  const { name, batting, pitching, fielding } = player
+export default function PlayerPage() {
+  const router = useRouter()
+  const { id } = router.query
+  if (!id) return <div className="p-4 text-red-600">Invalid Player ID</div>
 
-  const keysToExclude = [
-    "id", "name", "link", "Player", "Players", "Player ID", "player ID", "PlayerID", "Players.1"
-  ]
+  const bat = batting.filter(p => p['Player ID'] === id)
+  const pit = pitching.filter(p => p['Player ID'] === id)
+  const fld = fielding.filter(p => p['Player ID'] === id)
+  const fldPos = fieldingByPosition.filter(p => p['Player ID'] === id)
 
-  const filterStats = (stats) =>
-    stats.map(row => {
-      const filtered = {}
-      Object.entries(row).forEach(([key, value]) => {
-        if (!keysToExclude.includes(key)) {
-          filtered[key] = value
-        }
-      })
-      return filtered
-    })
+  const name = bat[0]?.Player || pit[0]?.Player || fld[0]?.Player || fldPos[0]?.Player
+  if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
-  const renderStatTable = (title, sectionData) => {
-    if (!sectionData || sectionData.length === 0) return null
-    const data = filterStats(sectionData)
-    return <SortableTable title={title} data={data} />
-  }
+  const posMap = pos => positionMap[pos] || pos
+  const posSorted = fldPos.sort((a, b) => parseInt(a.POS) - parseInt(b.POS))
 
   return (
-    <div className="max-w-3xl mx-auto px-4">
-      <h1 className="text-3xl font-bold mb-6">{name}</h1>
-
-      {Array.isArray(batting) && batting.length > 0 && renderStatTable("Batting Stats", batting)}
-      {Array.isArray(pitching) && pitching.length > 0 && renderStatTable("Pitching Stats", pitching)}
-      {Array.isArray(fielding) && fielding.length > 0 && renderStatTable("Fielding Stats", fielding)}
-
-      {!batting && !pitching && (!fielding || fielding.length === 0) && (
-        <p className="text-gray-600 mt-4">No available statistics for this player.</p>
-      )}
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">{name}</h1>
+      {bat.length > 0 && renderTable("Batting", bat, [
+        'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
+      ])}
+      {pit.length > 0 && renderTable("Pitching", pit, [
+        'team','W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
+      ], {
+        'ERA': formatRate, 'W-L%': formatPct, 'H9': formatRate, 'HR9': formatRate, 'BB9': formatRate, 'SO9': formatRate, 'SO/BB': formatRate
+      })}
+      {fld.length > 0 && renderTable("Fielding Totals", fld, [
+        'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
+      ])}
+      {fldPos.length > 0 && renderTable("Fielding by Position", posSorted.map(r => ({...r, POS: posMap(r.POS)})), [
+        'POS','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
+      ])}
     </div>
   )
 }
