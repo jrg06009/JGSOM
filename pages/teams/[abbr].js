@@ -36,8 +36,12 @@ const formatPct = (num) => {
   const val = parseFloat(num)
   return val === 1 ? '1.000' : val.toFixed(3).replace(/^0\./, '.')
 }
-
-const formatRate = (num) => {
+const formatPerNine = (num) => {
+  if (num === null || num === undefined || isNaN(num)) return ''
+  const val = parseFloat(num)
+  return val >= 1 ? val.toFixed(1) : val.toFixed(1).replace(/^0\./, '.')
+}
+const formatERA = (num) => {
   if (num === null || num === undefined || isNaN(num)) return ''
   const val = parseFloat(num)
   return val >= 1 ? val.toFixed(2) : val.toFixed(2).replace(/^0\./, '.')
@@ -86,7 +90,8 @@ const TeamPage = ({ abbr, team }) => {
               const calc = calcFns[key]
               const val = calc ? calc(stats) : sumStat(stats, key)
               const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
-                (key === 'ERA' || key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatRate(val) :
+                (key === 'ERA' ) ? formatERA (val) :
+                (key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatPerNine(val) :
                 (key === 'IP') ? formatIP(val) : val
               return <td key={key} className="border p-1 text-center">{formatted}</td>
             })}
