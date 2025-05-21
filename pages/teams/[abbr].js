@@ -85,7 +85,8 @@ const TeamPage = ({ abbr, team }) => {
           <tr className="bg-gray-100">
             <th className="border p-1 text-left">Player</th>
             {keys.map(key => (
-              <th key={key} 
+              <th 
+                key={key} 
                 onClick={() => {
                   if (sortKey === key) setSortAsc(!sortAsc)
                   else {
