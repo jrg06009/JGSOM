@@ -587,6 +587,87 @@ for _, row in linescore_df.iterrows():
 
 save_json(linescore_data, os.path.join(output_dir, "linescores.json"))
 # --- END linescores.json GENERATION BLOCK ---
+
+def compute_fielding_by_position(gamelog_df):
+    fielding = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
+    games = defaultdict(lambda: defaultdict(set))
+
+    for _, row in gamelog_df.iterrows():
+        pid = row.get("Player ID")
+        if pd.isna(pid) or pid == "":
+            continue
+
+        pos = row.get("POS", "")
+        if pos not in range(1, 10):
+            continue
+
+        team = row["Team"]
+        player = row["Player Name"]
+        game_id = row["Game#"]
+        key = (pid, team, pos)
+
+        games[(pid, team)][pos].add(game_id)
+        f = fielding[(pid, team)][pos]
+
+        f["Player"] = player
+        f["GS"] += safe_int(row.get("GS"))
+        f["CG"] += safe_int(row.get("CG"))
+        f["INN"] += safe_float(row.get("INN"))
+        f["PO"] += safe_int(row.get("PO"))
+        f["A"] += safe_int(row.get("A"))
+        f["E"] += safe_int(row.get("ERR"))
+        f["DP"] += safe_int(row.get("DP"))
+        f["PB"] += safe_int(row.get("PB"))
+        f["WP"] += safe_int(row.get("WP"))
+        f["SB"] += safe_int(row.get("SB against"))
+        f["CS"] += safe_int(row.get("CS against"))
+        f["PkO"] += safe_int(row.get("Pko"))
+
+    results = []
+    for (pid, team), pos_dict in fielding.items():
+        for pos, stats in pos_dict.items():
+            po = stats["PO"]
+            a = stats["A"]
+            e = stats["E"]
+            ch = po + a + e
+            fld_pct = (po + a) / ch if ch else None
+            sb = stats["SB"]
+            cs = stats["CS"]
+            cs_pct = (cs / (sb + cs)) if (sb + cs) else None
+            entry = {
+                "Player": stats["Player"],
+                "team": team,
+                "POS": str(pos),
+                "G": len(games[(pid, team)][pos]),
+                "GS": int(stats["GS"]),
+                "CG": int(stats["CG"]),
+                "Inn": format_ip_for_display(stats["INN"]),
+                "Ch": int(ch),
+                "PO": int(po),
+                "A": int(a),
+                "E": int(e),
+                "DP": int(stats["DP"]),
+                "Fld%": "1.000" if fld_pct == 1 else f"{fld_pct:.3f}".lstrip("0") if fld_pct is not None else "",
+                "PB": int(stats["PB"]) if stats["PB"] else "",
+                "WP": int(stats["WP"]) if stats["WP"] else "",
+                "SB": int(sb) if sb else "",
+                "CS": int(cs) if cs else "",
+                "CS%": f"{round(cs_pct * 100)}%" if cs_pct is not None else "",
+                "PkO": int(stats["PkO"]) if stats["PkO"] else "",
+                "Player ID": pid
+            }
+            results.append(entry)
+    return results
+
+if __name__ == "__main__":
+    gamelog_df, schedule_df, linescore_df = load_data("data/1999 Replay.xlsx")
+    fielding_by_pos = compute_fielding_by_position(gamelog_df)
+
+    with open("data/stats/fielding_by_position.json", "w") as f:
+        json.dump(clean_for_json(fielding_by_pos), f, indent=2)
+
+    print("fielding_by_position.json generated.")
+
 save_json(batting_stats, os.path.join(output_dir, "batting.json"))
 save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
 save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
