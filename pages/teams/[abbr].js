@@ -94,7 +94,7 @@ const TeamPage = ({ abbr, team }) => {
                     setSortAsc(false)
                   }
                 }}
-                className="border p-1 text-center hover:bg-gray-200">{key}
+                className="border p-1 text-center hover:bg-gray-200"
               >
                 {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
               </th>
