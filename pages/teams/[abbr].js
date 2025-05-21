@@ -55,8 +55,6 @@ const formatIP = (num) => {
 }
 
 const TeamPage = ({ abbr, team }) => {
-  const [sortKey, setSortKey] = useState("PA")
-  const [sortAsc, setSortAsc] = useState(false)
 
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
@@ -64,7 +62,9 @@ const TeamPage = ({ abbr, team }) => {
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
 
-  const renderTable = (title, stats, keys, calcFns = {}) => {
+  const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = keys[0]) => {
+    const [sortKey, setSortKey] = useState(defaultSortKey)
+    const [sortAsc, setSortAsc] = useState(false)
     if (!stats || stats.length === 0) return null
     const sortedStats = [...stats].sort((a, b) => {
       const valA = a[sortKey]
@@ -147,7 +147,7 @@ const TeamPage = ({ abbr, team }) => {
           const slg = sumStat(arr, 'TB') / sumStat(arr, 'AB')
           return obp + slg
         }
-      })}
+      },"PA")}
       {renderTable("Pitching", pStats, [
         'W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
       ], {
@@ -164,7 +164,7 @@ const TeamPage = ({ abbr, team }) => {
         'BB9': arr => sumIP(arr) > 0 ? sumStat(arr, 'BB') * 9 / sumIP(arr) : '',
         'SO9': arr => sumIP(arr) > 0 ? sumStat(arr, 'SO') * 9 / sumIP(arr) : '',
         'SO/BB': arr => sumStat(arr, 'BB') > 0 ? sumStat(arr, 'SO') / sumStat(arr, 'BB') : ''
-      })}
+      },"IP")}
       {renderTable("Fielding", fStats, [
         'G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
       ], {
@@ -173,7 +173,7 @@ const TeamPage = ({ abbr, team }) => {
           const total = PO + A + E
           return total > 0 ? (PO + A) / total : ''
         }
-      })}
+      },"Inn")}
     </div>
   )
 }
