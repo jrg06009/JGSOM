@@ -3,6 +3,7 @@ import batting from '../../data/stats/batting.json'
 import pitching from '../../data/stats/pitching.json'
 import fielding from '../../data/stats/fielding.json'
 import { useRouter } from 'next/router'
+import { useState } from 'react'
 import Link from 'next/link'
 
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
@@ -61,7 +62,22 @@ const TeamPage = ({ abbr, team }) => {
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
 
-  const renderTable = (title, stats, keys, calcFns = {}) => (
+  const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = "PA") => (
+    const [sortKey, setSortKey] = useState(defaultSortKey || keys[0])
+    const [sortAsc, setSortAsc] = useState(false)
+    if (!stats || stats.length === 0) return null
+    const sortedStats = [...stats].sort((a, b) => {
+      const valA = a[sortKey]
+      const valB = b[sortKey]
+      if (!isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
+        return sortAsc ? parseFloat(valA) - parseFloat(valB) : parseFloat(valB) - parseFloat(valA)
+      }
+      return sortAsc
+        ? String(valA).localeCompare(String(valB))
+        : String(valB).localeCompare(String(valA))
+    })
+
+    return (
     <div className="mb-8">
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
       <table className="w-full text-sm border border-collapse">
@@ -69,12 +85,23 @@ const TeamPage = ({ abbr, team }) => {
           <tr className="bg-gray-100">
             <th className="border p-1 text-left">Player</th>
             {keys.map(key => (
-              <th key={key} className="border p-1 text-center">{key}</th>
+              <th key={key} 
+                onClick={() => {
+                  if (sortKey === key) setSortAsc(!sortAsc)
+                  else {
+                    setSortKey(key)
+                    setSortAsc(false)
+                  }
+                }}
+                className="border p-1 text-center hover:bg-gray-200">{key}
+              >
+                {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
+              </th>
             ))}
           </tr>
         </thead>
         <tbody>
-          {stats.map((p, i) => (
+          {sortedStats.map((p, i) => (
             <tr key={i}>
               <td className="border p-1 text-left">
                 <Link href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</Link>
