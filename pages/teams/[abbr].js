@@ -2,7 +2,6 @@ import teams from '../../data/teams.json'
 import batting from '../../data/stats/batting.json'
 import pitching from '../../data/stats/pitching.json'
 import fielding from '../../data/stats/fielding.json'
-import { useRouter } from 'next/router'
 import { useState } from 'react'
 import Link from 'next/link'
 
@@ -56,15 +55,16 @@ const formatIP = (num) => {
 }
 
 const TeamPage = ({ abbr, team }) => {
+  const [sortKey, setSortKey] = useState("PA")
+  const [sortAsc, setSortAsc] = useState(false)
+
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
   const bStats = batting.filter(p => p.team === abbr)
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
 
-  const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = "PA") => {
-    const [sortKey, setSortKey] = useState(defaultSortKey || keys[0])
-    const [sortAsc, setSortAsc] = useState(false)
+  const renderTable = (title, stats, keys, calcFns = {}) => {
     if (!stats || stats.length === 0) return null
     const sortedStats = [...stats].sort((a, b) => {
       const valA = a[sortKey]
@@ -78,56 +78,57 @@ const TeamPage = ({ abbr, team }) => {
     })
 
     return (
-    <div className="mb-8">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <table className="w-full text-sm border border-collapse">
-        <thead>
-          <tr className="bg-gray-100">
-            <th className="border p-1 text-left">Player</th>
-            {keys.map(key => (
-              <th 
-                key={key} 
-                onClick={() => {
-                  if (sortKey === key) setSortAsc(!sortAsc)
-                  else {
-                    setSortKey(key)
-                    setSortAsc(false)
-                  }
-                }}
-                className="border p-1 text-center hover:bg-gray-200"
-              >
-                {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {sortedStats.map((p, i) => (
-            <tr key={i}>
-              <td className="border p-1 text-left">
-                <Link href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</Link>
-              </td>
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <table className="w-full text-sm border border-collapse">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border p-1 text-left">Player</th>
               {keys.map(key => (
-                <td key={key} className="border p-1 text-center">{p[key] ?? ''}</td>
+                <th 
+                  key={key}
+                  onClick={() => {
+                    if (sortKey === key) setSortAsc(!sortAsc)
+                    else {
+                      setSortKey(key)
+                      setSortAsc(false)
+                    }
+                  }}
+                  className="border p-1 text-center hover:bg-gray-200"
+                >
+                  {key} {sortKey === key ? (sortAsc ? '↑' : '↓') : ''}
+                </th>
               ))}
             </tr>
-          ))}
-          <tr className="font-bold bg-gray-50">
-            <td className="border p-1 text-left">Total</td>
-            {keys.map(key => {
-              const calc = calcFns[key]
-              const val = calc ? calc(stats) : sumStat(stats, key)
-              const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
-                (key === 'ERA' ) ? formatERA (val) :
-                (key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatPerNine(val) :
-                (key === 'IP') ? formatIP(val) : val
-              return <td key={key} className="border p-1 text-center">{formatted}</td>
-            })}
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  )
+          </thead>
+          <tbody>
+            {sortedStats.map((p, i) => (
+              <tr key={i}>
+                <td className="border p-1 text-left">
+                  <Link href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</Link>
+                </td>
+                {keys.map(key => (
+                  <td key={key} className="border p-1 text-center">{p[key] ?? ''}</td>
+                ))}
+              </tr>
+            ))}
+            <tr className="font-bold bg-gray-50">
+              <td className="border p-1 text-left">Total</td>
+              {keys.map(key => {
+                const calc = calcFns[key]
+                const val = calc ? calc(stats) : sumStat(stats, key)
+                const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
+                  (key === 'ERA' ) ? formatERA (val) :
+                  (key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatPerNine(val) :
+                  (key === 'IP') ? formatIP(val) : val
+                return <td key={key} className="border p-1 text-center">{formatted}</td>
+              })}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    )
+  }
 
   return (
     <div className="p-4">
