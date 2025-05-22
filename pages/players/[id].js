@@ -100,17 +100,24 @@ export default function PlayerPage() {
         'ERA': formatRate, 'W-L%': formatPct, 'H9': formatRate, 'HR9': formatRate, 'BB9': formatRate, 'SO9': formatRate, 'SO/BB': formatRate
       })}
       {fld.length > 0 && renderTable("Fielding Totals", fld, [
-        'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
+        'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','SB','CS','CS%','PkO'
       ])}
       {/* Render a table for each position */}
       {Object.keys(groupedByPosition).map(position => {
         const positionData = groupedByPosition[position];
-        if (positionData.length > 0) {
-          return renderTable(`Fielding-${position}`, positionData, [
-            'team', 'G', 'GS', 'CG', 'Inn', 'Ch', 'PO', 'A', 'E', 'DP', 'Fld%', 'PB', 'WP', 'SB', 'CS', 'CS%', 'PkO'
-          ]);
-        }
-        return null; // Don't render anything if no data for that position
+        if (positionData.length === 0) return null;
+
+        const baseCols = ['team', 'G', 'GS', 'CG', 'Inn', 'Ch', 'PO', 'A', 'E', 'DP', 'Fld%'];
+        const colsForCatchers = ['PB', 'SB', 'CS', 'CS%'];
+        const colsForPitchers = ['SB', 'CS', 'CS%', 'PkO'];
+
+        let extraCols = [];
+        if (position === 'C') extraCols = colsForCatchers;
+        else if (position === 'P') extraCols = colsForPitchers;
+
+        const allCols = [...baseCols, ...extraCols];
+
+        return renderTable(`Fielding-${position}`, positionData, allCols);
       })}
     </div>
   );
