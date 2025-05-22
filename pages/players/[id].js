@@ -35,7 +35,7 @@ const renderTable = (title, stats, keys, format = {}) => (
       <thead>
         <tr className="bg-gray-100">
           {Object.keys(stats[0] || {}).map(k => keys.includes(k) && (
-            <th key={k} className="border p-1 text-center">{k}
+            <th key={k} className="border p-1 text-center">
               {k === 'team' ? 'Team' : k}
             </th>
           ))}
