@@ -39,18 +39,35 @@ const BattingGameLog = () => {
         <tbody>
           {games.map((game, i) => {
             const rawDate = game.Date?.split(' ')[0] || ''
-            const date = rawDate
-              ? new Date(rawDate).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
-              : ''
+            const dateObj = rawDate ? new Date(rawDate) : null
+            const date = dateObj
+              ? dateObj.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+              })
+            : '—'
             const playerTeam = game.Team
-            const opponent = playerTeam === game.Team ? game.Team : game.Team // placeholder if you add actual opponent logic later
+            const opponentAbbr = (() => {
+              const id = game["Game ID"] || ""
+              const parts = id.split('_')
+              if (parts.length === 2) {
+                const [away, home] = parts[1].split('@')
+                return away === playerTeam ? home : away
+              }
+              return ''
+            })()
+            const opponentName = teamMap[opponentAbbr]?.name || opponentAbbr            
             const gameID = game["Game ID"]
             const safe = (val) => (val !== undefined && val !== null ? val : 0)
             return (
               <tr key={i}>
                 <td className="border p-1 text-center">{date}</td>
                 <td className="border p-1 text-center">{playerTeam}</td>
-                <td className="border p-1 text-center">{teamMap[playerTeam]?.name || playerTeam}</td>
+                <td className="border p-1 text-center flex items-center justify-center gap-2">
+                  <img src={`/logos/${opponentAbbr}.png`} alt={opponentAbbr} className="w-6 h-6" />
+                  {opponentName}
+                </td>
                 <td className="border p-1 text-center">{safe(game.AB)}</td>
                 <td className="border p-1 text-center">{safe(game.H)}</td>
                 <td className="border p-1 text-center">{safe(game.R)}</td>
