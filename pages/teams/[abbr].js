@@ -136,11 +136,13 @@ const TeamPage = ({ abbr, team }) => {
     <div className="p-4">
       <div className="flex items-center mb-6">
         <img src={team.logo} alt={team.name} className="w-20 h-20 mr-4" />
-        <h1 className="text-4xl font-bold mb-1" style={{ color: team.color }}>{team.name}</h1>
-        <p className="text-lg text-gray-700 mt-1">Record: {teamwins}–{teamlosses}</p>
-        <Link href={`/teams/${abbr}/schedule`} className="text-blue-600 underline hover:text-blue-800">
-          View full schedule →
-        </Link>
+        <div className="flex flex-col">
+          <h1 className="text-4xl font-bold mb-1" style={{ color: team.color }}>{team.name}</h1>
+          <p className="text-lg text-gray-700">Record: {teamwins}–{teamlosses}</p>
+          <Link href={`/teams/${abbr}/schedule`} className="text-blue-600 underline hover:text-blue-800">
+            View full schedule →
+          </Link>
+        </div>
       </div>
       {renderTable("Batting", bStats, [
         'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
