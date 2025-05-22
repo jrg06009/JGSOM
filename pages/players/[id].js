@@ -76,6 +76,16 @@ export default function PlayerPage() {
   const posMap = pos => positionMap[pos] || pos
   const posSorted = fldPos.sort((a, b) => parseInt(a.POS) - parseInt(b.POS))
 
+    // Group by position
+  const groupedByPosition = fldPos.reduce((acc, current) => {
+    const position = posMap(current.POS);
+    if (!acc[position]) {
+      acc[position] = [];
+    }
+    acc[position].push(current);
+    return acc;
+  }, {});
+  
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">{name}</h1>
@@ -90,9 +100,16 @@ export default function PlayerPage() {
       {fld.length > 0 && renderTable("Fielding Totals", fld, [
         'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
       ])}
-      {fldPos.length > 0 && renderTable("Fielding by Position", posSorted.map(r => ({...r, POS: posMap(r.POS)})), [
-        'POS','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
-      ])}
+      {/* Render a table for each position */}
+      {Object.keys(groupedByPosition).map(position => {
+        const positionData = groupedByPosition[position];
+        if (positionData.length > 0) {
+          return renderTable(`Fielding-${position}`, positionData, [
+            'team', 'G', 'GS', 'CG', 'Inn', 'Ch', 'PO', 'A', 'E', 'DP', 'Fld%', 'PB', 'WP', 'SB', 'CS', 'CS%', 'PkO'
+          ]);
+        }
+        return null; // Don't render anything if no data for that position
+      })}
     </div>
-  )
+  );
 }
