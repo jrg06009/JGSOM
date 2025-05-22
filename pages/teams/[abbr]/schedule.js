@@ -1,20 +1,34 @@
-import { useRouter } from 'next/router'
 import schedule from '../../../data/schedule.json'
 import teams from '../../../data/teams.json'
 import Link from 'next/link'
 
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 
-const TeamSchedule = () => {
-  const router = useRouter()
-  const { abbr } = router.query.abbr
-  
-  if (!abbr) return <div className="p-4">Loading...</div>
+export async function getStaticPaths() {
+  const paths = teams.map(team => ({
+    params: { abbr: team.id }
+  }))
+  return { paths, fallback: false }
+}
 
-  const team = teamMap[abbr]
+export async function getStaticProps({ params }) {
+  const abbr = params.abbr
+  const team = teamMap[abbr] || null
+  const games = schedule.filter(
+    g => g.home_team === abbr || g.away_team === abbr
+  )
+
+  return {
+    props: {
+      abbr,
+      team,
+      games
+    }
+  }
+}
+
+const TeamSchedule = ({ abbr, team, games }) => {
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
-
-  const games = schedule.filter(g => g.home_team === abbr || g.away_team === abbr)
 
   return (
     <div className="p-4">
@@ -34,21 +48,17 @@ const TeamSchedule = () => {
             const opponent = isHome ? game.away_team : game.home_team
             const teamScore = isHome ? game.home_score : game.away_score
             const oppScore = isHome ? game.away_score : game.home_score
-            const isCompleted = game.completed
-
-            const result = isCompleted
+            const result = game.completed
               ? `${teamScore}-${oppScore} (${teamScore > oppScore ? 'W' : 'L'})`
               : '—'
 
             return (
               <tr key={i}>
                 <td className="border p-1 text-center">{game.date}</td>
-                <td className="border p-1 text-center">
-                  {isHome ? 'vs' : '@'} {opponent}
-                </td>
+                <td className="border p-1 text-center">{isHome ? 'vs' : '@'} {opponent}</td>
                 <td className="border p-1 text-center">{result}</td>
                 <td className="border p-1 text-center">
-                  {isCompleted ? (
+                  {game.completed ? (
                     <Link
                       href={`/boxscores/${game.id}`}
                       className="text-blue-600 underline hover:text-blue-800"
