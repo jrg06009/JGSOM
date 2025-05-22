@@ -90,48 +90,72 @@ const TeamSchedule = ({ abbr, team, games, boxscores }) => {
           </tr>
         </thead>
         <tbody>
-          {games.map((game, i) => {
-            const isHome = game.home_team === abbr
-            const opponentAbbr = isHome ? game.away_team : game.home_team
-            const opponent = teamMap[opponentAbbr]?.name || opponentAbbr
-            const teamScore = isHome ? game.home_score : game.away_score
-            const oppScore = isHome ? game.away_score : game.home_score
-            const isCompleted = game.completed
+          {(() => {
+            let wins = 0
+            let losses = 0
+            let lastMonth = ''
 
-            const result = isCompleted
-              ? `${teamScore}-${oppScore} (${teamScore > oppScore ? 'W' : 'L'})`
-              : '—'
+            return games.map((game, i) => {
+              const isHome = game.home_team === abbr
+              const opponentAbbr = isHome ? game.away_team : game.home_team
+              const teamScore = isHome ? game.home_score : game.away_score
+              const oppScore = isHome ? game.away_score : game.home_score
+              const isCompleted = game.completed
 
-            if (isCompleted) {
-              if (teamScore > oppScore) wins++
-              else losses++
-            }
+              const dateObj = new Date(game.date)
+              const month = dateObj.toLocaleString('en-US', { month: 'long', year: 'numeric' })
+              const formattedDate = formatPrettyDate(game.date)
 
-            const bs = boxscores[game.id] || {}
+              const bs = boxscores[game.id] || {}
 
-            return (
-              <tr key={i}>
-                <td className="border p-1 text-center">{formatPrettyDate(game.date)}</td>
-                <td className="border p-1 text-center flex items-center justify-center gap-2">
-                  <img src={`/logos/${opponentAbbr}.png`} alt={opponentAbbr} className="w-6 h-6" />
-                  {isHome ? 'vs' : '@'} {opponentAbbr}
-                </td>
-                <td className="border p-1 text-center">{result}</td>
-                <td className="border p-1 text-center">{wins}-{losses}</td>
-                <td className="border p-1 text-center">{bs.W || '—'}</td>
-                <td className="border p-1 text-center">{bs.L || '—'}</td>
-                <td className="border p-1 text-center">{bs.SV || '—'}</td>
-                <td className="border p-1 text-center">
-                  {game.completed ? (
-                    <Link href={`/boxscores/${game.id}`} className="text-blue-600 underline hover:text-blue-800">
-                      View
-                    </Link>
-                  ) : '—'}
-                </td>
-                <td className="border p-1 text-center">{game.simDate || '—'}</td>
-              </tr>
-            )
-          })}
+              let result = '—'
+              let resultClass = ''
+              if (isCompleted) {
+                if (teamScore > oppScore) {
+                  wins++
+                  resultClass = 'text-green-600 font-bold'
+                } else {
+                  losses++
+                  resultClass = 'text-red-600 font-bold'
+                }
+                result = `${teamScore}-${oppScore} (${teamScore > oppScore ? 'W' : 'L'})`
+              }
+
+              const monthRow = month !== lastMonth ? (
+                <tr key={`month-${month}`}>
+                  <td colSpan={9} className="bg-gray-200 text-left font-semibold p-2">{month}</td>
+                </tr>
+              ) : null
+
+              lastMonth = month
+
+              return (
+                <>
+                  {monthRow}
+                  <tr key={i}>
+                    <td className="border p-1 text-center">{formattedDate}</td>
+                    <td className="border p-1 text-center flex items-center justify-center gap-2">
+                      <img src={`/logos/${opponentAbbr}.png`} alt={opponentAbbr} className="w-6 h-6" />
+                      {isHome ? 'vs' : '@'} {opponentAbbr}
+                    </td>
+                    <td className={`border p-1 text-center ${resultClass}`}>{result}</td>
+                    <td className="border p-1 text-center">{wins}-{losses}</td>
+                    <td className="border p-1 text-center">{bs.W || '—'}</td>
+                    <td className="border p-1 text-center">{bs.L || '—'}</td>
+                    <td className="border p-1 text-center">{bs.SV || '—'}</td>
+                    <td className="border p-1 text-center">
+                      {game.completed ? (
+                        <Link href={`/boxscores/${game.id}`} className="text-blue-600 underline hover:text-blue-800">
+                          View
+                        </Link>
+                      ) : '—'}
+                    </td>
+                    <td className="border p-1 text-center">{game.simDate || '—'}</td>
+                  </tr>
+                </>
+              )
+            })
+          })()}
         </tbody>
       </table>
     </div>
