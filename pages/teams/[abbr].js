@@ -61,6 +61,8 @@ const TeamPage = ({ abbr, team }) => {
   const bStats = batting.filter(p => p.team === abbr)
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
+  const teamwins = sumStat(pStats, 'W')
+  const teamlosses = sumStat(pStats, 'L')
 
   const renderTable = (title, stats, keys, calcFns = {}, defaultSortKey = keys[0]) => {
     const [sortKey, setSortKey] = useState(defaultSortKey)
@@ -135,6 +137,10 @@ const TeamPage = ({ abbr, team }) => {
       <div className="flex items-center mb-6">
         <img src={team.logo} alt={team.name} className="w-20 h-20 mr-4" />
         <h1 className="text-4xl font-bold" style={{ color: team.color }}>{team.name}</h1>
+        <p className="text-lg text-gray-700 mt-1">Record: {teamwins}–{teamlosses}</p>
+        <Link href={`/teams/${abbr}/schedule`} className="text-blue-600 underline hover:text-blue-800">
+          View full schedule →
+        </Link>
       </div>
       {renderTable("Batting", bStats, [
         'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
