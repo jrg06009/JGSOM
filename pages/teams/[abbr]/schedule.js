@@ -8,13 +8,14 @@ const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 const TeamSchedule = () => {
   const router = useRouter()
   const { abbr } = router.query
-
+  console.log(abbr, team)
   if (!abbr) return <div className="p-4">Loading...</div>
 
   const team = teamMap[abbr]
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
-
+  console.log(`Filtering schedule for team ${abbr}`)
   const games = schedule.filter(g => g.home_team === abbr || g.away_team === abbr)
+  console.log(`Found ${games.length} games`)
 
   return (
     <div className="p-4">
