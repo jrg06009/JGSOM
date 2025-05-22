@@ -136,7 +136,7 @@ const TeamPage = ({ abbr, team }) => {
     <div className="p-4">
       <div className="flex items-center mb-6">
         <img src={team.logo} alt={team.name} className="w-20 h-20 mr-4" />
-        <h1 className="text-4xl font-bold" style={{ color: team.color }}>{team.name}</h1>
+        <h1 className="text-4xl font-bold mb-1" style={{ color: team.color }}>{team.name}</h1>
         <p className="text-lg text-gray-700 mt-1">Record: {teamwins}–{teamlosses}</p>
         <Link href={`/teams/${abbr}/schedule`} className="text-blue-600 underline hover:text-blue-800">
           View full schedule →
