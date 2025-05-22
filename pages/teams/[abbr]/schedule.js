@@ -73,7 +73,12 @@ const TeamSchedule = ({ abbr, team, games, boxscores }) => {
     <div className="p-4">
       <div className="flex items-center mb-6">
         <img src={`/logos/${abbr}.png`} className="w-20 h-20 mr-4" alt={`${team.name} logo`} />
-        <h1 className="text-3xl font-bold">{team.name} Schedule</h1>
+        <div> className="flex flex-col">
+          <h1 className="text-3xl font-bold">{team.name} Schedule</h1>
+          <Link href={`/teams/${abbr}`} className="text-blue-600 underline hover:text-blue-800">
+            View full team stats →
+          </Link>        
+        </div>
       </div>
       <table className="w-full text-sm border border-collapse">
         <thead>
