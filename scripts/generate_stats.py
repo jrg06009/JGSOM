@@ -668,6 +668,68 @@ if __name__ == "__main__":
 
     print("fielding_by_position.json generated.")
 
+# --- START game logs generation ---
+
+batting_log = []
+pitching_log = []
+fielding_log = []
+
+for _, row in gamelog_df.iterrows():
+    pid = row.get("Player ID")
+    name = row.get("Player Name")
+    team = row.get("Team")
+    game_num = int(row.get("Game#", 0))
+    bop = row.get("BOP")
+    pos = str(row.get("POS")) if not pd.isna(row.get("POS")) else ""
+    game_id = schedule_df[schedule_df["Game#"] == game_num]["Game ID"].values[0] if game_num in schedule_df["Game#"].values else f"G{game_num}"
+
+    meta = {
+        "Player": name,
+        "Player ID": pid,
+        "Team": team,
+        "Game#": game_num,
+        "Game ID": game_id
+    }
+
+    # Batting log
+    if not pd.isna(bop) and bop > 0:
+        entry = meta.copy()
+        for stat in [
+            "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "IBB", "SO", "SB", "CS", "GDP",
+            "HBP", "SH", "SF"
+        ]:
+            if not pd.isna(row.get(stat)):
+                entry[stat] = int(row.get(stat))
+        batting_log.append(entry)
+
+    # Pitching log
+    if pos == "1":
+        entry = meta.copy()
+        entry["IP"] = row.get("IP")
+        for stat in [
+            "W", "L", "SV", "H allowed", "R against", "ER", "HR allowed",
+            "BB against", "IBB against", "SO against", "HBP against", "BK", "WP"
+        ]:
+            if not pd.isna(row.get(stat)):
+                entry[stat] = int(row.get(stat))
+        pitching_log.append(entry)
+
+    # Fielding log
+    if pos.isdigit() and int(pos) in range(1, 10):
+        entry = meta.copy()
+        entry["POS"] = pos
+        for stat in ["GS", "INN", "PO", "A", "ERR", "DP", "PB", "SB against", "CS against", "Pko"]:
+            if not pd.isna(row.get(stat)):
+                entry[stat] = row.get(stat) if "INN" in stat else int(row.get(stat))
+        fielding_log.append(entry)
+
+save_json(batting_log, os.path.join(output_dir, "batting_log.json"))
+save_json(pitching_log, os.path.join(output_dir, "pitching_log.json"))
+save_json(fielding_log, os.path.join(output_dir, "fielding_log.json"))
+
+print("batting_log.json, pitching_log.json, fielding_log.json generated.")
+# --- END game logs generation ---
+
 save_json(batting_stats, os.path.join(output_dir, "batting.json"))
 save_json(pitching_stats, os.path.join(output_dir, "pitching.json"))
 save_json(fielding_stats, os.path.join(output_dir, "fielding.json"))
