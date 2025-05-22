@@ -678,7 +678,10 @@ for _, row in gamelog_df.iterrows():
     pid = row.get("Player ID")
     name = row.get("Player Name")
     team = row.get("Team")
-    game_num = int(row.get("Game#", 0))
+    raw_game_num = row.get("Game#")
+    if pd.isna(raw_game_num):
+        continue  # skip this row
+    game_num = int(raw_game_num)
     bop = row.get("BOP")
     pos = str(row.get("POS")) if not pd.isna(row.get("POS")) else ""
     game_id = schedule_df[schedule_df["Game#"] == game_num]["Game ID"].values[0] if game_num in schedule_df["Game#"].values else f"G{game_num}"
