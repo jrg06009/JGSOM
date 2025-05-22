@@ -14,7 +14,7 @@ const TeamSchedule = () => {
   const team = teamMap[abbr]
   if (!team) return <div className="p-4 text-red-600">Team not found.</div>
 
-  const games = schedule.filter(g => g.home === abbr || g.away === abbr)
+  const games = schedule.filter(g => g.home_team === abbr || g.away_team === abbr)
 
   return (
     <div className="p-4">
@@ -31,9 +31,9 @@ const TeamSchedule = () => {
         <tbody>
           {games.map((game, i) => {
             const isHome = game.home === abbr
-            const opponent = isHome ? game.away : game.home
-            const teamScore = isHome ? game.homeScore : game.awayScore
-            const oppScore = isHome ? game.awayScore : game.homeScore
+            const opponent = isHome ? game.away_team : game.home_team
+            const teamScore = isHome ? game.home_Score : game.away_Score
+            const oppScore = isHome ? game.away_Score : game.home_Score
 
             const result = teamScore != null && oppScore != null
               ? `${teamScore}-${oppScore} (${teamScore > oppScore ? 'W' : 'L'})`
