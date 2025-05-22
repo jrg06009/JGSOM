@@ -45,7 +45,7 @@ const renderTable = (title, stats, keys, format = {}) => (
         {stats.map((row, i) => (
           <tr key={i}>
             {keys.map(k => (
-              <td key={k} className="border p-1 text-center">
+              <td key={k} className="border p-1 text-center text-blue-600 hover:underline">
                 {k === 'team' ? (
                   <Link href={`/teams/${row[k]}`}>{row[k]}</Link>
                 ) : (
