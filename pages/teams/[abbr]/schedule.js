@@ -123,7 +123,7 @@ const TeamSchedule = ({ abbr, team, games, boxscores }) => {
 
               const monthRow = month !== lastMonth ? (
                 <tr key={`month-${month}`}>
-                  <td colSpan={9} className="bg-gray-200 text-left font-semibold p-2">{month}</td>
+                  <td colSpan={9} className="bg-gray-200 text-center font-semibold p-2">{month}</td>
                 </tr>
               ) : null
 
