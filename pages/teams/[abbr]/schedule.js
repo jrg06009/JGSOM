@@ -30,24 +30,27 @@ const TeamSchedule = () => {
         </thead>
         <tbody>
           {games.map((game, i) => {
-            const isHome = game.home === abbr
+            const isHome = game.home_team === abbr
             const opponent = isHome ? game.away_team : game.home_team
-            const teamScore = isHome ? game.home_Score : game.away_Score
-            const oppScore = isHome ? game.away_Score : game.home_Score
+            const teamScore = isHome ? game.home_score : game.away_score
+            const oppScore = isHome ? game.away_score : game.home_score
+            const isCompleted = game.completed
 
-            const result = teamScore != null && oppScore != null
+            const result = isCompleted
               ? `${teamScore}-${oppScore} (${teamScore > oppScore ? 'W' : 'L'})`
               : '—'
 
             return (
               <tr key={i}>
                 <td className="border p-1 text-center">{game.date}</td>
-                <td className="border p-1 text-center">{opponent}</td>
+                <td className="border p-1 text-center">
+                  {isHome ? 'vs' : '@'} {opponent}
+                </td>
                 <td className="border p-1 text-center">{result}</td>
                 <td className="border p-1 text-center">
-                  {game.gameID ? (
+                  {isCompleted ? (
                     <Link
-                      href={`/boxscores/${game.gameID}`}
+                      href={`/boxscores/${game.id}`}
                       className="text-blue-600 underline hover:text-blue-800"
                     >
                       View
