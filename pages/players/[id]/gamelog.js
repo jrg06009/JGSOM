@@ -25,6 +25,7 @@ const BattingGameLog = () => {
         <thead>
           <tr className="bg-gray-100">
             <th className="border p-1 text-center">Date</th>
+            <th className="border p-1 text-center">Team</th>
             <th className="border p-1 text-center">Opponent</th>
             <th className="border p-1 text-center">AB</th>
             <th className="border p-1 text-center">H</th>
@@ -37,19 +38,25 @@ const BattingGameLog = () => {
         </thead>
         <tbody>
           {games.map((game, i) => {
-            const date = new Date(game.Date).toLocaleDateString('en-US')
-            const opp = game.Team
+            const rawDate = game.Date?.split(' ')[0] || ''
+            const date = rawDate
+              ? new Date(rawDate).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
+              : ''
+            const playerTeam = game.Team
+            const opponent = playerTeam === game.Team ? game.Team : game.Team // placeholder if you add actual opponent logic later
             const gameID = game["Game ID"]
+            const safe = (val) => (val !== undefined && val !== null ? val : 0)
             return (
               <tr key={i}>
                 <td className="border p-1 text-center">{date}</td>
-                <td className="border p-1 text-center">{teamMap[opp]?.name || opp}</td>
-                <td className="border p-1 text-center">{game.AB ?? ''}</td>
-                <td className="border p-1 text-center">{game.H ?? ''}</td>
-                <td className="border p-1 text-center">{game.R ?? ''}</td>
-                <td className="border p-1 text-center">{game.RBI ?? ''}</td>
-                <td className="border p-1 text-center">{game.BB ?? ''}</td>
-                <td className="border p-1 text-center">{game.SO ?? ''}</td>
+                <td className="border p-1 text-center">{playerTeam}</td>
+                <td className="border p-1 text-center">{teamMap[playerTeam]?.name || playerTeam}</td>
+                <td className="border p-1 text-center">{safe(game.AB)}</td>
+                <td className="border p-1 text-center">{safe(game.H)}</td>
+                <td className="border p-1 text-center">{safe(game.R)}</td>
+                <td className="border p-1 text-center">{safe(game.RBI)}</td>
+                <td className="border p-1 text-center">{safe(game.BB)}</td>
+                <td className="border p-1 text-center">{safe(game.SO)}</td>
                 <td className="border p-1 text-center">
                   <Link href={`/boxscores/${gameID}`} className="text-blue-600 underline hover:text-blue-800">
                     View
