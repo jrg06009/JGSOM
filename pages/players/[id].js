@@ -49,7 +49,9 @@ const renderTable = (title, stats, keys, format = {}) => (
                 {k === 'team' ? (
                   <Link href={`/teams/${row[k]}`}>{row[k]}</Link>
                 ) : (
-                  format[k] ? format[k](row[k]) : row[k]
+                  format[k] && row[k] !== '' && row[k] !== undefined && !isNaN(row[k])
+                    ? format[k](Number(row[k]))
+                      : row[k]
                 )}
               </td>
             ))}
