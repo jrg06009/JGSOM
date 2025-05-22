@@ -133,8 +133,8 @@ const TeamPage = ({ abbr, team }) => {
   return (
     <div className="p-4">
       <div className="flex items-center mb-6">
-        <img src={team.logo} alt={team.name} className="h-12 mr-4" />
-        <h1 className="text-2xl font-bold" style={{ color: team.color }}>{team.name}</h1>
+        <img src={team.logo} alt={team.name} className="w-20 h-20 mr-4" />
+        <h1 className="text-4xl font-bold" style={{ color: team.color }}>{team.name}</h1>
       </div>
       {renderTable("Batting", bStats, [
         'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
