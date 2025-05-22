@@ -37,9 +37,8 @@ const BattingGameLog = () => {
           {games.map((game, i) => {
             const safe = (val) => (val !== undefined && val !== null ? val : 0)
             const rawDate = game.Date?.split(' ')[0] || ''
-            const dateObj = rawDate ? new Date(rawDate) : null
-            const date = dateObj
-              ? dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+            const date = rawDate
+              ? new Date(rawDate).toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
               : '—'
     
             const ab = safe(game.AB)
@@ -62,9 +61,20 @@ const BattingGameLog = () => {
             const _1b = h - _2b - _3b - hr
             const tb = _1b + (_2b * 2) + (_3b * 3) + (hr * 4)
 
-            const avg = ab > 0 ? h / ab : 0
-            const obp = pa > 0 ? (h + bb + hbp) / pa : 0
-            const slg = ab > 0 ? tb / ab : 0
+            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0
+            ...
+
+            totAB += ab
+            totH += h
+            totBB += bb
+            totHBP += hbp
+            totSF += sf
+            totTB += tb
+
+            const cumPA = totAB + totBB + totHBP + totSF
+            const avg = totAB > 0 ? totH / totAB : 0
+            const obp = cumPA > 0 ? (totH + totBB + totHBP) / cumPA : 0
+            const slg = totAB > 0 ? totTB / totAB : 0
             const ops = obp + slg
   
             const oppAbbr = (() => {
