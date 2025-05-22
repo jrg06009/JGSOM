@@ -1,4 +1,4 @@
-import schedule from '../../../data/schedule.json'
+import schedule from '../../../data/stats/schedule.json'
 import teams from '../../../data/teams.json'
 import Link from 'next/link'
 
