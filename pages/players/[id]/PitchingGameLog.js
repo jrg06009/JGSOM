@@ -25,10 +25,7 @@ const PitchingGameLog = () => {
       <table className="w-full text-sm border border-collapse">
         <thead>
           <tr className="bg-gray-100 text-xs">
-            <th className="border p-1 text-center">Date</th>
-            <th className="border p-1 text-center">Team</th>
-            <th className="border p-1 text-center">Opponent</th>
-            {["G","GS","W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against","SO against","HBP","BK","WP","SB against","CS against"].map(stat => (
+            {["G","Date","Team","Opponent","GS","W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against","SO against","HBP","BK","WP","SB against","CS against"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
@@ -44,7 +41,7 @@ const PitchingGameLog = () => {
               const frac = parseInt(parts[1] || '0', 10)
               return whole + (frac === 1 ? 1/3 : frac === 2 ? 2/3 : 0)
             }
-
+            let g=0
             return games.map((game, i) => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
               const rawDate = game["Game ID"]?.split('_')[0]
@@ -67,13 +64,13 @@ const PitchingGameLog = () => {
 
               return (
                 <tr key={i} className="text-xs">
+                  <td className="border p-1 text-center">{++g}</td>                  
                   <td className="border p-1 text-center">{date}</td>
                   <td className="border p-1 text-center">{game.Team}</td>
                   <td className="border p-1 text-center">
                     <img src={`/logos/${oppAbbr}.png`} alt={oppAbbr} className="w-5 h-5 inline-block mr-1" />
                     {oppAbbr}
                   </td>
-                  <td className="border p-1 text-center">1</td>
                   <td className="border p-1 text-center">{safe(game.GS)}</td>
                   <td className="border p-1 text-center">{safe(game.W)}</td>
                   <td className="border p-1 text-center">{safe(game.L)}</td>
