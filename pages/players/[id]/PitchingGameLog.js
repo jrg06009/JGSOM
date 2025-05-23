@@ -25,7 +25,7 @@ const PitchingGameLog = () => {
       <table className="w-full text-sm border border-collapse">
         <thead>
           <tr className="bg-gray-100 text-xs">
-            {["G #","Date","Team","Opponent","GS","Decision","IP","H","R","ER","HR","BB","IBB","SO","HBP","BK","WP","ERA","WHIP"].map(stat => (
+            {["G #","Date","Team","Opponent","Role","Decision","IP","H","R","ER","HR","BB","IBB","SO","HBP","BK","WP","ERA","WHIP"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
@@ -73,7 +73,7 @@ const PitchingGameLog = () => {
                     <img src={`/logos/${oppAbbr}.png`} alt={oppAbbr} className="w-5 h-5 inline-block mr-1" />
                     {oppAbbr}
                   </td>
-                  <td className="border p-1 text-center">{safe(game.GS)}</td>
+                  <td className="border p-1 text-center">{(game.GS > 0 ? "Starter" : "Reliever")}</td>
                   <td className="border p-1 text-center">{(() => {
                     const w = safe(game.W), l = safe(game.L), sv = safe(game.SV);
                     if (w) return `W (${w}-${l})`;
