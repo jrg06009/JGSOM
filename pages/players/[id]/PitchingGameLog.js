@@ -25,7 +25,7 @@ const PitchingGameLog = () => {
       <table className="w-full text-sm border border-collapse">
         <thead>
           <tr className="bg-gray-100 text-xs">
-            {["G","Date","Team","Opponent","GS","W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against","SO against","HBP","BK","WP","SB against","CS against"].map(stat => (
+            {["G","Date","Team","Opponent","GS","W","L","SV","IP","H","R","ER","HR","BB","IBB","SO","HBP","BK","WP","SB","CS"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
