@@ -25,10 +25,11 @@ const BattingGameLog = () => {
       <table className="w-full text-sm border border-collapse">
         <thead>
           <tr className="bg-gray-100 text-xs">
+            <th className="border p-1 text-center">Game #</th>
             <th className="border p-1 text-center">Date</th>
             <th className="border p-1 text-center">Team</th>
             <th className="border p-1 text-center">Opponent</th>
-            {["G","PA","AB","R","H","2B","3B","HR","RBI","SB","CS","BB","SO","AVG","OBP","SLG","OPS","TB","GDP","HBP","SH","SF","IBB"].map(stat => (
+            {["Role","PA","AB","R","H","2B","3B","HR","RBI","SB","CS","BB","SO","AVG","OBP","SLG","OPS","TB","GDP","HBP","SH","SF","IBB"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
@@ -36,7 +37,7 @@ const BattingGameLog = () => {
         </thead>
         <tbody>
           {(() => {
-            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0
+            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0, let g = 0
 
             return games.map((game, i) => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
@@ -46,6 +47,7 @@ const BattingGameLog = () => {
                     .toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
                 : '—'
 
+              const gs = safe(game.GS)
               const ab = safe(game.AB)
               const h = safe(game.H)
               const _2b = safe(game["2B"])
@@ -85,13 +87,14 @@ const BattingGameLog = () => {
 
               return (
                 <tr key={i} className="text-xs">
+                  <td className="border p-1 text-center">{++g}</td>
                   <td className="border p-1 text-center">{date}</td>
                   <td className="border p-1 text-center">{game.Team}</td>
                   <td className="border p-1 text-center">
                     <img src={`/logos/${oppAbbr}.png`} alt={oppAbbr} className="w-5 h-5 inline-block mr-1" />
                     {oppAbbr}
                   </td>
-                  <td className="border p-1 text-center">1</td>
+                  <td className="border p-1 text-center">{(game.GS > 0 ? "Starter" : "Sub")}</td>
                   <td className="border p-1 text-center">{ab + bb + hbp + sf}</td>
                   <td className="border p-1 text-center">{ab}</td>
                   <td className="border p-1 text-center">{safe(game.R)}</td>
