@@ -57,6 +57,9 @@ const PitchingGameLog = () => {
               totER += er
               totH += safe(game['H allowed'])
               totBB += safe(game['BB against'])
+              totW += safe(game.W)
+              totL += safe(game.L)
+              totS += safe(game.S)
 
               const oppAbbr = (() => {
                 const id = game["Game ID"] || ""
@@ -76,9 +79,9 @@ const PitchingGameLog = () => {
                   <td className="border p-1 text-center">{(game.GS > 0 ? "Starter" : "Reliever")}</td>
                   <td className="border p-1 text-center">{(() => {
                     const w = safe(game.W), l = safe(game.L), sv = safe(game.SV);
-                    if (w) return <span className="text-green-600 font-semibold">W ({w}-{l})</span>;
-                    if (l) return <span className="text-red-600 font-semibold">L ({w}-{l})</span>;
-                    if (sv) return <span className="text-blue-600 font-semibold">S ({sv})</span>;
+                    if (w) return <span className="text-green-600 font-semibold">W ({totW}-{totL})</span>;
+                    if (l) return <span className="text-red-600 font-semibold">L ({totW}-{totL})</span>;
+                    if (sv) return <span className="text-blue-600 font-semibold">S ({totS})</span>;
                     return "";
                   })()}
                   </td>
