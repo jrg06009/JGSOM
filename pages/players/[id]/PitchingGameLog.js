@@ -28,7 +28,7 @@ const PitchingGameLog = () => {
             <th className="border p-1 text-center">Date</th>
             <th className="border p-1 text-center">Team</th>
             <th className="border p-1 text-center">Opponent</th>
-            {["G","W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against","SO against","HBP","BK","WP","SB against","CS against"].map(stat => (
+            {["G","GS","W","L","SV","IP","H allowed","R against","ER","HR allowed","BB against","IBB against","SO against","HBP","BK","WP","SB against","CS against"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
@@ -74,6 +74,7 @@ const PitchingGameLog = () => {
                     {oppAbbr}
                   </td>
                   <td className="border p-1 text-center">1</td>
+                  <td className="border p-1 text-center">{safe(game.GS)}</td>
                   <td className="border p-1 text-center">{safe(game.W)}</td>
                   <td className="border p-1 text-center">{safe(game.L)}</td>
                   <td className="border p-1 text-center">{safe(game.SV)}</td>
