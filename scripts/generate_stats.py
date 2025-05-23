@@ -698,7 +698,7 @@ for _, row in gamelog_df.iterrows():
     if not pd.isna(bop) and bop > 0:
         entry = meta.copy()
         for stat in [
-            "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "IBB", "SO", "SB", "CS", "GDP",
+            "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "IBB", "SO", "SB", "CS", "GDP",
             "HBP", "SH", "SF"
         ]:
             if not pd.isna(row.get(stat)):
@@ -710,7 +710,7 @@ for _, row in gamelog_df.iterrows():
         entry = meta.copy()
         entry["IP"] = row.get("IP")
         for stat in [
-            "W", "L", "SV", "H allowed", "R against", "ER", "HR allowed",
+            "GS", "W", "L", "SV", "H allowed", "R against", "ER", "HR allowed",
             "BB against", "IBB against", "SO against", "HBP against", "BK", "WP"
         ]:
             if not pd.isna(row.get(stat)):
