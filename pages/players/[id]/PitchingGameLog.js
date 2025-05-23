@@ -39,7 +39,9 @@ const PitchingGameLog = () => {
             let totIP = 0, totER = 0
 
             const parseIP = (ipStr) => {
-              const [whole, frac] = ipStr.split('.').map(Number)
+              const parts = String(ipStr).split('.')
+              const whole = parseInt(parts[0] || '0', 10)
+              const frac = parseInt(parts[1] || '0', 10)
               return whole + (frac === 1 ? 1/3 : frac === 2 ? 2/3 : 0)
             }
 
