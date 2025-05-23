@@ -41,7 +41,7 @@ const PitchingGameLog = () => {
               const frac = parseInt(parts[1] || '0', 10)
               return whole + (frac === 1 ? 1/3 : frac === 2 ? 2/3 : 0)
             }
-            let g = 0, totH = 0, totBB = 0
+            let g = 0, totH = 0, totBB = 0, totW = 0, totL = 0, totS = 0
             return games.map((game, i) => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
               const rawDate = game["Game ID"]?.split('_')[0]
