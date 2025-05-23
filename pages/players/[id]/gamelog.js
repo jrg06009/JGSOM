@@ -128,6 +128,7 @@ const BattingGameLog = () => {
               </tr>
             })
           })()}
+          })()}            
         </tbody>
       </table>
     </div>
