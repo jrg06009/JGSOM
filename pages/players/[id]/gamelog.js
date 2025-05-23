@@ -37,7 +37,7 @@ const BattingGameLog = () => {
           {(() => {
             let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0
       
-            return games.map((game, i) => {
+    return games.map((game, i) => {
             const safe = (val) => (val !== undefined && val !== null ? val : 0)
             const rawDate = game.Date?.split(' ')[0] || ''
             const fallbackDate = game["Game ID"]?.split('_')[0] // "19990404"
@@ -127,7 +127,7 @@ const BattingGameLog = () => {
                 </td>
               </tr>
             })
-          })()}           
+          })()}
         </tbody>
       </table>
     </div>
