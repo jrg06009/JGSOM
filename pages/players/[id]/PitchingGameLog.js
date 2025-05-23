@@ -25,7 +25,7 @@ const PitchingGameLog = () => {
       <table className="w-full text-sm border border-collapse">
         <thead>
           <tr className="bg-gray-100 text-xs">
-            {["G","Date","Team","Opponent","GS","W","L","SV","IP","H","R","ER","HR","BB","IBB","SO","HBP","BK","WP","SB","CS"].map(stat => (
+            {["G #","Date","Team","Opponent","GS","Decision","IP","H","R","ER","HR","BB","IBB","SO","HBP","BK","WP","ERA","WHIP"].map(stat => (
               <th key={stat} className="border p-1 text-center">{stat}</th>
             ))}
             <th className="border p-1 text-center">Boxscore</th>
@@ -41,7 +41,7 @@ const PitchingGameLog = () => {
               const frac = parseInt(parts[1] || '0', 10)
               return whole + (frac === 1 ? 1/3 : frac === 2 ? 2/3 : 0)
             }
-            let g=0
+            let g = 0, totH = 0, totBB = 0
             return games.map((game, i) => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
               const rawDate = game["Game ID"]?.split('_')[0]
@@ -55,6 +55,8 @@ const PitchingGameLog = () => {
 
               totIP += ip
               totER += er
+              totH += safe(game['H'])
+              totBB += safe(game['BB'])
 
               const oppAbbr = (() => {
                 const id = game["Game ID"] || ""
@@ -72,9 +74,14 @@ const PitchingGameLog = () => {
                     {oppAbbr}
                   </td>
                   <td className="border p-1 text-center">{safe(game.GS)}</td>
-                  <td className="border p-1 text-center">{safe(game.W)}</td>
-                  <td className="border p-1 text-center">{safe(game.L)}</td>
-                  <td className="border p-1 text-center">{safe(game.SV)}</td>
+                  <td className="border p-1 text-center">{(() => {
+                    const w = safe(game.W), l = safe(game.L), sv = safe(game.SV);
+                    if (w) return `W (${w}-${l})`;
+                    if (l) return `L (${w}-${l})`;
+                    if (sv) return `S (${sv})`;
+                    return "";
+                  })()}
+                  </td>
                   <td className="border p-1 text-center">{game.IP || '0.0'}</td>
                   <td className="border p-1 text-center">{safe(game["H allowed"])}</td>
                   <td className="border p-1 text-center">{safe(game["R against"])}</td>
@@ -86,8 +93,8 @@ const PitchingGameLog = () => {
                   <td className="border p-1 text-center">{safe(game.HBP)}</td>
                   <td className="border p-1 text-center">{safe(game.BK)}</td>
                   <td className="border p-1 text-center">{safe(game.WP)}</td>
-                  <td className="border p-1 text-center">{safe(game["SB against"])}</td>
-                  <td className="border p-1 text-center">{safe(game["CS against"])}</td>
+                  <td className="border p-1 text-center">{(totIP > 0 ? (totER * 9 / totIP).toFixed(2) : "--")}</td>  
+                  <td className="border p-1 text-center">{(totIP > 0 ? ((totH + totBB) / (totIP).toFixed(2) : "--")}</td>
                   <td className="border p-1 text-center">
                     <Link href={`/boxscores/${game["Game ID"]}`} className="text-blue-600 underline hover:text-blue-800">
                       View
