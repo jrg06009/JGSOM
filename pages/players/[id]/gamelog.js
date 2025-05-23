@@ -40,9 +40,15 @@ const BattingGameLog = () => {
             return games.map((game, i) => {
             const safe = (val) => (val !== undefined && val !== null ? val : 0)
             const rawDate = game.Date?.split(' ')[0] || ''
+            const fallbackDate = game["Game ID"]?.split('_')[0] // "19990404"
+            const fallbackFormatted = fallbackDate
+              ? new Date(`${fallbackDate.slice(0, 4)}-${fallbackDate.slice(4, 6)}-${fallbackDate.slice(6, 8)}`)
+                .toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
+              : '—'
+
             const date = rawDate
               ? new Date(rawDate).toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
-              : '—'
+              : fallbackFormatted
     
             const ab = safe(game.AB)
             const h = safe(game.H)
