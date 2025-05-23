@@ -34,7 +34,10 @@ const BattingGameLog = () => {
           </tr>
         </thead>
         <tbody>
-            {games.map((game, i) => {
+          {(() => {
+            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0
+      
+            return games.map((game, i) => {
             const safe = (val) => (val !== undefined && val !== null ? val : 0)
             const rawDate = game.Date?.split(' ')[0] || ''
             const date = rawDate
@@ -60,8 +63,6 @@ const BattingGameLog = () => {
             const pa = ab + bb + hbp + sf
             const _1b = h - _2b - _3b - hr
             const tb = _1b + (_2b * 2) + (_3b * 3) + (hr * 4)
-
-            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0
             
             totAB += ab
             totH += h
@@ -119,8 +120,8 @@ const BattingGameLog = () => {
                   </Link>
                 </td>
               </tr>
-            )
-          })}
+            })
+          })()}
         </tbody>
       </table>
     </div>
