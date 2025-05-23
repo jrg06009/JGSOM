@@ -126,7 +126,7 @@ const BattingGameLog = () => {
                   </Link>
                 </td>
               </tr>
-            })
+            })}
           })()}
         </tbody>
       </table>
