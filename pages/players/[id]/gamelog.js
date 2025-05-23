@@ -37,7 +37,7 @@ const BattingGameLog = () => {
         </thead>
         <tbody>
           {(() => {
-            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0, let g = 0
+            let totAB = 0, totH = 0, totBB = 0, totHBP = 0, totSF = 0, totTB = 0, g = 0
 
             return games.map((game, i) => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
