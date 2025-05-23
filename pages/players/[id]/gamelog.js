@@ -42,7 +42,7 @@ const BattingGameLog = () => {
               const safe = (val) => (val !== undefined && val !== null ? val : 0)
               const rawDate = game["Game ID"]?.split('_')[0]
               const date = rawDate
-                ? new Date(\`\${rawDate.slice(0, 4)}-\${rawDate.slice(4, 6)}-\${rawDate.slice(6, 8)}\`)
+                ? new Date(`${rawDate.slice(0, 4)}-${rawDate.slice(4, 6)}-${rawDate.slice(6, 8)}`)
                     .toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
                 : '—'
 
