@@ -94,7 +94,7 @@ const PitchingGameLog = () => {
                   <td className="border p-1 text-center">{safe(game.BK)}</td>
                   <td className="border p-1 text-center">{safe(game.WP)}</td>
                   <td className="border p-1 text-center">{(totIP > 0 ? (totER * 9 / totIP).toFixed(2) : "--")}</td>  
-                  <td className="border p-1 text-center">{(totIP > 0 ? ((totH + totBB) / (totIP).toFixed(2) : "--")}</td>
+                  <td className="border p-1 text-center">{(totIP > 0 ? ((totH + totBB) / (totIP)).toFixed(2) : "--")}</td>
                   <td className="border p-1 text-center">
                     <Link href={`/boxscores/${game["Game ID"]}`} className="text-blue-600 underline hover:text-blue-800">
                       View
