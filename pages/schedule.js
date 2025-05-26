@@ -23,11 +23,8 @@ export async function getStaticProps() {
     const save = allPitchers.find(p => p.SV > 0)
     wlMap[gameId] = {
       winner: win?.Player || "",
-      winnerId: win?.["Player ID"] || "",
       loser: loss?.Player || "",
-      loserId: loss?.["Player ID"] || "",
       save: save?.Player || "",
-      saveId: save?.["Player ID"] || ""
     }
       // Load pitching game log and build to-date W/L/S lookup
   const pitchingLogPath = path.join(process.cwd(), 'data', 'stats', 'pitching_log.json')
@@ -176,7 +173,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.winner && (
                       <>
-                        <a href={`/players/${g.winnerID}`} className="text-green-600 hover:underline">{g.winner}</a>
+                        <span className="text-green-600 font-medium"">{g.winner}</span>
                         {g.winnerStats && ` (${g.winnerStats.W}-${g.winnerStats.L})`}
                       </>
                     )}
@@ -184,7 +181,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.loser && (
                       <>
-                        <a href={`/players/${g.loserID}`} className="text-red-600 hover:underline">{g.loser}</a>
+                        <span className="text-red-600 font-medium">{g.loser}</span>
                         {g.loserStats && ` (${g.loserStats.W}-${g.loserStats.L})`}
                       </>    
                     )}
@@ -192,7 +189,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.save && (
                       <>
-                        <a href={`/players/${g.saveID}`} className="text-blue-600 hover:underline">{g.save}</a>
+                        <span className="text-blue-600 font-medium">{g.save}</span>
                         {g.saveStats && ` (${g.saveStats.SV})`}
                       </>
                      )}
