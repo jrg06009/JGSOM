@@ -173,7 +173,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.winner && (
                       <>
-                        <span className="text-green-600 font-medium"">{g.winner}</span>
+                        {g.winner}
                         {g.winnerStats && ` (${g.winnerStats.W}-${g.winnerStats.L})`}
                       </>
                     )}
@@ -181,7 +181,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.loser && (
                       <>
-                        <span className="text-red-600 font-medium">{g.loser}</span>
+                        {g.loser}
                         {g.loserStats && ` (${g.loserStats.W}-${g.loserStats.L})`}
                       </>    
                     )}
@@ -189,7 +189,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.save && (
                       <>
-                        <span className="text-blue-600 font-medium">{g.save}</span>
+                        {g.save}
                         {g.saveStats && ` (${g.saveStats.SV})`}
                       </>
                      )}
