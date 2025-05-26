@@ -93,6 +93,18 @@ export default function PlayerPage() {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">{name}</h1>
+      <div className="mb-4 space-x-4">
+        {bat.length > 0 && (
+          <Link href={`/players/${id}/gamelog`}>
+            <a className="text-blue-600 underline hover:text-blue-800">View Batting Game Log</a>
+          </Link>
+        )}
+        {pit.length > 0 && (
+          <Link href={`/players/${id}/PitchingGameLog`}>
+            <a className="text-blue-600 underline hover:text-blue-800">View Pitching Game Log</a>
+          </Link>
+        )}
+      </div>
       {bat.length > 0 && renderTable("Batting", bat, [
         'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
       ])}
