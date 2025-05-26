@@ -26,7 +26,57 @@ export async function getStaticProps() {
       loser: loss?.Player || "",
       save: save?.Player || ""
     }
+      // Load pitching game log and build to-date W/L/S lookup
+  const pitchingLogPath = path.join(process.cwd(), 'data', 'stats', 'pitching_log.json')
+  const pitchingRaw = fs.readFileSync(pitchingLogPath, 'utf8')
+  const pitchingLog = JSON.parse(pitchingRaw)
+
+  // Build cumulative stats by player
+  const pitcherStatsMap = {}
+  for (const game of pitchingLog) {
+    const pid = game["Player ID"]
+    const gameId = game["Game ID"]
+    const date = gameId?.split('_')[0]
+    const w = game.W || 0
+    const l = game.L || 0
+    const sv = game.SV || 0
+    const player = game.Player
+    if (!pid || !gameId || !date || !player) continue
+
+    if (!pitcherStatsMap[pid]) pitcherStatsMap[pid] = []
+    pitcherStatsMap[pid].push({ gameId, date, player, W: w, L: l, SV: sv })
   }
+
+  // Create a lookup for (gameId, player) → cumulative totals (including game day)
+  const logLookup = {}
+  for (const pid in pitcherStatsMap) {
+    const games = pitcherStatsMap[pid].sort((a, b) => a.date.localeCompare(b.date))
+    let w = 0, l = 0, sv = 0
+    for (const g of games) {
+      w += g.W
+      l += g.L
+      sv += g.SV
+      logLookup[`${g.gameId}_${g.player}`] = { W: w, L: l, SV: sv }
+    }
+  }
+
+  // Merge W/L/S into schedule objects
+  for (const g of schedule) {
+    if (g.completed && g.id && wlMap[g.id]) {
+      const win = wlMap[g.id]?.winner
+      const loss = wlMap[g.id]?.loser
+      const save = wlMap[g.id]?.save
+
+      g.winner = win
+      g.loser = loss
+      g.save = save
+      g.winnerStats = win ? logLookup[`${g.id}_${win}`] : null
+      g.loserStats = loss ? logLookup[`${g.id}_${loss}`] : null
+      g.saveStats = save ? logLookup[`${g.id}_${save}`] : null
+    }
+  }
+}
+
 
   // Add W/L/S to each completed game
   for (const g of schedule) {
@@ -117,9 +167,30 @@ const SchedulePage = ({ schedule }) => {
                       <span className="text-gray-500 italic">Scheduled</span>
                     )}
                   </td>
-                  <td className="border p-2 text-center">{g.winner || ""}</td>    
-                  <td className="border p-2 text-center">{g.loser || ""}</td>
-                  <td className="border p-2 text-center">{g.save || ""}</td>
+                  <td className="border p-2 text-center">
+                    {g.winner && (
+                      <>
+                        <a href={`/players/${g.winner}`} className="text-green-600 hover:underline">{g.winner}</a>
+                        {g.winnerStats && ` (${g.winnerStats.W}-${g.winnerStats.L})`}
+                      </>
+                    )}
+                  </td>   
+                  <td className="border p-2 text-center">
+                    {g.loser && (
+                      <>
+                        <a href={`/players/${g.loser}`} className="text-red-600 hover:underline">{g.loser}</a>
+                        {g.loserStats && ` (${g.loserStats.W}-${g.loserStats.L})`}
+                      </>    
+                    )}
+                  </td>
+                  <td className="border p-2 text-center">
+                    {g.save && (
+                      <>
+                        <a href={`/players/${g.save}`} className="text-blue-600 hover:underline">{g.save}</a>
+                        {g.saveStats && ` (${g.saveStats.SV})`}
+                      </>
+                     )}
+                  </td>
                 </tr>
               ))}
             </tbody>
