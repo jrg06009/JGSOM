@@ -23,8 +23,11 @@ export async function getStaticProps() {
     const save = allPitchers.find(p => p.SV > 0)
     wlMap[gameId] = {
       winner: win?.Player || "",
+      winnerId: win?.["Player ID"] || "",
       loser: loss?.Player || "",
-      save: save?.Player || ""
+      loserId: loss?.["Player ID"] || "",
+      save: save?.Player || "",
+      saveId: save?.["Player ID"] || ""
     }
       // Load pitching game log and build to-date W/L/S lookup
   const pitchingLogPath = path.join(process.cwd(), 'data', 'stats', 'pitching_log.json')
@@ -68,8 +71,11 @@ export async function getStaticProps() {
       const save = wlMap[g.id]?.save
 
       g.winner = win
+      g.winnerId = wlMap[g.id]?.winnerId || ""
       g.loser = loss
+      g.loserId = wlMap[g.id]?.loserId || ""
       g.save = save
+      g.saveId = wlMap[g.id]?.saveId || ""
       g.winnerStats = win ? logLookup[`${g.id}_${win}`] : null
       g.loserStats = loss ? logLookup[`${g.id}_${loss}`] : null
       g.saveStats = save ? logLookup[`${g.id}_${save}`] : null
@@ -170,7 +176,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.winner && (
                       <>
-                        <a href={`/players/${g.winner}`} className="text-green-600 hover:underline">{g.winner}</a>
+                        <a href={`/players/${g.winnerID}`} className="text-green-600 hover:underline">{g.winner}</a>
                         {g.winnerStats && ` (${g.winnerStats.W}-${g.winnerStats.L})`}
                       </>
                     )}
@@ -178,7 +184,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.loser && (
                       <>
-                        <a href={`/players/${g.loser}`} className="text-red-600 hover:underline">{g.loser}</a>
+                        <a href={`/players/${g.loserID}`} className="text-red-600 hover:underline">{g.loser}</a>
                         {g.loserStats && ` (${g.loserStats.W}-${g.loserStats.L})`}
                       </>    
                     )}
@@ -186,7 +192,7 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2 text-center">
                     {g.save && (
                       <>
-                        <a href={`/players/${g.save}`} className="text-blue-600 hover:underline">{g.save}</a>
+                        <a href={`/players/${g.saveID}`} className="text-blue-600 hover:underline">{g.save}</a>
                         {g.saveStats && ` (${g.saveStats.SV})`}
                       </>
                      )}
