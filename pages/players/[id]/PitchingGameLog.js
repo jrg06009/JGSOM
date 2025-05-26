@@ -6,6 +6,14 @@ import teams from '../../../data/teams.json'
 
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 
+const formatIP = num => {
+  const whole = Math.floor(num)
+  const decimal = num - whole
+  if (Math.abs(decimal - 2 / 3) < 0.01) return `${whole}.2`
+  if (Math.abs(decimal - 1 / 3) < 0.01) return `${whole}.1`
+  return `${whole}`
+}
+
 const PitchingGameLog = () => {
   const router = useRouter()
   const { id } = router.query
@@ -85,7 +93,7 @@ const PitchingGameLog = () => {
                     return "";
                   })()}
                   </td>
-                  <td className="border p-1 text-center">{game.IP || '0.0'}</td>
+                  <td className="border p-1 text-center">{formatIP(game.IP || '0.0')}</td>
                   <td className="border p-1 text-center">{safe(game["H allowed"])}</td>
                   <td className="border p-1 text-center">{safe(game["R against"])}</td>
                   <td className="border p-1 text-center">{er}</td>
