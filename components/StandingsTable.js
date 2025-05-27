@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function StandingsTable({ standings, teams, useFullName = false, hideLeagueHeaders = false }) {
   // Create a lookup for team ID to team name
   const teamMap = {}
-  teams.forEach(team => {
+  if (Array.isArray(teams)) teams.forEach(team => {
     teamMap[team.id] = team.name
   })
 
