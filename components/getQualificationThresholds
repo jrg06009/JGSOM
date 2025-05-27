@@ -1,6 +1,8 @@
 import standings from '../data/stats/standings.json'
 
 export function getQualificationThresholds() {
+  if (!Array.isArray(standings)) return {}
+
   const thresholds = {}
   standings.forEach(({ team, W, L }) => {
     const games = W + L
