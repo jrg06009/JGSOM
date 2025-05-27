@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
-import { getQualificationThresholds } from '../lib/getQualificationThresholds'
+import { getQualificationThresholds } from '../components/getQualificationThresholds'
 
 export async function getStaticProps() {
   const fs = await import('fs')
