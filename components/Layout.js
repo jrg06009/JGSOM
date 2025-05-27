@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState, useEffect, useRef } from 'react'
-import players from '../data/stats/players_index.json'
+import playersData from '../data/stats/players_index.json'
 
 const divisions = {
   'AL East': [
@@ -61,7 +61,7 @@ export default function Layout({ children }) {
       setActiveIndex(-1)
     } else {
       const lower = query.toLowerCase()
-      const results = players
+      const results = playersData
         .filter(p => 
           p.name.toLowerCase().includes(lower) ||
           p.first.toLowerCase().includes(lower) ||
@@ -71,7 +71,7 @@ export default function Layout({ children }) {
       setFiltered(results)
       setActiveIndex(-1)
     }
-  }, [query, players])
+  }, [query])
 
   const handleSelect = (id) => {
     setQuery("")
