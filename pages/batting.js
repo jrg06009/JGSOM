@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
+import { getQualificationThresholds } from '../lib/getQualificationThresholds'
 
 export async function getStaticProps() {
   const fs = await import('fs')
@@ -19,6 +20,7 @@ export default function BattingPage({ data, teamToLeague }) {
   const [showQualified, setShowQualified] = useState(true)
   const [showSplit, setShowSplit] = useState(false)
   const [league, setLeague] = useState('All')
+  const thresholds = getQualificationThresholds()
 
   const formatRate = (val) => {
     const num = parseFloat(val)
@@ -28,7 +30,9 @@ export default function BattingPage({ data, teamToLeague }) {
 
   const filteredData = data.filter(player => {
     const pa = parseInt(player.PA || 0, 10)
-    const isQualified = !showQualified || pa >= 10
+    const team = player.team
+    const teamThreshold = thresholds[team]?.PA ?? 0
+    const isQualified = !showQualified || pa >= teamThreshold
     const isSplitOK =
       showSplit ||
       player.team === 'TOT' ||
