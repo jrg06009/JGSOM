@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState, useEffect, useRef } from 'react'
+import players from '../data/stats/players_index.json'
 
 const divisions = {
   'AL East': [
@@ -55,22 +56,20 @@ export default function Layout({ children }) {
   const [filtered, setFiltered] = useState([])
   const [activeIndex, setActiveIndex] = useState(-1)
 
-  useEffect(() => {
-    async function fetchPlayers() {
-      const res = await fetch('/data/stats/players_combined.json')
-      const data = await res.json()
-      setPlayers(data)
-    }
-    fetchPlayers()
-  }, [])
+const [players] = useState(players)
 
   useEffect(() => {
     if (query.length === 0) {
       setFiltered([])
       setActiveIndex(-1)
     } else {
+      const lower = query.toLowerCase()
       const results = players
-        .filter(p => p.name.toLowerCase().includes(query.toLowerCase()))
+        .filter(p => 
+          p.name.toLowerCase().includes(lower) ||
+          p.first.toLowerCase().includes(lower) ||
+          p.last.toLowerCase().includes(lower)
+        )
         .slice(0, 10)
       setFiltered(results)
       setActiveIndex(-1)
@@ -164,7 +163,7 @@ export default function Layout({ children }) {
               {filtered.length > 0 && (
                 <ul className="absolute mt-1 w-full bg-white text-black border border-gray-300 rounded shadow-md max-h-64 overflow-y-auto z-50">
                   {filtered.map((player, idx) => {
-                    const team = (player.batting?.[0]?.team || player.pitching?.[0]?.team || player.fielding?.[0]?.team || "").toUpperCase()
+                    const team = player.teams?.join("/") || "TBD"
                     return (
                       <li
                         key={player.id}
