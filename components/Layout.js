@@ -51,12 +51,9 @@ const divisions = {
 export default function Layout({ children }) {
   const router = useRouter()
   const [showTeams, setShowTeams] = useState(false)
-  const [players, setPlayers] = useState([])
   const [query, setQuery] = useState("")
   const [filtered, setFiltered] = useState([])
   const [activeIndex, setActiveIndex] = useState(-1)
-
-const [players] = useState(players)
 
   useEffect(() => {
     if (query.length === 0) {
