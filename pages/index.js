@@ -3,6 +3,15 @@ import path from 'path'
 import Link from 'next/link'
 import StandingsTable from '../components/StandingsTable'
 
+function safeLoad(filePath) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'))
+  } catch (e) {
+    console.warn(`Warning: Could not load ${filePath}`)
+    return []
+  }
+}
+
 export async function getStaticProps() {
   const dataDir = path.join(process.cwd(), 'data', 'stats')
 
