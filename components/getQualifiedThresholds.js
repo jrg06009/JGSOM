@@ -1,0 +1,14 @@
+import standings from '../data/stats/standings.json'
+
+export function getQualificationThresholds() {
+  const thresholds = {}
+  standings.forEach(({ team, W, L }) => {
+    const games = W + L
+    thresholds[team] = {
+      PA: +(3.1 * games).toFixed(1),
+      IP: +(1.0 * games).toFixed(1),
+      G: Math.ceil(0.67 * games),
+    }
+  })
+  return thresholds
+}
