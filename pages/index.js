@@ -15,11 +15,11 @@ function safeLoad(filePath) {
 export async function getStaticProps() {
   const dataDir = path.join(process.cwd(), 'data', 'stats')
 
-  const standings = JSON.parse(fs.readFileSync(path.join(dataDir, 'standings.json'), 'utf8'))
-  const schedule = JSON.parse(fs.readFileSync(path.join(dataDir, 'schedule.json'), 'utf8'))
-  const linescores = JSON.parse(fs.readFileSync(path.join(dataDir, 'linescores.json'), 'utf8'))
-  const batting = JSON.parse(fs.readFileSync(path.join(dataDir, 'batting.json'), 'utf8'))
-  const pitching = JSON.parse(fs.readFileSync(path.join(dataDir, 'pitching.json'), 'utf8'))
+  const standings = safeLoad(path.join(dataDir, 'standings.json'))
+  const schedule = safeLoad(path.join(dataDir, 'schedule.json'))
+  const linescores = safeLoad(path.join(dataDir, 'linescores.json'))
+  const batting = safeLoad(path.join(dataDir, 'batting.json'))
+  const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
 
   return {
     props: {
