@@ -1,0 +1,9764 @@
+{
+  "abbotje01": {
+    "name": "Jeff Abbott",
+    "first": "Jeff",
+    "last": "Abbott",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "abbotji01": {
+    "name": "Jim Abbott",
+    "first": "Jim",
+    "last": "Abbott",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "abbotku01": {
+    "name": "Kurt Abbott",
+    "first": "Kurt",
+    "last": "Abbott",
+    "teams": [
+      "COL"
+    ]
+  },
+  "abbotpa01": {
+    "name": "Paul Abbott",
+    "first": "Paul",
+    "last": "Abbott",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "abreubo01": {
+    "name": "Bobby Abreu",
+    "first": "Bobby",
+    "last": "Abreu",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "aceveju01": {
+    "name": "Juan Acevedo",
+    "first": "Juan",
+    "last": "Acevedo",
+    "teams": [
+      "STL"
+    ]
+  },
+  "adamste01": {
+    "name": "Terry Adams",
+    "first": "Terry",
+    "last": "Adams",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "agbaybe01": {
+    "name": "Benny Agbayani",
+    "first": "Benny",
+    "last": "Agbayani",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "aguilri01": {
+    "name": "Rick Aguilera",
+    "first": "Rick",
+    "last": "Aguilera",
+    "teams": [
+      "CHC",
+      "MIN"
+    ]
+  },
+  "aldresc01": {
+    "name": "Scott Aldred",
+    "first": "Scott",
+    "last": "Aldred",
+    "teams": [
+      "PHI",
+      "TBD"
+    ]
+  },
+  "alexama02": {
+    "name": "Manny Alexander",
+    "first": "Manny",
+    "last": "Alexander",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "alfonan01": {
+    "name": "Antonio Alfonseca",
+    "first": "Antonio",
+    "last": "Alfonseca",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "alfoned01": {
+    "name": "Edgardo Alfonzo",
+    "first": "Edgardo",
+    "last": "Alfonzo",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "alicelu01": {
+    "name": "Luis Alicea",
+    "first": "Luis",
+    "last": "Alicea",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "allench01": {
+    "name": "Chad Allen",
+    "first": "Chad",
+    "last": "Allen",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "allenje01": {
+    "name": "Jermaine Allensworth",
+    "first": "Jermaine",
+    "last": "Allensworth",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "almanar01": {
+    "name": "Armando Almanza",
+    "first": "Armando",
+    "last": "Almanza",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "almanca01": {
+    "name": "Carlos Almanzar",
+    "first": "Carlos",
+    "last": "Almanzar",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "almonhe01": {
+    "name": "Hector Almonte",
+    "first": "Hector",
+    "last": "Almonte",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "alomaro01": {
+    "name": "Roberto Alomar",
+    "first": "Roberto",
+    "last": "Alomar",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "alomasa02": {
+    "name": "Sandy Alomar",
+    "first": "Sandy",
+    "last": "Alomar",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "alvarga01": {
+    "name": "Gabe Alvarez",
+    "first": "Gabe",
+    "last": "Alvarez",
+    "teams": [
+      "DET"
+    ]
+  },
+  "alvarju01": {
+    "name": "Juan Alvarez",
+    "first": "Juan",
+    "last": "Alvarez",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "alvarwi01": {
+    "name": "Wilson alvarez",
+    "first": "Wilson",
+    "last": "alvarez",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "amarari01": {
+    "name": "Rich Amaral",
+    "first": "Rich",
+    "last": "Amaral",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "anderbr01": {
+    "name": "Brady Anderson",
+    "first": "Brady",
+    "last": "Anderson",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "anderbr02": {
+    "name": "Brian Anderson",
+    "first": "Brian",
+    "last": "Anderson",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "anderga01": {
+    "name": "Garret Anderson",
+    "first": "Garret",
+    "last": "Anderson",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "anderji02": {
+    "name": "Jimmy Anderson",
+    "first": "Jimmy",
+    "last": "Anderson",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "anderma01": {
+    "name": "Matt Anderson",
+    "first": "Matt",
+    "last": "Anderson",
+    "teams": [
+      "DET"
+    ]
+  },
+  "anderma02": {
+    "name": "Marlon Anderson",
+    "first": "Marlon",
+    "last": "Anderson",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "andresh01": {
+    "name": "Shane Andrews",
+    "first": "Shane",
+    "last": "Andrews",
+    "teams": [
+      "CHC",
+      "MON"
+    ]
+  },
+  "ankieri01": {
+    "name": "Rick Ankiel",
+    "first": "Rick",
+    "last": "Ankiel",
+    "teams": [
+      "STL"
+    ]
+  },
+  "appieke01": {
+    "name": "Kevin Appier",
+    "first": "Kevin",
+    "last": "Appier",
+    "teams": [
+      "KCR",
+      "OAK"
+    ]
+  },
+  "ariasal01": {
+    "name": "Alex Arias",
+    "first": "Alex",
+    "last": "Arias",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "ariasge01": {
+    "name": "George Arias",
+    "first": "George",
+    "last": "Arias",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "armasto02": {
+    "name": "Tony Armas",
+    "first": "Tony",
+    "last": "Armas",
+    "teams": [
+      "MON"
+    ]
+  },
+  "arnolja01": {
+    "name": "Jamie Arnold",
+    "first": "Jamie",
+    "last": "Arnold",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "arrojro01": {
+    "name": "Rolando Arrojo",
+    "first": "Rolando",
+    "last": "Arrojo",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "ashbyan01": {
+    "name": "Andy Ashby",
+    "first": "Andy",
+    "last": "Ashby",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "assenpa01": {
+    "name": "Paul Assenmacher",
+    "first": "Paul",
+    "last": "Assenmacher",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "astacpe01": {
+    "name": "Pedro Astacio",
+    "first": "Pedro",
+    "last": "Astacio",
+    "teams": [
+      "COL"
+    ]
+  },
+  "aurilri01": {
+    "name": "Rich Aurilia",
+    "first": "Rich",
+    "last": "Aurilia",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "ausmubr01": {
+    "name": "Brad Ausmus",
+    "first": "Brad",
+    "last": "Ausmus",
+    "teams": [
+      "DET"
+    ]
+  },
+  "avenbr01": {
+    "name": "Bruce Aven",
+    "first": "Bruce",
+    "last": "Aven",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "averyst01": {
+    "name": "Steve Avery",
+    "first": "Steve",
+    "last": "Avery",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "ayalabo01": {
+    "name": "Bobby Ayala",
+    "first": "Bobby",
+    "last": "Ayala",
+    "teams": [
+      "CHC",
+      "MON"
+    ]
+  },
+  "aybarma01": {
+    "name": "Manny Aybar",
+    "first": "Manny",
+    "last": "Aybar",
+    "teams": [
+      "STL"
+    ]
+  },
+  "baergca01": {
+    "name": "Carlos Baerga",
+    "first": "Carlos",
+    "last": "Baerga",
+    "teams": [
+      "CLE",
+      "SDP"
+    ]
+  },
+  "bagweje01": {
+    "name": "Jeff Bagwell",
+    "first": "Jeff",
+    "last": "Bagwell",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "baineha01": {
+    "name": "Harold Baines",
+    "first": "Harold",
+    "last": "Baines",
+    "teams": [
+      "BAL",
+      "CLE"
+    ]
+  },
+  "bakopa01": {
+    "name": "Paul Bako",
+    "first": "Paul",
+    "last": "Bako",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "baldwja01": {
+    "name": "James Baldwin",
+    "first": "James",
+    "last": "Baldwin",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "balejo01": {
+    "name": "John Bale",
+    "first": "John",
+    "last": "Bale",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "banksbr01": {
+    "name": "Brian Banks",
+    "first": "Brian",
+    "last": "Banks",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "barajro01": {
+    "name": "Rod Barajas",
+    "first": "Rod",
+    "last": "Barajas",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "barbebr02": {
+    "name": "Brian Barber",
+    "first": "Brian",
+    "last": "Barber",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "barkegl01": {
+    "name": "Glen Barker",
+    "first": "Glen",
+    "last": "Barker",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "barkeke01": {
+    "name": "Kevin Barker",
+    "first": "Kevin",
+    "last": "Barker",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "barkeri01": {
+    "name": "Richie Barker",
+    "first": "Richie",
+    "last": "Barker",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "barremi01": {
+    "name": "Michael Barrett",
+    "first": "Michael",
+    "last": "Barrett",
+    "teams": [
+      "MON"
+    ]
+  },
+  "barryje01": {
+    "name": "Jeff Barry",
+    "first": "Jeff",
+    "last": "Barry",
+    "teams": [
+      "COL"
+    ]
+  },
+  "barteki01": {
+    "name": "Kimera Bartee",
+    "first": "Kimera",
+    "last": "Bartee",
+    "teams": [
+      "DET"
+    ]
+  },
+  "batismi01": {
+    "name": "Miguel Batista",
+    "first": "Miguel",
+    "last": "Batista",
+    "teams": [
+      "MON"
+    ]
+  },
+  "batisto01": {
+    "name": "Tony Batista",
+    "first": "Tony",
+    "last": "Batista",
+    "teams": [
+      "ARI",
+      "TOR"
+    ]
+  },
+  "battlho01": {
+    "name": "Howard Battle",
+    "first": "Howard",
+    "last": "Battle",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "bautida01": {
+    "name": "Danny Bautista",
+    "first": "Danny",
+    "last": "Bautista",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "beckeri01": {
+    "name": "Rich Becker",
+    "first": "Rich",
+    "last": "Becker",
+    "teams": [
+      "MIL",
+      "OAK"
+    ]
+  },
+  "beckro01": {
+    "name": "Rod Beck",
+    "first": "Rod",
+    "last": "Beck",
+    "teams": [
+      "BOS",
+      "CHC"
+    ]
+  },
+  "belchti01": {
+    "name": "Tim Belcher",
+    "first": "Tim",
+    "last": "Belcher",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "belinst01": {
+    "name": "Stan Belinda",
+    "first": "Stan",
+    "last": "Belinda",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "bellda01": {
+    "name": "David Bell",
+    "first": "David",
+    "last": "Bell",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "bellde01": {
+    "name": "Derek Bell",
+    "first": "Derek",
+    "last": "Bell",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "belleal01": {
+    "name": "Albert Belle",
+    "first": "Albert",
+    "last": "Belle",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "bellicl01": {
+    "name": "Clay Bellinger",
+    "first": "Clay",
+    "last": "Bellinger",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "belliro01": {
+    "name": "Ronnie Belliard",
+    "first": "Ronnie",
+    "last": "Belliard",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "bellja01": {
+    "name": "Jay Bell",
+    "first": "Jay",
+    "last": "Bell",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "beltrad01": {
+    "name": "Adrian Beltre",
+    "first": "Adrian",
+    "last": "Beltre",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "beltrca01": {
+    "name": "Carlos Beltran",
+    "first": "Carlos",
+    "last": "Beltran",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "beltrri01": {
+    "name": "Rigo Beltran",
+    "first": "Rigo",
+    "last": "Beltran",
+    "teams": [
+      "COL",
+      "NYM"
+    ]
+  },
+  "benarma01": {
+    "name": "Marvin Benard",
+    "first": "Marvin",
+    "last": "Benard",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "benesal01": {
+    "name": "Alan Benes",
+    "first": "Alan",
+    "last": "Benes",
+    "teams": [
+      "STL"
+    ]
+  },
+  "benesan01": {
+    "name": "Andy Benes",
+    "first": "Andy",
+    "last": "Benes",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "benitar01": {
+    "name": "Armando Benitez",
+    "first": "Armando",
+    "last": "Benitez",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "benjami01": {
+    "name": "Mike Benjamin",
+    "first": "Mike",
+    "last": "Benjamin",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "bennega01": {
+    "name": "Gary Bennett",
+    "first": "Gary",
+    "last": "Bennett",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "bennejo02": {
+    "name": "Joel Bennett",
+    "first": "Joel",
+    "last": "Bennett",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "bennesh01": {
+    "name": "Shayne Bennett",
+    "first": "Shayne",
+    "last": "Bennett",
+    "teams": [
+      "MON"
+    ]
+  },
+  "bensokr01": {
+    "name": "Kris Benson",
+    "first": "Kris",
+    "last": "Benson",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "bereja01": {
+    "name": "Jason Bere",
+    "first": "Jason",
+    "last": "Bere",
+    "teams": [
+      "CIN",
+      "MIL"
+    ]
+  },
+  "bergda01": {
+    "name": "Dave Berg",
+    "first": "Dave",
+    "last": "Berg",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "bergepe01": {
+    "name": "Peter Bergeron",
+    "first": "Peter",
+    "last": "Bergeron",
+    "teams": [
+      "MON"
+    ]
+  },
+  "bergmse01": {
+    "name": "Sean Bergman",
+    "first": "Sean",
+    "last": "Bergman",
+    "teams": [
+      "ATL",
+      "HOU"
+    ]
+  },
+  "berkmla01": {
+    "name": "Lance Berkman",
+    "first": "Lance",
+    "last": "Berkman",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "berroge01": {
+    "name": "Geronimo Berroa",
+    "first": "Geronimo",
+    "last": "Berroa",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "berryse01": {
+    "name": "Sean Berry",
+    "first": "Sean",
+    "last": "Berry",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "bicheda01": {
+    "name": "Dante Bichette",
+    "first": "Dante",
+    "last": "Bichette",
+    "teams": [
+      "COL"
+    ]
+  },
+  "biggicr01": {
+    "name": "Craig Biggio",
+    "first": "Craig",
+    "last": "Biggio",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "billibr01": {
+    "name": "Brent Billingsley",
+    "first": "Brent",
+    "last": "Billingsley",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "blairwi01": {
+    "name": "Willie Blair",
+    "first": "Willie",
+    "last": "Blair",
+    "teams": [
+      "DET"
+    ]
+  },
+  "blakeca01": {
+    "name": "Casey Blake",
+    "first": "Casey",
+    "last": "Blake",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "blanche01": {
+    "name": "Henry Blanco",
+    "first": "Henry",
+    "last": "Blanco",
+    "teams": [
+      "COL"
+    ]
+  },
+  "blausje01": {
+    "name": "Jeff Blauser",
+    "first": "Jeff",
+    "last": "Blauser",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "blowemi01": {
+    "name": "Mike Blowers",
+    "first": "Mike",
+    "last": "Blowers",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "blumge01": {
+    "name": "Geoff Blum",
+    "first": "Geoff",
+    "last": "Blum",
+    "teams": [
+      "MON"
+    ]
+  },
+  "bochtdo01": {
+    "name": "Doug Bochtler",
+    "first": "Doug",
+    "last": "Bochtler",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "boehrbr01": {
+    "name": "Brian Boehringer",
+    "first": "Brian",
+    "last": "Boehringer",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "bogarti01": {
+    "name": "Tim Bogar",
+    "first": "Tim",
+    "last": "Bogar",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "boggswa01": {
+    "name": "Wade Boggs",
+    "first": "Wade",
+    "last": "Boggs",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "bohanbr01": {
+    "name": "Brian Bohanon",
+    "first": "Brian",
+    "last": "Bohanon",
+    "teams": [
+      "COL"
+    ]
+  },
+  "bondsba01": {
+    "name": "Barry Bonds",
+    "first": "Barry",
+    "last": "Bonds",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "bonesri01": {
+    "name": "Ricky Bones",
+    "first": "Ricky",
+    "last": "Bones",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "bonilbo01": {
+    "name": "Bobby Bonilla",
+    "first": "Bobby",
+    "last": "Bonilla",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "booneaa01": {
+    "name": "Aaron Boone",
+    "first": "Aaron",
+    "last": "Boone",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "boonebr01": {
+    "name": "Bret Boone",
+    "first": "Bret",
+    "last": "Boone",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "borbope02": {
+    "name": "Pedro Borbon",
+    "first": "Pedro",
+    "last": "Borbon",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "bordepa01": {
+    "name": "Pat Borders",
+    "first": "Pat",
+    "last": "Borders",
+    "teams": [
+      "CLE",
+      "TOR"
+    ]
+  },
+  "bordimi01": {
+    "name": "Mike Bordick",
+    "first": "Mike",
+    "last": "Bordick",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "borkoda01": {
+    "name": "Dave Borkowski",
+    "first": "Dave",
+    "last": "Borkowski",
+    "teams": [
+      "DET"
+    ]
+  },
+  "bottari01": {
+    "name": "Ricky Bottalico",
+    "first": "Ricky",
+    "last": "Bottalico",
+    "teams": [
+      "STL"
+    ]
+  },
+  "botteke01": {
+    "name": "Kent Bottenfield",
+    "first": "Kent",
+    "last": "Bottenfield",
+    "teams": [
+      "STL"
+    ]
+  },
+  "bournra01": {
+    "name": "Rafael Bournigal",
+    "first": "Rafael",
+    "last": "Bournigal",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "bowiemi01": {
+    "name": "Micah Bowie",
+    "first": "Micah",
+    "last": "Bowie",
+    "teams": [
+      "ATL",
+      "CHC"
+    ]
+  },
+  "boydja02": {
+    "name": "Jason Boyd",
+    "first": "Jason",
+    "last": "Boyd",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "bradfch01": {
+    "name": "Chad Bradford",
+    "first": "Chad",
+    "last": "Bradford",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "braggda01": {
+    "name": "Darren Bragg",
+    "first": "Darren",
+    "last": "Bragg",
+    "teams": [
+      "STL"
+    ]
+  },
+  "brantje01": {
+    "name": "Jeff Brantley",
+    "first": "Jeff",
+    "last": "Brantley",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "branyru01": {
+    "name": "Russell Branyan",
+    "first": "Russell",
+    "last": "Branyan",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "brewebi01": {
+    "name": "Billy Brewer",
+    "first": "Billy",
+    "last": "Brewer",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "brocado01": {
+    "name": "Doug Brocail",
+    "first": "Doug",
+    "last": "Brocail",
+    "teams": [
+      "DET"
+    ]
+  },
+  "brockch01": {
+    "name": "Chris Brock",
+    "first": "Chris",
+    "last": "Brock",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "brognri01": {
+    "name": "Rico Brogna",
+    "first": "Rico",
+    "last": "Brogna",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "brosisc01": {
+    "name": "Scott Brosius",
+    "first": "Scott",
+    "last": "Brosius",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "broweji01": {
+    "name": "Jim Brower",
+    "first": "Jim",
+    "last": "Brower",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "brownad01": {
+    "name": "Adrian Brown",
+    "first": "Adrian",
+    "last": "Brown",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "brownbr01": {
+    "name": "Brant Brown",
+    "first": "Brant",
+    "last": "Brown",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "brownde02": {
+    "name": "Dee Brown",
+    "first": "Dee",
+    "last": "Brown",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "brownem01": {
+    "name": "Emil Brown",
+    "first": "Emil",
+    "last": "Brown",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "brownke01": {
+    "name": "Kevin Brown",
+    "first": "Kevin",
+    "last": "Brown",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "brownke04": {
+    "name": "Kevin Brown",
+    "first": "Kevin",
+    "last": "Brown",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "brownma04": {
+    "name": "Mark Brownson",
+    "first": "Mark",
+    "last": "Brownson",
+    "teams": [
+      "COL"
+    ]
+  },
+  "brownro02": {
+    "name": "Roosevelt Brown",
+    "first": "Roosevelt",
+    "last": "Brown",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "brumfja01": {
+    "name": "Jacob Brumfield",
+    "first": "Jacob",
+    "last": "Brumfield",
+    "teams": [
+      "LAD",
+      "TOR"
+    ]
+  },
+  "brunswi01": {
+    "name": "Will Brunson",
+    "first": "Will",
+    "last": "Brunson",
+    "teams": [
+      "DET"
+    ]
+  },
+  "buddimi01": {
+    "name": "Mike Buddie",
+    "first": "Mike",
+    "last": "Buddie",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "buforda01": {
+    "name": "Damon Buford",
+    "first": "Damon",
+    "last": "Buford",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "buhneja01": {
+    "name": "Jay Buhner",
+    "first": "Jay",
+    "last": "Buhner",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "bulliki01": {
+    "name": "Kirk Bullinger",
+    "first": "Kirk",
+    "last": "Bullinger",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "bunchme01": {
+    "name": "Melvin Bunch",
+    "first": "Melvin",
+    "last": "Bunch",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "burbada01": {
+    "name": "Dave Burba",
+    "first": "Dave",
+    "last": "Burba",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "burkejo03": {
+    "name": "John Burkett",
+    "first": "John",
+    "last": "Burkett",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "burksel01": {
+    "name": "Ellis Burks",
+    "first": "Ellis",
+    "last": "Burks",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "burnea.01": {
+    "name": "A.J. Burnett",
+    "first": "A.J.",
+    "last": "Burnett",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "burnije01": {
+    "name": "Jeromy Burnitz",
+    "first": "Jeromy",
+    "last": "Burnitz",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "busbymi01": {
+    "name": "Mike Busby",
+    "first": "Mike",
+    "last": "Busby",
+    "teams": [
+      "STL"
+    ]
+  },
+  "bushho01": {
+    "name": "Homer Bush",
+    "first": "Homer",
+    "last": "Bush",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "butleri01": {
+    "name": "Rich Butler",
+    "first": "Rich",
+    "last": "Butler",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "butlero01": {
+    "name": "Rob Butler",
+    "first": "Rob",
+    "last": "Butler",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "byrdati01": {
+    "name": "Tim Byrdak",
+    "first": "Tim",
+    "last": "Byrdak",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "byrdpa01": {
+    "name": "Paul Byrd",
+    "first": "Paul",
+    "last": "Byrd",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "cabrejo01": {
+    "name": "Jose Cabrera",
+    "first": "Jose",
+    "last": "Cabrera",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "cabrejo02": {
+    "name": "Jolbert Cabrera",
+    "first": "Jolbert",
+    "last": "Cabrera",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "cabreor01": {
+    "name": "Orlando Cabrera",
+    "first": "Orlando",
+    "last": "Cabrera",
+    "teams": [
+      "MON"
+    ]
+  },
+  "cairomi01": {
+    "name": "Miguel Cairo",
+    "first": "Miguel",
+    "last": "Cairo",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "callami01": {
+    "name": "Mickey Callaway",
+    "first": "Mickey",
+    "last": "Callaway",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "camermi01": {
+    "name": "Mike Cameron",
+    "first": "Mike",
+    "last": "Cameron",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "caminke01": {
+    "name": "Ken Caminiti",
+    "first": "Ken",
+    "last": "Caminiti",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "cancero01": {
+    "name": "Robinson Cancel",
+    "first": "Robinson",
+    "last": "Cancel",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "candito01": {
+    "name": "Tom Candiotti",
+    "first": "Tom",
+    "last": "Candiotti",
+    "teams": [
+      "CLE",
+      "OAK"
+    ]
+  },
+  "cangejo01": {
+    "name": "John Cangelosi",
+    "first": "John",
+    "last": "Cangelosi",
+    "teams": [
+      "COL"
+    ]
+  },
+  "canizja01": {
+    "name": "Jay Canizaro",
+    "first": "Jay",
+    "last": "Canizaro",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "cansejo01": {
+    "name": "Jose Canseco",
+    "first": "Jose",
+    "last": "Canseco",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "carlsda01": {
+    "name": "Dan Carlson",
+    "first": "Dan",
+    "last": "Carlson",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "carlybu01": {
+    "name": "Buddy Carlyle",
+    "first": "Buddy",
+    "last": "Carlyle",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "carmora01": {
+    "name": "Rafael Carmona",
+    "first": "Rafael",
+    "last": "Carmona",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "carpech01": {
+    "name": "Chris Carpenter",
+    "first": "Chris",
+    "last": "Carpenter",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "carrahe01": {
+    "name": "Hector Carrasco",
+    "first": "Hector",
+    "last": "Carrasco",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "cartela02": {
+    "name": "Lance Carter",
+    "first": "Lance",
+    "last": "Carter",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "carusmi01": {
+    "name": "Mike Caruso",
+    "first": "Mike",
+    "last": "Caruso",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "caseyse01": {
+    "name": "Sean Casey",
+    "first": "Sean",
+    "last": "Casey",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "castial01": {
+    "name": "Alberto Castillo",
+    "first": "Alberto",
+    "last": "Castillo",
+    "teams": [
+      "STL"
+    ]
+  },
+  "castica02": {
+    "name": "Carlos Castillo",
+    "first": "Carlos",
+    "last": "Castillo",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "castilu01": {
+    "name": "Luis Castillo",
+    "first": "Luis",
+    "last": "Castillo",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "castivi02": {
+    "name": "Vinny Castilla",
+    "first": "Vinny",
+    "last": "Castilla",
+    "teams": [
+      "COL"
+    ]
+  },
+  "castrju01": {
+    "name": "Juan Castro",
+    "first": "Juan",
+    "last": "Castro",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "castrra01": {
+    "name": "Ramon Castro",
+    "first": "Ramon",
+    "last": "Castro",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "catalfr01": {
+    "name": "Frank Catalanotto",
+    "first": "Frank",
+    "last": "Catalanotto",
+    "teams": [
+      "DET"
+    ]
+  },
+  "cathemi01": {
+    "name": "Mike Cather",
+    "first": "Mike",
+    "last": "Cather",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "cedendo01": {
+    "name": "Domingo Cedeno",
+    "first": "Domingo",
+    "last": "Cedeno",
+    "teams": [
+      "PHI",
+      "SEA"
+    ]
+  },
+  "cedenro01": {
+    "name": "Roger Cedeno",
+    "first": "Roger",
+    "last": "Cedeno",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "charlno01": {
+    "name": "Norm Charlton",
+    "first": "Norm",
+    "last": "Charlton",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "chaveer01": {
+    "name": "Eric Chavez",
+    "first": "Eric",
+    "last": "Chavez",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "checoro01": {
+    "name": "Robinson Checo",
+    "first": "Robinson",
+    "last": "Checo",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "chenbr01": {
+    "name": "Bruce Chen",
+    "first": "Bruce",
+    "last": "Chen",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "choji01": {
+    "name": "Jin Ho Cho",
+    "first": "Jin Ho",
+    "last": "Cho",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "chouibo01": {
+    "name": "Bobby Chouinard",
+    "first": "Bobby",
+    "last": "Chouinard",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "chrisja01": {
+    "name": "Jason Christiansen",
+    "first": "Jason",
+    "last": "Christiansen",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "chrismc01": {
+    "name": "McKay Christensen",
+    "first": "McKay",
+    "last": "Christensen",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "chrisry01": {
+    "name": "Ryan Christenson",
+    "first": "Ryan",
+    "last": "Christenson",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "cirilje01": {
+    "name": "Jeff Cirillo",
+    "first": "Jeff",
+    "last": "Cirillo",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "clapich01": {
+    "name": "Chris Clapinski",
+    "first": "Chris",
+    "last": "Clapinski",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "clarkma01": {
+    "name": "Mark Clark",
+    "first": "Mark",
+    "last": "Clark",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "clarkto02": {
+    "name": "Tony Clark",
+    "first": "Tony",
+    "last": "Clark",
+    "teams": [
+      "DET"
+    ]
+  },
+  "clarkwi02": {
+    "name": "Will Clark",
+    "first": "Will",
+    "last": "Clark",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "claytro01": {
+    "name": "Royce Clayton",
+    "first": "Royce",
+    "last": "Clayton",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "clemeed02": {
+    "name": "Edgard Clemente",
+    "first": "Edgard",
+    "last": "Clemente",
+    "teams": [
+      "COL"
+    ]
+  },
+  "clemema01": {
+    "name": "Matt Clement",
+    "first": "Matt",
+    "last": "Clement",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "clemero02": {
+    "name": "Roger Clemens",
+    "first": "Roger",
+    "last": "Clemens",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "clontbr01": {
+    "name": "Brad Clontz",
+    "first": "Brad",
+    "last": "Clontz",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "cloudke01": {
+    "name": "Ken Cloude",
+    "first": "Ken",
+    "last": "Cloude",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "clybuda01": {
+    "name": "Danny Clyburn",
+    "first": "Danny",
+    "last": "Clyburn",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "colanmi01": {
+    "name": "Mike Colangelo",
+    "first": "Mike",
+    "last": "Colangelo",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "colbrgr01": {
+    "name": "Greg Colbrunn",
+    "first": "Greg",
+    "last": "Colbrunn",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "colemmi01": {
+    "name": "Michael Coleman",
+    "first": "Michael",
+    "last": "Coleman",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "collilo01": {
+    "name": "Lou Collier",
+    "first": "Lou",
+    "last": "Collier",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "colonba01": {
+    "name": "Bartolo Colon",
+    "first": "Bartolo",
+    "last": "Colon",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "coneda01": {
+    "name": "David Cone",
+    "first": "David",
+    "last": "Cone",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "coninje01": {
+    "name": "Jeff Conine",
+    "first": "Jeff",
+    "last": "Conine",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "cookde01": {
+    "name": "Dennis Cook",
+    "first": "Dennis",
+    "last": "Cook",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "cooksbr01": {
+    "name": "Brent Cookson",
+    "first": "Brent",
+    "last": "Cookson",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "coomero01": {
+    "name": "Ron Coomer",
+    "first": "Ron",
+    "last": "Coomer",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "coopebr01": {
+    "name": "Brian Cooper",
+    "first": "Brian",
+    "last": "Cooper",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "coppiro01": {
+    "name": "Rocky Coppinger",
+    "first": "Rocky",
+    "last": "Coppinger",
+    "teams": [
+      "BAL",
+      "MIL"
+    ]
+  },
+  "coquitr01": {
+    "name": "Trace Coquillette",
+    "first": "Trace",
+    "last": "Coquillette",
+    "teams": [
+      "MON"
+    ]
+  },
+  "coraal01": {
+    "name": "Alex Cora",
+    "first": "Alex",
+    "last": "Cora",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "corbiar01": {
+    "name": "Archie Corbin",
+    "first": "Archie",
+    "last": "Corbin",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "cordefr01": {
+    "name": "Francisco Cordero",
+    "first": "Francisco",
+    "last": "Cordero",
+    "teams": [
+      "DET"
+    ]
+  },
+  "cordewi01": {
+    "name": "Wil Cordero",
+    "first": "Wil",
+    "last": "Cordero",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "cordofr01": {
+    "name": "Francisco Cordova",
+    "first": "Francisco",
+    "last": "Cordova",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "cordoma01": {
+    "name": "Marty Cordova",
+    "first": "Marty",
+    "last": "Cordova",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "cormirh01": {
+    "name": "Rheal Cormier",
+    "first": "Rheal",
+    "last": "Cormier",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "cornere01": {
+    "name": "Reid Cornelius",
+    "first": "Reid",
+    "last": "Cornelius",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "corsiji01": {
+    "name": "Jim Corsi",
+    "first": "Jim",
+    "last": "Corsi",
+    "teams": [
+      "BAL",
+      "BOS"
+    ]
+  },
+  "corteda01": {
+    "name": "David Cortes",
+    "first": "David",
+    "last": "Cortes",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "counscr01": {
+    "name": "Craig Counsell",
+    "first": "Craig",
+    "last": "Counsell",
+    "teams": [
+      "FLA",
+      "LAD"
+    ]
+  },
+  "coxda02": {
+    "name": "Darron Cox",
+    "first": "Darron",
+    "last": "Cox",
+    "teams": [
+      "MON"
+    ]
+  },
+  "coxst01": {
+    "name": "Steve Cox",
+    "first": "Steve",
+    "last": "Cox",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "crabtti01": {
+    "name": "Tim Crabtree",
+    "first": "Tim",
+    "last": "Crabtree",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "creekdo01": {
+    "name": "Doug Creek",
+    "first": "Doug",
+    "last": "Creek",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "crometr01": {
+    "name": "Tripp Cromer",
+    "first": "Tripp",
+    "last": "Cromer",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "crousri01": {
+    "name": "Rich Croushore",
+    "first": "Rich",
+    "last": "Croushore",
+    "teams": [
+      "STL"
+    ]
+  },
+  "cruzde01": {
+    "name": "Deivi Cruz",
+    "first": "Deivi",
+    "last": "Cruz",
+    "teams": [
+      "DET"
+    ]
+  },
+  "cruziv01": {
+    "name": "Ivan Cruz",
+    "first": "Ivan",
+    "last": "Cruz",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "cruzja01": {
+    "name": "Jacob Cruz",
+    "first": "Jacob",
+    "last": "Cruz",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "cruzjo02": {
+    "name": "Jose Cruz",
+    "first": "Jose",
+    "last": "Cruz",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "cruzne01": {
+    "name": "Nelson Cruz",
+    "first": "Nelson",
+    "last": "Cruz",
+    "teams": [
+      "DET"
+    ]
+  },
+  "cummimi01": {
+    "name": "Midre Cummings",
+    "first": "Midre",
+    "last": "Cummings",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "cunnawi01": {
+    "name": "Will Cunnane",
+    "first": "Will",
+    "last": "Cunnane",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "curtich01": {
+    "name": "Chad Curtis",
+    "first": "Chad",
+    "last": "Curtis",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "d'amije01": {
+    "name": "Jeff D'Amico",
+    "first": "Jeff",
+    "last": "D'Amico",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "daalom01": {
+    "name": "Omar Daal",
+    "first": "Omar",
+    "last": "Daal",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "daleca01": {
+    "name": "Carl Dale",
+    "first": "Carl",
+    "last": "Dale",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "dalesma01": {
+    "name": "Mark Dalesandro",
+    "first": "Mark",
+    "last": "Dalesandro",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "damonjo01": {
+    "name": "Johnny Damon",
+    "first": "Johnny",
+    "last": "Damon",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "danekpa01": {
+    "name": "Pat Daneker",
+    "first": "Pat",
+    "last": "Daneker",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "darenvi01": {
+    "name": "Vic Darensbourg",
+    "first": "Vic",
+    "last": "Darensbourg",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "darrmi02": {
+    "name": "Mike Darr",
+    "first": "Mike",
+    "last": "Darr",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "daubabr01": {
+    "name": "Brian Daubach",
+    "first": "Brian",
+    "last": "Daubach",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "davanje02": {
+    "name": "Jeff DaVanon",
+    "first": "Jeff",
+    "last": "DaVanon",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "davenjo01": {
+    "name": "Joe Davenport",
+    "first": "Joe",
+    "last": "Davenport",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "daveyto01": {
+    "name": "Tom Davey",
+    "first": "Tom",
+    "last": "Davey",
+    "teams": [
+      "SEA",
+      "TOR"
+    ]
+  },
+  "davidcl02": {
+    "name": "Cleatus Davidson",
+    "first": "Cleatus",
+    "last": "Davidson",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "davisbe01": {
+    "name": "Ben Davis",
+    "first": "Ben",
+    "last": "Davis",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "davisch01": {
+    "name": "Chili Davis",
+    "first": "Chili",
+    "last": "Davis",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "davisdo02": {
+    "name": "Doug Davis",
+    "first": "Doug",
+    "last": "Davis",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "daviser01": {
+    "name": "Eric Davis",
+    "first": "Eric",
+    "last": "Davis",
+    "teams": [
+      "STL"
+    ]
+  },
+  "davisru01": {
+    "name": "Russ Davis",
+    "first": "Russ",
+    "last": "Davis",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "davisto03": {
+    "name": "Tommy Davis",
+    "first": "Tommy",
+    "last": "Davis",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "dawkitr01": {
+    "name": "Travis Dawkins",
+    "first": "Travis",
+    "last": "Dawkins",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "deckest01": {
+    "name": "Steve Decker",
+    "first": "Steve",
+    "last": "Decker",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "deharri01": {
+    "name": "Rick DeHart",
+    "first": "Rick",
+    "last": "DeHart",
+    "teams": [
+      "MON"
+    ]
+  },
+  "dejeami01": {
+    "name": "Mike DeJean",
+    "first": "Mike",
+    "last": "DeJean",
+    "teams": [
+      "COL"
+    ]
+  },
+  "delgaca01": {
+    "name": "Carlos Delgado",
+    "first": "Carlos",
+    "last": "Delgado",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "delgawi01": {
+    "name": "Wilson Delgado",
+    "first": "Wilson",
+    "last": "Delgado",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "dellaja01": {
+    "name": "Jason Dellaero",
+    "first": "Jason",
+    "last": "Dellaero",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "delluda01": {
+    "name": "David Dellucci",
+    "first": "David",
+    "last": "Dellucci",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "delosva01": {
+    "name": "Valerio De Los Santos",
+    "first": "Valerio",
+    "last": "De Los Santos",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "deltomi01": {
+    "name": "Miguel Del Toro",
+    "first": "Miguel",
+    "last": "Del Toro",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "delucri01": {
+    "name": "Rich DeLucia",
+    "first": "Rich",
+    "last": "DeLucia",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "dempsry01": {
+    "name": "Ryan Dempster",
+    "first": "Ryan",
+    "last": "Dempster",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "depause01": {
+    "name": "Sean DePaula",
+    "first": "Sean",
+    "last": "DePaula",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "derosma01": {
+    "name": "Mark DeRosa",
+    "first": "Mark",
+    "last": "DeRosa",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "deshide01": {
+    "name": "Delino DeShields",
+    "first": "Delino",
+    "last": "DeShields",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "diazal01": {
+    "name": "Alex Diaz",
+    "first": "Alex",
+    "last": "Diaz",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "diazed03": {
+    "name": "Edwin Diaz",
+    "first": "Edwin",
+    "last": "Diaz",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "diazei01": {
+    "name": "Einar Diaz",
+    "first": "Einar",
+    "last": "Diaz",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "difelmi01": {
+    "name": "Mike Difelice",
+    "first": "Mike",
+    "last": "Difelice",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "dipotje01": {
+    "name": "Jerry Dipoto",
+    "first": "Jerry",
+    "last": "Dipoto",
+    "teams": [
+      "COL"
+    ]
+  },
+  "disarga01": {
+    "name": "Gary Disarcina",
+    "first": "Gary",
+    "last": "Disarcina",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "dosteda01": {
+    "name": "David Doster",
+    "first": "David",
+    "last": "Doster",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "doteloc01": {
+    "name": "Octavio Dotel",
+    "first": "Octavio",
+    "last": "Dotel",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "doughji01": {
+    "name": "Jim Dougherty",
+    "first": "Jim",
+    "last": "Dougherty",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "dranske01": {
+    "name": "Kelly Dransfeldt",
+    "first": "Kelly",
+    "last": "Dransfeldt",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "dreifda01": {
+    "name": "Darren Dreifort",
+    "first": "Darren",
+    "last": "Dreifort",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "drewj.01": {
+    "name": "J.D. Drew",
+    "first": "J.D.",
+    "last": "Drew",
+    "teams": [
+      "STL"
+    ]
+  },
+  "duceyro01": {
+    "name": "Rob Ducey",
+    "first": "Rob",
+    "last": "Ducey",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "dunstsh01": {
+    "name": "Shawon Dunston",
+    "first": "Shawon",
+    "last": "Dunston",
+    "teams": [
+      "NYM",
+      "STL"
+    ]
+  },
+  "dunwoto01": {
+    "name": "Todd Dunwoody",
+    "first": "Todd",
+    "last": "Dunwoody",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "durazer01": {
+    "name": "Erubiel Durazo",
+    "first": "Erubiel",
+    "last": "Durazo",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "durbich01": {
+    "name": "Chad Durbin",
+    "first": "Chad",
+    "last": "Durbin",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "durhara01": {
+    "name": "Ray Durham",
+    "first": "Ray",
+    "last": "Durham",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "durritr01": {
+    "name": "Trent Durrington",
+    "first": "Trent",
+    "last": "Durrington",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "duvalmi01": {
+    "name": "Mike Duvall",
+    "first": "Mike",
+    "last": "Duvall",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "dyeje01": {
+    "name": "Jermaine Dye",
+    "first": "Jermaine",
+    "last": "Dye",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "easleda01": {
+    "name": "Damion Easley",
+    "first": "Damion",
+    "last": "Easley",
+    "teams": [
+      "DET"
+    ]
+  },
+  "ebertde01": {
+    "name": "Derrin Ebert",
+    "first": "Derrin",
+    "last": "Ebert",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "echevan01": {
+    "name": "Angel Echevarria",
+    "first": "Angel",
+    "last": "Echevarria",
+    "teams": [
+      "COL"
+    ]
+  },
+  "edmonbr01": {
+    "name": "Brian Edmondson",
+    "first": "Brian",
+    "last": "Edmondson",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "edmonji01": {
+    "name": "Jim Edmonds",
+    "first": "Jim",
+    "last": "Edmonds",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "eilanda01": {
+    "name": "Dave Eiland",
+    "first": "Dave",
+    "last": "Eiland",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "elartsc01": {
+    "name": "Scott Elarton",
+    "first": "Scott",
+    "last": "Elarton",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "eldreca01": {
+    "name": "Cal Eldred",
+    "first": "Cal",
+    "last": "Eldred",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "embreal01": {
+    "name": "Alan Embree",
+    "first": "Alan",
+    "last": "Embree",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "encarju01": {
+    "name": "Juan Encarnacion",
+    "first": "Juan",
+    "last": "Encarnacion",
+    "teams": [
+      "DET"
+    ]
+  },
+  "erdosto01": {
+    "name": "Todd Erdos",
+    "first": "Todd",
+    "last": "Erdos",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "ericksc01": {
+    "name": "Scott Erickson",
+    "first": "Scott",
+    "last": "Erickson",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "erstada01": {
+    "name": "Darin Erstad",
+    "first": "Darin",
+    "last": "Erstad",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "escobke01": {
+    "name": "Kelvim Escobar",
+    "first": "Kelvim",
+    "last": "Escobar",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "estalbo02": {
+    "name": "Bobby Estalella",
+    "first": "Bobby",
+    "last": "Estalella",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "estessh01": {
+    "name": "Shawn Estes",
+    "first": "Shawn",
+    "last": "Estes",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "estraho01": {
+    "name": "Horacio Estrada",
+    "first": "Horacio",
+    "last": "Estrada",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "eusebto01": {
+    "name": "Tony Eusebio",
+    "first": "Tony",
+    "last": "Eusebio",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "evereca01": {
+    "name": "Carl Everett",
+    "first": "Carl",
+    "last": "Everett",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "eyresc01": {
+    "name": "Scott Eyre",
+    "first": "Scott",
+    "last": "Eyre",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "fabrejo01": {
+    "name": "Jorge Fabregas",
+    "first": "Jorge",
+    "last": "Fabregas",
+    "teams": [
+      "ATL",
+      "FLA"
+    ]
+  },
+  "falkebr01": {
+    "name": "Brian Falkenborg",
+    "first": "Brian",
+    "last": "Falkenborg",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "faltest01": {
+    "name": "Steve Falteisek",
+    "first": "Steve",
+    "last": "Falteisek",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "farnsky01": {
+    "name": "Kyle Farnsworth",
+    "first": "Kyle",
+    "last": "Farnsworth",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "fasansa01": {
+    "name": "Sal Fasano",
+    "first": "Sal",
+    "last": "Fasano",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "fasseje01": {
+    "name": "Jeff Fassero",
+    "first": "Jeff",
+    "last": "Fassero",
+    "teams": [
+      "SEA",
+      "TEX"
+    ]
+  },
+  "febleca01": {
+    "name": "Carlos Febles",
+    "first": "Carlos",
+    "last": "Febles",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "fernaal01": {
+    "name": "Alex Fernandez",
+    "first": "Alex",
+    "last": "Fernandez",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "fernajo01": {
+    "name": "Jose Fernandez",
+    "first": "Jose",
+    "last": "Fernandez",
+    "teams": [
+      "MON"
+    ]
+  },
+  "fernato01": {
+    "name": "Tony Fernandez",
+    "first": "Tony",
+    "last": "Fernandez",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "fettemi01": {
+    "name": "Mike Fetters",
+    "first": "Mike",
+    "last": "Fetters",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "fickro01": {
+    "name": "Robert Fick",
+    "first": "Robert",
+    "last": "Fick",
+    "teams": [
+      "DET"
+    ]
+  },
+  "figgami01": {
+    "name": "Mike Figga",
+    "first": "Mike",
+    "last": "Figga",
+    "teams": [
+      "BAL",
+      "NYY"
+    ]
+  },
+  "finlech01": {
+    "name": "Chuck Finley",
+    "first": "Chuck",
+    "last": "Finley",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "finlest01": {
+    "name": "Steve Finley",
+    "first": "Steve",
+    "last": "Finley",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "flahejo01": {
+    "name": "John Flaherty",
+    "first": "John",
+    "last": "Flaherty",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "fletcda01": {
+    "name": "Darrin Fletcher",
+    "first": "Darrin",
+    "last": "Fletcher",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "floribr01": {
+    "name": "Bryce Florie",
+    "first": "Bryce",
+    "last": "Florie",
+    "teams": [
+      "BOS",
+      "DET"
+    ]
+  },
+  "floydcl01": {
+    "name": "Cliff Floyd",
+    "first": "Cliff",
+    "last": "Floyd",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "fonvich01": {
+    "name": "Chad Fonville",
+    "first": "Chad",
+    "last": "Fonville",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "fordybr01": {
+    "name": "Brook Fordyce",
+    "first": "Brook",
+    "last": "Fordyce",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "fossato01": {
+    "name": "Tony Fossas",
+    "first": "Tony",
+    "last": "Fossas",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "foulkke01": {
+    "name": "Keith Foulke",
+    "first": "Keith",
+    "last": "Foulke",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "foxan01": {
+    "name": "Andy Fox",
+    "first": "Andy",
+    "last": "Fox",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "foxch02": {
+    "name": "Chad Fox",
+    "first": "Chad",
+    "last": "Fox",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "francjo01": {
+    "name": "John Franco",
+    "first": "John",
+    "last": "Franco",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "francju01": {
+    "name": "Julio Franco",
+    "first": "Julio",
+    "last": "Franco",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "francma01": {
+    "name": "Matt Franco",
+    "first": "Matt",
+    "last": "Franco",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "frankry01": {
+    "name": "Ryan Franklin",
+    "first": "Ryan",
+    "last": "Franklin",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "frascjo01": {
+    "name": "John Frascatore",
+    "first": "John",
+    "last": "Frascatore",
+    "teams": [
+      "ARI",
+      "TOR"
+    ]
+  },
+  "friasha01": {
+    "name": "Hanley Frias",
+    "first": "Hanley",
+    "last": "Frias",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "fryeje01": {
+    "name": "Jeff Frye",
+    "first": "Jeff",
+    "last": "Frye",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "frymatr01": {
+    "name": "Travis Fryman",
+    "first": "Travis",
+    "last": "Fryman",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "fullmbr01": {
+    "name": "Brad Fullmer",
+    "first": "Brad",
+    "last": "Fullmer",
+    "teams": [
+      "MON"
+    ]
+  },
+  "fussech01": {
+    "name": "Chris Fussell",
+    "first": "Chris",
+    "last": "Fussell",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "fyhrimi01": {
+    "name": "Mike Fyhrie",
+    "first": "Mike",
+    "last": "Fyhrie",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "gaettga01": {
+    "name": "Gary Gaetti",
+    "first": "Gary",
+    "last": "Gaetti",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "gagneer01": {
+    "name": "Eric Gagne",
+    "first": "Eric",
+    "last": "Gagne",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "gailled01": {
+    "name": "Eddie Gaillard",
+    "first": "Eddie",
+    "last": "Gaillard",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "gantro01": {
+    "name": "Ron Gant",
+    "first": "Ron",
+    "last": "Gant",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "garceri01": {
+    "name": "Rich Garces",
+    "first": "Rich",
+    "last": "Garces",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "garciam01": {
+    "name": "Amaury Garcia",
+    "first": "Amaury",
+    "last": "Garcia",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "garcica01": {
+    "name": "Carlos Garcia",
+    "first": "Carlos",
+    "last": "Garcia",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "garcifr01": {
+    "name": "Freddy Garcia",
+    "first": "Freddy",
+    "last": "Garcia",
+    "teams": [
+      "ATL",
+      "PIT"
+    ]
+  },
+  "garcifr03": {
+    "name": "Freddy Garcia",
+    "first": "Freddy",
+    "last": "Garcia",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "garcigu01": {
+    "name": "Guillermo Garcia",
+    "first": "Guillermo",
+    "last": "Garcia",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "garcije01": {
+    "name": "Jesse Garcia",
+    "first": "Jesse",
+    "last": "Garcia",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "garcika01": {
+    "name": "Karim Garcia",
+    "first": "Karim",
+    "last": "Garcia",
+    "teams": [
+      "DET"
+    ]
+  },
+  "garcilu01": {
+    "name": "Luis Garcia",
+    "first": "Luis",
+    "last": "Garcia",
+    "teams": [
+      "DET"
+    ]
+  },
+  "garcimi03": {
+    "name": "Mike Garcia",
+    "first": "Mike",
+    "last": "Garcia",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "garcino01": {
+    "name": "Nomar Garciaparra",
+    "first": "Nomar",
+    "last": "Garciaparra",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "gardnma01": {
+    "name": "Mark Gardner",
+    "first": "Mark",
+    "last": "Gardner",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "gatesbr01": {
+    "name": "Brent Gates",
+    "first": "Brent",
+    "last": "Gates",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "giambja01": {
+    "name": "Jason Giambi",
+    "first": "Jason",
+    "last": "Giambi",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "giambje01": {
+    "name": "Jeremy Giambi",
+    "first": "Jeremy",
+    "last": "Giambi",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "gibsode01": {
+    "name": "Derrick Gibson",
+    "first": "Derrick",
+    "last": "Gibson",
+    "teams": [
+      "COL"
+    ]
+  },
+  "gilesbr02": {
+    "name": "Brian Giles",
+    "first": "Brian",
+    "last": "Giles",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "gilkebe01": {
+    "name": "Bernard Gilkey",
+    "first": "Bernard",
+    "last": "Gilkey",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "giovaed01": {
+    "name": "Ed Giovanola",
+    "first": "Ed",
+    "last": "Giovanola",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "gipsoch01": {
+    "name": "Charles Gipson",
+    "first": "Charles",
+    "last": "Gipson",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "girarjo01": {
+    "name": "Joe Girardi",
+    "first": "Joe",
+    "last": "Girardi",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "glanvdo01": {
+    "name": "Doug Glanville",
+    "first": "Doug",
+    "last": "Glanville",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "glaustr01": {
+    "name": "Troy Glaus",
+    "first": "Troy",
+    "last": "Glaus",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "glavito02": {
+    "name": "Tom Glavine",
+    "first": "Tom",
+    "last": "Glavine",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "glovega01": {
+    "name": "Gary Glover",
+    "first": "Gary",
+    "last": "Glover",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "glynnry01": {
+    "name": "Ryan Glynn",
+    "first": "Ryan",
+    "last": "Glynn",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "gomeswa01": {
+    "name": "Wayne Gomes",
+    "first": "Wayne",
+    "last": "Gomes",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "gomezch02": {
+    "name": "Chris Gomez",
+    "first": "Chris",
+    "last": "Gomez",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "gonzaal01": {
+    "name": "Alex Gonzalez",
+    "first": "Alex",
+    "last": "Gonzalez",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "gonzaal02": {
+    "name": "Alex Gonzalez",
+    "first": "Alex",
+    "last": "Gonzalez",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "gonzaju03": {
+    "name": "Juan Gonzalez",
+    "first": "Juan",
+    "last": "Gonzalez",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "gonzalu01": {
+    "name": "Luis Gonzalez",
+    "first": "Luis",
+    "last": "Gonzalez",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "gonzawi01": {
+    "name": "Wiki Gonzalez",
+    "first": "Wiki",
+    "last": "Gonzalez",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "goodedw01": {
+    "name": "Dwight Gooden",
+    "first": "Dwight",
+    "last": "Gooden",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "goodwcu01": {
+    "name": "Curtis Goodwin",
+    "first": "Curtis",
+    "last": "Goodwin",
+    "teams": [
+      "CHC",
+      "TOR"
+    ]
+  },
+  "goodwto01": {
+    "name": "Tom Goodwin",
+    "first": "Tom",
+    "last": "Goodwin",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "gordoto01": {
+    "name": "Tom Gordon",
+    "first": "Tom",
+    "last": "Gordon",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "gracema01": {
+    "name": "Mark Grace",
+    "first": "Mark",
+    "last": "Grace",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "gracemi02": {
+    "name": "Mike Grace",
+    "first": "Mike",
+    "last": "Grace",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "graffto01": {
+    "name": "Tony Graffanino",
+    "first": "Tony",
+    "last": "Graffanino",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "grahejo01": {
+    "name": "Joe Grahe",
+    "first": "Joe",
+    "last": "Grahe",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "gratebe01": {
+    "name": "Beiker Graterol",
+    "first": "Beiker",
+    "last": "Graterol",
+    "teams": [
+      "DET"
+    ]
+  },
+  "graveda01": {
+    "name": "Danny Graves",
+    "first": "Danny",
+    "last": "Graves",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "grebecr01": {
+    "name": "Craig Grebeck",
+    "first": "Craig",
+    "last": "Grebeck",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "greench02": {
+    "name": "Charlie Greene",
+    "first": "Charlie",
+    "last": "Greene",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "greenri02": {
+    "name": "Rick Greene",
+    "first": "Rick",
+    "last": "Greene",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "greensc01": {
+    "name": "Scarborough Green",
+    "first": "Scarborough",
+    "last": "Green",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "greensh01": {
+    "name": "Shawn Green",
+    "first": "Shawn",
+    "last": "Green",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "greento02": {
+    "name": "Todd Greene",
+    "first": "Todd",
+    "last": "Greene",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "greenwi01": {
+    "name": "Willie Greene",
+    "first": "Willie",
+    "last": "Greene",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "greerru01": {
+    "name": "Rusty Greer",
+    "first": "Rusty",
+    "last": "Greer",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "grievbe01": {
+    "name": "Ben Grieve",
+    "first": "Ben",
+    "last": "Grieve",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "griffke02": {
+    "name": "Ken Griffey Jr",
+    "first": "Ken",
+    "last": "Griffey Jr",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "grimsja01": {
+    "name": "Jason Grimsley",
+    "first": "Jason",
+    "last": "Grimsley",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "grissma02": {
+    "name": "Marquis Grissom",
+    "first": "Marquis",
+    "last": "Grissom",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "groombu01": {
+    "name": "Buddy Groom",
+    "first": "Buddy",
+    "last": "Groom",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "grosski01": {
+    "name": "Kip Gross",
+    "first": "Kip",
+    "last": "Gross",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "grudzma01": {
+    "name": "Mark Grudzielanek",
+    "first": "Mark",
+    "last": "Grudzielanek",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "guarded01": {
+    "name": "Eddie Guardado",
+    "first": "Eddie",
+    "last": "Guardado",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "gubancr01": {
+    "name": "Creighton Gubanich",
+    "first": "Creighton",
+    "last": "Gubanich",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "guerrvl01": {
+    "name": "Vladimir Guerrero",
+    "first": "Vladimir",
+    "last": "Guerrero",
+    "teams": [
+      "MON"
+    ]
+  },
+  "guerrwi01": {
+    "name": "Wilton Guerrero",
+    "first": "Wilton",
+    "last": "Guerrero",
+    "teams": [
+      "MON"
+    ]
+  },
+  "guevagi01": {
+    "name": "Giomar Guevara",
+    "first": "Giomar",
+    "last": "Guevara",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "guillca01": {
+    "name": "Carlos Guillen",
+    "first": "Carlos",
+    "last": "Guillen",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "guilljo01": {
+    "name": "Jose Guillen",
+    "first": "Jose",
+    "last": "Guillen",
+    "teams": [
+      "PIT",
+      "TBD"
+    ]
+  },
+  "guilloz01": {
+    "name": "Ozzie Guillen",
+    "first": "Ozzie",
+    "last": "Guillen",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "gundeer01": {
+    "name": "Eric Gunderson",
+    "first": "Eric",
+    "last": "Gunderson",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "guthrma01": {
+    "name": "Mark Guthrie",
+    "first": "Mark",
+    "last": "Guthrie",
+    "teams": [
+      "BOS",
+      "CHC"
+    ]
+  },
+  "gutieri01": {
+    "name": "Ricky Gutierrez",
+    "first": "Ricky",
+    "last": "Gutierrez",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "guzmacr01": {
+    "name": "Cristian Guzman",
+    "first": "Cristian",
+    "last": "Guzman",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "guzmado01": {
+    "name": "Domingo Guzman",
+    "first": "Domingo",
+    "last": "Guzman",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "guzmaed01": {
+    "name": "Edwards Guzman",
+    "first": "Edwards",
+    "last": "Guzman",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "guzmaju01": {
+    "name": "Juan Guzman",
+    "first": "Juan",
+    "last": "Guzman",
+    "teams": [
+      "BAL",
+      "CIN"
+    ]
+  },
+  "gwynnto01": {
+    "name": "Tony Gwynn",
+    "first": "Tony",
+    "last": "Gwynn",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "haadya01": {
+    "name": "Yamid Haad",
+    "first": "Yamid",
+    "last": "Haad",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "hackmlu01": {
+    "name": "Luther Hackman",
+    "first": "Luther",
+    "last": "Hackman",
+    "teams": [
+      "COL"
+    ]
+  },
+  "hairsje02": {
+    "name": "Jerry Hairston",
+    "first": "Jerry",
+    "last": "Hairston",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "halamjo01": {
+    "name": "John Halama",
+    "first": "John",
+    "last": "Halama",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "hallaro01": {
+    "name": "Roy Halladay",
+    "first": "Roy",
+    "last": "Halladay",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "haltesh01": {
+    "name": "Shane Halter",
+    "first": "Shane",
+    "last": "Halter",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "hamilda02": {
+    "name": "Darryl Hamilton",
+    "first": "Darryl",
+    "last": "Hamilton",
+    "teams": [
+      "COL",
+      "NYM"
+    ]
+  },
+  "hamiljo02": {
+    "name": "Joey Hamilton",
+    "first": "Joey",
+    "last": "Hamilton",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "hammoje01": {
+    "name": "Jeffrey Hammonds",
+    "first": "Jeffrey",
+    "last": "Hammonds",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "hamptmi01": {
+    "name": "Mike Hampton",
+    "first": "Mike",
+    "last": "Hampton",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "haneych01": {
+    "name": "Chris Haney",
+    "first": "Chris",
+    "last": "Haney",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "hanseda01": {
+    "name": "Dave Hansen",
+    "first": "Dave",
+    "last": "Hansen",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "hansegr01": {
+    "name": "Greg Hansell",
+    "first": "Greg",
+    "last": "Hansell",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "hanseje01": {
+    "name": "Jed Hansen",
+    "first": "Jed",
+    "last": "Hansen",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "harikti01": {
+    "name": "Tim Harikkala",
+    "first": "Tim",
+    "last": "Harikkala",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "harnipe01": {
+    "name": "Pete Harnisch",
+    "first": "Pete",
+    "last": "Harnisch",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "harrile01": {
+    "name": "Lenny Harris",
+    "first": "Lenny",
+    "last": "Harris",
+    "teams": [
+      "ARI",
+      "COL"
+    ]
+  },
+  "harrire01": {
+    "name": "Reggie Harris",
+    "first": "Reggie",
+    "last": "Harris",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "harvich01": {
+    "name": "Chad Harville",
+    "first": "Chad",
+    "last": "Harville",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "hasegsh01": {
+    "name": "Shigetoshi Hasegawa",
+    "first": "Shigetoshi",
+    "last": "Hasegawa",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "haselbi01": {
+    "name": "Bill Haselman",
+    "first": "Bill",
+    "last": "Haselman",
+    "teams": [
+      "DET"
+    ]
+  },
+  "hattesc01": {
+    "name": "Scott Hatteberg",
+    "first": "Scott",
+    "last": "Hatteberg",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "hawkila01": {
+    "name": "LaTroy Hawkins",
+    "first": "LaTroy",
+    "last": "Hawkins",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "hayesch01": {
+    "name": "Charlie Hayes",
+    "first": "Charlie",
+    "last": "Hayes",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "hayneji01": {
+    "name": "Jimmy Haynes",
+    "first": "Jimmy",
+    "last": "Haynes",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "heiseri01": {
+    "name": "Rick Heiserman",
+    "first": "Rick",
+    "last": "Heiserman",
+    "teams": [
+      "STL"
+    ]
+  },
+  "helliri01": {
+    "name": "Rick Helling",
+    "first": "Rick",
+    "last": "Helling",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "heltoto01": {
+    "name": "Todd Helton",
+    "first": "Todd",
+    "last": "Helton",
+    "teams": [
+      "COL"
+    ]
+  },
+  "hemphbr01": {
+    "name": "Bret Hemphill",
+    "first": "Bret",
+    "last": "Hemphill",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "henderi01": {
+    "name": "Rickey Henderson",
+    "first": "Rickey",
+    "last": "Henderson",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "henrybu01": {
+    "name": "Butch Henry",
+    "first": "Butch",
+    "last": "Henry",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "henrydo01": {
+    "name": "Doug Henry",
+    "first": "Doug",
+    "last": "Henry",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "hentgpa01": {
+    "name": "Pat Hentgen",
+    "first": "Pat",
+    "last": "Hentgen",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "heredfe01": {
+    "name": "Felix Heredia",
+    "first": "Felix",
+    "last": "Heredia",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "heredgi01": {
+    "name": "Gil Heredia",
+    "first": "Gil",
+    "last": "Heredia",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "hergema01": {
+    "name": "Matt Herges",
+    "first": "Matt",
+    "last": "Herges",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "hermach01": {
+    "name": "Chad Hermansen",
+    "first": "Chad",
+    "last": "Hermansen",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "hermadu01": {
+    "name": "Dustin Hermanson",
+    "first": "Dustin",
+    "last": "Hermanson",
+    "teams": [
+      "MON"
+    ]
+  },
+  "hernaca02": {
+    "name": "Carlos Hernandez",
+    "first": "Carlos",
+    "last": "Hernandez",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "hernajo01": {
+    "name": "Jose Hernandez",
+    "first": "Jose",
+    "last": "Hernandez",
+    "teams": [
+      "ATL",
+      "CHC"
+    ]
+  },
+  "hernali01": {
+    "name": "Livan Hernandez",
+    "first": "Livan",
+    "last": "Hernandez",
+    "teams": [
+      "FLA",
+      "SFG"
+    ]
+  },
+  "hernaor01": {
+    "name": "Orlando Hernandez",
+    "first": "Orlando",
+    "last": "Hernandez",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "hernara02": {
+    "name": "Ramon Hernandez",
+    "first": "Ramon",
+    "last": "Hernandez",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "hernaro01": {
+    "name": "Roberto Hernandez",
+    "first": "Roberto",
+    "last": "Hernandez",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "hershor01": {
+    "name": "Orel Hershiser",
+    "first": "Orel",
+    "last": "Hershiser",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "hidalri01": {
+    "name": "Richard Hidalgo",
+    "first": "Richard",
+    "last": "Hidalgo",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "higgibo02": {
+    "name": "Bobby Higginson",
+    "first": "Bobby",
+    "last": "Higginson",
+    "teams": [
+      "DET"
+    ]
+  },
+  "hiljuer01": {
+    "name": "Erik Hiljus",
+    "first": "Erik",
+    "last": "Hiljus",
+    "teams": [
+      "DET"
+    ]
+  },
+  "hillgl01": {
+    "name": "Glenallen Hill",
+    "first": "Glenallen",
+    "last": "Hill",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "hillke01": {
+    "name": "Ken Hill",
+    "first": "Ken",
+    "last": "Hill",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "hincha.01": {
+    "name": "A.J. Hinch",
+    "first": "A.J.",
+    "last": "Hinch",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "hinchbr01": {
+    "name": "Brett Hinchliffe",
+    "first": "Brett",
+    "last": "Hinchliffe",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "hitchst01": {
+    "name": "Sterling Hitchcock",
+    "first": "Sterling",
+    "last": "Hitchcock",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "hockide01": {
+    "name": "Denny Hocking",
+    "first": "Denny",
+    "last": "Hocking",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "hoffmtr01": {
+    "name": "Trevor Hoffman",
+    "first": "Trevor",
+    "last": "Hoffman",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "holbera01": {
+    "name": "Ray Holbert",
+    "first": "Ray",
+    "last": "Holbert",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "hollato01": {
+    "name": "Todd Hollandsworth",
+    "first": "Todd",
+    "last": "Hollandsworth",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "hollida01": {
+    "name": "Dave Hollins",
+    "first": "Dave",
+    "last": "Hollins",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "holmeda01": {
+    "name": "Darren Holmes",
+    "first": "Darren",
+    "last": "Holmes",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "holtch01": {
+    "name": "Chris Holt",
+    "first": "Chris",
+    "last": "Holt",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "holtzmi01": {
+    "name": "Mike Holtz",
+    "first": "Mike",
+    "last": "Holtz",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "houstty01": {
+    "name": "Tyler Houston",
+    "first": "Tyler",
+    "last": "Houston",
+    "teams": [
+      "CHC",
+      "CLE"
+    ]
+  },
+  "howarda02": {
+    "name": "David Howard",
+    "first": "David",
+    "last": "Howard",
+    "teams": [
+      "STL"
+    ]
+  },
+  "howarth01": {
+    "name": "Thomas Howard",
+    "first": "Thomas",
+    "last": "Howard",
+    "teams": [
+      "STL"
+    ]
+  },
+  "howelja02": {
+    "name": "Jack Howell",
+    "first": "Jack",
+    "last": "Howell",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "howrybo01": {
+    "name": "Bob Howry",
+    "first": "Bob",
+    "last": "Howry",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "hubbatr01": {
+    "name": "Trent Hubbard",
+    "first": "Trent",
+    "last": "Hubbard",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "hudekjo01": {
+    "name": "John Hudek",
+    "first": "John",
+    "last": "Hudek",
+    "teams": [
+      "ATL",
+      "CIN",
+      "TOR"
+    ]
+  },
+  "hudsoti01": {
+    "name": "Tim Hudson",
+    "first": "Tim",
+    "last": "Hudson",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "hughebo01": {
+    "name": "Bobby Hughes",
+    "first": "Bobby",
+    "last": "Hughes",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "hundlto01": {
+    "name": "Todd Hundley",
+    "first": "Todd",
+    "last": "Hundley",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "huntebr01": {
+    "name": "Brian Hunter",
+    "first": "Brian",
+    "last": "Hunter",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "huntebr02": {
+    "name": "Brian Hunter",
+    "first": "Brian",
+    "last": "Hunter",
+    "teams": [
+      "DET",
+      "SEA"
+    ]
+  },
+  "hunteto01": {
+    "name": "Torii Hunter",
+    "first": "Torii",
+    "last": "Hunter",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "huskebu01": {
+    "name": "Butch Huskey",
+    "first": "Butch",
+    "last": "Huskey",
+    "teams": [
+      "BOS",
+      "SEA"
+    ]
+  },
+  "husonje01": {
+    "name": "Jeff Huson",
+    "first": "Jeff",
+    "last": "Huson",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "hyersti01": {
+    "name": "Tim Hyers",
+    "first": "Tim",
+    "last": "Hyers",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "ibanera01": {
+    "name": "Raul Ibanez",
+    "first": "Raul",
+    "last": "Ibanez",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "irabuhi01": {
+    "name": "Hideki Irabu",
+    "first": "Hideki",
+    "last": "Irabu",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "isrinja01": {
+    "name": "Jason Isringhausen",
+    "first": "Jason",
+    "last": "Isringhausen",
+    "teams": [
+      "NYM",
+      "OAK"
+    ]
+  },
+  "jacksda03": {
+    "name": "Darrin Jackson",
+    "first": "Darrin",
+    "last": "Jackson",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "jacksda04": {
+    "name": "Damian Jackson",
+    "first": "Damian",
+    "last": "Jackson",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "jacksmi02": {
+    "name": "Mike Jackson",
+    "first": "Mike",
+    "last": "Jackson",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "jacksry01": {
+    "name": "Ryan Jackson",
+    "first": "Ryan",
+    "last": "Jackson",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "jahajo01": {
+    "name": "John Jaha",
+    "first": "John",
+    "last": "Jaha",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "jarvike01": {
+    "name": "Kevin Jarvis",
+    "first": "Kevin",
+    "last": "Jarvis",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "javiest01": {
+    "name": "Stan Javier",
+    "first": "Stan",
+    "last": "Javier",
+    "teams": [
+      "HOU",
+      "SFG"
+    ]
+  },
+  "jeffegr01": {
+    "name": "Gregg Jefferies",
+    "first": "Gregg",
+    "last": "Jefferies",
+    "teams": [
+      "DET"
+    ]
+  },
+  "jeffere01": {
+    "name": "Reggie Jefferson",
+    "first": "Reggie",
+    "last": "Jefferson",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "jenkige01": {
+    "name": "Geoff Jenkins",
+    "first": "Geoff",
+    "last": "Jenkins",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "jenniro01": {
+    "name": "Robin Jennings",
+    "first": "Robin",
+    "last": "Jennings",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "jensema01": {
+    "name": "Marcus Jensen",
+    "first": "Marcus",
+    "last": "Jensen",
+    "teams": [
+      "STL"
+    ]
+  },
+  "jeterde01": {
+    "name": "Derek Jeter",
+    "first": "Derek",
+    "last": "Jeter",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "jimend'01": {
+    "name": "D'Angelo Jimenez",
+    "first": "D'Angelo",
+    "last": "Jimenez",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "jimenjo01": {
+    "name": "Jose Jimenez",
+    "first": "Jose",
+    "last": "Jimenez",
+    "teams": [
+      "STL"
+    ]
+  },
+  "johnsbr01": {
+    "name": "Brian Johnson",
+    "first": "Brian",
+    "last": "Johnson",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "johnsch04": {
+    "name": "Charles Johnson",
+    "first": "Charles",
+    "last": "Johnson",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "johnsdo04": {
+    "name": "Doug Johns",
+    "first": "Doug",
+    "last": "Johns",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "johnsja02": {
+    "name": "Jason Johnson",
+    "first": "Jason",
+    "last": "Johnson",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "johnsjo07": {
+    "name": "John Johnstone",
+    "first": "John",
+    "last": "Johnstone",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "johnsjo08": {
+    "name": "Jonathan Johnson",
+    "first": "Jonathan",
+    "last": "Johnson",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "johnsla03": {
+    "name": "Lance Johnson",
+    "first": "Lance",
+    "last": "Johnson",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "johnsma02": {
+    "name": "Mark Johnson",
+    "first": "Mark",
+    "last": "Johnson",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "johnsmi02": {
+    "name": "Mike Johnson",
+    "first": "Mike",
+    "last": "Johnson",
+    "teams": [
+      "MON"
+    ]
+  },
+  "johnsra05": {
+    "name": "Randy Johnson",
+    "first": "Randy",
+    "last": "Johnson",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "johnsru01": {
+    "name": "Russ Johnson",
+    "first": "Russ",
+    "last": "Johnson",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "jonesan01": {
+    "name": "Andruw Jones",
+    "first": "Andruw",
+    "last": "Jones",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "jonesbo03": {
+    "name": "Bobby Jones",
+    "first": "Bobby",
+    "last": "Jones",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "jonesbo04": {
+    "name": "Bobby Jones",
+    "first": "Bobby",
+    "last": "Jones",
+    "teams": [
+      "COL"
+    ]
+  },
+  "jonesch06": {
+    "name": "Chipper Jones",
+    "first": "Chipper",
+    "last": "Jones",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "jonesdo01": {
+    "name": "Doug Jones",
+    "first": "Doug",
+    "last": "Jones",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "jonesja05": {
+    "name": "Jacque Jones",
+    "first": "Jacque",
+    "last": "Jones",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "joneste02": {
+    "name": "Terry Jones",
+    "first": "Terry",
+    "last": "Jones",
+    "teams": [
+      "MON"
+    ]
+  },
+  "jonesto02": {
+    "name": "Todd Jones",
+    "first": "Todd",
+    "last": "Jones",
+    "teams": [
+      "DET"
+    ]
+  },
+  "jordabr01": {
+    "name": "Brian Jordan",
+    "first": "Brian",
+    "last": "Jordan",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "jordake01": {
+    "name": "Kevin Jordan",
+    "first": "Kevin",
+    "last": "Jordan",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "joynewa01": {
+    "name": "Wally Joyner",
+    "first": "Wally",
+    "last": "Joyner",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "juddmi01": {
+    "name": "Mike Judd",
+    "first": "Mike",
+    "last": "Judd",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "judenje01": {
+    "name": "Jeff Juden",
+    "first": "Jeff",
+    "last": "Juden",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "justida01": {
+    "name": "David Justice",
+    "first": "David",
+    "last": "Justice",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "kamiesc01": {
+    "name": "Scott Kamieniecki",
+    "first": "Scott",
+    "last": "Kamieniecki",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "kaplega01": {
+    "name": "Gabe Kapler",
+    "first": "Gabe",
+    "last": "Kapler",
+    "teams": [
+      "DET"
+    ]
+  },
+  "karchma01": {
+    "name": "Matt Karchner",
+    "first": "Matt",
+    "last": "Karchner",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "karlsc01": {
+    "name": "Scott Karl",
+    "first": "Scott",
+    "last": "Karl",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "karroer01": {
+    "name": "Eric Karros",
+    "first": "Eric",
+    "last": "Karros",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "karsast01": {
+    "name": "Steve Karsay",
+    "first": "Steve",
+    "last": "Karsay",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "kellymi02": {
+    "name": "Mike Kelly",
+    "first": "Mike",
+    "last": "Kelly",
+    "teams": [
+      "COL"
+    ]
+  },
+  "kellypa03": {
+    "name": "Pat Kelly",
+    "first": "Pat",
+    "last": "Kelly",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "kellyro01": {
+    "name": "Roberto Kelly",
+    "first": "Roberto",
+    "last": "Kelly",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "kendaja01": {
+    "name": "Jason Kendall",
+    "first": "Jason",
+    "last": "Kendall",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "kennead01": {
+    "name": "Adam Kennedy",
+    "first": "Adam",
+    "last": "Kennedy",
+    "teams": [
+      "STL"
+    ]
+  },
+  "kentje01": {
+    "name": "Jeff Kent",
+    "first": "Jeff",
+    "last": "Kent",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "kidama01": {
+    "name": "Masao Kida",
+    "first": "Masao",
+    "last": "Kida",
+    "teams": [
+      "DET"
+    ]
+  },
+  "kileda01": {
+    "name": "Darryl Kile",
+    "first": "Darryl",
+    "last": "Kile",
+    "teams": [
+      "COL"
+    ]
+  },
+  "kimby01": {
+    "name": "Byung-Hyun Kim",
+    "first": "Byung-Hyun",
+    "last": "Kim",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "kingcu01": {
+    "name": "Curtis King",
+    "first": "Curtis",
+    "last": "King",
+    "teams": [
+      "STL"
+    ]
+  },
+  "kingje01": {
+    "name": "Jeff King",
+    "first": "Jeff",
+    "last": "King",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "kingra01": {
+    "name": "Ray King",
+    "first": "Ray",
+    "last": "King",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "kingsge01": {
+    "name": "Gene Kingsale",
+    "first": "Gene",
+    "last": "Kingsale",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "kinkami01": {
+    "name": "Mike Kinkade",
+    "first": "Mike",
+    "last": "Kinkade",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "klassda01": {
+    "name": "Danny Klassen",
+    "first": "Danny",
+    "last": "Klassen",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "kleskry01": {
+    "name": "Ryan Klesko",
+    "first": "Ryan",
+    "last": "Klesko",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "klinest02": {
+    "name": "Steve Kline",
+    "first": "Steve",
+    "last": "Kline",
+    "teams": [
+      "MON"
+    ]
+  },
+  "knoblch01": {
+    "name": "Chuck Knoblauch",
+    "first": "Chuck",
+    "last": "Knoblauch",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "knorrra01": {
+    "name": "Randy Knorr",
+    "first": "Randy",
+    "last": "Knorr",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "kochbi01": {
+    "name": "Billy Koch",
+    "first": "Billy",
+    "last": "Koch",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "kolbda01": {
+    "name": "Danny Kolb",
+    "first": "Danny",
+    "last": "Kolb",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "konerpa01": {
+    "name": "Paul Konerko",
+    "first": "Paul",
+    "last": "Konerko",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "koskico01": {
+    "name": "Corey Koskie",
+    "first": "Corey",
+    "last": "Koskie",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "kotsama01": {
+    "name": "Mark Kotsay",
+    "first": "Mark",
+    "last": "Kotsay",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "kreutch01": {
+    "name": "Chad Kreuter",
+    "first": "Chad",
+    "last": "Kreuter",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "kubenje01": {
+    "name": "Jeff Kubenka",
+    "first": "Jeff",
+    "last": "Kubenka",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "kubinti01": {
+    "name": "Tim Kubinski",
+    "first": "Tim",
+    "last": "Kubinski",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "lakerti01": {
+    "name": "Tim Laker",
+    "first": "Tim",
+    "last": "Laker",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "lambda01": {
+    "name": "David Lamb",
+    "first": "David",
+    "last": "Lamb",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "lampkto01": {
+    "name": "Tom Lampkin",
+    "first": "Tom",
+    "last": "Lampkin",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "langsma01": {
+    "name": "Mark Langston",
+    "first": "Mark",
+    "last": "Langston",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "lankfra01": {
+    "name": "Ray Lankford",
+    "first": "Ray",
+    "last": "Lankford",
+    "teams": [
+      "STL"
+    ]
+  },
+  "lansimi01": {
+    "name": "Mike Lansing",
+    "first": "Mike",
+    "last": "Lansing",
+    "teams": [
+      "COL"
+    ]
+  },
+  "larkiba01": {
+    "name": "Barry Larkin",
+    "first": "Barry",
+    "last": "Larkin",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "larueja01": {
+    "name": "Jason LaRue",
+    "first": "Jason",
+    "last": "LaRue",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "lathach01": {
+    "name": "Chris Latham",
+    "first": "Chris",
+    "last": "Latham",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "lawtoma02": {
+    "name": "Matt Lawton",
+    "first": "Matt",
+    "last": "Lawton",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "laxtobr01": {
+    "name": "Brett Laxton",
+    "first": "Brett",
+    "last": "Laxton",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "ledeeri01": {
+    "name": "Ricky Ledee",
+    "first": "Ricky",
+    "last": "Ledee",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "ledesaa01": {
+    "name": "Aaron Ledesma",
+    "first": "Aaron",
+    "last": "Ledesma",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "leeca01": {
+    "name": "Carlos Lee",
+    "first": "Carlos",
+    "last": "Lee",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "leeco01": {
+    "name": "Corey Lee",
+    "first": "Corey",
+    "last": "Lee",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "leeda01": {
+    "name": "David Lee",
+    "first": "David",
+    "last": "Lee",
+    "teams": [
+      "COL"
+    ]
+  },
+  "leede02": {
+    "name": "Derrek Lee",
+    "first": "Derrek",
+    "last": "Lee",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "leetr01": {
+    "name": "Travis Lee",
+    "first": "Travis",
+    "last": "Lee",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "leiteal01": {
+    "name": "Al Leiter",
+    "first": "Al",
+    "last": "Leiter",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "leitema01": {
+    "name": "Mark Leiter",
+    "first": "Mark",
+    "last": "Leiter",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "leiussc01": {
+    "name": "Scott Leius",
+    "first": "Scott",
+    "last": "Leius",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "lennopa01": {
+    "name": "Pat Lennon",
+    "first": "Pat",
+    "last": "Lennon",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "leskacu01": {
+    "name": "Curt Leskanic",
+    "first": "Curt",
+    "last": "Leskanic",
+    "teams": [
+      "COL"
+    ]
+  },
+  "levinal01": {
+    "name": "Al Levine",
+    "first": "Al",
+    "last": "Levine",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "levisje01": {
+    "name": "Jesse Levis",
+    "first": "Jesse",
+    "last": "Levis",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "lewisda01": {
+    "name": "Darren Lewis",
+    "first": "Darren",
+    "last": "Lewis",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "lewisma01": {
+    "name": "Mark Lewis",
+    "first": "Mark",
+    "last": "Lewis",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "leyriji01": {
+    "name": "Jim Leyritz",
+    "first": "Jim",
+    "last": "Leyritz",
+    "teams": [
+      "NYY",
+      "SDP"
+    ]
+  },
+  "lidleco01": {
+    "name": "Cory Lidle",
+    "first": "Cory",
+    "last": "Lidle",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "liebejo01": {
+    "name": "Jon Lieber",
+    "first": "Jon",
+    "last": "Lieber",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "liebemi01": {
+    "name": "Mike Lieberthal",
+    "first": "Mike",
+    "last": "Lieberthal",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "liefeje01": {
+    "name": "Jeff Liefer",
+    "first": "Jeff",
+    "last": "Liefer",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "lillyte01": {
+    "name": "Ted Lilly",
+    "first": "Ted",
+    "last": "Lilly",
+    "teams": [
+      "MON"
+    ]
+  },
+  "limajo01": {
+    "name": "Jose Lima",
+    "first": "Jose",
+    "last": "Lima",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "lincomi01": {
+    "name": "Mike Lincoln",
+    "first": "Mike",
+    "last": "Lincoln",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "liniaco01": {
+    "name": "Cole Liniak",
+    "first": "Cole",
+    "last": "Liniak",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "lintodo01": {
+    "name": "Doug Linton",
+    "first": "Doug",
+    "last": "Linton",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "lirafe01": {
+    "name": "Felipe Lira",
+    "first": "Felipe",
+    "last": "Lira",
+    "teams": [
+      "DET"
+    ]
+  },
+  "lloydgr01": {
+    "name": "Graeme Lloyd",
+    "first": "Graeme",
+    "last": "Lloyd",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "loaizes01": {
+    "name": "Esteban Loaiza",
+    "first": "Esteban",
+    "last": "Loaiza",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "lockhke01": {
+    "name": "Keith Lockhart",
+    "first": "Keith",
+    "last": "Lockhart",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "loducpa01": {
+    "name": "Paul Lo Duca",
+    "first": "Paul",
+    "last": "Lo Duca",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "loeweca01": {
+    "name": "Carlton Loewer",
+    "first": "Carlton",
+    "last": "Loewer",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "loftoke01": {
+    "name": "Kenny Lofton",
+    "first": "Kenny",
+    "last": "Lofton",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "loiseri01": {
+    "name": "Rich Loiselle",
+    "first": "Rich",
+    "last": "Loiselle",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "lomasst01": {
+    "name": "Steve Lomasney",
+    "first": "Steve",
+    "last": "Lomasney",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "lombage01": {
+    "name": "George Lombard",
+    "first": "George",
+    "last": "Lombard",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "longte01": {
+    "name": "Terrence Long",
+    "first": "Terrence",
+    "last": "Long",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "loopebr01": {
+    "name": "Braden Looper",
+    "first": "Braden",
+    "last": "Looper",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "lopezal02": {
+    "name": "Albie Lopez",
+    "first": "Albie",
+    "last": "Lopez",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "lopezja01": {
+    "name": "Javy Lopez",
+    "first": "Javy",
+    "last": "Lopez",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "lopezlu02": {
+    "name": "Luis Lopez",
+    "first": "Luis",
+    "last": "Lopez",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "lopezme01": {
+    "name": "Mendy Lopez",
+    "first": "Mendy",
+    "last": "Lopez",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "loretma01": {
+    "name": "Mark Loretta",
+    "first": "Mark",
+    "last": "Loretta",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "lorraan01": {
+    "name": "Andrew Lorraine",
+    "first": "Andrew",
+    "last": "Lorraine",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "lovulto01": {
+    "name": "Torey Lovullo",
+    "first": "Torey",
+    "last": "Lovullo",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "lowede01": {
+    "name": "Derek Lowe",
+    "first": "Derek",
+    "last": "Lowe",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "lowelmi01": {
+    "name": "Mike Lowell",
+    "first": "Mike",
+    "last": "Lowell",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "lowerte01": {
+    "name": "Terrell Lowery",
+    "first": "Terrell",
+    "last": "Lowery",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "lowese01": {
+    "name": "Sean Lowe",
+    "first": "Sean",
+    "last": "Lowe",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "ludwier01": {
+    "name": "Eric Ludwick",
+    "first": "Eric",
+    "last": "Ludwick",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "luebbla01": {
+    "name": "Larry Luebbers",
+    "first": "Larry",
+    "last": "Luebbers",
+    "teams": [
+      "STL"
+    ]
+  },
+  "lukema01": {
+    "name": "Matt Luke",
+    "first": "Matt",
+    "last": "Luke",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "lundqda01": {
+    "name": "David Lundquist",
+    "first": "David",
+    "last": "Lundquist",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "mabryjo01": {
+    "name": "John Mabry",
+    "first": "John",
+    "last": "Mabry",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "macfami01": {
+    "name": "Mike Macfarlane",
+    "first": "Mike",
+    "last": "Macfarlane",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "macharo01": {
+    "name": "Robert Machado",
+    "first": "Robert",
+    "last": "Machado",
+    "teams": [
+      "MON"
+    ]
+  },
+  "maciajo01": {
+    "name": "Jose Macias",
+    "first": "Jose",
+    "last": "Macias",
+    "teams": [
+      "DET"
+    ]
+  },
+  "maddugr01": {
+    "name": "Greg Maddux",
+    "first": "Greg",
+    "last": "Maddux",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "maddumi01": {
+    "name": "Mike Maddux",
+    "first": "Mike",
+    "last": "Maddux",
+    "teams": [
+      "LAD",
+      "MON"
+    ]
+  },
+  "magadda01": {
+    "name": "Dave Magadan",
+    "first": "Dave",
+    "last": "Magadan",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "mageewe01": {
+    "name": "Wendell Magee",
+    "first": "Wendell",
+    "last": "Magee",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "magnami01": {
+    "name": "Mike Magnante",
+    "first": "Mike",
+    "last": "Magnante",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "mahayro01": {
+    "name": "Ron Mahay",
+    "first": "Ron",
+    "last": "Mahay",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "mahompa01": {
+    "name": "Pat Mahomes",
+    "first": "Pat",
+    "last": "Mahomes",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "mantema01": {
+    "name": "Matt Mantei",
+    "first": "Matt",
+    "last": "Mantei",
+    "teams": [
+      "ARI",
+      "FLA"
+    ]
+  },
+  "mantoje01": {
+    "name": "Jeff Manto",
+    "first": "Jeff",
+    "last": "Manto",
+    "teams": [
+      "CLE",
+      "NYY"
+    ]
+  },
+  "manwaki01": {
+    "name": "Kirt Manwaring",
+    "first": "Kirt",
+    "last": "Manwaring",
+    "teams": [
+      "COL"
+    ]
+  },
+  "manzajo01": {
+    "name": "Josias Manzanillo",
+    "first": "Josias",
+    "last": "Manzanillo",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "marreel01": {
+    "name": "Eli Marrero",
+    "first": "Eli",
+    "last": "Marrero",
+    "teams": [
+      "STL"
+    ]
+  },
+  "marteda01": {
+    "name": "Damaso Marte",
+    "first": "Damaso",
+    "last": "Marte",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "martial03": {
+    "name": "Al Martin",
+    "first": "Al",
+    "last": "Martin",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "martida01": {
+    "name": "Dave Martinez",
+    "first": "Dave",
+    "last": "Martinez",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "martied01": {
+    "name": "Edgar Martinez",
+    "first": "Edgar",
+    "last": "Martinez",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "martife01": {
+    "name": "Felix Martinez",
+    "first": "Felix",
+    "last": "Martinez",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "martima02": {
+    "name": "Manny Martinez",
+    "first": "Manny",
+    "last": "Martinez",
+    "teams": [
+      "MON"
+    ]
+  },
+  "martino01": {
+    "name": "Norberto Martin",
+    "first": "Norberto",
+    "last": "Martin",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "martipe02": {
+    "name": "Pedro Martinez",
+    "first": "Pedro",
+    "last": "Martinez",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "martira02": {
+    "name": "Ramon Martinez",
+    "first": "Ramon",
+    "last": "Martinez",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "martira03": {
+    "name": "Ramon Martinez",
+    "first": "Ramon",
+    "last": "Martinez",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "martisa01": {
+    "name": "Sandy Martinez",
+    "first": "Sandy",
+    "last": "Martinez",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "martiti02": {
+    "name": "Tino Martinez",
+    "first": "Tino",
+    "last": "Martinez",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "martito02": {
+    "name": "Tom Martin",
+    "first": "Tom",
+    "last": "Martin",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "masaoon01": {
+    "name": "Onan Masaoka",
+    "first": "Onan",
+    "last": "Masaoka",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "mateoru01": {
+    "name": "Ruben Mateo",
+    "first": "Ruben",
+    "last": "Mateo",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "mathemi01": {
+    "name": "Mike Matheny",
+    "first": "Mike",
+    "last": "Matheny",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "mathet.01": {
+    "name": "T.J. Mathews",
+    "first": "T.J.",
+    "last": "Mathews",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "mathete01": {
+    "name": "Terry Mathews",
+    "first": "Terry",
+    "last": "Mathews",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "matospa01": {
+    "name": "Pascual Matos",
+    "first": "Pascual",
+    "last": "Matos",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "matthga02": {
+    "name": "Gary Matthews",
+    "first": "Gary",
+    "last": "Matthews",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "mayde01": {
+    "name": "Derrick May",
+    "first": "Derrick",
+    "last": "May",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "maynebr01": {
+    "name": "Brent Mayne",
+    "first": "Brent",
+    "last": "Mayne",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "maysjo01": {
+    "name": "Joe Mays",
+    "first": "Joe",
+    "last": "Mays",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "mccraqu01": {
+    "name": "Quinton McCracken",
+    "first": "Quinton",
+    "last": "McCracken",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "mccurje01": {
+    "name": "Jeff McCurry",
+    "first": "Jeff",
+    "last": "McCurry",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "mcdonja02": {
+    "name": "Jason McDonald",
+    "first": "Jason",
+    "last": "McDonald",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "mcdonjo03": {
+    "name": "John McDonald",
+    "first": "John",
+    "last": "McDonald",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "mcdowja01": {
+    "name": "Jack McDowell",
+    "first": "Jack",
+    "last": "McDowell",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "mcelrch01": {
+    "name": "Chuck McElroy",
+    "first": "Chuck",
+    "last": "McElroy",
+    "teams": [
+      "COL",
+      "NYM"
+    ]
+  },
+  "mcewijo01": {
+    "name": "Joe McEwing",
+    "first": "Joe",
+    "last": "McEwing",
+    "teams": [
+      "STL"
+    ]
+  },
+  "mcgeewi01": {
+    "name": "Willie McGee",
+    "first": "Willie",
+    "last": "McGee",
+    "teams": [
+      "STL"
+    ]
+  },
+  "mcglike01": {
+    "name": "Kevin McGlinchy",
+    "first": "Kevin",
+    "last": "McGlinchy",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "mcgrifr01": {
+    "name": "Fred McGriff",
+    "first": "Fred",
+    "last": "McGriff",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "mcguiry01": {
+    "name": "Ryan McGuire",
+    "first": "Ryan",
+    "last": "McGuire",
+    "teams": [
+      "MON"
+    ]
+  },
+  "mcgwima01": {
+    "name": "Mark McGwire",
+    "first": "Mark",
+    "last": "McGwire",
+    "teams": [
+      "STL"
+    ]
+  },
+  "mclemma01": {
+    "name": "Mark McLemore",
+    "first": "Mark",
+    "last": "McLemore",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "mcmicgr01": {
+    "name": "Greg McMichael",
+    "first": "Greg",
+    "last": "McMichael",
+    "teams": [
+      "NYM",
+      "OAK"
+    ]
+  },
+  "mcnicbr01": {
+    "name": "Brian McNichol",
+    "first": "Brian",
+    "last": "McNichol",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "mcraebr01": {
+    "name": "Brian McRae",
+    "first": "Brian",
+    "last": "McRae",
+    "teams": [
+      "COL",
+      "NYM",
+      "TOR"
+    ]
+  },
+  "meadobr01": {
+    "name": "Brian Meadows",
+    "first": "Brian",
+    "last": "Meadows",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "mearepa01": {
+    "name": "Pat Meares",
+    "first": "Pat",
+    "last": "Meares",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "mechegi01": {
+    "name": "Gil Meche",
+    "first": "Gil",
+    "last": "Meche",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "mecirji01": {
+    "name": "Jim Mecir",
+    "first": "Jim",
+    "last": "Mecir",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "medinra01": {
+    "name": "Rafael Medina",
+    "first": "Rafael",
+    "last": "Medina",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "melusmi01": {
+    "name": "Mitch Meluskey",
+    "first": "Mitch",
+    "last": "Meluskey",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "mendora01": {
+    "name": "Ramiro Mendoza",
+    "first": "Ramiro",
+    "last": "Mendoza",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "menecfr01": {
+    "name": "Frank Menechino",
+    "first": "Frank",
+    "last": "Menechino",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "merceor01": {
+    "name": "Orlando Merced",
+    "first": "Orlando",
+    "last": "Merced",
+    "teams": [
+      "MON"
+    ]
+  },
+  "merckke01": {
+    "name": "Kent Mercker",
+    "first": "Kent",
+    "last": "Mercker",
+    "teams": [
+      "BOS",
+      "STL"
+    ]
+  },
+  "merlolo01": {
+    "name": "Lou Merloni",
+    "first": "Lou",
+    "last": "Merloni",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "mesajo01": {
+    "name": "Jose Mesa",
+    "first": "Jose",
+    "last": "Mesa",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "meyerch02": {
+    "name": "Chad Meyers",
+    "first": "Chad",
+    "last": "Meyers",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "micelda01": {
+    "name": "Dan Miceli",
+    "first": "Dan",
+    "last": "Miceli",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "mientdo01": {
+    "name": "Doug Mientkiewicz",
+    "first": "Doug",
+    "last": "Mientkiewicz",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "mieskma01": {
+    "name": "Matt Mieske",
+    "first": "Matt",
+    "last": "Mieske",
+    "teams": [
+      "HOU",
+      "SEA"
+    ]
+  },
+  "millake01": {
+    "name": "Kevin Millar",
+    "first": "Kevin",
+    "last": "Millar",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "milleda02": {
+    "name": "Damian Miller",
+    "first": "Damian",
+    "last": "Miller",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "milleku01": {
+    "name": "Kurt Miller",
+    "first": "Kurt",
+    "last": "Miller",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "milletr01": {
+    "name": "Travis Miller",
+    "first": "Travis",
+    "last": "Miller",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "milletr02": {
+    "name": "Trever Miller",
+    "first": "Trever",
+    "last": "Miller",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "millewa04": {
+    "name": "Wade Miller",
+    "first": "Wade",
+    "last": "Miller",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "millsal01": {
+    "name": "Alan Mills",
+    "first": "Alan",
+    "last": "Mills",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "millwke01": {
+    "name": "Kevin Millwood",
+    "first": "Kevin",
+    "last": "Millwood",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "miltoer01": {
+    "name": "Eric Milton",
+    "first": "Eric",
+    "last": "Milton",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "minorry01": {
+    "name": "Ryan Minor",
+    "first": "Ryan",
+    "last": "Minor",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "mintzst01": {
+    "name": "Steve Mintz",
+    "first": "Steve",
+    "last": "Mintz",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "mirabdo01": {
+    "name": "Doug Mirabelli",
+    "first": "Doug",
+    "last": "Mirabelli",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "mlickda01": {
+    "name": "Dave Mlicki",
+    "first": "Dave",
+    "last": "Mlicki",
+    "teams": [
+      "DET",
+      "LAD"
+    ]
+  },
+  "moehlbr01": {
+    "name": "Brian Moehler",
+    "first": "Brian",
+    "last": "Moehler",
+    "teams": [
+      "DET"
+    ]
+  },
+  "mohlemi01": {
+    "name": "Mike Mohler",
+    "first": "Mike",
+    "last": "Mohler",
+    "teams": [
+      "STL"
+    ]
+  },
+  "molinbe01": {
+    "name": "Bengie Molina",
+    "first": "Bengie",
+    "last": "Molina",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "molinga01": {
+    "name": "Gabe Molina",
+    "first": "Gabe",
+    "last": "Molina",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "molinjo01": {
+    "name": "Jose Molina",
+    "first": "Jose",
+    "last": "Molina",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "monahsh01": {
+    "name": "Shane Monahan",
+    "first": "Shane",
+    "last": "Monahan",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "mondera01": {
+    "name": "Raul Mondesi",
+    "first": "Raul",
+    "last": "Mondesi",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "montgje01": {
+    "name": "Jeff Montgomery",
+    "first": "Jeff",
+    "last": "Montgomery",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "montgst01": {
+    "name": "Steve Montgomery",
+    "first": "Steve",
+    "last": "Montgomery",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "morame01": {
+    "name": "Melvin Mora",
+    "first": "Melvin",
+    "last": "Mora",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "moranmi01": {
+    "name": "Mickey Morandini",
+    "first": "Mickey",
+    "last": "Morandini",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "mordemi01": {
+    "name": "Mike Mordecai",
+    "first": "Mike",
+    "last": "Mordecai",
+    "teams": [
+      "MON"
+    ]
+  },
+  "morenor01": {
+    "name": "Orber Moreno",
+    "first": "Orber",
+    "last": "Moreno",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "morgami01": {
+    "name": "Mike Morgan",
+    "first": "Mike",
+    "last": "Morgan",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "mormaal01": {
+    "name": "Alvin Morman",
+    "first": "Alvin",
+    "last": "Morman",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "morriha02": {
+    "name": "Hal Morris",
+    "first": "Hal",
+    "last": "Morris",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "morrija03": {
+    "name": "Jim Morris",
+    "first": "Jim",
+    "last": "Morris",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "morriwa02": {
+    "name": "Warren Morris",
+    "first": "Warren",
+    "last": "Morris",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "motagu01": {
+    "name": "Guillermo Mota",
+    "first": "Guillermo",
+    "last": "Mota",
+    "teams": [
+      "MON"
+    ]
+  },
+  "moutoja01": {
+    "name": "James Mouton",
+    "first": "James",
+    "last": "Mouton",
+    "teams": [
+      "MON"
+    ]
+  },
+  "moutoly01": {
+    "name": "Lyle Mouton",
+    "first": "Lyle",
+    "last": "Mouton",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "moyerja01": {
+    "name": "Jamie Moyer",
+    "first": "Jamie",
+    "last": "Moyer",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "muellbi02": {
+    "name": "Bill Mueller",
+    "first": "Bill",
+    "last": "Mueller",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "mulhote01": {
+    "name": "Terry Mulholland",
+    "first": "Terry",
+    "last": "Mulholland",
+    "teams": [
+      "ATL",
+      "CHC"
+    ]
+  },
+  "munozmi01": {
+    "name": "Mike Munoz",
+    "first": "Mike",
+    "last": "Munoz",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "munrope01": {
+    "name": "Peter Munro",
+    "first": "Peter",
+    "last": "Munro",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "murraca01": {
+    "name": "Calvin Murray",
+    "first": "Calvin",
+    "last": "Murray",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "murrada02": {
+    "name": "Dan Murray",
+    "first": "Dan",
+    "last": "Murray",
+    "teams": [
+      "KCR",
+      "NYM"
+    ]
+  },
+  "murrahe01": {
+    "name": "Heath Murray",
+    "first": "Heath",
+    "last": "Murray",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "mussimi01": {
+    "name": "Mike Mussina",
+    "first": "Mike",
+    "last": "Mussina",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "myersgr01": {
+    "name": "Greg Myers",
+    "first": "Greg",
+    "last": "Myers",
+    "teams": [
+      "ATL",
+      "SDP"
+    ]
+  },
+  "myersmi01": {
+    "name": "Mike Myers",
+    "first": "Mike",
+    "last": "Myers",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "myersro01": {
+    "name": "Rodney Myers",
+    "first": "Rodney",
+    "last": "Myers",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "myettaa01": {
+    "name": "Aaron Myette",
+    "first": "Aaron",
+    "last": "Myette",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "nagych01": {
+    "name": "Charles Nagy",
+    "first": "Charles",
+    "last": "Nagy",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "nathajo01": {
+    "name": "Joe Nathan",
+    "first": "Joe",
+    "last": "Nathan",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "naultda01": {
+    "name": "Dan Naulty",
+    "first": "Dan",
+    "last": "Naulty",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "navarja01": {
+    "name": "Jaime Navarro",
+    "first": "Jaime",
+    "last": "Navarro",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "neaglde01": {
+    "name": "Denny Neagle",
+    "first": "Denny",
+    "last": "Neagle",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "nelsoje01": {
+    "name": "Jeff Nelson",
+    "first": "Jeff",
+    "last": "Nelson",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "nenro01": {
+    "name": "Robb Nen",
+    "first": "Robb",
+    "last": "Nen",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "nevinph01": {
+    "name": "Phil Nevin",
+    "first": "Phil",
+    "last": "Nevin",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "newhada01": {
+    "name": "David Newhan",
+    "first": "David",
+    "last": "Newhan",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "newmaal02": {
+    "name": "Alan Newman",
+    "first": "Alan",
+    "last": "Newman",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "nievejo01": {
+    "name": "Jose Nieves",
+    "first": "Jose",
+    "last": "Nieves",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "nilssda01": {
+    "name": "Dave Nilsson",
+    "first": "Dave",
+    "last": "Nilsson",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "nitkoc.01": {
+    "name": "C.J. Nitkowski",
+    "first": "C.J.",
+    "last": "Nitkowski",
+    "teams": [
+      "DET"
+    ]
+  },
+  "nixonot01": {
+    "name": "Otis Nixon",
+    "first": "Otis",
+    "last": "Nixon",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "nixontr01": {
+    "name": "Trot Nixon",
+    "first": "Trot",
+    "last": "Nixon",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "nomohi01": {
+    "name": "Hideo Nomo",
+    "first": "Hideo",
+    "last": "Nomo",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "nortogr01": {
+    "name": "Greg Norton",
+    "first": "Greg",
+    "last": "Norton",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "nunezab01": {
+    "name": "Abraham Nunez",
+    "first": "Abraham",
+    "last": "Nunez",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "nunezvl01": {
+    "name": "Vladimir Nunez",
+    "first": "Vladimir",
+    "last": "Nunez",
+    "teams": [
+      "ARI",
+      "FLA"
+    ]
+  },
+  "nunnajo01": {
+    "name": "Jon Nunnally",
+    "first": "Jon",
+    "last": "Nunnally",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "o'brich01": {
+    "name": "Charlie O'Brien",
+    "first": "Charlie",
+    "last": "O'Brien",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "o'leatr01": {
+    "name": "Troy O'Leary",
+    "first": "Troy",
+    "last": "O'Leary",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "o'neipa01": {
+    "name": "Paul O'Neill",
+    "first": "Paul",
+    "last": "O'Neill",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "ochoaal01": {
+    "name": "Alex Ochoa",
+    "first": "Alex",
+    "last": "Ochoa",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "offerjo01": {
+    "name": "Jose Offerman",
+    "first": "Jose",
+    "last": "Offerman",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "ogeach01": {
+    "name": "Chad Ogea",
+    "first": "Chad",
+    "last": "Ogea",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "ohkato01": {
+    "name": "Tomo Ohka",
+    "first": "Tomo",
+    "last": "Ohka",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "ojalaki01": {
+    "name": "Kirt Ojala",
+    "first": "Kirt",
+    "last": "Ojala",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "olerujo01": {
+    "name": "John Olerud",
+    "first": "John",
+    "last": "Olerud",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "olivaom01": {
+    "name": "Omar Olivares",
+    "first": "Omar",
+    "last": "Olivares",
+    "teams": [
+      "ANA",
+      "OAK"
+    ]
+  },
+  "oliveda02": {
+    "name": "Darren Oliver",
+    "first": "Darren",
+    "last": "Oliver",
+    "teams": [
+      "STL"
+    ]
+  },
+  "olivejo01": {
+    "name": "Joe Oliver",
+    "first": "Joe",
+    "last": "Oliver",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "olsongr01": {
+    "name": "Gregg Olson",
+    "first": "Gregg",
+    "last": "Olson",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "oquismi01": {
+    "name": "Mike Oquist",
+    "first": "Mike",
+    "last": "Oquist",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "ordazlu01": {
+    "name": "Luis Ordaz",
+    "first": "Luis",
+    "last": "Ordaz",
+    "teams": [
+      "STL"
+    ]
+  },
+  "ordonma01": {
+    "name": "Magglio Ordonez",
+    "first": "Magglio",
+    "last": "Ordonez",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "ordonre01": {
+    "name": "Rey Ordonez",
+    "first": "Rey",
+    "last": "Ordonez",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "orieke01": {
+    "name": "Kevin Orie",
+    "first": "Kevin",
+    "last": "Orie",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "oroscje01": {
+    "name": "Jesse Orosco",
+    "first": "Jesse",
+    "last": "Orosco",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "ortizda01": {
+    "name": "David Ortiz",
+    "first": "David",
+    "last": "Ortiz",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "ortizra02": {
+    "name": "Ramon Ortiz",
+    "first": "Ramon",
+    "last": "Ortiz",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "ortizru01": {
+    "name": "Russ Ortiz",
+    "first": "Russ",
+    "last": "Ortiz",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "osbordo01": {
+    "name": "Donovan Osborne",
+    "first": "Donovan",
+    "last": "Osborne",
+    "teams": [
+      "STL"
+    ]
+  },
+  "osikke01": {
+    "name": "Keith Osik",
+    "first": "Keith",
+    "last": "Osik",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "osunaan01": {
+    "name": "Antonio Osuna",
+    "first": "Antonio",
+    "last": "Osuna",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "otanewi01": {
+    "name": "Willis Otanez",
+    "first": "Willis",
+    "last": "Otanez",
+    "teams": [
+      "BAL",
+      "TOR"
+    ]
+  },
+  "owenser01": {
+    "name": "Eric Owens",
+    "first": "Eric",
+    "last": "Owens",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "padilvi01": {
+    "name": "Vicente Padilla",
+    "first": "Vicente",
+    "last": "Padilla",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "paintla01": {
+    "name": "Lance Painter",
+    "first": "Lance",
+    "last": "Painter",
+    "teams": [
+      "STL"
+    ]
+  },
+  "palmede01": {
+    "name": "Dean Palmer",
+    "first": "Dean",
+    "last": "Palmer",
+    "teams": [
+      "DET"
+    ]
+  },
+  "palmeor01": {
+    "name": "Orlando Palmeiro",
+    "first": "Orlando",
+    "last": "Palmeiro",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "palmera01": {
+    "name": "Rafael Palmeiro",
+    "first": "Rafael",
+    "last": "Palmeiro",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "paniajo01": {
+    "name": "Jose Paniagua",
+    "first": "Jose",
+    "last": "Paniagua",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "paquecr01": {
+    "name": "Craig Paquette",
+    "first": "Craig",
+    "last": "Paquette",
+    "teams": [
+      "STL"
+    ]
+  },
+  "parkch01": {
+    "name": "Chan Ho Park",
+    "first": "Chan Ho",
+    "last": "Park",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "parquji01": {
+    "name": "Jim Parque",
+    "first": "Jim",
+    "last": "Parque",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "parrist01": {
+    "name": "Steve Parris",
+    "first": "Steve",
+    "last": "Parris",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "patribr01": {
+    "name": "Bronswell Patrick",
+    "first": "Bronswell",
+    "last": "Patrick",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "patteda04": {
+    "name": "Danny Patterson",
+    "first": "Danny",
+    "last": "Patterson",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "pauljo01": {
+    "name": "Josh Paul",
+    "first": "Josh",
+    "last": "Paul",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "pavanca01": {
+    "name": "Carl Pavano",
+    "first": "Carl",
+    "last": "Pavano",
+    "teams": [
+      "MON"
+    ]
+  },
+  "paytoja01": {
+    "name": "Jay Payton",
+    "first": "Jay",
+    "last": "Payton",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "penaan01": {
+    "name": "Angel Pena",
+    "first": "Angel",
+    "last": "Pena",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "penaje01": {
+    "name": "Jesus Pena",
+    "first": "Jesus",
+    "last": "Pena",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "penaju01": {
+    "name": "Juan Pena",
+    "first": "Juan",
+    "last": "Pena",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "percitr01": {
+    "name": "Troy Percival",
+    "first": "Troy",
+    "last": "Percival",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "perezca01": {
+    "name": "Carlos Perez",
+    "first": "Carlos",
+    "last": "Perez",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "perezed01": {
+    "name": "Eduardo Perez",
+    "first": "Eduardo",
+    "last": "Perez",
+    "teams": [
+      "STL"
+    ]
+  },
+  "perezed02": {
+    "name": "Eddie Perez",
+    "first": "Eddie",
+    "last": "Perez",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "perezne01": {
+    "name": "Neifi Perez",
+    "first": "Neifi",
+    "last": "Perez",
+    "teams": [
+      "COL"
+    ]
+  },
+  "perezod01": {
+    "name": "Odalis Perez",
+    "first": "Odalis",
+    "last": "Perez",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "perezyo01": {
+    "name": "Yorkis Perez",
+    "first": "Yorkis",
+    "last": "Perez",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "perisma01": {
+    "name": "Matt Perisho",
+    "first": "Matt",
+    "last": "Perisho",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "perkida01": {
+    "name": "Dan Perkins",
+    "first": "Dan",
+    "last": "Perkins",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "perryhe01": {
+    "name": "Herbert Perry",
+    "first": "Herbert",
+    "last": "Perry",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "persoro01": {
+    "name": "Robert Person",
+    "first": "Robert",
+    "last": "Person",
+    "teams": [
+      "PHI",
+      "TOR"
+    ]
+  },
+  "peterch01": {
+    "name": "Chris Peters",
+    "first": "Chris",
+    "last": "Peters",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "peterch02": {
+    "name": "Chris Petersen",
+    "first": "Chris",
+    "last": "Petersen",
+    "teams": [
+      "COL"
+    ]
+  },
+  "peterky01": {
+    "name": "Kyle Peterson",
+    "first": "Kyle",
+    "last": "Peterson",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "petkoma01": {
+    "name": "Mark Petkovsek",
+    "first": "Mark",
+    "last": "Petkovsek",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "petribe01": {
+    "name": "Ben Petrick",
+    "first": "Ben",
+    "last": "Petrick",
+    "teams": [
+      "COL"
+    ]
+  },
+  "pettian01": {
+    "name": "Andy Pettitte",
+    "first": "Andy",
+    "last": "Pettitte",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "phillj.01": {
+    "name": "J.R. Phillips",
+    "first": "J.R.",
+    "last": "Phillips",
+    "teams": [
+      "COL"
+    ]
+  },
+  "phillja03": {
+    "name": "Jason Phillips",
+    "first": "Jason",
+    "last": "Phillips",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "phillto02": {
+    "name": "Tony Phillips",
+    "first": "Tony",
+    "last": "Phillips",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "piazzmi01": {
+    "name": "Mike Piazza",
+    "first": "Mike",
+    "last": "Piazza",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "pickeca01": {
+    "name": "Calvin Pickering",
+    "first": "Calvin",
+    "last": "Pickering",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "pierza.01": {
+    "name": "A.J. Pierzynski",
+    "first": "A.J.",
+    "last": "Pierzynski",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "piscima01": {
+    "name": "Marc Pisciotta",
+    "first": "Marc",
+    "last": "Pisciotta",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "pittsji01": {
+    "name": "Jim Pittsley",
+    "first": "Jim",
+    "last": "Pittsley",
+    "teams": [
+      "KCR",
+      "MIL"
+    ]
+  },
+  "plesada01": {
+    "name": "Dan Plesac",
+    "first": "Dan",
+    "last": "Plesac",
+    "teams": [
+      "ARI",
+      "TOR"
+    ]
+  },
+  "plunker01": {
+    "name": "Eric Plunk",
+    "first": "Eric",
+    "last": "Plunk",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "polanpl01": {
+    "name": "Placido Polanco",
+    "first": "Placido",
+    "last": "Polanco",
+    "teams": [
+      "STL"
+    ]
+  },
+  "politcl01": {
+    "name": "Cliff Politte",
+    "first": "Cliff",
+    "last": "Politte",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "polonlu01": {
+    "name": "Luis Polonia",
+    "first": "Luis",
+    "last": "Polonia",
+    "teams": [
+      "DET"
+    ]
+  },
+  "ponsosi01": {
+    "name": "Sidney Ponson",
+    "first": "Sidney",
+    "last": "Ponson",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "pooleji02": {
+    "name": "Jim Poole",
+    "first": "Jim",
+    "last": "Poole",
+    "teams": [
+      "CLE",
+      "PHI"
+    ]
+  },
+  "portebo03": {
+    "name": "Bo Porter",
+    "first": "Bo",
+    "last": "Porter",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "portuma01": {
+    "name": "Mark Portugal",
+    "first": "Mark",
+    "last": "Portugal",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "porzimi01": {
+    "name": "Mike Porzio",
+    "first": "Mike",
+    "last": "Porzio",
+    "teams": [
+      "COL"
+    ]
+  },
+  "posadjo01": {
+    "name": "Jorge Posada",
+    "first": "Jorge",
+    "last": "Posada",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "posesc01": {
+    "name": "Scott Pose",
+    "first": "Scott",
+    "last": "Pose",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "potelo01": {
+    "name": "Lou Pote",
+    "first": "Lou",
+    "last": "Pote",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "powelda01": {
+    "name": "Dante Powell",
+    "first": "Dante",
+    "last": "Powell",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "powelja04": {
+    "name": "Jay Powell",
+    "first": "Jay",
+    "last": "Powell",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "powelje01": {
+    "name": "Jeremy Powell",
+    "first": "Jeremy",
+    "last": "Powell",
+    "teams": [
+      "MON"
+    ]
+  },
+  "prattto02": {
+    "name": "Todd Pratt",
+    "first": "Todd",
+    "last": "Pratt",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "princto01": {
+    "name": "Tom Prince",
+    "first": "Tom",
+    "last": "Prince",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "pritcch01": {
+    "name": "Chris Pritchett",
+    "first": "Chris",
+    "last": "Pritchett",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "pulsibi01": {
+    "name": "Bill Pulsipher",
+    "first": "Bill",
+    "last": "Pulsipher",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "quantpa01": {
+    "name": "Paul Quantrill",
+    "first": "Paul",
+    "last": "Quantrill",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "quinnma01": {
+    "name": "Mark Quinn",
+    "first": "Mark",
+    "last": "Quinn",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "radinsc01": {
+    "name": "Scott Radinsky",
+    "first": "Scott",
+    "last": "Radinsky",
+    "teams": [
+      "STL"
+    ]
+  },
+  "radkebr01": {
+    "name": "Brad Radke",
+    "first": "Brad",
+    "last": "Radke",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "radloro01": {
+    "name": "Rob Radlosky",
+    "first": "Rob",
+    "last": "Radlosky",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "raineti01": {
+    "name": "Tim Raines",
+    "first": "Tim",
+    "last": "Raines",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "rainst01": {
+    "name": "Steve Rain",
+    "first": "Steve",
+    "last": "Rain",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "rakerja01": {
+    "name": "Jason Rakers",
+    "first": "Jason",
+    "last": "Rakers",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "ramiral02": {
+    "name": "Alex Ramirez",
+    "first": "Alex",
+    "last": "Ramirez",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "ramirar01": {
+    "name": "Aramis Ramirez",
+    "first": "Aramis",
+    "last": "Ramirez",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "ramirhe01": {
+    "name": "Hector Ramirez",
+    "first": "Hector",
+    "last": "Ramirez",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "ramirju02": {
+    "name": "Julio Ramirez",
+    "first": "Julio",
+    "last": "Ramirez",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "ramirma02": {
+    "name": "Manny Ramirez",
+    "first": "Manny",
+    "last": "Ramirez",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "ramirro01": {
+    "name": "Roberto Ramirez",
+    "first": "Roberto",
+    "last": "Ramirez",
+    "teams": [
+      "COL"
+    ]
+  },
+  "ramsaro01": {
+    "name": "Robert Ramsay",
+    "first": "Robert",
+    "last": "Ramsay",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "randajo01": {
+    "name": "Joe Randa",
+    "first": "Joe",
+    "last": "Randa",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "rapppa01": {
+    "name": "Pat Rapp",
+    "first": "Pat",
+    "last": "Rapp",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "rathga01": {
+    "name": "Gary Rath",
+    "first": "Gary",
+    "last": "Rath",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "rayke01": {
+    "name": "Ken Ray",
+    "first": "Ken",
+    "last": "Ray",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "rebouje01": {
+    "name": "Jeff Reboulet",
+    "first": "Jeff",
+    "last": "Reboulet",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "redmama01": {
+    "name": "Mark Redman",
+    "first": "Mark",
+    "last": "Redman",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "redmomi01": {
+    "name": "Mike Redmond",
+    "first": "Mike",
+    "last": "Redmond",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "reedje02": {
+    "name": "Jeff Reed",
+    "first": "Jeff",
+    "last": "Reed",
+    "teams": [
+      "CHC",
+      "COL"
+    ]
+  },
+  "reedri01": {
+    "name": "Rick Reed",
+    "first": "Rick",
+    "last": "Reed",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "reedst01": {
+    "name": "Steve Reed",
+    "first": "Steve",
+    "last": "Reed",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "reesepo01": {
+    "name": "Pokey Reese",
+    "first": "Pokey",
+    "last": "Reese",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "reichda01": {
+    "name": "Dan Reichert",
+    "first": "Dan",
+    "last": "Reichert",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "rekarbr01": {
+    "name": "Bryan Rekar",
+    "first": "Bryan",
+    "last": "Rekar",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "relafde01": {
+    "name": "Desi Relaford",
+    "first": "Desi",
+    "last": "Relaford",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "remlimi01": {
+    "name": "Mike Remlinger",
+    "first": "Mike",
+    "last": "Remlinger",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "renteed01": {
+    "name": "Edgar Renteria",
+    "first": "Edgar",
+    "last": "Renteria",
+    "teams": [
+      "STL"
+    ]
+  },
+  "reyesal01": {
+    "name": "Alberto Reyes",
+    "first": "Alberto",
+    "last": "Reyes",
+    "teams": [
+      "BAL",
+      "MIL"
+    ]
+  },
+  "reyesca01": {
+    "name": "Carlos Reyes",
+    "first": "Carlos",
+    "last": "Reyes",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "reyesde01": {
+    "name": "Dennys Reyes",
+    "first": "Dennys",
+    "last": "Reyes",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "reynoar02": {
+    "name": "Armando Reynoso",
+    "first": "Armando",
+    "last": "Reynoso",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "reynosh01": {
+    "name": "Shane Reynolds",
+    "first": "Shane",
+    "last": "Reynolds",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "rhodear01": {
+    "name": "Arthur Rhodes",
+    "first": "Arthur",
+    "last": "Rhodes",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "rigbybr01": {
+    "name": "Brad Rigby",
+    "first": "Brad",
+    "last": "Rigby",
+    "teams": [
+      "KCR",
+      "OAK"
+    ]
+  },
+  "rileyma01": {
+    "name": "Matt Riley",
+    "first": "Matt",
+    "last": "Riley",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "rincori01": {
+    "name": "Ricardo Rincon",
+    "first": "Ricardo",
+    "last": "Rincon",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "riosar01": {
+    "name": "Armando Rios",
+    "first": "Armando",
+    "last": "Rios",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "ripkeca01": {
+    "name": "Cal Ripken Jr",
+    "first": "Cal",
+    "last": "Ripken Jr",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "riskeda01": {
+    "name": "David Riske",
+    "first": "David",
+    "last": "Riske",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "ritchto01": {
+    "name": "Todd Ritchie",
+    "first": "Todd",
+    "last": "Ritchie",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "riverma01": {
+    "name": "Mariano Rivera",
+    "first": "Mariano",
+    "last": "Rivera",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "riverro01": {
+    "name": "Roberto Rivera",
+    "first": "Roberto",
+    "last": "Rivera",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "riverru01": {
+    "name": "Ruben Rivera",
+    "first": "Ruben",
+    "last": "Rivera",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "rizzoto01": {
+    "name": "Todd Rizzo",
+    "first": "Todd",
+    "last": "Rizzo",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "roberda07": {
+    "name": "Dave Roberts",
+    "first": "Dave",
+    "last": "Roberts",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "roberwi01": {
+    "name": "Willis Roberts",
+    "first": "Willis",
+    "last": "Roberts",
+    "teams": [
+      "DET"
+    ]
+  },
+  "robinke02": {
+    "name": "Kerry Robinson",
+    "first": "Kerry",
+    "last": "Robinson",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "rockejo01": {
+    "name": "John Rocker",
+    "first": "John",
+    "last": "Rocker",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "rodrial01": {
+    "name": "Alex Rodriguez",
+    "first": "Alex",
+    "last": "Rodriguez",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "rodrife01": {
+    "name": "Felix Rodriguez",
+    "first": "Felix",
+    "last": "Rodriguez",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "rodrifr02": {
+    "name": "Frankie Rodriguez",
+    "first": "Frankie",
+    "last": "Rodriguez",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "rodrihe02": {
+    "name": "Henry Rodriguez",
+    "first": "Henry",
+    "last": "Rodriguez",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "rodriiv01": {
+    "name": "Ivan Rodriguez",
+    "first": "Ivan",
+    "last": "Rodriguez",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "rodrili01": {
+    "name": "Liu Rodriguez",
+    "first": "Liu",
+    "last": "Rodriguez",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "rodrine01": {
+    "name": "Nerio Rodriguez",
+    "first": "Nerio",
+    "last": "Rodriguez",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "rodriri02": {
+    "name": "Rich Rodriguez",
+    "first": "Rich",
+    "last": "Rodriguez",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "rogerke01": {
+    "name": "Kenny Rogers",
+    "first": "Kenny",
+    "last": "Rogers",
+    "teams": [
+      "NYM",
+      "OAK"
+    ]
+  },
+  "rojasme01": {
+    "name": "Mel Rojas",
+    "first": "Mel",
+    "last": "Rojas",
+    "teams": [
+      "DET",
+      "LAD",
+      "MON"
+    ]
+  },
+  "rolensc01": {
+    "name": "Scott Rolen",
+    "first": "Scott",
+    "last": "Rolen",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "romanmi01": {
+    "name": "Mike Romano",
+    "first": "Mike",
+    "last": "Romano",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "romerj.01": {
+    "name": "J.C. Romero",
+    "first": "J.C.",
+    "last": "Romero",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "roquera01": {
+    "name": "Rafael Roque",
+    "first": "Rafael",
+    "last": "Roque",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "rosadjo01": {
+    "name": "Jose Rosado",
+    "first": "Jose",
+    "last": "Rosado",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "rosebr01": {
+    "name": "Brian Rose",
+    "first": "Brian",
+    "last": "Rose",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "roskojo01": {
+    "name": "John Roskos",
+    "first": "John",
+    "last": "Roskos",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "rueteki01": {
+    "name": "Kirk Rueter",
+    "first": "Kirk",
+    "last": "Rueter",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "runyase01": {
+    "name": "Sean Runyan",
+    "first": "Sean",
+    "last": "Runyan",
+    "teams": [
+      "DET"
+    ]
+  },
+  "rupery01": {
+    "name": "Ryan Rupe",
+    "first": "Ryan",
+    "last": "Rupe",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "ruschgl01": {
+    "name": "Glendon Rusch",
+    "first": "Glendon",
+    "last": "Rusch",
+    "teams": [
+      "KCR",
+      "NYM"
+    ]
+  },
+  "ryanb.01": {
+    "name": "B.J. Ryan",
+    "first": "B.J.",
+    "last": "Ryan",
+    "teams": [
+      "BAL",
+      "CIN"
+    ]
+  },
+  "ryanja04": {
+    "name": "Jason Ryan",
+    "first": "Jason",
+    "last": "Ryan",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "ryanke01": {
+    "name": "Ken Ryan",
+    "first": "Ken",
+    "last": "Ryan",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "ryanro02": {
+    "name": "Rob Ryan",
+    "first": "Rob",
+    "last": "Ryan",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "sabeler01": {
+    "name": "Erik Sabel",
+    "first": "Erik",
+    "last": "Sabel",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "saberbr01": {
+    "name": "Bret Saberhagen",
+    "first": "Bret",
+    "last": "Saberhagen",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "sadledo01": {
+    "name": "Donnie Sadler",
+    "first": "Donnie",
+    "last": "Sadler",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "saenzol01": {
+    "name": "Olmedo Saenz",
+    "first": "Olmedo",
+    "last": "Saenz",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "salmoti01": {
+    "name": "Tim Salmon",
+    "first": "Tim",
+    "last": "Salmon",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "sampsbe01": {
+    "name": "Benj Sampson",
+    "first": "Benj",
+    "last": "Sampson",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "sanchje01": {
+    "name": "Jesus Sanchez",
+    "first": "Jesus",
+    "last": "Sanchez",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "sanchre01": {
+    "name": "Rey Sanchez",
+    "first": "Rey",
+    "last": "Sanchez",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "sandean01": {
+    "name": "Anthony Sanders",
+    "first": "Anthony",
+    "last": "Sanders",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "sandere02": {
+    "name": "Reggie Sanders",
+    "first": "Reggie",
+    "last": "Sanders",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "sandesc02": {
+    "name": "Scott Sanders",
+    "first": "Scott",
+    "last": "Sanders",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "sanfoch01": {
+    "name": "Chance Sanford",
+    "first": "Chance",
+    "last": "Sanford",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "santaf.01": {
+    "name": "F.P. Santangelo",
+    "first": "F.P.",
+    "last": "Santangelo",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "santaju01": {
+    "name": "Julio Santana",
+    "first": "Julio",
+    "last": "Santana",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "santama01": {
+    "name": "Marino Santana",
+    "first": "Marino",
+    "last": "Santana",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "santibe01": {
+    "name": "Benito Santiago",
+    "first": "Benito",
+    "last": "Santiago",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "santijo03": {
+    "name": "Jose Santiago",
+    "first": "Jose",
+    "last": "Santiago",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "sauersc01": {
+    "name": "Scott Sauerbeck",
+    "first": "Scott",
+    "last": "Sauerbeck",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "saundto01": {
+    "name": "Tony Saunders",
+    "first": "Tony",
+    "last": "Saunders",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "scarsst01": {
+    "name": "Steve Scarsone",
+    "first": "Steve",
+    "last": "Scarsone",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "schefaa01": {
+    "name": "Aaron Scheffer",
+    "first": "Aaron",
+    "last": "Scheffer",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "schilcu01": {
+    "name": "Curt Schilling",
+    "first": "Curt",
+    "last": "Schilling",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "schmija01": {
+    "name": "Jason Schmidt",
+    "first": "Jason",
+    "last": "Schmidt",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "schoesc01": {
+    "name": "Scott Schoeneweis",
+    "first": "Scott",
+    "last": "Schoeneweis",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "schoupe01": {
+    "name": "Pete Schourek",
+    "first": "Pete",
+    "last": "Schourek",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "schrest02": {
+    "name": "Steve Schrenk",
+    "first": "Steve",
+    "last": "Schrenk",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "seaneru01": {
+    "name": "Rudy Seanez",
+    "first": "Rudy",
+    "last": "Seanez",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "sefcike01": {
+    "name": "Kevin Sefcik",
+    "first": "Kevin",
+    "last": "Sefcik",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "seguida01": {
+    "name": "David Segui",
+    "first": "David",
+    "last": "Segui",
+    "teams": [
+      "SEA",
+      "TOR"
+    ]
+  },
+  "seguife01": {
+    "name": "Fernando Seguignol",
+    "first": "Fernando",
+    "last": "Seguignol",
+    "teams": [
+      "MON"
+    ]
+  },
+  "seleaa01": {
+    "name": "Aaron Sele",
+    "first": "Aaron",
+    "last": "Sele",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "serafda01": {
+    "name": "Dan Serafini",
+    "first": "Dan",
+    "last": "Serafini",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "servasc01": {
+    "name": "Scott Servais",
+    "first": "Scott",
+    "last": "Servais",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "servisc01": {
+    "name": "Scott Service",
+    "first": "Scott",
+    "last": "Service",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "sexsori01": {
+    "name": "Richie Sexson",
+    "first": "Richie",
+    "last": "Sexson",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "sextoch01": {
+    "name": "Chris Sexton",
+    "first": "Chris",
+    "last": "Sexton",
+    "teams": [
+      "COL"
+    ]
+  },
+  "shavejo01": {
+    "name": "Jon Shave",
+    "first": "Jon",
+    "last": "Shave",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "shawje01": {
+    "name": "Jeff Shaw",
+    "first": "Jeff",
+    "last": "Shaw",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "sheetan01": {
+    "name": "Andy Sheets",
+    "first": "Andy",
+    "last": "Sheets",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "sheffga01": {
+    "name": "Gary Sheffield",
+    "first": "Gary",
+    "last": "Sheffield",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "sheldsc01": {
+    "name": "Scott Sheldon",
+    "first": "Scott",
+    "last": "Sheldon",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "shueypa01": {
+    "name": "Paul Shuey",
+    "first": "Paul",
+    "last": "Shuey",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "shumaan01": {
+    "name": "Anthony Shumaker",
+    "first": "Anthony",
+    "last": "Shumaker",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "shumpte01": {
+    "name": "Terry Shumpert",
+    "first": "Terry",
+    "last": "Shumpert",
+    "teams": [
+      "COL"
+    ]
+  },
+  "silvajo01": {
+    "name": "Jose Silva",
+    "first": "Jose",
+    "last": "Silva",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "silveda01": {
+    "name": "Dave Silvestri",
+    "first": "Dave",
+    "last": "Silvestri",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "simasbi01": {
+    "name": "Bill Simas",
+    "first": "Bill",
+    "last": "Simas",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "simmobr01": {
+    "name": "Brian Simmons",
+    "first": "Brian",
+    "last": "Simmons",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "simmsmi01": {
+    "name": "Mike Simms",
+    "first": "Mike",
+    "last": "Simms",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "simonra01": {
+    "name": "Randall Simon",
+    "first": "Randall",
+    "last": "Simon",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "sinclst01": {
+    "name": "Steve Sinclair",
+    "first": "Steve",
+    "last": "Sinclair",
+    "teams": [
+      "SEA",
+      "TOR"
+    ]
+  },
+  "singlch01": {
+    "name": "Chris Singleton",
+    "first": "Chris",
+    "last": "Singleton",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "sirotmi01": {
+    "name": "Mike Sirotka",
+    "first": "Mike",
+    "last": "Sirotka",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "slocuhe01": {
+    "name": "Heathcliff Slocumb",
+    "first": "Heathcliff",
+    "last": "Slocumb",
+    "teams": [
+      "BAL",
+      "STL"
+    ]
+  },
+  "slusajo01": {
+    "name": "Joe Slusarski",
+    "first": "Joe",
+    "last": "Slusarski",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "smartj.01": {
+    "name": "J.D. Smart",
+    "first": "J.D.",
+    "last": "Smart",
+    "teams": [
+      "MON"
+    ]
+  },
+  "smithbo06": {
+    "name": "Bob Smith",
+    "first": "Bob",
+    "last": "Smith",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "smithda07": {
+    "name": "Dan Smith",
+    "first": "Dan",
+    "last": "Smith",
+    "teams": [
+      "MON"
+    ]
+  },
+  "smoltjo01": {
+    "name": "John Smoltz",
+    "first": "John",
+    "last": "Smoltz",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "snowj.01": {
+    "name": "J.T. Snow",
+    "first": "J.T.",
+    "last": "Snow",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "snydejo02": {
+    "name": "John Snyder",
+    "first": "John",
+    "last": "Snyder",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "sodowcl01": {
+    "name": "Clint Sodowsky",
+    "first": "Clint",
+    "last": "Sodowsky",
+    "teams": [
+      "STL"
+    ]
+  },
+  "sojolu01": {
+    "name": "Luis Sojo",
+    "first": "Luis",
+    "last": "Sojo",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "soriaal01": {
+    "name": "Alfonso Soriano",
+    "first": "Alfonso",
+    "last": "Soriano",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "sorrepa01": {
+    "name": "Paul Sorrento",
+    "first": "Paul",
+    "last": "Sorrento",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "sosaju01": {
+    "name": "Juan Sosa",
+    "first": "Juan",
+    "last": "Sosa",
+    "teams": [
+      "COL"
+    ]
+  },
+  "sosasa01": {
+    "name": "Sammy Sosa",
+    "first": "Sammy",
+    "last": "Sosa",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "sparkje01": {
+    "name": "Jeff Sparks",
+    "first": "Jeff",
+    "last": "Sparks",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "sparkst01": {
+    "name": "Steve Sparks",
+    "first": "Steve",
+    "last": "Sparks",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "spehrti01": {
+    "name": "Tim Spehr",
+    "first": "Tim",
+    "last": "Spehr",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "speieju01": {
+    "name": "Justin Speier",
+    "first": "Justin",
+    "last": "Speier",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "spencse01": {
+    "name": "Sean Spencer",
+    "first": "Sean",
+    "last": "Spencer",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "spencsh01": {
+    "name": "Shane Spencer",
+    "first": "Shane",
+    "last": "Spencer",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "spencst02": {
+    "name": "Stan Spencer",
+    "first": "Stan",
+    "last": "Spencer",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "spierbi01": {
+    "name": "Bill Spiers",
+    "first": "Bill",
+    "last": "Spiers",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "spiezsc01": {
+    "name": "Scott Spiezio",
+    "first": "Scott",
+    "last": "Spiezio",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "spoljpa01": {
+    "name": "Paul Spoljaric",
+    "first": "Paul",
+    "last": "Spoljaric",
+    "teams": [
+      "PHI",
+      "TOR"
+    ]
+  },
+  "spradje01": {
+    "name": "Jerry Spradlin",
+    "first": "Jerry",
+    "last": "Spradlin",
+    "teams": [
+      "CLE",
+      "SFG"
+    ]
+  },
+  "spraged02": {
+    "name": "Ed Sprague",
+    "first": "Ed",
+    "last": "Sprague",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "sprinde01": {
+    "name": "Dennis Springer",
+    "first": "Dennis",
+    "last": "Springer",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "sprinru01": {
+    "name": "Russ Springer",
+    "first": "Russ",
+    "last": "Springer",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "stairma01": {
+    "name": "Matt Stairs",
+    "first": "Matt",
+    "last": "Stairs",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "stanlmi02": {
+    "name": "Mike Stanley",
+    "first": "Mike",
+    "last": "Stanley",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "stantmi02": {
+    "name": "Mike Stanton",
+    "first": "Mike",
+    "last": "Stanton",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "starkde01": {
+    "name": "Denny Stark",
+    "first": "Denny",
+    "last": "Stark",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "steinbl01": {
+    "name": "Blake Stein",
+    "first": "Blake",
+    "last": "Stein",
+    "teams": [
+      "KCR",
+      "OAK"
+    ]
+  },
+  "steinte01": {
+    "name": "Terry Steinbach",
+    "first": "Terry",
+    "last": "Steinbach",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "stephga01": {
+    "name": "Garrett Stephenson",
+    "first": "Garrett",
+    "last": "Stephenson",
+    "teams": [
+      "STL"
+    ]
+  },
+  "steveda01": {
+    "name": "Dave Stevens",
+    "first": "Dave",
+    "last": "Stevens",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "stevele01": {
+    "name": "Lee Stevens",
+    "first": "Lee",
+    "last": "Stevens",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "stewash01": {
+    "name": "Shannon Stewart",
+    "first": "Shannon",
+    "last": "Stewart",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "stinnke01": {
+    "name": "Kelly Stinnett",
+    "first": "Kelly",
+    "last": "Stinnett",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "stockke01": {
+    "name": "Kevin Stocker",
+    "first": "Kevin",
+    "last": "Stocker",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "stottto01": {
+    "name": "Todd Stottlemyre",
+    "first": "Todd",
+    "last": "Stottlemyre",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "stowech01": {
+    "name": "Chris Stowers",
+    "first": "Chris",
+    "last": "Stowers",
+    "teams": [
+      "MON"
+    ]
+  },
+  "strawda01": {
+    "name": "Darryl Strawberry",
+    "first": "Darryl",
+    "last": "Strawberry",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "stricsc02": {
+    "name": "Scott Strickland",
+    "first": "Scott",
+    "last": "Strickland",
+    "teams": [
+      "MON"
+    ]
+  },
+  "stullev01": {
+    "name": "Everett Stull",
+    "first": "Everett",
+    "last": "Stull",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "sturtta01": {
+    "name": "Tanyon Sturtze",
+    "first": "Tanyon",
+    "last": "Sturtze",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "stynech01": {
+    "name": "Chris Stynes",
+    "first": "Chris",
+    "last": "Stynes",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "sullisc01": {
+    "name": "Scott Sullivan",
+    "first": "Scott",
+    "last": "Sullivan",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "suppaje01": {
+    "name": "Jeff Suppan",
+    "first": "Jeff",
+    "last": "Suppan",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "surhob.01": {
+    "name": "B.J. Surhoff",
+    "first": "B.J.",
+    "last": "Surhoff",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "suttola01": {
+    "name": "Larry Sutton",
+    "first": "Larry",
+    "last": "Sutton",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "suzukma01": {
+    "name": "Mac Suzuki",
+    "first": "Mac",
+    "last": "Suzuki",
+    "teams": [
+      "KCR",
+      "SEA"
+    ]
+  },
+  "sveumda01": {
+    "name": "Dale Sveum",
+    "first": "Dale",
+    "last": "Sveum",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "sweenma01": {
+    "name": "Mark Sweeney",
+    "first": "Mark",
+    "last": "Sweeney",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "sweenmi01": {
+    "name": "Mike Sweeney",
+    "first": "Mike",
+    "last": "Sweeney",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "swindgr01": {
+    "name": "Greg Swindell",
+    "first": "Greg",
+    "last": "Swindell",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "tamje01": {
+    "name": "Jeff Tam",
+    "first": "Jeff",
+    "last": "Tam",
+    "teams": [
+      "CLE",
+      "NYM"
+    ]
+  },
+  "tapanke01": {
+    "name": "Kevin Tapani",
+    "first": "Kevin",
+    "last": "Tapani",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "tarasto01": {
+    "name": "Tony Tarasco",
+    "first": "Tony",
+    "last": "Tarasco",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "tatisfe01": {
+    "name": "Fernando Tatis",
+    "first": "Fernando",
+    "last": "Tatis",
+    "teams": [
+      "STL"
+    ]
+  },
+  "taubeed01": {
+    "name": "Ed Taubensee",
+    "first": "Ed",
+    "last": "Taubensee",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "tavarju01": {
+    "name": "Julian Tavarez",
+    "first": "Julian",
+    "last": "Tavarez",
+    "teams": [
+      "SFG"
+    ]
+  },
+  "taylobi04": {
+    "name": "Billy Taylor",
+    "first": "Billy",
+    "last": "Taylor",
+    "teams": [
+      "NYM",
+      "OAK"
+    ]
+  },
+  "tejadmi01": {
+    "name": "Miguel Tejada",
+    "first": "Miguel",
+    "last": "Tejada",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "tejermi01": {
+    "name": "Michael Tejera",
+    "first": "Michael",
+    "last": "Tejera",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "telemam01": {
+    "name": "Amaury Telemaco",
+    "first": "Amaury",
+    "last": "Telemaco",
+    "teams": [
+      "ARI",
+      "PHI"
+    ]
+  },
+  "telfoan01": {
+    "name": "Anthony Telford",
+    "first": "Anthony",
+    "last": "Telford",
+    "teams": [
+      "MON"
+    ]
+  },
+  "tessmja01": {
+    "name": "Jay Tessmer",
+    "first": "Jay",
+    "last": "Tessmer",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "thomafr04": {
+    "name": "Frank Thomas",
+    "first": "Frank",
+    "last": "Thomas",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "thomeji01": {
+    "name": "Jim Thome",
+    "first": "Jim",
+    "last": "Thome",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "thompju02": {
+    "name": "Justin Thompson",
+    "first": "Justin",
+    "last": "Thompson",
+    "teams": [
+      "DET"
+    ]
+  },
+  "thompma01": {
+    "name": "Mark Thompson",
+    "first": "Mark",
+    "last": "Thompson",
+    "teams": [
+      "STL"
+    ]
+  },
+  "thompry01": {
+    "name": "Ryan Thompson",
+    "first": "Ryan",
+    "last": "Thompson",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "thomsjo01": {
+    "name": "John Thomson",
+    "first": "John",
+    "last": "Thomson",
+    "teams": [
+      "COL"
+    ]
+  },
+  "thurmmi01": {
+    "name": "Mike Thurman",
+    "first": "Mike",
+    "last": "Thurman",
+    "teams": [
+      "MON"
+    ]
+  },
+  "timlimi01": {
+    "name": "Mike Timlin",
+    "first": "Mike",
+    "last": "Timlin",
+    "teams": [
+      "BAL"
+    ]
+  },
+  "timmooz01": {
+    "name": "Ozzie Timmons",
+    "first": "Ozzie",
+    "last": "Timmons",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "tocajo01": {
+    "name": "Jorge Toca",
+    "first": "Jorge",
+    "last": "Toca",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "tomkobr01": {
+    "name": "Brett Tomko",
+    "first": "Brett",
+    "last": "Tomko",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "trachst01": {
+    "name": "Steve Trachsel",
+    "first": "Steve",
+    "last": "Trachsel",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "trammbu01": {
+    "name": "Bubba Trammell",
+    "first": "Bubba",
+    "last": "Trammell",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "tremich01": {
+    "name": "Chris Tremie",
+    "first": "Chris",
+    "last": "Tremie",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "trombmi01": {
+    "name": "Mike Trombley",
+    "first": "Mike",
+    "last": "Trombley",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "tuckemi01": {
+    "name": "Michael Tucker",
+    "first": "Michael",
+    "last": "Tucker",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "turnech01": {
+    "name": "Chris Turner",
+    "first": "Chris",
+    "last": "Turner",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "unroeti01": {
+    "name": "Tim Unroe",
+    "first": "Tim",
+    "last": "Unroe",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "urbinug01": {
+    "name": "Ugueth Urbina",
+    "first": "Ugueth",
+    "last": "Urbina",
+    "teams": [
+      "MON"
+    ]
+  },
+  "valdeis01": {
+    "name": "Ismael Valdez",
+    "first": "Ismael",
+    "last": "Valdez",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "valenja01": {
+    "name": "Javier Valentin",
+    "first": "Javier",
+    "last": "Valentin",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "valenjo02": {
+    "name": "John Valentin",
+    "first": "John",
+    "last": "Valentin",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "valenjo03": {
+    "name": "Jose Valentin",
+    "first": "Jose",
+    "last": "Valentin",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "vandejo02": {
+    "name": "John Vander Wal",
+    "first": "John",
+    "last": "Vander Wal",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "varitja01": {
+    "name": "Jason Varitek",
+    "first": "Jason",
+    "last": "Varitek",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "vaughgr01": {
+    "name": "Greg Vaughn",
+    "first": "Greg",
+    "last": "Vaughn",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "vaughmo01": {
+    "name": "Mo Vaughn",
+    "first": "Mo",
+    "last": "Vaughn",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "vazquja01": {
+    "name": "Javier Vazquez",
+    "first": "Javier",
+    "last": "Vazquez",
+    "teams": [
+      "MON"
+    ]
+  },
+  "velanjo01": {
+    "name": "Jorge Velandia",
+    "first": "Jorge",
+    "last": "Velandia",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "velarra01": {
+    "name": "Randy Velarde",
+    "first": "Randy",
+    "last": "Velarde",
+    "teams": [
+      "ANA",
+      "OAK"
+    ]
+  },
+  "venafmi01": {
+    "name": "Mike Venafro",
+    "first": "Mike",
+    "last": "Venafro",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "venturo01": {
+    "name": "Robin Ventura",
+    "first": "Robin",
+    "last": "Ventura",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "verasqu01": {
+    "name": "Quilvio Veras",
+    "first": "Quilvio",
+    "last": "Veras",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "veraswi01": {
+    "name": "Wilton Veras",
+    "first": "Wilton",
+    "last": "Veras",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "veresda01": {
+    "name": "Dave Veres",
+    "first": "Dave",
+    "last": "Veres",
+    "teams": [
+      "COL"
+    ]
+  },
+  "vidrojo01": {
+    "name": "Jose Vidro",
+    "first": "Jose",
+    "last": "Vidro",
+    "teams": [
+      "MON"
+    ]
+  },
+  "villoro01": {
+    "name": "Ron Villone",
+    "first": "Ron",
+    "last": "Villone",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "vinafe01": {
+    "name": "Fernando Vina",
+    "first": "Fernando",
+    "last": "Vina",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "vitiejo01": {
+    "name": "Joe Vitiello",
+    "first": "Joe",
+    "last": "Vitiello",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "vizcajo01": {
+    "name": "Jose Vizcaino",
+    "first": "Jose",
+    "last": "Vizcaino",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "vizcalu01": {
+    "name": "Luis Vizcaino",
+    "first": "Luis",
+    "last": "Vizcaino",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "vizquom01": {
+    "name": "Omar Vizquel",
+    "first": "Omar",
+    "last": "Vizquel",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "vosbeed01": {
+    "name": "Ed Vosberg",
+    "first": "Ed",
+    "last": "Vosberg",
+    "teams": [
+      "ARI",
+      "SDP"
+    ]
+  },
+  "wagnebi02": {
+    "name": "Billy Wagner",
+    "first": "Billy",
+    "last": "Wagner",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "wagnepa01": {
+    "name": "Paul Wagner",
+    "first": "Paul",
+    "last": "Wagner",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "wainhda01": {
+    "name": "Dave Wainhouse",
+    "first": "Dave",
+    "last": "Wainhouse",
+    "teams": [
+      "COL"
+    ]
+  },
+  "wakefti01": {
+    "name": "Tim Wakefield",
+    "first": "Tim",
+    "last": "Wakefield",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "walbema01": {
+    "name": "Matt Walbeck",
+    "first": "Matt",
+    "last": "Walbeck",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "walkela01": {
+    "name": "Larry Walker",
+    "first": "Larry",
+    "last": "Walker",
+    "teams": [
+      "COL"
+    ]
+  },
+  "walketo04": {
+    "name": "Todd Walker",
+    "first": "Todd",
+    "last": "Walker",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "wallade01": {
+    "name": "Derek Wallace",
+    "first": "Derek",
+    "last": "Wallace",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "wallaje01": {
+    "name": "Jeff Wallace",
+    "first": "Jeff",
+    "last": "Wallace",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "walldo01": {
+    "name": "Donne Wall",
+    "first": "Donne",
+    "last": "Wall",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "wardbr01": {
+    "name": "Bryan Ward",
+    "first": "Bryan",
+    "last": "Ward",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "wardda01": {
+    "name": "Daryle Ward",
+    "first": "Daryle",
+    "last": "Ward",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "wardtu01": {
+    "name": "Turner Ward",
+    "first": "Turner",
+    "last": "Ward",
+    "teams": [
+      "ARI",
+      "PIT"
+    ]
+  },
+  "wasdijo01": {
+    "name": "John Wasdin",
+    "first": "John",
+    "last": "Wasdin",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "washbja01": {
+    "name": "Jarrod Washburn",
+    "first": "Jarrod",
+    "last": "Washburn",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "watkipa01": {
+    "name": "Pat Watkins",
+    "first": "Pat",
+    "last": "Watkins",
+    "teams": [
+      "COL"
+    ]
+  },
+  "watsoal01": {
+    "name": "Allen Watson",
+    "first": "Allen",
+    "last": "Watson",
+    "teams": [
+      "NYM",
+      "NYY",
+      "SEA"
+    ]
+  },
+  "weathda01": {
+    "name": "David Weathers",
+    "first": "David",
+    "last": "Weathers",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "weaveer01": {
+    "name": "Eric Weaver",
+    "first": "Eric",
+    "last": "Weaver",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "weaveje01": {
+    "name": "Jeff Weaver",
+    "first": "Jeff",
+    "last": "Weaver",
+    "teams": [
+      "DET"
+    ]
+  },
+  "webstle01": {
+    "name": "Lenny Webster",
+    "first": "Lenny",
+    "last": "Webster",
+    "teams": [
+      "BAL",
+      "BOS"
+    ]
+  },
+  "wehnejo01": {
+    "name": "John Wehner",
+    "first": "John",
+    "last": "Wehner",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "weisswa01": {
+    "name": "Walt Weiss",
+    "first": "Walt",
+    "last": "Weiss",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "wellsbo01": {
+    "name": "Bob Wells",
+    "first": "Bob",
+    "last": "Wells",
+    "teams": [
+      "MIN"
+    ]
+  },
+  "wellsda01": {
+    "name": "David Wells",
+    "first": "David",
+    "last": "Wells",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "wellski01": {
+    "name": "Kip Wells",
+    "first": "Kip",
+    "last": "Wells",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "wellsve01": {
+    "name": "Vernon Wells",
+    "first": "Vernon",
+    "last": "Wells",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "wendetu01": {
+    "name": "Turk Wendell",
+    "first": "Turk",
+    "last": "Wendell",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "wengedo01": {
+    "name": "Don Wengert",
+    "first": "Don",
+    "last": "Wengert",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "wettejo01": {
+    "name": "John Wetteland",
+    "first": "John",
+    "last": "Wetteland",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "wheelda01": {
+    "name": "Dan Wheeler",
+    "first": "Dan",
+    "last": "Wheeler",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "whisema01": {
+    "name": "Matt Whisenant",
+    "first": "Matt",
+    "last": "Whisenant",
+    "teams": [
+      "KCR",
+      "SDP"
+    ]
+  },
+  "whitede03": {
+    "name": "Devon White",
+    "first": "Devon",
+    "last": "White",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "whitega01": {
+    "name": "Gabe White",
+    "first": "Gabe",
+    "last": "White",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "whitema01": {
+    "name": "Mark Whiten",
+    "first": "Mark",
+    "last": "Whiten",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "whitema02": {
+    "name": "Matt Whiteside",
+    "first": "Matt",
+    "last": "Whiteside",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "whiteri01": {
+    "name": "Rick White",
+    "first": "Rick",
+    "last": "White",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "whitero02": {
+    "name": "Rondell White",
+    "first": "Rondell",
+    "last": "White",
+    "teams": [
+      "MON"
+    ]
+  },
+  "wickmbo01": {
+    "name": "Bob Wickman",
+    "first": "Bob",
+    "last": "Wickman",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "widgech01": {
+    "name": "Chris Widger",
+    "first": "Chris",
+    "last": "Widger",
+    "teams": [
+      "MON"
+    ]
+  },
+  "wilkima01": {
+    "name": "Marc Wilkins",
+    "first": "Marc",
+    "last": "Wilkins",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "wilkiri01": {
+    "name": "Rick Wilkins",
+    "first": "Rick",
+    "last": "Wilkins",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "willibe02": {
+    "name": "Bernie Williams",
+    "first": "Bernie",
+    "last": "Williams",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "willibr01": {
+    "name": "Brian Williams",
+    "first": "Brian",
+    "last": "Williams",
+    "teams": [
+      "HOU"
+    ]
+  },
+  "willige02": {
+    "name": "Gerald Williams",
+    "first": "Gerald",
+    "last": "Williams",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "willije02": {
+    "name": "Jeff Williams",
+    "first": "Jeff",
+    "last": "Williams",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "willima04": {
+    "name": "Matt Williams",
+    "first": "Matt",
+    "last": "Williams",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "willimi03": {
+    "name": "Mike Williams",
+    "first": "Mike",
+    "last": "Williams",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "willire02": {
+    "name": "Reggie Williams",
+    "first": "Reggie",
+    "last": "Williams",
+    "teams": [
+      "ANA"
+    ]
+  },
+  "willisc01": {
+    "name": "Scott Williamson",
+    "first": "Scott",
+    "last": "Williamson",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "willito02": {
+    "name": "Todd Williams",
+    "first": "Todd",
+    "last": "Williams",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "williwo02": {
+    "name": "Woody Williams",
+    "first": "Woody",
+    "last": "Williams",
+    "teams": [
+      "SDP"
+    ]
+  },
+  "wilsocr02": {
+    "name": "Craig Wilson",
+    "first": "Craig",
+    "last": "Wilson",
+    "teams": [
+      "CHW"
+    ]
+  },
+  "wilsoda01": {
+    "name": "Dan Wilson",
+    "first": "Dan",
+    "last": "Wilson",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "wilsoen01": {
+    "name": "Enrique Wilson",
+    "first": "Enrique",
+    "last": "Wilson",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "wilsopr01": {
+    "name": "Preston Wilson",
+    "first": "Preston",
+    "last": "Wilson",
+    "teams": [
+      "FLA"
+    ]
+  },
+  "wilsova01": {
+    "name": "Vance Wilson",
+    "first": "Vance",
+    "last": "Wilson",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "winkejo01": {
+    "name": "Joe Winkelsas",
+    "first": "Joe",
+    "last": "Winkelsas",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "winnra01": {
+    "name": "Randy Winn",
+    "first": "Randy",
+    "last": "Winn",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "witasja01": {
+    "name": "Jay Witasick",
+    "first": "Jay",
+    "last": "Witasick",
+    "teams": [
+      "KCR"
+    ]
+  },
+  "wittbo01": {
+    "name": "Bobby Witt",
+    "first": "Bobby",
+    "last": "Witt",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "wittke01": {
+    "name": "Kevin Witt",
+    "first": "Kevin",
+    "last": "Witt",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "wohlema01": {
+    "name": "Mark Wohlers",
+    "first": "Mark",
+    "last": "Wohlers",
+    "teams": [
+      "ATL"
+    ]
+  },
+  "wolcobo01": {
+    "name": "Bob Wolcott",
+    "first": "Bob",
+    "last": "Wolcott",
+    "teams": [
+      "BOS"
+    ]
+  },
+  "wolfra02": {
+    "name": "Randy Wolf",
+    "first": "Randy",
+    "last": "Wolf",
+    "teams": [
+      "PHI"
+    ]
+  },
+  "womacto01": {
+    "name": "Tony Womack",
+    "first": "Tony",
+    "last": "Womack",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "woodabr01": {
+    "name": "Brad Woodall",
+    "first": "Brad",
+    "last": "Woodall",
+    "teams": [
+      "CHC"
+    ]
+  },
+  "woodast01": {
+    "name": "Steve Woodard",
+    "first": "Steve",
+    "last": "Woodard",
+    "teams": [
+      "MIL"
+    ]
+  },
+  "woodja02": {
+    "name": "Jason Wood",
+    "first": "Jason",
+    "last": "Wood",
+    "teams": [
+      "DET"
+    ]
+  },
+  "woodwch01": {
+    "name": "Chris Woodward",
+    "first": "Chris",
+    "last": "Woodward",
+    "teams": [
+      "TOR"
+    ]
+  },
+  "worreti01": {
+    "name": "Tim Worrell",
+    "first": "Tim",
+    "last": "Worrell",
+    "teams": [
+      "OAK"
+    ]
+  },
+  "wrighja01": {
+    "name": "Jamey Wright",
+    "first": "Jamey",
+    "last": "Wright",
+    "teams": [
+      "COL"
+    ]
+  },
+  "wrighja02": {
+    "name": "Jaret Wright",
+    "first": "Jaret",
+    "last": "Wright",
+    "teams": [
+      "CLE"
+    ]
+  },
+  "yanes01": {
+    "name": "Esteban Yan",
+    "first": "Esteban",
+    "last": "Yan",
+    "teams": [
+      "TBD"
+    ]
+  },
+  "yarnaed01": {
+    "name": "Ed Yarnall",
+    "first": "Ed",
+    "last": "Yarnall",
+    "teams": [
+      "NYY"
+    ]
+  },
+  "yoshima01": {
+    "name": "Masato Yoshii",
+    "first": "Masato",
+    "last": "Yoshii",
+    "teams": [
+      "NYM"
+    ]
+  },
+  "youngdm01": {
+    "name": "Dmitri Young",
+    "first": "Dmitri",
+    "last": "Young",
+    "teams": [
+      "CIN"
+    ]
+  },
+  "younger01": {
+    "name": "Eric Young",
+    "first": "Eric",
+    "last": "Young",
+    "teams": [
+      "LAD"
+    ]
+  },
+  "younger02": {
+    "name": "Ernie Young",
+    "first": "Ernie",
+    "last": "Young",
+    "teams": [
+      "ARI"
+    ]
+  },
+  "youngke01": {
+    "name": "Kevin Young",
+    "first": "Kevin",
+    "last": "Young",
+    "teams": [
+      "PIT"
+    ]
+  },
+  "zaungr01": {
+    "name": "Gregg Zaun",
+    "first": "Gregg",
+    "last": "Zaun",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "zeileto01": {
+    "name": "Todd Zeile",
+    "first": "Todd",
+    "last": "Zeile",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "zimmeje02": {
+    "name": "Jeff Zimmerman",
+    "first": "Jeff",
+    "last": "Zimmerman",
+    "teams": [
+      "TEX"
+    ]
+  },
+  "zimmejo01": {
+    "name": "Jordan Zimmerman",
+    "first": "Jordan",
+    "last": "Zimmerman",
+    "teams": [
+      "SEA"
+    ]
+  },
+  "zoskyed01": {
+    "name": "Eddie Zosky",
+    "first": "Eddie",
+    "last": "Zosky",
+    "teams": [
+      "MIL"
+    ]
+  }
+}
