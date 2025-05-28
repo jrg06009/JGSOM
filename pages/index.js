@@ -60,8 +60,8 @@ export async function getStaticProps() {
       dateOnly,
       home,
       away,
-      home_score,
-      away_score,
+      home_score: Math.round(home_score),
+      away_score: Math.round(away_score),
       wp,
       lp,
       sv
@@ -144,7 +144,7 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
         <h2 className="text-xl font-semibold mb-2">Recent Games</h2>
         {recentGames.map((game, idx) => (
           <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-            <div className="font-semibold mb-1">{game.date} — {game.away} {game.away_score} at {game.home} {game.home_score}</div>
+            <div className="font-semibold mb-1">{game.dateOnly} : {game.away} {game.away_score} at {game.home} {game.home_score}</div>
             <div className="text-sm">
               W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
             </div>
