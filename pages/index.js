@@ -199,11 +199,12 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
               {upcomingGames.length > 0 ? (
                 upcomingGames.map((game, idx) => (
                   <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-                    <div className="font-semibold text-sm">
-                      {game.away} at {game.home}
-                    </div>
-                    <div className="text-sm text-gray-500">
-                      {new Date(game.date).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}
+                    <div className="flex items-center space-x-2 font-semibold text-sm">
+                      <img src={game.roadLogo} alt={game.road} className="h-5 w-5 object-contain" />
+                      <span>{game.road}</span>
+                      <span>at</span>
+                      <span>{game.home}</span>
+                      <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
                     </div>
                   </div>
                 ))
@@ -211,7 +212,6 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
                 <p className="text-sm text-gray-500">No upcoming games scheduled.</p>
               )}
             </div>
-
           </div>
         </section>
 
