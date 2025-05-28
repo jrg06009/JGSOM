@@ -33,7 +33,6 @@ export default function FieldingPage({ data, teamToLeague, teamGames }) {
     if (!(team in teamToLeague)) {
       console.log("Missing league info for team:", team)
     }  
-    const team = player.team
     const teamThreshold = thresholds[team]?.G ?? 0
     const qualified = !showQualified || (teamGameTotal > 0 && g >= 0.67 * teamThreshold)
 
