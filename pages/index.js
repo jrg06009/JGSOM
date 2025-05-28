@@ -26,8 +26,8 @@ export async function getStaticProps() {
   const teamToLeague = getTeamToLeagueMap(teams)
   const teamMap = Object.fromEntries(teams.map(t => [t.abbr, t]))
   const completedGames = schedule
-    .filter(g => g.completed && g.['Played On'])
-    .sort((a, b) => new Date(b['Played On']) - new Date(a['Played On']))
+    .filter(g => g.completed && g.['simDate'])
+    .sort((a, b) => new Date(b['simDate']) - new Date(a['simDate']))
     .slice(0, 3)
   const recentGames = completedGames.map(game => {
     const fileName = `${game.id}.json`
@@ -46,7 +46,7 @@ export async function getStaticProps() {
     }   
     return {
       game_id: game.id,
-      date: game['Played On'],
+      date: game['simDate'],
       home,
       away,
       home_score: Math.round(home_score),
@@ -60,19 +60,19 @@ export async function getStaticProps() {
   }).filter(Boolean)
   
   const upcomingGames = schedule
-    .filter(g => !g.Completed && g['Played On'])
-    .sort((a, b) => new Date(a['Played On']) - new Date(b['Played On']))
+    .filter(g => !g.Completed && g['simDate'])
+    .sort((a, b) => new Date(a['simDate']) - new Date(b['simDate']))
     .slice(0, 3)
     .map(game => ({
       game_id: game.id,
-      date: game['Played On'],
+      date: game['simDate'],
       home: game.home,
       away: game.away,
       homeLogo: teamMap[game.home]?.logo || '',
       awayLogo: teamMap[game.away]?.logo || ''
     }))
   
-  const latestDate = completedGames.length > 0 ? new Date(completedGames[0]['Played On']) : null
+  const latestDate = completedGames.length > 0 ? new Date(completedGames[0]['simDate']) : null
   const latestDateFormatted = latestDate
     ? latestDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
     : ''
