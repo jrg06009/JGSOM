@@ -22,7 +22,7 @@ export async function getStaticProps() {
   const linescores = safeLoad(path.join(dataDir, 'linescores.json'))
   const batting = safeLoad(path.join(dataDir, 'batting.json'))
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
-  const teams = JSON.parse(fs.readFileSync(path.join(dataDir, 'teams.json'), 'utf8'))
+  const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
 
   return {
