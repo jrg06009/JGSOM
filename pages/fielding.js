@@ -2,6 +2,8 @@
 import { useState } from 'react'
 import { getTeamToLeagueMap, getTeamGamesPlayedFromSchedule } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
+import { getQualificationThresholds } from '../components/getQualificationThresholds'
+
 
 export async function getStaticProps() {
   const fs = await import('fs')
@@ -21,6 +23,7 @@ export default function FieldingPage({ data, teamToLeague, teamGames }) {
   const [showQualified, setShowQualified] = useState(true)
   const [showSplit, setShowSplit] = useState(false)
   const [league, setLeague] = useState('All')
+  const thresholds = getQualificationThresholds()
 
   const filteredData = data.filter(player => {
     const g = parseInt(player.G || 0, 10)
@@ -30,7 +33,9 @@ export default function FieldingPage({ data, teamToLeague, teamGames }) {
     if (!(team in teamToLeague)) {
       console.log("Missing league info for team:", team)
     }  
-    const qualified = !showQualified || (teamGameTotal > 0 && g >= 0.67 * teamGameTotal)
+    const team = player.team
+    const teamThreshold = thresholds[team]?.G ?? 0
+    const qualified = !showQualified || (teamGameTotal > 0 && g >= 0.67 * teamThreshold)
 
     const isSplitOK =
       showSplit ||
