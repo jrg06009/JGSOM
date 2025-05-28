@@ -20,6 +20,7 @@ export default function PitchingPage({ data, teamToLeague }) {
   const [showQualified, setShowQualified] = useState(true)
   const [showSplit, setShowSplit] = useState(false)
   const [league, setLeague] = useState('All')
+  const thresholds = getQualificationThresholds()
 
   const filteredData = data.filter(player => {
     const ip = parseFloat(player.IP || 0)
