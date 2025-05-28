@@ -24,10 +24,12 @@ export async function getStaticProps() {
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
-  const recentCompleted = schedule
-    .filter(g => g.completed)
-    .slice(-3)
-    .reverse()
+  const completedGames = schedule.filter(g => g.Completed && g.date)
+  const latestDate = completedGames
+    .map(g => g.date.split(' ')[0]) // "YYYY-MM-DD" from "YYYY-MM-DD HH:MM:SS"
+    .sort()
+    .reverse()[0]
+  const recentCompleted = completedGames.filter(g => g.date.startsWith(latestDate))
   const recentGames = recentCompleted.map(game => {
     const fileName = `${game.id}.json`
     const filePath = path.join(boxscoreDir, fileName)
@@ -38,6 +40,11 @@ export async function getStaticProps() {
     const { home, away, home_score, away_score, date } = box.meta
 
     const dateOnly = new Date(date).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+    const latestDateFormatted = new Date(latestDate).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
       day: 'numeric'
@@ -54,6 +61,14 @@ export async function getStaticProps() {
         if (player.SV) sv = player.Player
       }
     }
+
+    const teamMap = {}
+    teams.forEach(t => teamMap[t.id] = t)
+  
+    recentGames.forEach(game => {
+      game.homeLogo = teamMap[game.home]?.logo || ''
+      game.awayLogo = teamMap[game.away]?.logo || ''
+    })
 
     return {
       game_id: game.id,
@@ -74,8 +89,10 @@ export async function getStaticProps() {
       schedule,
       batting,
       pitching,
+      teams,
       teamToLeague,
       recentGames,
+      latestDateFormatted,
     },
   }
 }
@@ -141,17 +158,23 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
       <h1 className="text-3xl font-bold">1999 Strat-O-Matic Season</h1>
 
       <section>
-        <h2 className="text-xl font-semibold mb-2">Recent Games</h2>
+        <h2 className="text-xl font-semibold mb-2">Games from {latestDateFormatted}</h2>
         {recentGames.map((game, idx) => (
           <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-            <div className="font-semibold mb-1">{game.dateOnly} : {game.away} {game.away_score} at {game.home} {game.home_score}</div>
-            <div className="text-sm">
-              W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
-            </div>
-            <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+            <div className="flex items-center space-x-2 mb-1 font-semibold">
+            <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
+            <span>{game.away} {game.away_score}</span>
+            <span>at</span>
+            <span>{game.home} {game.home_score}</span>
+            <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
           </div>
-        ))}
-      </section>
+          <div className="text-sm">
+            W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+          </div>
+          <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+        </div>
+      ))}
+    </section>
 
       <label className="flex items-center mb-2">
         <span className="mr-2 font-medium">Stat Leaders League:</span>
