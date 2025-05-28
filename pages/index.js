@@ -25,7 +25,7 @@ export async function getStaticProps() {
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
   const recentCompleted = schedule
-    .filter(g => g.completed)
+    .filter(g => g.Completed)
     .slice(-3)
     .reverse()
 
