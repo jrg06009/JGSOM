@@ -73,7 +73,6 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
     if (leaderLeague === 'MLB') return true
     return teamToLeague[team] === leaderLeague
   }
-
   const battingFiltered = batting.filter(p => isInLeague(p.team))
   const pitchingFiltered = pitching.filter(p => isInLeague(p.team))
     
