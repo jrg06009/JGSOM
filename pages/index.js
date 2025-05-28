@@ -29,6 +29,11 @@ export async function getStaticProps() {
     .map(g => g.date.split(' ')[0]) // "YYYY-MM-DD" from "YYYY-MM-DD HH:MM:SS"
     .sort()
     .reverse()[0]
+  const latestDateFormatted = new Date(latestDate).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  })
   const recentCompleted = completedGames.filter(g => g.date.startsWith(latestDate))
   const recentGames = recentCompleted.map(game => {
     const fileName = `${game.id}.json`
@@ -44,11 +49,7 @@ export async function getStaticProps() {
       month: 'short',
       day: 'numeric'
     })
-    const latestDateFormatted = new Date(latestDate).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
-    })
+
     const homeScore = parseInt(home_score, 10)
     const awayScore = parseInt(away_score, 10)
 
@@ -65,11 +66,6 @@ export async function getStaticProps() {
     const teamMap = {}
     teams.forEach(t => teamMap[t.id] = t)
   
-    recentGames.forEach(game => {
-      game.homeLogo = teamMap[game.home]?.logo || ''
-      game.awayLogo = teamMap[game.away]?.logo || ''
-    })
-
     return {
       game_id: game.id,
       dateOnly,
@@ -79,7 +75,9 @@ export async function getStaticProps() {
       away_score: Math.round(away_score),
       wp,
       lp,
-      sv
+      sv,
+      homeLogo: teamMap[home]?.logo || '',
+      awayLogo: teamMap[away]?.logo || ''
     }
   }).filter(Boolean)
   
@@ -118,7 +116,7 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
-export default function Home({ standings, schedule, batting, pitching, recentGames, teamToLeague }) {
+export default function Home({ standings, schedule, batting, pitching, recentGames, latestDateFormatted, teamToLeague }) {
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
   const isInLeague = (team) => {
