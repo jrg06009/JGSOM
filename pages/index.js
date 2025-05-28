@@ -29,13 +29,12 @@ export async function getStaticProps() {
     .map(g => g.date.split(' ')[0]) // "YYYY-MM-DD" from "YYYY-MM-DD HH:MM:SS"
     .sort()
     .reverse()[0]
+  const recentCompleted = completedGames.filter(g => g.date.startsWith(latestDate))
   const latestDateFormatted = new Date(latestDate).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
     day: 'numeric'
   })
-  const recentCompleted = completedGames.filter(g => g.date.startsWith(latestDate))
-
   const teamMap = {}
   teams.forEach(t => {
     teamMap[t.id] = t
@@ -72,8 +71,6 @@ export async function getStaticProps() {
       wp,
       lp,
       sv,
-      recentGames,
-      latestDateFormatted,
       homeLogo: teamMap[home]?.logo || '',
       awayLogo: teamMap[away]?.logo || ''
     }
@@ -86,6 +83,8 @@ export async function getStaticProps() {
       batting,
       pitching,
       teams,
+      recentGames,
+      latestDateFormatted,
       teamToLeague,
     },
   }
