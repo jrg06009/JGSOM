@@ -24,7 +24,7 @@ export async function getStaticProps() {
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
-  const completedGames = schedule.filter(g => g.Completed && g.date)
+  const completedGames = schedule.filter(g => g.completed && g.date)
   const latestDate = completedGames
     .map(g => g.date.split(' ')[0]) // "YYYY-MM-DD" from "YYYY-MM-DD HH:MM:SS"
     .sort()
