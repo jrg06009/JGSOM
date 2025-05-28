@@ -17,38 +17,60 @@ function safeLoad(filePath) {
 
 export async function getStaticProps() {
   const dataDir = path.join(process.cwd(), 'data', 'stats')
-
+  const boxscoreDir = path.join(process.cwd(), 'data', 'boxscores')
   const standings = safeLoad(path.join(dataDir, 'standings.json'))
   const schedule = safeLoad(path.join(dataDir, 'schedule.json'))
-  const linescores = safeLoad(path.join(dataDir, 'linescores.json'))
   const batting = safeLoad(path.join(dataDir, 'batting.json'))
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
+  const recentCompleted = schedule
+    .filter(g => g.completed)
+    .slice(-3)
+    .reverse()
 
+  const recentGames = recentCompleted.map(game => {
+    const fileName = `${game.game_id}.json`
+    const filePath = path.join(boxscoreDir, fileName)
+
+    if (!fs.existsSync(filePath)) return null
+    const box = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+
+    const { home, away, home_score, away_score, date } = box.meta
+
+    // Find W/L/S
+    let wp = null, lp = null, sv = null
+    for (const team of [box.pitching[home], box.pitching[away]]) {
+      for (const player of Object.values(team)) {
+        if (player.W) wp = player.Player
+        if (player.L) lp = player.Player
+        if (player.SV) sv = player.Player
+      }
+    }
+
+    return {
+      game_id: game.game_id,
+      date,
+      home,
+      away,
+      home_score,
+      away_score,
+      wp,
+      lp,
+      sv
+    }
+  }).filter(Boolean)
+  
   return {
     props: {
       standings,
       schedule,
-      linescores,
       batting,
       pitching,
-      teams,
       teamToLeague,
+      recentGames,
     },
   }
-}
-
-function getRecentGames(schedule, linescores) {
-  const played = schedule.filter(g => 
-    g.completed === true
-  )
-  const recent = played.slice(-3).reverse()
- 
-  return recent.map(game => {
-    const linescore = linescores[game.game_id]
-    return { ...game, linescore }
-  })
 }
 
 function getLeaders(data, key, top = 5, isPitcher = false) {
@@ -72,8 +94,7 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
-export default function Home({ standings, schedule, linescores, batting, pitching, teamToLeague }) {
-  const recentGames = getRecentGames(schedule, linescores)
+export default function Home({ standings, schedule, batting, pitching, recentGames, teamToLeague }) {
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
   const isInLeague = (team) => {
@@ -115,53 +136,15 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
       <section>
         <h2 className="text-xl font-semibold mb-2">Recent Games</h2>
         {recentGames.map((game, idx) => (
-         <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-           <div className="font-semibold mb-1">{game.date} — {game.away_team} at {game.home_team}</div>
-             <div className="font-semibold mb-1">
-               {game.date} — {game.away_team} at {game.home_team}
-             </div>
-              {game.linescore && (
-              <table className="text-sm font-mono w-full mb-2 border-collapse">
-                <thead>
-                  <tr>
-                    <th className="pr-2">Team</th>
-                    {Array.from({ length: 9 }).map((_, i) => (
-                      <th key={i} className="px-1">{i + 1}</th>
-                    ))}
-                    <th className="px-1">R</th> 
-                   </tr>
-                  </thead>
-                  <tbody>
-                    {[game.away_team, game.home_team].map(team => {
-                      const scores = game.linescore[team] || []
-                      const total = scores
-                        .slice(0, 9)
-                        .reduce((sum, val) => sum + (parseInt(val, 10) || 0), 0)
-                      return (
-                        <tr key={team}>
-                          <td className="pr-2 font-bold">{team}</td>
-                          {Array.from({ length: 9 }).map((_, i) => (
-                            <td key={i} className="text-center px-1">
-                              {scores[i] !== "" ? scores[i] : "X"}
-                            </td>
-                          ))}
-                          <td className="text-center font-bold px-1">{total}</td>
-                        </tr>
-                      )
-                    })}
-                  </tbody>
-                </table>
-              )}
-
-              <div className="text-sm">
-                W: {game.w || '—'}, L: {game.l || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
-              </div>
-              <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">
-                View Boxscore
-              </Link>
+          <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+            <div className="font-semibold mb-1">{game.date} — {game.away} {game.away_score} at {game.home} {game.home_score}</div>
+            <div className="text-sm">
+              W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
             </div>
-          ))}
-        </section>
+            <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+          </div>
+        ))}
+      </section>
 
       <label className="flex items-center mb-2">
         <span className="mr-2 font-medium">Stat Leaders League:</span>
