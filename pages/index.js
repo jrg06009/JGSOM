@@ -97,7 +97,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
     era: eraQualified
       .filter(p => !isNaN(parseFloat(p.ERA)))
       .sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA))
-      .slice(0, 5)
+      .slice(0, 5),
     so: getLeaders(pitchingFiltered, 'SO'),
   }
 
