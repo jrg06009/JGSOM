@@ -40,7 +40,9 @@ export async function getStaticProps() {
 }
 
 function getRecentGames(schedule, linescores) {
-  const played = schedule.filter(g => g.score && g.score.length > 0)
+  const played = schedule.filter(g => 
+    g.home_score !== undefined && g.away_score !== undefined
+  )
   const recent = played.slice(-3).reverse()
   return recent.map(game => {
     const line = linescores.find(l => l.game_id === game.game_id)
