@@ -112,7 +112,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
 
       <section>
         <h2 className="text-xl font-semibold mb-2">Stat Leaders</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-3 gap-4">
           <LeaderList title="Batting Average" players={leaders.avg} statKey="AVG" />
           <LeaderList title="Home Runs" players={leaders.hr} statKey="HR" />
           <LeaderList title="Runs Batted In" players={leaders.rbi} statKey="RBI" />
