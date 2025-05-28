@@ -45,8 +45,8 @@ function getRecentGames(schedule, linescores) {
   )
   const recent = played.slice(-3).reverse()
   return recent.map(game => {
-    const line = linescores.find(l => l.game_id === game.game_id)
-    return { ...game, linescore: line }
+    const linescore = linescores[game.game_id]
+    return { ...game, linescore }
   })
 }
 
@@ -118,7 +118,8 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
             <div className="font-semibold mb-1">{game.date} — {game.road} at {game.home}</div>
             {game.linescore && (
               <div className="text-sm font-mono mb-1">
-                {game.linescore.innings.join(' ')}
+                {game.linescore[game.road]?.slice(0, 9).join(' ') || ''}<br />
+                {game.linescore[game.home]?.slice(0, 9).join(' ') || ''}
               </div>
             )}
             <div className="text-sm">
