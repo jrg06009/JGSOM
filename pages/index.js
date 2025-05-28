@@ -34,10 +34,10 @@ export async function getStaticProps() {
     const filePath = path.join(boxscoreDir, fileName)
     if (!fs.existsSync(filePath)) return null
     const box = JSON.parse(fs.readFileSync(filePath, 'utf8')) 
-    const { home, away, home_score, away_score, date } = box.meta || {}
+    const { home_team, away_team, home_score, away_score, date } = box.meta || {}
         // Find W/L/S
     let wp = null, lp = null, sv = null
-    for (const team of [box.pitching[home], box.pitching[away]]) {
+    for (const team of [box.pitching[home_team], box.pitching[away_team]]) {
       for (const player of Object.values(team)) {
         if (player.W) wp = player.Player
         if (player.L) lp = player.Player
@@ -47,15 +47,15 @@ export async function getStaticProps() {
     return {
       game_id: game.id,
       date: game['simDate'],
-      home,
-      away,
+      home_team,
+      away_team,
       home_score: Math.round(home_score),
       away_score: Math.round(away_score),
       wp,
       lp,
       sv,
-      homeLogo: teamMap[home]?.logo || '',
-      awayLogo: teamMap[away]?.logo || ''
+      homeLogo: teamMap[home_team]?.logo || '',
+      awayLogo: teamMap[away_team]?.logo || ''
     }
   }).filter(Boolean)
   
@@ -66,10 +66,10 @@ export async function getStaticProps() {
     .map(game => ({
       game_id: game.id,
       date: game['simDate'],
-      home: game.home,
-      away: game.away,
-      homeLogo: teamMap[game.home]?.logo || '',
-      awayLogo: teamMap[game.away]?.logo || ''
+      home: game.home_team,
+      away: game.away_team,
+      homeLogo: teamMap[game.home_team]?.logo || '',
+      awayLogo: teamMap[game.away_team]?.logo || ''
     }))
   
   const latestDate = completedGames.length > 0 ? new Date(completedGames[0]['simDate']) : null
