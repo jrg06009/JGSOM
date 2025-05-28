@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
 import StandingsTable from '../components/StandingsTable'
-import { getQualificationThresholds } from '../lib/getQualificationThresholds'
+import { getQualificationThresholds } from '../components/getQualificationThresholds'
 
 function safeLoad(filePath) {
   try {
