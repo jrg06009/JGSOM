@@ -72,6 +72,8 @@ export async function getStaticProps() {
       wp,
       lp,
       sv,
+      recentGames,
+      latestDateFormatted,
       homeLogo: teamMap[home]?.logo || '',
       awayLogo: teamMap[away]?.logo || ''
     }
@@ -85,8 +87,6 @@ export async function getStaticProps() {
       pitching,
       teams,
       teamToLeague,
-      recentGames,
-      latestDateFormatted,
     },
   }
 }
