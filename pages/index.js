@@ -37,6 +37,14 @@ export async function getStaticProps() {
 
     const { home, away, home_score, away_score, date } = box.meta
 
+    const dateOnly = new Date(date).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+    const homeScore = parseInt(home_score, 10)
+    const awayScore = parseInt(away_score, 10)
+
     // Find W/L/S
     let wp = null, lp = null, sv = null
     for (const team of [box.pitching[home], box.pitching[away]]) {
@@ -49,7 +57,7 @@ export async function getStaticProps() {
 
     return {
       game_id: game.id,
-      date,
+      dateOnly,
       home,
       away,
       home_score,
