@@ -89,7 +89,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
   const eraQualified = pitchingFiltered.filter(p => {
     const ip = parseFloat(p.IP || 0)
     const threshold = thresholds[p.team]?.IP || Infinity
-    return ip >= threshold.map(p => ({ ...p, id: p["Player ID"] }))
+    return ip >= threshold
   })
   
   const leaders = {
@@ -100,7 +100,8 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
     era: eraQualified
       .filter(p => !isNaN(parseFloat(p.ERA)))
       .sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA))
-      .slice(0, 5),
+      .slice(0, 5)
+      .map(p => ({ ...p, id: p["Player ID"] })),
     so: getLeaders(pitchingFiltered, 'SO'),
   }
 
