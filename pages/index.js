@@ -26,7 +26,7 @@ export async function getStaticProps() {
   const teamToLeague = getTeamToLeagueMap(teams)
   const teamMap = Object.fromEntries(teams.map(t => [t.abbr, t]))
   const completedGames = schedule
-    .filter(g => g.completed && g.['simDate'])
+    .filter(g => g.completed && g['simDate'])
     .sort((a, b) => new Date(b['simDate']) - new Date(a['simDate']))
     .slice(0, 3)
   const recentGames = completedGames.map(game => {
