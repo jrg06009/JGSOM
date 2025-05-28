@@ -51,7 +51,7 @@ function getRecentGames(schedule, linescores) {
 function getLeaders(data, key, top = 5, isPitcher = false) {
   const filtered = data.filter(p => parseFloat(p[key]) > 0)
   const sorted = filtered.sort((a, b) => parseFloat(b[key]) - parseFloat(a[key]))
-  return sorted.slice(0, top)
+  return sorted.slice(0, top).map(p => ({ ...p, id: p["Player ID"] }))
 }
 
 function LeaderList({ title, players, statKey }) {
@@ -89,7 +89,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
   const eraQualified = pitchingFiltered.filter(p => {
     const ip = parseFloat(p.IP || 0)
     const threshold = thresholds[p.team]?.IP || Infinity
-    return ip >= threshold
+    return ip >= threshold.map(p => ({ ...p, id: p["Player ID"] }))
   })
   
   const leaders = {
