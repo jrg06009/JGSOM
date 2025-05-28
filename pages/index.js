@@ -69,7 +69,7 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
-export default function Home({ standings, schedule, linescores, batting, pitching }) {
+export default function Home({ standings, schedule, linescores, batting, pitching, teamToLeague }) {
   const recentGames = getRecentGames(schedule, linescores)
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
