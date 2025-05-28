@@ -25,11 +25,11 @@ export async function getStaticProps() {
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
   const recentCompleted = schedule
-    .filter(g => g.Completed)
+    .filter(g => g.completed)
     .slice(-3)
     .reverse()
   const recentGames = recentCompleted.map(game => {
-    const fileName = `${game.game_id}.json`
+    const fileName = `${game.id}.json`
     const filePath = path.join(boxscoreDir, fileName)
 
     if (!fs.existsSync(filePath)) return null
@@ -48,7 +48,7 @@ export async function getStaticProps() {
     }
 
     return {
-      game_id: game.game_id,
+      game_id: game.id,
       date,
       home,
       away,
