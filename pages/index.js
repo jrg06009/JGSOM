@@ -28,18 +28,6 @@ export async function getStaticProps() {
     .filter(g => g.Completed)
     .slice(-3)
     .reverse()
-  console.log('Recent completed:', recentCompleted.map(g => g.game_id))
-  
-  for (const game of recentCompleted) {
-    const fileName = `${game.game_id}.json`
-    const filePath = path.join(boxscoreDir, fileName)
-    console.log('Checking boxscore file:', filePath, fs.existsSync(filePath))
-  }
-  if (!box.meta || !box.meta.home || !box.meta.away) {
-    console.warn('Missing meta info in box:', fileName)
-    return null
-  }  
-  
   const recentGames = recentCompleted.map(game => {
     const fileName = `${game.game_id}.json`
     const filePath = path.join(boxscoreDir, fileName)
