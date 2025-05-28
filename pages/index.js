@@ -41,8 +41,6 @@ export async function getStaticProps() {
 
 function getRecentGames(schedule, linescores) {
   const played = schedule.filter(g => 
-    g.home_score !== undefined &&
-    g.away_score !== undefined &&
     g.completed === true
   )
   const recent = played.slice(-3).reverse()
@@ -118,9 +116,9 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
         <h2 className="text-xl font-semibold mb-2">Recent Games</h2>
         {recentGames.map((game, idx) => (
          <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-           <div className="font-semibold mb-1">{game.date} — {game.road} at {game.home}</div>
+           <div className="font-semibold mb-1">{game.date} — {game.away_team} at {game.home_team}</div>
              <div className="font-semibold mb-1">
-               {game.date} — {game.road} at {game.home}
+               {game.date} — {game.away_team} at {game.home_team}
              </div>
               {game.linescore && (
               <table className="text-sm font-mono w-full mb-2 border-collapse">
@@ -134,7 +132,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
                    </tr>
                   </thead>
                   <tbody>
-                    {[game.road, game.home].map(team => {
+                    {[game.away_team, game.home_team].map(team => {
                       const scores = game.linescore[team] || []
                       const total = scores
                         .slice(0, 9)
@@ -156,7 +154,7 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
               )}
 
               <div className="text-sm">
-                W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+                W: {game.w || '—'}, L: {game.l || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
               </div>
               <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">
                 View Boxscore
