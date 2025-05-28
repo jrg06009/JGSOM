@@ -8337,7 +8337,7 @@
     "Game ID": "19990405_NYM@FLA",
     "GS": 1,
     "AB": 5,
-    "R": 3,
+    "R": 4,
     "H": 4,
     "2B": 1,
     "RBI": 2,
@@ -8351,7 +8351,7 @@
     "Game ID": "19990405_NYM@FLA",
     "GS": 1,
     "AB": 5,
-    "R": 1,
+    "R": 3,
     "H": 3,
     "RBI": 4,
     "BB": 1
@@ -8592,6 +8592,600 @@
     "Team": "FLA",
     "Game#": 11,
     "Game ID": "19990405_NYM@FLA",
+    "AB": 1
+  },
+  {
+    "Player": "Rickey Henderson",
+    "Player ID": "henderi01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 2,
+    "BB": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Edgardo Alfonzo",
+    "Player ID": "alfoned01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 2,
+    "H": 1,
+    "2B": 1,
+    "RBI": 1,
+    "BB": 1,
+    "SO": 1
+  },
+  {
+    "Player": "John Olerud",
+    "Player ID": "olerujo01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 2,
+    "2B": 1,
+    "RBI": 2,
+    "BB": 2
+  },
+  {
+    "Player": "Matt Franco",
+    "Player ID": "francma01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "R": 1
+  },
+  {
+    "Player": "Matt Franco",
+    "Player ID": "francma01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Mike Piazza",
+    "Player ID": "piazzmi01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 6,
+    "R": 2,
+    "H": 3,
+    "2B": 2,
+    "SO": 2
+  },
+  {
+    "Player": "Todd Pratt",
+    "Player ID": "prattto02",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Bobby Bonilla",
+    "Player ID": "bonilbo01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1,
+    "RBI": 3,
+    "SF": 2
+  },
+  {
+    "Player": "Jermaine Allensworth",
+    "Player ID": "allenje01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Robin Ventura",
+    "Player ID": "venturo01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 2,
+    "R": 2,
+    "H": 1,
+    "2B": 1,
+    "RBI": 1,
+    "BB": 3
+  },
+  {
+    "Player": "Luis Lopez",
+    "Player ID": "lopezlu02",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "AB": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Luis Lopez",
+    "Player ID": "lopezlu02",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Brian McRae",
+    "Player ID": "mcraebr01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 2,
+    "H": 2,
+    "2B": 1,
+    "HR": 1,
+    "RBI": 3
+  },
+  {
+    "Player": "Rey Ordonez",
+    "Player ID": "ordonre01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 3,
+    "RBI": 1
+  },
+  {
+    "Player": "Rick Reed",
+    "Player ID": "reedri01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 3,
+    "2B": 1,
+    "RBI": 2
+  },
+  {
+    "Player": "Dennis Cook",
+    "Player ID": "cookde01",
+    "Team": "NYM",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Luis Castillo",
+    "Player ID": "castilu01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1,
+    "2B": 1
+  },
+  {
+    "Player": "Alex Gonzalez",
+    "Player ID": "gonzaal02",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 1
+  },
+  {
+    "Player": "Mark Kotsay",
+    "Player ID": "kotsama01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 1,
+    "RBI": 2,
+    "SO": 1,
+    "GDP": 1
+  },
+  {
+    "Player": "Derrek Lee",
+    "Player ID": "leede02",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "BB": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Todd Dunwoody",
+    "Player ID": "dunwoto01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "SO": 2
+  },
+  {
+    "Player": "Dave Berg",
+    "Player ID": "bergda01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "AB": 1
+  },
+  {
+    "Player": "Preston Wilson",
+    "Player ID": "wilsopr01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Kevin Orie",
+    "Player ID": "orieke01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 3
+  },
+  {
+    "Player": "Jorge Fabregas",
+    "Player ID": "fabrejo01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "H": 1
+  },
+  {
+    "Player": "Livan Hernandez",
+    "Player ID": "hernali01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "GS": 1,
+    "AB": 1
+  },
+  {
+    "Player": "Tim Hyers",
+    "Player ID": "hyersti01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "AB": 1
+  },
+  {
+    "Player": "Vic Darensbourg",
+    "Player ID": "darenvi01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Braden Looper",
+    "Player ID": "loopebr01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Matt Mantei",
+    "Player ID": "mantema01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA"
+  },
+  {
+    "Player": "Bruce Aven",
+    "Player ID": "avenbr01",
+    "Team": "FLA",
+    "Game#": 23,
+    "Game ID": "19990406_NYM@FLA",
+    "AB": 1
+  },
+  {
+    "Player": "Rickey Henderson",
+    "Player ID": "henderi01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1,
+    "2B": 1,
+    "BB": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Edgardo Alfonzo",
+    "Player ID": "alfoned01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "SO": 1
+  },
+  {
+    "Player": "John Olerud",
+    "Player ID": "olerujo01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "H": 1,
+    "RBI": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Mike Piazza",
+    "Player ID": "piazzmi01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Bobby Bonilla",
+    "Player ID": "bonilbo01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 2,
+    "BB": 2,
+    "SO": 1
+  },
+  {
+    "Player": "Robin Ventura",
+    "Player ID": "venturo01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 3,
+    "2B": 1,
+    "RBI": 1
+  },
+  {
+    "Player": "Brian McRae",
+    "Player ID": "mcraebr01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Rey Ordonez",
+    "Player ID": "ordonre01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 2,
+    "H": 1,
+    "BB": 2,
+    "SO": 1
+  },
+  {
+    "Player": "Bobby Jones",
+    "Player ID": "jonesbo03",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "SH": 2
+  },
+  {
+    "Player": "Mike Kinkade",
+    "Player ID": "kinkami01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "BB": 1
+  },
+  {
+    "Player": "Turk Wendell",
+    "Player ID": "wendetu01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA"
+  },
+  {
+    "Player": "Roger Cedeno",
+    "Player ID": "cedenro01",
+    "Team": "NYM",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "AB": 1,
+    "R": 1,
+    "H": 1
+  },
+  {
+    "Player": "Luis Castillo",
+    "Player ID": "castilu01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "R": 2,
+    "H": 2,
+    "SB": 1
+  },
+  {
+    "Player": "Alex Gonzalez",
+    "Player ID": "gonzaal02",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "R": 2,
+    "H": 2,
+    "3B": 1,
+    "RBI": 2,
+    "HBP": 1
+  },
+  {
+    "Player": "Tim Hyers",
+    "Player ID": "hyersti01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "RBI": 1,
+    "BB": 1
+  },
+  {
+    "Player": "Antonio Alfonseca",
+    "Player ID": "alfonan01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA"
+  },
+  {
+    "Player": "Matt Mantei",
+    "Player ID": "mantema01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA"
+  },
+  {
+    "Player": "Derrek Lee",
+    "Player ID": "leede02",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "RBI": 1,
+    "SO": 1,
+    "SF": 1
+  },
+  {
+    "Player": "Todd Dunwoody",
+    "Player ID": "dunwoto01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 2,
+    "RBI": 1,
+    "CS": 1
+  },
+  {
+    "Player": "Preston Wilson",
+    "Player ID": "wilsopr01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Preston Wilson",
+    "Player ID": "wilsopr01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "AB": 1,
+    "R": 1,
+    "H": 1,
+    "2B": 1
+  },
+  {
+    "Player": "Kevin Orie",
+    "Player ID": "orieke01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4,
+    "H": 1,
+    "2B": 1,
+    "RBI": 1
+  },
+  {
+    "Player": "Jorge Fabregas",
+    "Player ID": "fabrejo01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 4
+  },
+  {
+    "Player": "Jesus Sanchez",
+    "Player ID": "sanchje01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "GS": 1,
+    "AB": 2,
+    "R": 1,
+    "H": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Vic Darensbourg",
+    "Player ID": "darenvi01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA"
+  },
+  {
+    "Player": "Mark Kotsay",
+    "Player ID": "kotsama01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
+    "AB": 1
+  },
+  {
+    "Player": "Mark Kotsay",
+    "Player ID": "kotsama01",
+    "Team": "FLA",
+    "Game#": 38,
+    "Game ID": "19990407_NYM@FLA",
     "AB": 1
   }
 ]

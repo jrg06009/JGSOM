@@ -224,10 +224,10 @@
     "date": "1999-04-06",
     "home_team": "FLA",
     "away_team": "NYM",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 13,
+    "away_score": 2,
+    "simDate": "2025-05-27 00:00:00",
+    "completed": true
   },
   {
     "id": "19990406_PHI@ATL",
@@ -374,10 +374,10 @@
     "date": "1999-04-07",
     "home_team": "FLA",
     "away_team": "NYM",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 3,
+    "away_score": 6,
+    "simDate": "2025-05-27 00:00:00",
+    "completed": true
   },
   {
     "id": "19990407_PHI@ATL",
