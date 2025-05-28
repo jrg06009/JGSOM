@@ -35,6 +35,20 @@ export async function getStaticProps() {
     month: 'short',
     day: 'numeric'
   })
+  const sameDayUpcoming = schedule.filter(g => 
+  !g.completed && g.date && g.date.startsWith(latestDate)
+  )  
+  let upcomingGames
+  if (sameDayUpcoming.length > 0) {
+    upcomingGames = sameDayUpcoming
+  } else {
+    const nextDate = new Date(latestDate)
+    nextDate.setDate(nextDate.getDate() + 1)
+    const nextDateString = nextDate.toISOString().split('T')[0]
+    upcomingGames = schedule.filter(g => 
+      !g.completed && g.date && g.date.startsWith(nextDateString)
+    )
+  }
   const teamMap = {}
   teams.forEach(t => {
     teamMap[t.id] = t
@@ -86,6 +100,7 @@ export async function getStaticProps() {
       recentGames,
       latestDateFormatted,
       teamToLeague,
+      upcomingGames,
     },
   }
 }
@@ -111,7 +126,7 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
-export default function Home({ standings, schedule, batting, pitching, recentGames, latestDateFormatted, teamToLeague }) {
+export default function Home({ standings, schedule, batting, pitching, recentGames, latestDateFormatted, teamToLeague, upcomingGames }) {
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
   const isInLeague = (team) => {
@@ -152,22 +167,54 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
 
       <section>
         <h2 className="text-xl font-semibold mb-2">Games from {latestDateFormatted}</h2>
-        {recentGames.map((game, idx) => (
-          <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-            <div className="flex items-center space-x-2 mb-1 font-semibold">
-            <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
-            <span>{game.away} {game.away_score}</span>
-            <span>at</span>
-            <span>{game.home} {game.home_score}</span>
-            <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+          {/* Recent Games */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Completed Games</h3>
+            {recentGames.length > 0 ? (
+              recentGames.map((game, idx) => (
+                <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+                  <div className="flex items-center space-x-2 mb-1 font-semibold">
+                    <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
+                    <span>{game.away} {game.away_score}</span>
+                    <span>at</span>
+                    <span>{game.home} {game.home_score}</span>
+                    <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
+                  </div>
+                  <div className="text-sm">
+                    W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+                  </div>
+                  <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+                </div>
+              ))
+            ) : (
+              <p className="text-sm text-gray-500">No completed games for this date.</p>
+            )}
           </div>
-          <div className="text-sm">
-            W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+  
+          {/* Upcoming Games */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Upcoming Games</h3>
+              {upcomingGames.length > 0 ? (
+                upcomingGames.map((game, idx) => (
+                  <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+                    <div className="font-semibold text-sm">
+                      {game.away} at {game.home}
+                    </div>
+                    <div className="text-sm text-gray-500">
+                      {new Date(game.date).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p className="text-sm text-gray-500">No upcoming games scheduled.</p>
+              )}
+            </div>
+
           </div>
-          <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
-        </div>
-      ))}
-    </section>
+        </section>
+
 
       <label className="flex items-center mb-2">
         <span className="mr-2 font-medium">Stat Leaders League:</span>
