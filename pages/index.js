@@ -123,21 +123,53 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
       <section>
         <h2 className="text-xl font-semibold mb-2">Recent Games</h2>
         {recentGames.map((game, idx) => (
-          <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-            <div className="font-semibold mb-1">{game.date} — {game.road} at {game.home}</div>
-            {game.linescore && (
-              <div className="text-sm font-mono mb-1">
-                {game.linescore[game.road]?.slice(0, 9).join(' ') || ''}<br />
-                {game.linescore[game.home]?.slice(0, 9).join(' ') || ''}
+         <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+           <div className="font-semibold mb-1">{game.date} — {game.road} at {game.home}</div>
+             <div className="font-semibold mb-1">
+               {game.date} — {game.road} at {game.home}
+             </div>
+              {game.linescore && (
+              <table className="text-sm font-mono w-full mb-2 border-collapse">
+                <thead>
+                  <tr>
+                    <th className="pr-2">Team</th>
+                    {Array.from({ length: 9 }).map((_, i) => (
+                      <th key={i} className="px-1">{i + 1}</th>
+                    ))}
+                    <th className="px-1">R</th> 
+                   </tr>
+                  </thead>
+                  <tbody>
+                    {[game.road, game.home].map(team => {
+                      const scores = game.linescore[team] || []
+                      const total = scores
+                        .slice(0, 9)
+                        .reduce((sum, val) => sum + (parseInt(val, 10) || 0), 0)
+                      return (
+                        <tr key={team}>
+                          <td className="pr-2 font-bold">{team}</td>
+                          {Array.from({ length: 9 }).map((_, i) => (
+                            <td key={i} className="text-center px-1">
+                              {scores[i] !== "" ? scores[i] : "X"}
+                            </td>
+                          ))}
+                          <td className="text-center font-bold px-1">{total}</td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+              )}
+
+              <div className="text-sm">
+                W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
               </div>
-            )}
-            <div className="text-sm">
-              W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+              <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">
+                View Boxscore
+              </Link>
             </div>
-            <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
-          </div>
-        ))}
-      </section>
+          ))}
+        </section>
 
       <label className="flex items-center mb-2">
         <span className="mr-2 font-medium">Stat Leaders League:</span>
