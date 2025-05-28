@@ -48,7 +48,7 @@ function getRecentGames(schedule, linescores) {
       Array.isArray(line[g.home]) &&
       Array.isArray(line[g.road]
     )
-    })
+  })
 
   const recent = played.slice(-3).reverse()
 
