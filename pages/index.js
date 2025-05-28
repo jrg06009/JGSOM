@@ -40,7 +40,7 @@ export async function getStaticProps() {
 }
 
 function getRecentGames(schedule, linescores) {
-  const played = schedule.filter(g => 
+  const played = schedule.filter(g => {
     const line = linescores[g.game_id]
     return (
       g.completed === true &&
