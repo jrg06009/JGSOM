@@ -200,8 +200,8 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
                 upcomingGames.map((game, idx) => (
                   <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                     <div className="flex items-center space-x-2 font-semibold text-sm">
-                      <img src={game.roadLogo} alt={game.road} className="h-5 w-5 object-contain" />
-                      <span>{game.road}</span>
+                      <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
+                      <span>{game.away}</span>
                       <span>at</span>
                       <span>{game.home}</span>
                       <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
