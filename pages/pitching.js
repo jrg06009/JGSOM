@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
 import SortableTable from '../components/SortableTable'
+import { getQualificationThresholds } from '../components/getQualificationThresholds'
 
 export async function getStaticProps() {
   const fs = await import('fs')
@@ -22,7 +23,9 @@ export default function PitchingPage({ data, teamToLeague }) {
 
   const filteredData = data.filter(player => {
     const ip = parseFloat(player.IP || 0)
-    const isQualified = !showQualified || ip >= 3
+    const team = player.team
+    const teamThreshold = thresholds[team]?.IP ?? 0
+    const isQualified = !showQualified || ip >= teamThreshold
     const isSplitOK =
       showSplit ||
       player.team === 'TOT' ||
