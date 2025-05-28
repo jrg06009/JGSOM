@@ -46,7 +46,7 @@ function getRecentGames(schedule, linescores) {
       g.completed === true &&
       !!line &&
       Array.isArray(line[g.home]) &&
-      Array.isArray(line[g.road]
+      Array.isArray(line[g.road])
     )
   })
 
