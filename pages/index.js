@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
 import StandingsTable from '../components/StandingsTable'
+import { getQualificationThresholds } from '../lib/getQualificationThresholds'
 
 function safeLoad(filePath) {
   try {
@@ -54,7 +55,7 @@ function LeaderList({ title, players, statKey }) {
       <ol className="list-decimal list-inside space-y-1 text-sm">
         {players.map((p, i) => (
           <li key={i}>
-            <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.name}</Link> ({p[statKey]})
+            <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.Player}</Link> ({p[statKey]})
           </li>
         ))}
       </ol>
@@ -64,13 +65,26 @@ function LeaderList({ title, players, statKey }) {
 
 export default function Home({ standings, schedule, linescores, batting, pitching }) {
   const recentGames = getRecentGames(schedule, linescores)
+  const thresholds = getQualificationThresholds()
 
+  const avgQualified = batting.filter(p => {
+    const pa = parseFloat(p.PA || 0)
+    const threshold = thresholds[p.team]?.PA || Infinity
+    return pa >= threshold
+  })
+
+  const eraQualified = pitching.filter(p => {
+    const ip = parseFloat(p.IP || 0)
+    const threshold = thresholds[p.team]?.IP || Infinity
+    return ip >= threshold
+  })
+  
   const leaders = {
-    avg: getLeaders(batting, 'AVG'),
+    avg: getLeaders(avgQualified, 'AVG'),
     hr: getLeaders(batting, 'HR'),
     rbi: getLeaders(batting, 'RBI'),
     wins: getLeaders(pitching, 'W'),
-    era: getLeaders(pitching, 'ERA', 5, true).sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA)),
+    era: getLeaders(eraQualified, 'ERA', 5, true).sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA)),
     so: getLeaders(pitching, 'SO'),
   }
 
