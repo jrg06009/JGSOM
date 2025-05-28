@@ -3,6 +3,7 @@ import path from 'path'
 import Link from 'next/link'
 import StandingsTable from '../components/StandingsTable'
 import { getQualificationThresholds } from '../components/getQualificationThresholds'
+import { getTeamToLeagueMap } from '../lib/teamUtils'
 
 function safeLoad(filePath) {
   try {
@@ -21,6 +22,7 @@ export async function getStaticProps() {
   const linescores = safeLoad(path.join(dataDir, 'linescores.json'))
   const batting = safeLoad(path.join(dataDir, 'batting.json'))
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
+  const teams = JSON.parse(fs.readFileSync(path.join(dataDir, 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
 
   return {
@@ -30,6 +32,7 @@ export async function getStaticProps() {
       linescores,
       batting,
       pitching,
+      teams,
       teamToLeague,
     },
   }
