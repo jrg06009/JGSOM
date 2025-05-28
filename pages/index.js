@@ -24,49 +24,18 @@ export async function getStaticProps() {
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
-  const completedGames = schedule.filter(g => g.completed && g.date)
-  const latestDate = completedGames
-    .map(g => g.date.split(' ')[0]) // "YYYY-MM-DD" from "YYYY-MM-DD HH:MM:SS"
-    .sort()
-    .reverse()[0]
-  const recentCompleted = completedGames.filter(g => g.date.startsWith(latestDate))
-  const latestDateFormatted = new Date(latestDate).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  })
-  const sameDayUpcoming = schedule.filter(g => 
-  !g.completed && g.date && g.date.startsWith(latestDate)
-  )  
-  let upcomingGames
-  if (sameDayUpcoming.length > 0) {
-    upcomingGames = sameDayUpcoming
-  } else {
-    const nextDate = new Date(latestDate)
-    nextDate.setDate(nextDate.getDate() + 1)
-    const nextDateString = nextDate.toISOString().split('T')[0]
-    upcomingGames = schedule.filter(g => 
-      !g.completed && g.date && g.date.startsWith(nextDateString)
-    )
-  }
-  const teamMap = {}
-  teams.forEach(t => {
-    teamMap[t.id] = t
-  })
-  
-  const recentGames = recentCompleted.map(game => {
+  const teamMap = Object.fromEntries(teams.map(t => [t.abbr, t]))
+  const completedGames = schedule
+    .filter(g => g.completed && g.['Played On'])
+    .sort((a, b) => new Date(b['Played On']) - new Date(a['Played On']))
+    .slice(0, 3)
+  const recentGames = completedGames.map(game => {
     const fileName = `${game.id}.json`
     const filePath = path.join(boxscoreDir, fileName)
-
     if (!fs.existsSync(filePath)) return null
-    const box = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-
-    const { home, away, home_score, away_score, date } = box.meta
-
-    const homeScore = parseInt(home_score, 10)
-    const awayScore = parseInt(away_score, 10)
-
-    // Find W/L/S
+    const box = JSON.parse(fs.readFileSync(filePath, 'utf8')) 
+    const { home, away, home_score, away_score, date } = box.meta || {}
+        // Find W/L/S
     let wp = null, lp = null, sv = null
     for (const team of [box.pitching[home], box.pitching[away]]) {
       for (const player of Object.values(team)) {
@@ -74,10 +43,10 @@ export async function getStaticProps() {
         if (player.L) lp = player.Player
         if (player.SV) sv = player.Player
       }
-    }
-  
+    }   
     return {
       game_id: game.id,
+      date: game['Played On'],
       home,
       away,
       home_score: Math.round(home_score),
@@ -90,6 +59,24 @@ export async function getStaticProps() {
     }
   }).filter(Boolean)
   
+  const upcomingGames = schedule
+    .filter(g => !g.Completed && g['Played On'])
+    .sort((a, b) => new Date(a['Played On']) - new Date(b['Played On']))
+    .slice(0, 3)
+    .map(game => ({
+      game_id: game.id,
+      date: game['Played On'],
+      home: game.home,
+      away: game.away,
+      homeLogo: teamMap[game.home]?.logo || '',
+      awayLogo: teamMap[game.away]?.logo || ''
+    }))
+  
+  const latestDate = completedGames.length > 0 ? new Date(completedGames[0]['Played On']) : null
+  const latestDateFormatted = latestDate
+    ? latestDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    : ''
+
   return {
     props: {
       standings,
@@ -98,14 +85,14 @@ export async function getStaticProps() {
       pitching,
       teams,
       recentGames,
+      upcomingGames,
       latestDateFormatted,
       teamToLeague,
-      upcomingGames,
     },
   }
 }
 
-function getLeaders(data, key, top = 5, isPitcher = false) {
+function getLeaders(data, key, top = 5) {
   const filtered = data.filter(p => parseFloat(p[key]) > 0)
   const sorted = filtered.sort((a, b) => parseFloat(b[key]) - parseFloat(a[key]))
   return sorted.slice(0, top).map(p => ({ ...p, id: p["Player ID"] }))
@@ -126,7 +113,7 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
-export default function Home({ standings, schedule, batting, pitching, recentGames, latestDateFormatted, teamToLeague, upcomingGames }) {
+export default function Home({ standings, batting, pitching, recentGames, latestDateFormatted, teamToLeague, upcomingGames }) {
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
   const isInLeague = (team) => {
@@ -168,53 +155,41 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
       <section>
         <h2 className="text-xl font-semibold mb-2">Games from {latestDateFormatted}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
-          {/* Recent Games */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Completed Games</h3>
-            {recentGames.length > 0 ? (
-              recentGames.map((game, idx) => (
-                <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-                  <div className="flex items-center space-x-2 mb-1 font-semibold">
-                    <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
-                    <span>{game.away} {game.away_score}</span>
-                    <span>at</span>
-                    <span>{game.home} {game.home_score}</span>
-                    <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
-                  </div>
-                  <div className="text-sm">
-                    W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
-                  </div>
-                  <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+            {recentGames.map((game, idx) => (
+              <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+                <div className="flex items-center space-x-2 mb-1 font-semibold">
+                  <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
+                  <span>{game.away} {game.away_score}</span>
+                  <span>at</span>
+                  <span>{game.home} {game.home_score}</span>
+                  <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
                 </div>
-              ))
-            ) : (
-              <p className="text-sm text-gray-500">No completed games for this date.</p>
-            )}
+                <div className="text-sm">
+                  W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
+                </div>
+                <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+              </div>
+            ))}
           </div>
-  
-          {/* Upcoming Games */}
+
           <div>
             <h3 className="text-lg font-semibold mb-2">Upcoming Games</h3>
-              {upcomingGames.length > 0 ? (
-                upcomingGames.map((game, idx) => (
-                  <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-                    <div className="flex items-center space-x-2 font-semibold text-sm">
-                      <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
-                      <span>{game.away}</span>
-                      <span>at</span>
-                      <span>{game.home}</span>
-                      <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
-                    </div>
-                  </div>
-                ))
-              ) : (
-                <p className="text-sm text-gray-500">No upcoming games scheduled.</p>
-              )}
-            </div>
+            {upcomingGames.map((game, idx) => (
+              <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
+                <div className="flex items-center space-x-2 font-semibold text-sm">
+                  <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
+                  <span>{game.away}</span>
+                  <span>at</span>
+                  <span>{game.home}</span>
+                  <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
+                </div>
+              </div>
+            ))}
           </div>
-        </section>
-
+        </div>
+      </section>
 
       <label className="flex items-center mb-2">
         <span className="mr-2 font-medium">Stat Leaders League:</span>
@@ -224,7 +199,7 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
           <option value="NL">National League</option>
         </select>
       </label>
-      
+
       <section>
         <h2 className="text-xl font-semibold mb-2">Stat Leaders</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-3 gap-4">
@@ -238,15 +213,15 @@ export default function Home({ standings, schedule, batting, pitching, recentGam
       </section>
 
       <section>
-      <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-          <StandingsTable standings={{ AL: standings.AL }} />
+        <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <StandingsTable standings={{ AL: standings.AL }} />
+          </div>
+          <div>
+            <StandingsTable standings={{ NL: standings.NL }} />
+          </div>
         </div>
-        <div>
-          <StandingsTable standings={{ NL: standings.NL }} />
-        </div>
-      </div>
       </section>
     </div>
   )
