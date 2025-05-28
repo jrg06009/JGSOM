@@ -21,6 +21,7 @@ export async function getStaticProps() {
   const linescores = safeLoad(path.join(dataDir, 'linescores.json'))
   const batting = safeLoad(path.join(dataDir, 'batting.json'))
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
+  const teamToLeague = getTeamToLeagueMap(teams)
 
   return {
     props: {
@@ -29,6 +30,7 @@ export async function getStaticProps() {
       linescores,
       batting,
       pitching,
+      teamToLeague,
     },
   }
 }
@@ -66,14 +68,22 @@ function LeaderList({ title, players, statKey }) {
 export default function Home({ standings, schedule, linescores, batting, pitching }) {
   const recentGames = getRecentGames(schedule, linescores)
   const thresholds = getQualificationThresholds()
+  const [leaderLeague, setLeaderLeague] = useState('MLB')
+  const isInLeague = (team) => {
+    if (leaderLeague === 'MLB') return true
+    return teamToLeague[team] === leaderLeague
+  }
 
-  const avgQualified = batting.filter(p => {
+  const battingFiltered = batting.filter(p => isInLeague(p.team))
+  const pitchingFiltered = pitching.filter(p => isInLeague(p.team))
+    
+  const avgQualified = battingFiltered.filter(p => {
     const pa = parseFloat(p.PA || 0)
     const threshold = thresholds[p.team]?.PA || Infinity
     return pa >= threshold
   })
 
-  const eraQualified = pitching.filter(p => {
+  const eraQualified = pitchingFiltered.filter(p => {
     const ip = parseFloat(p.IP || 0)
     const threshold = thresholds[p.team]?.IP || Infinity
     return ip >= threshold
@@ -81,11 +91,14 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
   
   const leaders = {
     avg: getLeaders(avgQualified, 'AVG'),
-    hr: getLeaders(batting, 'HR'),
-    rbi: getLeaders(batting, 'RBI'),
-    wins: getLeaders(pitching, 'W'),
-    era: getLeaders(eraQualified, 'ERA', 5, true).sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA)),
-    so: getLeaders(pitching, 'SO'),
+    hr: getLeaders(battingFiltered, 'HR'),
+    rbi: getLeaders(battingFiltered, 'RBI'),
+    wins: getLeaders(pitchingFiltered, 'W'),
+    era: eraQualified
+      .filter(p => !isNaN(parseFloat(p.ERA)))
+      .sort((a, b) => parseFloat(a.ERA) - parseFloat(b.ERA))
+      .slice(0, 5)
+    so: getLeaders(pitchingFiltered, 'SO'),
   }
 
   return (
@@ -110,6 +123,15 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
         ))}
       </section>
 
+      <label className="flex items-center mb-2">
+        <span className="mr-2 font-medium">Stat Leaders League:</span>
+        <select value={leaderLeague} onChange={e => setLeaderLeague(e.target.value)} className="border border-gray-300 rounded px-2 py-1">
+          <option value="MLB">MLB</option>
+          <option value="AL">American League</option>
+          <option value="NL">National League</option>
+        </select>
+      </label>
+      
       <section>
         <h2 className="text-xl font-semibold mb-2">Stat Leaders</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-3 gap-4">
@@ -124,7 +146,16 @@ export default function Home({ standings, schedule, linescores, batting, pitchin
 
       <section>
       <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-      <StandingsTable standings={standings} />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 className="text-lg font-bold mb-2">American League</h3>
+          <StandingsTable standings={{ AL: standings.AL }} />
+        </div>
+        <div>
+          <h3 className="text-lg font-bold mb-2">National League</h3>
+          <StandingsTable standings={{ NL: standings.NL }} />
+        </div>
+      </div>
       </section>
     </div>
   )
