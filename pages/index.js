@@ -38,6 +38,7 @@ export async function getStaticProps() {
         // Find W/L/S
     let wp = null, lp = null, sv = null
     for (const team of [box.pitching[home_team], box.pitching[away_team]]) {
+      if (!team) continue
       for (const player of Object.values(team)) {
         if (player.W) wp = player.Player
         if (player.L) lp = player.Player
