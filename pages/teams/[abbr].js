@@ -85,7 +85,7 @@ const TeamPage = ({ abbr, team }) => {
         <table className="w-full text-sm border border-collapse">
           <thead>
             <tr className="bg-gray-100">
-              <th className="border p-1 text-left sticky left-0 z-10">Player</th>
+              <th className="border p-1 text-left">Player</th>
               {keys.map(key => (
                 <th 
                   key={key}
@@ -115,7 +115,7 @@ const TeamPage = ({ abbr, team }) => {
               </tr>
             ))}
             <tr className="font-bold bg-gray-50">
-              <td className="border p-1 text-left sticky left-0 z-10">Total</td>
+              <td className="border p-1 text-left">Total</td>
               {keys.map(key => {
                 const calc = calcFns[key]
                 const val = calc ? calc(stats) : sumStat(stats, key)
