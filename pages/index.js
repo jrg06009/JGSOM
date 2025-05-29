@@ -233,11 +233,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
 
       <section>
         <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
+        <div className="flex flex-wrap justify-center gap-6 w-full">
+          <div className="w-fit">
             <StandingsTable standings={{ AL: standings.AL }} />
           </div>
-          <div>
+          <div className="w-fit">
             <StandingsTable standings={{ NL: standings.NL }} />
           </div>
         </div>
