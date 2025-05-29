@@ -233,14 +233,21 @@ export default function Home({ standings, batting, pitching, recentGames, latest
 
       <section>
         <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-        <div className="flex flex-wrap justify-center gap-6 w-full">
-          <div className="w-fit">
-            <StandingsTable standings={{ AL: standings.AL }} />
+
+        {['AL', 'NL'].map((league) => (
+          <div key={league} className="mb-6">
+            <h3 className="text-lg font-bold mb-2">
+              {league === 'AL' ? 'American League' : 'National League'}
+            </h3>
+            <div className="flex flex-wrap gap-4">
+              {standings[league].map((division, idx) => (
+                <div key={idx} className="w-full sm:w-[260px]">
+                  <StandingsTable standings={{ [league]: [division] }} hideLeagueHeaders />
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="w-fit">
-            <StandingsTable standings={{ NL: standings.NL }} />
-          </div>
-        </div>
+        ))}
       </section>
     </div>
   )
