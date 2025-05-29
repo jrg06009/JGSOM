@@ -108,13 +108,13 @@ export default function Layout({ children }) {
   return (
     <div className="min-h-screen bg-white text-black">
       <header className="bg-gray-900 text-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="w-full px-4 py-4 flex flex-wrap items-center justify-between">
           <Link href="/" passHref>
             <a className="mr-6">
               <img src="/logos/league.png" alt="Logo" className="h-10 w-auto" />
             </a>
           </Link>
-          <nav className="flex space-x-6 relative items-center">
+          <nav className="flex flex-wrap items-center gap-4 relative w-full md:w-auto">
             <NavLink href="/" current={router.pathname === '/'}>Home</NavLink>
             <NavLink href="/standings" current={router.pathname.startsWith('/standings')}>Standings</NavLink>
             <NavLink href="/schedule" current={router.pathname.startsWith('/schedule')}>Schedule</NavLink>
@@ -148,7 +148,7 @@ export default function Layout({ children }) {
             <NavLink href="/fielding" current={router.pathname.startsWith('/fielding')}>Fielding</NavLink>
 
             {/* Search bar */}
-            <div className="relative ml-4 w-64">
+            <div className="relative ml-auto w-full md:w-64">
               <input
                 type="text"
                 placeholder="Search players..."
@@ -178,7 +178,7 @@ export default function Layout({ children }) {
           </nav>
         </div>
       </header>
-      <main className="p-4 max-w-7xl mx-auto">{children}</main>
+      <main className="p-4 max-w-7xl mx-auto w-full">{children}</main>
     </div>
   )
 }
