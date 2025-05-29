@@ -25,10 +25,10 @@ const sumStat = (arr, key) => arr.reduce((sum, p) => sum + (parseFloat(p[key]) |
 const sumIP = (arr) => {
   return arr.reduce((sum, p) => {
     const val = p["IP"]
-    if (!val) return sum
+    if (!val) return sum;
     const [wholeStr, fracStr] = val.split(".");
-    const whole = parseInt(wholeStr) || 0;
-    const frac = parseInt(fracStr) || 0;
+    const whole = parseInt(wholeStr, 10) || 0;
+    const frac = parseInt(fracStr, 10) || 0;
     let decimal = 0;
     if (frac === 1) decimal = 1 / 3;
     else if (frac === 2) decimal = 2 / 3;
