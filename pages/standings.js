@@ -32,7 +32,7 @@ export default function StandingsPage({ standings, teams }) {
                 <StandingsTable
                   standings={{ [league]: { [division]: teamsData } }}
                   teams={teams}
-                  useFullName={false}
+                  useFullName={true}
                   hideLeagueHeaders={true}
                 />
               </div>
