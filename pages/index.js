@@ -167,21 +167,23 @@ export default function Home({ standings, batting, pitching, recentGames, latest
             <h3 className="text-lg font-semibold mb-2">Most Recent Games</h3>
             {recentGames.map((game, idx) => (
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
-                <div className="flex items-center space-x-2 mb-1 font-semibold">
-                  <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
-                  <span>{game.away_team} {game.away_score}</span>
-                  <span>at</span>
-                  <span>{game.home_team} {game.home_score}</span>
-                  <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
+                <div className="flex justify-between items-center space-x-2 mb-1 font-semibold">
+                  <div className="flex items-center space-x-2">
+                    <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
+                    <span>{game.away_team} {game.away_score}</span>
+                    <span>at</span>
+                    <span>{game.home_team} {game.home_score}</span>
+                    <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
+                  </div>  
+                  <div className="text-sm text-right text-gray-600 whitespace-nowrap ml-4">
+                  Calendar Date: {new Date(game.scheduledDate).toLocaleDateString('en-US')} <br />
+                  Played On: {new Date(game.simDate).toLocaleDateString('en-US')}
+                  </div>
                 </div>
-                <div className="text-sm">
+                <div className="text-sm mb-1">
                   W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
                 </div>
                 <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
-                <div className="text-sm text-gray-600">
-                  Calendar Date: {game.scheduledDate} <br />
-                  Played On: {new Date(game.simDate).toLocaleDateString('en-US')}
-                </div>
               </div>
             ))}
           </div>
