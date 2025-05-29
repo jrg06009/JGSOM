@@ -9,7 +9,7 @@ export async function getStaticProps() {
 export default function StandingsPage({ standings, teams }) {
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">1999 Strat-O-Matic Standings</h1>
+      <h1 className="text-2xl font-bold mb-4">1999 Standings</h1>
       <div className="space-y-10">
         {['AL', 'NL'].map(league => (
           <div key={league}>
