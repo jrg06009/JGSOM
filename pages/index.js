@@ -68,7 +68,7 @@ export async function getStaticProps() {
   }).filter(Boolean)
   
   const upcomingGames = schedule
-    .filter(g => !g.Completed && g['simDate'])
+    .filter(g => !g.completed && g['simDate'])
     .sort((a, b) => new Date(a['simDate']) - new Date(b['simDate']))
     .slice(0, 3)
     .map(game => ({
