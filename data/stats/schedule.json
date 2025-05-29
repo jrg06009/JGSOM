@@ -234,8 +234,8 @@
     "date": "1999-04-06",
     "home_team": "ATL",
     "away_team": "PHI",
-    "home_score": 6,
-    "away_score": 5,
+    "home_score": 5,
+    "away_score": 6,
     "simDate": "2025-05-29 00:00:00",
     "completed": true
   },
@@ -384,8 +384,8 @@
     "date": "1999-04-07",
     "home_team": "ATL",
     "away_team": "PHI",
-    "home_score": 3,
-    "away_score": 8,
+    "home_score": 8,
+    "away_score": 3,
     "simDate": "2025-05-29 00:00:00",
     "completed": true
   },
