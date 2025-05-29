@@ -53,14 +53,14 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                             className="w-5 h-5"
                           />
                         )}
-                        <Link href={`/teams/${team.id}`} className="hover:underline">
-                          {useFullName ? teamMap[team.id] || team.id : team.id}
+                        <Link href={`/teams/${team.team}`} className="hover:underline">
+                          {useFullName ? teamMap[team.team] || team.team : team.team}
                         </Link>
                       </td>
-                      <td className="text-center p-1">{team.w}</td>
-                      <td className="text-center p-1">{team.l}</td>
-                      <td className="text-center p-1">{team.pct || '-'}</td>    
-                      <td className="text-center p-1">{team.gb}</td>
+                      <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
+                      <td className="border border-gray-300 px-2 py-1 text-right">{team.L}</td>
+                      <td className="border border-gray-300 px-2 py-1 text-right">{team["W-L%"]}</td>
+                      <td className="border border-gray-300 px-2 py-1 text-right">{team.GB !== undefined ? team.GB : ""}</td>
                     </tr>
                   ))}
                 </tbody>
