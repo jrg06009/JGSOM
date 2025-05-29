@@ -214,18 +214,14 @@ export default function Home({ standings, batting, pitching, recentGames, latest
         </div>
       </section>
 
-      <label className="flex items-center mb-2">
-        <span className="mr-2 font-medium">Stat Leaders League:</span>
+      <section>
+        <h2 className="text-xl font-semibold mb-2">Stat Leaders</h2>
         <select value={leaderLeague} onChange={e => setLeaderLeague(e.target.value)} className="border border-gray-300 rounded px-2 py-1">
           <option value="MLB">MLB</option>
           <option value="AL">American League</option>
           <option value="NL">National League</option>
         </select>
-      </label>
-
-      <section>
-        <h2 className="text-xl font-semibold mb-2">Stat Leaders</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-3 gap-4">
+        <div className="flex flex-wrap md:flex-nowrap gap-4">
           <LeaderList title="Batting Average" players={leaders.avg} statKey="AVG" />
           <LeaderList title="Home Runs" players={leaders.hr} statKey="HR" />
           <LeaderList title="Runs Batted In" players={leaders.rbi} statKey="RBI" />
