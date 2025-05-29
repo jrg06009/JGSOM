@@ -184,7 +184,7 @@ const TeamPage = ({ abbr, team }) => {
           const total = PO + A + E
           return total > 0 ? (PO + A) / total : ''
         }
-      },{'Inn': arr +> sumIP(arr, 'Inn')})}
+      },'Inn': arr +> sumIP(arr, 'Inn'))}
     </div>
   )
 }
