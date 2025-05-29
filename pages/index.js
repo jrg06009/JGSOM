@@ -169,11 +169,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                 <div className="flex justify-between items-center space-x-2 mb-1 font-semibold">
                   <div className="flex items-center space-x-2">
-                    <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
+                    <img src={game.awayLogo} alt={game.away_team} className="h-8 w-8 object-contain" />
                     <span>{game.away_team} {game.away_score}</span>
                     <span>at</span>
                     <span>{game.home_team} {game.home_score}</span>
-                    <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
+                    <img src={game.homeLogo} alt={game.home_team} className="h-8 w-8 object-contain" />
                   </div>  
                   <div className="text-sm text-right text-gray-600 whitespace-nowrap ml-4">
                   Calendar Date: {new Date(game.scheduledDate).toLocaleDateString('en-US')} <br />
@@ -193,11 +193,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
             {upcomingGames.map((game, idx) => (
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                 <div className="flex items-center space-x-2 font-semibold text-sm">
-                  <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
+                  <img src={game.awayLogo} alt={game.away_team} className="h-8 w-8 object-contain" />
                   <span>{game.away_team}</span>
                   <span>at</span>
                   <span>{game.home_team}</span>
-                  <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
+                  <img src={game.homeLogo} alt={game.home_team} className="h-8 w-8 object-contain" />
                   <div className="text-sm text-gray-600">
                     Calendar Date: {new Date(game.scheduledDate).toLocaleDateString('en-US')}
                   </div>
