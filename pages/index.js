@@ -60,6 +60,8 @@ export async function getStaticProps() {
       wp,
       lp,
       sv,
+      simDate: game.simDate,
+      scheduledDate: date,
       homeLogo: teamMap[home_team]?.logo || '',
       awayLogo: teamMap[away_team]?.logo || ''
     }
@@ -71,6 +73,7 @@ export async function getStaticProps() {
     .slice(0, 3)
     .map(game => ({
       game_id: game.id,
+      scheduledDate: game.date,
       date: game['simDate'],
       home_team: game.home_team,
       away_team: game.away_team,
@@ -159,10 +162,9 @@ export default function Home({ standings, batting, pitching, recentGames, latest
       <h1 className="text-3xl font-bold">1999 Strat-O-Matic Season</h1>
 
       <section>
-        <h2 className="text-xl font-semibold mb-2">Games from {latestDateFormatted}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-lg font-semibold mb-2">Completed Games</h3>
+            <h3 className="text-lg font-semibold mb-2">Most Recent Games</h3>
             {recentGames.map((game, idx) => (
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                 <div className="flex items-center space-x-2 mb-1 font-semibold">
@@ -176,6 +178,10 @@ export default function Home({ standings, batting, pitching, recentGames, latest
                   W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
                 </div>
                 <Link href={`/boxscores/${game.game_id}`} className="text-blue-600 hover:underline text-sm">View Boxscore</Link>
+                <div className="text-sm text-gray-600">
+                  Calendar Date: {game.scheduledDate} <br />
+                  Played On: {new Date(game.simDate).toLocaleDateString('en-US')}
+                </div>
               </div>
             ))}
           </div>
@@ -190,6 +196,9 @@ export default function Home({ standings, batting, pitching, recentGames, latest
                   <span>at</span>
                   <span>{game.home_team}</span>
                   <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
+                  <div className="text-sm text-gray-600">
+                    Calendar Date: {game.scheduledDate}
+                  </div>
                 </div>
               </div>
             ))}
