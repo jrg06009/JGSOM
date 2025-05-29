@@ -17,7 +17,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
             </h2>
           )}
 
-          {Object.entries(divisions).map(([division, teams]) => (
+          {Object.entries(divisions).map(([division, divisionTeams]) => (
             <div key={division} className="w-full sm:w-[300px] mb-4">
               <h3 className="text-lg font-semibold mt-2">{division}</h3>
               <table className="w-full border-collapse border border-gray-400 mt-1">
@@ -31,7 +31,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                   </tr>
                 </thead>
                 <tbody>
-                  {teams.map(team => (
+                  {divisionTeams.map(team => (
                     <tr key={team.team}>
                       <td className="border border-gray-300 px-2 py-1">
                         <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
