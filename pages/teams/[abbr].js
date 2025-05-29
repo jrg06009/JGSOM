@@ -81,7 +81,7 @@ const TeamPage = ({ abbr, team }) => {
 
     return (
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <div className="overflow-x-auto"><h2 className="text-xl font-semibold mb-2">{title}</h2>
         <table className="w-full text-sm border border-collapse">
           <thead>
             <tr className="bg-gray-100">
