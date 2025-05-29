@@ -115,7 +115,7 @@ const TeamPage = ({ abbr, team }) => {
               </tr>
             ))}
             <tr className="font-bold bg-gray-50">
-              <td className="border p-1 text-left">Total</td>
+              <td className="border p-1 text-left sticky left-0 z-10">Total</td>
               {keys.map(key => {
                 const calc = calcFns[key]
                 const val = calc ? calc(stats) : sumStat(stats, key)
