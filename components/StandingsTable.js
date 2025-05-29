@@ -7,7 +7,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
   if (Array.isArray(teams)) teams.forEach(team => {
     teamMap[team.id] = team.name
     teamInfoMap[team.id] = {
-      logo: team.logo || `/logos/${team.id}.png`,
+      logo: team.logo || `/logos/${team.team}.png`,
       color: team.color || '#ccc'
     }
   })
