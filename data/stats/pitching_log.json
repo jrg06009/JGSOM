@@ -2970,5 +2970,89 @@
     "H allowed": 1,
     "BB against": 1,
     "SO against": 1
+  },
+  {
+    "Player": "Curt Schilling",
+    "Player ID": "schilcu01",
+    "Team": "PHI",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 6.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 5,
+    "R against": 5,
+    "ER": 3,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 1.0,
+    "H allowed": 2,
+    "R against": 2,
+    "ER": 1,
+    "HR allowed": 1,
+    "BB against": 1
+  },
+  {
+    "Player": "Wayne Gomes",
+    "Player ID": "gomeswa01",
+    "Team": "PHI",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 1.0,
+    "H allowed": 1,
+    "BB against": 2,
+    "WP": 1
+  },
+  {
+    "Player": "Tom Glavine",
+    "Player ID": "glavito02",
+    "Team": "ATL",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 6.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 5,
+    "R against": 4,
+    "ER": 4,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 4,
+    "HBP against": 1
+  },
+  {
+    "Player": "Kevin McGlinchy",
+    "Player ID": "mcglike01",
+    "Team": "ATL",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 1.0,
+    "H allowed": 1
+  },
+  {
+    "Player": "Mike Remlinger",
+    "Player ID": "remlimi01",
+    "Team": "ATL",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 1.0
+  },
+  {
+    "Player": "Mark Wohlers",
+    "Player ID": "wohlema01",
+    "Team": "ATL",
+    "Game#": 12,
+    "Game ID": "19990405_PHI@ATL",
+    "IP": 1.0,
+    "BB against": 1
   }
 ]

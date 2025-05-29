@@ -114,10 +114,10 @@
     "date": "1999-04-05",
     "home_team": "ATL",
     "away_team": "PHI",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 4,
+    "away_score": 8,
+    "simDate": "2025-05-28 00:00:00",
+    "completed": true
   },
   {
     "id": "19990406_CHW@SEA",
