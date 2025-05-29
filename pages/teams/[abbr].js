@@ -81,11 +81,11 @@ const TeamPage = ({ abbr, team }) => {
 
     return (
       <div className="mb-8">
-        <div className="overflow-x-auto"><h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <div className="overflow-x-auto"><h2 className="text-xl font-semibold mb-2 sticky left-0 z-10">{title}</h2>
         <table className="w-full text-sm border border-collapse">
           <thead>
             <tr className="bg-gray-100">
-              <th className="border p-1 text-left bg-gray-100 sticky left-0 z-10">Player</th>
+              <th className="border p-1 text-left bg-gray-100 sticky left-0 z-10 border-r-4 border-gray-300">Player</th>
               {keys.map(key => (
                 <th 
                   key={key}
@@ -106,7 +106,7 @@ const TeamPage = ({ abbr, team }) => {
           <tbody>
             {sortedStats.map((p, i) => (
               <tr key={i}>
-                <td className="border p-1 text-left bg-white sticky left-0 z-10">
+                <td className="border p-1 text-left bg-white sticky left-0 z-10 border-r-4 border-gray-300">
                   <Link href={`/players/${p['Player ID']}`} className="text-blue-700 underline">{p.Player}</Link>
                 </td>
                 {keys.map(key => (
@@ -115,7 +115,7 @@ const TeamPage = ({ abbr, team }) => {
               </tr>
             ))}
             <tr className="font-bold bg-gray-50">
-              <td className="border p-1 text-left bg-gray-50 font-bold sticky left-0 z-10">Total</td>
+              <td className="border p-1 text-left bg-gray-50 font-bold sticky left-0 z-10 border-r-4 border-gray-300">Total</td>
               {keys.map(key => {
                 const calc = calcFns[key]
                 const val = calc ? calc(stats) : sumStat(stats, key)
