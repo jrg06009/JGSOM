@@ -26,9 +26,13 @@ const sumIP = (arr) => {
   return arr.reduce((sum, p) => {
     const val = p["IP"]
     if (!val) return sum
-    const [whole, frac] = val.split(".").map(Number)
-    const thirds = frac === 2 ? 2 : frac === 1 ? 1 : 0
-    return sum + whole + (thirds / 3)
+    const [wholeStr, fracStr] = val.split(".");
+    const whole = parseInt(wholeStr) || 0;
+    const frac = parseInt(fracStr) || 0;
+    let decimal = 0;
+    if (frac === 1) decimal = 1 / 3;
+    else if (frac === 2) decimal = 2 / 3;
+    return sum + whole + decimal;
   }, 0)
 }
 const formatPct = (num) => {
