@@ -113,6 +113,7 @@ function LeaderList({ title, players, statKey }) {
         {players.map((p, i) => (
           <li key={i}>
             <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.Player}</Link> ({p[statKey]})
+            <span className="ml-1 text-gray-600">({p.team})</span> ({p[statKey]})
           </li>
         ))}
       </ol>
