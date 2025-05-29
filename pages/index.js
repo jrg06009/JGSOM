@@ -48,7 +48,7 @@ export async function getStaticProps() {
     return {
       game_id: game.id,
       date: game['simDate'],
-      home_team
+      home_team,
       away_team,
       home_score: Math.round(home_score),
       away_score: Math.round(away_score),
