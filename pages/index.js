@@ -199,7 +199,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
                   <span>{game.home_team}</span>
                   <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
                   <div className="text-sm text-gray-600">
-                    Calendar Date: {game.scheduledDate}
+                    Calendar Date: {new Date(game.scheduledDate).toLocaleDateString('en-US')}
                   </div>
                 </div>
               </div>
