@@ -35,7 +35,8 @@ export async function getStaticProps() {
     if (!fs.existsSync(filePath)) return null
     const box = JSON.parse(fs.readFileSync(filePath, 'utf8')) 
     const { home_team, away_team, home_score, away_score, date } = box.meta || {}
-        // Find W/L/S
+    // ✅ Safety check
+    if (!home_team || !away_team) return null
     let wp = null, lp = null, sv = null
     for (const team of [box.pitching[home_team], box.pitching[away_team]]) {
       if (!team) continue
