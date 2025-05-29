@@ -238,7 +238,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
             Array.isArray(standings?.[league])
               ? standings[league].map((division, idx) => (
                 <div key={`${league}-${idx}`} className="w-fit">
-                  <StandingsTable standings={{ [league]: [division] }} />
+                  <StandingsTable standings={{ [division] }} />
                 </div>
               ))
             : []
