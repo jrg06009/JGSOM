@@ -183,8 +183,9 @@ const TeamPage = ({ abbr, team }) => {
           const PO = sumStat(arr, 'PO'), A = sumStat(arr, 'A'), E = sumStat(arr, 'E')
           const total = PO + A + E
           return total > 0 ? (PO + A) / total : ''
-        }
-      },'Inn': arr => sumIP(arr, 'Inn'))}
+        },
+         'Inn': arr => sumIP(arr, 'Inn'))
+      },'Inn')}
     </div>
   )
 }
