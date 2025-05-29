@@ -125,7 +125,7 @@ export default function Layout({ children }) {
             >
               <button className="text-white hover:text-yellow-300">Teams</button>
               {showTeams && (
-                <div className="absolute top-full left-0 mt-2 w-[400px] bg-white text-black shadow-lg z-50 rounded p-4 grid grid-cols-2 gap-4">
+                <div className="absolute top-full left-0 mt-2 bg-white text-black shadow-lg z-50 rounded p-4 grid grid-cols-2 sm:grid-cols-3 gap-4 max-h-96 w-[90vw] sm:w-[400px] overflow-y-auto">
                   {Object.entries(divisions).map(([division, teams]) => (
                     <div key={division}>
                       <h4 className="font-bold text-sm mb-2">{division}</h4>
