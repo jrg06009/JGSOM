@@ -240,9 +240,12 @@ export default function Home({ standings, batting, pitching, recentGames, latest
               {league === 'AL' ? 'American League' : 'National League'}
             </h3>
             <div className="flex flex-wrap gap-4">
-              {standings[league].map((division, idx) => (
+              {Object.entries(standings[league]).map(([divisionName, teams], idx) => (
                 <div key={idx} className="w-full sm:w-[260px]">
-                  <StandingsTable standings={{ [league]: [division] }} hideLeagueHeaders />
+                  <StandingsTable
+                    standings={{ [league]: { [divisionName]: teams } }}
+                    hideLeagueHeaders
+                  />
                 </div>
               ))}
             </div>
