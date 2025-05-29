@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "1999-04-05 00:00:00",
+    "date": "1999-04-07 00:00:00",
     "home": "ATL",
     "away": "PHI",
-    "home_score": "4.0",
+    "home_score": "3.0",
     "away_score": "8.0"
   },
   "batting": {
@@ -11,333 +11,305 @@
       "Doug Glanville": {
         "Player": "Doug Glanville",
         "Player ID": "glanvdo01",
-        "AB": 3,
-        "SO": 1,
-        "SF": 1,
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
         "PO": 1
       },
       "Marlon Anderson": {
         "Player": "Marlon Anderson",
         "Player ID": "anderma02",
-        "AB": 3,
-        "SO": 1,
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "SO": 2,
         "PO": 2,
-        "A": 2,
-        "DP": 1
-      },
-      "David Doster": {
-        "Player": "David Doster",
-        "Player ID": "dosteda01",
-        "AB": 1,
-        "A": 1
+        "A": 4
       },
       "Scott Rolen": {
         "Player": "Scott Rolen",
         "Player ID": "rolensc01",
-        "AB": 3,
-        "R": 2,
+        "AB": 5,
         "H": 1,
         "RBI": 1,
-        "BB": 1,
         "SO": 1,
+        "PO": 1,
         "A": 2
       },
       "Rico Brogna": {
         "Player": "Rico Brogna",
         "Player ID": "brognri01",
-        "AB": 4,
-        "R": 1,
-        "H": 1,
-        "HR": 1,
-        "RBI": 2,
-        "SO": 1,
-        "PO": 9,
-        "A": 1,
-        "ERR": 2,
-        "DP": 1
+        "AB": 3,
+        "H": 2,
+        "RBI": 1,
+        "SF": 1,
+        "PO": 7
       },
       "Ron Gant": {
         "Player": "Ron Gant",
         "Player ID": "gantro01",
         "AB": 4,
-        "H": 1,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
         "SO": 1,
-        "CS": 1,
-        "ERR": 1
+        "PO": 3
       },
       "Bobby Abreu": {
         "Player": "Bobby Abreu",
         "Player ID": "abreubo01",
-        "AB": 3,
+        "AB": 4,
         "H": 1,
-        "BB": 1,
-        "PO": 6
+        "PO": 5
       },
       "Mike Lieberthal": {
         "Player": "Mike Lieberthal",
         "Player ID": "liebemi01",
         "AB": 4,
-        "R": 1,
-        "H": 2,
-        "PO": 4,
-        "SB against": 1
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 2,
+        "SB against": 2
       },
       "Desi Relaford": {
         "Player": "Desi Relaford",
         "Player ID": "relafde01",
-        "AB": 2,
-        "HBP": 1,
-        "SH": 1,
+        "AB": 4,
+        "SO": 1,
         "PO": 2,
-        "A": 3,
-        "DP": 1
-      },
-      "Curt Schilling": {
-        "Player": "Curt Schilling",
-        "Player ID": "schilcu01",
-        "AB": 1,
-        "SH": 1,
-        "L": 1,
-        "IP": "6.0",
-        "H allowed": 5,
-        "R against": 5,
-        "ER": 3,
-        "HR allowed": 1,
-        "BB against": 1,
-        "SO against": 3,
-        "HBP against": 1,
         "A": 2
       },
-      "Rob Ducey": {
-        "Player": "Rob Ducey",
-        "Player ID": "duceyro01",
-        "AB": 1
+      "Carlton Loewer": {
+        "Player": "Carlton Loewer",
+        "Player ID": "loeweca01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.2",
+        "H allowed": 6,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 1,
+        "BB against": 3,
+        "IBB against": 1,
+        "SO against": 2
       },
       "Yorkis Perez": {
         "Player": "Yorkis Perez",
         "Player ID": "perezyo01",
+        "IP": "1.1",
+        "H allowed": 1,
+        "HBP against": 1
+      },
+      "Alex Arias": {
+        "Player": "Alex Arias",
+        "Player ID": "ariasal01",
+        "AB": 1
+      },
+      "Mike Grace": {
+        "Player": "Mike Grace",
+        "Player ID": "gracemi02",
         "IP": "1.0",
         "H allowed": 2,
-        "R against": 2,
+        "R against": 1,
         "ER": 1,
-        "HR allowed": 1,
-        "BB against": 1
-      },
-      "Wayne Gomes": {
-        "Player": "Wayne Gomes",
-        "Player ID": "gomeswa01",
-        "IP": "1.0",
-        "H allowed": 1,
-        "BB against": 2,
-        "WP": 1,
-        "SB against": 1
+        "BB against": 1,
+        "SB against": 2
       }
     },
     "ATL": {
       "Otis Nixon": {
         "Player": "Otis Nixon",
         "Player ID": "nixonot01",
-        "AB": 2,
+        "AB": 5,
+        "R": 1,
+        "H": 2,
         "RBI": 1,
-        "BB": 2,
-        "SF": 1,
+        "SB": 1,
         "PO": 3
       },
       "Bret Boone": {
         "Player": "Bret Boone",
         "Player ID": "boonebr01",
         "AB": 4,
-        "SO": 1,
-        "HBP": 1,
+        "RBI": 1,
+        "SF": 1,
         "PO": 2,
-        "A": 5
+        "A": 2
       },
       "Chipper Jones": {
         "Player": "Chipper Jones",
         "Player ID": "jonesch06",
         "AB": 4,
-        "SO": 2,
-        "GDP": 1,
-        "A": 2
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "PO": 1,
+        "A": 1
       },
       "Brian Jordan": {
         "Player": "Brian Jordan",
         "Player ID": "jordabr01",
-        "AB": 4,
-        "R": 1,
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "HBP": 1,
         "PO": 1
       },
       "Javy Lopez": {
         "Player": "Javy Lopez",
         "Player ID": "lopezja01",
         "AB": 4,
-        "R": 2,
-        "H": 2,
-        "2B": 1,
-        "HR": 1,
-        "RBI": 1,
-        "PO": 5,
-        "A": 1,
-        "PB": 1,
-        "CS against": 1
+        "SO": 1,
+        "PO": 7,
+        "A": 1
       },
       "Ryan Klesko": {
         "Player": "Ryan Klesko",
         "Player ID": "kleskry01",
         "AB": 3,
-        "R": 2,
-        "H": 1,
-        "PO": 7,
-        "A": 1
-      },
-      "Brian Hunter": {
-        "Player": "Brian Hunter",
-        "Player ID": "huntebr01",
-        "AB": 1,
-        "PO": 1
+        "R": 1,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 8
       },
       "Andruw Jones": {
         "Player": "Andruw Jones",
         "Player ID": "jonesan01",
-        "AB": 3,
-        "R": 2,
-        "H": 2,
-        "RBI": 1,
-        "BB": 1,
-        "SB": 1,
-        "PO": 6
+        "AB": 4,
+        "SO": 1,
+        "PO": 5
       },
       "Walt Weiss": {
         "Player": "Walt Weiss",
         "Player ID": "weisswa01",
-        "AB": 4,
-        "H": 2,
-        "3B": 1,
-        "RBI": 3,
-        "PO": 2
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SB": 1,
+        "A": 2
       },
-      "Tom Glavine": {
-        "Player": "Tom Glavine",
-        "Player ID": "glavito02",
+      "John Smoltz": {
+        "Player": "John Smoltz",
+        "Player ID": "smoltjo01",
         "AB": 1,
-        "SH": 1,
+        "R": 2,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
         "W": 1,
         "IP": "6.0",
-        "H allowed": 5,
-        "R against": 4,
-        "ER": 4,
-        "HR allowed": 1,
+        "H allowed": 9,
+        "R against": 3,
+        "ER": 3,
         "BB against": 1,
         "SO against": 4,
-        "HBP against": 1,
-        "CS against": 1
-      },
-      "Kevin McGlinchy": {
-        "Player": "Kevin McGlinchy",
-        "Player ID": "mcglike01",
-        "IP": "1.0",
-        "H allowed": 1,
         "A": 1
       },
       "Gerald Williams": {
         "Player": "Gerald Williams",
         "Player ID": "willige02",
         "AB": 1,
-        "R": 1,
         "H": 1,
-        "HR": 1,
-        "RBI": 1
+        "RBI": 2
       },
-      "Mike Remlinger": {
-        "Player": "Mike Remlinger",
-        "Player ID": "remlimi01",
-        "IP": "1.0"
+      "Derrin Ebert": {
+        "Player": "Derrin Ebert",
+        "Player ID": "ebertde01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "SO against": 1,
+        "A": 1
       },
-      "Randall Simon": {
-        "Player": "Randall Simon",
-        "Player ID": "simonra01",
+      "Keith Lockhart": {
+        "Player": "Keith Lockhart",
+        "Player ID": "lockhke01",
         "BB": 1
       },
-      "Mark Wohlers": {
-        "Player": "Mark Wohlers",
-        "Player ID": "wohlema01",
+      "Rudy Seanez": {
+        "Player": "Rudy Seanez",
+        "Player ID": "seaneru01",
         "IP": "1.0",
-        "BB against": 1
+        "SO against": 1
       }
     }
   },
   "pitching": {
     "PHI": {
-      "Curt Schilling": {
-        "Player": "Curt Schilling",
-        "Player ID": "schilcu01",
-        "AB": 1,
-        "SH": 1,
+      "Carlton Loewer": {
+        "Player": "Carlton Loewer",
+        "Player ID": "loeweca01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
         "L": 1,
-        "IP": "6.0",
-        "H allowed": 5,
-        "R against": 5,
-        "ER": 3,
+        "IP": "5.2",
+        "H allowed": 6,
+        "R against": 7,
+        "ER": 7,
         "HR allowed": 1,
-        "BB against": 1,
-        "SO against": 3,
-        "HBP against": 1,
-        "A": 2
+        "BB against": 3,
+        "IBB against": 1,
+        "SO against": 2
       },
       "Yorkis Perez": {
         "Player": "Yorkis Perez",
         "Player ID": "perezyo01",
+        "IP": "1.1",
+        "H allowed": 1,
+        "HBP against": 1
+      },
+      "Mike Grace": {
+        "Player": "Mike Grace",
+        "Player ID": "gracemi02",
         "IP": "1.0",
         "H allowed": 2,
-        "R against": 2,
+        "R against": 1,
         "ER": 1,
-        "HR allowed": 1,
-        "BB against": 1
-      },
-      "Wayne Gomes": {
-        "Player": "Wayne Gomes",
-        "Player ID": "gomeswa01",
-        "IP": "1.0",
-        "H allowed": 1,
-        "BB against": 2,
-        "WP": 1,
-        "SB against": 1
+        "BB against": 1,
+        "SB against": 2
       }
     },
     "ATL": {
-      "Tom Glavine": {
-        "Player": "Tom Glavine",
-        "Player ID": "glavito02",
+      "John Smoltz": {
+        "Player": "John Smoltz",
+        "Player ID": "smoltjo01",
         "AB": 1,
-        "SH": 1,
+        "R": 2,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
         "W": 1,
         "IP": "6.0",
-        "H allowed": 5,
-        "R against": 4,
-        "ER": 4,
-        "HR allowed": 1,
+        "H allowed": 9,
+        "R against": 3,
+        "ER": 3,
         "BB against": 1,
         "SO against": 4,
-        "HBP against": 1,
-        "CS against": 1
-      },
-      "Kevin McGlinchy": {
-        "Player": "Kevin McGlinchy",
-        "Player ID": "mcglike01",
-        "IP": "1.0",
-        "H allowed": 1,
         "A": 1
       },
-      "Mike Remlinger": {
-        "Player": "Mike Remlinger",
-        "Player ID": "remlimi01",
-        "IP": "1.0"
+      "Derrin Ebert": {
+        "Player": "Derrin Ebert",
+        "Player ID": "ebertde01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "SO against": 1,
+        "A": 1
       },
-      "Mark Wohlers": {
-        "Player": "Mark Wohlers",
-        "Player ID": "wohlema01",
+      "Rudy Seanez": {
+        "Player": "Rudy Seanez",
+        "Player ID": "seaneru01",
         "IP": "1.0",
-        "BB against": 1
+        "SO against": 1
       }
     }
   },
@@ -350,14 +322,6 @@
       [
         2,
         "Marlon Anderson"
-      ],
-      [
-        2,
-        "David Doster"
-      ],
-      [
-        2,
-        "David Doster"
       ],
       [
         3,
@@ -385,11 +349,7 @@
       ],
       [
         9,
-        "Curt Schilling"
-      ],
-      [
-        9,
-        "Rob Ducey"
+        "Carlton Loewer"
       ],
       [
         9,
@@ -397,7 +357,11 @@
       ],
       [
         9,
-        "Wayne Gomes"
+        "Alex Arias"
+      ],
+      [
+        9,
+        "Mike Grace"
       ]
     ],
     "ATL": [
@@ -426,14 +390,6 @@
         "Ryan Klesko"
       ],
       [
-        6,
-        "Brian Hunter"
-      ],
-      [
-        6,
-        "Brian Hunter"
-      ],
-      [
         7,
         "Andruw Jones"
       ],
@@ -443,19 +399,7 @@
       ],
       [
         9,
-        "Tom Glavine"
-      ],
-      [
-        9,
-        "Kevin McGlinchy"
-      ],
-      [
-        9,
-        "Gerald Williams"
-      ],
-      [
-        9,
-        "Mike Remlinger"
+        "John Smoltz"
       ],
       [
         9,
@@ -463,7 +407,19 @@
       ],
       [
         9,
-        "Mark Wohlers"
+        "Gerald Williams"
+      ],
+      [
+        9,
+        "Derrin Ebert"
+      ],
+      [
+        9,
+        "Keith Lockhart"
+      ],
+      [
+        9,
+        "Rudy Seanez"
       ]
     ]
   },
@@ -474,10 +430,6 @@
       ],
       "Marlon Anderson": [
         "4"
-      ],
-      "David Doster": [
-        "4",
-        "PH"
       ],
       "Scott Rolen": [
         "5"
@@ -497,16 +449,16 @@
       "Desi Relaford": [
         "6"
       ],
-      "Curt Schilling": [
+      "Carlton Loewer": [
         "1"
-      ],
-      "Rob Ducey": [
-        "PH"
       ],
       "Yorkis Perez": [
         "1"
       ],
-      "Wayne Gomes": [
+      "Alex Arias": [
+        "PH"
+      ],
+      "Mike Grace": [
         "1"
       ]
     },
@@ -529,32 +481,28 @@
       "Ryan Klesko": [
         "3"
       ],
-      "Brian Hunter": [
-        "3",
-        "PH"
-      ],
       "Andruw Jones": [
         "8"
       ],
       "Walt Weiss": [
         "6"
       ],
-      "Tom Glavine": [
-        "1"
-      ],
-      "Kevin McGlinchy": [
-        "1"
-      ],
-      "Gerald Williams": [
-        "PH"
-      ],
-      "Mike Remlinger": [
+      "John Smoltz": [
         "1"
       ],
       "Randall Simon": [
         "PH"
       ],
-      "Mark Wohlers": [
+      "Gerald Williams": [
+        "PH"
+      ],
+      "Derrin Ebert": [
+        "1"
+      ],
+      "Keith Lockhart": [
+        "PH"
+      ],
+      "Rudy Seanez": [
         "1"
       ]
     }
@@ -569,7 +517,7 @@
       "Bobby Abreu": 1,
       "Mike Lieberthal": 1,
       "Desi Relaford": 1,
-      "Curt Schilling": 1
+      "Carlton Loewer": 1
     },
     "ATL": {
       "Otis Nixon": 1,
@@ -580,7 +528,7 @@
       "Ryan Klesko": 1,
       "Andruw Jones": 1,
       "Walt Weiss": 1,
-      "Tom Glavine": 1
+      "John Smoltz": 1
     }
   }
 }

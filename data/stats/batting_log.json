@@ -9796,5 +9796,280 @@
     "Team": "ATL",
     "Game#": 24,
     "Game ID": "19990406_PHI@ATL"
+  },
+  {
+    "Player": "Doug Glanville",
+    "Player ID": "glanvdo01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 2,
+    "2B": 2
+  },
+  {
+    "Player": "Marlon Anderson",
+    "Player ID": "anderma02",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "BB": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Scott Rolen",
+    "Player ID": "rolensc01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 5,
+    "H": 1,
+    "RBI": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Rico Brogna",
+    "Player ID": "brognri01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 3,
+    "H": 2,
+    "RBI": 1,
+    "SF": 1
+  },
+  {
+    "Player": "Ron Gant",
+    "Player ID": "gantro01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 2,
+    "2B": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Bobby Abreu",
+    "Player ID": "abreubo01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "H": 1
+  },
+  {
+    "Player": "Mike Lieberthal",
+    "Player ID": "liebemi01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "H": 1,
+    "2B": 1,
+    "RBI": 1
+  },
+  {
+    "Player": "Desi Relaford",
+    "Player ID": "relafde01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Carlton Loewer",
+    "Player ID": "loeweca01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 3,
+    "H": 2,
+    "2B": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL"
+  },
+  {
+    "Player": "Alex Arias",
+    "Player ID": "ariasal01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "AB": 1
+  },
+  {
+    "Player": "Mike Grace",
+    "Player ID": "gracemi02",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL"
+  },
+  {
+    "Player": "Otis Nixon",
+    "Player ID": "nixonot01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 5,
+    "R": 1,
+    "H": 2,
+    "RBI": 1,
+    "SB": 1
+  },
+  {
+    "Player": "Bret Boone",
+    "Player ID": "boonebr01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "RBI": 1,
+    "SF": 1
+  },
+  {
+    "Player": "Chipper Jones",
+    "Player ID": "jonesch06",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 2,
+    "2B": 1,
+    "RBI": 2
+  },
+  {
+    "Player": "Brian Jordan",
+    "Player ID": "jordabr01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 3,
+    "R": 2,
+    "H": 2,
+    "HR": 1,
+    "RBI": 2,
+    "HBP": 1
+  },
+  {
+    "Player": "Javy Lopez",
+    "Player ID": "lopezja01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Ryan Klesko",
+    "Player ID": "kleskry01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "BB": 1,
+    "IBB": 1
+  },
+  {
+    "Player": "Andruw Jones",
+    "Player ID": "jonesan01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Walt Weiss",
+    "Player ID": "weisswa01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "H": 1,
+    "BB": 1,
+    "SB": 1
+  },
+  {
+    "Player": "John Smoltz",
+    "Player ID": "smoltjo01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "GS": 1,
+    "AB": 1,
+    "R": 2,
+    "H": 1,
+    "2B": 1,
+    "BB": 1
+  },
+  {
+    "Player": "Randall Simon",
+    "Player ID": "simonra01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL"
+  },
+  {
+    "Player": "Gerald Williams",
+    "Player ID": "willige02",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "AB": 1,
+    "H": 1,
+    "RBI": 2
+  },
+  {
+    "Player": "Derrin Ebert",
+    "Player ID": "ebertde01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL"
+  },
+  {
+    "Player": "Keith Lockhart",
+    "Player ID": "lockhke01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "BB": 1
+  },
+  {
+    "Player": "Rudy Seanez",
+    "Player ID": "seaneru01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL"
   }
 ]

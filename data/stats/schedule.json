@@ -384,10 +384,10 @@
     "date": "1999-04-07",
     "home_team": "ATL",
     "away_team": "PHI",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 3,
+    "away_score": 8,
+    "simDate": "2025-05-29 00:00:00",
+    "completed": true
   },
   {
     "id": "19990408_BOS@KCR",

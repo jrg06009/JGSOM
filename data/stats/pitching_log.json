@@ -3158,5 +3158,78 @@
     "ER": 1,
     "HR allowed": 1,
     "SO against": 1
+  },
+  {
+    "Player": "Carlton Loewer",
+    "Player ID": "loeweca01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 5.666666666666667,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 6,
+    "R against": 7,
+    "ER": 7,
+    "HR allowed": 1,
+    "BB against": 3,
+    "IBB against": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 1.3333333333333333,
+    "H allowed": 1,
+    "HBP against": 1
+  },
+  {
+    "Player": "Mike Grace",
+    "Player ID": "gracemi02",
+    "Team": "PHI",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 1.0,
+    "H allowed": 2,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1
+  },
+  {
+    "Player": "John Smoltz",
+    "Player ID": "smoltjo01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 6.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 9,
+    "R against": 3,
+    "ER": 3,
+    "BB against": 1,
+    "SO against": 4
+  },
+  {
+    "Player": "Derrin Ebert",
+    "Player ID": "ebertde01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 2.0,
+    "H allowed": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Rudy Seanez",
+    "Player ID": "seaneru01",
+    "Team": "ATL",
+    "Game#": 39,
+    "Game ID": "19990407_PHI@ATL",
+    "IP": 1.0,
+    "SO against": 1
   }
 ]
