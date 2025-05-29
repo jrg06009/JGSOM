@@ -48,7 +48,7 @@ export async function getStaticProps() {
     return {
       game_id: game.id,
       date: game['simDate'],
-      home_team,
+      home_team
       away_team,
       home_score: Math.round(home_score),
       away_score: Math.round(away_score),
@@ -67,8 +67,8 @@ export async function getStaticProps() {
     .map(game => ({
       game_id: game.id,
       date: game['simDate'],
-      home: game.home_team,
-      away: game.away_team,
+      home_team: game.home_team,
+      away_team: game.away_team,
       homeLogo: teamMap[game.home_team]?.logo || '',
       awayLogo: teamMap[game.away_team]?.logo || ''
     }))
@@ -161,11 +161,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
             {recentGames.map((game, idx) => (
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                 <div className="flex items-center space-x-2 mb-1 font-semibold">
-                  <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
-                  <span>{game.away} {game.away_score}</span>
+                  <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
+                  <span>{game.away_team} {game.away_score}</span>
                   <span>at</span>
-                  <span>{game.home} {game.home_score}</span>
-                  <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
+                  <span>{game.home_team} {game.home_score}</span>
+                  <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
                 </div>
                 <div className="text-sm">
                   W: {game.wp || '—'}, L: {game.lp || '—'}{game.sv ? `, SV: ${game.sv}` : ''}
@@ -180,11 +180,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
             {upcomingGames.map((game, idx) => (
               <div key={idx} className="border rounded-xl p-4 bg-white shadow mb-3">
                 <div className="flex items-center space-x-2 font-semibold text-sm">
-                  <img src={game.awayLogo} alt={game.away} className="h-5 w-5 object-contain" />
-                  <span>{game.away}</span>
+                  <img src={game.awayLogo} alt={game.away_team} className="h-5 w-5 object-contain" />
+                  <span>{game.away_team}</span>
                   <span>at</span>
-                  <span>{game.home}</span>
-                  <img src={game.homeLogo} alt={game.home} className="h-5 w-5 object-contain" />
+                  <span>{game.home_team}</span>
+                  <img src={game.homeLogo} alt={game.home_team} className="h-5 w-5 object-contain" />
                 </div>
               </div>
             ))}
