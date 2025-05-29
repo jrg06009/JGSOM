@@ -34,7 +34,11 @@ export async function getStaticProps() {
     const filePath = path.join(boxscoreDir, fileName)
     if (!fs.existsSync(filePath)) return null
     const box = JSON.parse(fs.readFileSync(filePath, 'utf8')) 
-    const { home_team, away_team, home_score, away_score, date } = box.meta || {}
+    const home_team = box.meta.home_team || box.meta.home
+    const away_team = box.meta.away_team || box.meta.away
+    const home_score = box.meta.home_score
+    const away_score = box.meta.away_score
+    const date = box.meta.date
     // ✅ Safety check
     if (!home_team || !away_team) return null
     let wp = null, lp = null, sv = null
