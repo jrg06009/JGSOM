@@ -38,7 +38,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                 </thead>
                 <tbody>
                   {divisionTeams.map((team) => (
-                    <tr key={team.id} className="border-t border-gray-300">
+                    <tr key={team.team} className="border-t border-gray-300">
                       {enhanced && (
                         <td
                           className="w-1"
@@ -48,12 +48,12 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       <td className="text-left p-1 flex items-center space-x-2">
                         {enhanced && (
                           <img
-                            src={teamInfoMap[team.id]?.logo}
-                            alt={team.id}
+                            src={teamInfoMap[team.team]?.logo}
+                            alt={team.team}
                             className="w-5 h-5"
                           />
                         )}
-                        <Link href={`/teams/${team.team}`} className="hover:underline">
+                        <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
                           {useFullName ? teamMap[team.team] || team.team : team.team}
                         </Link>
                       </td>
