@@ -27,9 +27,9 @@ const divisions = {
   'NL East': [
     { name: 'Atlanta Braves', abbr: 'ATL' },
     { name: 'Florida Marlins', abbr: 'FLA' },
+    { name: 'Montreal Expos', abbr: 'MON' },
     { name: 'New York Mets', abbr: 'NYM' },
     { name: 'Philadelphia Phillies', abbr: 'PHI' },
-    { name: 'Washington Nationals', abbr: 'WSH' },
   ],
   'NL Central': [
     { name: 'Chicago Cubs', abbr: 'CHC' },
