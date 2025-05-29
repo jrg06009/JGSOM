@@ -127,7 +127,7 @@ const TeamPage = ({ abbr, team }) => {
               })}
             </tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
     )
   }
