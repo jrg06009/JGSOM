@@ -107,13 +107,13 @@ function getLeaders(data, key, top = 5) {
 
 function LeaderList({ title, players, statKey }) {
   return (
-    <div className="border rounded-xl p-3 bg-white shadow">
+    <div className="border rounded-xl p-3 bg-white shadow w-fit">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
-      <table className="w-full text-sm">
+      <table className="text-sm">
         <tbody>
           {players.map((p, i) => (
             <tr key={i}>
-              <td className="pr-2 align-top">
+              <td className="pr-2 whitespace-no wrap align-top">
                 <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.Player}</Link>
               </td>
               <td className="text-right text-xs font-bold text-gray-700 whitespace-nowrap">
