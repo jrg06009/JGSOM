@@ -85,7 +85,7 @@ const TeamPage = ({ abbr, team }) => {
         <table className="w-full text-sm border border-collapse">
           <thead>
             <tr className="bg-gray-100">
-              <th className="border p-1 text-left">Player</th>
+              <th className="border p-1 text-left sticky left-0 z-10">Player</th>
               {keys.map(key => (
                 <th 
                   key={key}
