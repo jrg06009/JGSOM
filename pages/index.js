@@ -241,7 +241,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
               </h3>
               <div className="flex flex-wrap gap-4">
                 {Object.entries(standings[league]).map(([divisionName, teams], idx) => (
-                  <div key={idx} className="w-full sm:w-[260px]">
+                  <div key={idx} className="min-w-[220px] flex-1">
                     <StandingsTable
                       standings={{ [league]: { [divisionName]: teams } }}
                       hideLeagueHeaders
