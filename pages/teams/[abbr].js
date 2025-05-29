@@ -26,15 +26,14 @@ const sumIP = (arr) => {
   return arr.reduce((sum, p) => {
     const val = p["IP"]
     if (!val) return sum;
-    const [wholeStr, fracStr] = val.split(".");
+    const [wholeStr, fracStr = "0"] = val.split(".");
     const whole = parseInt(wholeStr, 10) || 0;
-    const frac = parseInt(fracStr, 10) || 0;
     let decimal = 0;
-    if (frac === 1) decimal = 1 / 3;
-    else if (frac === 2) decimal = 2 / 3;
+    if (fracStr === "1") decimal = 1 / 3;
+    else if (fracStr === "2") decimal = 2 / 3;
     return sum + whole + decimal;
-  }, 0)
-}
+  }, 0);
+};
 const formatPct = (num) => {
   if (num === null || num === undefined || isNaN(num)) return ''
   const val = parseFloat(num)
