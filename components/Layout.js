@@ -125,7 +125,7 @@ export default function Layout({ children }) {
             >
               <button className="text-white hover:text-yellow-300">Teams</button>
               {showTeams && (
-                <div className="absolute top-full left-0 mt-2 bg-white text-black shadow-lg z-50 rounded p-4 grid grid-cols-2 sm:grid-cols-3 gap-4 max-h-96 w-[90vw] sm:w-[400px] overflow-y-auto">
+                <div className="absolute top-full left-0 mt-2 bg-white text-black shadow-lg z-50 rounded p-4 grid grid-cols-1 sm:grid-cols-3 gap-4 max-h-96 w-[90vw] sm:w-[400px] overflow-y-auto">
                   {Object.entries(divisions).map(([division, teams]) => (
                     <div key={division}>
                       <h4 className="font-bold text-sm mb-2">{division}</h4>
@@ -133,7 +133,8 @@ export default function Layout({ children }) {
                         {teams.map(team => (
                           <li key={team.abbr}>
                             <Link href={`/teams/${team.abbr}`} passHref>
-                              <a className="text-sm hover:text-blue-600">{team.name}</a>
+                              <a className="text-sm hover:text-blue-600 sm:block hidden">{team.name}</a>
+                              <a className="text-sm hover:text-blue-600 block sm:hidden">{team.abbr}</a>
                             </Link>
                           </li>
                         ))}
