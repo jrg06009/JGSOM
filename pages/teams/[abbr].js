@@ -28,7 +28,7 @@ const sumIP = (arr) => {
     if (!val) return sum
     const [whole, frac] = val.split(".").map(Number)
     const thirds = frac === 2 ? 2 : frac === 1 ? 1 : 0
-    return sum + whole + thirds / 3
+    return sum + whole + (thirds / 3)
   }, 0)
 }
 const formatPct = (num) => {
