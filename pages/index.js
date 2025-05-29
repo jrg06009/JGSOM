@@ -24,7 +24,7 @@ export async function getStaticProps() {
   const pitching = safeLoad(path.join(dataDir, 'pitching.json'))
   const teams = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'teams.json'), 'utf8'))
   const teamToLeague = getTeamToLeagueMap(teams)
-  const teamMap = Object.fromEntries(teams.map(t => [t.abbr, t]))
+  const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
   const completedGames = schedule
     .filter(g => g.completed && g['simDate'])
     .sort((a, b) => new Date(b['simDate']) - new Date(a['simDate']))
@@ -51,8 +51,8 @@ export async function getStaticProps() {
       date: game['simDate'],
       home_team,
       away_team,
-      home_score: Math.round(home_score),
-      away_score: Math.round(away_score),
+      home_score: home_score !== undefined ? Math.round(Number(home_score)) : 0,
+      away_score: away_score !== undefined ? Math.round(Number(away_score)) : 0,
       wp,
       lp,
       sv,
