@@ -125,7 +125,7 @@ const TeamPage = ({ abbr, team }) => {
                 const formatted = (key === 'AVG' || key === 'OBP' || key === 'SLG' || key === 'OPS' || key === 'W-L%' || key === 'Fld%') ? formatPct(val) :
                   (key === 'ERA' ) ? formatERA (val) :
                   (key === 'H9' || key === 'HR9' || key === 'BB9' || key === 'SO9' || key === 'SO/BB') ? formatPerNine(val) :
-                  (key === 'IP') ? formatIP(val) : val
+                  (key === 'IP') ? formatIP(sumIP(stats)) : val
                 return <td key={key} className="border p-1 text-center">{formatted}</td>
               })}
             </tr>
