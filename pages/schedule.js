@@ -1,6 +1,20 @@
 import fs from 'fs'
 import path from 'path'
 import teams from '../data/teams.json'
+import { useEffect, useState } from 'react'
+
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
+
+  return isMobile
+}
 const boxscoresDir = path.join(process.cwd(), 'data/boxscores');
 
 export async function getStaticProps() {
@@ -112,6 +126,7 @@ const formatScore = (game) => {
 
 
 const SchedulePage = ({ schedule }) => {
+  const isMobile = useIsMobile()
   const grouped = schedule.reduce((acc, g) => {
     if (!g.date) return acc
     if (!acc[g.date]) acc[g.date] = []
@@ -125,9 +140,9 @@ const SchedulePage = ({ schedule }) => {
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-6">1999 Season Schedule</h1>
       {sortedDates.map(date => (
-        <div key={date} className="mb-6">
+        <div key={date} className="mb-6 overflow-x-auto">
           <h2 className="text-lg font-semibold mb-2">{date}</h2>
-          <table className="w-full border-collapse text-sm mb-2">
+          <table className="w-full text-sm border border-collapse">
             <thead>
               <tr className="bg-gray-100">
                 <th className="border p-2 text-left">Road</th>
@@ -144,14 +159,14 @@ const SchedulePage = ({ schedule }) => {
                   <td className="border p-2">
                     {g.away_team ? (
                       <a href={`/teams/${g.away_team}`} className="text-blue-600 hover:underline">
-                        {teamName(g.away_team)}
+                        {isMobile ? g.away_team : teamName(g.away_team)}
                       </a>
                     ) : "TBD"}
                   </td>
                   <td className="border p-2">
                     {g.home_team ? (
                       <a href={`/teams/${g.home_team}`} className="text-blue-600 hover:underline">
-                        {teamName(g.home_team)}
+                        {isMobile ? g.home_team : teamName(g.home_team)}
                       </a>
                     ) : "TBD"}
                   </td>
