@@ -233,24 +233,25 @@ export default function Home({ standings, batting, pitching, recentGames, latest
 
       <section>
         <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-
-        {['AL', 'NL'].map((league) => (
-          <div key={league} className="mb-6">
-            <h3 className="text-lg font-bold mb-2">
-              {league === 'AL' ? 'American League' : 'National League'}
-            </h3>
-            <div className="flex flex-wrap gap-4">
-              {Object.entries(standings[league]).map(([divisionName, teams], idx) => (
-                <div key={idx} className="w-full sm:w-[260px]">
-                  <StandingsTable
-                    standings={{ [league]: { [divisionName]: teams } }}
-                    hideLeagueHeaders
-                  />
-                </div>
-              ))}
+        <div className="flex flex-wrap gap-4">
+          {['AL', 'NL'].map((league) => (
+            <div key={league} className="mb-6">
+              <h3 className="text-lg font-bold mb-2">
+                {league === 'AL' ? 'American League' : 'National League'}
+              </h3>
+              <div className="flex flex-wrap gap-4">
+                {Object.entries(standings[league]).map(([divisionName, teams], idx) => (
+                  <div key={idx} className="w-full sm:w-[260px]">
+                    <StandingsTable
+                      standings={{ [league]: { [divisionName]: teams } }}
+                      hideLeagueHeaders
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
     </div>
   )
