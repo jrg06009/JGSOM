@@ -3054,5 +3054,109 @@
     "Game ID": "19990405_PHI@ATL",
     "IP": 1.0,
     "BB against": 1
+  },
+  {
+    "Player": "Jeff Brantley",
+    "Player ID": "brantje01",
+    "Team": "PHI",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.6666666666666665,
+    "W": 1,
+    "HBP against": 1
+  },
+  {
+    "Player": "Wayne Gomes",
+    "Player ID": "gomeswa01",
+    "Team": "PHI",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 1,
+    "BB against": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Chad Ogea",
+    "Player ID": "ogeach01",
+    "Team": "PHI",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 5.0,
+    "GS": 1,
+    "H allowed": 5,
+    "R against": 5,
+    "ER": 4,
+    "HR allowed": 1,
+    "BB against": 4,
+    "IBB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Ken Ryan",
+    "Player ID": "ryanke01",
+    "Team": "PHI",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.0,
+    "SO against": 1
+  },
+  {
+    "Player": "Jim Poole",
+    "Player ID": "pooleji02",
+    "Team": "PHI",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.3333333333333333,
+    "H allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Greg Maddux",
+    "Player ID": "maddugr01",
+    "Team": "ATL",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 6.666666666666667,
+    "GS": 1,
+    "H allowed": 9,
+    "R against": 3,
+    "ER": 3,
+    "SO against": 6
+  },
+  {
+    "Player": "Rudy Seanez",
+    "Player ID": "seaneru01",
+    "Team": "ATL",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.3333333333333333
+  },
+  {
+    "Player": "John Rocker",
+    "Player ID": "rockejo01",
+    "Team": "ATL",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.0,
+    "H allowed": 3,
+    "R against": 2,
+    "ER": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Mike Cather",
+    "Player ID": "cathemi01",
+    "Team": "ATL",
+    "Game#": 24,
+    "Game ID": "19990406_PHI@ATL",
+    "IP": 1.0,
+    "L": 1,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "SO against": 1
   }
 ]
