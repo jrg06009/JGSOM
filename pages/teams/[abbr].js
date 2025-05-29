@@ -51,12 +51,12 @@ const formatERA = (num) => {
   return val >= 1 ? val.toFixed(2) : val.toFixed(2).replace(/^0\./, '.')
 }
 const formatIP = (num) => {
-  const whole = Math.floor(num)
-  const decimal = num - whole
-  if (Math.abs(decimal - 2 / 3) < 0.01) return `${whole}.2`
-  if (Math.abs(decimal - 1 / 3) < 0.01) return `${whole}.1`
-  return `${whole}`
-}
+  const whole = Math.floor(num);
+  const decimal = num - whole;
+  if (Math.abs(decimal - 2 / 3) < 0.01) return `${whole}.2`;
+  if (Math.abs(decimal - 1 / 3) < 0.01) return `${whole}.1`;
+  return `${whole}`;
+};
 
 const TeamPage = ({ abbr, team }) => {
 
