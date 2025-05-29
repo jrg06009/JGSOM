@@ -68,13 +68,11 @@ export async function getStaticProps() {
   }).filter(Boolean)
   
   const upcomingGames = schedule
-    .filter(g => !g.completed && g['simDate'])
-    .sort((a, b) => new Date(a['simDate']) - new Date(b['simDate']))
+    .filter(g => !g.completed && g.simDate === "")
     .slice(0, 3)
     .map(game => ({
       game_id: game.id,
       scheduledDate: game.date,
-      date: game['simDate'],
       home_team: game.home_team,
       away_team: game.away_team,
       homeLogo: teamMap[game.home_team]?.logo || '',
