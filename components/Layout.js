@@ -8,14 +8,14 @@ const divisions = {
     { name: 'Baltimore Orioles', abbr: 'BAL' },
     { name: 'Boston Red Sox', abbr: 'BOS' },
     { name: 'New York Yankees', abbr: 'NYY' },
-    { name: 'Tampa Bay Devil Rays', abbr: 'TB' },
+    { name: 'Tampa Bay Devil Rays', abbr: 'TBR' },
     { name: 'Toronto Blue Jays', abbr: 'TOR' },
   ],
   'AL Central': [
     { name: 'Chicago White Sox', abbr: 'CWS' },
     { name: 'Cleveland Indians', abbr: 'CLE' },
     { name: 'Detroit Tigers', abbr: 'DET' },
-    { name: 'Kansas City Royals', abbr: 'KC' },
+    { name: 'Kansas City Royals', abbr: 'KCR' },
     { name: 'Minnesota Twins', abbr: 'MIN' },
   ],
   'AL West': [
@@ -42,9 +42,9 @@ const divisions = {
   'NL West': [
     { name: 'Arizona Diamondbacks', abbr: 'ARI' },
     { name: 'Colorado Rockies', abbr: 'COL' },
-    { name: 'Los Angeles Dodgers', abbr: 'LA' },
-    { name: 'San Diego Padres', abbr: 'SD' },
-    { name: 'San Francisco Giants', abbr: 'SF' },
+    { name: 'Los Angeles Dodgers', abbr: 'LAD' },
+    { name: 'San Diego Padres', abbr: 'SDP' },
+    { name: 'San Francisco Giants', abbr: 'SFG' },
   ],
 }
 
