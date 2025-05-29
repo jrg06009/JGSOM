@@ -1,10 +1,15 @@
 import Link from 'next/link'
 
-export default function StandingsTable({ standings, teams, useFullName = false, hideLeagueHeaders = false }) {
+export default function StandingsTable({ standings, teams, useFullName = false, hideLeagueHeaders = false, enhanced = false }) {
   // Create a lookup for team ID to team name
   const teamMap = {}
+  const teamInfoMap = {}
   if (Array.isArray(teams)) teams.forEach(team => {
     teamMap[team.id] = team.name
+    teamInfoMap[team.id] = {
+      logo: team.logo || `/logos/${team.id}.png`,
+      color: team.color || '#ccc'
+    }
   })
 
   return (
@@ -23,6 +28,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
               <table className="w-full border-collapse border border-gray-400 mt-1">
                 <thead>
                   <tr className="bg-gray-200">
+                    {enhanced && <th className="w-1"></th>}
                     <th className="border border-gray-400 px-2 py-1 text-left">Team</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">W</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">L</th>
@@ -31,17 +37,29 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                   </tr>
                 </thead>
                 <tbody>
-                  {divisionTeams.map(team => (
-                    <tr key={team.team}>
-                      <td className="border border-gray-300 px-2 py-1">
-                        <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
-                          {useFullName ? teamMap[team.team] || team.team : team.team}
+                  {divisionTeams.map((team) => (
+                    <tr key={team.id} className="border-t border-gray-300">
+                      {enhanced && (
+                        <td
+                          className="w-1"
+                          style={{ backgroundColor: teamInfoMap[team.id]?.color || '#eee' }}
+                        ></td>
+                      )}
+                      <td className="text-left p-1 flex items-center space-x-2">
+                        {enhanced && (
+                          <img
+                            src={teamInfoMap[team.id]?.logo}
+                            alt={team.id}
+                            className="w-5 h-5"
+                          />
+                        )}
+                        <Link href={`/teams/${team.id}`} className="hover:underline">
+                          {useFullName ? teamMap[team.id] || team.id : team.id}
                         </Link>
                       </td>
-                      <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
-                      <td className="border border-gray-300 px-2 py-1 text-right">{team.L}</td>
-                      <td className="border border-gray-300 px-2 py-1 text-right">{team["W-L%"]}</td>
-                      <td className="border border-gray-300 px-2 py-1 text-right">{team.GB !== undefined ? team.GB : ""}</td>
+                      <td className="text-center p-1">{team.w}</td>
+                      <td className="text-center p-1">{team.l}</td>
+                      <td className="text-center p-1">{team.gb}</td>
                     </tr>
                   ))}
                 </tbody>
