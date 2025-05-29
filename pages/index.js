@@ -109,14 +109,21 @@ function LeaderList({ title, players, statKey }) {
   return (
     <div className="border rounded-xl p-3 bg-white shadow">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
-      <ol className="list-decimal list-inside space-y-1 text-sm">
-        {players.map((p, i) => (
-          <li key={i}>
-            <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.Player}</Link>
-            <span className="ml-1 text-xs font-bold text-gray-700">{p.team}</span> {p[statKey]}
-          </li>
-        ))}
-      </ol>
+      <table className="w-full text-sm">
+        <tbody>
+          {players.map((p, i) => (
+            <tr key={i}>
+              <td className="pr-2 align-top">
+                <Link href={`/players/${p.id}`} className="text-blue-600 hover:underline">{p.Player}</Link>
+              </td>
+              <td className="text-right text-xs font-bold text-gray-700 whitespace-nowrap">
+                {p.team} &nbsp; 
+                <span className="text-sm font-normal text-black">{p[statKey]}</span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   )
 }
