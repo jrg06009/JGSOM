@@ -22,9 +22,9 @@ export async function getStaticProps({ params }) {
 }
 
 const sumStat = (arr, key) => arr.reduce((sum, p) => sum + (parseFloat(p[key]) || 0), 0)
-const sumIP = (arr) => {
+const sumIP = (arr, key = "IP") => {
   return arr.reduce((sum, p) => {
-    const val = p["IP"]
+    const val = p[key]
     if (!val) return sum;
     const [wholeStr, fracStr = "0"] = val.split(".");
     const whole = parseInt(wholeStr, 10) || 0;
@@ -184,7 +184,7 @@ const TeamPage = ({ abbr, team }) => {
           const total = PO + A + E
           return total > 0 ? (PO + A) / total : ''
         }
-      },{'Inn': sumIP})}
+      },{'Inn': arr +> sumIP(arr, 'Inn')})}
     </div>
   )
 }
