@@ -8,7 +8,7 @@ const divisions = {
     { name: 'Baltimore Orioles', abbr: 'BAL' },
     { name: 'Boston Red Sox', abbr: 'BOS' },
     { name: 'New York Yankees', abbr: 'NYY' },
-    { name: 'Tampa Bay Devil Rays', abbr: 'TBR' },
+    { name: 'Tampa Bay Devil Rays', abbr: 'TBD' },
     { name: 'Toronto Blue Jays', abbr: 'TOR' },
   ],
   'AL Central': [
