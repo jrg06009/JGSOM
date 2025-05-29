@@ -233,11 +233,11 @@ export default function Home({ standings, batting, pitching, recentGames, latest
 
       <section>
         <h2 className="text-xl font-semibold mt-6 mb-2">Standings</h2>
-        <div className="flex flex-wrap gap-6 w-full">
+        <div className="flex flex-wrap gap-4">
           {['AL', 'NL'].flatMap(league =>
-            standings[league].map((division, idx) => (
-              <div key={`${league}-${idx}`} className="w-fit">
-                <StandingsTable standings={{ [league]: [division] }} />
+            Object.entries(standings[league]).map(([division, teams]) => (
+              <div key={`${league}-${division}`} className="min-w-[180px]">
+                <StandingsTable division={division} teams={teams} />
               </div>
             ))
           )}
