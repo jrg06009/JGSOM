@@ -59,6 +59,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       </td>
                       <td className="text-center p-1">{team.w}</td>
                       <td className="text-center p-1">{team.l}</td>
+                      <td className="text-center p-1">{team.pct || '-'}</td>    
                       <td className="text-center p-1">{team.gb}</td>
                     </tr>
                   ))}
