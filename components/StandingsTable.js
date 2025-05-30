@@ -57,39 +57,39 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                       streak.startsWith('W') ? 'text-green-600 font-semibold' :
                       streak.startsWith('L') ? 'text-red-600 font-semibold' :
                       ''
-                  
-                  return (                 
-                    <tr key={team.team} className="border-t border-gray-300">
-                      {enhanced && (
-                        <td  className="w-2 h-5" style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee', minWidth: '8px'}}></td>
-                      )}
-                        <td className="text-left p-1 flex items-center space-x-2">
-                          {enhanced && (
-                            <img
-                              src={teamInfoMap[team.team]?.logo}
-                              alt={team.team}
-                              className="w-5 h-5"
-                            />
-                          )}
-                          <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
-                            {useFullName ? teamMap[team.team] || team.team : team.team}
-                          </Link>
-                        </td>
-                        <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
-                        <td className="border border-gray-300 px-2 py-1 text-right">{team.L}</td>
-                        <td className="border border-gray-300 px-2 py-1 text-right">{team["W-L%"]}</td>
-                        <td className="border border-gray-300 px-2 py-1 text-right">{team.GB !== undefined ? team.GB : ""}</td>
-                          {enhanced && (
-                            <>
-                          <td className={`border border-gray-300 px-2 py-1 text-right ${streakClass}`}>
-                            {streak}
+                    return (                 
+                      <tr key={team.team} className="border-t border-gray-300">
+                        {enhanced && (
+                          <td  className="w-2 h-5" style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee', minWidth: '8px'}}></td>
+                        )}
+                          <td className="text-left p-1 flex items-center space-x-2">
+                            {enhanced && (
+                              <img
+                                src={teamInfoMap[team.team]?.logo}
+                                alt={team.team}
+                                className="w-5 h-5"
+                              />
+                            )}
+                            <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
+                              {useFullName ? teamMap[team.team] || team.team : team.team}
+                            </Link>
                           </td>
-                          <td className="border border-gray-300 px-2 py-1 text-right">
-                            {last10}
-                          </td>
-                        </>
-                      )}
-                    }
+                          <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
+                          <td className="border border-gray-300 px-2 py-1 text-right">{team.L}</td>
+                          <td className="border border-gray-300 px-2 py-1 text-right">{team["W-L%"]}</td>
+                          <td className="border border-gray-300 px-2 py-1 text-right">{team.GB !== undefined ? team.GB : ""}</td>
+                            {enhanced && (
+                              <>
+                            <td className={`border border-gray-300 px-2 py-1 text-right ${streakClass}`}>
+                              {streak}
+                            </td>
+                            <td className="border border-gray-300 px-2 py-1 text-right">
+                              {last10}
+                            </td>
+                          </>
+                        )}
+                      </tr>
+                    )
                   })}
                 </tbody>
               </table>
