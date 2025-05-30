@@ -34,7 +34,7 @@ export default function StandingsPage({ standings, teams }) {
                   teams={teams}
                   useFullName={true}
                   hideLeagueHeaders={true}
-                  enhance={true}
+                  enhanced={true}
                 />
               </div>
             ))}
