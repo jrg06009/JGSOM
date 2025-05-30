@@ -94,9 +94,8 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                               </td>
                             </>
                           )}                          
-                        </tr>
-                      })}
-                </tbody>
+                  })}
+              </tbody>
               </table>
             </div>
           ))}
