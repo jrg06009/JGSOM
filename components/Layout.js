@@ -12,7 +12,7 @@ const divisions = {
     { name: 'Toronto Blue Jays', abbr: 'TOR' },
   ],
   'AL Central': [
-    { name: 'Chicago White Sox', abbr: 'CWS' },
+    { name: 'Chicago White Sox', abbr: 'CHW' },
     { name: 'Cleveland Indians', abbr: 'CLE' },
     { name: 'Detroit Tigers', abbr: 'DET' },
     { name: 'Kansas City Royals', abbr: 'KCR' },
