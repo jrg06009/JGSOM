@@ -32,6 +32,7 @@ export default function StandingsPage({ standings, teams }) {
                 <StandingsTable
                   standings={{ [league]: { [division]: teamsData } }}
                   teams={teams}
+                  schedule={schedule}
                   useFullName={true}
                   hideLeagueHeaders={true}
                   enhanced={true}
