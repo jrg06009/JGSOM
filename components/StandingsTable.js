@@ -50,7 +50,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                 </thead>
                 <tbody>
                   {divisionTeams.map((team) => {
-                    const extras = teamExtras[team.id] || {}
+                    const extras = teamExtras[team.team] || {}
                     const streak = extras.streak || '—'
                     const last10 = extras.last10 || '—'
                     const streakClass =
