@@ -42,7 +42,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       {enhanced && (
                         <td
                           className="w-2 h-5"
-                          style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee',
+                          style={{ backgroundColor: teamInfoMap[team.team]?.color || 'red',
                                     minWidth: '8px'
                                 }}
                         ></td>
