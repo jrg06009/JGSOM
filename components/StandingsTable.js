@@ -1,14 +1,20 @@
 import Link from 'next/link'
+import { getTeamResults, calculateStreakAndLast10 } from '../lib/teamStreakUtils'
 
-export default function StandingsTable({ standings, teams, useFullName = false, hideLeagueHeaders = false, enhanced = false }) {
+export default function StandingsTable({ standings, teams, schedule = [], useFullName = false, hideLeagueHeaders = false, enhanced = false }) {
   // Create a lookup for team ID to team name
   const teamMap = {}
   const teamInfoMap = {}
+  const teamExtras = {}
   if (Array.isArray(teams)) teams.forEach(team => {
     teamMap[team.id] = team.name
     teamInfoMap[team.id] = {
       logo: team.logo || `/logos/${team.id}.png`,
       color: team.color || '#ccc'
+    }
+    if (enhanced) {
+      const results = getTeamResults(schedule, team.id)
+      teamExtras[team.id] = calculateStreakAndLast10(results)
     }
   })
 
@@ -34,10 +40,25 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                     <th className="border border-gray-400 px-2 py-1 text-right">L</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">W-L%</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">GB</th>
+                    {enhanced && (
+                      <>
+                        <th className="border border-gray-400 px-2 py-1 text-right">Streak</th>
+                        <th className="border border-gray-400 px-2 py-1 text-right">Last 10</th>
+                      </>
+                    )}
                   </tr>
                 </thead>
                 <tbody>
                   {divisionTeams.map((team) => (
+                    const extras = teamExtras[team.team] || {}
+                    const streak = extras.streak || '—'
+                    const last10 = extras.last10 || '—'
+                    const streakClass =
+                      streak.startsWith('W') ? 'text-green-600 font-semibold' :
+                      streak.startsWith('L') ? 'text-red-600 font-semibold' :
+                      ''
+
+                    return (                 
                     <tr key={team.team} className="border-t border-gray-300">
                       {enhanced && (
                         <td
@@ -63,6 +84,16 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       <td className="border border-gray-300 px-2 py-1 text-right">{team.L}</td>
                       <td className="border border-gray-300 px-2 py-1 text-right">{team["W-L%"]}</td>
                       <td className="border border-gray-300 px-2 py-1 text-right">{team.GB !== undefined ? team.GB : ""}</td>
+                      {enhanced && (
+                        <>
+                          <td className={`border border-gray-300 px-2 py-1 text-right ${streakClass}`}>
+                            {streak}
+                          </td>
+                          <td className="border border-gray-300 px-2 py-1 text-right">
+                            {last10}
+                          </td>
+                        </>
+                      )}                          
                     </tr>
                   ))}
                 </tbody>
