@@ -7,7 +7,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
   if (Array.isArray(teams)) teams.forEach(team => {
     teamMap[team.id] = team.name
     teamInfoMap[team.id] = {
-      logo: team.logo || `/logos/${team.team}.png`,
+      logo: team.logo || `/logos/${team.id}.png`,
       color: team.color || '#ccc'
     }
   })
@@ -48,13 +48,13 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       <td className="text-left p-1 flex items-center space-x-2">
                         {enhanced && (
                           <img
-                            src={teamInfoMap[team.team]?.logo}
-                            alt={team.team}
+                            src={teamInfoMap[team.id]?.logo}
+                            alt={team.id}
                             className="w-5 h-5"
                           />
                         )}
-                        <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
-                          {useFullName ? teamMap[team.team] || team.team : team.team}
+                        <Link href={`/teams/${team.id}`} className="text-blue-600 underline">
+                          {useFullName ? teamMap[team.id] || team.id : team.id}
                         </Link>
                       </td>
                       <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
