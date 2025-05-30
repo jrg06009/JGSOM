@@ -49,7 +49,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                   </tr>
                 </thead>
                 <tbody>
-                  {divisionTeams.map((team) => (
+                  {divisionTeams.map((team) => {
                     const extras = teamExtras[team.team] || {}
                     const streak = extras.streak || '—'
                     const last10 = extras.last10 || '—'
@@ -95,7 +95,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                         </>
                       )}                          
                     </tr>
-                  ))}
+                  })}
                 </tbody>
               </table>
             </div>
