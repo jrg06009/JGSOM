@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import StandingsTable from '../components/StandingsTable'
 import teams from '../data/teams.json'
+import schedule from '../data/stats/schedule.json'
 
 export async function getStaticProps() {
   const dataPath = path.join(process.cwd(), 'data', 'stats', 'standings.json')
@@ -11,12 +12,13 @@ export async function getStaticProps() {
   return {
     props: {
       standings,
-      teams
+      teams,
+      schedule
     }
   }
 }
 
-export default function StandingsPage({ standings, teams }) {
+export default function StandingsPage({ standings, teams, schedule }) {
   return (
     <div className="p-4">
       <h1 className="text-3xl font-bold mb-4">1999 Full Season Standings</h1>
