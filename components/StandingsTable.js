@@ -42,19 +42,19 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                       {enhanced && (
                         <td
                           className="w-1"
-                          style={{ backgroundColor: teamInfoMap[team.id]?.color || '#eee' }}
+                          style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee' }}
                         ></td>
                       )}
                       <td className="text-left p-1 flex items-center space-x-2">
                         {enhanced && (
                           <img
-                            src={teamInfoMap[team.id]?.logo}
-                            alt={team.id}
+                            src={teamInfoMap[team.team]?.logo}
+                            alt={team.team}
                             className="w-5 h-5"
                           />
                         )}
-                        <Link href={`/teams/${team.id}`} className="text-blue-600 underline">
-                          {useFullName ? teamMap[team.id] || team.id : team.id}
+                        <Link href={`/teams/${team.team}`} className="text-blue-600 underline">
+                          {useFullName ? teamMap[team.team] || team.team : team.team}
                         </Link>
                       </td>
                       <td className="border border-gray-300 px-2 py-1 text-right">{team.W}</td>
