@@ -3,8 +3,8 @@
     "date": "1999-04-06 00:00:00",
     "home": "FLA",
     "away": "NYM",
-    "home_score": "13.0",
-    "away_score": "2.0"
+    "home_score": "2",
+    "away_score": "13"
   },
   "batting": {
     "NYM": {
@@ -478,8 +478,8 @@
         "3"
       ],
       "Matt Franco": [
-        "3",
-        "PR"
+        "PR",
+        "3"
       ],
       "Mike Piazza": [
         "2"
@@ -497,8 +497,8 @@
         "5"
       ],
       "Luis Lopez": [
-        "PH",
-        "5"
+        "5",
+        "PH"
       ],
       "Brian McRae": [
         "8"

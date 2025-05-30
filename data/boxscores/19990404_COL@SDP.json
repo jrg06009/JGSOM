@@ -3,8 +3,8 @@
     "date": "1999-04-04 00:00:00",
     "home": "SDP",
     "away": "COL",
-    "home_score": "5.0",
-    "away_score": "2.0"
+    "home_score": "5",
+    "away_score": "2"
   },
   "batting": {
     "COL": {

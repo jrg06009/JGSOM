@@ -3,8 +3,8 @@
     "date": "1999-04-08 00:00:00",
     "home": "STL",
     "away": "MIL",
-    "home_score": "4.0",
-    "away_score": "5.0"
+    "home_score": "4",
+    "away_score": "5"
   },
   "batting": {
     "MIL": {

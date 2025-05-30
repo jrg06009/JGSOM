@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "date": "1999-04-06 00:00:00",
+    "home": "ANA",
+    "away": "CLE",
+    "home_score": "4",
+    "away_score": "9"
+  },
+  "batting": {
+    "CLE": {
+      "Kenny Lofton": {
+        "Player": "Kenny Lofton",
+        "Player ID": "loftoke01",
+        "AB": 5,
+        "H": 1,
+        "RBI": 2,
+        "PO": 3
+      },
+      "Omar Vizquel": {
+        "Player": "Omar Vizquel",
+        "Player ID": "vizquom01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "BB": 1,
+        "SB": 1,
+        "PO": 1,
+        "A": 5
+      },
+      "Roberto Alomar": {
+        "Player": "Roberto Alomar",
+        "Player ID": "alomaro01",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "A": 2
+      },
+      "Jim Thome": {
+        "Player": "Jim Thome",
+        "Player ID": "thomeji01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "IBB": 1,
+        "SO": 1,
+        "PO": 10,
+        "A": 1
+      },
+      "Manny Ramirez": {
+        "Player": "Manny Ramirez",
+        "Player ID": "ramirma02",
+        "AB": 4,
+        "H": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 2,
+        "PO": 5
+      },
+      "David Justice": {
+        "Player": "David Justice",
+        "Player ID": "justida01",
+        "AB": 5,
+        "SO": 2,
+        "GDP": 1
+      },
+      "Travis Fryman": {
+        "Player": "Travis Fryman",
+        "Player ID": "frymatr01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Wil Cordero": {
+        "Player": "Wil Cordero",
+        "Player ID": "cordewi01",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1
+      },
+      "Sandy Alomar": {
+        "Player": "Sandy Alomar",
+        "Player ID": "alomasa02",
+        "AB": 4,
+        "R": 1,
+        "PO": 7
+      }
+    },
+    "ANA": {
+      "Darin Erstad": {
+        "Player": "Darin Erstad",
+        "Player ID": "erstada01",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Randy Velarde": {
+        "Player": "Randy Velarde",
+        "Player ID": "velarra01",
+        "AB": 3,
+        "BB": 2,
+        "PO": 3,
+        "A": 6,
+        "DP": 1
+      },
+      "Mo Vaughn": {
+        "Player": "Mo Vaughn",
+        "Player ID": "vaughmo01",
+        "AB": 5,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 12,
+        "A": 1,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Tim Salmon": {
+        "Player": "Tim Salmon",
+        "Player ID": "salmoti01",
+        "AB": 3,
+        "R": 1,
+        "BB": 2,
+        "SO": 1
+      },
+      "Garret Anderson": {
+        "Player": "Garret Anderson",
+        "Player ID": "anderga01",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Todd Greene": {
+        "Player": "Todd Greene",
+        "Player ID": "greento02",
+        "AB": 5,
+        "BB": 2,
+        "SO": 2
+      },
+      "Troy Glaus": {
+        "Player": "Troy Glaus",
+        "Player ID": "glaustr01",
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 2,
+        "A": 4
+      },
+      "Matt Walbeck": {
+        "Player": "Matt Walbeck",
+        "Player ID": "walbema01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "PO": 5,
+        "PB": 1,
+        "SB against": 1
+      },
+      "Andy Sheets": {
+        "Player": "Andy Sheets",
+        "Player ID": "sheetan01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 2,
+        "A": 1,
+        "DP": 1
+      }
+    }
+  },
+  "pitching": {
+    "CLE": {
+      "Jaret Wright": {
+        "Player": "Jaret Wright",
+        "Player ID": "wrighja02",
+        "IP": "4.1",
+        "H allowed": 5,
+        "R against": 4,
+        "ER": 4,
+        "BB against": 6,
+        "SO against": 2
+      },
+      "Steve Karsay": {
+        "Player": "Steve Karsay",
+        "Player ID": "karsast01",
+        "W": 1,
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Paul Shuey": {
+        "Player": "Paul Shuey",
+        "Player ID": "shueypa01",
+        "IP": "1.0",
+        "BB against": 2,
+        "SO against": 1,
+        "A": 1
+      },
+      "Ricardo Rincon": {
+        "Player": "Ricardo Rincon",
+        "Player ID": "rincori01",
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1
+      },
+      "Steve Reed": {
+        "Player": "Steve Reed",
+        "Player ID": "reedst01",
+        "SV": 1,
+        "IP": "1.1",
+        "SO against": 2
+      }
+    },
+    "ANA": {
+      "Tim Belcher": {
+        "Player": "Tim Belcher",
+        "Player ID": "belchti01",
+        "L": 1,
+        "IP": "5.1",
+        "H allowed": 9,
+        "R against": 6,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "PO": 1
+      },
+      "Scott Schoeneweis": {
+        "Player": "Scott Schoeneweis",
+        "Player ID": "schoesc01",
+        "IP": "1.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Al Levine": {
+        "Player": "Al Levine",
+        "Player ID": "levinal01",
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 3,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "SO against": 1,
+        "WP": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CLE": [
+      [
+        1,
+        "Kenny Lofton"
+      ],
+      [
+        2,
+        "Omar Vizquel"
+      ],
+      [
+        3,
+        "Roberto Alomar"
+      ],
+      [
+        4,
+        "Jim Thome"
+      ],
+      [
+        5,
+        "Manny Ramirez"
+      ],
+      [
+        6,
+        "David Justice"
+      ],
+      [
+        7,
+        "Travis Fryman"
+      ],
+      [
+        8,
+        "Wil Cordero"
+      ],
+      [
+        9,
+        "Sandy Alomar"
+      ]
+    ],
+    "ANA": [
+      [
+        1,
+        "Darin Erstad"
+      ],
+      [
+        2,
+        "Randy Velarde"
+      ],
+      [
+        3,
+        "Mo Vaughn"
+      ],
+      [
+        4,
+        "Tim Salmon"
+      ],
+      [
+        5,
+        "Garret Anderson"
+      ],
+      [
+        6,
+        "Todd Greene"
+      ],
+      [
+        7,
+        "Troy Glaus"
+      ],
+      [
+        8,
+        "Matt Walbeck"
+      ],
+      [
+        9,
+        "Andy Sheets"
+      ]
+    ]
+  },
+  "positions": {
+    "CLE": {
+      "Kenny Lofton": [
+        "8"
+      ],
+      "Omar Vizquel": [
+        "6"
+      ],
+      "Roberto Alomar": [
+        "4"
+      ],
+      "Jim Thome": [
+        "3"
+      ],
+      "Manny Ramirez": [
+        "9"
+      ],
+      "David Justice": [
+        "7"
+      ],
+      "Travis Fryman": [
+        "5"
+      ],
+      "Sandy Alomar": [
+        "2"
+      ],
+      "Jaret Wright": [
+        "1"
+      ],
+      "Steve Karsay": [
+        "1"
+      ],
+      "Paul Shuey": [
+        "1"
+      ],
+      "Ricardo Rincon": [
+        "1"
+      ],
+      "Steve Reed": [
+        "1"
+      ]
+    },
+    "ANA": {
+      "Darin Erstad": [
+        "7"
+      ],
+      "Randy Velarde": [
+        "4"
+      ],
+      "Mo Vaughn": [
+        "3"
+      ],
+      "Tim Salmon": [
+        "9"
+      ],
+      "Garret Anderson": [
+        "8"
+      ],
+      "Troy Glaus": [
+        "5"
+      ],
+      "Matt Walbeck": [
+        "2"
+      ],
+      "Andy Sheets": [
+        "6"
+      ],
+      "Tim Belcher": [
+        "1"
+      ],
+      "Scott Schoeneweis": [
+        "1"
+      ],
+      "Al Levine": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CLE": {
+      "Kenny Lofton": 1,
+      "Omar Vizquel": 1,
+      "Roberto Alomar": 1,
+      "Jim Thome": 1,
+      "Manny Ramirez": 1,
+      "David Justice": 1,
+      "Travis Fryman": 1,
+      "Wil Cordero": 1,
+      "Sandy Alomar": 1,
+      "Jaret Wright": 1
+    },
+    "ANA": {
+      "Darin Erstad": 1,
+      "Randy Velarde": 1,
+      "Mo Vaughn": 1,
+      "Tim Salmon": 1,
+      "Garret Anderson": 1,
+      "Todd Greene": 1,
+      "Troy Glaus": 1,
+      "Matt Walbeck": 1,
+      "Andy Sheets": 1,
+      "Tim Belcher": 1
+    }
+  }
+}

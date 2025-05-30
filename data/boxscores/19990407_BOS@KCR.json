@@ -3,8 +3,8 @@
     "date": "1999-04-07 00:00:00",
     "home": "KCR",
     "away": "BOS",
-    "home_score": "4.0",
-    "away_score": "3.0"
+    "home_score": "4",
+    "away_score": "3"
   },
   "batting": {
     "BOS": {
@@ -408,9 +408,9 @@
         "PH"
       ],
       "Donnie Sadler": [
-        "8",
         "9",
-        "PR"
+        "PR",
+        "8"
       ],
       "John Valentin": [
         "5"

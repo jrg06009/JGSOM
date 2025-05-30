@@ -3,8 +3,8 @@
     "date": "1999-04-07 00:00:00",
     "home": "PIT",
     "away": "MON",
-    "home_score": "5.0",
-    "away_score": "4.0"
+    "home_score": "5",
+    "away_score": "4"
   },
   "batting": {
     "MON": {
@@ -583,8 +583,8 @@
         "3"
       ],
       "Michael Barrett": [
-        "2",
-        "5"
+        "5",
+        "2"
       ],
       "Manny Martinez": [
         "8"

@@ -3,8 +3,8 @@
     "date": "1999-04-07 00:00:00",
     "home": "FLA",
     "away": "NYM",
-    "home_score": "3.0",
-    "away_score": "6.0"
+    "home_score": "6",
+    "away_score": "3"
   },
   "batting": {
     "NYM": {
@@ -489,8 +489,8 @@
         "8"
       ],
       "Preston Wilson": [
-        "7",
-        "9"
+        "9",
+        "7"
       ],
       "Kevin Orie": [
         "5"
