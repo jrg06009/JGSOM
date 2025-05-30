@@ -28,7 +28,7 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
               <table className="w-full border-collapse border border-gray-400 mt-1">
                 <thead>
                   <tr className="bg-gray-200">
-                    {enhanced && <th className="w-1"></th>}
+                    {enhanced && <th className="w-2"></th>}
                     <th className="border border-gray-400 px-2 py-1 text-left">Team</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">W</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">L</th>
@@ -41,8 +41,10 @@ export default function StandingsTable({ standings, teams, useFullName = false, 
                     <tr key={team.team} className="border-t border-gray-300">
                       {enhanced && (
                         <td
-                          className="w-1"
-                          style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee' }}
+                          className="w-2 h-5"
+                          style={{ backgroundColor: teamInfoMap[team.team]?.color || '#eee',
+                                    minWidth: '8px'
+                                }}
                         ></td>
                       )}
                       <td className="text-left p-1 flex items-center space-x-2">
