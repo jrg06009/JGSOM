@@ -29,7 +29,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
           )}
 
           {Object.entries(divisions).map(([division, divisionTeams]) => (
-            <div key={division} className="w-full sm:w-[300px] mb-4">
+            <div key={division} className="w-full min-w-[360px] mb-4">
               <h3 className="text-lg font-semibold mt-2">{division}</h3>
               <table className="w-full border-collapse border border-gray-400 mt-1">
                 <thead>
@@ -50,7 +50,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                 </thead>
                 <tbody>
                   {divisionTeams.map((team) => {
-                    const extras = teamExtras[team.team] || {}
+                    const extras = teamExtras[team.id] || {}
                     const streak = extras.streak || '—'
                     const last10 = extras.last10 || '—'
                     const streakClass =
