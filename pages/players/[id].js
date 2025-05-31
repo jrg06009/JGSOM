@@ -78,9 +78,10 @@ export default function PlayerPage() {
   const name = bat[0]?.Player || pit[0]?.Player || fld[0]?.Player || fldPos[0]?.Player
   if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
+  const playerPhotoData = playerPhotos[id] || {}
   const lastTeam = bat.at(-1)?.team || pit.at(-1)?.team || fld.at(-1)?.team
-  const photoUrl = playerPhotos[id]?.[lastTeam]
-  const otherPhotos = playerPhotos[id]
+  const photoUrl = playerPhotoData?.[lastTeam] || null
+  const otherPhotos = playerPhotoData
 
   const posMap = pos => positionMap[pos] || pos
   const posSorted = fldPos.sort((a, b) => parseInt(a.POS) - parseInt(b.POS))
