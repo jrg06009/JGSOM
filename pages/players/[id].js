@@ -3,6 +3,7 @@ import batting from '../../data/stats/batting.json'
 import pitching from '../../data/stats/pitching.json'
 import fielding from '../../data/stats/fielding.json'
 import fieldingByPosition from '../../data/stats/fielding_by_position.json'
+import playerPhotos from '../../data/player_photos.json'
 import Link from 'next/link'
 
 const positionMap = {
@@ -77,6 +78,10 @@ export default function PlayerPage() {
   const name = bat[0]?.Player || pit[0]?.Player || fld[0]?.Player || fldPos[0]?.Player
   if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
+  const lastTeam = bat.at(-1)?.team || pit.at(-1)?.team || fld.at(-1)?.team
+  const photoUrl = playerPhotos[id]?.[lastTeam]
+  const otherPhotos = playerPhotos[id]
+
   const posMap = pos => positionMap[pos] || pos
   const posSorted = fldPos.sort((a, b) => parseInt(a.POS) - parseInt(b.POS))
 
@@ -92,6 +97,29 @@ export default function PlayerPage() {
   
   return (
     <div className="p-4">
+      {photoUrl && (
+        <div className="mb-4 relative group w-24 h-24">
+          <img
+            src={photoUrl}
+            alt={`${name} (${lastTeam})`}
+            className="rounded shadow w-full h-full object-cover"
+          />
+          {Object.keys(otherPhotos).length > 1 && (
+            <div className="absolute hidden group-hover:flex flex-wrap gap-1 top-full mt-2 z-10 bg-white border p-2 shadow-lg">
+              {Object.entries(otherPhotos).map(([team, url]) => (
+                team !== lastTeam && (
+                  <img
+                    key={team}
+                    src={url}
+                    alt={`${name} (${team})`}
+                    className="w-16 h-16 object-cover rounded border"
+                  />
+                )
+              ))}
+            </div>
+          )}
+        </div>
+      )}
       <h1 className="text-2xl font-bold mb-4">{name}</h1>
       <div className="mb-4 space-x-4">
         {bat.length > 0 && (
