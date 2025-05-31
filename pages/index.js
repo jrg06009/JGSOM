@@ -5,6 +5,7 @@ import { useState } from 'react'
 import StandingsTable from '../components/StandingsTable'
 import { getQualificationThresholds } from '../components/getQualificationThresholds'
 import { getTeamToLeagueMap } from '../lib/teamUtils'
+import playerPhotos from '../data/player_photos.json'
 
 function safeLoad(filePath) {
   try {
@@ -106,9 +107,18 @@ function getLeaders(data, key, top = 5) {
 }
 
 function LeaderList({ title, players, statKey }) {
+  const topPlayer = players[0]
+  const photoUrl = playerPhotos[topPlayer?.id]?.[topPlayer?.team]
   return (
     <div className="border rounded-xl p-3 bg-white shadow w-fit">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
+      {photoUrl && (
+        <img
+          src={photoUrl}
+          alt={topPlayer.Player}
+          className="w-20 h-20 object-cover rounded-full mx-auto mb-2"
+        />
+      )}
       <table className="text-sm">
         <tbody>
           {players.map((p, i) => (
