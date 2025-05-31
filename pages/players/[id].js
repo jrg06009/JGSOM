@@ -101,7 +101,7 @@ export default function PlayerPage() {
     <div className="p-4">
       <div className="mb-6 flex items-center gap-4">    
         {photoUrl && (
-          <div className="mb-4 relative group w-36 h-36 flex-shrink-0"">
+          <div className="mb-4 relative group w-36 h-36 flex-shrink-0">
             <img
               src={photoUrl}
               alt={`${name} (${lastTeam})`}
@@ -165,6 +165,5 @@ export default function PlayerPage() {
           return renderTable(`Fielding-${position}`, positionData, allCols);
        })}
      </div>
-   </>  
   );
 }
