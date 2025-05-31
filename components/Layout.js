@@ -182,12 +182,6 @@ export default function Layout({ children }) {
                 </ul>
               )}
             </div>
-            <button
-              onClick={() => setIsDark(!isDark)}
-              className="ml-4 px-2 py-1 border rounded text-sm"
-            >
-              {isDark ? "Light Mode" : "Dark Mode"}
-            </button>
           </nav>
         </div>
       </header>
