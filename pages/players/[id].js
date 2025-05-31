@@ -101,11 +101,11 @@ export default function PlayerPage() {
     <div className="p-4">
       <div className="mb-6 flex items-center gap-4">    
         {photoUrl && (
-          <div className="mb-4 relative group w-36 h-36 flex-shrink-0">
+          <div className="mb-4 relative group w-48 h-64 flex-shrink-0">
             <img
               src={photoUrl}
               alt={`${name} (${lastTeam})`}
-              className="rounded shadow w-full h-full object-cover"
+              className="rounded shadow w-full h-full object-contain"
             />
             {Object.keys(otherPhotos).length > 1 && (
               <div className="absolute hidden group-hover:flex flex-wrap gap-1 top-full mt-2 z-10 bg-white border p-2 shadow-lg">
