@@ -79,10 +79,9 @@ export default function PlayerPage() {
   const name = bat[0]?.Player || pit[0]?.Player || fld[0]?.Player || fldPos[0]?.Player
   if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
-  const playerPhotoData = playerPhotos[id] || {}
-  const playerGames = battingLog.filter(g => g["Player ID"] === id)
-  const lastTeam = playerGames.at(-1)?.Team || bat.find(p => p.team !== 'TOT')?.team
-  const photoUrl = playerPhotoData?.[lastTeam] || null
+  const playerPhotoData = playerPhotos[id] || []
+  const lastTeam = bat.at(-1)?.team || pit.at(-1)?.team || fld.at(-1)?.team
+  const photoUrl = playerPhotoData.find(p => p.team === lastTeam)?.url || null
   const otherPhotos = playerPhotoData
 
   const posMap = pos => positionMap[pos] || pos
