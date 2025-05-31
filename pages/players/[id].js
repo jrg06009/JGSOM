@@ -97,10 +97,11 @@ export default function PlayerPage() {
     acc[position].push(current);
     return acc;
   }, {});
-  <pre className="text-xs bg-gray-100 p-2 border rounded mb-4 overflow-x-auto">
-  {JSON.stringify({ id, name, lastTeam, photoUrl, playerPhotoData }, null, 2)}
-  </pre>
+
   return (
+    <pre className="text-xs bg-gray-100 p-2 border rounded mb-4 overflow-x-auto">
+      {JSON.stringify({ id, name, lastTeam, photoUrl, playerPhotoData }, null, 2)}
+    </pre>
     <div className="p-4">
       {photoUrl && (
         <div className="mb-4 relative group w-24 h-24">
