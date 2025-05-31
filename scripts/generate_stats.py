@@ -112,8 +112,9 @@ def group_stats(gamelog_df):
         bb = stats.get("BB", 0)
         hbp = stats.get("HBP", 0)
         sf = stats.get("SF", 0)
+        sh = stats.get("SH", 0)
         tb = h + stats.get("2B", 0) + 2 * stats.get("3B", 0) + 3 * stats.get("HR", 0)
-        pa = ab + bb + hbp + sf
+        pa = ab + bb + hbp + sf + sh
 
         avg = round(h / ab, 3) if ab else 0
         obp = round((h + bb + hbp) / pa, 3) if pa else 0
@@ -143,7 +144,7 @@ def group_stats(gamelog_df):
             "TB": tb,
             "GDP": stats.get("GDP", 0),
             "HBP": hbp,
-            "SH": stats.get("SH", 0),
+            "SH": sh,
             "SF": sf,
             "IBB": stats.get("IBB", 0),
             "Player ID": pid
