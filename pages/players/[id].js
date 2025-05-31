@@ -4,6 +4,7 @@ import pitching from '../../data/stats/pitching.json'
 import fielding from '../../data/stats/fielding.json'
 import fieldingByPosition from '../../data/stats/fielding_by_position.json'
 import playerPhotos from '../../data/player_photos.json'
+import battingLog from '../../data/stats/batting_log.json'
 import Link from 'next/link'
 
 const positionMap = {
@@ -79,7 +80,8 @@ export default function PlayerPage() {
   if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
   const playerPhotoData = playerPhotos[id] || {}
-  const lastTeam = bat.at(-1)?.team || pit.at(-1)?.team || fld.at(-1)?.team
+  const playerGames = battingLog.filter(g => g["Player ID"] === id)
+  const lastTeam = playerGames.at(-1)?.Team || bat.find(p => p.team !== 'TOT')?.team
   const photoUrl = playerPhotoData?.[lastTeam] || null
   const otherPhotos = playerPhotoData
 
