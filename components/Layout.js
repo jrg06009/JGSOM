@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState, useEffect, useRef } from 'react'
 import playersData from '../data/stats/players_index.json'
+import DarkModeToggle from './DarkModeToggle'
 
 const divisions = {
   'AL East': [
@@ -54,6 +55,7 @@ export default function Layout({ children }) {
   const [query, setQuery] = useState("")
   const [filtered, setFiltered] = useState([])
   const [activeIndex, setActiveIndex] = useState(-1)
+  const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
     if (query.length === 0) {
@@ -72,6 +74,10 @@ export default function Layout({ children }) {
       setActiveIndex(-1)
     }
   }, [query])
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", isDark)
+  }, [isDark])
 
   const handleSelect = (id) => {
     setQuery("")
@@ -176,6 +182,12 @@ export default function Layout({ children }) {
                 </ul>
               )}
             </div>
+            <button
+              onClick={() => setIsDark(!isDark)}
+              className="ml-4 px-2 py-1 border rounded text-sm"
+            >
+              {isDark ? "Light Mode" : "Dark Mode"}
+            </button>
           </nav>
         </div>
       </header>
