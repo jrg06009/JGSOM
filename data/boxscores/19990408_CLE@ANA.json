@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "date": "1999-04-08 00:00:00",
+    "home": "ANA",
+    "away": "CLE",
+    "home_score": "1",
+    "away_score": "4"
+  },
+  "batting": {
+    "CLE": {
+      "Kenny Lofton": {
+        "Player": "Kenny Lofton",
+        "Player ID": "loftoke01",
+        "AB": 3,
+        "BB": 1,
+        "HBP": 1,
+        "PO": 5
+      },
+      "Omar Vizquel": {
+        "Player": "Omar Vizquel",
+        "Player ID": "vizquom01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SO": 2,
+        "SB": 2,
+        "GDP": 1,
+        "PO": 1,
+        "A": 4
+      },
+      "Roberto Alomar": {
+        "Player": "Roberto Alomar",
+        "Player ID": "alomaro01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Manny Ramirez": {
+        "Player": "Manny Ramirez",
+        "Player ID": "ramirma02",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Jim Thome": {
+        "Player": "Jim Thome",
+        "Player ID": "thomeji01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 10,
+        "A": 1
+      },
+      "Wil Cordero": {
+        "Player": "Wil Cordero",
+        "Player ID": "cordewi01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Travis Fryman": {
+        "Player": "Travis Fryman",
+        "Player ID": "frymatr01",
+        "AB": 4,
+        "PO": 1,
+        "A": 1
+      },
+      "Richie Sexson": {
+        "Player": "Richie Sexson",
+        "Player ID": "sexsori01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1
+      },
+      "Sandy Alomar": {
+        "Player": "Sandy Alomar",
+        "Player ID": "alomasa02",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 5
+      }
+    },
+    "ANA": {
+      "Orlando Palmeiro": {
+        "Player": "Orlando Palmeiro",
+        "Player ID": "palmeor01",
+        "AB": 2,
+        "BB": 1,
+        "PO": 2
+      },
+      "Tim Unroe": {
+        "Player": "Tim Unroe",
+        "Player ID": "unroeti01",
+        "AB": 1
+      },
+      "Randy Velarde": {
+        "Player": "Randy Velarde",
+        "Player ID": "velarra01",
+        "AB": 4,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Darin Erstad": {
+        "Player": "Darin Erstad",
+        "Player ID": "erstada01",
+        "AB": 4,
+        "H": 1,
+        "PO": 9,
+        "DP": 1
+      },
+      "Tim Salmon": {
+        "Player": "Tim Salmon",
+        "Player ID": "salmoti01",
+        "AB": 4,
+        "PO": 2
+      },
+      "Garret Anderson": {
+        "Player": "Garret Anderson",
+        "Player ID": "anderga01",
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Todd Greene": {
+        "Player": "Todd Greene",
+        "Player ID": "greento02",
+        "AB": 4
+      },
+      "Troy Glaus": {
+        "Player": "Troy Glaus",
+        "Player ID": "glaustr01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "SO": 2,
+        "PO": 4
+      },
+      "Charlie O'Brien": {
+        "Player": "Charlie O'Brien",
+        "Player ID": "o'brich01",
+        "AB": 3,
+        "H": 2,
+        "PO": 6,
+        "PB": 2
+      },
+      "Andy Sheets": {
+        "Player": "Andy Sheets",
+        "Player ID": "sheetan01",
+        "AB": 3,
+        "RBI": 1,
+        "PO": 2,
+        "A": 6,
+        "DP": 1
+      }
+    }
+  },
+  "pitching": {
+    "CLE": {
+      "Bartolo Colon": {
+        "Player": "Bartolo Colon",
+        "Player ID": "colonba01",
+        "W": 1,
+        "IP": "7.1",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 4,
+        "PO": 1
+      },
+      "Paul Assenmacher": {
+        "Player": "Paul Assenmacher",
+        "Player ID": "assenpa01",
+        "IP": "0.2"
+      },
+      "Mike Jackson": {
+        "Player": "Mike Jackson",
+        "Player ID": "jacksmi02",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "A": 1
+      }
+    },
+    "ANA": {
+      "Steve Sparks": {
+        "Player": "Steve Sparks",
+        "Player ID": "sparkst01",
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 3,
+        "SO against": 2,
+        "A": 1,
+        "SB against": 1
+      },
+      "Mike Holtz": {
+        "Player": "Mike Holtz",
+        "Player ID": "holtzmi01",
+        "IP": "1.0"
+      },
+      "Mike Magnante": {
+        "Player": "Mike Magnante",
+        "Player ID": "magnami01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      },
+      "Troy Percival": {
+        "Player": "Troy Percival",
+        "Player ID": "percitr01",
+        "IP": "1.0",
+        "SO against": 3,
+        "HBP against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CLE": [
+      [
+        1,
+        "Kenny Lofton"
+      ],
+      [
+        2,
+        "Omar Vizquel"
+      ],
+      [
+        3,
+        "Roberto Alomar"
+      ],
+      [
+        4,
+        "Manny Ramirez"
+      ],
+      [
+        5,
+        "Jim Thome"
+      ],
+      [
+        6,
+        "Wil Cordero"
+      ],
+      [
+        7,
+        "Travis Fryman"
+      ],
+      [
+        8,
+        "Richie Sexson"
+      ],
+      [
+        9,
+        "Sandy Alomar"
+      ]
+    ],
+    "ANA": [
+      [
+        1,
+        "Orlando Palmeiro"
+      ],
+      [
+        1,
+        "Tim Unroe"
+      ],
+      [
+        1,
+        "Tim Unroe"
+      ],
+      [
+        2,
+        "Randy Velarde"
+      ],
+      [
+        3,
+        "Darin Erstad"
+      ],
+      [
+        4,
+        "Tim Salmon"
+      ],
+      [
+        5,
+        "Garret Anderson"
+      ],
+      [
+        6,
+        "Todd Greene"
+      ],
+      [
+        7,
+        "Troy Glaus"
+      ],
+      [
+        8,
+        "Charlie O'Brien"
+      ],
+      [
+        9,
+        "Andy Sheets"
+      ]
+    ]
+  },
+  "positions": {
+    "CLE": {
+      "Kenny Lofton": [
+        "8"
+      ],
+      "Omar Vizquel": [
+        "6"
+      ],
+      "Roberto Alomar": [
+        "4"
+      ],
+      "Manny Ramirez": [
+        "9"
+      ],
+      "Jim Thome": [
+        "3"
+      ],
+      "Wil Cordero": [
+        "7"
+      ],
+      "Travis Fryman": [
+        "5"
+      ],
+      "Sandy Alomar": [
+        "2"
+      ],
+      "Bartolo Colon": [
+        "1"
+      ],
+      "Paul Assenmacher": [
+        "1"
+      ],
+      "Mike Jackson": [
+        "1"
+      ]
+    },
+    "ANA": {
+      "Orlando Palmeiro": [
+        "7"
+      ],
+      "Tim Unroe": [
+        "7",
+        "PH"
+      ],
+      "Randy Velarde": [
+        "4"
+      ],
+      "Darin Erstad": [
+        "3"
+      ],
+      "Tim Salmon": [
+        "9"
+      ],
+      "Garret Anderson": [
+        "8"
+      ],
+      "Troy Glaus": [
+        "5"
+      ],
+      "Charlie O'Brien": [
+        "2"
+      ],
+      "Andy Sheets": [
+        "6"
+      ],
+      "Steve Sparks": [
+        "1"
+      ],
+      "Mike Holtz": [
+        "1"
+      ],
+      "Mike Magnante": [
+        "1"
+      ],
+      "Troy Percival": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CLE": {
+      "Kenny Lofton": 1,
+      "Omar Vizquel": 1,
+      "Roberto Alomar": 1,
+      "Manny Ramirez": 1,
+      "Jim Thome": 1,
+      "Wil Cordero": 1,
+      "Travis Fryman": 1,
+      "Richie Sexson": 1,
+      "Sandy Alomar": 1,
+      "Bartolo Colon": 1
+    },
+    "ANA": {
+      "Orlando Palmeiro": 1,
+      "Randy Velarde": 1,
+      "Darin Erstad": 1,
+      "Tim Salmon": 1,
+      "Garret Anderson": 1,
+      "Todd Greene": 1,
+      "Troy Glaus": 1,
+      "Charlie O'Brien": 1,
+      "Andy Sheets": 1,
+      "Steve Sparks": 1
+    }
+  }
+}

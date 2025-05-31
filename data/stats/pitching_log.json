@@ -3404,5 +3404,85 @@
     "R against": 1,
     "ER": 1,
     "SO against": 1
+  },
+  {
+    "Player": "Bartolo Colon",
+    "Player ID": "colonba01",
+    "Team": "CLE",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 7.333333333333333,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 4,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1,
+    "SO against": 4
+  },
+  {
+    "Player": "Paul Assenmacher",
+    "Player ID": "assenpa01",
+    "Team": "CLE",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 0.6666666666666665
+  },
+  {
+    "Player": "Mike Jackson",
+    "Player ID": "jacksmi02",
+    "Team": "CLE",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 1
+  },
+  {
+    "Player": "Steve Sparks",
+    "Player ID": "sparkst01",
+    "Team": "ANA",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 5.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 5,
+    "R against": 2,
+    "ER": 2,
+    "BB against": 3,
+    "SO against": 2
+  },
+  {
+    "Player": "Mike Holtz",
+    "Player ID": "holtzmi01",
+    "Team": "ANA",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 1.0
+  },
+  {
+    "Player": "Mike Magnante",
+    "Player ID": "magnami01",
+    "Team": "ANA",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 2.0,
+    "H allowed": 2,
+    "R against": 2,
+    "ER": 2,
+    "HR allowed": 2,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Troy Percival",
+    "Player ID": "percitr01",
+    "Team": "ANA",
+    "Game#": 41,
+    "Game ID": "19990408_CLE@ANA",
+    "IP": 1.0,
+    "SO against": 3,
+    "HBP against": 1
   }
 ]
