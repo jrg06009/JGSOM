@@ -99,74 +99,76 @@ export default function PlayerPage() {
   }, {});
 
   return (
-    <pre className="text-xs bg-gray-100 p-2 border rounded mb-4 overflow-x-auto">
-      {JSON.stringify({ id, name, lastTeam, photoUrl, playerPhotoData }, null, 2)}
-    </pre>
-    <div className="p-4">
-      {photoUrl && (
-        <div className="mb-4 relative group w-24 h-24">
-          <img
-            src={photoUrl}
-            alt={`${name} (${lastTeam})`}
-            className="rounded shadow w-full h-full object-cover"
-          />
-          {Object.keys(otherPhotos).length > 1 && (
-            <div className="absolute hidden group-hover:flex flex-wrap gap-1 top-full mt-2 z-10 bg-white border p-2 shadow-lg">
-              {Object.entries(otherPhotos).map(([team, url]) => (
-                team !== lastTeam && (
-                  <img
-                    key={team}
-                    src={url}
-                    alt={`${name} (${team})`}
-                    className="w-16 h-16 object-cover rounded border"
-                  />
-                )
-              ))}
-            </div>
+    <>
+      <pre className="text-xs bg-gray-100 p-2 border rounded mb-4 overflow-x-auto">
+        {JSON.stringify({ id, name, lastTeam, photoUrl, playerPhotoData }, null, 2)}
+      </pre>
+      <div className="p-4">
+        {photoUrl && (
+          <div className="mb-4 relative group w-24 h-24">
+            <img
+              src={photoUrl}
+              alt={`${name} (${lastTeam})`}
+              className="rounded shadow w-full h-full object-cover"
+            />
+            {Object.keys(otherPhotos).length > 1 && (
+              <div className="absolute hidden group-hover:flex flex-wrap gap-1 top-full mt-2 z-10 bg-white border p-2 shadow-lg">
+                {Object.entries(otherPhotos).map(([team, url]) => (
+                  team !== lastTeam && (
+                    <img
+                      key={team}
+                      src={url}
+                      alt={`${name} (${team})`}
+                      className="w-16 h-16 object-cover rounded border"
+                    />
+                  )
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+        <h1 className="text-2xl font-bold mb-4">{name}</h1>
+        <div className="mb-4 space-x-4">
+          {bat.length > 0 && (
+            <Link href={`/players/${id}/gamelog`}>
+              <a className="text-blue-600 underline hover:text-blue-800">View Batting Game Log</a>
+            </Link>
+          )}
+          {pit.length > 0 && (
+            <Link href={`/players/${id}/PitchingGameLog`}>
+              <a className="text-blue-600 underline hover:text-blue-800">View Pitching Game Log</a>
+            </Link>
           )}
         </div>
-      )}
-      <h1 className="text-2xl font-bold mb-4">{name}</h1>
-      <div className="mb-4 space-x-4">
-        {bat.length > 0 && (
-          <Link href={`/players/${id}/gamelog`}>
-            <a className="text-blue-600 underline hover:text-blue-800">View Batting Game Log</a>
-          </Link>
-        )}
-        {pit.length > 0 && (
-          <Link href={`/players/${id}/PitchingGameLog`}>
-            <a className="text-blue-600 underline hover:text-blue-800">View Pitching Game Log</a>
-          </Link>
-        )}
+        {bat.length > 0 && renderTable("Batting", bat, [
+          'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
+        ])}
+        {pit.length > 0 && renderTable("Pitching", pit, [
+          'team','W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
+        ], {
+          'ERA': formatRate, 'W-L%': formatPct, 'H9': formatRate, 'HR9': formatRate, 'BB9': formatRate, 'SO9': formatRate, 'SO/BB': formatRate
+        })}
+        {fld.length > 0 && renderTable("Fielding Totals", fld, [
+          'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','SB','CS','CS%','PkO'
+        ])}
+        {/* Render a table for each position */}
+        {Object.keys(groupedByPosition).map(position => {
+          const positionData = groupedByPosition[position];
+          if (positionData.length === 0) return null;
+
+          const baseCols = ['team', 'G', 'GS', 'CG', 'Inn', 'Ch', 'PO', 'A', 'E', 'DP', 'Fld%'];
+          const colsForCatchers = ['PB', 'SB', 'CS', 'CS%'];
+          const colsForPitchers = ['SB', 'CS', 'CS%', 'PkO'];
+  
+          let extraCols = [];
+          if (position === 'C') extraCols = colsForCatchers;
+          else if (position === 'P') extraCols = colsForPitchers;
+
+          const allCols = [...baseCols, ...extraCols];
+
+          return renderTable(`Fielding-${position}`, positionData, allCols);
+        })}
       </div>
-      {bat.length > 0 && renderTable("Batting", bat, [
-        'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
-      ])}
-      {pit.length > 0 && renderTable("Pitching", pit, [
-        'team','W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
-      ], {
-        'ERA': formatRate, 'W-L%': formatPct, 'H9': formatRate, 'HR9': formatRate, 'BB9': formatRate, 'SO9': formatRate, 'SO/BB': formatRate
-      })}
-      {fld.length > 0 && renderTable("Fielding Totals", fld, [
-        'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','SB','CS','CS%','PkO'
-      ])}
-      {/* Render a table for each position */}
-      {Object.keys(groupedByPosition).map(position => {
-        const positionData = groupedByPosition[position];
-        if (positionData.length === 0) return null;
-
-        const baseCols = ['team', 'G', 'GS', 'CG', 'Inn', 'Ch', 'PO', 'A', 'E', 'DP', 'Fld%'];
-        const colsForCatchers = ['PB', 'SB', 'CS', 'CS%'];
-        const colsForPitchers = ['SB', 'CS', 'CS%', 'PkO'];
-
-        let extraCols = [];
-        if (position === 'C') extraCols = colsForCatchers;
-        else if (position === 'P') extraCols = colsForPitchers;
-
-        const allCols = [...baseCols, ...extraCols];
-
-        return renderTable(`Fielding-${position}`, positionData, allCols);
-      })}
-    </div>
-  );
+    </>  
+);
 }
