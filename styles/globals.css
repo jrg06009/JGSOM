@@ -2,3 +2,7 @@
 body.dark {
   @apply bg-gray-900 text-white;
 }
+html.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
