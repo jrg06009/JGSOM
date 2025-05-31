@@ -80,10 +80,8 @@ export default function PlayerPage() {
   if (!name) return <div className="p-4 text-red-600">Player not found.</div>
 
   const playerPhotoData = playerPhotos[id] || {}
-  console.log("Photo data for player:", id, playerPhotos[id]);
   const playerGames = battingLog.filter(g => g["Player ID"] === id)
   const lastTeam = playerGames.at(-1)?.Team || bat.find(p => p.team !== 'TOT')?.team
-  console.log("Last team:", lastTeam, "Photo URL:", playerPhotoData?.[lastTeam]);
   const photoUrl = playerPhotoData?.[lastTeam] || null
   const otherPhotos = playerPhotoData
 
@@ -99,7 +97,9 @@ export default function PlayerPage() {
     acc[position].push(current);
     return acc;
   }, {});
-  
+  <pre className="text-xs bg-gray-100 p-2 border rounded mb-4 overflow-x-auto">
+  {JSON.stringify({ id, name, lastTeam, photoUrl, playerPhotoData }, null, 2)}
+  </pre>
   return (
     <div className="p-4">
       {photoUrl && (
