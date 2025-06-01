@@ -111,6 +111,7 @@ function LeaderList({ title, players, statKey }) {
   const playerID = topPlayer?.id?.toLowerCase()
   const teamAbbr = topPlayer?.team?.toUpperCase()
   const photoData = playerPhotos[playerID]
+  const photoUrl = photoData?.[teamAbbr] || null  
   console.log("id:", topPlayer?.id)
   console.log("team:", topPlayer?.team)
   console.log("photoData:", photoData)
