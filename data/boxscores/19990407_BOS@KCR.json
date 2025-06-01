@@ -401,6 +401,9 @@
   },
   "positions": {
     "BOS": {
+      "Jose Offerman": [
+        "DH"
+      ],
       "Darren Lewis": [
         "9"
       ],
@@ -408,9 +411,9 @@
         "PH"
       ],
       "Donnie Sadler": [
-        "9",
         "8",
-        "PR"
+        "PR",
+        "9"
       ],
       "John Valentin": [
         "5"
@@ -465,6 +468,9 @@
       ],
       "Jeff King": [
         "3"
+      ],
+      "Larry Sutton": [
+        "DH"
       ],
       "Scott Leius": [
         "PH"
