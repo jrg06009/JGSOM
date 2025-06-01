@@ -109,7 +109,7 @@ function getLeaders(data, key, top = 5) {
 function LeaderList({ title, players, statKey }) {
   const topPlayer = players[0]
   const photoUrl = playerPhotos[topPlayer?.id]?.[topPlayer?.team]
-  console.log("Top Player:", topPlayer)
+  console.log("Looking for photo:", playerPhotos[topPlayer?.id]?.[topPlayer?.team])
   return (
     <div className="border rounded-xl p-3 bg-white shadow w-fit">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
