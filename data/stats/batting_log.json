@@ -10731,5 +10731,298 @@
     "GS": 1,
     "AB": 3,
     "RBI": 1
+  },
+  {
+    "Player": "Lance Johnson",
+    "Player ID": "johnsla03",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 5,
+    "H": 1
+  },
+  {
+    "Player": "Mickey Morandini",
+    "Player ID": "moranmi01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "H": 1
+  },
+  {
+    "Player": "Manny Alexander",
+    "Player ID": "alexama02",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "AB": 1
+  },
+  {
+    "Player": "Sammy Sosa",
+    "Player ID": "sosasa01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 2,
+    "SO": 1
+  },
+  {
+    "Player": "Mark Grace",
+    "Player ID": "gracema01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 3,
+    "GDP": 1
+  },
+  {
+    "Player": "Henry Rodriguez",
+    "Player ID": "rodrihe02",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Benito Santiago",
+    "Player ID": "santibe01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1,
+    "3B": 1,
+    "RBI": 2,
+    "SO": 2
+  },
+  {
+    "Player": "Jose Hernandez",
+    "Player ID": "hernajo01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "H": 3,
+    "RBI": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Gary Gaetti",
+    "Player ID": "gaettga01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "H": 1,
+    "2B": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Steve Trachsel",
+    "Player ID": "trachst01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 1
+  },
+  {
+    "Player": "Curtis Goodwin",
+    "Player ID": "goodwcu01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "AB": 1
+  },
+  {
+    "Player": "Matt Karchner",
+    "Player ID": "karchma01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Glenallen Hill",
+    "Player ID": "hillgl01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "AB": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Kurt Miller",
+    "Player ID": "milleku01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Jeff Blauser",
+    "Player ID": "blausje01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "AB": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Craig Biggio",
+    "Player ID": "biggicr01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 3,
+    "BB": 1
+  },
+  {
+    "Player": "Derek Bell",
+    "Player ID": "bellde01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Scott Elarton",
+    "Player ID": "elartsc01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Billy Wagner",
+    "Player ID": "wagnebi02",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Jeff Bagwell",
+    "Player ID": "bagweje01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 2,
+    "R": 1,
+    "BB": 2,
+    "CS": 1
+  },
+  {
+    "Player": "Ken Caminiti",
+    "Player ID": "caminke01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1
+  },
+  {
+    "Player": "Carl Everett",
+    "Player ID": "evereca01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 4,
+    "SO": 2
+  },
+  {
+    "Player": "Richard Hidalgo",
+    "Player ID": "hidalri01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 3,
+    "H": 1
+  },
+  {
+    "Player": "Tony Eusebio",
+    "Player ID": "eusebto01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "RBI": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Ricky Gutierrez",
+    "Player ID": "gutieri01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "H": 3,
+    "2B": 1,
+    "3B": 1,
+    "RBI": 2
+  },
+  {
+    "Player": "Shane Reynolds",
+    "Player ID": "reynosh01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "GS": 1,
+    "AB": 2,
+    "SO": 1
+  },
+  {
+    "Player": "Jay Powell",
+    "Player ID": "powelja04",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Jack Howell",
+    "Player ID": "howelja02",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "AB": 1,
+    "H": 1,
+    "RBI": 1
+  },
+  {
+    "Player": "Glen Barker",
+    "Player ID": "barkegl01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
+  },
+  {
+    "Player": "Glen Barker",
+    "Player ID": "barkegl01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU"
   }
 ]

@@ -159,7 +159,7 @@
         "AB": 3,
         "H": 2,
         "PO": 6,
-        "PB": 2
+        "SB against": 2
       },
       "Andy Sheets": {
         "Player": "Andy Sheets",
@@ -370,8 +370,8 @@
         "7"
       ],
       "Tim Unroe": [
-        "PH",
-        "7"
+        "7",
+        "PH"
       ],
       "Randy Velarde": [
         "4"

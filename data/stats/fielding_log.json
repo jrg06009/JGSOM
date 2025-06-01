@@ -10197,7 +10197,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 3
   },
   {
@@ -10208,7 +10208,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 5
   },
@@ -10220,7 +10220,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "A": 2
   },
   {
@@ -10231,7 +10231,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 10,
     "A": 1
   },
@@ -10243,7 +10243,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 5
   },
   {
@@ -10254,7 +10254,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0
+    "INN": 9.000000000000004
   },
   {
     "Player": "Travis Fryman",
@@ -10264,7 +10264,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 1
   },
@@ -10276,7 +10276,7 @@
     "Game ID": "19990406_CLE@ANA",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 7
   },
   {
@@ -10315,7 +10315,7 @@
     "Game#": 14,
     "Game ID": "19990406_CLE@ANA",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Steve Reed",
@@ -10461,7 +10461,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 3
   },
   {
@@ -10472,7 +10472,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 3,
     "A": 4,
     "ERR": 1,
@@ -10486,7 +10486,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 5,
     "A": 4,
     "DP": 3
@@ -10499,7 +10499,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0
+    "INN": 9.000000000000004
   },
   {
     "Player": "Jim Thome",
@@ -10509,7 +10509,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 6,
     "A": 1,
     "DP": 3
@@ -10522,7 +10522,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 3
   },
   {
@@ -10533,7 +10533,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 1,
     "ERR": 1
@@ -10546,7 +10546,7 @@
     "Game ID": "19990407_CLE@ANA",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 5,
     "SB against": 2
   },
@@ -10569,7 +10569,7 @@
     "Game#": 27,
     "Game ID": "19990407_CLE@ANA",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Mike Jackson",
@@ -10915,7 +10915,7 @@
     "GS": 1,
     "INN": 9.0,
     "PO": 6,
-    "PB": 2
+    "SB against": 2
   },
   {
     "Player": "Andy Sheets",
@@ -10969,5 +10969,269 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "1",
     "INN": 1.0
+  },
+  {
+    "Player": "Lance Johnson",
+    "Player ID": "johnsla03",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "8",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 3
+  },
+  {
+    "Player": "Mickey Morandini",
+    "Player ID": "moranmi01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "4",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1,
+    "A": 2
+  },
+  {
+    "Player": "Sammy Sosa",
+    "Player ID": "sosasa01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "9",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1
+  },
+  {
+    "Player": "Mark Grace",
+    "Player ID": "gracema01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "3",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 7
+  },
+  {
+    "Player": "Henry Rodriguez",
+    "Player ID": "rodrihe02",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "7",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 3
+  },
+  {
+    "Player": "Benito Santiago",
+    "Player ID": "santibe01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "2",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 6,
+    "A": 1,
+    "CS against": 1
+  },
+  {
+    "Player": "Jose Hernandez",
+    "Player ID": "hernajo01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "6",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2,
+    "A": 3
+  },
+  {
+    "Player": "Gary Gaetti",
+    "Player ID": "gaettga01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "5",
+    "GS": 1,
+    "INN": 8.0,
+    "A": 2
+  },
+  {
+    "Player": "Steve Trachsel",
+    "Player ID": "trachst01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "GS": 1,
+    "INN": 5.0,
+    "PO": 1,
+    "CS against": 1
+  },
+  {
+    "Player": "Matt Karchner",
+    "Player ID": "karchma01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "Kurt Miller",
+    "Player ID": "milleku01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "INN": 2.0
+  },
+  {
+    "Player": "Craig Biggio",
+    "Player ID": "biggicr01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "4",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 1,
+    "A": 4,
+    "DP": 1
+  },
+  {
+    "Player": "Derek Bell",
+    "Player ID": "bellde01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "9",
+    "GS": 1,
+    "INN": 7.0,
+    "PO": 3
+  },
+  {
+    "Player": "Scott Elarton",
+    "Player ID": "elartsc01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "INN": 0.33333333333333326
+  },
+  {
+    "Player": "Billy Wagner",
+    "Player ID": "wagnebi02",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "INN": 1.6666666666666665
+  },
+  {
+    "Player": "Jeff Bagwell",
+    "Player ID": "bagweje01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "3",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 8,
+    "DP": 1
+  },
+  {
+    "Player": "Ken Caminiti",
+    "Player ID": "caminke01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "5",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 1,
+    "A": 1
+  },
+  {
+    "Player": "Carl Everett",
+    "Player ID": "evereca01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "8",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 2
+  },
+  {
+    "Player": "Richard Hidalgo",
+    "Player ID": "hidalri01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "7",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 1
+  },
+  {
+    "Player": "Tony Eusebio",
+    "Player ID": "eusebto01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "2",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 9
+  },
+  {
+    "Player": "Ricky Gutierrez",
+    "Player ID": "gutieri01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "6",
+    "GS": 1,
+    "INN": 8.999999999999998,
+    "PO": 1,
+    "A": 3,
+    "DP": 1
+  },
+  {
+    "Player": "Shane Reynolds",
+    "Player ID": "reynosh01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "GS": 1,
+    "INN": 6.333333333333333,
+    "A": 1
+  },
+  {
+    "Player": "Jay Powell",
+    "Player ID": "powelja04",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "1",
+    "INN": 0.6666666666666665
+  },
+  {
+    "Player": "Glen Barker",
+    "Player ID": "barkegl01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "POS": "9",
+    "INN": 2.0,
+    "PO": 1
   }
 ]

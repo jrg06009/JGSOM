@@ -3273,7 +3273,7 @@
     "Team": "CLE",
     "Game#": 14,
     "Game ID": "19990406_CLE@ANA",
-    "IP": 0.6666666666666665,
+    "IP": 0.6666666666666701,
     "H allowed": 1,
     "BB against": 1
   },
@@ -3350,7 +3350,7 @@
     "Team": "CLE",
     "Game#": 27,
     "Game ID": "19990407_CLE@ANA",
-    "IP": 0.6666666666666665,
+    "IP": 0.6666666666666701,
     "BB against": 1,
     "SO against": 1
   },
@@ -3484,5 +3484,85 @@
     "IP": 1.0,
     "SO against": 3,
     "HBP against": 1
+  },
+  {
+    "Player": "Steve Trachsel",
+    "Player ID": "trachst01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 5.0,
+    "GS": 1,
+    "H allowed": 4,
+    "R against": 3,
+    "ER": 3,
+    "BB against": 3,
+    "SO against": 4
+  },
+  {
+    "Player": "Matt Karchner",
+    "Player ID": "karchma01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 1.0
+  },
+  {
+    "Player": "Kurt Miller",
+    "Player ID": "milleku01",
+    "Team": "CHC",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 2.0,
+    "L": 1,
+    "H allowed": 2,
+    "R against": 1,
+    "ER": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Scott Elarton",
+    "Player ID": "elartsc01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 0.33333333333333326,
+    "H allowed": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Billy Wagner",
+    "Player ID": "wagnebi02",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 1.6666666666666665,
+    "SV": 1,
+    "H allowed": 2,
+    "SO against": 3
+  },
+  {
+    "Player": "Shane Reynolds",
+    "Player ID": "reynosh01",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 6.333333333333333,
+    "GS": 1,
+    "H allowed": 5,
+    "R against": 3,
+    "ER": 3,
+    "SO against": 4
+  },
+  {
+    "Player": "Jay Powell",
+    "Player ID": "powelja04",
+    "Team": "HOU",
+    "Game#": 21,
+    "Game ID": "19990406_CHC@HOU",
+    "IP": 0.6666666666666665,
+    "W": 1,
+    "H allowed": 2,
+    "SO against": 1
   }
 ]
