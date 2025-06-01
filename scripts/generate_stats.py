@@ -396,7 +396,7 @@ def generate_boxscores(gamelog_df, schedule_df):
         gs = safe_int(row.get("GS"))
         pos = str(row.get("POS")) if not pd.isna(row.get("POS")) else ""
 
-        if pos and pos != 'DH':
+        if pos:
             boxscores[game_id]["positions"][team][player].add(pos)
 
         if bop > 0:
@@ -424,6 +424,9 @@ def generate_boxscores(gamelog_df, schedule_df):
                     if "Player" not in boxscores[game_id]["pitching"][team][player]:
                         boxscores[game_id]["pitching"][team][player]["Player"] = player
                         boxscores[game_id]["pitching"][team][player]["Player ID"] = pid
+                    pit_num = row.get("Pit #")
+                    if pd.notna(pit_num):
+                        boxscores[game_id]["pitching"][team][player]["Pit #"] = int(pit_num)
                     if stat not in boxscores[game_id]["pitching"][team][player]:
                         boxscores[game_id]["pitching"][team][player][stat] = 0
                     if stat == "IP":
@@ -446,6 +449,13 @@ if __name__ == "__main__":
     fielding_stats = group_fielding_stats(gamelog_df)
     boxscores = generate_boxscores(gamelog_df, schedule_df)
     os.makedirs("data/boxscores", exist_ok=True)
+    for game_id, game_data in boxscores.items():
+        for team, pitchers in game_data["pitching"].items():
+            entries = list(pitchers.items())
+            if all("Pit #" in p and p["Pit #"] != "" for _, p in entries):
+                # Sort by Pit #
+                sorted_entries = sorted(entries, key=lambda x: int(x[1]["Pit #"]))
+                boxscores[game_id]["pitching"][team] = {k: v for k, v in sorted_entries}
     for gid, raw_data in boxscores.items():
         cleaned = convert_sets_to_lists(raw_data)
         with open(os.path.join("data/boxscores", f"{gid}.json"), "w") as f:
