@@ -110,7 +110,7 @@ function LeaderList({ title, players, statKey }) {
   const topPlayer = players[0]
   const playerID = topPlayer?.id?.toLowerCase()
   const teamAbbr = topPlayer?.team?.toUpperCase()
-  const photoEntry = playerPhotos[playerID]?.photoData?.find(p => p.team === teamAbbr)
+  const photoEntry = playerPhotos[playerID]?.find(p => p.team === teamAbbr)
   const photoUrl = photoEntry?.url || null
   return (
     <div className="border rounded-xl p-3 bg-white shadow w-fit">
