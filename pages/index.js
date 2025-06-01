@@ -111,11 +111,6 @@ function LeaderList({ title, players, statKey }) {
   const playerID = topPlayer?.id?.toLowerCase()
   const teamAbbr = topPlayer?.team?.toUpperCase()
   const photoUrl = playerPhotos[playerID]?.[teamAbbr] || null
-
-  console.log("ID:", playerID)
-  console.log("Team:", teamAbbr)
-  console.log("Photo Entry:", photoEntry)
-  console.log("Photo URL:", photoUrl)
   return (
     <div className="border rounded-xl p-3 bg-white shadow w-fit">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
