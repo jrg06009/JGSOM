@@ -111,10 +111,8 @@ function LeaderList({ title, players, statKey }) {
   const playerID = topPlayer?.id?.toLowerCase()
   const teamAbbr = topPlayer?.team?.toUpperCase()
   const photoData = playerPhotos[playerID]
-  const photoUrl = photoData?.[teamAbbr] || null  
-  console.log("id:", topPlayer?.id)
-  console.log("team:", topPlayer?.team)
-  console.log("photoData:", photoData)
+  const photoEntry = playerPhotos[playerID]?.photoData?.find(p => p.team === teamAbbr)
+  const photoUrl = photoEntry?.url || null
   return (
     <div className="border rounded-xl p-3 bg-white shadow w-fit">
       <h3 className="font-bold mb-2 text-lg">{title}</h3>
