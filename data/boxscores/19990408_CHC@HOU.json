@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "date": "1999-04-08 00:00:00",
+    "home": "HOU",
+    "away": "CHC",
+    "home_score": "4",
+    "away_score": "3"
+  },
+  "batting": {
+    "CHC": {
+      "Lance Johnson": {
+        "Player": "Lance Johnson",
+        "Player ID": "johnsla03",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "2B": 1,
+        "PO": 3,
+        "ERR": 1
+      },
+      "Mickey Morandini": {
+        "Player": "Mickey Morandini",
+        "Player ID": "moranmi01",
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Sammy Sosa": {
+        "Player": "Sammy Sosa",
+        "Player ID": "sosasa01",
+        "AB": 2,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "SF": 1,
+        "PO": 3
+      },
+      "Mark Grace": {
+        "Player": "Mark Grace",
+        "Player ID": "gracema01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 4,
+        "A": 2,
+        "DP": 1
+      },
+      "Henry Rodriguez": {
+        "Player": "Henry Rodriguez",
+        "Player ID": "rodrihe02",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1
+      },
+      "Benito Santiago": {
+        "Player": "Benito Santiago",
+        "Player ID": "santibe01",
+        "AB": 4,
+        "SO": 2,
+        "PO": 11,
+        "A": 1,
+        "SB against": 1
+      },
+      "Jose Hernandez": {
+        "Player": "Jose Hernandez",
+        "Player ID": "hernajo01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Gary Gaetti": {
+        "Player": "Gary Gaetti",
+        "Player ID": "gaettga01",
+        "AB": 4,
+        "A": 1
+      },
+      "Jon Lieber": {
+        "Player": "Jon Lieber",
+        "Player ID": "liebejo01",
+        "AB": 2,
+        "IP": "6.0",
+        "H allowed": 7,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 8,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Glenallen Hill": {
+        "Player": "Glenallen Hill",
+        "Player ID": "hillgl01",
+        "AB": 1
+      },
+      "Felix Heredia": {
+        "Player": "Felix Heredia",
+        "Player ID": "heredfe01",
+        "IP": "1.1",
+        "SO against": 2
+      },
+      "Kurt Miller": {
+        "Player": "Kurt Miller",
+        "Player ID": "milleku01",
+        "IP": "0.2",
+        "H allowed": 1,
+        "R against": 2,
+        "ER": 1,
+        "BB against": 1
+      },
+      "Jeff Blauser": {
+        "Player": "Jeff Blauser",
+        "Player ID": "blausje01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "L": 1,
+        "IP": "0.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "CS against": 1
+      }
+    },
+    "HOU": {
+      "Craig Biggio": {
+        "Player": "Craig Biggio",
+        "Player ID": "biggicr01",
+        "AB": 4,
+        "BB": 1,
+        "IBB": 1,
+        "SO": 1,
+        "CS": 1,
+        "PO": 3,
+        "A": 6
+      },
+      "Bill Spiers": {
+        "Player": "Bill Spiers",
+        "Player ID": "spierbi01",
+        "AB": 4,
+        "H": 1,
+        "SO": 3,
+        "PO": 1
+      },
+      "Glen Barker": {
+        "Player": "Glen Barker",
+        "Player ID": "barkegl01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Jeff Bagwell": {
+        "Player": "Jeff Bagwell",
+        "Player ID": "bagweje01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 15
+      },
+      "Ken Caminiti": {
+        "Player": "Ken Caminiti",
+        "Player ID": "caminke01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "A": 3
+      },
+      "Carl Everett": {
+        "Player": "Carl Everett",
+        "Player ID": "evereca01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SF": 1
+      },
+      "Richard Hidalgo": {
+        "Player": "Richard Hidalgo",
+        "Player ID": "hidalri01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Mitch Meluskey": {
+        "Player": "Mitch Meluskey",
+        "Player ID": "melusmi01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 5
+      },
+      "Ricky Gutierrez": {
+        "Player": "Ricky Gutierrez",
+        "Player ID": "gutieri01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "SO": 2,
+        "PO": 1,
+        "A": 3
+      },
+      "Jose Lima": {
+        "Player": "Jose Lima",
+        "Player ID": "limajo01",
+        "AB": 1,
+        "H": 1,
+        "SH": 1,
+        "IP": "7.0",
+        "H allowed": 7,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 2,
+        "SO against": 1,
+        "WP": 2,
+        "A": 1,
+        "Pko": 1
+      },
+      "Derek Bell": {
+        "Player": "Derek Bell",
+        "Player ID": "bellde01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Jay Powell": {
+        "Player": "Jay Powell",
+        "Player ID": "powelja04",
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Billy Wagner": {
+        "Player": "Billy Wagner",
+        "Player ID": "wagnebi02",
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 2,
+        "A": 1
+      },
+      "Alex Diaz": {
+        "Player": "Alex Diaz",
+        "Player ID": "diazal01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "CHC": {
+      "Jon Lieber": {
+        "Player": "Jon Lieber",
+        "Player ID": "liebejo01",
+        "Pit #": 1,
+        "AB": 2,
+        "IP": "6.0",
+        "H allowed": 7,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 8,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Felix Heredia": {
+        "Player": "Felix Heredia",
+        "Player ID": "heredfe01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "SO against": 2
+      },
+      "Kurt Miller": {
+        "Player": "Kurt Miller",
+        "Player ID": "milleku01",
+        "Pit #": 3,
+        "IP": "0.2",
+        "H allowed": 1,
+        "R against": 2,
+        "ER": 1,
+        "BB against": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "Pit #": 4,
+        "L": 1,
+        "IP": "0.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "CS against": 1
+      }
+    },
+    "HOU": {
+      "Jose Lima": {
+        "Player": "Jose Lima",
+        "Player ID": "limajo01",
+        "Pit #": 1,
+        "AB": 1,
+        "H": 1,
+        "SH": 1,
+        "IP": "7.0",
+        "H allowed": 7,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 2,
+        "SO against": 1,
+        "WP": 2,
+        "A": 1,
+        "Pko": 1
+      },
+      "Jay Powell": {
+        "Player": "Jay Powell",
+        "Player ID": "powelja04",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Billy Wagner": {
+        "Player": "Billy Wagner",
+        "Player ID": "wagnebi02",
+        "Pit #": 3,
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 2,
+        "A": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CHC": [
+      [
+        1,
+        "Lance Johnson"
+      ],
+      [
+        2,
+        "Mickey Morandini"
+      ],
+      [
+        3,
+        "Sammy Sosa"
+      ],
+      [
+        4,
+        "Mark Grace"
+      ],
+      [
+        5,
+        "Henry Rodriguez"
+      ],
+      [
+        5,
+        "Curtis Goodwin"
+      ],
+      [
+        5,
+        "Curtis Goodwin"
+      ],
+      [
+        6,
+        "Benito Santiago"
+      ],
+      [
+        7,
+        "Jose Hernandez"
+      ],
+      [
+        8,
+        "Gary Gaetti"
+      ],
+      [
+        9,
+        "Jon Lieber"
+      ],
+      [
+        9,
+        "Glenallen Hill"
+      ],
+      [
+        9,
+        "Felix Heredia"
+      ],
+      [
+        9,
+        "Kurt Miller"
+      ],
+      [
+        9,
+        "Jeff Blauser"
+      ],
+      [
+        9,
+        "Dan Serafini"
+      ]
+    ],
+    "HOU": [
+      [
+        1,
+        "Craig Biggio"
+      ],
+      [
+        2,
+        "Bill Spiers"
+      ],
+      [
+        2,
+        "Glen Barker"
+      ],
+      [
+        3,
+        "Jeff Bagwell"
+      ],
+      [
+        4,
+        "Ken Caminiti"
+      ],
+      [
+        5,
+        "Carl Everett"
+      ],
+      [
+        6,
+        "Richard Hidalgo"
+      ],
+      [
+        7,
+        "Mitch Meluskey"
+      ],
+      [
+        8,
+        "Ricky Gutierrez"
+      ],
+      [
+        9,
+        "Jose Lima"
+      ],
+      [
+        9,
+        "Derek Bell"
+      ],
+      [
+        9,
+        "Jay Powell"
+      ],
+      [
+        9,
+        "Billy Wagner"
+      ],
+      [
+        9,
+        "Alex Diaz"
+      ]
+    ]
+  },
+  "positions": {
+    "CHC": {
+      "Lance Johnson": [
+        "8"
+      ],
+      "Mickey Morandini": [
+        "4"
+      ],
+      "Sammy Sosa": [
+        "9"
+      ],
+      "Mark Grace": [
+        "3"
+      ],
+      "Henry Rodriguez": [
+        "7"
+      ],
+      "Curtis Goodwin": [
+        "7",
+        "PR"
+      ],
+      "Benito Santiago": [
+        "2"
+      ],
+      "Jose Hernandez": [
+        "6"
+      ],
+      "Gary Gaetti": [
+        "5"
+      ],
+      "Jon Lieber": [
+        "1"
+      ],
+      "Glenallen Hill": [
+        "PH"
+      ],
+      "Felix Heredia": [
+        "1"
+      ],
+      "Kurt Miller": [
+        "1"
+      ],
+      "Jeff Blauser": [
+        "PH"
+      ],
+      "Dan Serafini": [
+        "1"
+      ]
+    },
+    "HOU": {
+      "Craig Biggio": [
+        "4"
+      ],
+      "Bill Spiers": [
+        "7"
+      ],
+      "Glen Barker": [
+        "PH"
+      ],
+      "Jeff Bagwell": [
+        "3"
+      ],
+      "Ken Caminiti": [
+        "5"
+      ],
+      "Carl Everett": [
+        "8"
+      ],
+      "Richard Hidalgo": [
+        "9"
+      ],
+      "Mitch Meluskey": [
+        "2"
+      ],
+      "Ricky Gutierrez": [
+        "6"
+      ],
+      "Jose Lima": [
+        "1"
+      ],
+      "Derek Bell": [
+        "PH"
+      ],
+      "Jay Powell": [
+        "1"
+      ],
+      "Billy Wagner": [
+        "1"
+      ],
+      "Alex Diaz": [
+        "PH"
+      ]
+    }
+  },
+  "games_started": {
+    "CHC": {
+      "Lance Johnson": 1,
+      "Mickey Morandini": 1,
+      "Sammy Sosa": 1,
+      "Mark Grace": 1,
+      "Henry Rodriguez": 1,
+      "Benito Santiago": 1,
+      "Jose Hernandez": 1,
+      "Gary Gaetti": 1,
+      "Jon Lieber": 1
+    },
+    "HOU": {
+      "Craig Biggio": 1,
+      "Bill Spiers": 1,
+      "Jeff Bagwell": 1,
+      "Ken Caminiti": 1,
+      "Carl Everett": 1,
+      "Richard Hidalgo": 1,
+      "Mitch Meluskey": 1,
+      "Ricky Gutierrez": 1,
+      "Jose Lima": 1
+    }
+  }
+}
