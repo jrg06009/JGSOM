@@ -7,8 +7,8 @@ import path from 'path'
 
 // Convert YYYY-MM-DD to "Monday, April 5th"
 function formatPrettyDate(dateStr) {
-  const date = new Date(dateStr)
-  const day = date.getDate()
+  const [year, month, day] = dateStr.split('-').map(Number)
+  const date = new Date(year, month - 1, day)  // ← forces local time handling
   const suffix = [11, 12, 13].includes(day) ? 'th' : ['st', 'nd', 'rd'][day % 10 - 1] || 'th'
   return date.toLocaleDateString('en-US', {
     weekday: 'long',
