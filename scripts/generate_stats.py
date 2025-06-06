@@ -404,6 +404,12 @@ def generate_boxscores(gamelog_df, schedule_df):
         if gs:
             boxscores[game_id]["games_started"][team][player] += gs
 
+        if bop > 0 and "Player" not in boxscores[game_id]["batting"][team][player]:
+            boxscores[game_id]["batting"][team][player]["Player"] = player
+            boxscores[game_id]["batting"][team][player]["Player ID"] = pid
+        if pos == '1' and "Player" not in boxscores[game_id]["pitching"][team][player]:
+            boxscores[game_id]["pitching"][team][player]["Player"] = player
+            boxscores[game_id]["pitching"][team][player]["Player ID"] = pid
         for stat in stat_list:
             val = row.get(stat, 0)
             if pd.notna(val):
