@@ -97,6 +97,43 @@ export default function PlayerPage() {
     return acc;
   }, {});
 
+  // Appearances summary: G, GS, and games at each role/position
+const appearances = {}
+const allPositions = ['P','C','1B','2B','3B','SS','LF','CF','RF','DH','PH','PR']
+
+// Build summary from battingLog + fieldingByPosition
+battingLog
+  .filter(p => p['Player ID'] === id)
+  .forEach(p => {
+    const team = p.Team
+    if (!appearances[team]) {
+      appearances[team] = { team, G: 0, GS: 0 }
+      allPositions.forEach(pos => appearances[team][pos] = 0)
+    }
+    appearances[team].G += 1
+    appearances[team].GS += p.GS || 0
+    const pos = p.POS?.toUpperCase()
+    if (['PH','PR','DH'].includes(pos)) {
+      appearances[team][pos] += 1
+    }
+  })
+
+fieldingByPosition
+  .filter(p => p['Player ID'] === id)
+  .forEach(p => {
+    const team = p.team
+    const pos = positionMap[p.POS]
+    if (!appearances[team]) {
+      appearances[team] = { team, G: 0, GS: 0 }
+      allPositions.forEach(pos => appearances[team][pos] = 0)
+    }
+    appearances[team][pos] += p.G || 0
+    appearances[team].GS += p.GS || 0
+    appearances[team].G += p.G || 0  // ensure they count even if no BOP
+  })
+
+const appearanceRows = Object.values(appearances)
+
   return (
     <div className="p-4">
       <div className="mb-6 flex items-center gap-4">    
@@ -150,6 +187,9 @@ export default function PlayerPage() {
        {fld.length > 0 && renderTable("Fielding Totals", fld, [
          'team','G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','SB','CS','CS%','PkO'
        ])}
+        {appearanceRows.length > 0 && renderTable("Appearances", appearanceRows, [
+          'team', 'G', 'GS', 'P','C','1B','2B','3B','SS','LF','CF','RF','DH','PH','PR'
+        ])
        {/* Render a table for each position */}
        {Object.keys(groupedByPosition).map(position => {
          const positionData = groupedByPosition[position];
