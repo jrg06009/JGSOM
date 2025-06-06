@@ -1,0 +1,633 @@
+{
+  "meta": {
+    "date": "1999-04-08 00:00:00",
+    "home": "MON",
+    "away": "NYM",
+    "home_score": "3",
+    "away_score": "13"
+  },
+  "batting": {
+    "NYM": {
+      "Rickey Henderson": {
+        "Player": "Rickey Henderson",
+        "Player ID": "henderi01",
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "RBI": 3,
+        "BB": 1,
+        "SB": 2,
+        "PO": 3
+      },
+      "Josias Manzanillo": {
+        "Player": "Josias Manzanillo",
+        "Player ID": "manzajo01",
+        "IP": "1.0",
+        "A": 1
+      },
+      "Edgardo Alfonzo": {
+        "Player": "Edgardo Alfonzo",
+        "Player ID": "alfoned01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 2,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1,
+        "A": 3,
+        "DP": 1
+      },
+      "John Olerud": {
+        "Player": "John Olerud",
+        "Player ID": "olerujo01",
+        "AB": 4,
+        "R": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 14,
+        "DP": 1
+      },
+      "Mike Piazza": {
+        "Player": "Mike Piazza",
+        "Player ID": "piazzmi01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 2,
+        "PO": 4
+      },
+      "Bobby Bonilla": {
+        "Player": "Bobby Bonilla",
+        "Player ID": "bonilbo01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 1
+      },
+      "Jermaine Allensworth": {
+        "Player": "Jermaine Allensworth",
+        "Player ID": "allenje01",
+        "PO": 1
+      },
+      "Robin Ventura": {
+        "Player": "Robin Ventura",
+        "Player ID": "venturo01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Todd Pratt": {
+        "Player": "Todd Pratt",
+        "Player ID": "prattto02",
+        "AB": 1,
+        "PO": 1
+      },
+      "Brian McRae": {
+        "Player": "Brian McRae",
+        "Player ID": "mcraebr01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 3,
+        "CS": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Roger Cedeno": {
+        "Player": "Roger Cedeno",
+        "Player ID": "cedenro01",
+        "AB": 1
+      },
+      "Rey Ordonez": {
+        "Player": "Rey Ordonez",
+        "Player ID": "ordonre01",
+        "AB": 4,
+        "R": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SB": 1,
+        "A": 6,
+        "DP": 1
+      },
+      "Orel Hershiser": {
+        "Player": "Orel Hershiser",
+        "Player ID": "hershor01",
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 3,
+        "SO against": 3,
+        "WP": 1,
+        "A": 1
+      },
+      "Matt Franco": {
+        "Player": "Matt Franco",
+        "Player ID": "francma01",
+        "AB": 1,
+        "R": 1,
+        "H": 1
+      },
+      "Allen Watson": {
+        "Player": "Allen Watson",
+        "Player ID": "watsoal01",
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Mike Kinkade": {
+        "Player": "Mike Kinkade",
+        "Player ID": "kinkami01",
+        "AB": 1,
+        "H": 1
+      }
+    },
+    "MON": {
+      "Wilton Guerrero": {
+        "Player": "Wilton Guerrero",
+        "Player ID": "guerrwi01",
+        "AB": 5,
+        "H": 1,
+        "PO": 3,
+        "A": 5,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Orlando Cabrera": {
+        "Player": "Orlando Cabrera",
+        "Player ID": "cabreor01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 5,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Rondell White": {
+        "Player": "Rondell White",
+        "Player ID": "whitero02",
+        "AB": 4,
+        "H": 2,
+        "PO": 1
+      },
+      "Vladimir Guerrero": {
+        "Player": "Vladimir Guerrero",
+        "Player ID": "guerrvl01",
+        "AB": 2,
+        "R": 1,
+        "BB": 2,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Brad Fullmer": {
+        "Player": "Brad Fullmer",
+        "Player ID": "fullmbr01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 11,
+        "A": 2,
+        "DP": 2
+      },
+      "Shane Andrews": {
+        "Player": "Shane Andrews",
+        "Player ID": "andresh01",
+        "AB": 4,
+        "SO": 2,
+        "A": 1
+      },
+      "Chris Widger": {
+        "Player": "Chris Widger",
+        "Player ID": "widgech01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "SF": 1,
+        "PO": 5,
+        "A": 1,
+        "SB against": 3,
+        "CS against": 1
+      },
+      "Manny Martinez": {
+        "Player": "Manny Martinez",
+        "Player ID": "martima02",
+        "AB": 4,
+        "SO": 1,
+        "PO": 3
+      },
+      "Miguel Batista": {
+        "Player": "Miguel Batista",
+        "Player ID": "batismi01",
+        "AB": 1,
+        "H": 1,
+        "2B": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 6,
+        "R against": 6,
+        "ER": 5,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 5,
+        "HBP against": 1,
+        "WP": 1,
+        "ERR": 2,
+        "SB against": 3,
+        "CS against": 1
+      },
+      "Orlando Merced": {
+        "Player": "Orlando Merced",
+        "Player ID": "merceor01",
+        "R": 1,
+        "BB": 1
+      },
+      "J.D. Smart": {
+        "Player": "J.D. Smart",
+        "Player ID": "smartj.01",
+        "IP": "2.0",
+        "H allowed": 9,
+        "R against": 7,
+        "ER": 6,
+        "HR allowed": 1,
+        "PO": 1
+      },
+      "James Mouton": {
+        "Player": "James Mouton",
+        "Player ID": "moutoja01",
+        "AB": 1
+      },
+      "Anthony Telford": {
+        "Player": "Anthony Telford",
+        "Player ID": "telfoan01",
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1
+      },
+      "Jose Vidro": {
+        "Player": "Jose Vidro",
+        "Player ID": "vidrojo01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "NYM": {
+      "Orel Hershiser": {
+        "Player": "Orel Hershiser",
+        "Player ID": "hershor01",
+        "Pit #": 1,
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 3,
+        "SO against": 3,
+        "WP": 1,
+        "A": 1
+      },
+      "Allen Watson": {
+        "Player": "Allen Watson",
+        "Player ID": "watsoal01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Josias Manzanillo": {
+        "Player": "Josias Manzanillo",
+        "Player ID": "manzajo01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "A": 1
+      }
+    },
+    "MON": {
+      "Miguel Batista": {
+        "Player": "Miguel Batista",
+        "Player ID": "batismi01",
+        "Pit #": 1,
+        "AB": 1,
+        "H": 1,
+        "2B": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 6,
+        "R against": 6,
+        "ER": 5,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 5,
+        "HBP against": 1,
+        "WP": 1,
+        "ERR": 2,
+        "SB against": 3,
+        "CS against": 1
+      },
+      "J.D. Smart": {
+        "Player": "J.D. Smart",
+        "Player ID": "smartj.01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 9,
+        "R against": 7,
+        "ER": 6,
+        "HR allowed": 1,
+        "PO": 1
+      },
+      "Anthony Telford": {
+        "Player": "Anthony Telford",
+        "Player ID": "telfoan01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "NYM": [
+      [
+        1,
+        "Rickey Henderson"
+      ],
+      [
+        1,
+        "Josias Manzanillo"
+      ],
+      [
+        2,
+        "Edgardo Alfonzo"
+      ],
+      [
+        3,
+        "John Olerud"
+      ],
+      [
+        4,
+        "Mike Piazza"
+      ],
+      [
+        4,
+        "Luis Lopez"
+      ],
+      [
+        5,
+        "Bobby Bonilla"
+      ],
+      [
+        5,
+        "Jermaine Allensworth"
+      ],
+      [
+        6,
+        "Robin Ventura"
+      ],
+      [
+        6,
+        "Todd Pratt"
+      ],
+      [
+        7,
+        "Brian McRae"
+      ],
+      [
+        7,
+        "Roger Cedeno"
+      ],
+      [
+        8,
+        "Rey Ordonez"
+      ],
+      [
+        9,
+        "Orel Hershiser"
+      ],
+      [
+        9,
+        "Matt Franco"
+      ],
+      [
+        9,
+        "Allen Watson"
+      ],
+      [
+        9,
+        "Mike Kinkade"
+      ],
+      [
+        9,
+        "Mike Kinkade"
+      ]
+    ],
+    "MON": [
+      [
+        1,
+        "Wilton Guerrero"
+      ],
+      [
+        2,
+        "Orlando Cabrera"
+      ],
+      [
+        3,
+        "Rondell White"
+      ],
+      [
+        4,
+        "Vladimir Guerrero"
+      ],
+      [
+        5,
+        "Brad Fullmer"
+      ],
+      [
+        6,
+        "Shane Andrews"
+      ],
+      [
+        7,
+        "Chris Widger"
+      ],
+      [
+        8,
+        "Manny Martinez"
+      ],
+      [
+        9,
+        "Miguel Batista"
+      ],
+      [
+        9,
+        "Orlando Merced"
+      ],
+      [
+        9,
+        "J.D. Smart"
+      ],
+      [
+        9,
+        "James Mouton"
+      ],
+      [
+        9,
+        "Anthony Telford"
+      ],
+      [
+        9,
+        "Jose Vidro"
+      ]
+    ]
+  },
+  "positions": {
+    "NYM": {
+      "Rickey Henderson": [
+        "7"
+      ],
+      "Josias Manzanillo": [
+        "1"
+      ],
+      "Edgardo Alfonzo": [
+        "4"
+      ],
+      "John Olerud": [
+        "3"
+      ],
+      "Mike Piazza": [
+        "2"
+      ],
+      "Luis Lopez": [
+        "5"
+      ],
+      "Bobby Bonilla": [
+        "9"
+      ],
+      "Jermaine Allensworth": [
+        "9"
+      ],
+      "Robin Ventura": [
+        "5"
+      ],
+      "Todd Pratt": [
+        "2"
+      ],
+      "Brian McRae": [
+        "8"
+      ],
+      "Roger Cedeno": [
+        "8"
+      ],
+      "Rey Ordonez": [
+        "6"
+      ],
+      "Orel Hershiser": [
+        "1"
+      ],
+      "Matt Franco": [
+        "PH"
+      ],
+      "Allen Watson": [
+        "1"
+      ],
+      "Mike Kinkade": [
+        "PH",
+        "7"
+      ]
+    },
+    "MON": {
+      "Wilton Guerrero": [
+        "4"
+      ],
+      "Orlando Cabrera": [
+        "6"
+      ],
+      "Rondell White": [
+        "7"
+      ],
+      "Vladimir Guerrero": [
+        "9"
+      ],
+      "Brad Fullmer": [
+        "3"
+      ],
+      "Shane Andrews": [
+        "5"
+      ],
+      "Chris Widger": [
+        "2"
+      ],
+      "Manny Martinez": [
+        "8"
+      ],
+      "Miguel Batista": [
+        "1"
+      ],
+      "Orlando Merced": [
+        "PH"
+      ],
+      "J.D. Smart": [
+        "1"
+      ],
+      "James Mouton": [
+        "PH"
+      ],
+      "Anthony Telford": [
+        "1"
+      ],
+      "Jose Vidro": [
+        "PH"
+      ]
+    }
+  },
+  "games_started": {
+    "NYM": {
+      "Rickey Henderson": 1,
+      "Edgardo Alfonzo": 1,
+      "John Olerud": 1,
+      "Mike Piazza": 1,
+      "Bobby Bonilla": 1,
+      "Robin Ventura": 1,
+      "Brian McRae": 1,
+      "Rey Ordonez": 1,
+      "Orel Hershiser": 1
+    },
+    "MON": {
+      "Wilton Guerrero": 1,
+      "Orlando Cabrera": 1,
+      "Rondell White": 1,
+      "Vladimir Guerrero": 1,
+      "Brad Fullmer": 1,
+      "Shane Andrews": 1,
+      "Chris Widger": 1,
+      "Manny Martinez": 1,
+      "Miguel Batista": 1
+    }
+  }
+}

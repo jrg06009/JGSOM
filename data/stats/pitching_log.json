@@ -3982,5 +3982,80 @@
     "Game ID": "19990408_TOR@MIN",
     "IP": 1.0,
     "SO against": 1
+  },
+  {
+    "Player": "Josias Manzanillo",
+    "Player ID": "manzajo01",
+    "Team": "NYM",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 1.0
+  },
+  {
+    "Player": "Orel Hershiser",
+    "Player ID": "hershor01",
+    "Team": "NYM",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 6.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 6,
+    "R against": 3,
+    "ER": 3,
+    "BB against": 3,
+    "SO against": 3,
+    "WP": 1
+  },
+  {
+    "Player": "Allen Watson",
+    "Player ID": "watsoal01",
+    "Team": "NYM",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 2.0,
+    "H allowed": 1,
+    "BB against": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Miguel Batista",
+    "Player ID": "batismi01",
+    "Team": "MON",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 5.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 6,
+    "R against": 6,
+    "ER": 5,
+    "HR allowed": 2,
+    "BB against": 1,
+    "SO against": 5,
+    "HBP against": 1,
+    "WP": 1
+  },
+  {
+    "Player": "J.D. Smart",
+    "Player ID": "smartj.01",
+    "Team": "MON",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 2.0,
+    "H allowed": 9,
+    "R against": 7,
+    "ER": 6,
+    "HR allowed": 1
+  },
+  {
+    "Player": "Anthony Telford",
+    "Player ID": "telfoan01",
+    "Team": "MON",
+    "Game#": 47,
+    "Game ID": "19990408_NYM@MON",
+    "IP": 2.0,
+    "H allowed": 1,
+    "BB against": 1
   }
 ]
