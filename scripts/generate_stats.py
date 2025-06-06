@@ -85,7 +85,7 @@ def group_stats(gamelog_df):
         game_num = row["Game#"]
         key = (pid, team)
 
-        if not pd.isna(row.get("AB")):
+        if bop > 0:
             games_played[key].add(game_num)
             batting[key]["Player"] = player
             batting[key]["AB"] += safe_int(row.get("AB"))
@@ -718,8 +718,9 @@ for _, row in gamelog_df.iterrows():
             "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "IBB", "SO", "SB", "CS", "GDP",
             "HBP", "SH", "SF"
         ]:
-            if not pd.isna(row.get(stat)):
-                entry[stat] = int(row.get(stat))
+            val = row.get(stat)
+            if not pd.isna(val):
+                entry[stat] = int(val)
         batting_log.append(entry)
 
     # Pitching log
