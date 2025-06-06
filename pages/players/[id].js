@@ -189,7 +189,7 @@ const appearanceRows = Object.values(appearances)
        ])}
         {appearanceRows.length > 0 && renderTable("Appearances", appearanceRows, [
           'team', 'G', 'GS', 'P','C','1B','2B','3B','SS','LF','CF','RF','DH','PH','PR'
-        ])
+        ])}
        {/* Render a table for each position */}
        {Object.keys(groupedByPosition).map(position => {
          const positionData = groupedByPosition[position];
