@@ -62,6 +62,10 @@
         "AB": 4,
         "H": 2
       },
+      "Clay Bellinger": {
+        "Player": "Clay Bellinger",
+        "Player ID": "bellicl01"
+      },
       "Jorge Posada": {
         "Player": "Jorge Posada",
         "Player ID": "posadjo01",
@@ -143,6 +147,10 @@
         "RBI": 2,
         "GDP": 1,
         "PO": 2
+      },
+      "Jorge Velandia": {
+        "Player": "Jorge Velandia",
+        "Player ID": "velanjo01"
       },
       "Eric Chavez": {
         "Player": "Eric Chavez",

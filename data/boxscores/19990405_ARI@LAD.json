@@ -118,10 +118,18 @@
         "IP": "0.2",
         "SO against": 1
       },
+      "Andy Fox": {
+        "Player": "Andy Fox",
+        "Player ID": "foxan01"
+      },
       "Greg Colbrunn": {
         "Player": "Greg Colbrunn",
         "Player ID": "colbrgr01",
         "AB": 1
+      },
+      "David Dellucci": {
+        "Player": "David Dellucci",
+        "Player ID": "delluda01"
       }
     },
     "LAD": {

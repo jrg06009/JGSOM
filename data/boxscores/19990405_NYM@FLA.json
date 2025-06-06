@@ -20,6 +20,10 @@
         "GDP": 1,
         "PO": 3
       },
+      "Luis Lopez": {
+        "Player": "Luis Lopez",
+        "Player ID": "lopezlu02"
+      },
       "Edgardo Alfonzo": {
         "Player": "Edgardo Alfonzo",
         "Player ID": "alfoned01",
@@ -59,6 +63,10 @@
         "RBI": 1,
         "SO": 2,
         "PO": 6
+      },
+      "Todd Pratt": {
+        "Player": "Todd Pratt",
+        "Player ID": "prattto02"
       },
       "Bobby Bonilla": {
         "Player": "Bobby Bonilla",
@@ -139,6 +147,10 @@
         "Player ID": "francma01",
         "RBI": 1,
         "SF": 1
+      },
+      "Jermaine Allensworth": {
+        "Player": "Jermaine Allensworth",
+        "Player ID": "allenje01"
       }
     },
     "FLA": {

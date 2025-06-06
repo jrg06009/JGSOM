@@ -84,6 +84,10 @@
         "AB": 4,
         "H": 3
       },
+      "James Mouton": {
+        "Player": "James Mouton",
+        "Player ID": "moutoja01"
+      },
       "Brad Fullmer": {
         "Player": "Brad Fullmer",
         "Player ID": "fullmbr01",
@@ -140,6 +144,10 @@
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
+      },
+      "Orlando Merced": {
+        "Player": "Orlando Merced",
+        "Player ID": "merceor01"
       },
       "Chris Widger": {
         "Player": "Chris Widger",
