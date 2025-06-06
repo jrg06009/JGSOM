@@ -9,7 +9,7 @@ import path from 'path'
 function formatPrettyDate(dateStr) {
   const date = new Date(dateStr)
   const day = date.getDate()
-  const suffix = [11, 12, 13].includes(day) ? 'th' : ['st', 'nd', 'rd'][day % 10] || 'th'
+  const suffix = [11, 12, 13].includes(day) ? 'th' : ['st', 'nd', 'rd'][day % 10 - 1] || 'th'
   return date.toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
