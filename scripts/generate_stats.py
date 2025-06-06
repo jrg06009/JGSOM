@@ -84,7 +84,8 @@ def group_stats(gamelog_df):
         player = row["Player Name"]
         game_num = row["Game#"]
         key = (pid, team)
-
+        bop = safe_int(row.get("BOP"))
+        
         if bop > 0:
             games_played[key].add(game_num)
             batting[key]["Player"] = player
