@@ -140,7 +140,7 @@ export default function PlayerPage() {
         </div>
       </div>
       {bat.length > 0 && renderTable("Batting", bat, [
-         'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
+         'team','G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF','IBB'
        ])}
        {pit.length > 0 && renderTable("Pitching", pit, [
          'team','W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
