@@ -159,10 +159,12 @@ const getPositionString = (team, player) => {
         </table>
         {Object.keys(summary).length > 0 && (
           <div className="text-sm mt-2 space-y-1">
-            {Object.entries(summary).map(([stat, players]) => (
-              <div key={stat}>
-                <strong>{stat}: </strong>{players.join("; ")}
-              </div>
+            {Object.entries(summary)
+              .sort((a,b) => summaryStats.indexOf(a[0]) - summaryStats.indexOf(b[0]))
+              .map(([stat, players]) => (
+                <div key={stat}>
+                  <strong>{stat}: </strong>{players.join("; ")}
+                </div>
             ))}
           </div>
         )}
