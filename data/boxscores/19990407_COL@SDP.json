@@ -251,6 +251,7 @@
       "Jamey Wright": {
         "Player": "Jamey Wright",
         "Player ID": "wrighja01",
+        "Pit #": 1,
         "AB": 3,
         "SO": 1,
         "W": 1,
@@ -264,12 +265,14 @@
       "Chuck McElroy": {
         "Player": "Chuck McElroy",
         "Player ID": "mcelrch01",
+        "Pit #": 2,
         "IP": "0.1",
         "BB against": 1
       },
       "Roberto Ramirez": {
         "Player": "Roberto Ramirez",
         "Player ID": "ramirro01",
+        "Pit #": 3,
         "IP": "0.2",
         "H allowed": 2,
         "BB against": 1
@@ -277,25 +280,15 @@
       "Jerry Dipoto": {
         "Player": "Jerry Dipoto",
         "Player ID": "dipotje01",
+        "Pit #": 4,
         "IP": "0.1"
       }
     },
     "SDP": {
-      "Dan Miceli": {
-        "Player": "Dan Miceli",
-        "Player ID": "micelda01",
-        "IP": "1.0",
-        "H allowed": 2,
-        "R against": 2
-      },
-      "Brian Boehringer": {
-        "Player": "Brian Boehringer",
-        "Player ID": "boehrbr01",
-        "IP": "1.0"
-      },
       "Woody Williams": {
         "Player": "Woody Williams",
         "Player ID": "williwo02",
+        "Pit #": 1,
         "AB": 2,
         "L": 1,
         "IP": "5.2",
@@ -308,12 +301,27 @@
       "Carlos Reyes": {
         "Player": "Carlos Reyes",
         "Player ID": "reyesca01",
+        "Pit #": 2,
         "IP": "1.1",
         "H allowed": 1,
         "R against": 1,
         "ER": 1,
         "HR allowed": 1,
         "SO against": 2
+      },
+      "Brian Boehringer": {
+        "Player": "Brian Boehringer",
+        "Player ID": "boehrbr01",
+        "Pit #": 3,
+        "IP": "1.0"
+      },
+      "Dan Miceli": {
+        "Player": "Dan Miceli",
+        "Player ID": "micelda01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2
       }
     }
   },

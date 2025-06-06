@@ -179,6 +179,16 @@
     "H allowed": 1
   },
   {
+    "Player": "Armando Reynoso",
+    "Player ID": "reynoar02",
+    "Team": "ARI",
+    "Game#": 9,
+    "Game ID": "19990405_ARI@LAD",
+    "IP": 1.0,
+    "H allowed": 1,
+    "SO against": 1
+  },
+  {
     "Player": "Randy Johnson",
     "Player ID": "johnsra05",
     "Team": "ARI",
@@ -197,16 +207,6 @@
     "Game#": 9,
     "Game ID": "19990405_ARI@LAD",
     "IP": 0.6666666666666666,
-    "SO against": 1
-  },
-  {
-    "Player": "Armando Reynoso",
-    "Player ID": "reynoar02",
-    "Team": "ARI",
-    "Game#": 9,
-    "Game ID": "19990405_ARI@LAD",
-    "IP": 1.0,
-    "H allowed": 1,
     "SO against": 1
   },
   {
@@ -450,7 +450,10 @@
     "Team": "SDP",
     "Game#": 22,
     "Game ID": "19990406_COL@SDP",
-    "IP": null
+    "IP": null,
+    "H allowed": 2,
+    "R against": 1,
+    "ER": 1
   },
   {
     "Player": "Brian Boehringer",

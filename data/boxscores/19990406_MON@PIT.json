@@ -248,6 +248,7 @@
       "Carl Pavano": {
         "Player": "Carl Pavano",
         "Player ID": "pavanca01",
+        "Pit #": 1,
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -262,6 +263,7 @@
       "Mike Maddux": {
         "Player": "Mike Maddux",
         "Player ID": "maddumi01",
+        "Pit #": 2,
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1,
@@ -270,6 +272,7 @@
       "Anthony Telford": {
         "Player": "Anthony Telford",
         "Player ID": "telfoan01",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 1,
         "SO against": 2,
@@ -280,6 +283,7 @@
       "Jason Schmidt": {
         "Player": "Jason Schmidt",
         "Player ID": "schmija01",
+        "Pit #": 1,
         "AB": 1,
         "R": 1,
         "BB": 1,
@@ -295,12 +299,14 @@
       "Jason Christiansen": {
         "Player": "Jason Christiansen",
         "Player ID": "chrisja01",
+        "Pit #": 2,
         "IP": "2.0",
         "A": 2
       },
       "Mike Williams": {
         "Player": "Mike Williams",
         "Player ID": "willimi03",
+        "Pit #": 3,
         "SV": 1,
         "IP": "1.0",
         "H allowed": 1,

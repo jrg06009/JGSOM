@@ -248,6 +248,7 @@
       "Bobby Jones": {
         "Player": "Bobby Jones",
         "Player ID": "jonesbo03",
+        "Pit #": 1,
         "SH": 2,
         "L": 1,
         "IP": "6.0",
@@ -262,6 +263,7 @@
       "Turk Wendell": {
         "Player": "Turk Wendell",
         "Player ID": "wendetu01",
+        "Pit #": 2,
         "IP": "2.0",
         "H allowed": 2,
         "R against": 1,
@@ -272,24 +274,10 @@
       }
     },
     "FLA": {
-      "Antonio Alfonseca": {
-        "Player": "Antonio Alfonseca",
-        "Player ID": "alfonan01",
-        "IP": "1.0",
-        "H allowed": 1
-      },
-      "Matt Mantei": {
-        "Player": "Matt Mantei",
-        "Player ID": "mantema01",
-        "IP": "1.0",
-        "H allowed": 3,
-        "R against": 2,
-        "ER": 2,
-        "SO against": 2
-      },
       "Jesus Sanchez": {
         "Player": "Jesus Sanchez",
         "Player ID": "sanchje01",
+        "Pit #": 1,
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -306,10 +294,28 @@
       "Vic Darensbourg": {
         "Player": "Vic Darensbourg",
         "Player ID": "darenvi01",
+        "Pit #": 2,
         "IP": "1.0",
         "H allowed": 1,
         "BB against": 1,
         "SO against": 1
+      },
+      "Antonio Alfonseca": {
+        "Player": "Antonio Alfonseca",
+        "Player ID": "alfonan01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1
+      },
+      "Matt Mantei": {
+        "Player": "Matt Mantei",
+        "Player ID": "mantema01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "SO against": 2
       }
     }
   },

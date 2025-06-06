@@ -247,6 +247,7 @@
       "Carlton Loewer": {
         "Player": "Carlton Loewer",
         "Player ID": "loeweca01",
+        "Pit #": 1,
         "AB": 3,
         "H": 2,
         "2B": 1,
@@ -264,6 +265,7 @@
       "Yorkis Perez": {
         "Player": "Yorkis Perez",
         "Player ID": "perezyo01",
+        "Pit #": 2,
         "IP": "1.1",
         "H allowed": 1,
         "HBP against": 1
@@ -271,6 +273,7 @@
       "Mike Grace": {
         "Player": "Mike Grace",
         "Player ID": "gracemi02",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
@@ -283,6 +286,7 @@
       "John Smoltz": {
         "Player": "John Smoltz",
         "Player ID": "smoltjo01",
+        "Pit #": 1,
         "AB": 1,
         "R": 2,
         "H": 1,
@@ -300,6 +304,7 @@
       "Derrin Ebert": {
         "Player": "Derrin Ebert",
         "Player ID": "ebertde01",
+        "Pit #": 2,
         "IP": "2.0",
         "H allowed": 2,
         "SO against": 1,
@@ -308,6 +313,7 @@
       "Rudy Seanez": {
         "Player": "Rudy Seanez",
         "Player ID": "seaneru01",
+        "Pit #": 3,
         "IP": "1.0",
         "SO against": 1
       }

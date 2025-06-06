@@ -294,6 +294,7 @@
       "Todd Stottlemyre": {
         "Player": "Todd Stottlemyre",
         "Player ID": "stottto01",
+        "Pit #": 1,
         "AB": 3,
         "H": 1,
         "2B": 1,
@@ -311,6 +312,7 @@
       "Darren Holmes": {
         "Player": "Darren Holmes",
         "Player ID": "holmeda01",
+        "Pit #": 2,
         "IP": "0.1",
         "H allowed": 2,
         "R against": 1,
@@ -320,6 +322,7 @@
       "Greg Swindell": {
         "Player": "Greg Swindell",
         "Player ID": "swindgr01",
+        "Pit #": 3,
         "IP": "1.2",
         "BB against": 1,
         "SO against": 1
@@ -327,6 +330,7 @@
       "Gregg Olson": {
         "Player": "Gregg Olson",
         "Player ID": "olsongr01",
+        "Pit #": 4,
         "L": 1,
         "H allowed": 3,
         "R against": 1,
@@ -337,6 +341,7 @@
       "Chan Ho Park": {
         "Player": "Chan Ho Park",
         "Player ID": "parkch01",
+        "Pit #": 1,
         "AB": 1,
         "SO": 1,
         "IP": "5.0",
@@ -352,6 +357,7 @@
       "Mel Rojas": {
         "Player": "Mel Rojas",
         "Player ID": "rojasme01",
+        "Pit #": 2,
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
@@ -360,6 +366,7 @@
       "Onan Masaoka": {
         "Player": "Onan Masaoka",
         "Player ID": "masaoon01",
+        "Pit #": 3,
         "IP": "1.1",
         "H allowed": 1,
         "SO against": 1
@@ -367,6 +374,7 @@
       "Dave Mlicki": {
         "Player": "Dave Mlicki",
         "Player ID": "mlickda01",
+        "Pit #": 4,
         "IP": "0.1",
         "H allowed": 1,
         "BB against": 2,
@@ -375,11 +383,13 @@
       "Pedro Borbon": {
         "Player": "Pedro Borbon",
         "Player ID": "borbope02",
+        "Pit #": 5,
         "IP": "0.1"
       },
       "Jeff Shaw": {
         "Player": "Jeff Shaw",
         "Player ID": "shawje01",
+        "Pit #": 6,
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,

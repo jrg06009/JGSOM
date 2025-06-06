@@ -247,6 +247,7 @@
       "Mark Gardner": {
         "Player": "Mark Gardner",
         "Player ID": "gardnma01",
+        "Pit #": 1,
         "AB": 3,
         "H": 1,
         "2B": 1,
@@ -265,11 +266,13 @@
       "Alan Embree": {
         "Player": "Alan Embree",
         "Player ID": "embreal01",
+        "Pit #": 2,
         "IP": "0.2"
       },
       "John Johnstone": {
         "Player": "John Johnstone",
         "Player ID": "johnsjo07",
+        "Pit #": 3,
         "IP": "1.0",
         "SO against": 1
       }
@@ -278,6 +281,7 @@
       "Brett Tomko": {
         "Player": "Brett Tomko",
         "Player ID": "tomkobr01",
+        "Pit #": 1,
         "AB": 1,
         "SH": 1,
         "L": 1,
@@ -293,6 +297,7 @@
       "Dennys Reyes": {
         "Player": "Dennys Reyes",
         "Player ID": "reyesde01",
+        "Pit #": 2,
         "IP": "1.0",
         "H allowed": 2,
         "R against": 1,
@@ -303,6 +308,7 @@
       "Scott Sullivan": {
         "Player": "Scott Sullivan",
         "Player ID": "sullisc01",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 1,
         "SO against": 2,
@@ -311,6 +317,7 @@
       "Scott Williamson": {
         "Player": "Scott Williamson",
         "Player ID": "willisc01",
+        "Pit #": 4,
         "IP": "1.0",
         "BB against": 2
       }

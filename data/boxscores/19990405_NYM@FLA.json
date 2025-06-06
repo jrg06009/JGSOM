@@ -310,17 +310,10 @@
   },
   "pitching": {
     "NYM": {
-      "Josias Manzanillo": {
-        "Player": "Josias Manzanillo",
-        "Player ID": "manzajo01",
-        "IP": "1.0",
-        "H allowed": 2,
-        "PO": 1,
-        "DP": 1
-      },
       "Al Leiter": {
         "Player": "Al Leiter",
         "Player ID": "leiteal01",
+        "Pit #": 1,
         "AB": 3,
         "H": 2,
         "RBI": 2,
@@ -336,6 +329,7 @@
       "Allen Watson": {
         "Player": "Allen Watson",
         "Player ID": "watsoal01",
+        "Pit #": 2,
         "AB": 1,
         "H": 1,
         "RBI": 1,
@@ -343,23 +337,22 @@
         "H allowed": 4,
         "HBP against": 1,
         "A": 1
+      },
+      "Josias Manzanillo": {
+        "Player": "Josias Manzanillo",
+        "Player ID": "manzajo01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 2,
+        "PO": 1,
+        "DP": 1
       }
     },
     "FLA": {
-      "Brian Edmondson": {
-        "Player": "Brian Edmondson",
-        "Player ID": "edmonbr01",
-        "IP": "2.0",
-        "H allowed": 2,
-        "R against": 2,
-        "ER": 2,
-        "BB against": 1,
-        "SO against": 1,
-        "WP": 1
-      },
       "Alex Fernandez": {
         "Player": "Alex Fernandez",
         "Player ID": "fernaal01",
+        "Pit #": 1,
         "AB": 1,
         "L": 1,
         "IP": "1.1",
@@ -373,6 +366,7 @@
       "Dennis Springer": {
         "Player": "Dennis Springer",
         "Player ID": "sprinde01",
+        "Pit #": 2,
         "IP": "2.2",
         "H allowed": 5,
         "R against": 2,
@@ -383,17 +377,31 @@
       "Kirt Ojala": {
         "Player": "Kirt Ojala",
         "Player ID": "ojalaki01",
+        "Pit #": 3,
         "IP": "2.0",
         "H allowed": 3
       },
       "Braden Looper": {
         "Player": "Braden Looper",
         "Player ID": "loopebr01",
+        "Pit #": 4,
         "IP": "1.0",
         "H allowed": 6,
         "R against": 4,
         "ER": 4,
         "SO against": 1
+      },
+      "Brian Edmondson": {
+        "Player": "Brian Edmondson",
+        "Player ID": "edmonbr01",
+        "Pit #": 5,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "WP": 1
       }
     }
   },

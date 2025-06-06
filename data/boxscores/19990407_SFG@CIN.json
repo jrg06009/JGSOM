@@ -284,6 +284,7 @@
       "Russ Ortiz": {
         "Player": "Russ Ortiz",
         "Player ID": "ortizru01",
+        "Pit #": 1,
         "AB": 2,
         "R": 1,
         "H": 1,
@@ -300,6 +301,7 @@
       "Alan Embree": {
         "Player": "Alan Embree",
         "Player ID": "embreal01",
+        "Pit #": 2,
         "IP": "0.1",
         "BB against": 2,
         "SB against": 1
@@ -307,6 +309,7 @@
       "John Johnstone": {
         "Player": "John Johnstone",
         "Player ID": "johnsjo07",
+        "Pit #": 3,
         "IP": "1.2",
         "H allowed": 1,
         "BB against": 1,
@@ -315,6 +318,7 @@
       "Julian Tavarez": {
         "Player": "Julian Tavarez",
         "Player ID": "tavarju01",
+        "Pit #": 4,
         "IP": "1.0",
         "H allowed": 1,
         "SO against": 1,
@@ -323,35 +327,16 @@
       "Robb Nen": {
         "Player": "Robb Nen",
         "Player ID": "nenro01",
+        "Pit #": 5,
         "IP": "1.0",
         "SO against": 1
       }
     },
     "CIN": {
-      "Gabe White": {
-        "Player": "Gabe White",
-        "Player ID": "whitega01",
-        "IP": "1.1",
-        "H allowed": 1,
-        "BB against": 1,
-        "SO against": 1,
-        "HBP against": 1,
-        "A": 1
-      },
-      "Danny Graves": {
-        "Player": "Danny Graves",
-        "Player ID": "graveda01",
-        "IP": "1.0",
-        "H allowed": 2,
-        "R against": 2,
-        "ER": 2,
-        "BB against": 1,
-        "SO against": 1,
-        "HBP against": 1
-      },
       "Steve Avery": {
         "Player": "Steve Avery",
         "Player ID": "averyst01",
+        "Pit #": 1,
         "AB": 1,
         "L": 1,
         "IP": "5.0",
@@ -366,9 +351,33 @@
       "Scott Sullivan": {
         "Player": "Scott Sullivan",
         "Player ID": "sullisc01",
+        "Pit #": 2,
         "IP": "1.2",
         "H allowed": 1,
         "WP": 1
+      },
+      "Gabe White": {
+        "Player": "Gabe White",
+        "Player ID": "whitega01",
+        "Pit #": 3,
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1,
+        "A": 1
+      },
+      "Danny Graves": {
+        "Player": "Danny Graves",
+        "Player ID": "graveda01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1
       }
     }
   },

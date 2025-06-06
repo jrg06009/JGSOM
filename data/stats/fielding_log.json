@@ -534,7 +534,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "PO": 1
   },
   {
@@ -545,7 +545,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "PO": 1,
     "A": 2
   },
@@ -557,7 +557,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "PO": 6
   },
   {
@@ -568,7 +568,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "A": 1
   },
   {
@@ -604,6 +604,15 @@
     "PO": 1
   },
   {
+    "Player": "Armando Reynoso",
+    "Player ID": "reynoar02",
+    "Team": "ARI",
+    "Game#": 9,
+    "Game ID": "19990405_ARI@LAD",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
     "Player": "Tony Batista",
     "Player ID": "batisto01",
     "Team": "ARI",
@@ -611,7 +620,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "PO": 2,
     "A": 1,
     "ERR": 1
@@ -624,7 +633,7 @@
     "Game ID": "19990405_ARI@LAD",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999998,
     "PO": 14
   },
   {
@@ -655,15 +664,6 @@
     "Game#": 9,
     "Game ID": "19990405_ARI@LAD",
     "POS": "7",
-    "INN": 1.0
-  },
-  {
-    "Player": "Armando Reynoso",
-    "Player ID": "reynoar02",
-    "Team": "ARI",
-    "Game#": 9,
-    "Game ID": "19990405_ARI@LAD",
-    "POS": "1",
     "INN": 1.0
   },
   {

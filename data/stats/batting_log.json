@@ -577,6 +577,13 @@
     "SO": 1
   },
   {
+    "Player": "Armando Reynoso",
+    "Player ID": "reynoar02",
+    "Team": "ARI",
+    "Game#": 9,
+    "Game ID": "19990405_ARI@LAD"
+  },
+  {
     "Player": "Tony Batista",
     "Player ID": "batisto01",
     "Team": "ARI",
@@ -633,13 +640,6 @@
   {
     "Player": "David Dellucci",
     "Player ID": "delluda01",
-    "Team": "ARI",
-    "Game#": 9,
-    "Game ID": "19990405_ARI@LAD"
-  },
-  {
-    "Player": "Armando Reynoso",
-    "Player ID": "reynoar02",
     "Team": "ARI",
     "Game#": 9,
     "Game ID": "19990405_ARI@LAD"

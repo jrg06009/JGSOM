@@ -269,29 +269,10 @@
   },
   "pitching": {
     "ARI": {
-      "Brian Anderson": {
-        "Player": "Brian Anderson",
-        "Player ID": "anderbr02",
-        "IP": "3.0",
-        "H allowed": 2,
-        "R against": 1,
-        "ER": 1,
-        "BB against": 1,
-        "SO against": 2,
-        "HBP against": 1
-      },
-      "John Frascatore": {
-        "Player": "John Frascatore",
-        "Player ID": "frascjo01",
-        "IP": "1.1",
-        "H allowed": 3,
-        "R against": 2,
-        "ER": 2,
-        "HBP against": 1
-      },
       "Andy Benes": {
         "Player": "Andy Benes",
         "Player ID": "benesan01",
+        "Pit #": 1,
         "SH": 1,
         "L": 1,
         "IP": "3.2",
@@ -304,18 +285,35 @@
         "HBP against": 1,
         "WP": 1,
         "CS against": 2
+      },
+      "John Frascatore": {
+        "Player": "John Frascatore",
+        "Player ID": "frascjo01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "HBP against": 1
+      },
+      "Brian Anderson": {
+        "Player": "Brian Anderson",
+        "Player ID": "anderbr02",
+        "Pit #": 3,
+        "IP": "3.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 2,
+        "HBP against": 1
       }
     },
     "LAD": {
-      "Alan Mills": {
-        "Player": "Alan Mills",
-        "Player ID": "millsal01",
-        "IP": "2.0",
-        "BB against": 1
-      },
       "Ismael Valdez": {
         "Player": "Ismael Valdez",
         "Player ID": "valdeis01",
+        "Pit #": 1,
         "AB": 3,
         "SO": 1,
         "W": 1,
@@ -328,6 +326,13 @@
         "SO against": 6,
         "HBP against": 1,
         "CS against": 1
+      },
+      "Alan Mills": {
+        "Player": "Alan Mills",
+        "Player ID": "millsal01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "BB against": 1
       }
     }
   },
@@ -525,8 +530,8 @@
         "1"
       ],
       "Jose Vizcaino": [
-        "PH",
-        "4"
+        "4",
+        "PH"
       ]
     }
   },

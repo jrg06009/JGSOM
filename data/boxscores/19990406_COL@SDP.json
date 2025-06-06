@@ -209,7 +209,11 @@
       "John Vander Wal": {
         "Player": "John Vander Wal",
         "Player ID": "vandejo02",
-        "AB": 1,
+        "AB": 1
+      },
+      "Roberto Rivera": {
+        "Player": "Roberto Rivera",
+        "Player ID": "riverro01",
         "H allowed": 2,
         "R against": 1,
         "ER": 1
@@ -227,6 +231,7 @@
       "Pedro Astacio": {
         "Player": "Pedro Astacio",
         "Player ID": "astacpe01",
+        "Pit #": 1,
         "AB": 2,
         "R": 1,
         "BB": 1,
@@ -243,12 +248,14 @@
       "Jerry Dipoto": {
         "Player": "Jerry Dipoto",
         "Player ID": "dipotje01",
+        "Pit #": 2,
         "IP": "1.0",
         "SO against": 1
       },
       "Dave Veres": {
         "Player": "Dave Veres",
         "Player ID": "veresda01",
+        "Pit #": 3,
         "SV": 1,
         "IP": "1.0",
         "SO against": 2
@@ -258,6 +265,7 @@
       "Sterling Hitchcock": {
         "Player": "Sterling Hitchcock",
         "Player ID": "hitchst01",
+        "Pit #": 1,
         "AB": 2,
         "SO": 1,
         "L": 1,
@@ -274,12 +282,22 @@
       "Donne Wall": {
         "Player": "Donne Wall",
         "Player ID": "walldo01",
+        "Pit #": 2,
         "IP": "0.2",
         "H allowed": 1
+      },
+      "Roberto Rivera": {
+        "Player": "Roberto Rivera",
+        "Player ID": "riverro01",
+        "Pit #": 3,
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1
       },
       "Brian Boehringer": {
         "Player": "Brian Boehringer",
         "Player ID": "boehrbr01",
+        "Pit #": 4,
         "IP": "1.2",
         "PO": 1
       }
@@ -463,8 +481,8 @@
         "5"
       ],
       "Dave Magadan": [
-        "PH",
-        "5"
+        "5",
+        "PH"
       ],
       "Ruben Rivera": [
         "8"

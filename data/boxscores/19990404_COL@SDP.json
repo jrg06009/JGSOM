@@ -252,6 +252,7 @@
       "Darryl Kile": {
         "Player": "Darryl Kile",
         "Player ID": "kileda01",
+        "Pit #": 1,
         "AB": 2,
         "GDP": 1,
         "L": 1,
@@ -267,6 +268,7 @@
       "Mike DeJean": {
         "Player": "Mike DeJean",
         "Player ID": "dejeami01",
+        "Pit #": 2,
         "IP": "0.2",
         "BB against": 1,
         "CS against": 1
@@ -274,6 +276,7 @@
       "Bobby Jones": {
         "Player": "Bobby Jones",
         "Player ID": "jonesbo04",
+        "Pit #": 3,
         "IP": "1.1",
         "R against": 1,
         "BB against": 1,
@@ -284,6 +287,7 @@
       "Curt Leskanic": {
         "Player": "Curt Leskanic",
         "Player ID": "leskacu01",
+        "Pit #": 4,
         "IP": "0.2",
         "SO against": 1
       }
@@ -292,6 +296,7 @@
       "Andy Ashby": {
         "Player": "Andy Ashby",
         "Player ID": "ashbyan01",
+        "Pit #": 1,
         "AB": 2,
         "SO": 1,
         "W": 1,
@@ -306,23 +311,27 @@
       "Roberto Rivera": {
         "Player": "Roberto Rivera",
         "Player ID": "riverro01",
+        "Pit #": 2,
         "BB against": 1
       },
       "Carlos Reyes": {
         "Player": "Carlos Reyes",
         "Player ID": "reyesca01",
+        "Pit #": 3,
         "IP": "1.0",
         "BB against": 1
       },
       "Dan Miceli": {
         "Player": "Dan Miceli",
         "Player ID": "micelda01",
+        "Pit #": 4,
         "IP": "1.0",
         "H allowed": 1
       },
       "Trevor Hoffman": {
         "Player": "Trevor Hoffman",
         "Player ID": "hoffmtr01",
+        "Pit #": 5,
         "SV": 1,
         "IP": "1.0",
         "A": 1

@@ -319,27 +319,10 @@
   },
   "pitching": {
     "MIL": {
-      "Eric Plunk": {
-        "Player": "Eric Plunk",
-        "Player ID": "plunker01",
-        "IP": "1.0",
-        "H allowed": 3,
-        "R against": 3,
-        "ER": 3,
-        "BB against": 4,
-        "SO against": 1,
-        "A": 1
-      },
-      "Bob Wickman": {
-        "Player": "Bob Wickman",
-        "Player ID": "wickmbo01",
-        "IP": "1.0",
-        "SO against": 1,
-        "ERR": 1
-      },
       "Rafael Roque": {
         "Player": "Rafael Roque",
         "Player ID": "roquera01",
+        "Pit #": 1,
         "L": 1,
         "IP": "2.0",
         "H allowed": 4,
@@ -353,6 +336,7 @@
       "David Weathers": {
         "Player": "David Weathers",
         "Player ID": "weathda01",
+        "Pit #": 2,
         "IP": "2.0",
         "H allowed": 2,
         "R against": 0,
@@ -364,6 +348,7 @@
       "Chad Fox": {
         "Player": "Chad Fox",
         "Player ID": "foxch02",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 5,
         "R against": 4,
@@ -375,29 +360,36 @@
       "Mike Myers": {
         "Player": "Mike Myers",
         "Player ID": "myersmi01",
+        "Pit #": 4,
         "IP": "1.0",
         "SO against": 1
+      },
+      "Eric Plunk": {
+        "Player": "Eric Plunk",
+        "Player ID": "plunker01",
+        "Pit #": 5,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 4,
+        "SO against": 1,
+        "A": 1
+      },
+      "Bob Wickman": {
+        "Player": "Bob Wickman",
+        "Player ID": "wickmbo01",
+        "Pit #": 6,
+        "IP": "1.0",
+        "SO against": 1,
+        "ERR": 1
       }
     },
     "STL": {
-      "Ricky Bottalico": {
-        "Player": "Ricky Bottalico",
-        "Player ID": "bottari01",
-        "IP": "1.0",
-        "H allowed": 1,
-        "BB against": 1,
-        "SO against": 1
-      },
-      "Juan Acevedo": {
-        "Player": "Juan Acevedo",
-        "Player ID": "aceveju01",
-        "IP": "1.0",
-        "BB against": 2,
-        "A": 1
-      },
       "Donovan Osborne": {
         "Player": "Donovan Osborne",
         "Player ID": "osbordo01",
+        "Pit #": 1,
         "AB": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -408,6 +400,7 @@
       "Mike Busby": {
         "Player": "Mike Busby",
         "Player ID": "busbymi01",
+        "Pit #": 2,
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
@@ -417,15 +410,34 @@
       "Scott Radinsky": {
         "Player": "Scott Radinsky",
         "Player ID": "radinsc01",
+        "Pit #": 3,
         "IP": "1.0",
         "SO against": 1
       },
       "Manny Aybar": {
         "Player": "Manny Aybar",
         "Player ID": "aybarma01",
+        "Pit #": 4,
         "IP": "2.0",
         "H allowed": 1,
         "SO against": 1
+      },
+      "Ricky Bottalico": {
+        "Player": "Ricky Bottalico",
+        "Player ID": "bottari01",
+        "Pit #": 5,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Juan Acevedo": {
+        "Player": "Juan Acevedo",
+        "Player ID": "aceveju01",
+        "Pit #": 6,
+        "IP": "1.0",
+        "BB against": 2,
+        "A": 1
       }
     }
   },

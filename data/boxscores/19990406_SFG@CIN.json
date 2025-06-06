@@ -241,6 +241,7 @@
       "Kirk Rueter": {
         "Player": "Kirk Rueter",
         "Player ID": "rueteki01",
+        "Pit #": 1,
         "AB": 3,
         "SO": 1,
         "SH": 1,
@@ -258,6 +259,7 @@
       "Julian Tavarez": {
         "Player": "Julian Tavarez",
         "Player ID": "tavarju01",
+        "Pit #": 2,
         "IP": "2.0",
         "BB against": 1
       }
@@ -266,6 +268,7 @@
       "Jason Bere": {
         "Player": "Jason Bere",
         "Player ID": "bereja01",
+        "Pit #": 1,
         "AB": 1,
         "SO": 1,
         "L": 1,
@@ -281,6 +284,7 @@
       "Scott Williamson": {
         "Player": "Scott Williamson",
         "Player ID": "willisc01",
+        "Pit #": 2,
         "IP": "2.1",
         "R against": 1,
         "ER": 1,
@@ -291,6 +295,7 @@
       "Gabe White": {
         "Player": "Gabe White",
         "Player ID": "whitega01",
+        "Pit #": 3,
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
@@ -298,6 +303,7 @@
       "John Hudek": {
         "Player": "John Hudek",
         "Player ID": "hudekjo01",
+        "Pit #": 4,
         "IP": "1.0"
       }
     }

@@ -267,6 +267,7 @@
       "Rick Reed": {
         "Player": "Rick Reed",
         "Player ID": "reedri01",
+        "Pit #": 1,
         "AB": 5,
         "R": 1,
         "H": 3,
@@ -286,6 +287,7 @@
       "Dennis Cook": {
         "Player": "Dennis Cook",
         "Player ID": "cookde01",
+        "Pit #": 2,
         "IP": "0.1"
       }
     },
@@ -293,6 +295,7 @@
       "Livan Hernandez": {
         "Player": "Livan Hernandez",
         "Player ID": "hernali01",
+        "Pit #": 1,
         "AB": 1,
         "L": 1,
         "IP": "6.0",
@@ -307,6 +310,7 @@
       "Vic Darensbourg": {
         "Player": "Vic Darensbourg",
         "Player ID": "darenvi01",
+        "Pit #": 2,
         "IP": "0.2",
         "H allowed": 4,
         "R against": 3,
@@ -316,6 +320,7 @@
       "Braden Looper": {
         "Player": "Braden Looper",
         "Player ID": "loopebr01",
+        "Pit #": 3,
         "IP": "1.1",
         "H allowed": 4,
         "R against": 4,
@@ -327,6 +332,7 @@
       "Matt Mantei": {
         "Player": "Matt Mantei",
         "Player ID": "mantema01",
+        "Pit #": 4,
         "IP": "1.0",
         "H allowed": 1,
         "R against": 1,
@@ -478,8 +484,8 @@
         "3"
       ],
       "Matt Franco": [
-        "3",
-        "PR"
+        "PR",
+        "3"
       ],
       "Mike Piazza": [
         "2"
@@ -497,8 +503,8 @@
         "5"
       ],
       "Luis Lopez": [
-        "PH",
-        "5"
+        "5",
+        "PH"
       ],
       "Brian McRae": [
         "8"

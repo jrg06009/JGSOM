@@ -284,25 +284,10 @@
   },
   "pitching": {
     "PHI": {
-      "Jeff Brantley": {
-        "Player": "Jeff Brantley",
-        "Player ID": "brantje01",
-        "W": 1,
-        "IP": "1.2",
-        "HBP against": 1
-      },
-      "Wayne Gomes": {
-        "Player": "Wayne Gomes",
-        "Player ID": "gomeswa01",
-        "SV": 1,
-        "IP": "1.0",
-        "H allowed": 1,
-        "BB against": 2,
-        "SO against": 1
-      },
       "Chad Ogea": {
         "Player": "Chad Ogea",
         "Player ID": "ogeach01",
+        "Pit #": 1,
         "SH": 1,
         "IP": "5.0",
         "H allowed": 5,
@@ -319,14 +304,34 @@
       "Ken Ryan": {
         "Player": "Ken Ryan",
         "Player ID": "ryanke01",
+        "Pit #": 2,
         "IP": "1.0",
         "SO against": 1
       },
       "Jim Poole": {
         "Player": "Jim Poole",
         "Player ID": "pooleji02",
+        "Pit #": 3,
         "IP": "1.1",
         "H allowed": 1,
+        "SO against": 1
+      },
+      "Jeff Brantley": {
+        "Player": "Jeff Brantley",
+        "Player ID": "brantje01",
+        "Pit #": 4,
+        "W": 1,
+        "IP": "1.2",
+        "HBP against": 1
+      },
+      "Wayne Gomes": {
+        "Player": "Wayne Gomes",
+        "Player ID": "gomeswa01",
+        "Pit #": 5,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 2,
         "SO against": 1
       }
     },
@@ -334,6 +339,7 @@
       "Greg Maddux": {
         "Player": "Greg Maddux",
         "Player ID": "maddugr01",
+        "Pit #": 1,
         "AB": 3,
         "IP": "6.2",
         "H allowed": 9,
@@ -346,11 +352,13 @@
       "Rudy Seanez": {
         "Player": "Rudy Seanez",
         "Player ID": "seaneru01",
+        "Pit #": 2,
         "IP": "1.1"
       },
       "John Rocker": {
         "Player": "John Rocker",
         "Player ID": "rockejo01",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 3,
         "R against": 2,
@@ -360,6 +368,7 @@
       "Mike Cather": {
         "Player": "Mike Cather",
         "Player ID": "cathemi01",
+        "Pit #": 4,
         "L": 1,
         "IP": "1.0",
         "H allowed": 1,

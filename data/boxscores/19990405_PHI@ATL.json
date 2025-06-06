@@ -271,6 +271,7 @@
       "Curt Schilling": {
         "Player": "Curt Schilling",
         "Player ID": "schilcu01",
+        "Pit #": 1,
         "AB": 1,
         "SH": 1,
         "L": 1,
@@ -287,6 +288,7 @@
       "Yorkis Perez": {
         "Player": "Yorkis Perez",
         "Player ID": "perezyo01",
+        "Pit #": 2,
         "IP": "1.0",
         "H allowed": 2,
         "R against": 2,
@@ -297,6 +299,7 @@
       "Wayne Gomes": {
         "Player": "Wayne Gomes",
         "Player ID": "gomeswa01",
+        "Pit #": 3,
         "IP": "1.0",
         "H allowed": 1,
         "BB against": 2,
@@ -308,6 +311,7 @@
       "Tom Glavine": {
         "Player": "Tom Glavine",
         "Player ID": "glavito02",
+        "Pit #": 1,
         "AB": 1,
         "SH": 1,
         "W": 1,
@@ -324,6 +328,7 @@
       "Kevin McGlinchy": {
         "Player": "Kevin McGlinchy",
         "Player ID": "mcglike01",
+        "Pit #": 2,
         "IP": "1.0",
         "H allowed": 1,
         "A": 1
@@ -331,11 +336,13 @@
       "Mike Remlinger": {
         "Player": "Mike Remlinger",
         "Player ID": "remlimi01",
+        "Pit #": 3,
         "IP": "1.0"
       },
       "Mark Wohlers": {
         "Player": "Mark Wohlers",
         "Player ID": "wohlema01",
+        "Pit #": 4,
         "IP": "1.0",
         "BB against": 1
       }
@@ -476,8 +483,8 @@
         "4"
       ],
       "David Doster": [
-        "PH",
-        "4"
+        "4",
+        "PH"
       ],
       "Scott Rolen": [
         "5"
@@ -530,8 +537,8 @@
         "3"
       ],
       "Brian Hunter": [
-        "PH",
-        "3"
+        "3",
+        "PH"
       ],
       "Andruw Jones": [
         "8"

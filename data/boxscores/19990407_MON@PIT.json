@@ -299,25 +299,10 @@
   },
   "pitching": {
     "MON": {
-      "Ugueth Urbina": {
-        "Player": "Ugueth Urbina",
-        "Player ID": "urbinug01",
-        "IP": "2.0",
-        "SO against": 3
-      },
-      "Mike Maddux": {
-        "Player": "Mike Maddux",
-        "Player ID": "maddumi01",
-        "L": 1,
-        "IP": "0.1",
-        "H allowed": 2,
-        "R against": 1,
-        "ER": 1,
-        "BB against": 1
-      },
       "Javier Vazquez": {
         "Player": "Javier Vazquez",
         "Player ID": "vazquja01",
+        "Pit #": 1,
         "AB": 3,
         "R": 1,
         "H": 1,
@@ -332,6 +317,7 @@
       "Bobby Ayala": {
         "Player": "Bobby Ayala",
         "Player ID": "ayalabo01",
+        "Pit #": 2,
         "IP": "1.1",
         "H allowed": 2,
         "R against": 1,
@@ -343,15 +329,49 @@
       "Steve Kline": {
         "Player": "Steve Kline",
         "Player ID": "klinest02",
+        "Pit #": 3,
         "IP": "0.2",
         "H allowed": 1,
         "SO against": 1
+      },
+      "Ugueth Urbina": {
+        "Player": "Ugueth Urbina",
+        "Player ID": "urbinug01",
+        "Pit #": 4,
+        "IP": "2.0",
+        "SO against": 3
+      },
+      "Mike Maddux": {
+        "Player": "Mike Maddux",
+        "Player ID": "maddumi01",
+        "Pit #": 5,
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1
       }
     },
     "PIT": {
+      "Pete Schourek": {
+        "Player": "Pete Schourek",
+        "Player ID": "schoupe01",
+        "Pit #": 1,
+        "AB": 1,
+        "SO": 1,
+        "IP": "6.0",
+        "H allowed": 11,
+        "R against": 3,
+        "ER": 2,
+        "SO against": 4,
+        "PO": 1,
+        "A": 2
+      },
       "Rich Loiselle": {
         "Player": "Rich Loiselle",
         "Player ID": "loiseri01",
+        "Pit #": 2,
         "IP": "1.1",
         "H allowed": 3,
         "R against": 1,
@@ -362,6 +382,7 @@
       "Chris Peters": {
         "Player": "Chris Peters",
         "Player ID": "peterch01",
+        "Pit #": 3,
         "IP": "0.2",
         "BB against": 1,
         "IBB against": 1
@@ -369,25 +390,13 @@
       "Jason Phillips": {
         "Player": "Jason Phillips",
         "Player ID": "phillja03",
+        "Pit #": 4,
         "W": 1,
         "IP": "2.0",
         "H allowed": 2,
         "BB against": 1,
         "SO against": 1,
         "SB against": 1
-      },
-      "Pete Schourek": {
-        "Player": "Pete Schourek",
-        "Player ID": "schoupe01",
-        "AB": 1,
-        "SO": 1,
-        "IP": "6.0",
-        "H allowed": 11,
-        "R against": 3,
-        "ER": 2,
-        "SO against": 4,
-        "PO": 1,
-        "A": 2
       }
     }
   },
@@ -570,8 +579,8 @@
         "9"
       ],
       "Jose Vidro": [
-        "3",
-        "4"
+        "4",
+        "3"
       ],
       "Shane Andrews": [
         "5"
