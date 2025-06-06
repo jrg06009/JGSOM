@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "date": "1999-04-07 00:00:00",
+    "home": "MIN",
+    "away": "TOR",
+    "home_score": "4",
+    "away_score": "13"
+  },
+  "batting": {
+    "TOR": {
+      "Shannon Stewart": {
+        "Player": "Shannon Stewart",
+        "Player ID": "stewash01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 2,
+        "SO": 1,
+        "SF": 1,
+        "PO": 1
+      },
+      "Homer Bush": {
+        "Player": "Homer Bush",
+        "Player ID": "bushho01",
+        "AB": 6,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 3,
+        "A": 6,
+        "DP": 2
+      },
+      "Shawn Green": {
+        "Player": "Shawn Green",
+        "Player ID": "greensh01",
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "SO": 1
+      },
+      "Dave Hollins": {
+        "Player": "Dave Hollins",
+        "Player ID": "hollida01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 3
+      },
+      "Carlos Delgado": {
+        "Player": "Carlos Delgado",
+        "Player ID": "delgaca01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "PO": 11,
+        "DP": 2
+      },
+      "Tony Fernandez": {
+        "Player": "Tony Fernandez",
+        "Player ID": "fernato01",
+        "AB": 2,
+        "R": 2,
+        "H": 1,
+        "BB": 3,
+        "SO": 1,
+        "A": 2
+      },
+      "Jose Cruz": {
+        "Player": "Jose Cruz",
+        "Player ID": "cruzjo02",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "HR": 2,
+        "RBI": 3,
+        "GDP": 2,
+        "PO": 1
+      },
+      "Darrin Fletcher": {
+        "Player": "Darrin Fletcher",
+        "Player ID": "fletcda01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "BB": 1,
+        "PO": 9,
+        "A": 1,
+        "SB against": 3,
+        "CS against": 1
+      },
+      "Alex Gonzalez": {
+        "Player": "Alex Gonzalez",
+        "Player ID": "gonzaal01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 2,
+        "A": 4,
+        "ERR": 1,
+        "DP": 2
+      }
+    },
+    "MIN": {
+      "Torii Hunter": {
+        "Player": "Torii Hunter",
+        "Player ID": "hunteto01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "RBI": 2,
+        "SO": 1,
+        "SB": 1,
+        "PO": 4
+      },
+      "Brent Gates": {
+        "Player": "Brent Gates",
+        "Player ID": "gatesbr01",
+        "AB": 4,
+        "H": 2,
+        "SO": 1,
+        "CS": 1,
+        "A": 3,
+        "DP": 1
+      },
+      "Todd Walker": {
+        "Player": "Todd Walker",
+        "Player ID": "walketo04",
+        "AB": 4,
+        "RBI": 1,
+        "SB": 1,
+        "PO": 2,
+        "A": 4,
+        "DP": 1
+      },
+      "Ron Coomer": {
+        "Player": "Ron Coomer",
+        "Player ID": "coomero01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 9,
+        "A": 2,
+        "DP": 2
+      },
+      "Marty Cordova": {
+        "Player": "Marty Cordova",
+        "Player ID": "cordoma01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "SO": 2
+      },
+      "Matt Lawton": {
+        "Player": "Matt Lawton",
+        "Player ID": "lawtoma02",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 3
+      },
+      "Chad Allen": {
+        "Player": "Chad Allen",
+        "Player ID": "allench01",
+        "AB": 4,
+        "RBI": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Terry Steinbach": {
+        "Player": "Terry Steinbach",
+        "Player ID": "steinte01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 2,
+        "PO": 6
+      },
+      "Cristian Guzman": {
+        "Player": "Cristian Guzman",
+        "Player ID": "guzmacr01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "SB": 1,
+        "HBP": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      }
+    }
+  },
+  "pitching": {
+    "TOR": {
+      "David Wells": {
+        "Player": "David Wells",
+        "Player ID": "wellsda01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 8,
+        "R against": 4,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 6,
+        "HBP against": 1,
+        "SB against": 3,
+        "CS against": 1
+      },
+      "Roy Halladay": {
+        "Player": "Roy Halladay",
+        "Player ID": "hallaro01",
+        "Pit #": 2,
+        "SV": 1,
+        "IP": "3.0",
+        "BB against": 2,
+        "SO against": 2
+      }
+    },
+    "MIN": {
+      "Mike Lincoln": {
+        "Player": "Mike Lincoln",
+        "Player ID": "lincomi01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "2.1",
+        "H allowed": 6,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 1,
+        "BB against": 3,
+        "SO against": 1
+      },
+      "Bob Wells": {
+        "Player": "Bob Wells",
+        "Player ID": "wellsbo01",
+        "Pit #": 2,
+        "IP": "0.2",
+        "H allowed": 4,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Dan Perkins": {
+        "Player": "Dan Perkins",
+        "Player ID": "perkida01",
+        "Pit #": 3,
+        "IP": "3.0",
+        "R against": 2,
+        "ER": 2,
+        "BB against": 3,
+        "SO against": 1
+      },
+      "Joe Mays": {
+        "Player": "Joe Mays",
+        "Player ID": "maysjo01",
+        "Pit #": 4,
+        "IP": "3.0",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 2,
+        "PO": 1
+      }
+    }
+  },
+  "batting_order": {
+    "TOR": [
+      [
+        1,
+        "Shannon Stewart"
+      ],
+      [
+        2,
+        "Homer Bush"
+      ],
+      [
+        3,
+        "Shawn Green"
+      ],
+      [
+        4,
+        "Dave Hollins"
+      ],
+      [
+        5,
+        "Carlos Delgado"
+      ],
+      [
+        6,
+        "Tony Fernandez"
+      ],
+      [
+        7,
+        "Jose Cruz"
+      ],
+      [
+        8,
+        "Darrin Fletcher"
+      ],
+      [
+        9,
+        "Alex Gonzalez"
+      ]
+    ],
+    "MIN": [
+      [
+        1,
+        "Torii Hunter"
+      ],
+      [
+        2,
+        "Brent Gates"
+      ],
+      [
+        3,
+        "Todd Walker"
+      ],
+      [
+        4,
+        "Ron Coomer"
+      ],
+      [
+        5,
+        "Marty Cordova"
+      ],
+      [
+        6,
+        "Matt Lawton"
+      ],
+      [
+        7,
+        "Chad Allen"
+      ],
+      [
+        8,
+        "Terry Steinbach"
+      ],
+      [
+        9,
+        "Cristian Guzman"
+      ]
+    ]
+  },
+  "positions": {
+    "TOR": {
+      "Shannon Stewart": [
+        "7"
+      ],
+      "Homer Bush": [
+        "4"
+      ],
+      "Shawn Green": [
+        "9"
+      ],
+      "Dave Hollins": [
+        "DH"
+      ],
+      "Carlos Delgado": [
+        "3"
+      ],
+      "Tony Fernandez": [
+        "5"
+      ],
+      "Jose Cruz": [
+        "8"
+      ],
+      "Darrin Fletcher": [
+        "2"
+      ],
+      "Alex Gonzalez": [
+        "6"
+      ],
+      "David Wells": [
+        "1"
+      ],
+      "Roy Halladay": [
+        "1"
+      ]
+    },
+    "MIN": {
+      "Torii Hunter": [
+        "8"
+      ],
+      "Brent Gates": [
+        "5"
+      ],
+      "Todd Walker": [
+        "4"
+      ],
+      "Ron Coomer": [
+        "3"
+      ],
+      "Marty Cordova": [
+        "DH"
+      ],
+      "Matt Lawton": [
+        "9"
+      ],
+      "Chad Allen": [
+        "7"
+      ],
+      "Terry Steinbach": [
+        "2"
+      ],
+      "Cristian Guzman": [
+        "6"
+      ],
+      "Mike Lincoln": [
+        "1"
+      ],
+      "Bob Wells": [
+        "1"
+      ],
+      "Dan Perkins": [
+        "1"
+      ],
+      "Joe Mays": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "TOR": {
+      "Shannon Stewart": 1,
+      "Homer Bush": 1,
+      "Shawn Green": 1,
+      "Dave Hollins": 1,
+      "Carlos Delgado": 1,
+      "Tony Fernandez": 1,
+      "Jose Cruz": 1,
+      "Darrin Fletcher": 1,
+      "Alex Gonzalez": 1,
+      "David Wells": 1
+    },
+    "MIN": {
+      "Torii Hunter": 1,
+      "Brent Gates": 1,
+      "Todd Walker": 1,
+      "Ron Coomer": 1,
+      "Marty Cordova": 1,
+      "Matt Lawton": 1,
+      "Chad Allen": 1,
+      "Terry Steinbach": 1,
+      "Cristian Guzman": 1,
+      "Mike Lincoln": 1
+    }
+  }
+}
