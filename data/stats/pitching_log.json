@@ -4057,5 +4057,61 @@
     "IP": 2.0,
     "H allowed": 1,
     "BB against": 1
+  },
+  {
+    "Player": "Masato Yoshii",
+    "Player ID": "yoshima01",
+    "Team": "NYM",
+    "Game#": 62,
+    "Game ID": "19990409_NYM@MON",
+    "IP": 7.333333333333333,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 5,
+    "R against": 2,
+    "ER": 2,
+    "BB against": 2,
+    "SO against": 4
+  },
+  {
+    "Player": "Armando Benitez",
+    "Player ID": "benitar01",
+    "Team": "NYM",
+    "Game#": 62,
+    "Game ID": "19990409_NYM@MON",
+    "IP": 0.6666666666666666
+  },
+  {
+    "Player": "Steve Kline",
+    "Player ID": "klinest02",
+    "Team": "MON",
+    "Game#": 62,
+    "Game ID": "19990409_NYM@MON",
+    "IP": 0.3333333333333333,
+    "W": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Ugueth Urbina",
+    "Player ID": "urbinug01",
+    "Team": "MON",
+    "Game#": 62,
+    "Game ID": "19990409_NYM@MON",
+    "IP": 1.0,
+    "SV": 1,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Mike Thurman",
+    "Player ID": "thurmmi01",
+    "Team": "MON",
+    "Game#": 62,
+    "Game ID": "19990409_NYM@MON",
+    "IP": 7.666666666666667,
+    "GS": 1,
+    "H allowed": 4,
+    "BB against": 3,
+    "SO against": 6
   }
 ]
