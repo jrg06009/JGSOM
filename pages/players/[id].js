@@ -100,17 +100,22 @@ export default function PlayerPage() {
   // Appearances summary: G, GS, and games at each role/position
 const appearances = {}
 const allPositions = ['P','C','1B','2B','3B','SS','LF','CF','RF','DH','PH','PR']
+const seenGames = new Set()
 
 // Build summary from battingLog + fieldingByPosition
 battingLog
   .filter(p => p['Player ID'] === id)
   .forEach(p => {
     const team = p.Team
+    const gameKey = `${team}-${p['Game#']}`
     if (!appearances[team]) {
       appearances[team] = { team, G: 0, GS: 0 }
       allPositions.forEach(pos => appearances[team][pos] = 0)
     }
-    appearances[team].G += 1
+    if (!seenGames.has(gameKey)) {
+      appearances[team].G += 1
+      seenGames.add(gameKey)
+    }
     appearances[team].GS += p.GS || 0
     const pos = p.POS?.toUpperCase()
     if (['PH','PR','DH'].includes(pos)) {
@@ -123,13 +128,20 @@ fieldingByPosition
   .forEach(p => {
     const team = p.team
     const pos = positionMap[p.POS]
+    const gameKey = `${team}-${p['Game#']}`
+
     if (!appearances[team]) {
       appearances[team] = { team, G: 0, GS: 0 }
       allPositions.forEach(pos => appearances[team][pos] = 0)
     }
+
+    if (!seenGames.has(gameKey)) {
+      appearances[team].G += p.G || 0  // Only if not already counted
+      seenGames.add(gameKey)
+    }
+
     appearances[team][pos] += p.G || 0
     appearances[team].GS += p.GS || 0
-    appearances[team].G += p.G || 0  // ensure they count even if no BOP
   })
 
 const appearanceRows = Object.values(appearances)
