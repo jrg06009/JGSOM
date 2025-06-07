@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "MON",
+    "away": "NYM",
+    "home_score": "8",
+    "away_score": "3"
+  },
+  "batting": {
+    "NYM": {
+      "Roger Cedeno": {
+        "Player": "Roger Cedeno",
+        "Player ID": "cedenro01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1
+      },
+      "Edgardo Alfonzo": {
+        "Player": "Edgardo Alfonzo",
+        "Player ID": "alfoned01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 4,
+        "DP": 1
+      },
+      "John Olerud": {
+        "Player": "John Olerud",
+        "Player ID": "olerujo01",
+        "AB": 4,
+        "PO": 8,
+        "A": 1,
+        "DP": 1
+      },
+      "Bobby Bonilla": {
+        "Player": "Bobby Bonilla",
+        "Player ID": "bonilbo01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1
+      },
+      "Robin Ventura": {
+        "Player": "Robin Ventura",
+        "Player ID": "venturo01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Brian McRae": {
+        "Player": "Brian McRae",
+        "Player ID": "mcraebr01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 4
+      },
+      "Todd Pratt": {
+        "Player": "Todd Pratt",
+        "Player ID": "prattto02",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 7,
+        "SB against": 1
+      },
+      "Rey Ordonez": {
+        "Player": "Rey Ordonez",
+        "Player ID": "ordonre01",
+        "AB": 4,
+        "A": 2
+      },
+      "Al Leiter": {
+        "Player": "Al Leiter",
+        "Player ID": "leiteal01",
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "SO against": 2,
+        "A": 3,
+        "DP": 1,
+        "SB against": 1
+      },
+      "Mike Piazza": {
+        "Player": "Mike Piazza",
+        "Player ID": "piazzmi01",
+        "AB": 1,
+        "GDP": 1
+      },
+      "Dennis Cook": {
+        "Player": "Dennis Cook",
+        "Player ID": "cookde01",
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "SO against": 1
+      },
+      "John Franco": {
+        "Player": "John Franco",
+        "Player ID": "francjo01",
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "SO against": 2
+      }
+    },
+    "MON": {
+      "Wilton Guerrero": {
+        "Player": "Wilton Guerrero",
+        "Player ID": "guerrwi01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "SB": 1,
+        "PO": 2,
+        "A": 2,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Steve Kline": {
+        "Player": "Steve Kline",
+        "Player ID": "klinest02",
+        "IP": "1.0",
+        "A": 2
+      },
+      "Shane Andrews": {
+        "Player": "Shane Andrews",
+        "Player ID": "andresh01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Bobby Ayala": {
+        "Player": "Bobby Ayala",
+        "Player ID": "ayalabo01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1
+      },
+      "Orlando Cabrera": {
+        "Player": "Orlando Cabrera",
+        "Player ID": "cabreor01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "RBI": 2,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Rondell White": {
+        "Player": "Rondell White",
+        "Player ID": "whitero02",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 2
+      },
+      "Vladimir Guerrero": {
+        "Player": "Vladimir Guerrero",
+        "Player ID": "guerrvl01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "3B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 1
+      },
+      "Jose Vidro": {
+        "Player": "Jose Vidro",
+        "Player ID": "vidrojo01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 11,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Michael Barrett": {
+        "Player": "Michael Barrett",
+        "Player ID": "barremi01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "Chris Widger": {
+        "Player": "Chris Widger",
+        "Player ID": "widgech01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 6,
+        "A": 1
+      },
+      "Manny Martinez": {
+        "Player": "Manny Martinez",
+        "Player ID": "martima02",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "SO": 1,
+        "PO": 2
+      },
+      "Dustin Hermanson": {
+        "Player": "Dustin Hermanson",
+        "Player ID": "hermadu01",
+        "SH": 2,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "SO against": 6
+      },
+      "James Mouton": {
+        "Player": "James Mouton",
+        "Player ID": "moutoja01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "2B": 1
+      },
+      "Mike Mordecai": {
+        "Player": "Mike Mordecai",
+        "Player ID": "mordemi01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "NYM": {
+      "Al Leiter": {
+        "Player": "Al Leiter",
+        "Player ID": "leiteal01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "SO against": 2,
+        "A": 3,
+        "DP": 1,
+        "SB against": 1
+      },
+      "Dennis Cook": {
+        "Player": "Dennis Cook",
+        "Player ID": "cookde01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "SO against": 1
+      },
+      "John Franco": {
+        "Player": "John Franco",
+        "Player ID": "francjo01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "SO against": 2
+      }
+    },
+    "MON": {
+      "Dustin Hermanson": {
+        "Player": "Dustin Hermanson",
+        "Player ID": "hermadu01",
+        "Pit #": 1,
+        "SH": 2,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "SO against": 6
+      },
+      "Steve Kline": {
+        "Player": "Steve Kline",
+        "Player ID": "klinest02",
+        "Pit #": 2,
+        "IP": "1.0",
+        "A": 2
+      },
+      "Bobby Ayala": {
+        "Player": "Bobby Ayala",
+        "Player ID": "ayalabo01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "NYM": [
+      [
+        1,
+        "Roger Cedeno"
+      ],
+      [
+        2,
+        "Edgardo Alfonzo"
+      ],
+      [
+        3,
+        "John Olerud"
+      ],
+      [
+        4,
+        "Bobby Bonilla"
+      ],
+      [
+        5,
+        "Robin Ventura"
+      ],
+      [
+        6,
+        "Brian McRae"
+      ],
+      [
+        7,
+        "Todd Pratt"
+      ],
+      [
+        8,
+        "Rey Ordonez"
+      ],
+      [
+        9,
+        "Al Leiter"
+      ],
+      [
+        9,
+        "Mike Piazza"
+      ],
+      [
+        9,
+        "Dennis Cook"
+      ],
+      [
+        9,
+        "John Franco"
+      ]
+    ],
+    "MON": [
+      [
+        1,
+        "Wilton Guerrero"
+      ],
+      [
+        1,
+        "Steve Kline"
+      ],
+      [
+        1,
+        "Shane Andrews"
+      ],
+      [
+        1,
+        "Bobby Ayala"
+      ],
+      [
+        2,
+        "Orlando Cabrera"
+      ],
+      [
+        3,
+        "Rondell White"
+      ],
+      [
+        4,
+        "Vladimir Guerrero"
+      ],
+      [
+        5,
+        "Jose Vidro"
+      ],
+      [
+        6,
+        "Michael Barrett"
+      ],
+      [
+        7,
+        "Chris Widger"
+      ],
+      [
+        8,
+        "Manny Martinez"
+      ],
+      [
+        9,
+        "Dustin Hermanson"
+      ],
+      [
+        9,
+        "James Mouton"
+      ],
+      [
+        9,
+        "Mike Mordecai"
+      ]
+    ]
+  },
+  "positions": {
+    "NYM": {
+      "Roger Cedeno": [
+        "7"
+      ],
+      "Edgardo Alfonzo": [
+        "4"
+      ],
+      "John Olerud": [
+        "3"
+      ],
+      "Bobby Bonilla": [
+        "9"
+      ],
+      "Robin Ventura": [
+        "5"
+      ],
+      "Brian McRae": [
+        "8"
+      ],
+      "Todd Pratt": [
+        "2"
+      ],
+      "Rey Ordonez": [
+        "6"
+      ],
+      "Al Leiter": [
+        "1"
+      ],
+      "Mike Piazza": [
+        "PH"
+      ],
+      "Dennis Cook": [
+        "1"
+      ],
+      "John Franco": [
+        "1"
+      ]
+    },
+    "MON": {
+      "Wilton Guerrero": [
+        "4"
+      ],
+      "Steve Kline": [
+        "1"
+      ],
+      "Shane Andrews": [
+        "PH"
+      ],
+      "Bobby Ayala": [
+        "1"
+      ],
+      "Orlando Cabrera": [
+        "6"
+      ],
+      "Rondell White": [
+        "7"
+      ],
+      "Vladimir Guerrero": [
+        "9"
+      ],
+      "Jose Vidro": [
+        "3"
+      ],
+      "Michael Barrett": [
+        "5"
+      ],
+      "Chris Widger": [
+        "2"
+      ],
+      "Manny Martinez": [
+        "8"
+      ],
+      "Dustin Hermanson": [
+        "1"
+      ],
+      "James Mouton": [
+        "PH"
+      ],
+      "Mike Mordecai": [
+        "4"
+      ]
+    }
+  },
+  "games_started": {
+    "NYM": {
+      "Roger Cedeno": 1,
+      "Edgardo Alfonzo": 1,
+      "John Olerud": 1,
+      "Bobby Bonilla": 1,
+      "Robin Ventura": 1,
+      "Brian McRae": 1,
+      "Todd Pratt": 1,
+      "Rey Ordonez": 1,
+      "Al Leiter": 1
+    },
+    "MON": {
+      "Wilton Guerrero": 1,
+      "Orlando Cabrera": 1,
+      "Rondell White": 1,
+      "Vladimir Guerrero": 1,
+      "Jose Vidro": 1,
+      "Michael Barrett": 1,
+      "Chris Widger": 1,
+      "Manny Martinez": 1,
+      "Dustin Hermanson": 1
+    }
+  }
+}
