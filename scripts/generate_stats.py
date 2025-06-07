@@ -715,6 +715,7 @@ for _, row in gamelog_df.iterrows():
     # Batting log
     if not pd.isna(bop) and bop > 0:
         entry = meta.copy()
+        entry["POS"] = row.get("POS") 
         for stat in [
             "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "IBB", "SO", "SB", "CS", "GDP",
             "HBP", "SH", "SF"
