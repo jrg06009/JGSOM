@@ -5,6 +5,7 @@ import fielding from '../../data/stats/fielding.json'
 import fieldingByPosition from '../../data/stats/fielding_by_position.json'
 import playerPhotos from '../../data/player_photos.json'
 import battingLog from '../../data/stats/batting_log.json'
+import fieldingLog from '../../data/stats/fielding_log.json'
 import Link from 'next/link'
 
 const positionMap = {
