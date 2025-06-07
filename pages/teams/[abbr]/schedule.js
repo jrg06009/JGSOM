@@ -17,6 +17,14 @@ function formatPrettyDate(dateStr) {
   }).replace(`${day}`, `${day}${suffix}`)
 }
 
+function formatSimDate(dateStr) {
+  const d = new Date(dateStr)
+  const month = d.getMonth() + 1
+  const day = d.getDate()
+  const year = d.getFullYear() % 100
+  return `${month}/${day}/${year}`
+}
+
 const teamMap = Object.fromEntries(teams.map(t => [t.id, t]))
 
 export async function getStaticPaths() {
@@ -155,7 +163,7 @@ const TeamSchedule = ({ abbr, team, games, boxscores }) => {
                         </Link>
                       ) : '—'}
                     </td>
-                    <td className="border p-1 text-center">{game.simDate ? game.simDate.split('T')[0] : '—'}</td>
+                    <td className="border p-1 text-center">{game.simDate ? formatSimDate(game.simDate) : '—'}</td>
                   </tr>
                 </>
               )
