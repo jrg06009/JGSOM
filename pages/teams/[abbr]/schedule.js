@@ -155,7 +155,7 @@ const TeamSchedule = ({ abbr, team, games, boxscores }) => {
                         </Link>
                       ) : '—'}
                     </td>
-                    <td className="border p-1 text-center">{game.simDate || '—'}</td>
+                    <td className="border p-1 text-center">{game.simDate ? game.simDate.split('T')[0] : '—'}</td>
                   </tr>
                 </>
               )
