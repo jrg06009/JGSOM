@@ -97,48 +97,83 @@ export default function PlayerPage() {
     return acc;
   }, {});
 
-  // Appearances summary: G, GS, and games at each role/position
+// Appearances summary: G, GS, and games at each role/position
 const appearances = {}
 const allPositions = ['P','C','1B','2B','3B','SS','LF','CF','RF','DH','PH','PR']
 const seenGames = new Set()
+const seenStarts = new Set()
+const seenPositionGames = {}  // key: `${team}-${game#}-${pos}`
 
-// Build summary from battingLog + fieldingByPosition
+// Initialize team rows
+const ensureTeam = (team) => {
+  if (!appearances[team]) {
+    appearances[team] = { team, G: 0, GS: 0 }
+    allPositions.forEach(pos => appearances[team][pos] = 0)
+  }
+}
+
+// Batting log: DH, PH, PR and GS
 battingLog
   .filter(p => p['Player ID'] === id)
   .forEach(p => {
     const team = p.Team
     const gameKey = `${team}-${p['Game#']}`
-    if (!appearances[team]) {
-      appearances[team] = { team, G: 0, GS: 0 }
-      allPositions.forEach(pos => appearances[team][pos] = 0)
-    }
+
+    ensureTeam(team)
+
+    // Count total game
     if (!seenGames.has(gameKey)) {
       appearances[team].G += 1
       seenGames.add(gameKey)
     }
-    appearances[team].GS += p.GS || 0
-    const pos = p.POS?.toUpperCase()
-    if (['PH','PR','DH'].includes(pos)) {
+
+    // Count start
+    if (p.GS && !seenStarts.has(gameKey)) {
+      appearances[team].GS += 1
+      seenStarts.add(gameKey)
+    }
+
+    // Count DH/PH/PR appearance at game level
+    const pos = (p.POS || '').toUpperCase()
+    const posKey = `${gameKey}-${pos}`
+    if (['PH', 'PR', 'DH'].includes(pos) && !seenPositionGames[posKey]) {
       appearances[team][pos] += 1
+      seenPositionGames[posKey] = true
     }
   })
 
+// Fielding log: defensive positions (P–RF)
 fieldingByPosition
   .filter(p => p['Player ID'] === id)
   .forEach(p => {
     const team = p.team
-    const pos = positionMap[p.POS]
+    const pos = positionMap[p.POS]  // e.g., '1' → 'P'
     const gameKey = `${team}-${p['Game#']}`
+    const posKey = `${gameKey}-${pos}`
 
-    if (!appearances[team]) {
-      appearances[team] = { team, G: 0, GS: 0 }
-      allPositions.forEach(pos => appearances[team][pos] = 0)
+    ensureTeam(team)
+
+    // Total game already counted above if from battingLog
+    if (!seenGames.has(gameKey)) {
+      appearances[team].G += 1
+      seenGames.add(gameKey)
     }
 
-    appearances[team][pos] += p.G || 0
+    // Defensive position game appearance
+    if (!seenPositionGames[posKey]) {
+      appearances[team][pos] += 1
+      seenPositionGames[posKey] = true
+    }
+
+    // Count starts if GS present and not double counted
+    if (p.GS && !seenStarts.has(gameKey)) {
+      appearances[team].GS += 1
+      seenStarts.add(gameKey)
+    }
   })
 
 const appearanceRows = Object.values(appearances)
+
 
   return (
     <div className="p-4">
