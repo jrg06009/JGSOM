@@ -137,11 +137,11 @@ fieldingByPosition
 
     if (!seenGames.has(gameKey)) {
       appearances[team].G += p.G || 0  // Only if not already counted
+      appearances[team].GS += p.GS || 0
       seenGames.add(gameKey)
     }
 
     appearances[team][pos] += p.G || 0
-    appearances[team].GS += p.GS || 0
   })
 
 const appearanceRows = Object.values(appearances)
