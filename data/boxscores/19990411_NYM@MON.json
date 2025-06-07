@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "MON",
+    "away": "NYM",
+    "home_score": "5",
+    "away_score": "4"
+  },
+  "batting": {
+    "NYM": {
+      "Rickey Henderson": {
+        "Player": "Rickey Henderson",
+        "Player ID": "henderi01",
+        "AB": 5,
+        "H": 1,
+        "RBI": 1,
+        "SB": 1,
+        "PO": 4
+      },
+      "Edgardo Alfonzo": {
+        "Player": "Edgardo Alfonzo",
+        "Player ID": "alfoned01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "BB": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 1
+      },
+      "John Olerud": {
+        "Player": "John Olerud",
+        "Player ID": "olerujo01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 2,
+        "IBB": 1,
+        "SO": 1,
+        "PO": 4
+      },
+      "Bobby Bonilla": {
+        "Player": "Bobby Bonilla",
+        "Player ID": "bonilbo01",
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 2
+      },
+      "Robin Ventura": {
+        "Player": "Robin Ventura",
+        "Player ID": "venturo01",
+        "AB": 3,
+        "H": 1,
+        "RBI": 2,
+        "BB": 1,
+        "SO": 2,
+        "A": 1
+      },
+      "Brian McRae": {
+        "Player": "Brian McRae",
+        "Player ID": "mcraebr01",
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "SF": 1,
+        "PO": 4
+      },
+      "Todd Pratt": {
+        "Player": "Todd Pratt",
+        "Player ID": "prattto02",
+        "AB": 4,
+        "SO": 1,
+        "PO": 9,
+        "SB against": 1
+      },
+      "Luis Lopez": {
+        "Player": "Luis Lopez",
+        "Player ID": "lopezlu02",
+        "AB": 2,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "HBP": 1,
+        "A": 3
+      },
+      "Rick Reed": {
+        "Player": "Rick Reed",
+        "Player ID": "reedri01",
+        "AB": 2,
+        "SO": 1,
+        "IP": "3.1",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "SO against": 3
+      },
+      "Allen Watson": {
+        "Player": "Allen Watson",
+        "Player ID": "watsoal01",
+        "IP": "2.2",
+        "H allowed": 1,
+        "BB against": 3,
+        "SO against": 4,
+        "HBP against": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Matt Franco": {
+        "Player": "Matt Franco",
+        "Player ID": "francma01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Turk Wendell": {
+        "Player": "Turk Wendell",
+        "Player ID": "wendetu01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Roger Cedeno": {
+        "Player": "Roger Cedeno",
+        "Player ID": "cedenro01",
+        "HBP": 1
+      },
+      "Armando Benitez": {
+        "Player": "Armando Benitez",
+        "Player ID": "benitar01",
+        "L": 1,
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      }
+    },
+    "MON": {
+      "James Mouton": {
+        "Player": "James Mouton",
+        "Player ID": "moutoja01",
+        "AB": 4,
+        "BB": 1,
+        "SO": 2,
+        "SB": 1,
+        "PO": 6
+      },
+      "Orlando Merced": {
+        "Player": "Orlando Merced",
+        "Player ID": "merceor01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 1
+      },
+      "Shane Andrews": {
+        "Player": "Shane Andrews",
+        "Player ID": "andresh01",
+        "AB": 1,
+        "PO": 2,
+        "DP": 1
+      },
+      "Jose Vidro": {
+        "Player": "Jose Vidro",
+        "Player ID": "vidrojo01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Vladimir Guerrero": {
+        "Player": "Vladimir Guerrero",
+        "Player ID": "guerrvl01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SO": 2
+      },
+      "Brad Fullmer": {
+        "Player": "Brad Fullmer",
+        "Player ID": "fullmbr01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 2,
+        "PO": 5,
+        "DP": 1
+      },
+      "Manny Martinez": {
+        "Player": "Manny Martinez",
+        "Player ID": "martima02"
+      },
+      "Michael Barrett": {
+        "Player": "Michael Barrett",
+        "Player ID": "barremi01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Chris Widger": {
+        "Player": "Chris Widger",
+        "Player ID": "widgech01",
+        "AB": 3,
+        "HBP": 1,
+        "PO": 8,
+        "SB against": 1
+      },
+      "Mike Mordecai": {
+        "Player": "Mike Mordecai",
+        "Player ID": "mordemi01",
+        "AB": 4,
+        "SO": 2,
+        "PO": 2,
+        "A": 4,
+        "DP": 2
+      },
+      "Carl Pavano": {
+        "Player": "Carl Pavano",
+        "Player ID": "pavanca01",
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "IP": "7.1",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 3,
+        "SO against": 6,
+        "HBP against": 2,
+        "BK": 2,
+        "A": 1,
+        "DP": 1
+      },
+      "Steve Kline": {
+        "Player": "Steve Kline",
+        "Player ID": "klinest02",
+        "IP": "0.2",
+        "BB against": 1
+      },
+      "Wilton Guerrero": {
+        "Player": "Wilton Guerrero",
+        "Player ID": "guerrwi01",
+        "BB": 1
+      }
+    },
+    "mon": {
+      "Ugueth Urbina": {
+        "Player": "Ugueth Urbina",
+        "Player ID": "urbinug01",
+        "W": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "IBB against": 1,
+        "SO against": 2,
+        "HBP against": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "pitching": {
+    "NYM": {
+      "Rick Reed": {
+        "Player": "Rick Reed",
+        "Player ID": "reedri01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "IP": "3.1",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "SO against": 3
+      },
+      "Allen Watson": {
+        "Player": "Allen Watson",
+        "Player ID": "watsoal01",
+        "Pit #": 2,
+        "IP": "2.2",
+        "H allowed": 1,
+        "BB against": 3,
+        "SO against": 4,
+        "HBP against": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Turk Wendell": {
+        "Player": "Turk Wendell",
+        "Player ID": "wendetu01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Armando Benitez": {
+        "Player": "Armando Benitez",
+        "Player ID": "benitar01",
+        "Pit #": 4,
+        "L": 1,
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      }
+    },
+    "MON": {
+      "Carl Pavano": {
+        "Player": "Carl Pavano",
+        "Player ID": "pavanca01",
+        "Pit #": 1,
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "IP": "7.1",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 3,
+        "SO against": 6,
+        "HBP against": 2,
+        "BK": 2,
+        "A": 1,
+        "DP": 1
+      },
+      "Steve Kline": {
+        "Player": "Steve Kline",
+        "Player ID": "klinest02",
+        "Pit #": 2,
+        "IP": "0.2",
+        "BB against": 1
+      }
+    },
+    "mon": {
+      "Ugueth Urbina": {
+        "Player": "Ugueth Urbina",
+        "Player ID": "urbinug01",
+        "Pit #": 3,
+        "W": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "IBB against": 1,
+        "SO against": 2,
+        "HBP against": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "NYM": [
+      [
+        1,
+        "Rickey Henderson"
+      ],
+      [
+        2,
+        "Edgardo Alfonzo"
+      ],
+      [
+        3,
+        "John Olerud"
+      ],
+      [
+        4,
+        "Bobby Bonilla"
+      ],
+      [
+        5,
+        "Robin Ventura"
+      ],
+      [
+        6,
+        "Brian McRae"
+      ],
+      [
+        7,
+        "Todd Pratt"
+      ],
+      [
+        8,
+        "Luis Lopez"
+      ],
+      [
+        9,
+        "Rick Reed"
+      ],
+      [
+        9,
+        "Allen Watson"
+      ],
+      [
+        9,
+        "Matt Franco"
+      ],
+      [
+        9,
+        "Turk Wendell"
+      ],
+      [
+        9,
+        "Roger Cedeno"
+      ],
+      [
+        9,
+        "Armando Benitez"
+      ]
+    ],
+    "MON": [
+      [
+        1,
+        "James Mouton"
+      ],
+      [
+        1,
+        "James Mouton"
+      ],
+      [
+        2,
+        "Orlando Merced"
+      ],
+      [
+        2,
+        "Shane Andrews"
+      ],
+      [
+        3,
+        "Jose Vidro"
+      ],
+      [
+        4,
+        "Vladimir Guerrero"
+      ],
+      [
+        5,
+        "Brad Fullmer"
+      ],
+      [
+        5,
+        "Manny Martinez"
+      ],
+      [
+        5,
+        "Manny Martinez"
+      ],
+      [
+        6,
+        "Michael Barrett"
+      ],
+      [
+        7,
+        "Chris Widger"
+      ],
+      [
+        8,
+        "Mike Mordecai"
+      ],
+      [
+        9,
+        "Carl Pavano"
+      ],
+      [
+        9,
+        "Steve Kline"
+      ],
+      [
+        9,
+        "Wilton Guerrero"
+      ]
+    ],
+    "mon": [
+      [
+        9,
+        "Ugueth Urbina"
+      ]
+    ]
+  },
+  "positions": {
+    "NYM": {
+      "Rickey Henderson": [
+        "7"
+      ],
+      "Edgardo Alfonzo": [
+        "4"
+      ],
+      "John Olerud": [
+        "3"
+      ],
+      "Bobby Bonilla": [
+        "9"
+      ],
+      "Robin Ventura": [
+        "5"
+      ],
+      "Brian McRae": [
+        "8"
+      ],
+      "Todd Pratt": [
+        "2"
+      ],
+      "Luis Lopez": [
+        "6"
+      ],
+      "Rick Reed": [
+        "1"
+      ],
+      "Allen Watson": [
+        "1"
+      ],
+      "Matt Franco": [
+        "PH"
+      ],
+      "Turk Wendell": [
+        "1"
+      ],
+      "Roger Cedeno": [
+        "PH"
+      ],
+      "Armando Benitez": [
+        "1"
+      ]
+    },
+    "MON": {
+      "James Mouton": [
+        "8",
+        "7"
+      ],
+      "Orlando Merced": [
+        "7"
+      ],
+      "Shane Andrews": [
+        "3"
+      ],
+      "Jose Vidro": [
+        "4"
+      ],
+      "Vladimir Guerrero": [
+        "9"
+      ],
+      "Brad Fullmer": [
+        "3"
+      ],
+      "Manny Martinez": [
+        "8",
+        "PR"
+      ],
+      "Michael Barrett": [
+        "5"
+      ],
+      "Chris Widger": [
+        "2"
+      ],
+      "Mike Mordecai": [
+        "6"
+      ],
+      "Carl Pavano": [
+        "1"
+      ],
+      "Steve Kline": [
+        "1"
+      ],
+      "Wilton Guerrero": [
+        "PH"
+      ]
+    },
+    "mon": {
+      "Ugueth Urbina": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "NYM": {
+      "Rickey Henderson": 1,
+      "Edgardo Alfonzo": 1,
+      "John Olerud": 1,
+      "Bobby Bonilla": 1,
+      "Robin Ventura": 1,
+      "Brian McRae": 1,
+      "Todd Pratt": 1,
+      "Luis Lopez": 1,
+      "Rick Reed": 1
+    },
+    "MON": {
+      "James Mouton": 1,
+      "Orlando Merced": 1,
+      "Jose Vidro": 1,
+      "Vladimir Guerrero": 1,
+      "Brad Fullmer": 1,
+      "Michael Barrett": 1,
+      "Chris Widger": 1,
+      "Mike Mordecai": 1,
+      "Carl Pavano": 1
+    }
+  }
+}
