@@ -110,7 +110,7 @@ battingLog
   .forEach(p => {
     const team = p.Team
     const gameKey = `${team}-${p['Game#']}`
-    const pos = p.POS?.toUpperCase()
+    const pos = p.POS ? String(p.POS).toUpperCase() : ''
 
     if (!appearances[team]) {
       appearances[team] = { team, G: 0, GS: 0 }
