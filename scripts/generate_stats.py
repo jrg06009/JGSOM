@@ -236,7 +236,10 @@ def group_pitching_stats(gamelog_df, schedule_df):
         bb = stats.get("BB", 0)
         so = stats.get("SO", 0)
 
-        era = "---" if ip == 0 else round((er * 9 / ip), 2)
+        if ip == 0:
+            era_str = "---"
+        else:
+            era_str = f"{(er * 9 / ip):.2f}"
         h9 = round(h * 9 / ip, 1) if ip else 0.0
         hr9 = round(hr * 9 / ip, 1) if ip else 0.0
         bb9 = round(bb * 9 / ip, 1) if ip else 0.0
@@ -253,7 +256,7 @@ def group_pitching_stats(gamelog_df, schedule_df):
             "W": w,
             "L": l,
             "W-L%": "1.000" if wl_pct == 1 else f"{wl_pct:.3f}".lstrip("0"),
-            "ERA": f"{era:.2f}",
+            "ERA": era_str,
             "G": len(games[(pid, team)]),
             "GS": stats.get("GS", 0),
             "CG": cg_sho_counts[pid]["CG"],
