@@ -474,10 +474,10 @@
     "date": "1999-04-08",
     "home_team": "ATL",
     "away_team": "PHI",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 3,
+    "away_score": 2,
+    "simDate": "2025-06-07 00:00:00",
+    "completed": true
   },
   {
     "id": "19990408_SDP@SFG",
@@ -564,10 +564,10 @@
     "date": "1999-04-09",
     "home_team": "ATL",
     "away_team": "ARI",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 5,
+    "away_score": 4,
+    "simDate": "2025-06-07 00:00:00",
+    "completed": true
   },
   {
     "id": "19990409_CHC@PIT",

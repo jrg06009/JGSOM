@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "date": "1999-04-08 00:00:00",
+    "home": "ATL",
+    "away": "PHI",
+    "home_score": "3",
+    "away_score": "2"
+  },
+  "batting": {
+    "PHI": {
+      "Doug Glanville": {
+        "Player": "Doug Glanville",
+        "Player ID": "glanvdo01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Marlon Anderson": {
+        "Player": "Marlon Anderson",
+        "Player ID": "anderma02",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 3,
+        "A": 4,
+        "DP": 3
+      },
+      "David Doster": {
+        "Player": "David Doster",
+        "Player ID": "dosteda01"
+      },
+      "Scott Rolen": {
+        "Player": "Scott Rolen",
+        "Player ID": "rolensc01",
+        "AB": 4,
+        "SO": 3
+      },
+      "Rico Brogna": {
+        "Player": "Rico Brogna",
+        "Player ID": "brognri01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 8,
+        "DP": 3
+      },
+      "Ron Gant": {
+        "Player": "Ron Gant",
+        "Player ID": "gantro01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1,
+        "PO": 1
+      },
+      "Bobby Abreu": {
+        "Player": "Bobby Abreu",
+        "Player ID": "abreubo01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Mike Lieberthal": {
+        "Player": "Mike Lieberthal",
+        "Player ID": "liebemi01",
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "PO": 6,
+        "A": 1,
+        "CS against": 1
+      },
+      "Desi Relaford": {
+        "Player": "Desi Relaford",
+        "Player ID": "relafde01",
+        "AB": 3,
+        "BB": 1,
+        "IBB": 1,
+        "SO": 2,
+        "PO": 5,
+        "A": 5,
+        "ERR": 1,
+        "DP": 3
+      },
+      "Paul Byrd": {
+        "Player": "Paul Byrd",
+        "Player ID": "byrdpa01",
+        "AB": 4,
+        "SO": 2,
+        "L": 1,
+        "IP": "8.2",
+        "H allowed": 5,
+        "R against": 3,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 6,
+        "WP": 1,
+        "ERR": 1,
+        "CS against": 1
+      }
+    },
+    "ATL": {
+      "Otis Nixon": {
+        "Player": "Otis Nixon",
+        "Player ID": "nixonot01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 2
+      },
+      "Bret Boone": {
+        "Player": "Bret Boone",
+        "Player ID": "boonebr01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Chipper Jones": {
+        "Player": "Chipper Jones",
+        "Player ID": "jonesch06",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "CS": 1,
+        "PO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Brian Jordan": {
+        "Player": "Brian Jordan",
+        "Player ID": "jordabr01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 2
+      },
+      "Javy Lopez": {
+        "Player": "Javy Lopez",
+        "Player ID": "lopezja01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 10,
+        "SB against": 1
+      },
+      "Ryan Klesko": {
+        "Player": "Ryan Klesko",
+        "Player ID": "kleskry01",
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "PO": 6,
+        "A": 1
+      },
+      "Andruw Jones": {
+        "Player": "Andruw Jones",
+        "Player ID": "jonesan01",
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Walt Weiss": {
+        "Player": "Walt Weiss",
+        "Player ID": "weisswa01",
+        "AB": 2,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 2
+      },
+      "Kevin Millwood": {
+        "Player": "Kevin Millwood",
+        "Player ID": "millwke01",
+        "AB": 2,
+        "SO": 1,
+        "IP": "8.0",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 9,
+        "PO": 1,
+        "A": 1
+      },
+      "Randall Simon": {
+        "Player": "Randall Simon",
+        "Player ID": "simonra01",
+        "AB": 1
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "W": 1,
+        "IP": "1.0",
+        "BB against": 2,
+        "IBB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "pitching": {
+    "PHI": {
+      "Paul Byrd": {
+        "Player": "Paul Byrd",
+        "Player ID": "byrdpa01",
+        "Pit #": 1,
+        "AB": 4,
+        "SO": 2,
+        "L": 1,
+        "IP": "8.2",
+        "H allowed": 5,
+        "R against": 3,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 6,
+        "WP": 1,
+        "ERR": 1,
+        "CS against": 1
+      }
+    },
+    "ATL": {
+      "Kevin Millwood": {
+        "Player": "Kevin Millwood",
+        "Player ID": "millwke01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "IP": "8.0",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 9,
+        "PO": 1,
+        "A": 1
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "Pit #": 2,
+        "W": 1,
+        "IP": "1.0",
+        "BB against": 2,
+        "IBB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "PHI": [
+      [
+        1,
+        "Doug Glanville"
+      ],
+      [
+        2,
+        "Marlon Anderson"
+      ],
+      [
+        2,
+        "David Doster"
+      ],
+      [
+        3,
+        "Scott Rolen"
+      ],
+      [
+        4,
+        "Rico Brogna"
+      ],
+      [
+        5,
+        "Ron Gant"
+      ],
+      [
+        6,
+        "Bobby Abreu"
+      ],
+      [
+        7,
+        "Mike Lieberthal"
+      ],
+      [
+        8,
+        "Desi Relaford"
+      ],
+      [
+        9,
+        "Paul Byrd"
+      ]
+    ],
+    "ATL": [
+      [
+        1,
+        "Otis Nixon"
+      ],
+      [
+        2,
+        "Bret Boone"
+      ],
+      [
+        3,
+        "Chipper Jones"
+      ],
+      [
+        4,
+        "Brian Jordan"
+      ],
+      [
+        5,
+        "Javy Lopez"
+      ],
+      [
+        6,
+        "Ryan Klesko"
+      ],
+      [
+        7,
+        "Andruw Jones"
+      ],
+      [
+        8,
+        "Walt Weiss"
+      ],
+      [
+        9,
+        "Kevin Millwood"
+      ],
+      [
+        9,
+        "Randall Simon"
+      ],
+      [
+        9,
+        "John Rocker"
+      ]
+    ]
+  },
+  "positions": {
+    "PHI": {
+      "Doug Glanville": [
+        "8"
+      ],
+      "Marlon Anderson": [
+        "4"
+      ],
+      "David Doster": [
+        "4"
+      ],
+      "Scott Rolen": [
+        "5"
+      ],
+      "Rico Brogna": [
+        "3"
+      ],
+      "Ron Gant": [
+        "7"
+      ],
+      "Bobby Abreu": [
+        "9"
+      ],
+      "Mike Lieberthal": [
+        "2"
+      ],
+      "Desi Relaford": [
+        "6"
+      ],
+      "Paul Byrd": [
+        "1"
+      ]
+    },
+    "ATL": {
+      "Otis Nixon": [
+        "7"
+      ],
+      "Bret Boone": [
+        "4"
+      ],
+      "Chipper Jones": [
+        "5"
+      ],
+      "Brian Jordan": [
+        "9"
+      ],
+      "Javy Lopez": [
+        "2"
+      ],
+      "Ryan Klesko": [
+        "3"
+      ],
+      "Andruw Jones": [
+        "8"
+      ],
+      "Walt Weiss": [
+        "6"
+      ],
+      "Kevin Millwood": [
+        "1"
+      ],
+      "Randall Simon": [
+        "PH"
+      ],
+      "John Rocker": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "PHI": {
+      "Doug Glanville": 1,
+      "Marlon Anderson": 1,
+      "Scott Rolen": 1,
+      "Rico Brogna": 1,
+      "Ron Gant": 1,
+      "Bobby Abreu": 1,
+      "Mike Lieberthal": 1,
+      "Desi Relaford": 1,
+      "Paul Byrd": 1
+    },
+    "ATL": {
+      "Otis Nixon": 1,
+      "Bret Boone": 1,
+      "Chipper Jones": 1,
+      "Brian Jordan": 1,
+      "Javy Lopez": 1,
+      "Ryan Klesko": 1,
+      "Andruw Jones": 1,
+      "Walt Weiss": 1,
+      "Kevin Millwood": 1
+    }
+  }
+}

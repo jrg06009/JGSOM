@@ -261,9 +261,7 @@
         "Player": "Wilton Guerrero",
         "Player ID": "guerrwi01",
         "BB": 1
-      }
-    },
-    "mon": {
+      },
       "Ugueth Urbina": {
         "Player": "Ugueth Urbina",
         "Player ID": "urbinug01",
@@ -354,9 +352,7 @@
         "Pit #": 2,
         "IP": "0.2",
         "BB against": 1
-      }
-    },
-    "mon": {
+      },
       "Ugueth Urbina": {
         "Player": "Ugueth Urbina",
         "Player ID": "urbinug01",
@@ -493,9 +489,7 @@
       [
         9,
         "Wilton Guerrero"
-      ]
-    ],
-    "mon": [
+      ],
       [
         9,
         "Ugueth Urbina"
@@ -549,8 +543,8 @@
     },
     "MON": {
       "James Mouton": [
-        "8",
-        "7"
+        "7",
+        "8"
       ],
       "Orlando Merced": [
         "7"
@@ -568,8 +562,8 @@
         "3"
       ],
       "Manny Martinez": [
-        "8",
-        "PR"
+        "PR",
+        "8"
       ],
       "Michael Barrett": [
         "5"
@@ -588,9 +582,7 @@
       ],
       "Wilton Guerrero": [
         "PH"
-      ]
-    },
-    "mon": {
+      ],
       "Ugueth Urbina": [
         "1"
       ]

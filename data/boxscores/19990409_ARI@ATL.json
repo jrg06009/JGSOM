@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "ATL",
+    "away": "ARI",
+    "home_score": "5",
+    "away_score": "4"
+  },
+  "batting": {
+    "ARI": {
+      "Steve Finley": {
+        "Player": "Steve Finley",
+        "Player ID": "finlest01",
+        "AB": 5,
+        "BB": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Jay Bell": {
+        "Player": "Jay Bell",
+        "Player ID": "bellja01",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1,
+        "PO": 5,
+        "A": 5,
+        "DP": 2
+      },
+      "Matt Williams": {
+        "Player": "Matt Williams",
+        "Player ID": "willima04",
+        "AB": 6,
+        "H": 1,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Travis Lee": {
+        "Player": "Travis Lee",
+        "Player ID": "leetr01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "BB": 1,
+        "SO": 3,
+        "PO": 13,
+        "A": 1,
+        "DP": 2
+      },
+      "Bernard Gilkey": {
+        "Player": "Bernard Gilkey",
+        "Player ID": "gilkebe01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "SO": 2,
+        "SF": 1,
+        "PO": 3
+      },
+      "Tony Batista": {
+        "Player": "Tony Batista",
+        "Player ID": "batisto01",
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 2,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 1,
+        "A": 7,
+        "DP": 1
+      },
+      "Kelly Stinnett": {
+        "Player": "Kelly Stinnett",
+        "Player ID": "stinnke01",
+        "AB": 4,
+        "H": 1,
+        "BB": 1,
+        "SO": 2,
+        "PO": 7,
+        "A": 1,
+        "CS against": 1
+      },
+      "Dante Powell": {
+        "Player": "Dante Powell",
+        "Player ID": "powelda01",
+        "AB": 3,
+        "SO": 1
+      },
+      "Luis Gonzalez": {
+        "Player": "Luis Gonzalez",
+        "Player ID": "gonzalu01",
+        "AB": 2,
+        "SO": 1,
+        "GDP": 1
+      },
+      "Omar Daal": {
+        "Player": "Omar Daal",
+        "Player ID": "daalom01",
+        "AB": 3,
+        "IP": "7.0",
+        "H allowed": 7,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 4
+      },
+      "David Dellucci": {
+        "Player": "David Dellucci",
+        "Player ID": "delluda01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "IP": "2.0",
+        "H allowed": 1,
+        "PO": 1
+      },
+      "Greg Colbrunn": {
+        "Player": "Greg Colbrunn",
+        "Player ID": "colbrgr01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Gregg Olson": {
+        "Player": "Gregg Olson",
+        "Player ID": "olsongr01",
+        "L": 1,
+        "IP": "1.2",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 2,
+        "CS against": 1
+      }
+    },
+    "ATL": {
+      "Gerald Williams": {
+        "Player": "Gerald Williams",
+        "Player ID": "willige02",
+        "AB": 5,
+        "H": 1,
+        "SO": 2,
+        "CS": 1,
+        "GDP": 1,
+        "PO": 3
+      },
+      "Bret Boone": {
+        "Player": "Bret Boone",
+        "Player ID": "boonebr01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "PO": 3,
+        "A": 4,
+        "DP": 2
+      },
+      "Chipper Jones": {
+        "Player": "Chipper Jones",
+        "Player ID": "jonesch06",
+        "AB": 5,
+        "R": 2,
+        "H": 4,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Brian Jordan": {
+        "Player": "Brian Jordan",
+        "Player ID": "jordabr01",
+        "AB": 4,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Javy Lopez": {
+        "Player": "Javy Lopez",
+        "Player ID": "lopezja01",
+        "AB": 5,
+        "H": 1,
+        "3B": 1,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 17,
+        "SB against": 1
+      },
+      "Andruw Jones": {
+        "Player": "Andruw Jones",
+        "Player ID": "jonesan01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Ryan Klesko": {
+        "Player": "Ryan Klesko",
+        "Player ID": "kleskry01",
+        "AB": 2,
+        "PO": 3,
+        "DP": 1
+      },
+      "Kevin McGlinchy": {
+        "Player": "Kevin McGlinchy",
+        "Player ID": "mcglike01",
+        "IP": "2.1",
+        "H allowed": 1,
+        "SO against": 4
+      },
+      "Otis Nixon": {
+        "Player": "Otis Nixon",
+        "Player ID": "nixonot01",
+        "AB": 1
+      },
+      "Mark Wohlers": {
+        "Player": "Mark Wohlers",
+        "Player ID": "wohlema01",
+        "IP": "0.2",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Rudy Seanez": {
+        "Player": "Rudy Seanez",
+        "Player ID": "seaneru01",
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Ozzie Guillen": {
+        "Player": "Ozzie Guillen",
+        "Player ID": "guilloz01",
+        "AB": 1
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "W": 1,
+        "IP": "2.0",
+        "BB against": 1,
+        "SO against": 6
+      },
+      "Walt Weiss": {
+        "Player": "Walt Weiss",
+        "Player ID": "weisswa01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 2
+      },
+      "Odalis Perez": {
+        "Player": "Odalis Perez",
+        "Player ID": "perezod01",
+        "AB": 1,
+        "IP": "4.2",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 4,
+        "HBP against": 1,
+        "WP": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Brian Hunter": {
+        "Player": "Brian Hunter",
+        "Player ID": "huntebr01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 1,
+        "PO": 3,
+        "DP": 1
+      },
+      "Randall Simon": {
+        "Player": "Randall Simon",
+        "Player ID": "simonra01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "ARI": {
+      "Omar Daal": {
+        "Player": "Omar Daal",
+        "Player ID": "daalom01",
+        "Pit #": 1,
+        "AB": 3,
+        "IP": "7.0",
+        "H allowed": 7,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 4
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 1,
+        "PO": 1
+      },
+      "Gregg Olson": {
+        "Player": "Gregg Olson",
+        "Player ID": "olsongr01",
+        "Pit #": 3,
+        "L": 1,
+        "IP": "1.2",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 2,
+        "CS against": 1
+      }
+    },
+    "ATL": {
+      "Odalis Perez": {
+        "Player": "Odalis Perez",
+        "Player ID": "perezod01",
+        "Pit #": 1,
+        "AB": 1,
+        "IP": "4.2",
+        "H allowed": 5,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 4,
+        "HBP against": 1,
+        "WP": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Kevin McGlinchy": {
+        "Player": "Kevin McGlinchy",
+        "Player ID": "mcglike01",
+        "Pit #": 2,
+        "IP": "2.1",
+        "H allowed": 1,
+        "SO against": 4
+      },
+      "Mark Wohlers": {
+        "Player": "Mark Wohlers",
+        "Player ID": "wohlema01",
+        "Pit #": 3,
+        "IP": "0.2",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Rudy Seanez": {
+        "Player": "Rudy Seanez",
+        "Player ID": "seaneru01",
+        "Pit #": 4,
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "Pit #": 5,
+        "W": 1,
+        "IP": "2.0",
+        "BB against": 1,
+        "SO against": 6
+      }
+    }
+  },
+  "batting_order": {
+    "ARI": [
+      [
+        1,
+        "Steve Finley"
+      ],
+      [
+        2,
+        "Jay Bell"
+      ],
+      [
+        3,
+        "Matt Williams"
+      ],
+      [
+        4,
+        "Travis Lee"
+      ],
+      [
+        5,
+        "Bernard Gilkey"
+      ],
+      [
+        5,
+        "Bernard Gilkey"
+      ],
+      [
+        6,
+        "Tony Batista"
+      ],
+      [
+        7,
+        "Kelly Stinnett"
+      ],
+      [
+        8,
+        "Dante Powell"
+      ],
+      [
+        8,
+        "Luis Gonzalez"
+      ],
+      [
+        9,
+        "Omar Daal"
+      ],
+      [
+        9,
+        "David Dellucci"
+      ],
+      [
+        9,
+        "Greg Swindell"
+      ],
+      [
+        9,
+        "Greg Colbrunn"
+      ],
+      [
+        9,
+        "Gregg Olson"
+      ]
+    ],
+    "ATL": [
+      [
+        1,
+        "Gerald Williams"
+      ],
+      [
+        2,
+        "Bret Boone"
+      ],
+      [
+        3,
+        "Chipper Jones"
+      ],
+      [
+        4,
+        "Brian Jordan"
+      ],
+      [
+        5,
+        "Javy Lopez"
+      ],
+      [
+        6,
+        "Andruw Jones"
+      ],
+      [
+        7,
+        "Ryan Klesko"
+      ],
+      [
+        7,
+        "Kevin McGlinchy"
+      ],
+      [
+        7,
+        "Otis Nixon"
+      ],
+      [
+        7,
+        "Mark Wohlers"
+      ],
+      [
+        7,
+        "Rudy Seanez"
+      ],
+      [
+        7,
+        "Ozzie Guillen"
+      ],
+      [
+        7,
+        "John Rocker"
+      ],
+      [
+        8,
+        "Walt Weiss"
+      ],
+      [
+        9,
+        "Odalis Perez"
+      ],
+      [
+        9,
+        "Brian Hunter"
+      ],
+      [
+        9,
+        "Randall Simon"
+      ],
+      [
+        9,
+        "Randall Simon"
+      ]
+    ]
+  },
+  "positions": {
+    "ARI": {
+      "Steve Finley": [
+        "8"
+      ],
+      "Jay Bell": [
+        "4"
+      ],
+      "Matt Williams": [
+        "5"
+      ],
+      "Travis Lee": [
+        "3"
+      ],
+      "Bernard Gilkey": [
+        "7",
+        "9"
+      ],
+      "Tony Batista": [
+        "6"
+      ],
+      "Kelly Stinnett": [
+        "2"
+      ],
+      "Dante Powell": [
+        "9"
+      ],
+      "Luis Gonzalez": [
+        "7"
+      ],
+      "Omar Daal": [
+        "1"
+      ],
+      "David Dellucci": [
+        "PH"
+      ],
+      "Greg Swindell": [
+        "1"
+      ],
+      "Greg Colbrunn": [
+        "PH"
+      ],
+      "Gregg Olson": [
+        "1"
+      ]
+    },
+    "ATL": {
+      "Gerald Williams": [
+        "7"
+      ],
+      "Bret Boone": [
+        "4"
+      ],
+      "Chipper Jones": [
+        "5"
+      ],
+      "Brian Jordan": [
+        "9"
+      ],
+      "Javy Lopez": [
+        "2"
+      ],
+      "Andruw Jones": [
+        "8"
+      ],
+      "Ryan Klesko": [
+        "3"
+      ],
+      "Kevin McGlinchy": [
+        "1"
+      ],
+      "Otis Nixon": [
+        "PH"
+      ],
+      "Mark Wohlers": [
+        "1"
+      ],
+      "Rudy Seanez": [
+        "1"
+      ],
+      "Ozzie Guillen": [
+        "PH"
+      ],
+      "John Rocker": [
+        "1"
+      ],
+      "Walt Weiss": [
+        "6"
+      ],
+      "Odalis Perez": [
+        "1"
+      ],
+      "Brian Hunter": [
+        "3"
+      ],
+      "Randall Simon": [
+        "PH",
+        "3"
+      ]
+    }
+  },
+  "games_started": {
+    "ARI": {
+      "Steve Finley": 1,
+      "Jay Bell": 1,
+      "Matt Williams": 1,
+      "Travis Lee": 1,
+      "Bernard Gilkey": 1,
+      "Tony Batista": 1,
+      "Kelly Stinnett": 1,
+      "Dante Powell": 1,
+      "Omar Daal": 1
+    },
+    "ATL": {
+      "Gerald Williams": 1,
+      "Bret Boone": 1,
+      "Chipper Jones": 1,
+      "Brian Jordan": 1,
+      "Javy Lopez": 1,
+      "Andruw Jones": 1,
+      "Ryan Klesko": 1,
+      "Walt Weiss": 1,
+      "Odalis Perez": 1
+    }
+  }
+}
