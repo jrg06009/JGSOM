@@ -4423,5 +4423,73 @@
     "SO against": 4,
     "HBP against": 1,
     "WP": 1
+  },
+  {
+    "Player": "Randy Johnson",
+    "Player ID": "johnsra05",
+    "Team": "ARI",
+    "Game#": 72,
+    "Game ID": "19990410_ARI@ATL",
+    "IP": 7.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 10,
+    "R against": 5,
+    "ER": 5,
+    "HR allowed": 1,
+    "SO against": 8
+  },
+  {
+    "Player": "Darren Holmes",
+    "Player ID": "holmeda01",
+    "Team": "ARI",
+    "Game#": 72,
+    "Game ID": "19990410_ARI@ATL",
+    "IP": 1.0,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Tom Glavine",
+    "Player ID": "glavito02",
+    "Team": "ATL",
+    "Game#": 72,
+    "Game ID": "19990410_ARI@ATL",
+    "IP": 7.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 5,
+    "R against": 3,
+    "ER": 3,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 5
+  },
+  {
+    "Player": "Mark Wohlers",
+    "Player ID": "wohlema01",
+    "Team": "ATL",
+    "Game#": 72,
+    "Game ID": "19990410_ARI@ATL",
+    "IP": 1.0,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1
+  },
+  {
+    "Player": "Rudy Seanez",
+    "Player ID": "seaneru01",
+    "Team": "ATL",
+    "Game#": 72,
+    "Game ID": "19990410_ARI@ATL",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 2,
+    "BB against": 1,
+    "SO against": 1,
+    "WP": 1
   }
 ]
