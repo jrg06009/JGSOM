@@ -3,6 +3,7 @@ import numpy as np
 import os
 import json
 from collections import defaultdict
+from fractions import Fraction
 
 def safe_int(val):
     try:
@@ -15,6 +16,29 @@ def safe_float(val):
         return float(val)
     except:
         return 0.0
+
+def parse_ip(ip_val):
+    if pd.isna(ip_val):
+        return 0.0
+    try:
+        if isinstance(ip_val, (int, float)):
+            return float(ip_val)
+        if isinstance(ip_val, str):
+            parts = ip_val.strip().split()
+            if len(parts) == 2:
+                # e.g. "1 2/3"
+                whole = int(parts[0])
+                frac = float(Fraction(parts[1]))
+                return whole + frac
+            elif '/' in ip_val:
+                # e.g. "2/3"
+                return float(Fraction(ip_val))
+            else:
+                return float(ip_val)
+        return float(ip_val)
+    except:
+        return 0.0
+
 
 def convert_sets_to_lists(obj):
     """Recursively convert sets in a nested dict or list to lists for JSON serialization."""
@@ -182,7 +206,7 @@ def group_pitching_stats(gamelog_df, schedule_df):
         if row.get("POS") != 1:
             continue  # Skip players who were not pitchers
         
-        ip = safe_float(row.get("IP", 0))
+        ip = parse_ip(row.get("IP"))
         pitching[key]["Player"] = player
         pitching[key]["IP"] += ip
         pitching[key]["W"] += safe_int(row.get("W"))
