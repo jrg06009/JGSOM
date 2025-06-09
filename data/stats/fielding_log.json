@@ -14405,5 +14405,291 @@
     "Game ID": "19990410_ARI@ATL",
     "POS": "1",
     "INN": 1.0
+  },
+  {
+    "Player": "Steve Finley",
+    "Player ID": "finlest01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "8",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2
+  },
+  {
+    "Player": "Jay Bell",
+    "Player ID": "bellja01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "4",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2,
+    "A": 1,
+    "ERR": 1
+  },
+  {
+    "Player": "Travis Lee",
+    "Player ID": "leetr01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "3",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 7,
+    "A": 2
+  },
+  {
+    "Player": "Matt Williams",
+    "Player ID": "willima04",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "5",
+    "GS": 1,
+    "INN": 8.0,
+    "A": 3
+  },
+  {
+    "Player": "Luis Gonzalez",
+    "Player ID": "gonzalu01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "7",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 4
+  },
+  {
+    "Player": "Bernard Gilkey",
+    "Player ID": "gilkebe01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "9",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1
+  },
+  {
+    "Player": "Tony Batista",
+    "Player ID": "batisto01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "6",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1,
+    "A": 2
+  },
+  {
+    "Player": "Damian Miller",
+    "Player ID": "milleda02",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "2",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 5,
+    "PB": 1,
+    "SB against": 1
+  },
+  {
+    "Player": "Todd Stottlemyre",
+    "Player ID": "stottto01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "GS": 1,
+    "INN": 7.0,
+    "PO": 2,
+    "SB against": 1
+  },
+  {
+    "Player": "Greg Swindell",
+    "Player ID": "swindgr01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "INN": 0.3333333333333333
+  },
+  {
+    "Player": "Bobby Chouinard",
+    "Player ID": "chouibo01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "INN": 0.6666666666666666
+  },
+  {
+    "Player": "Otis Nixon",
+    "Player ID": "nixonot01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "7",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 5
+  },
+  {
+    "Player": "Gerald Williams",
+    "Player ID": "willige02",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "7",
+    "INN": 1.0
+  },
+  {
+    "Player": "Ozzie Guillen",
+    "Player ID": "guilloz01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "6",
+    "GS": 1,
+    "INN": 8.0,
+    "A": 2
+  },
+  {
+    "Player": "Ozzie Guillen",
+    "Player ID": "guilloz01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "4",
+    "INN": 1.0
+  },
+  {
+    "Player": "Chipper Jones",
+    "Player ID": "jonesch06",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "A": 1
+  },
+  {
+    "Player": "Brian Jordan",
+    "Player ID": "jordabr01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0
+  },
+  {
+    "Player": "Ryan Klesko",
+    "Player ID": "kleskry01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "3",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 7
+  },
+  {
+    "Player": "Brian Hunter",
+    "Player ID": "huntebr01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "3",
+    "INN": 1.0
+  },
+  {
+    "Player": "Andruw Jones",
+    "Player ID": "jonesan01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 4
+  },
+  {
+    "Player": "Eddie Perez",
+    "Player ID": "perezed02",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 9
+  },
+  {
+    "Player": "Keith Lockhart",
+    "Player ID": "lockhke01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "4",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2,
+    "A": 4,
+    "ERR": 1
+  },
+  {
+    "Player": "Walt Weiss",
+    "Player ID": "weisswa01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "6",
+    "INN": 1.0
+  },
+  {
+    "Player": "Greg Maddux",
+    "Player ID": "maddugr01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "GS": 1,
+    "INN": 6.0
+  },
+  {
+    "Player": "Derrin Ebert",
+    "Player ID": "ebertde01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "Mike Cather",
+    "Player ID": "cathemi01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "John Rocker",
+    "Player ID": "rockejo01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "POS": "1",
+    "INN": 1.0
   }
 ]

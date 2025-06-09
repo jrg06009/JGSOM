@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "ATL",
+    "away": "ARI",
+    "home_score": "6",
+    "away_score": "5"
+  },
+  "batting": {
+    "ARI": {
+      "Steve Finley": {
+        "Player": "Steve Finley",
+        "Player ID": "finlest01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "PO": 2
+      },
+      "Jay Bell": {
+        "Player": "Jay Bell",
+        "Player ID": "bellja01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 2,
+        "A": 1,
+        "ERR": 1
+      },
+      "Travis Lee": {
+        "Player": "Travis Lee",
+        "Player ID": "leetr01",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 7,
+        "A": 2
+      },
+      "Matt Williams": {
+        "Player": "Matt Williams",
+        "Player ID": "willima04",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SF": 1,
+        "A": 3
+      },
+      "Luis Gonzalez": {
+        "Player": "Luis Gonzalez",
+        "Player ID": "gonzalu01",
+        "AB": 5,
+        "H": 1,
+        "PO": 4
+      },
+      "Bernard Gilkey": {
+        "Player": "Bernard Gilkey",
+        "Player ID": "gilkebe01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 2,
+        "SO": 2,
+        "PO": 1
+      },
+      "Tony Batista": {
+        "Player": "Tony Batista",
+        "Player ID": "batisto01",
+        "AB": 5,
+        "H": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 2
+      },
+      "Damian Miller": {
+        "Player": "Damian Miller",
+        "Player ID": "milleda02",
+        "AB": 4,
+        "H": 2,
+        "SO": 1,
+        "PO": 5,
+        "PB": 1,
+        "SB against": 1
+      },
+      "Todd Stottlemyre": {
+        "Player": "Todd Stottlemyre",
+        "Player ID": "stottto01",
+        "AB": 3,
+        "H": 1,
+        "IP": "7.0",
+        "H allowed": 8,
+        "R against": 2,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 3,
+        "HBP against": 1,
+        "PO": 2,
+        "SB against": 1
+      },
+      "Greg Colbrunn": {
+        "Player": "Greg Colbrunn",
+        "Player ID": "colbrgr01",
+        "AB": 1,
+        "H": 1
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 3,
+        "R against": 4,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Bobby Chouinard": {
+        "Player": "Bobby Chouinard",
+        "Player ID": "chouibo01",
+        "IP": "0.2",
+        "SO against": 1
+      }
+    },
+    "ATL": {
+      "Otis Nixon": {
+        "Player": "Otis Nixon",
+        "Player ID": "nixonot01",
+        "AB": 3,
+        "BB": 1,
+        "PO": 5
+      },
+      "Gerald Williams": {
+        "Player": "Gerald Williams",
+        "Player ID": "willige02",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Ozzie Guillen": {
+        "Player": "Ozzie Guillen",
+        "Player ID": "guilloz01",
+        "AB": 5,
+        "SO": 1,
+        "A": 2
+      },
+      "Chipper Jones": {
+        "Player": "Chipper Jones",
+        "Player ID": "jonesch06",
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Brian Jordan": {
+        "Player": "Brian Jordan",
+        "Player ID": "jordabr01",
+        "AB": 4,
+        "SO": 1
+      },
+      "Ryan Klesko": {
+        "Player": "Ryan Klesko",
+        "Player ID": "kleskry01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "PO": 7
+      },
+      "Brian Hunter": {
+        "Player": "Brian Hunter",
+        "Player ID": "huntebr01",
+        "R": 1,
+        "BB": 1
+      },
+      "Andruw Jones": {
+        "Player": "Andruw Jones",
+        "Player ID": "jonesan01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "SB": 1,
+        "PO": 4
+      },
+      "Eddie Perez": {
+        "Player": "Eddie Perez",
+        "Player ID": "perezed02",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
+        "RBI": 1,
+        "HBP": 1,
+        "PO": 9
+      },
+      "Keith Lockhart": {
+        "Player": "Keith Lockhart",
+        "Player ID": "lockhke01",
+        "AB": 3,
+        "H": 1,
+        "PO": 2,
+        "A": 4,
+        "ERR": 1
+      },
+      "Walt Weiss": {
+        "Player": "Walt Weiss",
+        "Player ID": "weisswa01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Greg Maddux": {
+        "Player": "Greg Maddux",
+        "Player ID": "maddugr01",
+        "AB": 1,
+        "RBI": 1,
+        "SF": 1,
+        "IP": "6.0",
+        "H allowed": 10,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "SO against": 3
+      },
+      "Bret Boone": {
+        "Player": "Bret Boone",
+        "Player ID": "boonebr01",
+        "AB": 1
+      },
+      "Derrin Ebert": {
+        "Player": "Derrin Ebert",
+        "Player ID": "ebertde01",
+        "IP": "1.0",
+        "H allowed": 6,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1
+      },
+      "Mike Cather": {
+        "Player": "Mike Cather",
+        "Player ID": "cathemi01",
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "Javy Lopez": {
+        "Player": "Javy Lopez",
+        "Player ID": "lopezja01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "RBI": 2
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "SV": 1,
+        "IP": "1.0",
+        "SO against": 2
+      }
+    }
+  },
+  "pitching": {
+    "ARI": {
+      "Todd Stottlemyre": {
+        "Player": "Todd Stottlemyre",
+        "Player ID": "stottto01",
+        "Pit #": 1,
+        "AB": 3,
+        "H": 1,
+        "IP": "7.0",
+        "H allowed": 8,
+        "R against": 2,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 3,
+        "HBP against": 1,
+        "PO": 2,
+        "SB against": 1
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "Pit #": 2,
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 3,
+        "R against": 4,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Bobby Chouinard": {
+        "Player": "Bobby Chouinard",
+        "Player ID": "chouibo01",
+        "Pit #": 3,
+        "IP": "0.2",
+        "SO against": 1
+      }
+    },
+    "ATL": {
+      "Greg Maddux": {
+        "Player": "Greg Maddux",
+        "Player ID": "maddugr01",
+        "Pit #": 1,
+        "AB": 1,
+        "RBI": 1,
+        "SF": 1,
+        "IP": "6.0",
+        "H allowed": 10,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "SO against": 3
+      },
+      "Derrin Ebert": {
+        "Player": "Derrin Ebert",
+        "Player ID": "ebertde01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 6,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1
+      },
+      "Mike Cather": {
+        "Player": "Mike Cather",
+        "Player ID": "cathemi01",
+        "Pit #": 3,
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "John Rocker": {
+        "Player": "John Rocker",
+        "Player ID": "rockejo01",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.0",
+        "SO against": 2
+      }
+    }
+  },
+  "batting_order": {
+    "ARI": [
+      [
+        1,
+        "Steve Finley"
+      ],
+      [
+        2,
+        "Jay Bell"
+      ],
+      [
+        3,
+        "Travis Lee"
+      ],
+      [
+        4,
+        "Matt Williams"
+      ],
+      [
+        5,
+        "Luis Gonzalez"
+      ],
+      [
+        6,
+        "Bernard Gilkey"
+      ],
+      [
+        7,
+        "Tony Batista"
+      ],
+      [
+        8,
+        "Damian Miller"
+      ],
+      [
+        9,
+        "Todd Stottlemyre"
+      ],
+      [
+        9,
+        "Greg Colbrunn"
+      ],
+      [
+        9,
+        "Greg Swindell"
+      ],
+      [
+        9,
+        "Bobby Chouinard"
+      ]
+    ],
+    "ATL": [
+      [
+        1,
+        "Otis Nixon"
+      ],
+      [
+        1,
+        "Gerald Williams"
+      ],
+      [
+        1,
+        "Gerald Williams"
+      ],
+      [
+        2,
+        "Ozzie Guillen"
+      ],
+      [
+        2,
+        "Ozzie Guillen"
+      ],
+      [
+        3,
+        "Chipper Jones"
+      ],
+      [
+        4,
+        "Brian Jordan"
+      ],
+      [
+        5,
+        "Ryan Klesko"
+      ],
+      [
+        5,
+        "Brian Hunter"
+      ],
+      [
+        5,
+        "Brian Hunter"
+      ],
+      [
+        6,
+        "Andruw Jones"
+      ],
+      [
+        7,
+        "Eddie Perez"
+      ],
+      [
+        8,
+        "Keith Lockhart"
+      ],
+      [
+        8,
+        "Walt Weiss"
+      ],
+      [
+        8,
+        "Walt Weiss"
+      ],
+      [
+        9,
+        "Greg Maddux"
+      ],
+      [
+        9,
+        "Bret Boone"
+      ],
+      [
+        9,
+        "Derrin Ebert"
+      ],
+      [
+        9,
+        "Mike Cather"
+      ],
+      [
+        9,
+        "Javy Lopez"
+      ],
+      [
+        9,
+        "John Rocker"
+      ]
+    ]
+  },
+  "positions": {
+    "ARI": {
+      "Steve Finley": [
+        "8"
+      ],
+      "Jay Bell": [
+        "4"
+      ],
+      "Travis Lee": [
+        "3"
+      ],
+      "Matt Williams": [
+        "5"
+      ],
+      "Luis Gonzalez": [
+        "7"
+      ],
+      "Bernard Gilkey": [
+        "9"
+      ],
+      "Tony Batista": [
+        "6"
+      ],
+      "Damian Miller": [
+        "2"
+      ],
+      "Todd Stottlemyre": [
+        "1"
+      ],
+      "Greg Colbrunn": [
+        "PH"
+      ],
+      "Greg Swindell": [
+        "1"
+      ],
+      "Bobby Chouinard": [
+        "1"
+      ]
+    },
+    "ATL": {
+      "Otis Nixon": [
+        "7"
+      ],
+      "Gerald Williams": [
+        "7",
+        "PH"
+      ],
+      "Ozzie Guillen": [
+        "6",
+        "4"
+      ],
+      "Chipper Jones": [
+        "5"
+      ],
+      "Brian Jordan": [
+        "9"
+      ],
+      "Ryan Klesko": [
+        "3"
+      ],
+      "Brian Hunter": [
+        "3",
+        "PH"
+      ],
+      "Andruw Jones": [
+        "8"
+      ],
+      "Eddie Perez": [
+        "2"
+      ],
+      "Keith Lockhart": [
+        "4"
+      ],
+      "Walt Weiss": [
+        "6",
+        "PH"
+      ],
+      "Greg Maddux": [
+        "1"
+      ],
+      "Bret Boone": [
+        "PH"
+      ],
+      "Derrin Ebert": [
+        "1"
+      ],
+      "Mike Cather": [
+        "1"
+      ],
+      "Javy Lopez": [
+        "PH"
+      ],
+      "John Rocker": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "ARI": {
+      "Steve Finley": 1,
+      "Jay Bell": 1,
+      "Travis Lee": 1,
+      "Matt Williams": 1,
+      "Luis Gonzalez": 1,
+      "Bernard Gilkey": 1,
+      "Tony Batista": 1,
+      "Damian Miller": 1,
+      "Todd Stottlemyre": 1
+    },
+    "ATL": {
+      "Otis Nixon": 1,
+      "Ozzie Guillen": 1,
+      "Chipper Jones": 1,
+      "Brian Jordan": 1,
+      "Ryan Klesko": 1,
+      "Andruw Jones": 1,
+      "Eddie Perez": 1,
+      "Keith Lockhart": 1,
+      "Greg Maddux": 1
+    }
+  }
+}

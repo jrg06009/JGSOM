@@ -4491,5 +4491,89 @@
     "BB against": 1,
     "SO against": 1,
     "WP": 1
+  },
+  {
+    "Player": "Todd Stottlemyre",
+    "Player ID": "stottto01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 7.0,
+    "GS": 1,
+    "H allowed": 8,
+    "R against": 2,
+    "ER": 1,
+    "BB against": 2,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Greg Swindell",
+    "Player ID": "swindgr01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 0.3333333333333333,
+    "L": 1,
+    "H allowed": 3,
+    "R against": 4,
+    "ER": 3,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Bobby Chouinard",
+    "Player ID": "chouibo01",
+    "Team": "ARI",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 0.6666666666666666,
+    "SO against": 1
+  },
+  {
+    "Player": "Greg Maddux",
+    "Player ID": "maddugr01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 6.0,
+    "GS": 1,
+    "H allowed": 10,
+    "R against": 3,
+    "ER": 3,
+    "HR allowed": 1,
+    "SO against": 3
+  },
+  {
+    "Player": "Derrin Ebert",
+    "Player ID": "ebertde01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 1.0,
+    "H allowed": 6,
+    "R against": 2,
+    "ER": 2,
+    "HR allowed": 1
+  },
+  {
+    "Player": "Mike Cather",
+    "Player ID": "cathemi01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 1.0,
+    "W": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "John Rocker",
+    "Player ID": "rockejo01",
+    "Team": "ATL",
+    "Game#": 87,
+    "Game ID": "19990411_ARI@ATL",
+    "IP": 1.0,
+    "SV": 1,
+    "SO against": 2
   }
 ]
