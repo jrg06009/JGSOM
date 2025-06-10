@@ -1,7 +1,3 @@
-// GitHub Action: game_headlines.yml
-// This Action runs daily, uses OpenRouter to generate game headlines,
-// and commits them to /data/headlines.json in your repo.
-
 name: Generate Game Headlines
 
 on:
