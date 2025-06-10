@@ -1,0 +1,38 @@
+// GitHub Action: game_headlines.yml
+// This Action runs daily, uses OpenRouter to generate game headlines,
+// and commits them to /data/headlines.json in your repo.
+
+name: Generate Game Headlines
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # Runs daily at 9AM ET
+  workflow_dispatch:
+
+jobs:
+  generate-headlines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Generate headlines
+        run: node .github/scripts/generateHeadlines.js
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/headlines.json
+          git commit -m "Update game headlines"
+          git push
