@@ -4655,5 +4655,83 @@
     "R against": 2,
     "ER": 2,
     "SO against": 2
+  },
+  {
+    "Player": "Matt Clement",
+    "Player ID": "clemema01",
+    "Team": "SDP",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 7.333333333333333,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 4,
+    "R against": 2,
+    "ER": 1,
+    "BB against": 3,
+    "SO against": 4
+  },
+  {
+    "Player": "Roberto Rivera",
+    "Player ID": "riverro01",
+    "Team": "SDP",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 0.6666666666666666
+  },
+  {
+    "Player": "Carlos Reyes",
+    "Player ID": "reyesca01",
+    "Team": "SDP",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 1.0,
+    "H allowed": 1
+  },
+  {
+    "Player": "Felix Rodriguez",
+    "Player ID": "rodrife01",
+    "Team": "SFG",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 1.6666666666666665,
+    "BB against": 3,
+    "SO against": 1
+  },
+  {
+    "Player": "Rich Rodriguez",
+    "Player ID": "rodriri02",
+    "Team": "SFG",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 2.0,
+    "H allowed": 3,
+    "R against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Miguel Del Toro",
+    "Player ID": "deltomi01",
+    "Team": "SFG",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 1.0
+  },
+  {
+    "Player": "Chris Brock",
+    "Player ID": "brockch01",
+    "Team": "SFG",
+    "Game#": 64,
+    "Game ID": "19990409_SDP@SFG",
+    "IP": 4.333333333333333,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 9,
+    "R against": 6,
+    "ER": 6,
+    "HR allowed": 1,
+    "BB against": 3,
+    "SO against": 2,
+    "WP": 2
   }
 ]
