@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "SFG",
+    "away": "SDP",
+    "home_score": "3",
+    "away_score": "4"
+  },
+  "batting": {
+    "SDP": {
+      "Quilvio Veras": {
+        "Player": "Quilvio Veras",
+        "Player ID": "verasqu01",
+        "AB": 5,
+        "H": 4,
+        "PO": 1,
+        "A": 3
+      },
+      "Reggie Sanders": {
+        "Player": "Reggie Sanders",
+        "Player ID": "sandere02",
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 2,
+        "R": 1,
+        "BB": 1,
+        "SB": 1
+      },
+      "Tony Gwynn": {
+        "Player": "Tony Gwynn",
+        "Player ID": "gwynnto01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "PO": 4
+      },
+      "Wally Joyner": {
+        "Player": "Wally Joyner",
+        "Player ID": "joynewa01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 11,
+        "A": 1,
+        "DP": 1
+      },
+      "John Vander Wal": {
+        "Player": "John Vander Wal",
+        "Player ID": "vandejo02",
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Ruben Rivera": {
+        "Player": "Ruben Rivera",
+        "Player ID": "riverru01",
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 2
+      },
+      "Jim Leyritz": {
+        "Player": "Jim Leyritz",
+        "Player ID": "leyriji01",
+        "AB": 5,
+        "H": 1,
+        "PO": 5,
+        "SB against": 1
+      },
+      "Dave Magadan": {
+        "Player": "Dave Magadan",
+        "Player ID": "magadda01",
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "A": 1
+      },
+      "Damian Jackson": {
+        "Player": "Damian Jackson",
+        "Player ID": "jacksda04",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 1
+      },
+      "Andy Ashby": {
+        "Player": "Andy Ashby",
+        "Player ID": "ashbyan01",
+        "AB": 3,
+        "SO": 2,
+        "IP": "7.0",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 3,
+        "A": 1,
+        "SB against": 1
+      },
+      "Chris Gomez": {
+        "Player": "Chris Gomez",
+        "Player ID": "gomezch02",
+        "AB": 1,
+        "SO": 1
+      },
+      "Dan Miceli": {
+        "Player": "Dan Miceli",
+        "Player ID": "micelda01",
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "Trevor Hoffman": {
+        "Player": "Trevor Hoffman",
+        "Player ID": "hoffmtr01",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1
+      }
+    },
+    "SFG": {
+      "Marvin Benard": {
+        "Player": "Marvin Benard",
+        "Player ID": "benarma01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1
+      },
+      "Stan Javier": {
+        "Player": "Stan Javier",
+        "Player ID": "javiest01",
+        "AB": 4,
+        "PO": 2
+      },
+      "Barry Bonds": {
+        "Player": "Barry Bonds",
+        "Player ID": "bondsba01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 2
+      },
+      "Jeff Kent": {
+        "Player": "Jeff Kent",
+        "Player ID": "kentje01",
+        "AB": 4,
+        "A": 4,
+        "DP": 1
+      },
+      "J.T. Snow": {
+        "Player": "J.T. Snow",
+        "Player ID": "snowj.01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "PO": 9,
+        "A": 1,
+        "DP": 1
+      },
+      "Brent Mayne": {
+        "Player": "Brent Mayne",
+        "Player ID": "maynebr01",
+        "AB": 3,
+        "H": 1,
+        "PO": 6
+      },
+      "John Johnstone": {
+        "Player": "John Johnstone",
+        "Player ID": "johnsjo07",
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Robb Nen": {
+        "Player": "Robb Nen",
+        "Player ID": "nenro01",
+        "L": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SB against": 1
+      },
+      "Ellis Burks": {
+        "Player": "Ellis Burks",
+        "Player ID": "burksel01",
+        "AB": 1,
+        "GDP": 1
+      },
+      "Rich Aurilia": {
+        "Player": "Rich Aurilia",
+        "Player ID": "aurilri01",
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "PO": 6,
+        "A": 1,
+        "DP": 1
+      },
+      "Edwards Guzman": {
+        "Player": "Edwards Guzman",
+        "Player ID": "guzmaed01",
+        "AB": 3,
+        "SO": 1,
+        "A": 2
+      },
+      "Mark Gardner": {
+        "Player": "Mark Gardner",
+        "Player ID": "gardnma01",
+        "AB": 2,
+        "SO": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 7,
+        "PO": 1
+      },
+      "Alan Embree": {
+        "Player": "Alan Embree",
+        "Player ID": "embreal01",
+        "IP": "1.1",
+        "H allowed": 1
+      },
+      "Scott Servais": {
+        "Player": "Scott Servais",
+        "Player ID": "servasc01",
+        "AB": 1,
+        "SO": 1,
+        "PO": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "pitching": {
+    "SDP": {
+      "Andy Ashby": {
+        "Player": "Andy Ashby",
+        "Player ID": "ashbyan01",
+        "Pit #": 1,
+        "AB": 3,
+        "SO": 2,
+        "IP": "7.0",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 3,
+        "A": 1,
+        "SB against": 1
+      },
+      "Dan Miceli": {
+        "Player": "Dan Miceli",
+        "Player ID": "micelda01",
+        "Pit #": 2,
+        "W": 1,
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "Trevor Hoffman": {
+        "Player": "Trevor Hoffman",
+        "Player ID": "hoffmtr01",
+        "Pit #": 3,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1
+      }
+    },
+    "SFG": {
+      "Mark Gardner": {
+        "Player": "Mark Gardner",
+        "Player ID": "gardnma01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 7,
+        "PO": 1
+      },
+      "Alan Embree": {
+        "Player": "Alan Embree",
+        "Player ID": "embreal01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "H allowed": 1
+      },
+      "John Johnstone": {
+        "Player": "John Johnstone",
+        "Player ID": "johnsjo07",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Robb Nen": {
+        "Player": "Robb Nen",
+        "Player ID": "nenro01",
+        "Pit #": 4,
+        "L": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "SDP": [
+      [
+        1,
+        "Quilvio Veras"
+      ],
+      [
+        2,
+        "Reggie Sanders"
+      ],
+      [
+        2,
+        "Reggie Sanders"
+      ],
+      [
+        3,
+        "Tony Gwynn"
+      ],
+      [
+        4,
+        "Wally Joyner"
+      ],
+      [
+        5,
+        "John Vander Wal"
+      ],
+      [
+        5,
+        "Ruben Rivera"
+      ],
+      [
+        5,
+        "Ruben Rivera"
+      ],
+      [
+        6,
+        "Jim Leyritz"
+      ],
+      [
+        7,
+        "Dave Magadan"
+      ],
+      [
+        8,
+        "Damian Jackson"
+      ],
+      [
+        9,
+        "Andy Ashby"
+      ],
+      [
+        9,
+        "Chris Gomez"
+      ],
+      [
+        9,
+        "Dan Miceli"
+      ],
+      [
+        9,
+        "Trevor Hoffman"
+      ]
+    ],
+    "SFG": [
+      [
+        1,
+        "Marvin Benard"
+      ],
+      [
+        2,
+        "Stan Javier"
+      ],
+      [
+        3,
+        "Barry Bonds"
+      ],
+      [
+        4,
+        "Jeff Kent"
+      ],
+      [
+        5,
+        "J.T. Snow"
+      ],
+      [
+        6,
+        "Brent Mayne"
+      ],
+      [
+        6,
+        "John Johnstone"
+      ],
+      [
+        6,
+        "Robb Nen"
+      ],
+      [
+        6,
+        "Ellis Burks"
+      ],
+      [
+        7,
+        "Rich Aurilia"
+      ],
+      [
+        8,
+        "Edwards Guzman"
+      ],
+      [
+        9,
+        "Mark Gardner"
+      ],
+      [
+        9,
+        "Alan Embree"
+      ],
+      [
+        9,
+        "Scott Servais"
+      ]
+    ]
+  },
+  "positions": {
+    "SDP": {
+      "Quilvio Veras": [
+        "4"
+      ],
+      "Reggie Sanders": [
+        "8",
+        "7"
+      ],
+      "Tony Gwynn": [
+        "9"
+      ],
+      "Wally Joyner": [
+        "3"
+      ],
+      "John Vander Wal": [
+        "7"
+      ],
+      "Ruben Rivera": [
+        "8",
+        "PH"
+      ],
+      "Jim Leyritz": [
+        "2"
+      ],
+      "Dave Magadan": [
+        "5"
+      ],
+      "Damian Jackson": [
+        "6"
+      ],
+      "Andy Ashby": [
+        "1"
+      ],
+      "Chris Gomez": [
+        "PH"
+      ],
+      "Dan Miceli": [
+        "1"
+      ],
+      "Trevor Hoffman": [
+        "1"
+      ]
+    },
+    "SFG": {
+      "Marvin Benard": [
+        "8"
+      ],
+      "Stan Javier": [
+        "9"
+      ],
+      "Barry Bonds": [
+        "7"
+      ],
+      "Jeff Kent": [
+        "4"
+      ],
+      "J.T. Snow": [
+        "3"
+      ],
+      "Brent Mayne": [
+        "2"
+      ],
+      "John Johnstone": [
+        "1"
+      ],
+      "Robb Nen": [
+        "1"
+      ],
+      "Ellis Burks": [
+        "PH"
+      ],
+      "Rich Aurilia": [
+        "6"
+      ],
+      "Edwards Guzman": [
+        "5"
+      ],
+      "Mark Gardner": [
+        "1"
+      ],
+      "Alan Embree": [
+        "1"
+      ],
+      "Scott Servais": [
+        "2"
+      ]
+    }
+  },
+  "games_started": {
+    "SDP": {
+      "Quilvio Veras": 1,
+      "Reggie Sanders": 1,
+      "Tony Gwynn": 1,
+      "Wally Joyner": 1,
+      "John Vander Wal": 1,
+      "Jim Leyritz": 1,
+      "Dave Magadan": 1,
+      "Damian Jackson": 1,
+      "Andy Ashby": 1
+    },
+    "SFG": {
+      "Marvin Benard": 1,
+      "Stan Javier": 1,
+      "Barry Bonds": 1,
+      "Jeff Kent": 1,
+      "J.T. Snow": 1,
+      "Brent Mayne": 1,
+      "Rich Aurilia": 1,
+      "Edwards Guzman": 1,
+      "Mark Gardner": 1
+    }
+  }
+}
