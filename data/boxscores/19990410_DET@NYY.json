@@ -224,7 +224,6 @@
         "Player": "Todd Jones",
         "Player ID": "jonesto02",
         "Pit #": 3,
-        "L": 1,
         "IP": "0.2",
         "H allowed": 5,
         "R against": 5,
@@ -235,6 +234,7 @@
         "Player": "Sean Runyan",
         "Player ID": "runyase01",
         "Pit #": 4,
+        "L": 1,
         "WP": 1
       }
     },

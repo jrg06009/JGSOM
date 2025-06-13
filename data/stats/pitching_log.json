@@ -5033,7 +5033,6 @@
     "Game#": 65,
     "Game ID": "19990410_DET@NYY",
     "IP": 0.6666666666666666,
-    "L": 1,
     "H allowed": 5,
     "R against": 5,
     "WP": 1
@@ -5045,6 +5044,7 @@
     "Game#": 65,
     "Game ID": "19990410_DET@NYY",
     "IP": null,
+    "L": 1,
     "WP": 1
   },
   {
