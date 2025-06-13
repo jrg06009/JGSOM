@@ -64,6 +64,7 @@ const TeamPage = ({ abbr, team }) => {
   const bStats = batting.filter(p => p.team === abbr)
   const pStats = pitching.filter(p => p.team === abbr)
   const fStats = fielding.filter(p => p.team === abbr)
+  const teamGames = sumStat(pStats, 'GS')  // Total team games played
   const teamwins = sumStat(pStats, 'W')
   const teamlosses = sumStat(pStats, 'L')
 
@@ -152,6 +153,7 @@ const TeamPage = ({ abbr, team }) => {
       {renderTable("Batting", bStats, [
         'G','PA','AB','R','H','2B','3B','HR','RBI','SB','CS','BB','IBB','SO','AVG','OBP','SLG','OPS','TB','GDP','HBP','SH','SF'
       ], {
+        'G': () => teamGames,
         'AVG': arr => sumStat(arr, 'H') / sumStat(arr, 'AB'),
         'OBP': arr => (sumStat(arr, 'H') + sumStat(arr, 'BB') + sumStat(arr, 'HBP')) / (sumStat(arr, 'AB') + sumStat(arr, 'BB') + sumStat(arr, 'HBP') + sumStat(arr, 'SF')),
         'SLG': arr => sumStat(arr, 'TB') / sumStat(arr, 'AB'),
@@ -164,6 +166,7 @@ const TeamPage = ({ abbr, team }) => {
       {renderTable("Pitching", pStats, [
         'W','L','W-L%','ERA','G','GS','CG','SHO','SV','IP','H','R','ER','HR','BB','IBB','SO','HBP','BK','WP','H9','HR9','BB9','SO9','SO/BB'
       ], {
+        'G': () => teamGames,
         'W-L%': arr => {
           const W = sumStat(arr, 'W'), L = sumStat(arr, 'L')
           return W + L > 0 ? W / (W + L) : ''
@@ -181,6 +184,8 @@ const TeamPage = ({ abbr, team }) => {
       {renderTable("Fielding", fStats, [
         'G','GS','CG','Inn','Ch','PO','A','E','DP','Fld%','PB','WP','SB','CS','CS%','PkO'
       ], {
+        'G': () => teamGames,
+        'GS': () => teamGames,
         'Fld%': arr => {
           const PO = sumStat(arr, 'PO'), A = sumStat(arr, 'A'), E = sumStat(arr, 'E')
           const total = PO + A + E
