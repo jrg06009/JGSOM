@@ -5099,5 +5099,82 @@
     "W": 1,
     "BB against": 1,
     "SO against": 1
+  },
+  {
+    "Player": "Justin Thompson",
+    "Player ID": "thompju02",
+    "Team": "DET",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 7.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 6,
+    "R against": 3,
+    "ER": 3,
+    "HR allowed": 1,
+    "BB against": 2,
+    "SO against": 2,
+    "HBP against": 3
+  },
+  {
+    "Player": "Matt Anderson",
+    "Player ID": "anderma01",
+    "Team": "DET",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 1.0,
+    "SO against": 1
+  },
+  {
+    "Player": "Todd Jones",
+    "Player ID": "jonesto02",
+    "Team": "DET",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 1,
+    "SO against": 2,
+    "WP": 1
+  },
+  {
+    "Player": "Orlando Hernandez",
+    "Player ID": "hernaor01",
+    "Team": "NYY",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 4.666666666666667,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 7,
+    "R against": 5,
+    "ER": 5,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Dan Naulty",
+    "Player ID": "naultda01",
+    "Team": "NYY",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 2.3333333333333335,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Jason Grimsley",
+    "Player ID": "grimsja01",
+    "Team": "NYY",
+    "Game#": 80,
+    "Game ID": "19990411_DET@NYY",
+    "IP": 2.0,
+    "H allowed": 1,
+    "BB against": 3,
+    "SO against": 1,
+    "WP": 1
   }
 ]
