@@ -195,7 +195,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
                     <img src={game.homeLogo} alt={game.home_team} className="h-8 w-8 object-contain" />
                   </div>  
                   <div className="text-sm text-right text-gray-600 whitespace-nowrap ml-4">
-                  Calendar Date: {new Date(`${game.scheduledDate}T12:00:00`).toLocaleDateString('en-US')} <br />
+                  Calendar Date: {game.scheduledDate && !isNaN(new Date(game.scheduledDate)) ? new Date(game.scheduledDate).toLocaleDateString('en-US') : 'N/A' } <br />
                   Played On: {new Date(game.simDate).toLocaleDateString('en-US')}
                   </div>
                 </div>
