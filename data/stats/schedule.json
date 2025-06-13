@@ -494,10 +494,10 @@
     "date": "1999-04-09",
     "home_team": "NYY",
     "away_team": "DET",
-    "home_score": 0,
+    "home_score": 2,
     "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "simDate": "2025-06-12 00:00:00",
+    "completed": true
   },
   {
     "id": "19990409_ANA@TEX",
@@ -644,10 +644,10 @@
     "date": "1999-04-10",
     "home_team": "NYY",
     "away_team": "DET",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 10,
+    "away_score": 9,
+    "simDate": "2025-06-12 00:00:00",
+    "completed": true
   },
   {
     "id": "19990410_ANA@TEX",

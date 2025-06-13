@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "NYY",
+    "away": "DET",
+    "home_score": "2",
+    "away_score": "0"
+  },
+  "batting": {
+    "DET": {
+      "Frank Catalanotto": {
+        "Player": "Frank Catalanotto",
+        "Player ID": "catalfr01",
+        "AB": 3,
+        "H": 1,
+        "PO": 10
+      },
+      "Tony Clark": {
+        "Player": "Tony Clark",
+        "Player ID": "clarkto02",
+        "AB": 1,
+        "PO": 1
+      },
+      "Gregg Jefferies": {
+        "Player": "Gregg Jefferies",
+        "Player ID": "jeffegr01",
+        "AB": 3
+      },
+      "Juan Encarnacion": {
+        "Player": "Juan Encarnacion",
+        "Player ID": "encarju01",
+        "AB": 1,
+        "H": 1
+      },
+      "Damion Easley": {
+        "Player": "Damion Easley",
+        "Player ID": "easleda01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Bobby Higginson": {
+        "Player": "Bobby Higginson",
+        "Player ID": "higgibo02",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Dean Palmer": {
+        "Player": "Dean Palmer",
+        "Player ID": "palmede01",
+        "AB": 2,
+        "BB": 1,
+        "SO": 2,
+        "HBP": 1,
+        "PO": 3,
+        "A": 4
+      },
+      "Karim Garcia": {
+        "Player": "Karim Garcia",
+        "Player ID": "garcika01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Gabe Kapler": {
+        "Player": "Gabe Kapler",
+        "Player ID": "kaplega01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Brad Ausmus": {
+        "Player": "Brad Ausmus",
+        "Player ID": "ausmubr01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 2,
+        "A": 1,
+        "PB": 1
+      },
+      "Deivi Cruz": {
+        "Player": "Deivi Cruz",
+        "Player ID": "cruzde01",
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1
+      }
+    },
+    "NYY": {
+      "Chuck Knoblauch": {
+        "Player": "Chuck Knoblauch",
+        "Player ID": "knoblch01",
+        "AB": 4,
+        "BB": 1,
+        "A": 1
+      },
+      "Derek Jeter": {
+        "Player": "Derek Jeter",
+        "Player ID": "jeterde01",
+        "AB": 5,
+        "H": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Paul O'Neill": {
+        "Player": "Paul O'Neill",
+        "Player ID": "o'neipa01",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "PO": 5
+      },
+      "Bernie Williams": {
+        "Player": "Bernie Williams",
+        "Player ID": "willibe02",
+        "AB": 2,
+        "H": 1,
+        "BB": 2,
+        "PO": 2
+      },
+      "Tino Martinez": {
+        "Player": "Tino Martinez",
+        "Player ID": "martiti02",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 5
+      },
+      "Chili Davis": {
+        "Player": "Chili Davis",
+        "Player ID": "davisch01",
+        "AB": 4,
+        "H": 1
+      },
+      "Chad Curtis": {
+        "Player": "Chad Curtis",
+        "Player ID": "curtich01",
+        "AB": 3,
+        "BB": 1,
+        "PO": 3
+      },
+      "Scott Brosius": {
+        "Player": "Scott Brosius",
+        "Player ID": "brosisc01",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "2B": 2,
+        "PO": 1
+      },
+      "Joe Girardi": {
+        "Player": "Joe Girardi",
+        "Player ID": "girarjo01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 9
+      }
+    }
+  },
+  "pitching": {
+    "DET": {
+      "Beiker Graterol": {
+        "Player": "Beiker Graterol",
+        "Player ID": "gratebe01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "5.2",
+        "H allowed": 8,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 1,
+        "A": 2
+      },
+      "Matt Anderson": {
+        "Player": "Matt Anderson",
+        "Player ID": "anderma01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 1,
+        "A": 1
+      },
+      "Doug Brocail": {
+        "Player": "Doug Brocail",
+        "Player ID": "brocado01",
+        "Pit #": 3,
+        "IP": "0.2",
+        "H allowed": 2,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "C.J. Nitkowski": {
+        "Player": "C.J. Nitkowski",
+        "Player ID": "nitkoc.01",
+        "Pit #": 4,
+        "IP": "0.1"
+      }
+    },
+    "NYY": {
+      "David Cone": {
+        "Player": "David Cone",
+        "Player ID": "coneda01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "6.1",
+        "H allowed": 4,
+        "BB against": 1,
+        "SO against": 4,
+        "HBP against": 1,
+        "A": 1,
+        "Pko": 1
+      },
+      "Jeff Nelson": {
+        "Player": "Jeff Nelson",
+        "Player ID": "nelsoje01",
+        "Pit #": 2,
+        "IP": "0.2",
+        "BB against": 1,
+        "SO against": 1,
+        "BK": 1
+      },
+      "Mike Stanton": {
+        "Player": "Mike Stanton",
+        "Player ID": "stantmi02",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "ERR": 1
+      },
+      "Mariano Rivera": {
+        "Player": "Mariano Rivera",
+        "Player ID": "riverma01",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.0",
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "DET": [
+      [
+        1,
+        "Frank Catalanotto"
+      ],
+      [
+        1,
+        "Tony Clark"
+      ],
+      [
+        1,
+        "Tony Clark"
+      ],
+      [
+        2,
+        "Gregg Jefferies"
+      ],
+      [
+        2,
+        "Juan Encarnacion"
+      ],
+      [
+        3,
+        "Damion Easley"
+      ],
+      [
+        4,
+        "Bobby Higginson"
+      ],
+      [
+        5,
+        "Dean Palmer"
+      ],
+      [
+        6,
+        "Karim Garcia"
+      ],
+      [
+        7,
+        "Gabe Kapler"
+      ],
+      [
+        8,
+        "Brad Ausmus"
+      ],
+      [
+        9,
+        "Deivi Cruz"
+      ]
+    ],
+    "NYY": [
+      [
+        1,
+        "Chuck Knoblauch"
+      ],
+      [
+        2,
+        "Derek Jeter"
+      ],
+      [
+        3,
+        "Paul O'Neill"
+      ],
+      [
+        4,
+        "Bernie Williams"
+      ],
+      [
+        5,
+        "Tino Martinez"
+      ],
+      [
+        6,
+        "Chili Davis"
+      ],
+      [
+        7,
+        "Chad Curtis"
+      ],
+      [
+        8,
+        "Scott Brosius"
+      ],
+      [
+        9,
+        "Joe Girardi"
+      ]
+    ]
+  },
+  "positions": {
+    "DET": {
+      "Frank Catalanotto": [
+        "3"
+      ],
+      "Tony Clark": [
+        "PH",
+        "3"
+      ],
+      "Gregg Jefferies": [
+        "DH"
+      ],
+      "Juan Encarnacion": [
+        "PH"
+      ],
+      "Damion Easley": [
+        "4"
+      ],
+      "Bobby Higginson": [
+        "9"
+      ],
+      "Dean Palmer": [
+        "5"
+      ],
+      "Karim Garcia": [
+        "7"
+      ],
+      "Gabe Kapler": [
+        "8"
+      ],
+      "Brad Ausmus": [
+        "2"
+      ],
+      "Deivi Cruz": [
+        "6"
+      ],
+      "Beiker Graterol": [
+        "1"
+      ],
+      "Matt Anderson": [
+        "1"
+      ],
+      "Doug Brocail": [
+        "1"
+      ],
+      "C.J. Nitkowski": [
+        "1"
+      ]
+    },
+    "NYY": {
+      "Chuck Knoblauch": [
+        "4"
+      ],
+      "Derek Jeter": [
+        "6"
+      ],
+      "Paul O'Neill": [
+        "9"
+      ],
+      "Bernie Williams": [
+        "8"
+      ],
+      "Tino Martinez": [
+        "3"
+      ],
+      "Chili Davis": [
+        "DH"
+      ],
+      "Chad Curtis": [
+        "7"
+      ],
+      "Scott Brosius": [
+        "5"
+      ],
+      "Joe Girardi": [
+        "2"
+      ],
+      "David Cone": [
+        "1"
+      ],
+      "Jeff Nelson": [
+        "1"
+      ],
+      "Mike Stanton": [
+        "1"
+      ],
+      "Mariano Rivera": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "DET": {
+      "Frank Catalanotto": 1,
+      "Gregg Jefferies": 1,
+      "Damion Easley": 1,
+      "Bobby Higginson": 1,
+      "Dean Palmer": 1,
+      "Karim Garcia": 1,
+      "Gabe Kapler": 1,
+      "Brad Ausmus": 1,
+      "Deivi Cruz": 1,
+      "Beiker Graterol": 1
+    },
+    "NYY": {
+      "Chuck Knoblauch": 1,
+      "Derek Jeter": 1,
+      "Paul O'Neill": 1,
+      "Bernie Williams": 1,
+      "Tino Martinez": 1,
+      "Chili Davis": 1,
+      "Chad Curtis": 1,
+      "Scott Brosius": 1,
+      "Joe Girardi": 1,
+      "David Cone": 1
+    }
+  }
+}
