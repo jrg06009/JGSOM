@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "TEX",
+    "away": "ANA",
+    "home_score": "13",
+    "away_score": "5"
+  },
+  "batting": {
+    "ANA": {
+      "Orlando Palmeiro": {
+        "Player": "Orlando Palmeiro",
+        "Player ID": "palmeor01",
+        "AB": 5,
+        "R": 2,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Randy Velarde": {
+        "Player": "Randy Velarde",
+        "Player ID": "velarra01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 3,
+        "A": 2,
+        "ERR": 1
+      },
+      "Darin Erstad": {
+        "Player": "Darin Erstad",
+        "Player ID": "erstada01",
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 9
+      },
+      "Tim Salmon": {
+        "Player": "Tim Salmon",
+        "Player ID": "salmoti01",
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "BB": 2
+      },
+      "Garret Anderson": {
+        "Player": "Garret Anderson",
+        "Player ID": "anderga01",
+        "AB": 4,
+        "GDP": 1,
+        "PO": 6
+      },
+      "Troy Glaus": {
+        "Player": "Troy Glaus",
+        "Player ID": "glaustr01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "A": 2
+      },
+      "Chris Pritchett": {
+        "Player": "Chris Pritchett",
+        "Player ID": "pritcch01",
+        "AB": 4,
+        "GDP": 1
+      },
+      "Matt Walbeck": {
+        "Player": "Matt Walbeck",
+        "Player ID": "walbema01",
+        "AB": 3,
+        "H": 2,
+        "HBP": 1,
+        "PO": 3
+      },
+      "Andy Sheets": {
+        "Player": "Andy Sheets",
+        "Player ID": "sheetan01",
+        "AB": 4,
+        "H": 1,
+        "PO": 1,
+        "A": 5
+      }
+    },
+    "TEX": {
+      "Tom Goodwin": {
+        "Player": "Tom Goodwin",
+        "Player ID": "goodwto01",
+        "AB": 6,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 3,
+        "PO": 4
+      },
+      "Mark McLemore": {
+        "Player": "Mark McLemore",
+        "Player ID": "mclemma01",
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 2,
+        "PO": 3,
+        "A": 7,
+        "DP": 2
+      },
+      "Rusty Greer": {
+        "Player": "Rusty Greer",
+        "Player ID": "greerru01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "BB": 1
+      },
+      "Juan Gonzalez": {
+        "Player": "Juan Gonzalez",
+        "Player ID": "gonzaju03",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1
+      },
+      "Rafael Palmeiro": {
+        "Player": "Rafael Palmeiro",
+        "Player ID": "palmera01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 5,
+        "SO": 1
+      },
+      "Ivan Rodriguez": {
+        "Player": "Ivan Rodriguez",
+        "Player ID": "rodriiv01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "PO": 4
+      },
+      "Todd Zeile": {
+        "Player": "Todd Zeile",
+        "Player ID": "zeileto01",
+        "AB": 3,
+        "R": 2,
+        "BB": 2,
+        "SO": 1,
+        "PO": 1,
+        "A": 2
+      },
+      "Lee Stevens": {
+        "Player": "Lee Stevens",
+        "Player ID": "stevele01",
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "BB": 2,
+        "PO": 11,
+        "DP": 2
+      },
+      "Jon Shave": {
+        "Player": "Jon Shave",
+        "Player ID": "shavejo01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 4,
+        "A": 5,
+        "DP": 2
+      }
+    }
+  },
+  "pitching": {
+    "ANA": {
+      "Tim Belcher": {
+        "Player": "Tim Belcher",
+        "Player ID": "belchti01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 7,
+        "ER": 5,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Al Levine": {
+        "Player": "Al Levine",
+        "Player ID": "levinal01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 4,
+        "WP": 1
+      },
+      "Mike Holtz": {
+        "Player": "Mike Holtz",
+        "Player ID": "holtzmi01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 2,
+        "HBP against": 1
+      }
+    },
+    "TEX": {
+      "Aaron Sele": {
+        "Player": "Aaron Sele",
+        "Player ID": "seleaa01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 9,
+        "R against": 5,
+        "ER": 5,
+        "HR allowed": 2,
+        "BB against": 3,
+        "SO against": 2,
+        "A": 1
+      },
+      "Tim Crabtree": {
+        "Player": "Tim Crabtree",
+        "Player ID": "crabtti01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 2,
+        "HBP against": 1
+      },
+      "Mike Munoz": {
+        "Player": "Mike Munoz",
+        "Player ID": "munozmi01",
+        "Pit #": 3,
+        "IP": "1.0"
+      }
+    }
+  },
+  "batting_order": {
+    "ANA": [
+      [
+        1,
+        "Orlando Palmeiro"
+      ],
+      [
+        2,
+        "Randy Velarde"
+      ],
+      [
+        3,
+        "Darin Erstad"
+      ],
+      [
+        4,
+        "Tim Salmon"
+      ],
+      [
+        5,
+        "Garret Anderson"
+      ],
+      [
+        6,
+        "Troy Glaus"
+      ],
+      [
+        7,
+        "Chris Pritchett"
+      ],
+      [
+        8,
+        "Matt Walbeck"
+      ],
+      [
+        9,
+        "Andy Sheets"
+      ]
+    ],
+    "TEX": [
+      [
+        1,
+        "Tom Goodwin"
+      ],
+      [
+        2,
+        "Mark McLemore"
+      ],
+      [
+        3,
+        "Rusty Greer"
+      ],
+      [
+        4,
+        "Juan Gonzalez"
+      ],
+      [
+        5,
+        "Rafael Palmeiro"
+      ],
+      [
+        6,
+        "Ivan Rodriguez"
+      ],
+      [
+        7,
+        "Todd Zeile"
+      ],
+      [
+        8,
+        "Lee Stevens"
+      ],
+      [
+        9,
+        "Jon Shave"
+      ]
+    ]
+  },
+  "positions": {
+    "ANA": {
+      "Orlando Palmeiro": [
+        "7"
+      ],
+      "Randy Velarde": [
+        "4"
+      ],
+      "Darin Erstad": [
+        "3"
+      ],
+      "Tim Salmon": [
+        "9"
+      ],
+      "Garret Anderson": [
+        "8"
+      ],
+      "Troy Glaus": [
+        "5"
+      ],
+      "Chris Pritchett": [
+        "DH"
+      ],
+      "Matt Walbeck": [
+        "2"
+      ],
+      "Andy Sheets": [
+        "6"
+      ],
+      "Tim Belcher": [
+        "1"
+      ],
+      "Al Levine": [
+        "1"
+      ],
+      "Mike Holtz": [
+        "1"
+      ]
+    },
+    "TEX": {
+      "Tom Goodwin": [
+        "8"
+      ],
+      "Mark McLemore": [
+        "4"
+      ],
+      "Rusty Greer": [
+        "7"
+      ],
+      "Juan Gonzalez": [
+        "9"
+      ],
+      "Rafael Palmeiro": [
+        "DH"
+      ],
+      "Ivan Rodriguez": [
+        "2"
+      ],
+      "Todd Zeile": [
+        "5"
+      ],
+      "Lee Stevens": [
+        "3"
+      ],
+      "Jon Shave": [
+        "6"
+      ],
+      "Aaron Sele": [
+        "1"
+      ],
+      "Tim Crabtree": [
+        "1"
+      ],
+      "Mike Munoz": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "ANA": {
+      "Orlando Palmeiro": 1,
+      "Randy Velarde": 1,
+      "Darin Erstad": 1,
+      "Tim Salmon": 1,
+      "Garret Anderson": 1,
+      "Troy Glaus": 1,
+      "Chris Pritchett": 1,
+      "Matt Walbeck": 1,
+      "Andy Sheets": 1,
+      "Tim Belcher": 1
+    },
+    "TEX": {
+      "Tom Goodwin": 1,
+      "Mark McLemore": 1,
+      "Rusty Greer": 1,
+      "Juan Gonzalez": 1,
+      "Rafael Palmeiro": 1,
+      "Ivan Rodriguez": 1,
+      "Todd Zeile": 1,
+      "Lee Stevens": 1,
+      "Jon Shave": 1,
+      "Aaron Sele": 1
+    }
+  }
+}

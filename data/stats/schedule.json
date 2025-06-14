@@ -804,10 +804,10 @@
     "date": "1999-04-11",
     "home_team": "TEX",
     "away_team": "ANA",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 13,
+    "away_score": 5,
+    "simDate": "2025-06-13 00:00:00",
+    "completed": true
   },
   {
     "id": "19990411_BOS@TBD",
