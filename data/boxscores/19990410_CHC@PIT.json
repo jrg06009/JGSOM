@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "PIT",
+    "away": "CHC",
+    "home_score": "9",
+    "away_score": "6"
+  },
+  "batting": {
+    "CHC": {
+      "Lance Johnson": {
+        "Player": "Lance Johnson",
+        "Player ID": "johnsla03",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "PO": 1
+      },
+      "Mickey Morandini": {
+        "Player": "Mickey Morandini",
+        "Player ID": "moranmi01",
+        "AB": 5,
+        "SO": 2,
+        "PO": 3,
+        "A": 2
+      },
+      "Sammy Sosa": {
+        "Player": "Sammy Sosa",
+        "Player ID": "sosasa01",
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "3B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 2,
+        "PO": 2
+      },
+      "Mark Grace": {
+        "Player": "Mark Grace",
+        "Player ID": "gracema01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 7,
+        "A": 2
+      },
+      "Henry Rodriguez": {
+        "Player": "Henry Rodriguez",
+        "Player ID": "rodrihe02",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "SO": 3,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Tyler Houston": {
+        "Player": "Tyler Houston",
+        "Player ID": "houstty01",
+        "AB": 2,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Gary Gaetti": {
+        "Player": "Gary Gaetti",
+        "Player ID": "gaettga01",
+        "AB": 1
+      },
+      "Benito Santiago": {
+        "Player": "Benito Santiago",
+        "Player ID": "santibe01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 2,
+        "PO": 6
+      },
+      "Jose Hernandez": {
+        "Player": "Jose Hernandez",
+        "Player ID": "hernajo01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 2,
+        "PO": 2,
+        "A": 3
+      },
+      "Brad Woodall": {
+        "Player": "Brad Woodall",
+        "Player ID": "woodabr01",
+        "AB": 2,
+        "SO": 1,
+        "IP": "4.2",
+        "H allowed": 7,
+        "R against": 3,
+        "ER": 2,
+        "SO against": 2,
+        "HBP against": 1,
+        "PO": 1
+      },
+      "Terry Mulholland": {
+        "Player": "Terry Mulholland",
+        "Player ID": "mulhote01",
+        "AB": 1,
+        "SO": 1,
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      },
+      "Felix Heredia": {
+        "Player": "Felix Heredia",
+        "Player ID": "heredfe01",
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 4,
+        "R against": 4,
+        "ER": 4,
+        "SO against": 1
+      },
+      "Kurt Miller": {
+        "Player": "Kurt Miller",
+        "Player ID": "milleku01",
+        "IP": "0.2",
+        "H allowed": 2,
+        "SO against": 1,
+        "PO": 1
+      },
+      "Glenallen Hill": {
+        "Player": "Glenallen Hill",
+        "Player ID": "hillgl01",
+        "AB": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      }
+    },
+    "PIT": {
+      "Adrian Brown": {
+        "Player": "Adrian Brown",
+        "Player ID": "brownad01",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 2,
+        "SO": 1,
+        "PO": 3
+      },
+      "Mike Benjamin": {
+        "Player": "Mike Benjamin",
+        "Player ID": "benjami01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Brian Giles": {
+        "Player": "Brian Giles",
+        "Player ID": "gilesbr02",
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "2B": 1,
+        "RBI": 2,
+        "PO": 1
+      },
+      "Kevin Young": {
+        "Player": "Kevin Young",
+        "Player ID": "youngke01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 1,
+        "PO": 6,
+        "A": 1,
+        "ERR": 1
+      },
+      "Jason Kendall": {
+        "Player": "Jason Kendall",
+        "Player ID": "kendaja01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 10
+      },
+      "Ed Sprague": {
+        "Player": "Ed Sprague",
+        "Player ID": "spraged02",
+        "AB": 5,
+        "H": 1,
+        "SO": 2,
+        "A": 2
+      },
+      "Jose Guillen": {
+        "Player": "Jose Guillen",
+        "Player ID": "guilljo01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "RBI": 2,
+        "PO": 3
+      },
+      "Abraham Nunez": {
+        "Player": "Abraham Nunez",
+        "Player ID": "nunezab01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "PO": 3,
+        "A": 2
+      },
+      "Francisco Cordova": {
+        "Player": "Francisco Cordova",
+        "Player ID": "cordofr01",
+        "AB": 2,
+        "IP": "5.1",
+        "H allowed": 4,
+        "R against": 5,
+        "ER": 5,
+        "HR allowed": 2,
+        "BB against": 4,
+        "SO against": 3,
+        "PO": 1
+      },
+      "Rich Loiselle": {
+        "Player": "Rich Loiselle",
+        "Player ID": "loiseri01",
+        "IP": "0.2",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Turner Ward": {
+        "Player": "Turner Ward",
+        "Player ID": "wardtu01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Chris Peters": {
+        "Player": "Chris Peters",
+        "Player ID": "peterch01",
+        "W": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Brant Brown": {
+        "Player": "Brant Brown",
+        "Player ID": "brownbr01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Jason Christiansen": {
+        "Player": "Jason Christiansen",
+        "Player ID": "chrisja01",
+        "IP": "1.0"
+      },
+      "Mike Williams": {
+        "Player": "Mike Williams",
+        "Player ID": "willimi03",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "SO against": 3
+      }
+    }
+  },
+  "pitching": {
+    "CHC": {
+      "Brad Woodall": {
+        "Player": "Brad Woodall",
+        "Player ID": "woodabr01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "IP": "4.2",
+        "H allowed": 7,
+        "R against": 3,
+        "ER": 2,
+        "SO against": 2,
+        "HBP against": 1,
+        "PO": 1
+      },
+      "Terry Mulholland": {
+        "Player": "Terry Mulholland",
+        "Player ID": "mulhote01",
+        "Pit #": 2,
+        "AB": 1,
+        "SO": 1,
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      },
+      "Felix Heredia": {
+        "Player": "Felix Heredia",
+        "Player ID": "heredfe01",
+        "Pit #": 3,
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 4,
+        "R against": 4,
+        "ER": 4,
+        "SO against": 1
+      },
+      "Kurt Miller": {
+        "Player": "Kurt Miller",
+        "Player ID": "milleku01",
+        "Pit #": 4,
+        "IP": "0.2",
+        "H allowed": 2,
+        "SO against": 1,
+        "PO": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "Pit #": 5,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      }
+    },
+    "PIT": {
+      "Francisco Cordova": {
+        "Player": "Francisco Cordova",
+        "Player ID": "cordofr01",
+        "Pit #": 1,
+        "AB": 2,
+        "IP": "5.1",
+        "H allowed": 4,
+        "R against": 5,
+        "ER": 5,
+        "HR allowed": 2,
+        "BB against": 4,
+        "SO against": 3,
+        "PO": 1
+      },
+      "Rich Loiselle": {
+        "Player": "Rich Loiselle",
+        "Player ID": "loiseri01",
+        "Pit #": 2,
+        "IP": "0.2",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Chris Peters": {
+        "Player": "Chris Peters",
+        "Player ID": "peterch01",
+        "Pit #": 3,
+        "W": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Jason Christiansen": {
+        "Player": "Jason Christiansen",
+        "Player ID": "chrisja01",
+        "Pit #": 4,
+        "IP": "1.0"
+      },
+      "Mike Williams": {
+        "Player": "Mike Williams",
+        "Player ID": "willimi03",
+        "Pit #": 5,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 1,
+        "SO against": 3
+      }
+    }
+  },
+  "batting_order": {
+    "CHC": [
+      [
+        1,
+        "Lance Johnson"
+      ],
+      [
+        2,
+        "Mickey Morandini"
+      ],
+      [
+        3,
+        "Sammy Sosa"
+      ],
+      [
+        4,
+        "Mark Grace"
+      ],
+      [
+        5,
+        "Henry Rodriguez"
+      ],
+      [
+        6,
+        "Tyler Houston"
+      ],
+      [
+        6,
+        "Gary Gaetti"
+      ],
+      [
+        6,
+        "Gary Gaetti"
+      ],
+      [
+        7,
+        "Benito Santiago"
+      ],
+      [
+        8,
+        "Jose Hernandez"
+      ],
+      [
+        9,
+        "Brad Woodall"
+      ],
+      [
+        9,
+        "Terry Mulholland"
+      ],
+      [
+        9,
+        "Felix Heredia"
+      ],
+      [
+        9,
+        "Kurt Miller"
+      ],
+      [
+        9,
+        "Glenallen Hill"
+      ],
+      [
+        9,
+        "Dan Serafini"
+      ]
+    ],
+    "PIT": [
+      [
+        1,
+        "Adrian Brown"
+      ],
+      [
+        2,
+        "Mike Benjamin"
+      ],
+      [
+        3,
+        "Brian Giles"
+      ],
+      [
+        4,
+        "Kevin Young"
+      ],
+      [
+        5,
+        "Jason Kendall"
+      ],
+      [
+        6,
+        "Ed Sprague"
+      ],
+      [
+        7,
+        "Jose Guillen"
+      ],
+      [
+        8,
+        "Abraham Nunez"
+      ],
+      [
+        9,
+        "Francisco Cordova"
+      ],
+      [
+        9,
+        "Rich Loiselle"
+      ],
+      [
+        9,
+        "Turner Ward"
+      ],
+      [
+        9,
+        "Chris Peters"
+      ],
+      [
+        9,
+        "Brant Brown"
+      ],
+      [
+        9,
+        "Jason Christiansen"
+      ],
+      [
+        9,
+        "Mike Williams"
+      ]
+    ]
+  },
+  "positions": {
+    "CHC": {
+      "Lance Johnson": [
+        "8"
+      ],
+      "Mickey Morandini": [
+        "4"
+      ],
+      "Sammy Sosa": [
+        "9"
+      ],
+      "Mark Grace": [
+        "3"
+      ],
+      "Henry Rodriguez": [
+        "7"
+      ],
+      "Tyler Houston": [
+        "5"
+      ],
+      "Gary Gaetti": [
+        "PH",
+        "5"
+      ],
+      "Benito Santiago": [
+        "2"
+      ],
+      "Jose Hernandez": [
+        "6"
+      ],
+      "Brad Woodall": [
+        "1"
+      ],
+      "Terry Mulholland": [
+        "1"
+      ],
+      "Felix Heredia": [
+        "1"
+      ],
+      "Kurt Miller": [
+        "1"
+      ],
+      "Glenallen Hill": [
+        "PH"
+      ],
+      "Dan Serafini": [
+        "1"
+      ]
+    },
+    "PIT": {
+      "Adrian Brown": [
+        "8"
+      ],
+      "Mike Benjamin": [
+        "4"
+      ],
+      "Brian Giles": [
+        "7"
+      ],
+      "Kevin Young": [
+        "3"
+      ],
+      "Jason Kendall": [
+        "2"
+      ],
+      "Ed Sprague": [
+        "5"
+      ],
+      "Jose Guillen": [
+        "9"
+      ],
+      "Abraham Nunez": [
+        "6"
+      ],
+      "Francisco Cordova": [
+        "1"
+      ],
+      "Rich Loiselle": [
+        "1"
+      ],
+      "Turner Ward": [
+        "PH"
+      ],
+      "Chris Peters": [
+        "1"
+      ],
+      "Brant Brown": [
+        "PH"
+      ],
+      "Jason Christiansen": [
+        "1"
+      ],
+      "Mike Williams": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CHC": {
+      "Lance Johnson": 1,
+      "Mickey Morandini": 1,
+      "Sammy Sosa": 1,
+      "Mark Grace": 1,
+      "Henry Rodriguez": 1,
+      "Tyler Houston": 1,
+      "Benito Santiago": 1,
+      "Jose Hernandez": 1,
+      "Brad Woodall": 1
+    },
+    "PIT": {
+      "Adrian Brown": 1,
+      "Mike Benjamin": 1,
+      "Brian Giles": 1,
+      "Kevin Young": 1,
+      "Jason Kendall": 1,
+      "Ed Sprague": 1,
+      "Jose Guillen": 1,
+      "Abraham Nunez": 1,
+      "Francisco Cordova": 1
+    }
+  }
+}
