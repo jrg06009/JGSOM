@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "TBD",
+    "away": "BOS",
+    "home_score": "1",
+    "away_score": "6"
+  },
+  "batting": {
+    "BOS": {
+      "Jose Offerman": {
+        "Player": "Jose Offerman",
+        "Player ID": "offerjo01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2
+      },
+      "Darren Lewis": {
+        "Player": "Darren Lewis",
+        "Player ID": "lewisda01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "BB": 1,
+        "SO": 2,
+        "PO": 2
+      },
+      "John Valentin": {
+        "Player": "John Valentin",
+        "Player ID": "valenjo02",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Mike Stanley": {
+        "Player": "Mike Stanley",
+        "Player ID": "stanlmi02",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 9,
+        "A": 1,
+        "DP": 1
+      },
+      "Troy O'Leary": {
+        "Player": "Troy O'Leary",
+        "Player ID": "o'leatr01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1
+      },
+      "Jeff Frye": {
+        "Player": "Jeff Frye",
+        "Player ID": "fryeje01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "CS": 1,
+        "PO": 1,
+        "A": 5,
+        "DP": 1
+      },
+      "Scott Hatteberg": {
+        "Player": "Scott Hatteberg",
+        "Player ID": "hattesc01",
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 12,
+        "SB against": 1
+      },
+      "Donnie Sadler": {
+        "Player": "Donnie Sadler",
+        "Player ID": "sadledo01",
+        "AB": 3,
+        "SO": 1,
+        "SH": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Trot Nixon": {
+        "Player": "Trot Nixon",
+        "Player ID": "nixontr01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1
+      }
+    },
+    "TBD": {
+      "Quinton McCracken": {
+        "Player": "Quinton McCracken",
+        "Player ID": "mccraqu01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 2,
+        "PO": 2
+      },
+      "Dave Martinez": {
+        "Player": "Dave Martinez",
+        "Player ID": "martida01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Jose Canseco": {
+        "Player": "Jose Canseco",
+        "Player ID": "cansejo01",
+        "AB": 4,
+        "SO": 1
+      },
+      "Fred McGriff": {
+        "Player": "Fred McGriff",
+        "Player ID": "mcgrifr01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 15,
+        "DP": 1
+      },
+      "John Flaherty": {
+        "Player": "John Flaherty",
+        "Player ID": "flahejo01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 4,
+        "A": 1,
+        "CS against": 1
+      },
+      "Wade Boggs": {
+        "Player": "Wade Boggs",
+        "Player ID": "boggswa01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Danny Clyburn": {
+        "Player": "Danny Clyburn",
+        "Player ID": "clybuda01",
+        "AB": 3,
+        "SO": 2,
+        "GDP": 1
+      },
+      "Miguel Cairo": {
+        "Player": "Miguel Cairo",
+        "Player ID": "cairomi01",
+        "AB": 3,
+        "PO": 2,
+        "A": 7,
+        "DP": 1
+      },
+      "Kevin Stocker": {
+        "Player": "Kevin Stocker",
+        "Player ID": "stockke01",
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SB": 1,
+        "PO": 2,
+        "A": 4,
+        "ERR": 1
+      }
+    }
+  },
+  "pitching": {
+    "BOS": {
+      "Pedro Martinez": {
+        "Player": "Pedro Martinez",
+        "Player ID": "martipe02",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "8.0",
+        "H allowed": 6,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 9,
+        "PO": 1,
+        "SB against": 1
+      },
+      "Mark Guthrie": {
+        "Player": "Mark Guthrie",
+        "Player ID": "guthrma01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "SO against": 1
+      }
+    },
+    "TBD": {
+      "Julio Santana": {
+        "Player": "Julio Santana",
+        "Player ID": "santaju01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 7,
+        "R against": 4,
+        "ER": 4,
+        "HR allowed": 1,
+        "BB against": 3,
+        "SO against": 2,
+        "CS against": 1
+      },
+      "Scott Aldred": {
+        "Player": "Scott Aldred",
+        "Player ID": "aldresc01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "Esteban Yan": {
+        "Player": "Esteban Yan",
+        "Player ID": "yanes01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Jim Mecir": {
+        "Player": "Jim Mecir",
+        "Player ID": "mecirji01",
+        "Pit #": 4,
+        "IP": "0.1",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "BOS": [
+      [
+        1,
+        "Jose Offerman"
+      ],
+      [
+        2,
+        "Darren Lewis"
+      ],
+      [
+        3,
+        "John Valentin"
+      ],
+      [
+        4,
+        "Mike Stanley"
+      ],
+      [
+        5,
+        "Troy O'Leary"
+      ],
+      [
+        6,
+        "Jeff Frye"
+      ],
+      [
+        7,
+        "Scott Hatteberg"
+      ],
+      [
+        8,
+        "Donnie Sadler"
+      ],
+      [
+        9,
+        "Trot Nixon"
+      ]
+    ],
+    "TBD": [
+      [
+        1,
+        "Quinton McCracken"
+      ],
+      [
+        2,
+        "Dave Martinez"
+      ],
+      [
+        3,
+        "Jose Canseco"
+      ],
+      [
+        4,
+        "Fred McGriff"
+      ],
+      [
+        5,
+        "John Flaherty"
+      ],
+      [
+        6,
+        "Wade Boggs"
+      ],
+      [
+        7,
+        "Danny Clyburn"
+      ],
+      [
+        8,
+        "Miguel Cairo"
+      ],
+      [
+        9,
+        "Kevin Stocker"
+      ]
+    ]
+  },
+  "positions": {
+    "BOS": {
+      "Jose Offerman": [
+        "DH"
+      ],
+      "Darren Lewis": [
+        "8"
+      ],
+      "John Valentin": [
+        "5"
+      ],
+      "Mike Stanley": [
+        "3"
+      ],
+      "Troy O'Leary": [
+        "7"
+      ],
+      "Jeff Frye": [
+        "4"
+      ],
+      "Scott Hatteberg": [
+        "2"
+      ],
+      "Donnie Sadler": [
+        "6"
+      ],
+      "Trot Nixon": [
+        "9"
+      ],
+      "Pedro Martinez": [
+        "1"
+      ],
+      "Mark Guthrie": [
+        "1"
+      ]
+    },
+    "TBD": {
+      "Quinton McCracken": [
+        "8"
+      ],
+      "Dave Martinez": [
+        "9"
+      ],
+      "Jose Canseco": [
+        "DH"
+      ],
+      "Fred McGriff": [
+        "3"
+      ],
+      "John Flaherty": [
+        "2"
+      ],
+      "Wade Boggs": [
+        "5"
+      ],
+      "Danny Clyburn": [
+        "7"
+      ],
+      "Miguel Cairo": [
+        "4"
+      ],
+      "Kevin Stocker": [
+        "6"
+      ],
+      "Julio Santana": [
+        "1"
+      ],
+      "Scott Aldred": [
+        "1"
+      ],
+      "Esteban Yan": [
+        "1"
+      ],
+      "Jim Mecir": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "BOS": {
+      "Jose Offerman": 1,
+      "Darren Lewis": 1,
+      "John Valentin": 1,
+      "Mike Stanley": 1,
+      "Troy O'Leary": 1,
+      "Jeff Frye": 1,
+      "Scott Hatteberg": 1,
+      "Donnie Sadler": 1,
+      "Trot Nixon": 1,
+      "Pedro Martinez": 1
+    },
+    "TBD": {
+      "Quinton McCracken": 1,
+      "Dave Martinez": 1,
+      "Jose Canseco": 1,
+      "Fred McGriff": 1,
+      "John Flaherty": 1,
+      "Wade Boggs": 1,
+      "Danny Clyburn": 1,
+      "Miguel Cairo": 1,
+      "Kevin Stocker": 1,
+      "Julio Santana": 1
+    }
+  }
+}

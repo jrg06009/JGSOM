@@ -5454,5 +5454,113 @@
     "Game#": 81,
     "Game ID": "19990411_ANA@TEX",
     "IP": 1.0
+  },
+  {
+    "Player": "Mark Portugal",
+    "Player ID": "portuma01",
+    "Team": "BOS",
+    "Game#": 52,
+    "Game ID": "19990409_BOS@TBD",
+    "IP": 6.0,
+    "GS": 1,
+    "H allowed": 5,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 3,
+    "SO against": 2
+  },
+  {
+    "Player": "Derek Lowe",
+    "Player ID": "lowede01",
+    "Team": "BOS",
+    "Game#": 52,
+    "Game ID": "19990409_BOS@TBD",
+    "IP": 2.0,
+    "L": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Rolando Arrojo",
+    "Player ID": "arrojro01",
+    "Team": "TBD",
+    "Game#": 52,
+    "Game ID": "19990409_BOS@TBD",
+    "IP": 9.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 4,
+    "BB against": 2,
+    "SO against": 8
+  },
+  {
+    "Player": "Pedro Martinez",
+    "Player ID": "martipe02",
+    "Team": "BOS",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 8.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 6,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1,
+    "SO against": 9
+  },
+  {
+    "Player": "Mark Guthrie",
+    "Player ID": "guthrma01",
+    "Team": "BOS",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 1.0,
+    "SO against": 1
+  },
+  {
+    "Player": "Julio Santana",
+    "Player ID": "santaju01",
+    "Team": "TBD",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 6.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 7,
+    "R against": 4,
+    "ER": 4,
+    "HR allowed": 1,
+    "BB against": 3,
+    "SO against": 2
+  },
+  {
+    "Player": "Scott Aldred",
+    "Player ID": "aldresc01",
+    "Team": "TBD",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 1.0,
+    "SO against": 1
+  },
+  {
+    "Player": "Esteban Yan",
+    "Player ID": "yanes01",
+    "Team": "TBD",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 1.6666666666666665,
+    "H allowed": 2,
+    "R against": 2,
+    "ER": 2,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Jim Mecir",
+    "Player ID": "mecirji01",
+    "Team": "TBD",
+    "Game#": 67,
+    "Game ID": "19990410_BOS@TBD",
+    "IP": 0.3333333333333333,
+    "H allowed": 1
   }
 ]

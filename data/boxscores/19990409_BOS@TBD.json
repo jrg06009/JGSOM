@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "TBD",
+    "away": "BOS",
+    "home_score": "1",
+    "away_score": "0"
+  },
+  "batting": {
+    "BOS": {
+      "Jose Offerman": {
+        "Player": "Jose Offerman",
+        "Player ID": "offerjo01",
+        "AB": 3,
+        "BB": 1,
+        "PO": 11,
+        "A": 1,
+        "DP": 1
+      },
+      "Darren Lewis": {
+        "Player": "Darren Lewis",
+        "Player ID": "lewisda01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "John Valentin": {
+        "Player": "John Valentin",
+        "Player ID": "valenjo02",
+        "AB": 4,
+        "SO": 2,
+        "A": 1,
+        "DP": 1
+      },
+      "Brian Daubach": {
+        "Player": "Brian Daubach",
+        "Player ID": "daubabr01",
+        "AB": 4,
+        "H": 1
+      },
+      "Troy O'Leary": {
+        "Player": "Troy O'Leary",
+        "Player ID": "o'leatr01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 3
+      },
+      "Scott Hatteberg": {
+        "Player": "Scott Hatteberg",
+        "Player ID": "hattesc01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 4
+      },
+      "Damon Buford": {
+        "Player": "Damon Buford",
+        "Player ID": "buforda01"
+      },
+      "Lou Merloni": {
+        "Player": "Lou Merloni",
+        "Player ID": "merlolo01",
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 7,
+        "DP": 1
+      },
+      "Mike Stanley": {
+        "Player": "Mike Stanley",
+        "Player ID": "stanlmi02",
+        "AB": 1,
+        "SO": 1
+      },
+      "Trot Nixon": {
+        "Player": "Trot Nixon",
+        "Player ID": "nixontr01",
+        "AB": 3
+      },
+      "Donnie Sadler": {
+        "Player": "Donnie Sadler",
+        "Player ID": "sadledo01",
+        "AB": 3,
+        "SO": 1,
+        "PO": 2,
+        "ERR": 1
+      }
+    },
+    "TBD": {
+      "Randy Winn": {
+        "Player": "Randy Winn",
+        "Player ID": "winnra01",
+        "AB": 4,
+        "PO": 4
+      },
+      "Dave Martinez": {
+        "Player": "Dave Martinez",
+        "Player ID": "martida01",
+        "AB": 4,
+        "PO": 2
+      },
+      "Jose Canseco": {
+        "Player": "Jose Canseco",
+        "Player ID": "cansejo01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1
+      },
+      "Fred McGriff": {
+        "Player": "Fred McGriff",
+        "Player ID": "mcgrifr01",
+        "AB": 3,
+        "H": 2,
+        "BB": 1,
+        "PO": 10
+      },
+      "John Flaherty": {
+        "Player": "John Flaherty",
+        "Player ID": "flahejo01",
+        "AB": 4,
+        "GDP": 1,
+        "PO": 9
+      },
+      "Wade Boggs": {
+        "Player": "Wade Boggs",
+        "Player ID": "boggswa01",
+        "AB": 2,
+        "R": 1,
+        "H": 2,
+        "BB": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Quinton McCracken": {
+        "Player": "Quinton McCracken",
+        "Player ID": "mccraqu01",
+        "AB": 3,
+        "H": 1
+      },
+      "Miguel Cairo": {
+        "Player": "Miguel Cairo",
+        "Player ID": "cairomi01",
+        "AB": 3,
+        "SO": 1,
+        "A": 5
+      },
+      "Kevin Stocker": {
+        "Player": "Kevin Stocker",
+        "Player ID": "stockke01",
+        "AB": 3,
+        "SO": 1,
+        "PO": 1,
+        "A": 1,
+        "ERR": 1
+      }
+    }
+  },
+  "pitching": {
+    "BOS": {
+      "Mark Portugal": {
+        "Player": "Mark Portugal",
+        "Player ID": "portuma01",
+        "Pit #": 1,
+        "IP": "6.0",
+        "H allowed": 5,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 3,
+        "SO against": 2,
+        "PO": 1,
+        "A": 1
+      },
+      "Derek Lowe": {
+        "Player": "Derek Lowe",
+        "Player ID": "lowede01",
+        "Pit #": 2,
+        "L": 1,
+        "IP": "2.0",
+        "SO against": 1
+      }
+    },
+    "TBD": {
+      "Rolando Arrojo": {
+        "Player": "Rolando Arrojo",
+        "Player ID": "arrojro01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 4,
+        "BB against": 2,
+        "SO against": 8
+      }
+    }
+  },
+  "batting_order": {
+    "BOS": [
+      [
+        1,
+        "Jose Offerman"
+      ],
+      [
+        2,
+        "Darren Lewis"
+      ],
+      [
+        3,
+        "John Valentin"
+      ],
+      [
+        4,
+        "Brian Daubach"
+      ],
+      [
+        5,
+        "Troy O'Leary"
+      ],
+      [
+        6,
+        "Scott Hatteberg"
+      ],
+      [
+        6,
+        "Damon Buford"
+      ],
+      [
+        7,
+        "Lou Merloni"
+      ],
+      [
+        7,
+        "Mike Stanley"
+      ],
+      [
+        8,
+        "Trot Nixon"
+      ],
+      [
+        9,
+        "Donnie Sadler"
+      ]
+    ],
+    "TBD": [
+      [
+        1,
+        "Randy Winn"
+      ],
+      [
+        2,
+        "Dave Martinez"
+      ],
+      [
+        3,
+        "Jose Canseco"
+      ],
+      [
+        4,
+        "Fred McGriff"
+      ],
+      [
+        5,
+        "John Flaherty"
+      ],
+      [
+        6,
+        "Wade Boggs"
+      ],
+      [
+        7,
+        "Quinton McCracken"
+      ],
+      [
+        8,
+        "Miguel Cairo"
+      ],
+      [
+        9,
+        "Kevin Stocker"
+      ]
+    ]
+  },
+  "positions": {
+    "BOS": {
+      "Jose Offerman": [
+        "3"
+      ],
+      "Darren Lewis": [
+        "8"
+      ],
+      "John Valentin": [
+        "5"
+      ],
+      "Brian Daubach": [
+        "DH"
+      ],
+      "Troy O'Leary": [
+        "7"
+      ],
+      "Scott Hatteberg": [
+        "2"
+      ],
+      "Damon Buford": [
+        "PR"
+      ],
+      "Lou Merloni": [
+        "4"
+      ],
+      "Mike Stanley": [
+        "PH"
+      ],
+      "Trot Nixon": [
+        "9"
+      ],
+      "Donnie Sadler": [
+        "6"
+      ],
+      "Mark Portugal": [
+        "1"
+      ],
+      "Derek Lowe": [
+        "1"
+      ]
+    },
+    "TBD": {
+      "Randy Winn": [
+        "8"
+      ],
+      "Dave Martinez": [
+        "9"
+      ],
+      "Jose Canseco": [
+        "DH"
+      ],
+      "Fred McGriff": [
+        "3"
+      ],
+      "John Flaherty": [
+        "2"
+      ],
+      "Wade Boggs": [
+        "5"
+      ],
+      "Quinton McCracken": [
+        "7"
+      ],
+      "Miguel Cairo": [
+        "4"
+      ],
+      "Kevin Stocker": [
+        "6"
+      ],
+      "Rolando Arrojo": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "BOS": {
+      "Jose Offerman": 1,
+      "Darren Lewis": 1,
+      "John Valentin": 1,
+      "Brian Daubach": 1,
+      "Troy O'Leary": 1,
+      "Scott Hatteberg": 1,
+      "Lou Merloni": 1,
+      "Trot Nixon": 1,
+      "Donnie Sadler": 1,
+      "Mark Portugal": 1
+    },
+    "TBD": {
+      "Randy Winn": 1,
+      "Dave Martinez": 1,
+      "Jose Canseco": 1,
+      "Fred McGriff": 1,
+      "John Flaherty": 1,
+      "Wade Boggs": 1,
+      "Quinton McCracken": 1,
+      "Miguel Cairo": 1,
+      "Kevin Stocker": 1,
+      "Rolando Arrojo": 1
+    }
+  }
+}
