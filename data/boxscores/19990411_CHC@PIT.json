@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "PIT",
+    "away": "CHC",
+    "home_score": "1",
+    "away_score": "2"
+  },
+  "batting": {
+    "CHC": {
+      "Lance Johnson": {
+        "Player": "Lance Johnson",
+        "Player ID": "johnsla03",
+        "AB": 4,
+        "H": 1,
+        "PO": 4
+      },
+      "Mickey Morandini": {
+        "Player": "Mickey Morandini",
+        "Player ID": "moranmi01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 4,
+        "DP": 1
+      },
+      "Sammy Sosa": {
+        "Player": "Sammy Sosa",
+        "Player ID": "sosasa01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 3
+      },
+      "Mark Grace": {
+        "Player": "Mark Grace",
+        "Player ID": "gracema01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "PO": 7,
+        "DP": 1
+      },
+      "Glenallen Hill": {
+        "Player": "Glenallen Hill",
+        "Player ID": "hillgl01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 2
+      },
+      "Curtis Goodwin": {
+        "Player": "Curtis Goodwin",
+        "Player ID": "goodwcu01",
+        "PO": 1
+      },
+      "Jose Hernandez": {
+        "Player": "Jose Hernandez",
+        "Player ID": "hernajo01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Benito Santiago": {
+        "Player": "Benito Santiago",
+        "Player ID": "santibe01",
+        "AB": 3,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 6
+      },
+      "Gary Gaetti": {
+        "Player": "Gary Gaetti",
+        "Player ID": "gaettga01",
+        "AB": 4,
+        "A": 2,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Steve Trachsel": {
+        "Player": "Steve Trachsel",
+        "Player ID": "trachst01",
+        "AB": 3,
+        "SO": 2,
+        "W": 1,
+        "IP": "8.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5,
+        "HBP against": 1,
+        "WP": 1
+      },
+      "Rod Beck": {
+        "Player": "Rod Beck",
+        "Player ID": "beckro01",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 3
+      }
+    },
+    "PIT": {
+      "Jason Kendall": {
+        "Player": "Jason Kendall",
+        "Player ID": "kendaja01",
+        "AB": 4,
+        "H": 1,
+        "PO": 9
+      },
+      "Warren Morris": {
+        "Player": "Warren Morris",
+        "Player ID": "morriwa02",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Brian Giles": {
+        "Player": "Brian Giles",
+        "Player ID": "gilesbr02",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 3
+      },
+      "Kevin Young": {
+        "Player": "Kevin Young",
+        "Player ID": "youngke01",
+        "AB": 3,
+        "H": 1,
+        "GDP": 1,
+        "HBP": 1,
+        "PO": 6,
+        "A": 1,
+        "DP": 1
+      },
+      "Brant Brown": {
+        "Player": "Brant Brown",
+        "Player ID": "brownbr01",
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 3
+      },
+      "Freddy Garcia": {
+        "Player": "Freddy Garcia",
+        "Player ID": "garcifr01",
+        "AB": 3,
+        "SO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Jason Christiansen": {
+        "Player": "Jason Christiansen",
+        "Player ID": "chrisja01",
+        "IP": "0.2",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Turner Ward": {
+        "Player": "Turner Ward",
+        "Player ID": "wardtu01",
+        "AB": 1,
+        "H": 1
+      },
+      "Al Martin": {
+        "Player": "Al Martin",
+        "Player ID": "martial03",
+        "AB": 3,
+        "PO": 3
+      },
+      "Mike Williams": {
+        "Player": "Mike Williams",
+        "Player ID": "willimi03",
+        "IP": "0.1",
+        "BB against": 1
+      },
+      "Adrian Brown": {
+        "Player": "Adrian Brown",
+        "Player ID": "brownad01",
+        "AB": 1
+      },
+      "Abraham Nunez": {
+        "Player": "Abraham Nunez",
+        "Player ID": "nunezab01",
+        "AB": 2,
+        "PO": 1,
+        "A": 3
+      },
+      "Ed Sprague": {
+        "Player": "Ed Sprague",
+        "Player ID": "spraged02",
+        "AB": 1
+      },
+      "Jason Schmidt": {
+        "Player": "Jason Schmidt",
+        "Player ID": "schmija01",
+        "AB": 2,
+        "L": 1,
+        "IP": "8.0",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 7,
+        "WP": 1,
+        "PO": 1
+      },
+      "Jose Guillen": {
+        "Player": "Jose Guillen",
+        "Player ID": "guilljo01",
+        "AB": 1
+      },
+      "Mike Benjamin": {
+        "Player": "Mike Benjamin",
+        "Player ID": "benjami01"
+      }
+    }
+  },
+  "pitching": {
+    "CHC": {
+      "Steve Trachsel": {
+        "Player": "Steve Trachsel",
+        "Player ID": "trachst01",
+        "Pit #": 1,
+        "AB": 3,
+        "SO": 2,
+        "W": 1,
+        "IP": "8.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5,
+        "HBP against": 1,
+        "WP": 1
+      },
+      "Rod Beck": {
+        "Player": "Rod Beck",
+        "Player ID": "beckro01",
+        "Pit #": 2,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 3
+      }
+    },
+    "PIT": {
+      "Jason Schmidt": {
+        "Player": "Jason Schmidt",
+        "Player ID": "schmija01",
+        "Pit #": 1,
+        "AB": 2,
+        "L": 1,
+        "IP": "8.0",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 7,
+        "WP": 1,
+        "PO": 1
+      },
+      "Jason Christiansen": {
+        "Player": "Jason Christiansen",
+        "Player ID": "chrisja01",
+        "Pit #": 2,
+        "IP": "0.2",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Mike Williams": {
+        "Player": "Mike Williams",
+        "Player ID": "willimi03",
+        "Pit #": 3,
+        "IP": "0.1",
+        "BB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CHC": [
+      [
+        1,
+        "Lance Johnson"
+      ],
+      [
+        2,
+        "Mickey Morandini"
+      ],
+      [
+        3,
+        "Sammy Sosa"
+      ],
+      [
+        4,
+        "Mark Grace"
+      ],
+      [
+        5,
+        "Glenallen Hill"
+      ],
+      [
+        5,
+        "Curtis Goodwin"
+      ],
+      [
+        5,
+        "Curtis Goodwin"
+      ],
+      [
+        6,
+        "Jose Hernandez"
+      ],
+      [
+        7,
+        "Benito Santiago"
+      ],
+      [
+        8,
+        "Gary Gaetti"
+      ],
+      [
+        9,
+        "Steve Trachsel"
+      ],
+      [
+        9,
+        "Rod Beck"
+      ]
+    ],
+    "PIT": [
+      [
+        1,
+        "Jason Kendall"
+      ],
+      [
+        2,
+        "Warren Morris"
+      ],
+      [
+        3,
+        "Brian Giles"
+      ],
+      [
+        4,
+        "Kevin Young"
+      ],
+      [
+        5,
+        "Brant Brown"
+      ],
+      [
+        6,
+        "Freddy Garcia"
+      ],
+      [
+        6,
+        "Jason Christiansen"
+      ],
+      [
+        6,
+        "Turner Ward"
+      ],
+      [
+        7,
+        "Al Martin"
+      ],
+      [
+        7,
+        "Mike Williams"
+      ],
+      [
+        7,
+        "Adrian Brown"
+      ],
+      [
+        8,
+        "Abraham Nunez"
+      ],
+      [
+        8,
+        "Ed Sprague"
+      ],
+      [
+        8,
+        "Ed Sprague"
+      ],
+      [
+        9,
+        "Jason Schmidt"
+      ],
+      [
+        9,
+        "Jose Guillen"
+      ],
+      [
+        9,
+        "Mike Benjamin"
+      ]
+    ]
+  },
+  "positions": {
+    "CHC": {
+      "Lance Johnson": [
+        "8"
+      ],
+      "Mickey Morandini": [
+        "4"
+      ],
+      "Sammy Sosa": [
+        "9"
+      ],
+      "Mark Grace": [
+        "3"
+      ],
+      "Glenallen Hill": [
+        "7"
+      ],
+      "Curtis Goodwin": [
+        "7",
+        "PR"
+      ],
+      "Jose Hernandez": [
+        "6"
+      ],
+      "Benito Santiago": [
+        "2"
+      ],
+      "Gary Gaetti": [
+        "5"
+      ],
+      "Steve Trachsel": [
+        "1"
+      ],
+      "Rod Beck": [
+        "1"
+      ]
+    },
+    "PIT": {
+      "Jason Kendall": [
+        "2"
+      ],
+      "Warren Morris": [
+        "4"
+      ],
+      "Brian Giles": [
+        "9"
+      ],
+      "Kevin Young": [
+        "3"
+      ],
+      "Brant Brown": [
+        "8"
+      ],
+      "Freddy Garcia": [
+        "5"
+      ],
+      "Jason Christiansen": [
+        "1"
+      ],
+      "Turner Ward": [
+        "7"
+      ],
+      "Al Martin": [
+        "7"
+      ],
+      "Mike Williams": [
+        "1"
+      ],
+      "Adrian Brown": [
+        "PH"
+      ],
+      "Abraham Nunez": [
+        "6"
+      ],
+      "Ed Sprague": [
+        "PH",
+        "5"
+      ],
+      "Jason Schmidt": [
+        "1"
+      ],
+      "Jose Guillen": [
+        "PH"
+      ],
+      "Mike Benjamin": [
+        "6"
+      ]
+    }
+  },
+  "games_started": {
+    "CHC": {
+      "Lance Johnson": 1,
+      "Mickey Morandini": 1,
+      "Sammy Sosa": 1,
+      "Mark Grace": 1,
+      "Glenallen Hill": 1,
+      "Jose Hernandez": 1,
+      "Benito Santiago": 1,
+      "Gary Gaetti": 1,
+      "Steve Trachsel": 1
+    },
+    "PIT": {
+      "Jason Kendall": 1,
+      "Warren Morris": 1,
+      "Brian Giles": 1,
+      "Kevin Young": 1,
+      "Brant Brown": 1,
+      "Freddy Garcia": 1,
+      "Al Martin": 1,
+      "Abraham Nunez": 1,
+      "Jason Schmidt": 1
+    }
+  }
+}

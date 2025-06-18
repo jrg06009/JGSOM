@@ -20191,5 +20191,313 @@
     "Game#": 73,
     "Game ID": "19990410_CHC@PIT",
     "POS": 1
+  },
+  {
+    "Player": "Lance Johnson",
+    "Player ID": "johnsla03",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 8,
+    "GS": 1,
+    "AB": 4,
+    "H": 1
+  },
+  {
+    "Player": "Mickey Morandini",
+    "Player ID": "moranmi01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 4,
+    "GS": 1,
+    "AB": 3,
+    "R": 1,
+    "H": 1,
+    "2B": 1,
+    "BB": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Sammy Sosa",
+    "Player ID": "sosasa01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 9,
+    "GS": 1,
+    "AB": 4,
+    "SO": 1
+  },
+  {
+    "Player": "Mark Grace",
+    "Player ID": "gracema01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 3,
+    "GS": 1,
+    "AB": 3,
+    "BB": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Glenallen Hill",
+    "Player ID": "hillgl01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 7,
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 2,
+    "HR": 1,
+    "RBI": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Curtis Goodwin",
+    "Player ID": "goodwcu01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": "PR"
+  },
+  {
+    "Player": "Curtis Goodwin",
+    "Player ID": "goodwcu01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 7
+  },
+  {
+    "Player": "Jose Hernandez",
+    "Player ID": "hernajo01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 6,
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "BB": 1
+  },
+  {
+    "Player": "Benito Santiago",
+    "Player ID": "santibe01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 2,
+    "GS": 1,
+    "AB": 3,
+    "RBI": 1,
+    "BB": 1,
+    "SO": 1,
+    "GDP": 1
+  },
+  {
+    "Player": "Gary Gaetti",
+    "Player ID": "gaettga01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 5,
+    "GS": 1,
+    "AB": 4
+  },
+  {
+    "Player": "Steve Trachsel",
+    "Player ID": "trachst01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 1,
+    "GS": 1,
+    "AB": 3,
+    "SO": 2
+  },
+  {
+    "Player": "Rod Beck",
+    "Player ID": "beckro01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 1
+  },
+  {
+    "Player": "Jason Kendall",
+    "Player ID": "kendaja01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 2,
+    "GS": 1,
+    "AB": 4,
+    "H": 1
+  },
+  {
+    "Player": "Warren Morris",
+    "Player ID": "morriwa02",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 4,
+    "GS": 1,
+    "AB": 4,
+    "R": 1,
+    "H": 1,
+    "HR": 1,
+    "RBI": 1,
+    "SO": 1
+  },
+  {
+    "Player": "Brian Giles",
+    "Player ID": "gilesbr02",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 9,
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "BB": 1
+  },
+  {
+    "Player": "Kevin Young",
+    "Player ID": "youngke01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 3,
+    "GS": 1,
+    "AB": 3,
+    "H": 1,
+    "GDP": 1,
+    "HBP": 1
+  },
+  {
+    "Player": "Brant Brown",
+    "Player ID": "brownbr01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 8,
+    "GS": 1,
+    "AB": 4,
+    "H": 1,
+    "SO": 2
+  },
+  {
+    "Player": "Freddy Garcia",
+    "Player ID": "garcifr01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 5,
+    "GS": 1,
+    "AB": 3,
+    "SO": 2
+  },
+  {
+    "Player": "Jason Christiansen",
+    "Player ID": "chrisja01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 1
+  },
+  {
+    "Player": "Turner Ward",
+    "Player ID": "wardtu01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 7,
+    "AB": 1,
+    "H": 1
+  },
+  {
+    "Player": "Al Martin",
+    "Player ID": "martial03",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 7,
+    "GS": 1,
+    "AB": 3
+  },
+  {
+    "Player": "Mike Williams",
+    "Player ID": "willimi03",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 1
+  },
+  {
+    "Player": "Adrian Brown",
+    "Player ID": "brownad01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": "PH",
+    "AB": 1
+  },
+  {
+    "Player": "Abraham Nunez",
+    "Player ID": "nunezab01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 6,
+    "GS": 1,
+    "AB": 2
+  },
+  {
+    "Player": "Ed Sprague",
+    "Player ID": "spraged02",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": "PH",
+    "AB": 1
+  },
+  {
+    "Player": "Ed Sprague",
+    "Player ID": "spraged02",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 5
+  },
+  {
+    "Player": "Jason Schmidt",
+    "Player ID": "schmija01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 1,
+    "GS": 1,
+    "AB": 2
+  },
+  {
+    "Player": "Jose Guillen",
+    "Player ID": "guilljo01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": "PH",
+    "AB": 1
+  },
+  {
+    "Player": "Mike Benjamin",
+    "Player ID": "benjami01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "POS": 6
   }
 ]

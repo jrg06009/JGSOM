@@ -5894,5 +5894,73 @@
     "H allowed": 1,
     "R against": 1,
     "SO against": 3
+  },
+  {
+    "Player": "Steve Trachsel",
+    "Player ID": "trachst01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "IP": 8.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 3,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 5,
+    "HBP against": 1,
+    "WP": 1
+  },
+  {
+    "Player": "Rod Beck",
+    "Player ID": "beckro01",
+    "Team": "CHC",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 3
+  },
+  {
+    "Player": "Jason Christiansen",
+    "Player ID": "chrisja01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "IP": 0.6666666666666666,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "BB against": 2,
+    "SO against": 2
+  },
+  {
+    "Player": "Mike Williams",
+    "Player ID": "willimi03",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "IP": 0.3333333333333333,
+    "BB against": 1
+  },
+  {
+    "Player": "Jason Schmidt",
+    "Player ID": "schmija01",
+    "Team": "PIT",
+    "Game#": 88,
+    "Game ID": "19990411_CHC@PIT",
+    "IP": 8.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 4,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 7,
+    "WP": 1
   }
 ]
