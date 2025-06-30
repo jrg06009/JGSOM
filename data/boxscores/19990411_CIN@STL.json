@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "STL",
+    "away": "CIN",
+    "home_score": "3",
+    "away_score": "8"
+  },
+  "batting": {
+    "CIN": {
+      "Mike Cameron": {
+        "Player": "Mike Cameron",
+        "Player ID": "camermi01",
+        "AB": 5,
+        "R": 2,
+        "H": 4,
+        "2B": 3,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Barry Larkin": {
+        "Player": "Barry Larkin",
+        "Player ID": "larkiba01",
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "A": 1
+      },
+      "Hal Morris": {
+        "Player": "Hal Morris",
+        "Player ID": "morriha02",
+        "AB": 5,
+        "H": 3,
+        "2B": 1,
+        "RBI": 4,
+        "PO": 5,
+        "A": 1
+      },
+      "Greg Vaughn": {
+        "Player": "Greg Vaughn",
+        "Player ID": "vaughgr01",
+        "AB": 4,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 3
+      },
+      "Dmitri Young": {
+        "Player": "Dmitri Young",
+        "Player ID": "youngdm01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Dennys Reyes": {
+        "Player": "Dennys Reyes",
+        "Player ID": "reyesde01",
+        "IP": "2.0",
+        "BB against": 2,
+        "SO against": 1,
+        "A": 1
+      },
+      "Brian Johnson": {
+        "Player": "Brian Johnson",
+        "Player ID": "johnsbr01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "PO": 11
+      },
+      "Chris Stynes": {
+        "Player": "Chris Stynes",
+        "Player ID": "stynech01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "SO": 1,
+        "A": 1
+      },
+      "Pokey Reese": {
+        "Player": "Pokey Reese",
+        "Player ID": "reesepo01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3,
+        "A": 3
+      },
+      "Jason Bere": {
+        "Player": "Jason Bere",
+        "Player ID": "bereja01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "SH": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 10,
+        "PO": 1
+      },
+      "Jeffrey Hammonds": {
+        "Player": "Jeffrey Hammonds",
+        "Player ID": "hammoje01",
+        "AB": 1,
+        "SO": 1
+      }
+    },
+    "STL": {
+      "Placido Polanco": {
+        "Player": "Placido Polanco",
+        "Player ID": "polanpl01",
+        "AB": 4,
+        "SO": 2,
+        "PO": 4,
+        "A": 2,
+        "DP": 1
+      },
+      "J.D. Drew": {
+        "Player": "J.D. Drew",
+        "Player ID": "drewj.01",
+        "AB": 2,
+        "BB": 2,
+        "SO": 2,
+        "PO": 2
+      },
+      "Mark McGwire": {
+        "Player": "Mark McGwire",
+        "Player ID": "mcgwima01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 10,
+        "DP": 1
+      },
+      "Eric Davis": {
+        "Player": "Eric Davis",
+        "Player ID": "daviser01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1
+      },
+      "Fernando Tatis": {
+        "Player": "Fernando Tatis",
+        "Player ID": "tatisfe01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "PO": 1,
+        "A": 6
+      },
+      "Edgar Renteria": {
+        "Player": "Edgar Renteria",
+        "Player ID": "renteed01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "SF": 1,
+        "PO": 3,
+        "A": 3,
+        "DP": 1
+      },
+      "Eli Marrero": {
+        "Player": "Eli Marrero",
+        "Player ID": "marreel01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 6
+      },
+      "Joe McEwing": {
+        "Player": "Joe McEwing",
+        "Player ID": "mcewijo01",
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 1
+      },
+      "Donovan Osborne": {
+        "Player": "Donovan Osborne",
+        "Player ID": "osbordo01",
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1
+      },
+      "Willie McGee": {
+        "Player": "Willie McGee",
+        "Player ID": "mcgeewi01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Mike Busby": {
+        "Player": "Mike Busby",
+        "Player ID": "busbymi01",
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Scott Radinsky": {
+        "Player": "Scott Radinsky",
+        "Player ID": "radinsc01",
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Darren Bragg": {
+        "Player": "Darren Bragg",
+        "Player ID": "braggda01",
+        "AB": 1
+      },
+      "Mike Mohler": {
+        "Player": "Mike Mohler",
+        "Player ID": "mohlemi01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Luis Ordaz": {
+        "Player": "Luis Ordaz",
+        "Player ID": "ordazlu01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "CIN": {
+      "Jason Bere": {
+        "Player": "Jason Bere",
+        "Player ID": "bereja01",
+        "Pit #": 1,
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "SH": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 5,
+        "R against": 3,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 10,
+        "PO": 1
+      },
+      "Dennys Reyes": {
+        "Player": "Dennys Reyes",
+        "Player ID": "reyesde01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "BB against": 2,
+        "SO against": 1,
+        "A": 1
+      }
+    },
+    "STL": {
+      "Donovan Osborne": {
+        "Player": "Donovan Osborne",
+        "Player ID": "osbordo01",
+        "Pit #": 1,
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1
+      },
+      "Mike Busby": {
+        "Player": "Mike Busby",
+        "Player ID": "busbymi01",
+        "Pit #": 2,
+        "L": 1,
+        "IP": "0.1",
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Scott Radinsky": {
+        "Player": "Scott Radinsky",
+        "Player ID": "radinsc01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Mike Mohler": {
+        "Player": "Mike Mohler",
+        "Player ID": "mohlemi01",
+        "Pit #": 4,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "A": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CIN": [
+      [
+        1,
+        "Mike Cameron"
+      ],
+      [
+        2,
+        "Barry Larkin"
+      ],
+      [
+        3,
+        "Hal Morris"
+      ],
+      [
+        4,
+        "Greg Vaughn"
+      ],
+      [
+        5,
+        "Dmitri Young"
+      ],
+      [
+        5,
+        "Dennys Reyes"
+      ],
+      [
+        6,
+        "Brian Johnson"
+      ],
+      [
+        7,
+        "Chris Stynes"
+      ],
+      [
+        8,
+        "Pokey Reese"
+      ],
+      [
+        9,
+        "Jason Bere"
+      ],
+      [
+        9,
+        "Jeffrey Hammonds"
+      ]
+    ],
+    "STL": [
+      [
+        1,
+        "Placido Polanco"
+      ],
+      [
+        2,
+        "J.D. Drew"
+      ],
+      [
+        3,
+        "Mark McGwire"
+      ],
+      [
+        4,
+        "Eric Davis"
+      ],
+      [
+        5,
+        "Fernando Tatis"
+      ],
+      [
+        6,
+        "Edgar Renteria"
+      ],
+      [
+        7,
+        "Eli Marrero"
+      ],
+      [
+        8,
+        "Joe McEwing"
+      ],
+      [
+        9,
+        "Donovan Osborne"
+      ],
+      [
+        9,
+        "Willie McGee"
+      ],
+      [
+        9,
+        "Mike Busby"
+      ],
+      [
+        9,
+        "Scott Radinsky"
+      ],
+      [
+        9,
+        "Darren Bragg"
+      ],
+      [
+        9,
+        "Mike Mohler"
+      ],
+      [
+        9,
+        "Luis Ordaz"
+      ]
+    ]
+  },
+  "positions": {
+    "CIN": {
+      "Mike Cameron": [
+        "8"
+      ],
+      "Barry Larkin": [
+        "6"
+      ],
+      "Hal Morris": [
+        "3"
+      ],
+      "Greg Vaughn": [
+        "7"
+      ],
+      "Dmitri Young": [
+        "9"
+      ],
+      "Dennys Reyes": [
+        "1"
+      ],
+      "Brian Johnson": [
+        "2"
+      ],
+      "Chris Stynes": [
+        "5"
+      ],
+      "Pokey Reese": [
+        "4"
+      ],
+      "Jason Bere": [
+        "1"
+      ],
+      "Jeffrey Hammonds": [
+        "9"
+      ]
+    },
+    "STL": {
+      "Placido Polanco": [
+        "4"
+      ],
+      "J.D. Drew": [
+        "8"
+      ],
+      "Mark McGwire": [
+        "3"
+      ],
+      "Eric Davis": [
+        "9"
+      ],
+      "Fernando Tatis": [
+        "5"
+      ],
+      "Edgar Renteria": [
+        "6"
+      ],
+      "Eli Marrero": [
+        "2"
+      ],
+      "Joe McEwing": [
+        "7"
+      ],
+      "Donovan Osborne": [
+        "1"
+      ],
+      "Willie McGee": [
+        "PH"
+      ],
+      "Mike Busby": [
+        "1"
+      ],
+      "Scott Radinsky": [
+        "1"
+      ],
+      "Darren Bragg": [
+        "PH"
+      ],
+      "Mike Mohler": [
+        "1"
+      ],
+      "Luis Ordaz": [
+        "PH"
+      ]
+    }
+  },
+  "games_started": {
+    "CIN": {
+      "Mike Cameron": 1,
+      "Barry Larkin": 1,
+      "Hal Morris": 1,
+      "Greg Vaughn": 1,
+      "Dmitri Young": 1,
+      "Brian Johnson": 1,
+      "Chris Stynes": 1,
+      "Pokey Reese": 1,
+      "Jason Bere": 1
+    },
+    "STL": {
+      "Placido Polanco": 1,
+      "J.D. Drew": 1,
+      "Mark McGwire": 1,
+      "Eric Davis": 1,
+      "Fernando Tatis": 1,
+      "Edgar Renteria": 1,
+      "Eli Marrero": 1,
+      "Joe McEwing": 1,
+      "Donovan Osborne": 1
+    }
+  }
+}
