@@ -524,10 +524,10 @@
     "date": "1999-04-09",
     "home_team": "MIN",
     "away_team": "CLE",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 2,
+    "away_score": 8,
+    "simDate": "2025-06-30 00:00:00",
+    "completed": true
   },
   {
     "id": "19990409_KCR@CHW",

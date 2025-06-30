@@ -6200,5 +6200,76 @@
     "ER": 1,
     "BB against": 1,
     "SO against": 1
+  },
+  {
+    "Player": "Charles Nagy",
+    "Player ID": "nagych01",
+    "Team": "CLE",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 8.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 8,
+    "R against": 2,
+    "ER": 2,
+    "HR allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Jerry Spradlin",
+    "Player ID": "spradje01",
+    "Team": "CLE",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 1.0,
+    "H allowed": 1
+  },
+  {
+    "Player": "LaTroy Hawkins",
+    "Player ID": "hawkila01",
+    "Team": "MIN",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 4.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 7,
+    "R against": 8,
+    "ER": 3,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Bob Wells",
+    "Player ID": "wellsbo01",
+    "Team": "MIN",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 2.0,
+    "H allowed": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Mike Trombley",
+    "Player ID": "trombmi01",
+    "Team": "MIN",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 1.6666666666666665,
+    "H allowed": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Eddie Guardado",
+    "Player ID": "guarded01",
+    "Team": "MIN",
+    "Game#": 53,
+    "Game ID": "19990409_CLE@MIN",
+    "IP": 1.3333333333333333,
+    "H allowed": 1,
+    "SO against": 1
   }
 ]
