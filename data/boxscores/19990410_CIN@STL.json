@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "STL",
+    "away": "CIN",
+    "home_score": "3",
+    "away_score": "2"
+  },
+  "batting": {
+    "CIN": {
+      "Jeffrey Hammonds": {
+        "Player": "Jeffrey Hammonds",
+        "Player ID": "hammoje01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "PO": 3
+      },
+      "Barry Larkin": {
+        "Player": "Barry Larkin",
+        "Player ID": "larkiba01",
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Sean Casey": {
+        "Player": "Sean Casey",
+        "Player ID": "caseyse01",
+        "AB": 3,
+        "H": 2,
+        "GDP": 1,
+        "HBP": 1,
+        "PO": 7,
+        "A": 1
+      },
+      "Greg Vaughn": {
+        "Player": "Greg Vaughn",
+        "Player ID": "vaughgr01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Dmitri Young": {
+        "Player": "Dmitri Young",
+        "Player ID": "youngdm01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "GDP": 1
+      },
+      "Danny Graves": {
+        "Player": "Danny Graves",
+        "Player ID": "graveda01",
+        "L": 1,
+        "H allowed": 2
+      },
+      "Ed Taubensee": {
+        "Player": "Ed Taubensee",
+        "Player ID": "taubeed01",
+        "AB": 3,
+        "R": 1,
+        "SO": 1,
+        "PO": 10,
+        "A": 1,
+        "CS against": 1
+      },
+      "Chris Stynes": {
+        "Player": "Chris Stynes",
+        "Player ID": "stynech01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "A": 2
+      },
+      "Pokey Reese": {
+        "Player": "Pokey Reese",
+        "Player ID": "reesepo01",
+        "AB": 3,
+        "PO": 2,
+        "A": 3
+      },
+      "Brett Tomko": {
+        "Player": "Brett Tomko",
+        "Player ID": "tomkobr01",
+        "AB": 1,
+        "IP": "5.0",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 6,
+        "SO against": 5,
+        "WP": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Hal Morris": {
+        "Player": "Hal Morris",
+        "Player ID": "morriha02",
+        "BB": 1
+      },
+      "Scott Williamson": {
+        "Player": "Scott Williamson",
+        "Player ID": "willisc01",
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "A": 1,
+        "CS against": 1
+      },
+      "Mark Sweeney": {
+        "Player": "Mark Sweeney",
+        "Player ID": "sweenma01",
+        "AB": 1
+      },
+      "Gabe White": {
+        "Player": "Gabe White",
+        "Player ID": "whitega01",
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 3
+      },
+      "Michael Tucker": {
+        "Player": "Michael Tucker",
+        "Player ID": "tuckemi01"
+      }
+    },
+    "STL": {
+      "Placido Polanco": {
+        "Player": "Placido Polanco",
+        "Player ID": "polanpl01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 3,
+        "DP": 2
+      },
+      "J.D. Drew": {
+        "Player": "J.D. Drew",
+        "Player ID": "drewj.01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SF": 1,
+        "PO": 3
+      },
+      "Mark McGwire": {
+        "Player": "Mark McGwire",
+        "Player ID": "mcgwima01",
+        "AB": 2,
+        "H": 1,
+        "BB": 3,
+        "PO": 7,
+        "A": 2,
+        "DP": 3
+      },
+      "Eric Davis": {
+        "Player": "Eric Davis",
+        "Player ID": "daviser01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 1,
+        "CS": 1,
+        "PO": 4
+      },
+      "Fernando Tatis": {
+        "Player": "Fernando Tatis",
+        "Player ID": "tatisfe01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 3,
+        "PO": 1,
+        "A": 1
+      },
+      "Shawon Dunston": {
+        "Player": "Shawon Dunston",
+        "Player ID": "dunstsh01",
+        "AB": 4,
+        "H": 3,
+        "3B": 1,
+        "PO": 3,
+        "A": 6,
+        "ERR": 1,
+        "DP": 3
+      },
+      "Alberto Castillo": {
+        "Player": "Alberto Castillo",
+        "Player ID": "castial01",
+        "AB": 2,
+        "BB": 2,
+        "PO": 2
+      },
+      "Joe McEwing": {
+        "Player": "Joe McEwing",
+        "Player ID": "mcewijo01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "PO": 3
+      },
+      "Lance Painter": {
+        "Player": "Lance Painter",
+        "Player ID": "paintla01",
+        "W": 1,
+        "IP": "1.0",
+        "HBP against": 1
+      },
+      "Jose Jimenez": {
+        "Player": "Jose Jimenez",
+        "Player ID": "jimenjo01",
+        "AB": 2,
+        "SO": 2,
+        "SH": 1,
+        "IP": "8.0",
+        "H allowed": 5,
+        "R against": 2,
+        "BB against": 2,
+        "SO against": 2,
+        "PO": 2,
+        "DP": 1
+      },
+      "Willie McGee": {
+        "Player": "Willie McGee",
+        "Player ID": "mcgeewi01",
+        "AB": 1,
+        "SO": 1,
+        "PO": 1
+      }
+    }
+  },
+  "pitching": {
+    "CIN": {
+      "Brett Tomko": {
+        "Player": "Brett Tomko",
+        "Player ID": "tomkobr01",
+        "Pit #": 1,
+        "AB": 1,
+        "IP": "5.0",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 6,
+        "SO against": 5,
+        "WP": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Scott Williamson": {
+        "Player": "Scott Williamson",
+        "Player ID": "willisc01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "A": 1,
+        "CS against": 1
+      },
+      "Gabe White": {
+        "Player": "Gabe White",
+        "Player ID": "whitega01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 3
+      },
+      "Danny Graves": {
+        "Player": "Danny Graves",
+        "Player ID": "graveda01",
+        "Pit #": 4,
+        "L": 1,
+        "H allowed": 2
+      }
+    },
+    "STL": {
+      "Jose Jimenez": {
+        "Player": "Jose Jimenez",
+        "Player ID": "jimenjo01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 2,
+        "SH": 1,
+        "IP": "8.0",
+        "H allowed": 5,
+        "R against": 2,
+        "BB against": 2,
+        "SO against": 2,
+        "PO": 2,
+        "DP": 1
+      },
+      "Lance Painter": {
+        "Player": "Lance Painter",
+        "Player ID": "paintla01",
+        "Pit #": 2,
+        "W": 1,
+        "IP": "1.0",
+        "HBP against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CIN": [
+      [
+        1,
+        "Jeffrey Hammonds"
+      ],
+      [
+        2,
+        "Barry Larkin"
+      ],
+      [
+        3,
+        "Sean Casey"
+      ],
+      [
+        4,
+        "Greg Vaughn"
+      ],
+      [
+        5,
+        "Dmitri Young"
+      ],
+      [
+        5,
+        "Danny Graves"
+      ],
+      [
+        6,
+        "Ed Taubensee"
+      ],
+      [
+        7,
+        "Chris Stynes"
+      ],
+      [
+        8,
+        "Pokey Reese"
+      ],
+      [
+        9,
+        "Brett Tomko"
+      ],
+      [
+        9,
+        "Hal Morris"
+      ],
+      [
+        9,
+        "Scott Williamson"
+      ],
+      [
+        9,
+        "Mark Sweeney"
+      ],
+      [
+        9,
+        "Gabe White"
+      ],
+      [
+        9,
+        "Michael Tucker"
+      ]
+    ],
+    "STL": [
+      [
+        1,
+        "Placido Polanco"
+      ],
+      [
+        2,
+        "J.D. Drew"
+      ],
+      [
+        3,
+        "Mark McGwire"
+      ],
+      [
+        4,
+        "Eric Davis"
+      ],
+      [
+        5,
+        "Fernando Tatis"
+      ],
+      [
+        6,
+        "Shawon Dunston"
+      ],
+      [
+        7,
+        "Alberto Castillo"
+      ],
+      [
+        8,
+        "Joe McEwing"
+      ],
+      [
+        8,
+        "Lance Painter"
+      ],
+      [
+        9,
+        "Jose Jimenez"
+      ],
+      [
+        9,
+        "Willie McGee"
+      ]
+    ]
+  },
+  "positions": {
+    "CIN": {
+      "Jeffrey Hammonds": [
+        "8"
+      ],
+      "Barry Larkin": [
+        "6"
+      ],
+      "Sean Casey": [
+        "3"
+      ],
+      "Greg Vaughn": [
+        "7"
+      ],
+      "Dmitri Young": [
+        "9"
+      ],
+      "Danny Graves": [
+        "1"
+      ],
+      "Ed Taubensee": [
+        "2"
+      ],
+      "Chris Stynes": [
+        "5"
+      ],
+      "Pokey Reese": [
+        "4"
+      ],
+      "Brett Tomko": [
+        "1"
+      ],
+      "Hal Morris": [
+        "PH"
+      ],
+      "Scott Williamson": [
+        "1"
+      ],
+      "Mark Sweeney": [
+        "PH"
+      ],
+      "Gabe White": [
+        "1"
+      ],
+      "Michael Tucker": [
+        "9"
+      ]
+    },
+    "STL": {
+      "Placido Polanco": [
+        "4"
+      ],
+      "J.D. Drew": [
+        "8"
+      ],
+      "Mark McGwire": [
+        "3"
+      ],
+      "Eric Davis": [
+        "9"
+      ],
+      "Fernando Tatis": [
+        "5"
+      ],
+      "Shawon Dunston": [
+        "6"
+      ],
+      "Alberto Castillo": [
+        "2"
+      ],
+      "Joe McEwing": [
+        "7"
+      ],
+      "Lance Painter": [
+        "1"
+      ],
+      "Jose Jimenez": [
+        "1"
+      ],
+      "Willie McGee": [
+        "7"
+      ]
+    }
+  },
+  "games_started": {
+    "CIN": {
+      "Jeffrey Hammonds": 1,
+      "Barry Larkin": 1,
+      "Sean Casey": 1,
+      "Greg Vaughn": 1,
+      "Dmitri Young": 1,
+      "Ed Taubensee": 1,
+      "Chris Stynes": 1,
+      "Pokey Reese": 1,
+      "Brett Tomko": 1
+    },
+    "STL": {
+      "Placido Polanco": 1,
+      "J.D. Drew": 1,
+      "Mark McGwire": 1,
+      "Eric Davis": 1,
+      "Fernando Tatis": 1,
+      "Shawon Dunston": 1,
+      "Alberto Castillo": 1,
+      "Joe McEwing": 1,
+      "Jose Jimenez": 1
+    }
+  }
+}

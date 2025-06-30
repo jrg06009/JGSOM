@@ -6049,5 +6049,77 @@
     "Game ID": "19990409_CIN@STL",
     "IP": 1.0,
     "SV": 1
+  },
+  {
+    "Player": "Danny Graves",
+    "Player ID": "graveda01",
+    "Team": "CIN",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": null,
+    "L": 1,
+    "H allowed": 2
+  },
+  {
+    "Player": "Brett Tomko",
+    "Player ID": "tomkobr01",
+    "Team": "CIN",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": 5.0,
+    "GS": 1,
+    "H allowed": 4,
+    "R against": 2,
+    "ER": 2,
+    "HR allowed": 1,
+    "BB against": 6,
+    "SO against": 5,
+    "WP": 1
+  },
+  {
+    "Player": "Scott Williamson",
+    "Player ID": "willisc01",
+    "Team": "CIN",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": 2.0,
+    "H allowed": 1,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Gabe White",
+    "Player ID": "whitega01",
+    "Team": "CIN",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": 1.6666666666666665,
+    "H allowed": 2,
+    "R against": 1,
+    "ER": 1,
+    "SO against": 3
+  },
+  {
+    "Player": "Lance Painter",
+    "Player ID": "paintla01",
+    "Team": "STL",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": 1.0,
+    "W": 1,
+    "HBP against": 1
+  },
+  {
+    "Player": "Jose Jimenez",
+    "Player ID": "jimenjo01",
+    "Team": "STL",
+    "Game#": 74,
+    "Game ID": "19990410_CIN@STL",
+    "IP": 8.0,
+    "GS": 1,
+    "H allowed": 5,
+    "R against": 2,
+    "BB against": 2,
+    "SO against": 2
   }
 ]
