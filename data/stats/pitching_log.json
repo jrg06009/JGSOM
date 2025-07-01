@@ -6347,5 +6347,79 @@
     "ER": 2,
     "SO against": 2,
     "WP": 1
+  },
+  {
+    "Player": "Jaret Wright",
+    "Player ID": "wrighja02",
+    "Team": "CLE",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 5.666666666666667,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 4,
+    "R against": 2,
+    "BB against": 4,
+    "SO against": 3
+  },
+  {
+    "Player": "Paul Shuey",
+    "Player ID": "shueypa01",
+    "Team": "CLE",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 1.3333333333333333,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Ricardo Rincon",
+    "Player ID": "rincori01",
+    "Team": "CLE",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 2.0,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Brad Radke",
+    "Player ID": "radkebr01",
+    "Team": "MIN",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 6.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 11,
+    "R against": 7,
+    "ER": 7,
+    "HR allowed": 5,
+    "SO against": 2,
+    "HBP against": 1
+  },
+  {
+    "Player": "Mike Trombley",
+    "Player ID": "trombmi01",
+    "Team": "MIN",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 1.0,
+    "H allowed": 1,
+    "R against": 2,
+    "ER": 2,
+    "BB against": 2,
+    "SO against": 2
+  },
+  {
+    "Player": "Bob Wells",
+    "Player ID": "wellsbo01",
+    "Team": "MIN",
+    "Game#": 83,
+    "Game ID": "19990411_CLE@MIN",
+    "IP": 2.0,
+    "H allowed": 2,
+    "BB against": 1,
+    "SO against": 1
   }
 ]

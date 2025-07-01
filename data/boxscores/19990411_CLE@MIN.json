@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "MIN",
+    "away": "CLE",
+    "home_score": "2",
+    "away_score": "9"
+  },
+  "batting": {
+    "CLE": {
+      "Kenny Lofton": {
+        "Player": "Kenny Lofton",
+        "Player ID": "loftoke01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Enrique Wilson": {
+        "Player": "Enrique Wilson",
+        "Player ID": "wilsoen01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 6,
+        "ERR": 2,
+        "DP": 4
+      },
+      "Roberto Alomar": {
+        "Player": "Roberto Alomar",
+        "Player ID": "alomaro01",
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 2,
+        "PO": 5,
+        "A": 8,
+        "DP": 4
+      },
+      "Manny Ramirez": {
+        "Player": "Manny Ramirez",
+        "Player ID": "ramirma02",
+        "AB": 4,
+        "H": 3,
+        "2B": 1,
+        "RBI": 1,
+        "HBP": 1,
+        "PO": 1
+      },
+      "Jim Thome": {
+        "Player": "Jim Thome",
+        "Player ID": "thomeji01",
+        "AB": 5,
+        "H": 1,
+        "SO": 2,
+        "PO": 11,
+        "DP": 4
+      },
+      "Wil Cordero": {
+        "Player": "Wil Cordero",
+        "Player ID": "cordewi01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "GDP": 1,
+        "SF": 1
+      },
+      "Travis Fryman": {
+        "Player": "Travis Fryman",
+        "Player ID": "frymatr01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Richie Sexson": {
+        "Player": "Richie Sexson",
+        "Player ID": "sexsori01",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "HR": 1,
+        "RBI": 2
+      },
+      "Einar Diaz": {
+        "Player": "Einar Diaz",
+        "Player ID": "diazei01",
+        "AB": 4,
+        "GDP": 1,
+        "PO": 5
+      }
+    },
+    "MIN": {
+      "Torii Hunter": {
+        "Player": "Torii Hunter",
+        "Player ID": "hunteto01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 3
+      },
+      "Brent Gates": {
+        "Player": "Brent Gates",
+        "Player ID": "gatesbr01",
+        "AB": 2,
+        "RBI": 1,
+        "BB": 2
+      },
+      "Todd Walker": {
+        "Player": "Todd Walker",
+        "Player ID": "walketo04",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "GDP": 2,
+        "PO": 2,
+        "A": 3,
+        "ERR": 1,
+        "DP": 2
+      },
+      "Matt Lawton": {
+        "Player": "Matt Lawton",
+        "Player ID": "lawtoma02",
+        "AB": 4,
+        "PO": 2
+      },
+      "Chad Allen": {
+        "Player": "Chad Allen",
+        "Player ID": "allench01",
+        "AB": 3,
+        "BB": 1,
+        "GDP": 1,
+        "PO": 3
+      },
+      "Doug Mientkiewicz": {
+        "Player": "Doug Mientkiewicz",
+        "Player ID": "mientdo01",
+        "AB": 2,
+        "H": 1,
+        "BB": 2,
+        "SO": 1,
+        "PO": 10,
+        "A": 1,
+        "DP": 3
+      },
+      "Terry Steinbach": {
+        "Player": "Terry Steinbach",
+        "Player ID": "steinte01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Corey Koskie": {
+        "Player": "Corey Koskie",
+        "Player ID": "koskico01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Cristian Guzman": {
+        "Player": "Cristian Guzman",
+        "Player ID": "guzmacr01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 2
+      }
+    }
+  },
+  "pitching": {
+    "CLE": {
+      "Jaret Wright": {
+        "Player": "Jaret Wright",
+        "Player ID": "wrighja02",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "5.2",
+        "H allowed": 4,
+        "R against": 2,
+        "BB against": 4,
+        "SO against": 3
+      },
+      "Paul Shuey": {
+        "Player": "Paul Shuey",
+        "Player ID": "shueypa01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Ricardo Rincon": {
+        "Player": "Ricardo Rincon",
+        "Player ID": "rincori01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "BB against": 1,
+        "SO against": 1
+      }
+    },
+    "MIN": {
+      "Brad Radke": {
+        "Player": "Brad Radke",
+        "Player ID": "radkebr01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 11,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 5,
+        "SO against": 2,
+        "HBP against": 1,
+        "A": 3
+      },
+      "Mike Trombley": {
+        "Player": "Mike Trombley",
+        "Player ID": "trombmi01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 1,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 2,
+        "SO against": 2
+      },
+      "Bob Wells": {
+        "Player": "Bob Wells",
+        "Player ID": "wellsbo01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "ERR": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CLE": [
+      [
+        1,
+        "Kenny Lofton"
+      ],
+      [
+        2,
+        "Enrique Wilson"
+      ],
+      [
+        3,
+        "Roberto Alomar"
+      ],
+      [
+        4,
+        "Manny Ramirez"
+      ],
+      [
+        5,
+        "Jim Thome"
+      ],
+      [
+        6,
+        "Wil Cordero"
+      ],
+      [
+        7,
+        "Travis Fryman"
+      ],
+      [
+        8,
+        "Richie Sexson"
+      ],
+      [
+        9,
+        "Einar Diaz"
+      ]
+    ],
+    "MIN": [
+      [
+        1,
+        "Torii Hunter"
+      ],
+      [
+        2,
+        "Brent Gates"
+      ],
+      [
+        3,
+        "Todd Walker"
+      ],
+      [
+        4,
+        "Matt Lawton"
+      ],
+      [
+        5,
+        "Chad Allen"
+      ],
+      [
+        6,
+        "Doug Mientkiewicz"
+      ],
+      [
+        7,
+        "Terry Steinbach"
+      ],
+      [
+        8,
+        "Corey Koskie"
+      ],
+      [
+        9,
+        "Cristian Guzman"
+      ]
+    ]
+  },
+  "positions": {
+    "CLE": {
+      "Kenny Lofton": [
+        "8"
+      ],
+      "Enrique Wilson": [
+        "6"
+      ],
+      "Roberto Alomar": [
+        "4"
+      ],
+      "Manny Ramirez": [
+        "9"
+      ],
+      "Jim Thome": [
+        "3"
+      ],
+      "Wil Cordero": [
+        "7"
+      ],
+      "Travis Fryman": [
+        "5"
+      ],
+      "Richie Sexson": [
+        "DH"
+      ],
+      "Einar Diaz": [
+        "2"
+      ],
+      "Jaret Wright": [
+        "1"
+      ],
+      "Paul Shuey": [
+        "1"
+      ],
+      "Ricardo Rincon": [
+        "1"
+      ]
+    },
+    "MIN": {
+      "Torii Hunter": [
+        "8"
+      ],
+      "Brent Gates": [
+        "DH"
+      ],
+      "Todd Walker": [
+        "4"
+      ],
+      "Matt Lawton": [
+        "9"
+      ],
+      "Chad Allen": [
+        "7"
+      ],
+      "Doug Mientkiewicz": [
+        "3"
+      ],
+      "Terry Steinbach": [
+        "2"
+      ],
+      "Corey Koskie": [
+        "5"
+      ],
+      "Cristian Guzman": [
+        "6"
+      ],
+      "Brad Radke": [
+        "1"
+      ],
+      "Mike Trombley": [
+        "1"
+      ],
+      "Bob Wells": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "CLE": {
+      "Kenny Lofton": 1,
+      "Enrique Wilson": 1,
+      "Roberto Alomar": 1,
+      "Manny Ramirez": 1,
+      "Jim Thome": 1,
+      "Wil Cordero": 1,
+      "Travis Fryman": 1,
+      "Richie Sexson": 1,
+      "Einar Diaz": 1,
+      "Jaret Wright": 1
+    },
+    "MIN": {
+      "Torii Hunter": 1,
+      "Brent Gates": 1,
+      "Todd Walker": 1,
+      "Matt Lawton": 1,
+      "Chad Allen": 1,
+      "Doug Mientkiewicz": 1,
+      "Terry Steinbach": 1,
+      "Corey Koskie": 1,
+      "Cristian Guzman": 1,
+      "Brad Radke": 1
+    }
+  }
+}
