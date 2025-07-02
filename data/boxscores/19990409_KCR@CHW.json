@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "CHW",
+    "away": "KCR",
+    "home_score": "0",
+    "away_score": "0"
+  },
+  "batting": {
+    "KCR": {
+      "Carlos Beltran": {
+        "Player": "Carlos Beltran",
+        "Player ID": "beltrca01",
+        "AB": 7,
+        "R": 1,
+        "H": 3,
+        "RBI": 2,
+        "SB": 1,
+        "PO": 2,
+        "ERR": 1
+      },
+      "Joe Randa": {
+        "Player": "Joe Randa",
+        "Player ID": "randajo01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 3,
+        "BB": 2,
+        "SO": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Johnny Damon": {
+        "Player": "Johnny Damon",
+        "Player ID": "damonjo01",
+        "AB": 5,
+        "R": 2,
+        "H": 1,
+        "3B": 1,
+        "RBI": 2,
+        "BB": 1,
+        "PO": 1
+      },
+      "Jeff King": {
+        "Player": "Jeff King",
+        "Player ID": "kingje01",
+        "AB": 3,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "HBP": 2,
+        "SF": 1,
+        "PO": 10,
+        "DP": 1
+      },
+      "Mike Sweeney": {
+        "Player": "Mike Sweeney",
+        "Player ID": "sweenmi01",
+        "AB": 5,
+        "R": 2,
+        "H": 5,
+        "HR": 1,
+        "RBI": 3,
+        "BB": 1,
+        "PO": 5
+      },
+      "Jermaine Dye": {
+        "Player": "Jermaine Dye",
+        "Player ID": "dyeje01",
+        "AB": 6,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Scott Leius": {
+        "Player": "Scott Leius",
+        "Player ID": "leiussc01",
+        "AB": 3,
+        "R": 1,
+        "RBI": 1
+      },
+      "Larry Sutton": {
+        "Player": "Larry Sutton",
+        "Player ID": "suttola01",
+        "AB": 3,
+        "SO": 1
+      },
+      "Rey Sanchez": {
+        "Player": "Rey Sanchez",
+        "Player ID": "sanchre01",
+        "AB": 5,
+        "R": 2,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "A": 6,
+        "DP": 1
+      },
+      "Carlos Febles": {
+        "Player": "Carlos Febles",
+        "Player ID": "febleca01",
+        "AB": 6,
+        "R": 1,
+        "H": 3,
+        "SO": 1,
+        "PO": 3,
+        "A": 3,
+        "DP": 1
+      }
+    },
+    "CHW": {
+      "Ray Durham": {
+        "Player": "Ray Durham",
+        "Player ID": "durhara01",
+        "AB": 6,
+        "R": 2,
+        "H": 3,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 7
+      },
+      "Mike Caruso": {
+        "Player": "Mike Caruso",
+        "Player ID": "carusmi01",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "RBI": 1,
+        "SF": 1,
+        "A": 3,
+        "ERR": 1
+      },
+      "Craig Wilson": {
+        "Player": "Craig Wilson",
+        "Player ID": "wilsocr02",
+        "BB": 1,
+        "A": 1
+      },
+      "Frank Thomas": {
+        "Player": "Frank Thomas",
+        "Player ID": "thomafr04",
+        "AB": 4,
+        "R": 3,
+        "H": 2,
+        "BB": 1,
+        "SO": 1,
+        "GDP": 1,
+        "HBP": 1
+      },
+      "Paul Konerko": {
+        "Player": "Paul Konerko",
+        "Player ID": "konerpa01",
+        "AB": 6,
+        "R": 2,
+        "H": 4,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 4,
+        "SO": 1,
+        "PO": 15
+      },
+      "Magglio Ordonez": {
+        "Player": "Magglio Ordonez",
+        "Player ID": "ordonma01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 1
+      },
+      "Greg Norton": {
+        "Player": "Greg Norton",
+        "Player ID": "nortogr01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "RBI": 2,
+        "BB": 1,
+        "A": 2
+      },
+      "Jeff Abbott": {
+        "Player": "Jeff Abbott",
+        "Player ID": "abbotje01",
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3,
+        "BB": 1,
+        "PO": 1
+      },
+      "Brook Fordyce": {
+        "Player": "Brook Fordyce",
+        "Player ID": "fordybr01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 5,
+        "A": 2,
+        "ERR": 1,
+        "SB against": 1
+      },
+      "McKay Christensen": {
+        "Player": "McKay Christensen",
+        "Player ID": "chrismc01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 1
+      }
+    }
+  },
+  "pitching": {
+    "KCR": {
+      "Brian Barber": {
+        "Player": "Brian Barber",
+        "Player ID": "barbebr02",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "2.0",
+        "H allowed": 9,
+        "R against": 9,
+        "ER": 8,
+        "BB against": 2,
+        "SO against": 1,
+        "HBP against": 1
+      },
+      "Jay Witasick": {
+        "Player": "Jay Witasick",
+        "Player ID": "witasja01",
+        "Pit #": 2,
+        "IP": "3.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 3
+      },
+      "Jose Santiago": {
+        "Player": "Jose Santiago",
+        "Player ID": "santijo03",
+        "Pit #": 3,
+        "IP": "1.1",
+        "H allowed": 3,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 2,
+        "BB against": 1
+      },
+      "Matt Whisenant": {
+        "Player": "Matt Whisenant",
+        "Player ID": "whisema01",
+        "Pit #": 4,
+        "IP": "1.1",
+        "H allowed": 1,
+        "BB against": 2
+      },
+      "Scott Service": {
+        "Player": "Scott Service",
+        "Player ID": "servisc01",
+        "Pit #": 5,
+        "IP": "0.1"
+      }
+    },
+    "CHW": {
+      "Mike Sirotka": {
+        "Player": "Mike Sirotka",
+        "Player ID": "sirotmi01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "5.0",
+        "H allowed": 10,
+        "R against": 6,
+        "ER": 6,
+        "BB against": 4,
+        "SO against": 2,
+        "HBP against": 1,
+        "SB against": 1
+      },
+      "Bill Simas": {
+        "Player": "Bill Simas",
+        "Player ID": "simasbi01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 3,
+        "ER": 2,
+        "HR allowed": 1,
+        "SO against": 1,
+        "HBP against": 1
+      },
+      "Keith Foulke": {
+        "Player": "Keith Foulke",
+        "Player ID": "foulkke01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 5,
+        "R against": 4,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Bob Howry": {
+        "Player": "Bob Howry",
+        "Player ID": "howrybo01",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.1",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "KCR": [
+      [
+        1,
+        "Carlos Beltran"
+      ],
+      [
+        2,
+        "Joe Randa"
+      ],
+      [
+        3,
+        "Johnny Damon"
+      ],
+      [
+        4,
+        "Jeff King"
+      ],
+      [
+        5,
+        "Mike Sweeney"
+      ],
+      [
+        6,
+        "Jermaine Dye"
+      ],
+      [
+        7,
+        "Scott Leius"
+      ],
+      [
+        7,
+        "Larry Sutton"
+      ],
+      [
+        7,
+        "Larry Sutton"
+      ],
+      [
+        8,
+        "Rey Sanchez"
+      ],
+      [
+        9,
+        "Carlos Febles"
+      ]
+    ],
+    "CHW": [
+      [
+        1,
+        "Ray Durham"
+      ],
+      [
+        2,
+        "Mike Caruso"
+      ],
+      [
+        2,
+        "Craig Wilson"
+      ],
+      [
+        2,
+        "Craig Wilson"
+      ],
+      [
+        3,
+        "Frank Thomas"
+      ],
+      [
+        4,
+        "Paul Konerko"
+      ],
+      [
+        5,
+        "Magglio Ordonez"
+      ],
+      [
+        6,
+        "Greg Norton"
+      ],
+      [
+        7,
+        "Jeff Abbott"
+      ],
+      [
+        8,
+        "Brook Fordyce"
+      ],
+      [
+        9,
+        "McKay Christensen"
+      ]
+    ]
+  },
+  "positions": {
+    "KCR": {
+      "Carlos Beltran": [
+        "8"
+      ],
+      "Joe Randa": [
+        "5"
+      ],
+      "Johnny Damon": [
+        "7"
+      ],
+      "Jeff King": [
+        "3"
+      ],
+      "Mike Sweeney": [
+        "2"
+      ],
+      "Jermaine Dye": [
+        "9"
+      ],
+      "Scott Leius": [
+        "DH"
+      ],
+      "Larry Sutton": [
+        "DH",
+        "PH"
+      ],
+      "Rey Sanchez": [
+        "6"
+      ],
+      "Carlos Febles": [
+        "4"
+      ],
+      "Brian Barber": [
+        "1"
+      ],
+      "Jay Witasick": [
+        "1"
+      ],
+      "Jose Santiago": [
+        "1"
+      ],
+      "Matt Whisenant": [
+        "1"
+      ],
+      "Scott Service": [
+        "1"
+      ]
+    },
+    "CHW": {
+      "Ray Durham": [
+        "4"
+      ],
+      "Mike Caruso": [
+        "6"
+      ],
+      "Craig Wilson": [
+        "6",
+        "PH"
+      ],
+      "Frank Thomas": [
+        "DH"
+      ],
+      "Paul Konerko": [
+        "3"
+      ],
+      "Magglio Ordonez": [
+        "9"
+      ],
+      "Greg Norton": [
+        "5"
+      ],
+      "Jeff Abbott": [
+        "7"
+      ],
+      "Brook Fordyce": [
+        "2"
+      ],
+      "McKay Christensen": [
+        "8"
+      ],
+      "Mike Sirotka": [
+        "1"
+      ],
+      "Bill Simas": [
+        "1"
+      ],
+      "Keith Foulke": [
+        "1"
+      ],
+      "Bob Howry": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "KCR": {
+      "Carlos Beltran": 1,
+      "Joe Randa": 1,
+      "Johnny Damon": 1,
+      "Jeff King": 1,
+      "Mike Sweeney": 1,
+      "Jermaine Dye": 1,
+      "Scott Leius": 1,
+      "Rey Sanchez": 1,
+      "Carlos Febles": 1,
+      "Brian Barber": 1
+    },
+    "CHW": {
+      "Ray Durham": 1,
+      "Mike Caruso": 1,
+      "Frank Thomas": 1,
+      "Paul Konerko": 1,
+      "Magglio Ordonez": 1,
+      "Greg Norton": 1,
+      "Jeff Abbott": 1,
+      "Brook Fordyce": 1,
+      "McKay Christensen": 1,
+      "Mike Sirotka": 1
+    }
+  }
+}
