@@ -6534,5 +6534,78 @@
     "IP": 1.3333333333333333,
     "SV": 1,
     "H allowed": 1
+  },
+  {
+    "Player": "Jim Pittsley",
+    "Player ID": "pittsji01",
+    "Team": "KCR",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 7.333333333333333,
+    "GS": 1,
+    "H allowed": 5,
+    "R against": 6,
+    "ER": 5,
+    "HR allowed": 1,
+    "BB against": 4,
+    "IBB against": 1,
+    "SO against": 5,
+    "HBP against": 1
+  },
+  {
+    "Player": "Jeff Montgomery",
+    "Player ID": "montgje01",
+    "Team": "KCR",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 1.6666666666666665,
+    "W": 1,
+    "H allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Jaime Navarro",
+    "Player ID": "navarja01",
+    "Team": "CHW",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 6.666666666666667,
+    "GS": 1,
+    "H allowed": 8,
+    "R against": 3,
+    "ER": 1,
+    "SO against": 4
+  },
+  {
+    "Player": "Keith Foulke",
+    "Player ID": "foulkke01",
+    "Team": "CHW",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 1.3333333333333333,
+    "H allowed": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Bob Howry",
+    "Player ID": "howrybo01",
+    "Team": "CHW",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 0.6666666666666666,
+    "L": 1,
+    "H allowed": 3,
+    "R against": 4,
+    "ER": 4,
+    "BB against": 3,
+    "SO against": 1
+  },
+  {
+    "Player": "David Lundquist",
+    "Player ID": "lundqda01",
+    "Team": "CHW",
+    "Game#": 69,
+    "Game ID": "19990410_KCR@CHW",
+    "IP": 0.3333333333333333
   }
 ]

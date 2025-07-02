@@ -534,10 +534,10 @@
     "date": "1999-04-09",
     "home_team": "CHW",
     "away_team": "KCR",
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 15,
+    "away_score": 13,
     "simDate": "2025-07-01 00:00:00",
-    "completed": false
+    "completed": true
   },
   {
     "id": "19990409_OAK@SEA",
@@ -684,10 +684,10 @@
     "date": "1999-04-10",
     "home_team": "CHW",
     "away_team": "KCR",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 6,
+    "away_score": 7,
+    "simDate": "2025-07-01 00:00:00",
+    "completed": true
   },
   {
     "id": "19990410_OAK@SEA",
@@ -834,10 +834,10 @@
     "date": "1999-04-11",
     "home_team": "CHW",
     "away_team": "KCR",
-    "home_score": 15,
-    "away_score": 13,
+    "home_score": 0,
+    "away_score": 0,
     "simDate": "",
-    "completed": true
+    "completed": false
   },
   {
     "id": "19990411_OAK@SEA",
