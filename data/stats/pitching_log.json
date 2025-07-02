@@ -6607,5 +6607,59 @@
     "Game#": 69,
     "Game ID": "19990410_KCR@CHW",
     "IP": 0.3333333333333333
+  },
+  {
+    "Player": "Kevin Appier",
+    "Player ID": "appieke01",
+    "Team": "KCR",
+    "Game#": 84,
+    "Game ID": "19990411_KCR@CHW",
+    "IP": 3.6666666666666665,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 9,
+    "R against": 10,
+    "ER": 10,
+    "HR allowed": 3,
+    "BB against": 3,
+    "SO against": 2,
+    "WP": 1
+  },
+  {
+    "Player": "Don Wengert",
+    "Player ID": "wengedo01",
+    "Team": "KCR",
+    "Game#": 84,
+    "Game ID": "19990411_KCR@CHW",
+    "IP": 2.3333333333333335,
+    "H allowed": 2,
+    "SO against": 1
+  },
+  {
+    "Player": "Jose Santiago",
+    "Player ID": "santijo03",
+    "Team": "KCR",
+    "Game#": 84,
+    "Game ID": "19990411_KCR@CHW",
+    "IP": 2.0,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "James Baldwin",
+    "Player ID": "baldwja01",
+    "Team": "CHW",
+    "Game#": 84,
+    "Game ID": "19990411_KCR@CHW",
+    "IP": 9.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 8,
+    "BB against": 2,
+    "SO against": 2,
+    "HBP against": 1
   }
 ]

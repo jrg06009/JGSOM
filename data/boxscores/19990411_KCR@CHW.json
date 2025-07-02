@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "CHW",
+    "away": "KCR",
+    "home_score": "11",
+    "away_score": "0"
+  },
+  "batting": {
+    "KCR": {
+      "Carlos Beltran": {
+        "Player": "Carlos Beltran",
+        "Player ID": "beltrca01",
+        "AB": 4,
+        "PO": 2
+      },
+      "Joe Randa": {
+        "Player": "Joe Randa",
+        "Player ID": "randajo01",
+        "AB": 4,
+        "H": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "Johnny Damon": {
+        "Player": "Johnny Damon",
+        "Player ID": "damonjo01",
+        "AB": 4,
+        "H": 1,
+        "PO": 3
+      },
+      "Jeff King": {
+        "Player": "Jeff King",
+        "Player ID": "kingje01",
+        "AB": 1,
+        "H": 1,
+        "BB": 2,
+        "HBP": 1,
+        "PO": 12,
+        "DP": 1
+      },
+      "Mike Sweeney": {
+        "Player": "Mike Sweeney",
+        "Player ID": "sweenmi01",
+        "AB": 4,
+        "SO": 1,
+        "GDP": 1
+      },
+      "Jermaine Dye": {
+        "Player": "Jermaine Dye",
+        "Player ID": "dyeje01",
+        "AB": 4
+      },
+      "Chad Kreuter": {
+        "Player": "Chad Kreuter",
+        "Player ID": "kreutch01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 4,
+        "SB against": 1
+      },
+      "Rey Sanchez": {
+        "Player": "Rey Sanchez",
+        "Player ID": "sanchre01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1
+      },
+      "Carlos Febles": {
+        "Player": "Carlos Febles",
+        "Player ID": "febleca01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "GDP": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 1
+      }
+    },
+    "CHW": {
+      "Ray Durham": {
+        "Player": "Ray Durham",
+        "Player ID": "durhara01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "PO": 2,
+        "A": 4,
+        "DP": 2
+      },
+      "Mike Caruso": {
+        "Player": "Mike Caruso",
+        "Player ID": "carusmi01",
+        "AB": 5,
+        "R": 2,
+        "H": 2,
+        "2B": 1,
+        "RBI": 2,
+        "SB": 1,
+        "PO": 1,
+        "A": 5,
+        "DP": 2
+      },
+      "Frank Thomas": {
+        "Player": "Frank Thomas",
+        "Player ID": "thomafr04",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1
+      },
+      "Jeff Liefer": {
+        "Player": "Jeff Liefer",
+        "Player ID": "liefeje01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "GDP": 1,
+        "PO": 10,
+        "DP": 2
+      },
+      "Magglio Ordonez": {
+        "Player": "Magglio Ordonez",
+        "Player ID": "ordonma01",
+        "AB": 4,
+        "R": 3,
+        "H": 3,
+        "HR": 3,
+        "RBI": 4,
+        "PO": 1
+      },
+      "Chris Singleton": {
+        "Player": "Chris Singleton",
+        "Player ID": "singlch01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Darrin Jackson": {
+        "Player": "Darrin Jackson",
+        "Player ID": "jacksda03",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "PO": 9
+      },
+      "Craig Wilson": {
+        "Player": "Craig Wilson",
+        "Player ID": "wilsocr02",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "BB": 1,
+        "A": 2
+      },
+      "Brook Fordyce": {
+        "Player": "Brook Fordyce",
+        "Player ID": "fordybr01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "PO": 2
+      }
+    }
+  },
+  "pitching": {
+    "KCR": {
+      "Kevin Appier": {
+        "Player": "Kevin Appier",
+        "Player ID": "appieke01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "3.2",
+        "H allowed": 9,
+        "R against": 10,
+        "ER": 10,
+        "HR allowed": 3,
+        "BB against": 3,
+        "SO against": 2,
+        "WP": 1,
+        "SB against": 1
+      },
+      "Don Wengert": {
+        "Player": "Don Wengert",
+        "Player ID": "wengedo01",
+        "Pit #": 2,
+        "IP": "2.1",
+        "H allowed": 2,
+        "SO against": 1
+      },
+      "Jose Santiago": {
+        "Player": "Jose Santiago",
+        "Player ID": "santijo03",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "SO against": 1
+      }
+    },
+    "CHW": {
+      "James Baldwin": {
+        "Player": "James Baldwin",
+        "Player ID": "baldwja01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 8,
+        "BB against": 2,
+        "SO against": 2,
+        "HBP against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "KCR": [
+      [
+        1,
+        "Carlos Beltran"
+      ],
+      [
+        2,
+        "Joe Randa"
+      ],
+      [
+        3,
+        "Johnny Damon"
+      ],
+      [
+        4,
+        "Jeff King"
+      ],
+      [
+        5,
+        "Mike Sweeney"
+      ],
+      [
+        6,
+        "Jermaine Dye"
+      ],
+      [
+        7,
+        "Chad Kreuter"
+      ],
+      [
+        8,
+        "Rey Sanchez"
+      ],
+      [
+        9,
+        "Carlos Febles"
+      ]
+    ],
+    "CHW": [
+      [
+        1,
+        "Ray Durham"
+      ],
+      [
+        2,
+        "Mike Caruso"
+      ],
+      [
+        3,
+        "Frank Thomas"
+      ],
+      [
+        4,
+        "Jeff Liefer"
+      ],
+      [
+        5,
+        "Magglio Ordonez"
+      ],
+      [
+        6,
+        "Chris Singleton"
+      ],
+      [
+        7,
+        "Darrin Jackson"
+      ],
+      [
+        8,
+        "Craig Wilson"
+      ],
+      [
+        9,
+        "Brook Fordyce"
+      ]
+    ]
+  },
+  "positions": {
+    "KCR": {
+      "Carlos Beltran": [
+        "8"
+      ],
+      "Joe Randa": [
+        "5"
+      ],
+      "Johnny Damon": [
+        "7"
+      ],
+      "Jeff King": [
+        "3"
+      ],
+      "Mike Sweeney": [
+        "DH"
+      ],
+      "Jermaine Dye": [
+        "9"
+      ],
+      "Chad Kreuter": [
+        "2"
+      ],
+      "Rey Sanchez": [
+        "6"
+      ],
+      "Carlos Febles": [
+        "4"
+      ],
+      "Kevin Appier": [
+        "1"
+      ],
+      "Don Wengert": [
+        "1"
+      ],
+      "Jose Santiago": [
+        "1"
+      ]
+    },
+    "CHW": {
+      "Ray Durham": [
+        "4"
+      ],
+      "Mike Caruso": [
+        "6"
+      ],
+      "Frank Thomas": [
+        "DH"
+      ],
+      "Jeff Liefer": [
+        "3"
+      ],
+      "Magglio Ordonez": [
+        "9"
+      ],
+      "Chris Singleton": [
+        "7"
+      ],
+      "Darrin Jackson": [
+        "8"
+      ],
+      "Craig Wilson": [
+        "5"
+      ],
+      "Brook Fordyce": [
+        "2"
+      ],
+      "James Baldwin": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "KCR": {
+      "Carlos Beltran": 1,
+      "Joe Randa": 1,
+      "Johnny Damon": 1,
+      "Jeff King": 1,
+      "Mike Sweeney": 1,
+      "Jermaine Dye": 1,
+      "Chad Kreuter": 1,
+      "Rey Sanchez": 1,
+      "Carlos Febles": 1,
+      "Kevin Appier": 1
+    },
+    "CHW": {
+      "Ray Durham": 1,
+      "Mike Caruso": 1,
+      "Frank Thomas": 1,
+      "Jeff Liefer": 1,
+      "Magglio Ordonez": 1,
+      "Chris Singleton": 1,
+      "Darrin Jackson": 1,
+      "Craig Wilson": 1,
+      "Brook Fordyce": 1,
+      "James Baldwin": 1
+    }
+  }
+}

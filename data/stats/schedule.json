@@ -834,10 +834,10 @@
     "date": "1999-04-11",
     "home_team": "CHW",
     "away_team": "KCR",
-    "home_score": 0,
+    "home_score": 11,
     "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "simDate": "2025-07-01 00:00:00",
+    "completed": true
   },
   {
     "id": "19990411_OAK@SEA",
