@@ -604,10 +604,10 @@
     "date": "1999-04-09",
     "home_team": "HOU",
     "away_team": "MIL",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 10,
+    "away_score": 7,
+    "simDate": "2025-07-08 00:00:00",
+    "completed": true
   },
   {
     "id": "19990409_NYM@MON",

@@ -6661,5 +6661,92 @@
     "BB against": 2,
     "SO against": 2,
     "HBP against": 1
+  },
+  {
+    "Player": "David Weathers",
+    "Player ID": "weathda01",
+    "Team": "MIL",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 1.3333333333333333
+  },
+  {
+    "Player": "Bob Wickman",
+    "Player ID": "wickmbo01",
+    "Team": "MIL",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 0.6666666666666666,
+    "L": 1,
+    "H allowed": 5,
+    "R against": 6,
+    "ER": 6,
+    "HR allowed": 1,
+    "BB against": 1
+  },
+  {
+    "Player": "Scott Karl",
+    "Player ID": "karlsc01",
+    "Team": "MIL",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 6.666666666666667,
+    "GS": 1,
+    "H allowed": 7,
+    "R against": 4,
+    "ER": 4,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 2,
+    "HBP against": 1,
+    "WP": 1
+  },
+  {
+    "Player": "Doug Henry",
+    "Player ID": "henrydo01",
+    "Team": "HOU",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 2.3333333333333335,
+    "W": 1,
+    "H allowed": 1,
+    "SO against": 5
+  },
+  {
+    "Player": "Sean Bergman",
+    "Player ID": "bergmse01",
+    "Team": "HOU",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 2.3333333333333335,
+    "GS": 1,
+    "H allowed": 9,
+    "R against": 6,
+    "ER": 5,
+    "HR allowed": 1,
+    "WP": 1
+  },
+  {
+    "Player": "Brian Williams",
+    "Player ID": "willibr01",
+    "Team": "HOU",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 1.6666666666666665,
+    "H allowed": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Trever Miller",
+    "Player ID": "milletr02",
+    "Team": "HOU",
+    "Game#": 61,
+    "Game ID": "19990409_MIL@HOU",
+    "IP": 2.6666666666666665,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 2,
+    "WP": 1
   }
 ]
