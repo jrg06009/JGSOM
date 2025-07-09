@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "HOU",
+    "away": "MIL",
+    "home_score": "4",
+    "away_score": "5"
+  },
+  "batting": {
+    "MIL": {
+      "Fernando Vina": {
+        "Player": "Fernando Vina",
+        "Player ID": "vinafe01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 3,
+        "DP": 1
+      },
+      "Marquis Grissom": {
+        "Player": "Marquis Grissom",
+        "Player ID": "grissma02",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "PO": 2
+      },
+      "Jeff Cirillo": {
+        "Player": "Jeff Cirillo",
+        "Player ID": "cirilje01",
+        "AB": 5,
+        "R": 1,
+        "H": 4,
+        "2B": 1,
+        "A": 1
+      },
+      "Jeromy Burnitz": {
+        "Player": "Jeromy Burnitz",
+        "Player ID": "burnije01",
+        "AB": 2,
+        "H": 1,
+        "RBI": 2,
+        "GDP": 1,
+        "HBP": 2,
+        "SF": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Sean Berry": {
+        "Player": "Sean Berry",
+        "Player ID": "berryse01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 8,
+        "A": 2,
+        "DP": 1
+      },
+      "Dave Nilsson": {
+        "Player": "Dave Nilsson",
+        "Player ID": "nilssda01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 6,
+        "A": 1,
+        "SB against": 2,
+        "CS against": 1
+      },
+      "Jose Valentin": {
+        "Player": "Jose Valentin",
+        "Player ID": "valenjo03",
+        "AB": 3,
+        "BB": 1,
+        "SO": 2,
+        "PO": 2,
+        "ERR": 1
+      },
+      "Geoff Jenkins": {
+        "Player": "Geoff Jenkins",
+        "Player ID": "jenkige01",
+        "AB": 4,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 4
+      },
+      "Bill Pulsipher": {
+        "Player": "Bill Pulsipher",
+        "Player ID": "pulsibi01",
+        "AB": 2,
+        "SO": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 3,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "A": 3,
+        "SB against": 2,
+        "CS against": 1
+      },
+      "Rich Becker": {
+        "Player": "Rich Becker",
+        "Player ID": "beckeri01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "3B": 1
+      },
+      "David Weathers": {
+        "Player": "David Weathers",
+        "Player ID": "weathda01",
+        "IP": "1.0",
+        "SO against": 1,
+        "PO": 1
+      },
+      "Brian Banks": {
+        "Player": "Brian Banks",
+        "Player ID": "banksbr01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Chad Fox": {
+        "Player": "Chad Fox",
+        "Player ID": "foxch02",
+        "IP": "1.0",
+        "SO against": 2
+      },
+      "Eric Plunk": {
+        "Player": "Eric Plunk",
+        "Player ID": "plunker01",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1
+      }
+    },
+    "HOU": {
+      "Craig Biggio": {
+        "Player": "Craig Biggio",
+        "Player ID": "biggicr01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 2,
+        "CS": 1,
+        "PO": 1,
+        "A": 3,
+        "DP": 1
+      },
+      "Derek Bell": {
+        "Player": "Derek Bell",
+        "Player ID": "bellde01",
+        "AB": 5,
+        "H": 2,
+        "SB": 1,
+        "PO": 4
+      },
+      "Jeff Bagwell": {
+        "Player": "Jeff Bagwell",
+        "Player ID": "bagweje01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 6,
+        "DP": 2
+      },
+      "Ken Caminiti": {
+        "Player": "Ken Caminiti",
+        "Player ID": "caminke01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Richard Hidalgo": {
+        "Player": "Richard Hidalgo",
+        "Player ID": "hidalri01",
+        "AB": 3,
+        "R": 1,
+        "SO": 1,
+        "HBP": 1
+      },
+      "Carl Everett": {
+        "Player": "Carl Everett",
+        "Player ID": "evereca01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "SO": 1,
+        "SB": 1,
+        "PO": 5
+      },
+      "Mitch Meluskey": {
+        "Player": "Mitch Meluskey",
+        "Player ID": "melusmi01",
+        "AB": 3,
+        "PO": 8
+      },
+      "Jack Howell": {
+        "Player": "Jack Howell",
+        "Player ID": "howelja02",
+        "AB": 1
+      },
+      "Ricky Gutierrez": {
+        "Player": "Ricky Gutierrez",
+        "Player ID": "gutieri01",
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 3,
+        "DP": 2
+      },
+      "Chris Holt": {
+        "Player": "Chris Holt",
+        "Player ID": "holtch01",
+        "AB": 2,
+        "H": 1,
+        "IP": "6.0",
+        "H allowed": 8,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Alex Diaz": {
+        "Player": "Alex Diaz",
+        "Player ID": "diazal01",
+        "AB": 1
+      },
+      "Scott Elarton": {
+        "Player": "Scott Elarton",
+        "Player ID": "elartsc01",
+        "L": 1,
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 4,
+        "HBP against": 1
+      },
+      "Jay Powell": {
+        "Player": "Jay Powell",
+        "Player ID": "powelja04",
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Bill Spiers": {
+        "Player": "Bill Spiers",
+        "Player ID": "spierbi01",
+        "AB": 1,
+        "R": 1,
+        "H": 1
+      }
+    }
+  },
+  "pitching": {
+    "MIL": {
+      "Bill Pulsipher": {
+        "Player": "Bill Pulsipher",
+        "Player ID": "pulsibi01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 3,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "A": 3,
+        "SB against": 2,
+        "CS against": 1
+      },
+      "David Weathers": {
+        "Player": "David Weathers",
+        "Player ID": "weathda01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "SO against": 1,
+        "PO": 1
+      },
+      "Chad Fox": {
+        "Player": "Chad Fox",
+        "Player ID": "foxch02",
+        "Pit #": 3,
+        "IP": "1.0",
+        "SO against": 2
+      },
+      "Eric Plunk": {
+        "Player": "Eric Plunk",
+        "Player ID": "plunker01",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1
+      }
+    },
+    "HOU": {
+      "Chris Holt": {
+        "Player": "Chris Holt",
+        "Player ID": "holtch01",
+        "Pit #": 1,
+        "AB": 2,
+        "H": 1,
+        "IP": "6.0",
+        "H allowed": 8,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Scott Elarton": {
+        "Player": "Scott Elarton",
+        "Player ID": "elartsc01",
+        "Pit #": 2,
+        "L": 1,
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 4,
+        "HBP against": 1
+      },
+      "Jay Powell": {
+        "Player": "Jay Powell",
+        "Player ID": "powelja04",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1,
+        "WP": 1
+      }
+    }
+  },
+  "batting_order": {
+    "MIL": [
+      [
+        1,
+        "Fernando Vina"
+      ],
+      [
+        2,
+        "Marquis Grissom"
+      ],
+      [
+        3,
+        "Jeff Cirillo"
+      ],
+      [
+        4,
+        "Jeromy Burnitz"
+      ],
+      [
+        5,
+        "Sean Berry"
+      ],
+      [
+        6,
+        "Dave Nilsson"
+      ],
+      [
+        7,
+        "Jose Valentin"
+      ],
+      [
+        8,
+        "Geoff Jenkins"
+      ],
+      [
+        9,
+        "Bill Pulsipher"
+      ],
+      [
+        9,
+        "Rich Becker"
+      ],
+      [
+        9,
+        "David Weathers"
+      ],
+      [
+        9,
+        "Brian Banks"
+      ],
+      [
+        9,
+        "Chad Fox"
+      ],
+      [
+        9,
+        "Eric Plunk"
+      ]
+    ],
+    "HOU": [
+      [
+        1,
+        "Craig Biggio"
+      ],
+      [
+        2,
+        "Derek Bell"
+      ],
+      [
+        3,
+        "Jeff Bagwell"
+      ],
+      [
+        4,
+        "Ken Caminiti"
+      ],
+      [
+        5,
+        "Richard Hidalgo"
+      ],
+      [
+        6,
+        "Carl Everett"
+      ],
+      [
+        7,
+        "Mitch Meluskey"
+      ],
+      [
+        7,
+        "Jack Howell"
+      ],
+      [
+        8,
+        "Ricky Gutierrez"
+      ],
+      [
+        9,
+        "Chris Holt"
+      ],
+      [
+        9,
+        "Alex Diaz"
+      ],
+      [
+        9,
+        "Scott Elarton"
+      ],
+      [
+        9,
+        "Jay Powell"
+      ],
+      [
+        9,
+        "Bill Spiers"
+      ]
+    ]
+  },
+  "positions": {
+    "MIL": {
+      "Fernando Vina": [
+        "4"
+      ],
+      "Marquis Grissom": [
+        "8"
+      ],
+      "Jeff Cirillo": [
+        "5"
+      ],
+      "Jeromy Burnitz": [
+        "9"
+      ],
+      "Sean Berry": [
+        "3"
+      ],
+      "Dave Nilsson": [
+        "2"
+      ],
+      "Jose Valentin": [
+        "6"
+      ],
+      "Geoff Jenkins": [
+        "7"
+      ],
+      "Bill Pulsipher": [
+        "1"
+      ],
+      "Rich Becker": [
+        "PH"
+      ],
+      "David Weathers": [
+        "1"
+      ],
+      "Brian Banks": [
+        "PH"
+      ],
+      "Chad Fox": [
+        "1"
+      ],
+      "Eric Plunk": [
+        "1"
+      ]
+    },
+    "HOU": {
+      "Craig Biggio": [
+        "4"
+      ],
+      "Derek Bell": [
+        "9"
+      ],
+      "Jeff Bagwell": [
+        "3"
+      ],
+      "Ken Caminiti": [
+        "5"
+      ],
+      "Richard Hidalgo": [
+        "7"
+      ],
+      "Carl Everett": [
+        "8"
+      ],
+      "Mitch Meluskey": [
+        "2"
+      ],
+      "Jack Howell": [
+        "PH"
+      ],
+      "Ricky Gutierrez": [
+        "6"
+      ],
+      "Chris Holt": [
+        "1"
+      ],
+      "Alex Diaz": [
+        "PH"
+      ],
+      "Scott Elarton": [
+        "1"
+      ],
+      "Jay Powell": [
+        "1"
+      ],
+      "Bill Spiers": [
+        "PH"
+      ]
+    }
+  },
+  "games_started": {
+    "MIL": {
+      "Fernando Vina": 1,
+      "Marquis Grissom": 1,
+      "Jeff Cirillo": 1,
+      "Jeromy Burnitz": 1,
+      "Sean Berry": 1,
+      "Dave Nilsson": 1,
+      "Jose Valentin": 1,
+      "Geoff Jenkins": 1,
+      "Bill Pulsipher": 1
+    },
+    "HOU": {
+      "Craig Biggio": 1,
+      "Derek Bell": 1,
+      "Jeff Bagwell": 1,
+      "Ken Caminiti": 1,
+      "Richard Hidalgo": 1,
+      "Carl Everett": 1,
+      "Mitch Meluskey": 1,
+      "Ricky Gutierrez": 1,
+      "Chris Holt": 1
+    }
+  }
+}

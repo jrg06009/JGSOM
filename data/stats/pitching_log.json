@@ -6748,5 +6748,93 @@
     "ER": 1,
     "BB against": 2,
     "WP": 1
+  },
+  {
+    "Player": "Bill Pulsipher",
+    "Player ID": "pulsibi01",
+    "Team": "MIL",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 6.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 9,
+    "R against": 3,
+    "ER": 2,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "David Weathers",
+    "Player ID": "weathda01",
+    "Team": "MIL",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 1.0,
+    "SO against": 1
+  },
+  {
+    "Player": "Chad Fox",
+    "Player ID": "foxch02",
+    "Team": "MIL",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 1.0,
+    "SO against": 2
+  },
+  {
+    "Player": "Eric Plunk",
+    "Player ID": "plunker01",
+    "Team": "MIL",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 1.0,
+    "SV": 1,
+    "H allowed": 2,
+    "R against": 1,
+    "ER": 1
+  },
+  {
+    "Player": "Chris Holt",
+    "Player ID": "holtch01",
+    "Team": "HOU",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 6.0,
+    "GS": 1,
+    "H allowed": 8,
+    "R against": 3,
+    "ER": 3,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Scott Elarton",
+    "Player ID": "elartsc01",
+    "Team": "HOU",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 2.0,
+    "L": 1,
+    "H allowed": 3,
+    "R against": 1,
+    "ER": 1,
+    "SO against": 4,
+    "HBP against": 1
+  },
+  {
+    "Player": "Jay Powell",
+    "Player ID": "powelja04",
+    "Team": "HOU",
+    "Game#": 76,
+    "Game ID": "19990410_MIL@HOU",
+    "IP": 1.0,
+    "H allowed": 3,
+    "R against": 1,
+    "ER": 1,
+    "SO against": 1,
+    "WP": 1
   }
 ]
