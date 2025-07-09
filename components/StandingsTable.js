@@ -43,7 +43,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                     {enhanced && (
                       <>
                         <th className="border border-gray-400 px-2 py-1 text-right">Streak</th>
-                        <th className="border border-gray-400 px-2 py-1 text-right">Last 10</th>
+                        <th className="border border-gray-400 px-2 py-1 text-right">L10</th>
                       </>
                     )}
                   </tr>
