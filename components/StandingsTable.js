@@ -38,7 +38,7 @@ export default function StandingsTable({ standings, teams, schedule = [], useFul
                     <th className="border border-gray-400 px-2 py-1 text-left">Team</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">W</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">L</th>
-                    <th className="border border-gray-400 px-2 py-1 text-right">W-L%</th>
+                    <th className="border border-gray-400 px-2 py-1 text-right">Pct</th>
                     <th className="border border-gray-400 px-2 py-1 text-right">GB</th>
                     {enhanced && (
                       <>
