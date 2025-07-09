@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "HOU",
+    "away": "MIL",
+    "home_score": "9",
+    "away_score": "1"
+  },
+  "batting": {
+    "MIL": {
+      "Fernando Vina": {
+        "Player": "Fernando Vina",
+        "Player ID": "vinafe01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "HBP": 1,
+        "PO": 1,
+        "A": 4
+      },
+      "Mark Loretta": {
+        "Player": "Mark Loretta",
+        "Player ID": "loretma01",
+        "AB": 5,
+        "H": 3,
+        "GDP": 1,
+        "PO": 3,
+        "A": 1
+      },
+      "Jeff Cirillo": {
+        "Player": "Jeff Cirillo",
+        "Player ID": "cirilje01",
+        "AB": 4,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 3,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Jeromy Burnitz": {
+        "Player": "Jeromy Burnitz",
+        "Player ID": "burnije01",
+        "AB": 4,
+        "H": 4,
+        "2B": 1,
+        "ERR": 1
+      },
+      "Sean Berry": {
+        "Player": "Sean Berry",
+        "Player ID": "berryse01",
+        "AB": 4,
+        "PO": 7,
+        "DP": 1
+      },
+      "Rich Becker": {
+        "Player": "Rich Becker",
+        "Player ID": "beckeri01",
+        "AB": 4,
+        "H": 1,
+        "SO": 2,
+        "PO": 2
+      },
+      "Bobby Hughes": {
+        "Player": "Bobby Hughes",
+        "Player ID": "hughebo01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "GDP": 1,
+        "PO": 3,
+        "ERR": 1,
+        "PB": 1
+      },
+      "Geoff Jenkins": {
+        "Player": "Geoff Jenkins",
+        "Player ID": "jenkige01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "PO": 6
+      },
+      "Rafael Roque": {
+        "Player": "Rafael Roque",
+        "Player ID": "roquera01",
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 8,
+        "ER": 5,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 2,
+        "WP": 1,
+        "A": 1
+      },
+      "Brian Banks": {
+        "Player": "Brian Banks",
+        "Player ID": "banksbr01",
+        "AB": 1,
+        "H": 1
+      },
+      "Alberto Reyes": {
+        "Player": "Alberto Reyes",
+        "Player ID": "reyesal01",
+        "IP": "2.0",
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Marquis Grissom": {
+        "Player": "Marquis Grissom",
+        "Player ID": "grissma02",
+        "AB": 1
+      },
+      "Mike Myers": {
+        "Player": "Mike Myers",
+        "Player ID": "myersmi01",
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "HBP against": 1
+      },
+      "Alex Ochoa": {
+        "Player": "Alex Ochoa",
+        "Player ID": "ochoaal01",
+        "AB": 1,
+        "SO": 1
+      }
+    },
+    "HOU": {
+      "Craig Biggio": {
+        "Player": "Craig Biggio",
+        "Player ID": "biggicr01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "PO": 2,
+        "A": 6,
+        "DP": 2
+      },
+      "Derek Bell": {
+        "Player": "Derek Bell",
+        "Player ID": "bellde01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 2,
+        "PO": 3
+      },
+      "Jeff Bagwell": {
+        "Player": "Jeff Bagwell",
+        "Player ID": "bagweje01",
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 8,
+        "DP": 2
+      },
+      "Carl Everett": {
+        "Player": "Carl Everett",
+        "Player ID": "evereca01",
+        "AB": 2,
+        "R": 2,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 2,
+        "HBP": 1,
+        "PO": 2
+      },
+      "Richard Hidalgo": {
+        "Player": "Richard Hidalgo",
+        "Player ID": "hidalri01",
+        "AB": 5,
+        "R": 1,
+        "H": 2
+      },
+      "Tony Eusebio": {
+        "Player": "Tony Eusebio",
+        "Player ID": "eusebto01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "RBI": 2,
+        "PO": 6
+      },
+      "Ricky Gutierrez": {
+        "Player": "Ricky Gutierrez",
+        "Player ID": "gutieri01",
+        "AB": 4,
+        "R": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 1,
+        "DP": 1
+      },
+      "Tim Bogar": {
+        "Player": "Tim Bogar",
+        "Player ID": "bogarti01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 2,
+        "A": 1
+      },
+      "Shane Reynolds": {
+        "Player": "Shane Reynolds",
+        "Player ID": "reynosh01",
+        "AB": 2,
+        "H": 1,
+        "RBI": 1,
+        "SH": 1,
+        "SF": 1,
+        "W": 1,
+        "IP": "8.2",
+        "H allowed": 11,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 6,
+        "HBP against": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Brian Williams": {
+        "Player": "Brian Williams",
+        "Player ID": "willibr01",
+        "IP": "0.1",
+        "H allowed": 1
+      }
+    }
+  },
+  "pitching": {
+    "MIL": {
+      "Rafael Roque": {
+        "Player": "Rafael Roque",
+        "Player ID": "roquera01",
+        "Pit #": 1,
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 8,
+        "ER": 5,
+        "HR allowed": 1,
+        "BB against": 4,
+        "SO against": 2,
+        "WP": 1,
+        "A": 1
+      },
+      "Alberto Reyes": {
+        "Player": "Alberto Reyes",
+        "Player ID": "reyesal01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Mike Myers": {
+        "Player": "Mike Myers",
+        "Player ID": "myersmi01",
+        "Pit #": 3,
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "HBP against": 1
+      }
+    },
+    "HOU": {
+      "Shane Reynolds": {
+        "Player": "Shane Reynolds",
+        "Player ID": "reynosh01",
+        "Pit #": 1,
+        "AB": 2,
+        "H": 1,
+        "RBI": 1,
+        "SH": 1,
+        "SF": 1,
+        "W": 1,
+        "IP": "8.2",
+        "H allowed": 11,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 6,
+        "HBP against": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Brian Williams": {
+        "Player": "Brian Williams",
+        "Player ID": "willibr01",
+        "Pit #": 2,
+        "IP": "0.1",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "MIL": [
+      [
+        1,
+        "Fernando Vina"
+      ],
+      [
+        2,
+        "Mark Loretta"
+      ],
+      [
+        3,
+        "Jeff Cirillo"
+      ],
+      [
+        4,
+        "Jeromy Burnitz"
+      ],
+      [
+        5,
+        "Sean Berry"
+      ],
+      [
+        6,
+        "Rich Becker"
+      ],
+      [
+        7,
+        "Bobby Hughes"
+      ],
+      [
+        8,
+        "Geoff Jenkins"
+      ],
+      [
+        9,
+        "Rafael Roque"
+      ],
+      [
+        9,
+        "Brian Banks"
+      ],
+      [
+        9,
+        "Alberto Reyes"
+      ],
+      [
+        9,
+        "Marquis Grissom"
+      ],
+      [
+        9,
+        "Mike Myers"
+      ],
+      [
+        9,
+        "Alex Ochoa"
+      ]
+    ],
+    "HOU": [
+      [
+        1,
+        "Craig Biggio"
+      ],
+      [
+        2,
+        "Derek Bell"
+      ],
+      [
+        3,
+        "Jeff Bagwell"
+      ],
+      [
+        4,
+        "Carl Everett"
+      ],
+      [
+        5,
+        "Richard Hidalgo"
+      ],
+      [
+        6,
+        "Tony Eusebio"
+      ],
+      [
+        7,
+        "Ricky Gutierrez"
+      ],
+      [
+        8,
+        "Tim Bogar"
+      ],
+      [
+        9,
+        "Shane Reynolds"
+      ],
+      [
+        9,
+        "Brian Williams"
+      ]
+    ]
+  },
+  "positions": {
+    "MIL": {
+      "Fernando Vina": [
+        "4"
+      ],
+      "Mark Loretta": [
+        "6"
+      ],
+      "Jeff Cirillo": [
+        "5"
+      ],
+      "Jeromy Burnitz": [
+        "9"
+      ],
+      "Sean Berry": [
+        "3"
+      ],
+      "Rich Becker": [
+        "8"
+      ],
+      "Bobby Hughes": [
+        "2"
+      ],
+      "Geoff Jenkins": [
+        "7"
+      ],
+      "Rafael Roque": [
+        "1"
+      ],
+      "Brian Banks": [
+        "PH"
+      ],
+      "Alberto Reyes": [
+        "1"
+      ],
+      "Marquis Grissom": [
+        "PH"
+      ],
+      "Mike Myers": [
+        "1"
+      ],
+      "Alex Ochoa": [
+        "PH"
+      ]
+    },
+    "HOU": {
+      "Craig Biggio": [
+        "4"
+      ],
+      "Derek Bell": [
+        "9"
+      ],
+      "Jeff Bagwell": [
+        "3"
+      ],
+      "Carl Everett": [
+        "8"
+      ],
+      "Richard Hidalgo": [
+        "7"
+      ],
+      "Tony Eusebio": [
+        "2"
+      ],
+      "Ricky Gutierrez": [
+        "6"
+      ],
+      "Tim Bogar": [
+        "5"
+      ],
+      "Shane Reynolds": [
+        "1"
+      ],
+      "Brian Williams": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "MIL": {
+      "Fernando Vina": 1,
+      "Mark Loretta": 1,
+      "Jeff Cirillo": 1,
+      "Jeromy Burnitz": 1,
+      "Sean Berry": 1,
+      "Rich Becker": 1,
+      "Bobby Hughes": 1,
+      "Geoff Jenkins": 1,
+      "Rafael Roque": 1
+    },
+    "HOU": {
+      "Craig Biggio": 1,
+      "Derek Bell": 1,
+      "Jeff Bagwell": 1,
+      "Carl Everett": 1,
+      "Richard Hidalgo": 1,
+      "Tony Eusebio": 1,
+      "Ricky Gutierrez": 1,
+      "Tim Bogar": 1,
+      "Shane Reynolds": 1
+    }
+  }
+}

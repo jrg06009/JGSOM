@@ -6836,5 +6836,69 @@
     "ER": 1,
     "SO against": 1,
     "WP": 1
+  },
+  {
+    "Player": "Rafael Roque",
+    "Player ID": "roquera01",
+    "Team": "MIL",
+    "Game#": 90,
+    "Game ID": "19990411_MIL@HOU",
+    "IP": 4.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 8,
+    "R against": 8,
+    "ER": 5,
+    "HR allowed": 1,
+    "BB against": 4,
+    "SO against": 2,
+    "WP": 1
+  },
+  {
+    "Player": "Alberto Reyes",
+    "Player ID": "reyesal01",
+    "Team": "MIL",
+    "Game#": 90,
+    "Game ID": "19990411_MIL@HOU",
+    "IP": 2.0,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Mike Myers",
+    "Player ID": "myersmi01",
+    "Team": "MIL",
+    "Game#": 90,
+    "Game ID": "19990411_MIL@HOU",
+    "IP": 2.0,
+    "H allowed": 3,
+    "R against": 1,
+    "ER": 1,
+    "HBP against": 1
+  },
+  {
+    "Player": "Shane Reynolds",
+    "Player ID": "reynosh01",
+    "Team": "HOU",
+    "Game#": 90,
+    "Game ID": "19990411_MIL@HOU",
+    "IP": 8.666666666666666,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 11,
+    "R against": 1,
+    "ER": 1,
+    "BB against": 1,
+    "SO against": 6,
+    "HBP against": 1
+  },
+  {
+    "Player": "Brian Williams",
+    "Player ID": "willibr01",
+    "Team": "HOU",
+    "Game#": 90,
+    "Game ID": "19990411_MIL@HOU",
+    "IP": 0.3333333333333333,
+    "H allowed": 1
   }
 ]
