@@ -197,7 +197,7 @@ const TeamPage = ({ abbr, team }) => {
           const total = CS + SB
           if (total === 0) return ''
           const pct = CS / total
-          return (pct * 100).toFixed(1) + '%'
+          return (pct * 100) + '%'
         },
          'Inn': arr => sumIP(arr, 'Inn')
       },'Inn')}
