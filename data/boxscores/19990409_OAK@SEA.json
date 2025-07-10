@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "SEA",
+    "away": "OAK",
+    "home_score": "9",
+    "away_score": "10"
+  },
+  "batting": {
+    "OAK": {
+      "Tony Phillips": {
+        "Player": "Tony Phillips",
+        "Player ID": "phillto02",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "SF": 1,
+        "PO": 3,
+        "A": 2
+      },
+      "Jorge Velandia": {
+        "Player": "Jorge Velandia",
+        "Player ID": "velanjo01"
+      },
+      "Ryan Christenson": {
+        "Player": "Ryan Christenson",
+        "Player ID": "chrisry01",
+        "AB": 5,
+        "R": 2,
+        "H": 4,
+        "3B": 1,
+        "SB": 1,
+        "PO": 4,
+        "A": 1
+      },
+      "Jason Giambi": {
+        "Player": "Jason Giambi",
+        "Player ID": "giambja01",
+        "AB": 2,
+        "R": 1,
+        "BB": 3,
+        "IBB": 1,
+        "PO": 9
+      },
+      "John Jaha": {
+        "Player": "John Jaha",
+        "Player ID": "jahajo01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 6,
+        "SO": 3
+      },
+      "Matt Stairs": {
+        "Player": "Matt Stairs",
+        "Player ID": "stairma01",
+        "AB": 5,
+        "SO": 2,
+        "PO": 1
+      },
+      "Olmedo Saenz": {
+        "Player": "Olmedo Saenz",
+        "Player ID": "saenzol01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "A": 4
+      },
+      "Jason McDonald": {
+        "Player": "Jason McDonald",
+        "Player ID": "mcdonja02"
+      },
+      "Ben Grieve": {
+        "Player": "Ben Grieve",
+        "Player ID": "grievbe01",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "HR": 2,
+        "RBI": 3,
+        "BB": 1,
+        "PO": 1
+      },
+      "Eric Chavez": {
+        "Player": "Eric Chavez",
+        "Player ID": "chaveer01"
+      },
+      "Miguel Tejada": {
+        "Player": "Miguel Tejada",
+        "Player ID": "tejadmi01",
+        "AB": 5,
+        "H": 1,
+        "PO": 1,
+        "A": 5
+      },
+      "A.J. Hinch": {
+        "Player": "A.J. Hinch",
+        "Player ID": "hincha.01",
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "BB": 1,
+        "SB": 1,
+        "PO": 8,
+        "SB against": 1
+      }
+    },
+    "SEA": {
+      "Carlos Guillen": {
+        "Player": "Carlos Guillen",
+        "Player ID": "guillca01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "David Bell": {
+        "Player": "David Bell",
+        "Player ID": "bellda01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "SO": 2,
+        "PO": 1,
+        "A": 4
+      },
+      "Ken Griffey Jr": {
+        "Player": "Ken Griffey Jr",
+        "Player ID": "griffke02",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "RBI": 1,
+        "SO": 1,
+        "SB": 1
+      },
+      "Edgar Martinez": {
+        "Player": "Edgar Martinez",
+        "Player ID": "martied01",
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "BB": 2,
+        "SO": 1
+      },
+      "David Segui": {
+        "Player": "David Segui",
+        "Player ID": "seguida01",
+        "AB": 5,
+        "H": 2,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 10,
+        "A": 1
+      },
+      "Jay Buhner": {
+        "Player": "Jay Buhner",
+        "Player ID": "buhneja01",
+        "AB": 3,
+        "BB": 2,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Russ Davis": {
+        "Player": "Russ Davis",
+        "Player ID": "davisru01",
+        "AB": 3,
+        "A": 1,
+        "ERR": 1
+      },
+      "Raul Ibanez": {
+        "Player": "Raul Ibanez",
+        "Player ID": "ibanera01",
+        "AB": 1
+      },
+      "Charles Gipson": {
+        "Player": "Charles Gipson",
+        "Player ID": "gipsoch01"
+      },
+      "John Mabry": {
+        "Player": "John Mabry",
+        "Player ID": "mabryjo01",
+        "AB": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 2
+      },
+      "Butch Huskey": {
+        "Player": "Butch Huskey",
+        "Player ID": "huskebu01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "BB": 1,
+        "PO": 1
+      },
+      "Dan Wilson": {
+        "Player": "Dan Wilson",
+        "Player ID": "wilsoda01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "SO": 1,
+        "PO": 9,
+        "SB against": 2
+      }
+    }
+  },
+  "pitching": {
+    "OAK": {
+      "Kenny Rogers": {
+        "Player": "Kenny Rogers",
+        "Player ID": "rogerke01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "5.0",
+        "H allowed": 9,
+        "R against": 6,
+        "ER": 6,
+        "HR allowed": 1,
+        "BB against": 3,
+        "SO against": 5
+      },
+      "T.J. Mathews": {
+        "Player": "T.J. Mathews",
+        "Player ID": "mathet.01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      },
+      "Doug Jones": {
+        "Player": "Doug Jones",
+        "Player ID": "jonesdo01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1
+      },
+      "Billy Taylor": {
+        "Player": "Billy Taylor",
+        "Player ID": "taylobi04",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      }
+    },
+    "SEA": {
+      "Butch Henry": {
+        "Player": "Butch Henry",
+        "Player ID": "henrybu01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 1,
+        "BB against": 2,
+        "SO against": 2,
+        "PO": 1,
+        "A": 1,
+        "SB against": 1
+      },
+      "Mac Suzuki": {
+        "Player": "Mac Suzuki",
+        "Player ID": "suzukma01",
+        "Pit #": 2,
+        "IP": "3.0",
+        "H allowed": 4,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Jose Paniagua": {
+        "Player": "Jose Paniagua",
+        "Player ID": "paniajo01",
+        "Pit #": 3,
+        "IP": "0.2",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "IBB against": 1,
+        "SO against": 1,
+        "SB against": 1
+      },
+      "Jose Mesa": {
+        "Player": "Jose Mesa",
+        "Player ID": "mesajo01",
+        "Pit #": 4,
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "OAK": [
+      [
+        1,
+        "Tony Phillips"
+      ],
+      [
+        1,
+        "Jorge Velandia"
+      ],
+      [
+        2,
+        "Ryan Christenson"
+      ],
+      [
+        3,
+        "Jason Giambi"
+      ],
+      [
+        4,
+        "John Jaha"
+      ],
+      [
+        5,
+        "Matt Stairs"
+      ],
+      [
+        6,
+        "Olmedo Saenz"
+      ],
+      [
+        6,
+        "Jason McDonald"
+      ],
+      [
+        6,
+        "Jason McDonald"
+      ],
+      [
+        7,
+        "Ben Grieve"
+      ],
+      [
+        7,
+        "Eric Chavez"
+      ],
+      [
+        8,
+        "Miguel Tejada"
+      ],
+      [
+        9,
+        "A.J. Hinch"
+      ]
+    ],
+    "SEA": [
+      [
+        1,
+        "Carlos Guillen"
+      ],
+      [
+        2,
+        "David Bell"
+      ],
+      [
+        3,
+        "Ken Griffey Jr"
+      ],
+      [
+        4,
+        "Edgar Martinez"
+      ],
+      [
+        5,
+        "David Segui"
+      ],
+      [
+        6,
+        "Jay Buhner"
+      ],
+      [
+        7,
+        "Russ Davis"
+      ],
+      [
+        7,
+        "Raul Ibanez"
+      ],
+      [
+        7,
+        "Charles Gipson"
+      ],
+      [
+        7,
+        "John Mabry"
+      ],
+      [
+        8,
+        "Butch Huskey"
+      ],
+      [
+        9,
+        "Dan Wilson"
+      ]
+    ]
+  },
+  "positions": {
+    "OAK": {
+      "Tony Phillips": [
+        "4"
+      ],
+      "Jorge Velandia": [
+        "4"
+      ],
+      "Ryan Christenson": [
+        "8"
+      ],
+      "Jason Giambi": [
+        "3"
+      ],
+      "John Jaha": [
+        "DH"
+      ],
+      "Matt Stairs": [
+        "9"
+      ],
+      "Olmedo Saenz": [
+        "5"
+      ],
+      "Jason McDonald": [
+        "7",
+        "PR"
+      ],
+      "Ben Grieve": [
+        "7"
+      ],
+      "Eric Chavez": [
+        "5"
+      ],
+      "Miguel Tejada": [
+        "6"
+      ],
+      "A.J. Hinch": [
+        "2"
+      ],
+      "Kenny Rogers": [
+        "1"
+      ],
+      "T.J. Mathews": [
+        "1"
+      ],
+      "Doug Jones": [
+        "1"
+      ],
+      "Billy Taylor": [
+        "1"
+      ]
+    },
+    "SEA": {
+      "Carlos Guillen": [
+        "6"
+      ],
+      "David Bell": [
+        "4"
+      ],
+      "Ken Griffey Jr": [
+        "8"
+      ],
+      "Edgar Martinez": [
+        "DH"
+      ],
+      "David Segui": [
+        "3"
+      ],
+      "Jay Buhner": [
+        "9"
+      ],
+      "Russ Davis": [
+        "5"
+      ],
+      "Raul Ibanez": [
+        "PH"
+      ],
+      "Charles Gipson": [
+        "5"
+      ],
+      "John Mabry": [
+        "PH"
+      ],
+      "Butch Huskey": [
+        "7"
+      ],
+      "Dan Wilson": [
+        "2"
+      ],
+      "Butch Henry": [
+        "1"
+      ],
+      "Mac Suzuki": [
+        "1"
+      ],
+      "Jose Paniagua": [
+        "1"
+      ],
+      "Jose Mesa": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "OAK": {
+      "Tony Phillips": 1,
+      "Ryan Christenson": 1,
+      "Jason Giambi": 1,
+      "John Jaha": 1,
+      "Matt Stairs": 1,
+      "Olmedo Saenz": 1,
+      "Ben Grieve": 1,
+      "Miguel Tejada": 1,
+      "A.J. Hinch": 1,
+      "Kenny Rogers": 1
+    },
+    "SEA": {
+      "Carlos Guillen": 1,
+      "David Bell": 1,
+      "Ken Griffey Jr": 1,
+      "Edgar Martinez": 1,
+      "David Segui": 1,
+      "Jay Buhner": 1,
+      "Russ Davis": 1,
+      "Butch Huskey": 1,
+      "Dan Wilson": 1,
+      "Butch Henry": 1
+    }
+  }
+}
