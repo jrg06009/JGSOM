@@ -141,6 +141,12 @@ function LeaderList({ title, players, statKey }) {
   )
 }
 
+function parseDateAsLocal(dateString) {
+  if (!dateString) return new Date(NaN)  // handle empty or invalid input safely
+  const [year, month, day] = dateString.split('-').map(Number)
+  return new Date(year, month - 1, day)  // JS Date months are zero-based
+}
+
 export default function Home({ standings, batting, pitching, recentGames, latestDateFormatted, teamToLeague, upcomingGames }) {
   const thresholds = getQualificationThresholds()
   const [leaderLeague, setLeaderLeague] = useState('MLB')
@@ -218,7 +224,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
                   <span>{game.home_team}</span>
                   <img src={game.homeLogo} alt={game.home_team} className="h-8 w-8 object-contain" />
                   <div className="text-sm text-gray-600">
-                    Calendar Date: {new Date(game.scheduledDate).toLocaleDateString('en-US')}
+                    Calendar Date: {parseDateAsLocal(game.scheduledDate).toLocaleDateString('en-US')}
                   </div>
                 </div>
               </div>
