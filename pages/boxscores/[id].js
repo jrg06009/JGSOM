@@ -163,7 +163,7 @@ const getPositionString = (team, player) => {
               .sort((a,b) => summaryStats.indexOf(a[0]) - summaryStats.indexOf(b[0]))
               .map(([stat, players]) => (
                 <div key={stat}>
-                  <strong>{stat}: </strong>{players.join("; ")}
+                  <strong>{stat === 'ERR' ? 'E' : stat}: </strong>{players.join("; ")}
                 </div>
             ))}
           </div>
@@ -351,8 +351,13 @@ const renderPitching = team => {
       </div>
 
       {teamIds.map(t => (
-        <div key={t} className="mb-8">
+        <div key={`batting-${t}`} className="mb-8">
           {renderBatting(t)}
+        </div>
+      ))}
+
+      {teamIds.map(t => (
+        <div key={`pitching-${t}`} className="mb-8">
           {renderPitching(t)}
         </div>
       ))}
