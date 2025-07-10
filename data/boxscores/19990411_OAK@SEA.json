@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "SEA",
+    "away": "OAK",
+    "home_score": "4",
+    "away_score": "2"
+  },
+  "batting": {
+    "OAK": {
+      "Tony Phillips": {
+        "Player": "Tony Phillips",
+        "Player ID": "phillto02",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1,
+        "ERR": 1
+      },
+      "Tim Raines": {
+        "Player": "Tim Raines",
+        "Player ID": "raineti01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "SO": 1
+      },
+      "Matt Stairs": {
+        "Player": "Matt Stairs",
+        "Player ID": "stairma01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "RBI": 1,
+        "PO": 1
+      },
+      "John Jaha": {
+        "Player": "John Jaha",
+        "Player ID": "jahajo01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 10
+      },
+      "Olmedo Saenz": {
+        "Player": "Olmedo Saenz",
+        "Player ID": "saenzol01",
+        "AB": 3,
+        "H": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Jason Giambi": {
+        "Player": "Jason Giambi",
+        "Player ID": "giambja01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Eric Chavez": {
+        "Player": "Eric Chavez",
+        "Player ID": "chaveer01"
+      },
+      "Scott Spiezio": {
+        "Player": "Scott Spiezio",
+        "Player ID": "spiezsc01",
+        "AB": 2,
+        "RBI": 1,
+        "BB": 1,
+        "GDP": 1,
+        "SF": 1,
+        "PO": 3
+      },
+      "Miguel Tejada": {
+        "Player": "Miguel Tejada",
+        "Player ID": "tejadmi01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 1,
+        "A": 6
+      },
+      "Ryan Christenson": {
+        "Player": "Ryan Christenson",
+        "Player ID": "chrisry01",
+        "AB": 3,
+        "H": 2,
+        "SO": 1,
+        "PO": 1
+      },
+      "Jason McDonald": {
+        "Player": "Jason McDonald",
+        "Player ID": "mcdonja02",
+        "AB": 1,
+        "H": 1
+      },
+      "A.J. Hinch": {
+        "Player": "A.J. Hinch",
+        "Player ID": "hincha.01",
+        "AB": 3,
+        "H": 2,
+        "GDP": 1,
+        "PO": 7
+      },
+      "Ben Grieve": {
+        "Player": "Ben Grieve",
+        "Player ID": "grievbe01",
+        "AB": 1,
+        "GDP": 1
+      }
+    },
+    "SEA": {
+      "David Bell": {
+        "Player": "David Bell",
+        "Player ID": "bellda01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "PO": 4,
+        "A": 6,
+        "DP": 4
+      },
+      "David Segui": {
+        "Player": "David Segui",
+        "Player ID": "seguida01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 7,
+        "DP": 4
+      },
+      "Ken Griffey Jr": {
+        "Player": "Ken Griffey Jr",
+        "Player ID": "griffke02",
+        "AB": 3,
+        "BB": 1,
+        "IBB": 1,
+        "SO": 2,
+        "PO": 3
+      },
+      "Edgar Martinez": {
+        "Player": "Edgar Martinez",
+        "Player ID": "martied01",
+        "AB": 4,
+        "R": 2,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1
+      },
+      "John Mabry": {
+        "Player": "John Mabry",
+        "Player ID": "mabryjo01",
+        "AB": 4,
+        "PO": 1
+      },
+      "Russ Davis": {
+        "Player": "Russ Davis",
+        "Player ID": "davisru01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "3B": 1,
+        "RBI": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Butch Huskey": {
+        "Player": "Butch Huskey",
+        "Player ID": "huskebu01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 2
+      },
+      "Charles Gipson": {
+        "Player": "Charles Gipson",
+        "Player ID": "gipsoch01"
+      },
+      "Tom Lampkin": {
+        "Player": "Tom Lampkin",
+        "Player ID": "lampkto01",
+        "AB": 3,
+        "PO": 7
+      },
+      "Giomar Guevara": {
+        "Player": "Giomar Guevara",
+        "Player ID": "guevagi01",
+        "AB": 3,
+        "SO": 2,
+        "PO": 3,
+        "A": 5,
+        "DP": 3
+      }
+    }
+  },
+  "pitching": {
+    "OAK": {
+      "Tom Candiotti": {
+        "Player": "Tom Candiotti",
+        "Player ID": "candito01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "7.0",
+        "H allowed": 6,
+        "R against": 4,
+        "ER": 3,
+        "HR allowed": 2,
+        "SO against": 6,
+        "A": 1,
+        "Pko": 1
+      },
+      "Tim Worrell": {
+        "Player": "Tim Worrell",
+        "Player ID": "worreti01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "WP": 1
+      }
+    },
+    "SEA": {
+      "Jamie Moyer": {
+        "Player": "Jamie Moyer",
+        "Player ID": "moyerja01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 9,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 2,
+        "SO against": 6
+      },
+      "Jose Paniagua": {
+        "Player": "Jose Paniagua",
+        "Player ID": "paniajo01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "SO against": 1,
+        "ERR": 1
+      },
+      "Jose Mesa": {
+        "Player": "Jose Mesa",
+        "Player ID": "mesajo01",
+        "Pit #": 3,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "OAK": [
+      [
+        1,
+        "Tony Phillips"
+      ],
+      [
+        2,
+        "Tim Raines"
+      ],
+      [
+        3,
+        "Matt Stairs"
+      ],
+      [
+        4,
+        "John Jaha"
+      ],
+      [
+        5,
+        "Olmedo Saenz"
+      ],
+      [
+        5,
+        "Jason Giambi"
+      ],
+      [
+        5,
+        "Eric Chavez"
+      ],
+      [
+        6,
+        "Scott Spiezio"
+      ],
+      [
+        7,
+        "Miguel Tejada"
+      ],
+      [
+        8,
+        "Ryan Christenson"
+      ],
+      [
+        8,
+        "Jason McDonald"
+      ],
+      [
+        9,
+        "A.J. Hinch"
+      ],
+      [
+        9,
+        "Ben Grieve"
+      ]
+    ],
+    "SEA": [
+      [
+        1,
+        "David Bell"
+      ],
+      [
+        2,
+        "David Segui"
+      ],
+      [
+        3,
+        "Ken Griffey Jr"
+      ],
+      [
+        4,
+        "Edgar Martinez"
+      ],
+      [
+        5,
+        "John Mabry"
+      ],
+      [
+        6,
+        "Russ Davis"
+      ],
+      [
+        7,
+        "Butch Huskey"
+      ],
+      [
+        7,
+        "Charles Gipson"
+      ],
+      [
+        8,
+        "Tom Lampkin"
+      ],
+      [
+        9,
+        "Giomar Guevara"
+      ]
+    ]
+  },
+  "positions": {
+    "OAK": {
+      "Tony Phillips": [
+        "7"
+      ],
+      "Tim Raines": [
+        "DH"
+      ],
+      "Matt Stairs": [
+        "9"
+      ],
+      "John Jaha": [
+        "3"
+      ],
+      "Olmedo Saenz": [
+        "5"
+      ],
+      "Jason Giambi": [
+        "PH"
+      ],
+      "Eric Chavez": [
+        "5"
+      ],
+      "Scott Spiezio": [
+        "4"
+      ],
+      "Miguel Tejada": [
+        "6"
+      ],
+      "Ryan Christenson": [
+        "8"
+      ],
+      "Jason McDonald": [
+        "PH"
+      ],
+      "A.J. Hinch": [
+        "2"
+      ],
+      "Ben Grieve": [
+        "PH"
+      ],
+      "Tom Candiotti": [
+        "1"
+      ],
+      "Tim Worrell": [
+        "1"
+      ]
+    },
+    "SEA": {
+      "David Bell": [
+        "4"
+      ],
+      "David Segui": [
+        "3"
+      ],
+      "Ken Griffey Jr": [
+        "8"
+      ],
+      "Edgar Martinez": [
+        "DH"
+      ],
+      "John Mabry": [
+        "9"
+      ],
+      "Russ Davis": [
+        "5"
+      ],
+      "Butch Huskey": [
+        "7"
+      ],
+      "Charles Gipson": [
+        "7"
+      ],
+      "Tom Lampkin": [
+        "2"
+      ],
+      "Giomar Guevara": [
+        "6"
+      ],
+      "Jamie Moyer": [
+        "1"
+      ],
+      "Jose Paniagua": [
+        "1"
+      ],
+      "Jose Mesa": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "OAK": {
+      "Tony Phillips": 1,
+      "Tim Raines": 1,
+      "Matt Stairs": 1,
+      "John Jaha": 1,
+      "Olmedo Saenz": 1,
+      "Scott Spiezio": 1,
+      "Miguel Tejada": 1,
+      "Ryan Christenson": 1,
+      "A.J. Hinch": 1,
+      "Tom Candiotti": 1
+    },
+    "SEA": {
+      "David Bell": 1,
+      "David Segui": 1,
+      "Ken Griffey Jr": 1,
+      "Edgar Martinez": 1,
+      "John Mabry": 1,
+      "Russ Davis": 1,
+      "Butch Huskey": 1,
+      "Tom Lampkin": 1,
+      "Giomar Guevara": 1,
+      "Jamie Moyer": 1
+    }
+  }
+}
