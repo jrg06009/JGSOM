@@ -191,6 +191,14 @@ const TeamPage = ({ abbr, team }) => {
           const total = PO + A + E
           return total > 0 ? (PO + A) / total : ''
         },
+        'CS%': arr => {
+          const CS = sumStat(arr, 'CS')
+          const SB = sumStat(arr, 'SB')
+          const total = CS + SB
+          if (total === 0) return ''
+          const pct = CS / total
+          return (pct * 100).toFixed(1) + '%'
+        },
          'Inn': arr => sumIP(arr, 'Inn')
       },'Inn')}
     </div>
