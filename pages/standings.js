@@ -25,7 +25,8 @@ export default function StandingsPage({ standings, teams, schedule }) {
 
       {['AL', 'NL'].map((league) => (
         <div key={league} className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">
+          <h2 className="text-2xl font-semibold mb-2 flex items-center">
+            <img src={`/public//logos/${league}.png`} alt={`${league} logo`} className="h-8 w-8 mr-2" />
             {league === "AL" ? "American League" : "National League"}
           </h2>
           <div className="flex flex-wrap gap-6">
