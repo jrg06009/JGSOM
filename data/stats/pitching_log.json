@@ -7277,5 +7277,110 @@
     "Game ID": "19990410_PHI@FLA",
     "IP": 1.0,
     "SO against": 2
+  },
+  {
+    "Player": "Jeff Brantley",
+    "Player ID": "brantje01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 0.3333333333333333,
+    "BB against": 3,
+    "SO against": 1
+  },
+  {
+    "Player": "Chad Ogea",
+    "Player ID": "ogeach01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 5.333333333333333,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 10,
+    "R against": 5,
+    "ER": 4,
+    "BB against": 2,
+    "SO against": 2
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 0.6666666666666666,
+    "H allowed": 2,
+    "SO against": 2
+  },
+  {
+    "Player": "Wayne Gomes",
+    "Player ID": "gomeswa01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 1.0,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 1,
+    "HBP against": 1
+  },
+  {
+    "Player": "Jim Poole",
+    "Player ID": "pooleji02",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 0.6666666666666666,
+    "H allowed": 1,
+    "R against": 1,
+    "ER": 1
+  },
+  {
+    "Player": "Alex Fernandez",
+    "Player ID": "fernaal01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 7.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 8,
+    "R against": 2,
+    "ER": 2,
+    "HR allowed": 1,
+    "BB against": 1,
+    "SO against": 3,
+    "WP": 1
+  },
+  {
+    "Player": "Vic Darensbourg",
+    "Player ID": "darenvi01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 0.6666666666666666,
+    "H allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Antonio Alfonseca",
+    "Player ID": "alfonan01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 0.3333333333333333,
+    "H allowed": 1
+  },
+  {
+    "Player": "Kirt Ojala",
+    "Player ID": "ojalaki01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "IP": 1.0
   }
 ]

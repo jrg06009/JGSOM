@@ -23354,5 +23354,282 @@
     "Game ID": "19990410_PHI@FLA",
     "POS": "1",
     "INN": 1.0
+  },
+  {
+    "Player": "Rob Ducey",
+    "Player ID": "duceyro01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "8",
+    "GS": 1,
+    "INN": 8.0
+  },
+  {
+    "Player": "Marlon Anderson",
+    "Player ID": "anderma02",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "4",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2,
+    "A": 4
+  },
+  {
+    "Player": "Scott Rolen",
+    "Player ID": "rolensc01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "5",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1,
+    "A": 1
+  },
+  {
+    "Player": "Rico Brogna",
+    "Player ID": "brognri01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "3",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 6,
+    "A": 1
+  },
+  {
+    "Player": "Ron Gant",
+    "Player ID": "gantro01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "7",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 1
+  },
+  {
+    "Player": "Bobby Abreu",
+    "Player ID": "abreubo01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "9",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 2
+  },
+  {
+    "Player": "Alex Arias",
+    "Player ID": "ariasal01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "6",
+    "GS": 1,
+    "INN": 7.666666666666667,
+    "PO": 6,
+    "A": 1
+  },
+  {
+    "Player": "Jeff Brantley",
+    "Player ID": "brantje01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 0.3333333333333333
+  },
+  {
+    "Player": "Gary Bennett",
+    "Player ID": "bennega01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "2",
+    "GS": 1,
+    "INN": 8.0,
+    "PO": 6,
+    "ERR": 1,
+    "SB against": 6
+  },
+  {
+    "Player": "Chad Ogea",
+    "Player ID": "ogeach01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "GS": 1,
+    "INN": 5.333333333333333,
+    "A": 2,
+    "SB against": 5
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 0.6666666666666666
+  },
+  {
+    "Player": "Wayne Gomes",
+    "Player ID": "gomeswa01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "Jim Poole",
+    "Player ID": "pooleji02",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 0.6666666666666666
+  },
+  {
+    "Player": "Desi Relaford",
+    "Player ID": "relafde01",
+    "Team": "PHI",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "6",
+    "INN": 0.3333333333333333
+  },
+  {
+    "Player": "Luis Castillo",
+    "Player ID": "castilu01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "4",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1,
+    "A": 4
+  },
+  {
+    "Player": "Alex Gonzalez",
+    "Player ID": "gonzaal02",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "6",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 3,
+    "A": 5,
+    "ERR": 1
+  },
+  {
+    "Player": "Mark Kotsay",
+    "Player ID": "kotsama01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0
+  },
+  {
+    "Player": "Derrek Lee",
+    "Player ID": "leede02",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "3",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 10
+  },
+  {
+    "Player": "Todd Dunwoody",
+    "Player ID": "dunwoto01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 4
+  },
+  {
+    "Player": "Preston Wilson",
+    "Player ID": "wilsopr01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "7",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2
+  },
+  {
+    "Player": "Kevin Orie",
+    "Player ID": "orieke01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Mike Redmond",
+    "Player ID": "redmomi01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 6
+  },
+  {
+    "Player": "Alex Fernandez",
+    "Player ID": "fernaal01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "GS": 1,
+    "INN": 7.0
+  },
+  {
+    "Player": "Vic Darensbourg",
+    "Player ID": "darenvi01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 0.6666666666666666
+  },
+  {
+    "Player": "Antonio Alfonseca",
+    "Player ID": "alfonan01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 0.3333333333333333
+  },
+  {
+    "Player": "Kirt Ojala",
+    "Player ID": "ojalaki01",
+    "Team": "FLA",
+    "Game#": 92,
+    "Game ID": "19990411_PHI@FLA",
+    "POS": "1",
+    "INN": 1.0
   }
 ]
