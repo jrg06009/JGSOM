@@ -7154,5 +7154,68 @@
     "IP": 1.0,
     "SV": 1,
     "H allowed": 1
+  },
+  {
+    "Player": "Paul Spoljaric",
+    "Player ID": "spoljpa01",
+    "Team": "PHI",
+    "Game#": 63,
+    "Game ID": "19990409_PHI@FLA",
+    "IP": 4.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 8,
+    "R against": 5,
+    "ER": 1,
+    "BB against": 1,
+    "SO against": 3
+  },
+  {
+    "Player": "Mike Grace",
+    "Player ID": "gracemi02",
+    "Team": "PHI",
+    "Game#": 63,
+    "Game ID": "19990409_PHI@FLA",
+    "IP": 3.0,
+    "H allowed": 1,
+    "BB against": 1,
+    "SO against": 1,
+    "WP": 1
+  },
+  {
+    "Player": "Ken Ryan",
+    "Player ID": "ryanke01",
+    "Team": "PHI",
+    "Game#": 63,
+    "Game ID": "19990409_PHI@FLA",
+    "IP": 1.0,
+    "BB against": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Brian Meadows",
+    "Player ID": "meadobr01",
+    "Team": "FLA",
+    "Game#": 63,
+    "Game ID": "19990409_PHI@FLA",
+    "IP": 8.333333333333334,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 6,
+    "R against": 2,
+    "BB against": 1,
+    "SO against": 3,
+    "HBP against": 1
+  },
+  {
+    "Player": "Matt Mantei",
+    "Player ID": "mantema01",
+    "Team": "FLA",
+    "Game#": 63,
+    "Game ID": "19990409_PHI@FLA",
+    "IP": 0.6666666666666666,
+    "SV": 1,
+    "H allowed": 1,
+    "BB against": 1
   }
 ]

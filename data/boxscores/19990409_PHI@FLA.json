@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "FLA",
+    "away": "PHI",
+    "home_score": "5",
+    "away_score": "3"
+  },
+  "batting": {
+    "PHI": {
+      "Doug Glanville": {
+        "Player": "Doug Glanville",
+        "Player ID": "glanvdo01",
+        "AB": 4,
+        "H": 1,
+        "CS": 1,
+        "HBP": 1,
+        "PO": 3
+      },
+      "Marlon Anderson": {
+        "Player": "Marlon Anderson",
+        "Player ID": "anderma02",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "Scott Rolen": {
+        "Player": "Scott Rolen",
+        "Player ID": "rolensc01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Rico Brogna": {
+        "Player": "Rico Brogna",
+        "Player ID": "brognri01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "PO": 6
+      },
+      "Ron Gant": {
+        "Player": "Ron Gant",
+        "Player ID": "gantro01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 3
+      },
+      "Bobby Abreu": {
+        "Player": "Bobby Abreu",
+        "Player ID": "abreubo01",
+        "AB": 4,
+        "PO": 5,
+        "A": 1,
+        "DP": 1
+      },
+      "Mike Lieberthal": {
+        "Player": "Mike Lieberthal",
+        "Player ID": "liebemi01",
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 6,
+        "A": 1,
+        "DP": 1,
+        "SB against": 3
+      },
+      "Kevin Sefcik": {
+        "Player": "Kevin Sefcik",
+        "Player ID": "sefcike01"
+      },
+      "Desi Relaford": {
+        "Player": "Desi Relaford",
+        "Player ID": "relafde01",
+        "AB": 4,
+        "PO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Paul Spoljaric": {
+        "Player": "Paul Spoljaric",
+        "Player ID": "spoljpa01",
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 5,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 3,
+        "ERR": 1,
+        "SB against": 3
+      },
+      "Rob Ducey": {
+        "Player": "Rob Ducey",
+        "Player ID": "duceyro01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Mike Grace": {
+        "Player": "Mike Grace",
+        "Player ID": "gracemi02",
+        "IP": "3.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Alex Arias": {
+        "Player": "Alex Arias",
+        "Player ID": "ariasal01",
+        "AB": 1
+      },
+      "Ken Ryan": {
+        "Player": "Ken Ryan",
+        "Player ID": "ryanke01",
+        "IP": "1.0",
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Kevin Jordan": {
+        "Player": "Kevin Jordan",
+        "Player ID": "jordake01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      }
+    },
+    "FLA": {
+      "Luis Castillo": {
+        "Player": "Luis Castillo",
+        "Player ID": "castilu01",
+        "AB": 2,
+        "R": 1,
+        "RBI": 1,
+        "BB": 2,
+        "SB": 1,
+        "SF": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Alex Gonzalez": {
+        "Player": "Alex Gonzalez",
+        "Player ID": "gonzaal02",
+        "AB": 5,
+        "R": 1,
+        "H": 3,
+        "2B": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 4,
+        "A": 3
+      },
+      "Mark Kotsay": {
+        "Player": "Mark Kotsay",
+        "Player ID": "kotsama01",
+        "AB": 4,
+        "H": 3,
+        "3B": 1,
+        "RBI": 1,
+        "SB": 1,
+        "PO": 3
+      },
+      "Derrek Lee": {
+        "Player": "Derrek Lee",
+        "Player ID": "leede02",
+        "AB": 4,
+        "SO": 1,
+        "PO": 11,
+        "A": 2
+      },
+      "Todd Dunwoody": {
+        "Player": "Todd Dunwoody",
+        "Player ID": "dunwoto01",
+        "AB": 4,
+        "H": 1,
+        "SB": 1,
+        "PO": 1
+      },
+      "Preston Wilson": {
+        "Player": "Preston Wilson",
+        "Player ID": "wilsopr01",
+        "AB": 4,
+        "R": 1,
+        "SO": 2
+      },
+      "Kevin Orie": {
+        "Player": "Kevin Orie",
+        "Player ID": "orieke01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "PO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Mike Redmond": {
+        "Player": "Mike Redmond",
+        "Player ID": "redmomi01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "PO": 3,
+        "CS against": 1
+      },
+      "Brian Meadows": {
+        "Player": "Brian Meadows",
+        "Player ID": "meadobr01",
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "8.1",
+        "H allowed": 6,
+        "R against": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "PO": 2,
+        "A": 2,
+        "CS against": 1
+      },
+      "Matt Mantei": {
+        "Player": "Matt Mantei",
+        "Player ID": "mantema01",
+        "SV": 1,
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1
+      }
+    }
+  },
+  "pitching": {
+    "PHI": {
+      "Paul Spoljaric": {
+        "Player": "Paul Spoljaric",
+        "Player ID": "spoljpa01",
+        "Pit #": 1,
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "4.0",
+        "H allowed": 8,
+        "R against": 5,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 3,
+        "ERR": 1,
+        "SB against": 3
+      },
+      "Mike Grace": {
+        "Player": "Mike Grace",
+        "Player ID": "gracemi02",
+        "Pit #": 2,
+        "IP": "3.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "WP": 1
+      },
+      "Ken Ryan": {
+        "Player": "Ken Ryan",
+        "Player ID": "ryanke01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "BB against": 1,
+        "SO against": 1
+      }
+    },
+    "FLA": {
+      "Brian Meadows": {
+        "Player": "Brian Meadows",
+        "Player ID": "meadobr01",
+        "Pit #": 1,
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "8.1",
+        "H allowed": 6,
+        "R against": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "HBP against": 1,
+        "PO": 2,
+        "A": 2,
+        "CS against": 1
+      },
+      "Matt Mantei": {
+        "Player": "Matt Mantei",
+        "Player ID": "mantema01",
+        "Pit #": 2,
+        "SV": 1,
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "PHI": [
+      [
+        1,
+        "Doug Glanville"
+      ],
+      [
+        2,
+        "Marlon Anderson"
+      ],
+      [
+        3,
+        "Scott Rolen"
+      ],
+      [
+        4,
+        "Rico Brogna"
+      ],
+      [
+        5,
+        "Ron Gant"
+      ],
+      [
+        6,
+        "Bobby Abreu"
+      ],
+      [
+        7,
+        "Mike Lieberthal"
+      ],
+      [
+        7,
+        "Kevin Sefcik"
+      ],
+      [
+        8,
+        "Desi Relaford"
+      ],
+      [
+        9,
+        "Paul Spoljaric"
+      ],
+      [
+        9,
+        "Rob Ducey"
+      ],
+      [
+        9,
+        "Mike Grace"
+      ],
+      [
+        9,
+        "Alex Arias"
+      ],
+      [
+        9,
+        "Ken Ryan"
+      ],
+      [
+        9,
+        "Kevin Jordan"
+      ]
+    ],
+    "FLA": [
+      [
+        1,
+        "Luis Castillo"
+      ],
+      [
+        2,
+        "Alex Gonzalez"
+      ],
+      [
+        3,
+        "Mark Kotsay"
+      ],
+      [
+        4,
+        "Derrek Lee"
+      ],
+      [
+        5,
+        "Todd Dunwoody"
+      ],
+      [
+        6,
+        "Preston Wilson"
+      ],
+      [
+        7,
+        "Kevin Orie"
+      ],
+      [
+        8,
+        "Mike Redmond"
+      ],
+      [
+        9,
+        "Brian Meadows"
+      ],
+      [
+        9,
+        "Matt Mantei"
+      ]
+    ]
+  },
+  "positions": {
+    "PHI": {
+      "Doug Glanville": [
+        "8"
+      ],
+      "Marlon Anderson": [
+        "4"
+      ],
+      "Scott Rolen": [
+        "5"
+      ],
+      "Rico Brogna": [
+        "3"
+      ],
+      "Ron Gant": [
+        "7"
+      ],
+      "Bobby Abreu": [
+        "9"
+      ],
+      "Mike Lieberthal": [
+        "2"
+      ],
+      "Kevin Sefcik": [
+        "PR"
+      ],
+      "Desi Relaford": [
+        "6"
+      ],
+      "Paul Spoljaric": [
+        "1"
+      ],
+      "Rob Ducey": [
+        "PH"
+      ],
+      "Mike Grace": [
+        "1"
+      ],
+      "Alex Arias": [
+        "PH"
+      ],
+      "Ken Ryan": [
+        "1"
+      ],
+      "Kevin Jordan": [
+        "PH"
+      ]
+    },
+    "FLA": {
+      "Luis Castillo": [
+        "4"
+      ],
+      "Alex Gonzalez": [
+        "6"
+      ],
+      "Mark Kotsay": [
+        "9"
+      ],
+      "Derrek Lee": [
+        "3"
+      ],
+      "Todd Dunwoody": [
+        "8"
+      ],
+      "Preston Wilson": [
+        "7"
+      ],
+      "Kevin Orie": [
+        "5"
+      ],
+      "Mike Redmond": [
+        "2"
+      ],
+      "Brian Meadows": [
+        "1"
+      ],
+      "Matt Mantei": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "PHI": {
+      "Doug Glanville": 1,
+      "Marlon Anderson": 1,
+      "Scott Rolen": 1,
+      "Rico Brogna": 1,
+      "Ron Gant": 1,
+      "Bobby Abreu": 1,
+      "Mike Lieberthal": 1,
+      "Desi Relaford": 1,
+      "Paul Spoljaric": 1
+    },
+    "FLA": {
+      "Luis Castillo": 1,
+      "Alex Gonzalez": 1,
+      "Mark Kotsay": 1,
+      "Derrek Lee": 1,
+      "Todd Dunwoody": 1,
+      "Preston Wilson": 1,
+      "Kevin Orie": 1,
+      "Mike Redmond": 1,
+      "Brian Meadows": 1
+    }
+  }
+}
