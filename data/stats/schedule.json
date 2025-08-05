@@ -775,9 +775,9 @@
     "home_team": "FLA",
     "away_team": "PHI",
     "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "away_score": 3,
+    "simDate": "2025-08-04 00:00:00",
+    "completed": true
   },
   {
     "id": "19990410_SDP@SFG",

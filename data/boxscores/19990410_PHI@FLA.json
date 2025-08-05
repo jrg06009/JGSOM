@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "FLA",
+    "away": "PHI",
+    "home_score": "0",
+    "away_score": "3"
+  },
+  "batting": {
+    "PHI": {
+      "Doug Glanville": {
+        "Player": "Doug Glanville",
+        "Player ID": "glanvdo01",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Marlon Anderson": {
+        "Player": "Marlon Anderson",
+        "Player ID": "anderma02",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 4
+      },
+      "Scott Rolen": {
+        "Player": "Scott Rolen",
+        "Player ID": "rolensc01",
+        "AB": 4,
+        "R": 1,
+        "BB": 1,
+        "SO": 2,
+        "A": 2
+      },
+      "Rico Brogna": {
+        "Player": "Rico Brogna",
+        "Player ID": "brognri01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "PO": 13
+      },
+      "Mike Lieberthal": {
+        "Player": "Mike Lieberthal",
+        "Player ID": "liebemi01",
+        "AB": 3,
+        "BB": 1,
+        "IBB": 1,
+        "GDP": 1,
+        "PO": 6
+      },
+      "Bobby Abreu": {
+        "Player": "Bobby Abreu",
+        "Player ID": "abreubo01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 1
+      },
+      "Alex Arias": {
+        "Player": "Alex Arias",
+        "Player ID": "ariasal01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 3,
+        "A": 4
+      },
+      "Kevin Sefcik": {
+        "Player": "Kevin Sefcik",
+        "Player ID": "sefcike01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "PO": 2
+      },
+      "Curt Schilling": {
+        "Player": "Curt Schilling",
+        "Player ID": "schilcu01",
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 3,
+        "BB against": 1,
+        "SO against": 6,
+        "A": 2
+      }
+    },
+    "FLA": {
+      "Luis Castillo": {
+        "Player": "Luis Castillo",
+        "Player ID": "castilu01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 7,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Alex Gonzalez": {
+        "Player": "Alex Gonzalez",
+        "Player ID": "gonzaal02",
+        "AB": 4,
+        "SO": 1,
+        "PO": 4,
+        "A": 1
+      },
+      "Mark Kotsay": {
+        "Player": "Mark Kotsay",
+        "Player ID": "kotsama01",
+        "AB": 4,
+        "H": 1,
+        "PO": 3
+      },
+      "Derrek Lee": {
+        "Player": "Derrek Lee",
+        "Player ID": "leede02",
+        "AB": 4,
+        "PO": 10,
+        "A": 1,
+        "DP": 1
+      },
+      "Todd Dunwoody": {
+        "Player": "Todd Dunwoody",
+        "Player ID": "dunwoto01",
+        "AB": 3,
+        "SO": 1,
+        "PO": 1
+      },
+      "Preston Wilson": {
+        "Player": "Preston Wilson",
+        "Player ID": "wilsopr01",
+        "AB": 3,
+        "SO": 2
+      },
+      "Kevin Orie": {
+        "Player": "Kevin Orie",
+        "Player ID": "orieke01",
+        "AB": 3,
+        "A": 1,
+        "DP": 1
+      },
+      "Jorge Fabregas": {
+        "Player": "Jorge Fabregas",
+        "Player ID": "fabrejo01",
+        "AB": 3,
+        "PO": 5
+      },
+      "Dennis Springer": {
+        "Player": "Dennis Springer",
+        "Player ID": "sprinde01",
+        "AB": 1,
+        "H": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 2,
+        "BB against": 4,
+        "IBB against": 1,
+        "SO against": 1
+      },
+      "Tim Hyers": {
+        "Player": "Tim Hyers",
+        "Player ID": "hyersti01",
+        "AB": 1
+      },
+      "Vic Darensbourg": {
+        "Player": "Vic Darensbourg",
+        "Player ID": "darenvi01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "SO against": 1
+      },
+      "Brian Edmondson": {
+        "Player": "Brian Edmondson",
+        "Player ID": "edmonbr01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Bruce Aven": {
+        "Player": "Bruce Aven",
+        "Player ID": "avenbr01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Kirt Ojala": {
+        "Player": "Kirt Ojala",
+        "Player ID": "ojalaki01",
+        "IP": "1.0",
+        "SO against": 2
+      }
+    }
+  },
+  "pitching": {
+    "PHI": {
+      "Curt Schilling": {
+        "Player": "Curt Schilling",
+        "Player ID": "schilcu01",
+        "Pit #": 1,
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "SH": 1,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 3,
+        "BB against": 1,
+        "SO against": 6,
+        "A": 2
+      }
+    },
+    "FLA": {
+      "Dennis Springer": {
+        "Player": "Dennis Springer",
+        "Player ID": "sprinde01",
+        "Pit #": 1,
+        "AB": 1,
+        "H": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 6,
+        "R against": 3,
+        "ER": 2,
+        "BB against": 4,
+        "IBB against": 1,
+        "SO against": 1
+      },
+      "Vic Darensbourg": {
+        "Player": "Vic Darensbourg",
+        "Player ID": "darenvi01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "IBB against": 1,
+        "SO against": 1
+      },
+      "Brian Edmondson": {
+        "Player": "Brian Edmondson",
+        "Player ID": "edmonbr01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Kirt Ojala": {
+        "Player": "Kirt Ojala",
+        "Player ID": "ojalaki01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "SO against": 2
+      }
+    }
+  },
+  "batting_order": {
+    "PHI": [
+      [
+        1,
+        "Doug Glanville"
+      ],
+      [
+        2,
+        "Marlon Anderson"
+      ],
+      [
+        3,
+        "Scott Rolen"
+      ],
+      [
+        4,
+        "Rico Brogna"
+      ],
+      [
+        5,
+        "Mike Lieberthal"
+      ],
+      [
+        6,
+        "Bobby Abreu"
+      ],
+      [
+        7,
+        "Alex Arias"
+      ],
+      [
+        8,
+        "Kevin Sefcik"
+      ],
+      [
+        9,
+        "Curt Schilling"
+      ]
+    ],
+    "FLA": [
+      [
+        1,
+        "Luis Castillo"
+      ],
+      [
+        2,
+        "Alex Gonzalez"
+      ],
+      [
+        3,
+        "Mark Kotsay"
+      ],
+      [
+        4,
+        "Derrek Lee"
+      ],
+      [
+        5,
+        "Todd Dunwoody"
+      ],
+      [
+        6,
+        "Preston Wilson"
+      ],
+      [
+        7,
+        "Kevin Orie"
+      ],
+      [
+        8,
+        "Jorge Fabregas"
+      ],
+      [
+        9,
+        "Dennis Springer"
+      ],
+      [
+        9,
+        "Tim Hyers"
+      ],
+      [
+        9,
+        "Vic Darensbourg"
+      ],
+      [
+        9,
+        "Brian Edmondson"
+      ],
+      [
+        9,
+        "Bruce Aven"
+      ],
+      [
+        9,
+        "Kirt Ojala"
+      ]
+    ]
+  },
+  "positions": {
+    "PHI": {
+      "Doug Glanville": [
+        "8"
+      ],
+      "Marlon Anderson": [
+        "4"
+      ],
+      "Scott Rolen": [
+        "5"
+      ],
+      "Rico Brogna": [
+        "3"
+      ],
+      "Mike Lieberthal": [
+        "2"
+      ],
+      "Bobby Abreu": [
+        "9"
+      ],
+      "Alex Arias": [
+        "6"
+      ],
+      "Kevin Sefcik": [
+        "7"
+      ],
+      "Curt Schilling": [
+        "1"
+      ]
+    },
+    "FLA": {
+      "Luis Castillo": [
+        "4"
+      ],
+      "Alex Gonzalez": [
+        "6"
+      ],
+      "Mark Kotsay": [
+        "9"
+      ],
+      "Derrek Lee": [
+        "3"
+      ],
+      "Todd Dunwoody": [
+        "8"
+      ],
+      "Preston Wilson": [
+        "7"
+      ],
+      "Kevin Orie": [
+        "5"
+      ],
+      "Jorge Fabregas": [
+        "2"
+      ],
+      "Dennis Springer": [
+        "1"
+      ],
+      "Tim Hyers": [
+        "PH"
+      ],
+      "Vic Darensbourg": [
+        "1"
+      ],
+      "Brian Edmondson": [
+        "1"
+      ],
+      "Bruce Aven": [
+        "PH"
+      ],
+      "Kirt Ojala": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "PHI": {
+      "Doug Glanville": 1,
+      "Marlon Anderson": 1,
+      "Scott Rolen": 1,
+      "Rico Brogna": 1,
+      "Mike Lieberthal": 1,
+      "Bobby Abreu": 1,
+      "Alex Arias": 1,
+      "Kevin Sefcik": 1,
+      "Curt Schilling": 1
+    },
+    "FLA": {
+      "Luis Castillo": 1,
+      "Alex Gonzalez": 1,
+      "Mark Kotsay": 1,
+      "Derrek Lee": 1,
+      "Todd Dunwoody": 1,
+      "Preston Wilson": 1,
+      "Kevin Orie": 1,
+      "Jorge Fabregas": 1,
+      "Dennis Springer": 1
+    }
+  }
+}
