@@ -173,6 +173,8 @@ export default function Home({ standings, batting, pitching, recentGames, latest
     avg: getLeaders(avgQualified, 'AVG'),
     hr: getLeaders(battingFiltered, 'HR'),
     rbi: getLeaders(battingFiltered, 'RBI'),
+    sb: getLeaders(battingFiltered, 'SB'),
+    ops: getLeaders(avgQualified, 'OPS'),
     wins: getLeaders(pitchingFiltered, 'W'),
     era: eraQualified
       .filter(p => !isNaN(parseFloat(p.ERA)))
@@ -180,6 +182,7 @@ export default function Home({ standings, batting, pitching, recentGames, latest
       .slice(0, 5)
       .map(p => ({ ...p, id: p["Player ID"] })),
     so: getLeaders(pitchingFiltered, 'SO'),
+    sv: getLeaders(pitchingFiltered, 'SV'),
   }
 
   return (
@@ -244,9 +247,13 @@ export default function Home({ standings, batting, pitching, recentGames, latest
           <LeaderList title="Batting Average" players={leaders.avg} statKey="AVG" />
           <LeaderList title="Home Runs" players={leaders.hr} statKey="HR" />
           <LeaderList title="Runs Batted In" players={leaders.rbi} statKey="RBI" />
+          <LeaderList title="Stolen Bases" players={leaders.sb} statKey="SB" />
+          <LeaderList title="OPS" players={leaders.ops} statKey="OPS" />
+          <br>
           <LeaderList title="Wins" players={leaders.wins} statKey="W" />
           <LeaderList title="Earned Run Average" players={leaders.era} statKey="ERA" />
           <LeaderList title="Strikeouts" players={leaders.so} statKey="SO" />
+          <LeaderList title="Saves" players={leaders.sv} statKey="SV" />
         </div>
       </section>
 
