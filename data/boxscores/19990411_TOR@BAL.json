@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "date": "1999-04-11 00:00:00",
+    "home": "BAL",
+    "away": "TOR",
+    "home_score": "7",
+    "away_score": "11"
+  },
+  "batting": {
+    "TOR": {
+      "Jose Cruz": {
+        "Player": "Jose Cruz",
+        "Player ID": "cruzjo02",
+        "AB": 3,
+        "R": 2,
+        "H": 1,
+        "BB": 2,
+        "SO": 2,
+        "PO": 4
+      },
+      "Shawn Green": {
+        "Player": "Shawn Green",
+        "Player ID": "greensh01",
+        "AB": 5,
+        "R": 3,
+        "H": 3,
+        "2B": 2,
+        "HR": 1,
+        "RBI": 1,
+        "PO": 4
+      },
+      "Dave Hollins": {
+        "Player": "Dave Hollins",
+        "Player ID": "hollida01",
+        "AB": 3,
+        "R": 2,
+        "BB": 2
+      },
+      "Carlos Delgado": {
+        "Player": "Carlos Delgado",
+        "Player ID": "delgaca01",
+        "AB": 5,
+        "R": 3,
+        "H": 3,
+        "2B": 1,
+        "HR": 2,
+        "RBI": 8,
+        "PO": 8,
+        "A": 1,
+        "DP": 2
+      },
+      "Tony Fernandez": {
+        "Player": "Tony Fernandez",
+        "Player ID": "fernato01",
+        "AB": 5,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1,
+        "A": 1
+      },
+      "Darrin Fletcher": {
+        "Player": "Darrin Fletcher",
+        "Player ID": "fletcda01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 2,
+        "PO": 8,
+        "ERR": 1,
+        "SB against": 1
+      },
+      "Geronimo Berroa": {
+        "Player": "Geronimo Berroa",
+        "Player ID": "berroge01",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1
+      },
+      "Shannon Stewart": {
+        "Player": "Shannon Stewart",
+        "Player ID": "stewash01"
+      },
+      "Alex Gonzalez": {
+        "Player": "Alex Gonzalez",
+        "Player ID": "gonzaal01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 3,
+        "A": 3,
+        "DP": 2
+      },
+      "Norberto Martin": {
+        "Player": "Norberto Martin",
+        "Player ID": "martino01",
+        "AB": 4,
+        "SO": 1,
+        "A": 2,
+        "DP": 1
+      }
+    },
+    "BAL": {
+      "Brady Anderson": {
+        "Player": "Brady Anderson",
+        "Player ID": "anderbr01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 3
+      },
+      "Mike Bordick": {
+        "Player": "Mike Bordick",
+        "Player ID": "bordimi01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3,
+        "A": 4
+      },
+      "Will Clark": {
+        "Player": "Will Clark",
+        "Player ID": "clarkwi02",
+        "AB": 5,
+        "H": 1,
+        "SO": 1,
+        "PO": 9,
+        "A": 1
+      },
+      "Albert Belle": {
+        "Player": "Albert Belle",
+        "Player ID": "belleal01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 2,
+        "BB": 1,
+        "PO": 1
+      },
+      "Harold Baines": {
+        "Player": "Harold Baines",
+        "Player ID": "baineha01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 2
+      },
+      "B.J. Surhoff": {
+        "Player": "B.J. Surhoff",
+        "Player ID": "surhob.01",
+        "AB": 4,
+        "PO": 3
+      },
+      "Cal Ripken Jr": {
+        "Player": "Cal Ripken Jr",
+        "Player ID": "ripkeca01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1,
+        "BB": 1,
+        "A": 2
+      },
+      "Delino DeShields": {
+        "Player": "Delino DeShields",
+        "Player ID": "deshide01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "SB": 1,
+        "GDP": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Charles Johnson": {
+        "Player": "Charles Johnson",
+        "Player ID": "johnsch04",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 5
+      }
+    }
+  },
+  "pitching": {
+    "TOR": {
+      "Pat Hentgen": {
+        "Player": "Pat Hentgen",
+        "Player ID": "hentgpa01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "6.1",
+        "H allowed": 9,
+        "R against": 6,
+        "ER": 6,
+        "HR allowed": 2,
+        "IBB against": 2,
+        "SO against": 5,
+        "A": 2,
+        "SB against": 1
+      },
+      "Dan Plesac": {
+        "Player": "Dan Plesac",
+        "Player ID": "plesada01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1
+      },
+      "Roy Halladay": {
+        "Player": "Roy Halladay",
+        "Player ID": "hallaro01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      }
+    },
+    "BAL": {
+      "Doug Linton": {
+        "Player": "Doug Linton",
+        "Player ID": "lintodo01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "6.1",
+        "H allowed": 6,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 2,
+        "BB against": 3,
+        "SO against": 1,
+        "PO": 1
+      },
+      "Jesse Orosco": {
+        "Player": "Jesse Orosco",
+        "Player ID": "oroscje01",
+        "Pit #": 2,
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Mike Fetters": {
+        "Player": "Mike Fetters",
+        "Player ID": "fettemi01",
+        "Pit #": 3,
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 3
+      },
+      "Heathcliff Slocumb": {
+        "Player": "Heathcliff Slocumb",
+        "Player ID": "slocuhe01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1
+      }
+    }
+  },
+  "batting_order": {
+    "TOR": [
+      [
+        1,
+        "Jose Cruz"
+      ],
+      [
+        2,
+        "Shawn Green"
+      ],
+      [
+        3,
+        "Dave Hollins"
+      ],
+      [
+        4,
+        "Carlos Delgado"
+      ],
+      [
+        5,
+        "Tony Fernandez"
+      ],
+      [
+        6,
+        "Darrin Fletcher"
+      ],
+      [
+        7,
+        "Geronimo Berroa"
+      ],
+      [
+        7,
+        "Shannon Stewart"
+      ],
+      [
+        8,
+        "Alex Gonzalez"
+      ],
+      [
+        9,
+        "Norberto Martin"
+      ]
+    ],
+    "BAL": [
+      [
+        1,
+        "Brady Anderson"
+      ],
+      [
+        2,
+        "Mike Bordick"
+      ],
+      [
+        3,
+        "Will Clark"
+      ],
+      [
+        4,
+        "Albert Belle"
+      ],
+      [
+        5,
+        "Harold Baines"
+      ],
+      [
+        6,
+        "B.J. Surhoff"
+      ],
+      [
+        7,
+        "Cal Ripken Jr"
+      ],
+      [
+        8,
+        "Delino DeShields"
+      ],
+      [
+        9,
+        "Charles Johnson"
+      ]
+    ]
+  },
+  "positions": {
+    "TOR": {
+      "Jose Cruz": [
+        "8"
+      ],
+      "Shawn Green": [
+        "9"
+      ],
+      "Dave Hollins": [
+        "DH"
+      ],
+      "Carlos Delgado": [
+        "3"
+      ],
+      "Tony Fernandez": [
+        "5"
+      ],
+      "Darrin Fletcher": [
+        "2"
+      ],
+      "Geronimo Berroa": [
+        "7"
+      ],
+      "Shannon Stewart": [
+        "7"
+      ],
+      "Alex Gonzalez": [
+        "6"
+      ],
+      "Norberto Martin": [
+        "4"
+      ],
+      "Pat Hentgen": [
+        "1"
+      ],
+      "Dan Plesac": [
+        "1"
+      ],
+      "Roy Halladay": [
+        "1"
+      ]
+    },
+    "BAL": {
+      "Brady Anderson": [
+        "8"
+      ],
+      "Mike Bordick": [
+        "6"
+      ],
+      "Will Clark": [
+        "3"
+      ],
+      "Albert Belle": [
+        "9"
+      ],
+      "Harold Baines": [
+        "DH"
+      ],
+      "B.J. Surhoff": [
+        "7"
+      ],
+      "Cal Ripken Jr": [
+        "5"
+      ],
+      "Delino DeShields": [
+        "4"
+      ],
+      "Charles Johnson": [
+        "2"
+      ],
+      "Doug Linton": [
+        "1"
+      ],
+      "Jesse Orosco": [
+        "1"
+      ],
+      "Mike Fetters": [
+        "1"
+      ],
+      "Heathcliff Slocumb": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "TOR": {
+      "Jose Cruz": 1,
+      "Shawn Green": 1,
+      "Dave Hollins": 1,
+      "Carlos Delgado": 1,
+      "Tony Fernandez": 1,
+      "Darrin Fletcher": 1,
+      "Geronimo Berroa": 1,
+      "Alex Gonzalez": 1,
+      "Norberto Martin": 1,
+      "Pat Hentgen": 1
+    },
+    "BAL": {
+      "Brady Anderson": 1,
+      "Mike Bordick": 1,
+      "Will Clark": 1,
+      "Albert Belle": 1,
+      "Harold Baines": 1,
+      "B.J. Surhoff": 1,
+      "Cal Ripken Jr": 1,
+      "Delino DeShields": 1,
+      "Charles Johnson": 1,
+      "Doug Linton": 1
+    }
+  }
+}
