@@ -243,18 +243,19 @@ export default function Home({ standings, batting, pitching, recentGames, latest
           <option value="AL">American League</option>
           <option value="NL">National League</option>
         </select>
-        <div className="flex flex-wrap md:flex-nowrap gap-4">
-          <LeaderList title="Batting Average" players={leaders.avg} statKey="AVG" />
-          <LeaderList title="Home Runs" players={leaders.hr} statKey="HR" />
-          <LeaderList title="Runs Batted In" players={leaders.rbi} statKey="RBI" />
-          <LeaderList title="Stolen Bases" players={leaders.sb} statKey="SB" />
-          <LeaderList title="OPS" players={leaders.ops} statKey="OPS" />
-          <br>
-          <LeaderList title="Wins" players={leaders.wins} statKey="W" />
-          <LeaderList title="Earned Run Average" players={leaders.era} statKey="ERA" />
-          <LeaderList title="Strikeouts" players={leaders.so} statKey="SO" />
-          <LeaderList title="Saves" players={leaders.sv} statKey="SV" />
-        </div>
+          <div className="flex flex-wrap md:flex-nowrap gap-4 mb-4">
+            <LeaderList title="Batting Average" players={leaders.avg} statKey="AVG" />
+            <LeaderList title="Home Runs" players={leaders.hr} statKey="HR" />
+            <LeaderList title="Runs Batted In" players={leaders.rbi} statKey="RBI" />
+            <LeaderList title="Stolen Bases" players={leaders.sb} statKey="SB" />
+            <LeaderList title="OPS" players={leaders.ops} statKey="OPS" />
+          </div>
+          <div className="flex flex-wrap md:flex-nowrap gap-4">
+            <LeaderList title="Wins" players={leaders.wins} statKey="W" />
+            <LeaderList title="Earned Run Average" players={leaders.era} statKey="ERA" />
+            <LeaderList title="Strikeouts" players={leaders.so} statKey="SO" />
+            <LeaderList title="Saves" players={leaders.sv} statKey="SV" />
+          </div>
       </section>
 
       <section>
