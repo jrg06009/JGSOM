@@ -554,10 +554,10 @@
     "date": "1999-04-09",
     "home_team": "LAD",
     "away_team": "COL",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 4,
+    "away_score": 1,
+    "simDate": "2025-08-20 00:00:00",
+    "completed": true
   },
   {
     "id": "19990409_DET@NYY",
@@ -704,10 +704,10 @@
     "date": "1999-04-10",
     "home_team": "LAD",
     "away_team": "COL",
-    "home_score": 0,
+    "home_score": 4,
     "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "simDate": "2025-08-20 00:00:00",
+    "completed": true
   },
   {
     "id": "19990410_DET@NYY",

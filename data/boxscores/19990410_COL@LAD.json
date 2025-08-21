@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "date": "1999-04-10 00:00:00",
+    "home": "LAD",
+    "away": "COL",
+    "home_score": "4",
+    "away_score": "0"
+  },
+  "batting": {
+    "COL": {
+      "Darryl Hamilton": {
+        "Player": "Darryl Hamilton",
+        "Player ID": "hamilda02",
+        "AB": 4,
+        "SO": 1,
+        "PO": 2
+      },
+      "Neifi Perez": {
+        "Player": "Neifi Perez",
+        "Player ID": "perezne01",
+        "AB": 4,
+        "PO": 2,
+        "A": 3
+      },
+      "Pat Watkins": {
+        "Player": "Pat Watkins",
+        "Player ID": "watkipa01",
+        "AB": 3,
+        "SO": 2,
+        "PO": 5
+      },
+      "Dante Bichette": {
+        "Player": "Dante Bichette",
+        "Player ID": "bicheda01",
+        "AB": 3,
+        "SO": 1,
+        "PO": 2
+      },
+      "Vinny Castilla": {
+        "Player": "Vinny Castilla",
+        "Player ID": "castivi02",
+        "AB": 2,
+        "BB": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Todd Helton": {
+        "Player": "Todd Helton",
+        "Player ID": "heltoto01",
+        "AB": 2,
+        "BB": 1,
+        "PO": 6,
+        "A": 2
+      },
+      "Mike Lansing": {
+        "Player": "Mike Lansing",
+        "Player ID": "lansimi01",
+        "AB": 3,
+        "GDP": 1
+      },
+      "Jerry Dipoto": {
+        "Player": "Jerry Dipoto",
+        "Player ID": "dipotje01",
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      },
+      "Jeff Reed": {
+        "Player": "Jeff Reed",
+        "Player ID": "reedje02",
+        "AB": 3,
+        "H": 1,
+        "PO": 4
+      },
+      "Darryl Kile": {
+        "Player": "Darryl Kile",
+        "Player ID": "kileda01",
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "7.2",
+        "H allowed": 4,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 4,
+        "SO against": 3,
+        "HBP against": 1,
+        "WP": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Kurt Abbott": {
+        "Player": "Kurt Abbott",
+        "Player ID": "abbotku01",
+        "AB": 1,
+        "SO": 1
+      }
+    },
+    "LAD": {
+      "Eric Young": {
+        "Player": "Eric Young",
+        "Player ID": "younger01",
+        "AB": 4,
+        "PO": 1,
+        "A": 3,
+        "DP": 1
+      },
+      "Devon White": {
+        "Player": "Devon White",
+        "Player ID": "whitede03",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 2,
+        "PO": 5
+      },
+      "Gary Sheffield": {
+        "Player": "Gary Sheffield",
+        "Player ID": "sheffga01",
+        "AB": 1,
+        "R": 1,
+        "BB": 2,
+        "HBP": 1,
+        "PO": 1
+      },
+      "Raul Mondesi": {
+        "Player": "Raul Mondesi",
+        "Player ID": "mondera01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 2
+      },
+      "Todd Hundley": {
+        "Player": "Todd Hundley",
+        "Player ID": "hundlto01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 7
+      },
+      "Eric Karros": {
+        "Player": "Eric Karros",
+        "Player ID": "karroer01",
+        "AB": 3,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 4,
+        "BB": 1,
+        "PO": 9,
+        "DP": 1
+      },
+      "Mark Grudzielanek": {
+        "Player": "Mark Grudzielanek",
+        "Player ID": "grudzma01",
+        "AB": 4,
+        "H": 2,
+        "PO": 2,
+        "A": 4,
+        "DP": 1
+      },
+      "Adrian Beltre": {
+        "Player": "Adrian Beltre",
+        "Player ID": "beltrad01",
+        "AB": 3,
+        "H": 1,
+        "A": 1
+      },
+      "Kevin Brown": {
+        "Player": "Kevin Brown",
+        "Player ID": "brownke01",
+        "AB": 3,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 1,
+        "BB against": 2,
+        "SO against": 7,
+        "A": 1
+      }
+    }
+  },
+  "pitching": {
+    "COL": {
+      "Darryl Kile": {
+        "Player": "Darryl Kile",
+        "Player ID": "kileda01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "7.2",
+        "H allowed": 4,
+        "R against": 3,
+        "ER": 3,
+        "BB against": 4,
+        "SO against": 3,
+        "HBP against": 1,
+        "WP": 1,
+        "PO": 2,
+        "A": 2
+      },
+      "Jerry Dipoto": {
+        "Player": "Jerry Dipoto",
+        "Player ID": "dipotje01",
+        "Pit #": 2,
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1
+      }
+    },
+    "LAD": {
+      "Kevin Brown": {
+        "Player": "Kevin Brown",
+        "Player ID": "brownke01",
+        "Pit #": 1,
+        "AB": 3,
+        "W": 1,
+        "IP": "9.0",
+        "H allowed": 1,
+        "BB against": 2,
+        "SO against": 7,
+        "A": 1
+      }
+    }
+  },
+  "batting_order": {
+    "COL": [
+      [
+        1,
+        "Darryl Hamilton"
+      ],
+      [
+        2,
+        "Neifi Perez"
+      ],
+      [
+        3,
+        "Pat Watkins"
+      ],
+      [
+        4,
+        "Dante Bichette"
+      ],
+      [
+        5,
+        "Vinny Castilla"
+      ],
+      [
+        6,
+        "Todd Helton"
+      ],
+      [
+        7,
+        "Mike Lansing"
+      ],
+      [
+        7,
+        "Jerry Dipoto"
+      ],
+      [
+        8,
+        "Jeff Reed"
+      ],
+      [
+        9,
+        "Darryl Kile"
+      ],
+      [
+        9,
+        "Kurt Abbott"
+      ]
+    ],
+    "LAD": [
+      [
+        1,
+        "Eric Young"
+      ],
+      [
+        2,
+        "Devon White"
+      ],
+      [
+        3,
+        "Gary Sheffield"
+      ],
+      [
+        4,
+        "Raul Mondesi"
+      ],
+      [
+        5,
+        "Todd Hundley"
+      ],
+      [
+        6,
+        "Eric Karros"
+      ],
+      [
+        7,
+        "Mark Grudzielanek"
+      ],
+      [
+        8,
+        "Adrian Beltre"
+      ],
+      [
+        9,
+        "Kevin Brown"
+      ]
+    ]
+  },
+  "positions": {
+    "COL": {
+      "Darryl Hamilton": [
+        "8"
+      ],
+      "Neifi Perez": [
+        "6"
+      ],
+      "Pat Watkins": [
+        "9"
+      ],
+      "Dante Bichette": [
+        "7"
+      ],
+      "Vinny Castilla": [
+        "5"
+      ],
+      "Todd Helton": [
+        "3"
+      ],
+      "Mike Lansing": [
+        "4"
+      ],
+      "Jerry Dipoto": [
+        "1"
+      ],
+      "Jeff Reed": [
+        "2"
+      ],
+      "Darryl Kile": [
+        "1"
+      ],
+      "Kurt Abbott": [
+        "4"
+      ]
+    },
+    "LAD": {
+      "Eric Young": [
+        "4"
+      ],
+      "Devon White": [
+        "8"
+      ],
+      "Gary Sheffield": [
+        "7"
+      ],
+      "Raul Mondesi": [
+        "9"
+      ],
+      "Todd Hundley": [
+        "2"
+      ],
+      "Eric Karros": [
+        "3"
+      ],
+      "Mark Grudzielanek": [
+        "6"
+      ],
+      "Adrian Beltre": [
+        "5"
+      ],
+      "Kevin Brown": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "COL": {
+      "Darryl Hamilton": 1,
+      "Neifi Perez": 1,
+      "Pat Watkins": 1,
+      "Dante Bichette": 1,
+      "Vinny Castilla": 1,
+      "Todd Helton": 1,
+      "Mike Lansing": 1,
+      "Jeff Reed": 1,
+      "Darryl Kile": 1
+    },
+    "LAD": {
+      "Eric Young": 1,
+      "Devon White": 1,
+      "Gary Sheffield": 1,
+      "Raul Mondesi": 1,
+      "Todd Hundley": 1,
+      "Eric Karros": 1,
+      "Mark Grudzielanek": 1,
+      "Adrian Beltre": 1,
+      "Kevin Brown": 1
+    }
+  }
+}

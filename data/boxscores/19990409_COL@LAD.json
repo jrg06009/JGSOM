@@ -1,0 +1,586 @@
+{
+  "meta": {
+    "date": "1999-04-09 00:00:00",
+    "home": "LAD",
+    "away": "COL",
+    "home_score": "4",
+    "away_score": "1"
+  },
+  "batting": {
+    "COL": {
+      "Darryl Hamilton": {
+        "Player": "Darryl Hamilton",
+        "Player ID": "hamilda02",
+        "AB": 3,
+        "H": 1,
+        "RBI": 1,
+        "BB": 1,
+        "CS": 1,
+        "PO": 3
+      },
+      "Neifi Perez": {
+        "Player": "Neifi Perez",
+        "Player ID": "perezne01",
+        "AB": 4,
+        "PO": 1,
+        "A": 4,
+        "ERR": 1,
+        "DP": 1
+      },
+      "Angel Echevarria": {
+        "Player": "Angel Echevarria",
+        "Player ID": "echevan01",
+        "AB": 2,
+        "BB": 2,
+        "PO": 1
+      },
+      "Dante Bichette": {
+        "Player": "Dante Bichette",
+        "Player ID": "bicheda01",
+        "AB": 4,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Vinny Castilla": {
+        "Player": "Vinny Castilla",
+        "Player ID": "castivi02",
+        "AB": 4,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "A": 1
+      },
+      "Todd Helton": {
+        "Player": "Todd Helton",
+        "Player ID": "heltoto01",
+        "AB": 4,
+        "PO": 11,
+        "A": 1,
+        "DP": 2
+      },
+      "Mike Lansing": {
+        "Player": "Mike Lansing",
+        "Player ID": "lansimi01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "SO": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Jeff Reed": {
+        "Player": "Jeff Reed",
+        "Player ID": "reedje02",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 1,
+        "CS against": 1
+      },
+      "John Thomson": {
+        "Player": "John Thomson",
+        "Player ID": "thomsjo01",
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "IP": "6.0",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 4,
+        "WP": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1,
+        "CS against": 1
+      },
+      "Lenny Harris": {
+        "Player": "Lenny Harris",
+        "Player ID": "harrile01",
+        "AB": 1,
+        "H": 1
+      },
+      "Dave Veres": {
+        "Player": "Dave Veres",
+        "Player ID": "veresda01",
+        "L": 1,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "WP": 1
+      },
+      "Mike DeJean": {
+        "Player": "Mike DeJean",
+        "Player ID": "dejeami01",
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1
+      },
+      "Kurt Abbott": {
+        "Player": "Kurt Abbott",
+        "Player ID": "abbotku01",
+        "AB": 1
+      }
+    },
+    "LAD": {
+      "Eric Young": {
+        "Player": "Eric Young",
+        "Player ID": "younger01",
+        "AB": 4,
+        "H": 2,
+        "CS": 1,
+        "PO": 3,
+        "A": 3,
+        "DP": 1
+      },
+      "Paul Lo Duca": {
+        "Player": "Paul Lo Duca",
+        "Player ID": "loducpa01"
+      },
+      "Jose Vizcaino": {
+        "Player": "Jose Vizcaino",
+        "Player ID": "vizcajo01",
+        "AB": 4,
+        "PO": 4,
+        "A": 3,
+        "DP": 2
+      },
+      "Devon White": {
+        "Player": "Devon White",
+        "Player ID": "whitede03",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "PO": 1
+      },
+      "Raul Mondesi": {
+        "Player": "Raul Mondesi",
+        "Player ID": "mondera01",
+        "AB": 4,
+        "SO": 1,
+        "PO": 2
+      },
+      "Todd Hundley": {
+        "Player": "Todd Hundley",
+        "Player ID": "hundlto01",
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 1,
+        "CS against": 1
+      },
+      "Mark Grudzielanek": {
+        "Player": "Mark Grudzielanek",
+        "Player ID": "grudzma01",
+        "R": 1,
+        "AB": 1,
+        "GDP": 1,
+        "PO": 1
+      },
+      "Eric Karros": {
+        "Player": "Eric Karros",
+        "Player ID": "karroer01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 10,
+        "DP": 2
+      },
+      "Adrian Beltre": {
+        "Player": "Adrian Beltre",
+        "Player ID": "beltrad01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "3B": 1,
+        "RBI": 1,
+        "SO": 1,
+        "A": 2,
+        "ERR": 1
+      },
+      "Jacob Brumfield": {
+        "Player": "Jacob Brumfield",
+        "Player ID": "brumfja01",
+        "AB": 3,
+        "H": 1,
+        "PO": 2
+      },
+      "Darren Dreifort": {
+        "Player": "Darren Dreifort",
+        "Player ID": "dreifda01",
+        "AB": 2,
+        "SO": 1,
+        "IP": "6.2",
+        "H allowed": 6,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 3,
+        "SO against": 4,
+        "CS against": 1
+      },
+      "Pedro Borbon": {
+        "Player": "Pedro Borbon",
+        "Player ID": "borbope02",
+        "W": 1,
+        "IP": "0.1",
+        "BB against": 1
+      },
+      "Dave Hansen": {
+        "Player": "Dave Hansen",
+        "Player ID": "hanseda01",
+        "BB": 1
+      },
+      "Alan Mills": {
+        "Player": "Alan Mills",
+        "Player ID": "millsal01",
+        "IP": "1.0"
+      },
+      "Jeff Shaw": {
+        "Player": "Jeff Shaw",
+        "Player ID": "shawje01",
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "A": 1
+      }
+    }
+  },
+  "pitching": {
+    "COL": {
+      "John Thomson": {
+        "Player": "John Thomson",
+        "Player ID": "thomsjo01",
+        "Pit #": 1,
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "IP": "6.0",
+        "H allowed": 4,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 2,
+        "SO against": 4,
+        "WP": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 1,
+        "CS against": 1
+      },
+      "Dave Veres": {
+        "Player": "Dave Veres",
+        "Player ID": "veresda01",
+        "Pit #": 2,
+        "L": 1,
+        "IP": "1.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 1,
+        "WP": 1
+      },
+      "Mike DeJean": {
+        "Player": "Mike DeJean",
+        "Player ID": "dejeami01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1
+      }
+    },
+    "LAD": {
+      "Darren Dreifort": {
+        "Player": "Darren Dreifort",
+        "Player ID": "dreifda01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "IP": "6.2",
+        "H allowed": 6,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 3,
+        "SO against": 4,
+        "CS against": 1
+      },
+      "Pedro Borbon": {
+        "Player": "Pedro Borbon",
+        "Player ID": "borbope02",
+        "Pit #": 2,
+        "W": 1,
+        "IP": "0.1",
+        "BB against": 1
+      },
+      "Alan Mills": {
+        "Player": "Alan Mills",
+        "Player ID": "millsal01",
+        "Pit #": 3,
+        "IP": "1.0"
+      },
+      "Jeff Shaw": {
+        "Player": "Jeff Shaw",
+        "Player ID": "shawje01",
+        "Pit #": 4,
+        "SV": 1,
+        "IP": "1.0",
+        "H allowed": 1,
+        "A": 1
+      }
+    }
+  },
+  "batting_order": {
+    "COL": [
+      [
+        1,
+        "Darryl Hamilton"
+      ],
+      [
+        2,
+        "Neifi Perez"
+      ],
+      [
+        3,
+        "Angel Echevarria"
+      ],
+      [
+        4,
+        "Dante Bichette"
+      ],
+      [
+        5,
+        "Vinny Castilla"
+      ],
+      [
+        6,
+        "Todd Helton"
+      ],
+      [
+        7,
+        "Mike Lansing"
+      ],
+      [
+        8,
+        "Jeff Reed"
+      ],
+      [
+        9,
+        "John Thomson"
+      ],
+      [
+        9,
+        "Lenny Harris"
+      ],
+      [
+        9,
+        "Dave Veres"
+      ],
+      [
+        9,
+        "Mike DeJean"
+      ],
+      [
+        9,
+        "Kurt Abbott"
+      ]
+    ],
+    "LAD": [
+      [
+        1,
+        "Eric Young"
+      ],
+      [
+        1,
+        "Paul Lo Duca"
+      ],
+      [
+        2,
+        "Jose Vizcaino"
+      ],
+      [
+        2,
+        "Jose Vizcaino"
+      ],
+      [
+        3,
+        "Devon White"
+      ],
+      [
+        4,
+        "Raul Mondesi"
+      ],
+      [
+        5,
+        "Todd Hundley"
+      ],
+      [
+        5,
+        "Mark Grudzielanek"
+      ],
+      [
+        5,
+        "Mark Grudzielanek"
+      ],
+      [
+        6,
+        "Eric Karros"
+      ],
+      [
+        7,
+        "Adrian Beltre"
+      ],
+      [
+        8,
+        "Jacob Brumfield"
+      ],
+      [
+        9,
+        "Darren Dreifort"
+      ],
+      [
+        9,
+        "Pedro Borbon"
+      ],
+      [
+        9,
+        "Dave Hansen"
+      ],
+      [
+        9,
+        "Alan Mills"
+      ],
+      [
+        9,
+        "Jeff Shaw"
+      ]
+    ]
+  },
+  "positions": {
+    "COL": {
+      "Darryl Hamilton": [
+        "8"
+      ],
+      "Neifi Perez": [
+        "6"
+      ],
+      "Angel Echevarria": [
+        "9"
+      ],
+      "Dante Bichette": [
+        "7"
+      ],
+      "Vinny Castilla": [
+        "5"
+      ],
+      "Todd Helton": [
+        "3"
+      ],
+      "Mike Lansing": [
+        "4"
+      ],
+      "Jeff Reed": [
+        "2"
+      ],
+      "John Thomson": [
+        "1"
+      ],
+      "Lenny Harris": [
+        "PH"
+      ],
+      "Dave Veres": [
+        "1"
+      ],
+      "Mike DeJean": [
+        "1"
+      ],
+      "Kurt Abbott": [
+        "PH"
+      ]
+    },
+    "LAD": {
+      "Eric Young": [
+        "4"
+      ],
+      "Paul Lo Duca": [
+        "2"
+      ],
+      "Jose Vizcaino": [
+        "6",
+        "4"
+      ],
+      "Devon White": [
+        "8"
+      ],
+      "Raul Mondesi": [
+        "9"
+      ],
+      "Todd Hundley": [
+        "2"
+      ],
+      "Mark Grudzielanek": [
+        "PR",
+        "6"
+      ],
+      "Eric Karros": [
+        "3"
+      ],
+      "Adrian Beltre": [
+        "5"
+      ],
+      "Jacob Brumfield": [
+        "7"
+      ],
+      "Darren Dreifort": [
+        "1"
+      ],
+      "Pedro Borbon": [
+        "1"
+      ],
+      "Dave Hansen": [
+        "PH"
+      ],
+      "Alan Mills": [
+        "1"
+      ],
+      "Jeff Shaw": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "COL": {
+      "Darryl Hamilton": 1,
+      "Neifi Perez": 1,
+      "Angel Echevarria": 1,
+      "Dante Bichette": 1,
+      "Vinny Castilla": 1,
+      "Todd Helton": 1,
+      "Mike Lansing": 1,
+      "Jeff Reed": 1,
+      "John Thomson": 1
+    },
+    "LAD": {
+      "Eric Young": 1,
+      "Jose Vizcaino": 1,
+      "Devon White": 1,
+      "Raul Mondesi": 1,
+      "Todd Hundley": 1,
+      "Eric Karros": 1,
+      "Adrian Beltre": 1,
+      "Jacob Brumfield": 1,
+      "Darren Dreifort": 1
+    }
+  }
+}
