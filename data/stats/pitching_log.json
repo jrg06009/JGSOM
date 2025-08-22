@@ -7843,5 +7843,78 @@
     "H allowed": 1,
     "BB against": 2,
     "SO against": 7
+  },
+  {
+    "Player": "Ken Hill",
+    "Player ID": "hillke01",
+    "Team": "ANA",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 7.0,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 2,
+    "R against": 1,
+    "BB against": 5,
+    "SO against": 1,
+    "WP": 1
+  },
+  {
+    "Player": "Scott Schoeneweis",
+    "Player ID": "schoesc01",
+    "Team": "ANA",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 1.0,
+    "H allowed": 2,
+    "R against": 2,
+    "ER": 2,
+    "BB against": 2
+  },
+  {
+    "Player": "Mark Petkovsek",
+    "Player ID": "petkoma01",
+    "Team": "ANA",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 1.0,
+    "H allowed": 1
+  },
+  {
+    "Player": "Mark Clark",
+    "Player ID": "clarkma01",
+    "Team": "TEX",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 4.333333333333333,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 8,
+    "R against": 7,
+    "ER": 7,
+    "HR allowed": 1,
+    "BB against": 3,
+    "SO against": 5,
+    "HBP against": 1
+  },
+  {
+    "Player": "Esteban Loaiza",
+    "Player ID": "loaizes01",
+    "Team": "TEX",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 2.6666666666666665,
+    "H allowed": 1,
+    "R against": 1,
+    "SO against": 2
+  },
+  {
+    "Player": "Mike Munoz",
+    "Player ID": "munozmi01",
+    "Team": "TEX",
+    "Game#": 94,
+    "Game ID": "19990412_ANA@TEX",
+    "IP": 2.0,
+    "H allowed": 1
   }
 ]
