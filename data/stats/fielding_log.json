@@ -10713,7 +10713,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 5
   },
   {
@@ -10724,7 +10724,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 4
   },
@@ -10736,7 +10736,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 3
   },
@@ -10748,7 +10748,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1
   },
   {
@@ -10759,7 +10759,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 10,
     "A": 1
   },
@@ -10771,7 +10771,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 2
   },
   {
@@ -10782,7 +10782,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 1
   },
@@ -10794,7 +10794,7 @@
     "Game ID": "19990408_CLE@ANA",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 5
   },
   {
@@ -10815,7 +10815,7 @@
     "Game#": 41,
     "Game ID": "19990408_CLE@ANA",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Mike Jackson",
@@ -11123,7 +11123,7 @@
     "Game#": 21,
     "Game ID": "19990406_CHC@HOU",
     "POS": "1",
-    "INN": 0.33333333333333326
+    "INN": 0.33333333333332993
   },
   {
     "Player": "Billy Wagner",
@@ -11222,7 +11222,7 @@
     "Game#": 21,
     "Game ID": "19990406_CHC@HOU",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Glen Barker",
@@ -11388,7 +11388,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 4,
     "A": 3,
     "DP": 1
@@ -11401,7 +11401,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 1
   },
   {
@@ -11412,7 +11412,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 7,
     "A": 2,
     "DP": 1
@@ -11425,7 +11425,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 3
   },
   {
@@ -11436,7 +11436,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 2
   },
   {
@@ -11447,7 +11447,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 1,
     "A": 1,
     "DP": 1
@@ -11460,7 +11460,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "PO": 8
   },
   {
@@ -11471,7 +11471,7 @@
     "Game ID": "19990407_CHC@HOU",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 8.999999999999995,
     "A": 2
   },
   {
@@ -11493,7 +11493,7 @@
     "Game#": 35,
     "Game ID": "19990407_CHC@HOU",
     "POS": "1",
-    "INN": 0.33333333333333326
+    "INN": 0.33333333333332993
   },
   {
     "Player": "Trever Miller",
@@ -11511,7 +11511,7 @@
     "Game#": 35,
     "Game ID": "19990407_CHC@HOU",
     "POS": "1",
-    "INN": 0.33333333333333326
+    "INN": 0.33333333333332993
   },
   {
     "Player": "Lance Johnson",
@@ -11521,7 +11521,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "8",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 3,
     "ERR": 1
   },
@@ -11533,7 +11533,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "4",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 2,
     "A": 1
   },
@@ -11545,7 +11545,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "9",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 3
   },
   {
@@ -11556,7 +11556,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "3",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 4,
     "A": 2,
     "DP": 1
@@ -11588,7 +11588,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "2",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 11,
     "A": 1,
     "SB against": 1
@@ -11601,7 +11601,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "6",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "PO": 2,
     "A": 2,
     "DP": 1
@@ -11614,7 +11614,7 @@
     "Game ID": "19990408_CHC@HOU",
     "POS": "5",
     "GS": 1,
-    "INN": 8.666666666666666,
+    "INN": 8.666666666666673,
     "A": 1
   },
   {
@@ -11646,7 +11646,7 @@
     "Game#": 44,
     "Game ID": "19990408_CHC@HOU",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Dan Serafini",
@@ -11655,7 +11655,7 @@
     "Game#": 44,
     "Game ID": "19990408_CHC@HOU",
     "POS": "1",
-    "INN": 0.6666666666666665,
+    "INN": 0.6666666666666701,
     "CS against": 1
   },
   {
@@ -11907,7 +11907,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 4
   },
   {
@@ -11918,7 +11918,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 4,
     "ERR": 1
   },
@@ -11930,7 +11930,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 4,
     "A": 4,
     "DP": 2
@@ -11943,7 +11943,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 1
   },
@@ -11955,7 +11955,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1
   },
   {
@@ -11966,7 +11966,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 7,
     "DP": 2
   },
@@ -11978,7 +11978,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 6,
     "SB against": 1
   },
@@ -11990,7 +11990,7 @@
     "Game ID": "19990406_TOR@MIN",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "A": 2,
     "DP": 1
   },
@@ -12021,7 +12021,7 @@
     "Game#": 17,
     "Game ID": "19990406_TOR@MIN",
     "POS": "1",
-    "INN": 0.6666666666666665,
+    "INN": 0.6666666666666701,
     "A": 1,
     "DP": 1
   },
@@ -12159,7 +12159,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "8",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 4
   },
   {
@@ -12170,7 +12170,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "5",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "A": 3,
     "DP": 1
   },
@@ -12182,7 +12182,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "4",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 2,
     "A": 4,
     "DP": 1
@@ -12195,7 +12195,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "3",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 9,
     "A": 2,
     "DP": 2
@@ -12208,7 +12208,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "9",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 3
   },
   {
@@ -12219,7 +12219,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "7",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1
   },
   {
@@ -12230,7 +12230,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "2",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 6
   },
   {
@@ -12241,7 +12241,7 @@
     "Game ID": "19990407_TOR@MIN",
     "POS": "6",
     "GS": 1,
-    "INN": 9.0,
+    "INN": 9.000000000000004,
     "PO": 1,
     "A": 2,
     "DP": 1
@@ -12263,7 +12263,7 @@
     "Game#": 30,
     "Game ID": "19990407_TOR@MIN",
     "POS": "1",
-    "INN": 0.6666666666666665
+    "INN": 0.6666666666666701
   },
   {
     "Player": "Dan Perkins",
@@ -12292,7 +12292,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "7",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 1
   },
   {
@@ -12303,7 +12303,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "4",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 2,
     "A": 3,
     "DP": 1
@@ -12316,7 +12316,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "9",
     "GS": 1,
-    "INN": 7.999999999999999
+    "INN": 7.999999999999996
   },
   {
     "Player": "Carlos Delgado",
@@ -12326,7 +12326,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "3",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 9,
     "A": 1,
     "ERR": 1,
@@ -12340,7 +12340,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "5",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "A": 1
   },
   {
@@ -12351,7 +12351,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "8",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 1
   },
   {
@@ -12362,7 +12362,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "6",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 3,
     "A": 5,
     "DP": 1
@@ -12375,7 +12375,7 @@
     "Game ID": "19990408_TOR@MIN",
     "POS": "2",
     "GS": 1,
-    "INN": 7.999999999999999,
+    "INN": 7.999999999999996,
     "PO": 7,
     "A": 1,
     "CS against": 1
@@ -12398,7 +12398,7 @@
     "Game#": 42,
     "Game ID": "19990408_TOR@MIN",
     "POS": "1",
-    "INN": 0.33333333333333326
+    "INN": 0.33333333333332993
   },
   {
     "Player": "Eric Ludwick",
@@ -25525,5 +25525,528 @@
     "Game ID": "19990412_ANA@TEX",
     "POS": "1",
     "INN": 2.0
+  },
+  {
+    "Player": "Otis Nixon",
+    "Player ID": "nixonot01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "7",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Bret Boone",
+    "Player ID": "boonebr01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "4",
+    "GS": 1,
+    "INN": 9.0,
+    "A": 4,
+    "DP": 1
+  },
+  {
+    "Player": "Chipper Jones",
+    "Player ID": "jonesch06",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "A": 1
+  },
+  {
+    "Player": "Brian Jordan",
+    "Player ID": "jordabr01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Javy Lopez",
+    "Player ID": "lopezja01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 8,
+    "SB against": 2
+  },
+  {
+    "Player": "Ryan Klesko",
+    "Player ID": "kleskry01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "3",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 12,
+    "A": 1,
+    "DP": 2
+  },
+  {
+    "Player": "Andruw Jones",
+    "Player ID": "jonesan01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1,
+    "ERR": 2
+  },
+  {
+    "Player": "Walt Weiss",
+    "Player ID": "weisswa01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "6",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 4,
+    "A": 5,
+    "DP": 2
+  },
+  {
+    "Player": "John Smoltz",
+    "Player ID": "smoltjo01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "GS": 1,
+    "INN": 7.0,
+    "A": 1,
+    "SB against": 2
+  },
+  {
+    "Player": "Rudy Seanez",
+    "Player ID": "seaneru01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0,
+    "A": 1
+  },
+  {
+    "Player": "John Rocker",
+    "Player ID": "rockejo01",
+    "Team": "ATL",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "Doug Glanville",
+    "Player ID": "glanvdo01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2
+  },
+  {
+    "Player": "Marlon Anderson",
+    "Player ID": "anderma02",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "4",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2,
+    "A": 1,
+    "ERR": 1,
+    "DP": 1
+  },
+  {
+    "Player": "Scott Rolen",
+    "Player ID": "rolensc01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "ERR": 1
+  },
+  {
+    "Player": "Rico Brogna",
+    "Player ID": "brognri01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "3",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 7,
+    "A": 2,
+    "DP": 1
+  },
+  {
+    "Player": "Ron Gant",
+    "Player ID": "gantro01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "7",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 4,
+    "ERR": 1
+  },
+  {
+    "Player": "Bobby Abreu",
+    "Player ID": "abreubo01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Mike Lieberthal",
+    "Player ID": "liebemi01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 6,
+    "SB against": 2
+  },
+  {
+    "Player": "Desi Relaford",
+    "Player ID": "relafde01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "6",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 5,
+    "A": 3,
+    "DP": 1
+  },
+  {
+    "Player": "Carlton Loewer",
+    "Player ID": "loeweca01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "GS": 1,
+    "INN": 5.333333333333333,
+    "A": 2
+  },
+  {
+    "Player": "Wayne Gomes",
+    "Player ID": "gomeswa01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "INN": 1.6666666666666665,
+    "SB against": 1
+  },
+  {
+    "Player": "Yorkis Perez",
+    "Player ID": "perezyo01",
+    "Team": "PHI",
+    "Game#": 95,
+    "Game ID": "19990412_ATL@PHI",
+    "POS": "1",
+    "INN": 2.0,
+    "A": 1,
+    "SB against": 1
+  },
+  {
+    "Player": "Otis Nixon",
+    "Player ID": "nixonot01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "7",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Bret Boone",
+    "Player ID": "boonebr01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "4",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 3,
+    "A": 1
+  },
+  {
+    "Player": "Chipper Jones",
+    "Player ID": "jonesch06",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1
+  },
+  {
+    "Player": "Brian Jordan",
+    "Player ID": "jordabr01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 4
+  },
+  {
+    "Player": "Javy Lopez",
+    "Player ID": "lopezja01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 7
+  },
+  {
+    "Player": "Ryan Klesko",
+    "Player ID": "kleskry01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "3",
+    "GS": 1,
+    "INN": 6.666666666666667,
+    "PO": 4,
+    "A": 2
+  },
+  {
+    "Player": "Kevin McGlinchy",
+    "Player ID": "mcglike01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "INN": 1.3333333333333333
+  },
+  {
+    "Player": "Justin Speier",
+    "Player ID": "speieju01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0
+  },
+  {
+    "Player": "Andruw Jones",
+    "Player ID": "jonesan01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2
+  },
+  {
+    "Player": "Walt Weiss",
+    "Player ID": "weisswa01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "6",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1,
+    "A": 1
+  },
+  {
+    "Player": "Kevin Millwood",
+    "Player ID": "millwke01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "GS": 1,
+    "INN": 6.666666666666667,
+    "PO": 1,
+    "A": 2,
+    "ERR": 1
+  },
+  {
+    "Player": "Randall Simon",
+    "Player ID": "simonra01",
+    "Team": "ATL",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "3",
+    "INN": 2.3333333333333335,
+    "PO": 3
+  },
+  {
+    "Player": "Doug Glanville",
+    "Player ID": "glanvdo01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "8",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2
+  },
+  {
+    "Player": "Marlon Anderson",
+    "Player ID": "anderma02",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "4",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 2,
+    "A": 3,
+    "DP": 1
+  },
+  {
+    "Player": "Scott Rolen",
+    "Player ID": "rolensc01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "5",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 1,
+    "A": 3
+  },
+  {
+    "Player": "Rico Brogna",
+    "Player ID": "brognri01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "3",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 10,
+    "DP": 1
+  },
+  {
+    "Player": "Ron Gant",
+    "Player ID": "gantro01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "7",
+    "GS": 1,
+    "INN": 9.0
+  },
+  {
+    "Player": "Bobby Abreu",
+    "Player ID": "abreubo01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "9",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 3
+  },
+  {
+    "Player": "Mike Lieberthal",
+    "Player ID": "liebemi01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "2",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 6,
+    "SB against": 3
+  },
+  {
+    "Player": "Desi Relaford",
+    "Player ID": "relafde01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "6",
+    "GS": 1,
+    "INN": 9.0,
+    "PO": 3,
+    "A": 4,
+    "ERR": 1,
+    "DP": 1
+  },
+  {
+    "Player": "Paul Byrd",
+    "Player ID": "byrdpa01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "GS": 1,
+    "INN": 6.0,
+    "A": 1,
+    "ERR": 2
+  },
+  {
+    "Player": "Jim Poole",
+    "Player ID": "pooleji02",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0,
+    "SB against": 1
+  },
+  {
+    "Player": "Ken Ryan",
+    "Player ID": "ryanke01",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0,
+    "SB against": 2
+  },
+  {
+    "Player": "Mike Grace",
+    "Player ID": "gracemi02",
+    "Team": "PHI",
+    "Game#": 114,
+    "Game ID": "19990414_ATL@PHI",
+    "POS": "1",
+    "INN": 1.0
   }
 ]

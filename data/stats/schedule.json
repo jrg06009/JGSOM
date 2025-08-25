@@ -944,10 +944,10 @@
     "date": "1999-04-12",
     "home_team": "PHI",
     "away_team": "ATL",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 5,
+    "away_score": 7,
+    "simDate": "2025-08-24 00:00:00",
+    "completed": true
   },
   {
     "id": "19990412_CIN@CHC",
@@ -1134,10 +1134,10 @@
     "date": "1999-04-14",
     "home_team": "PHI",
     "away_team": "ATL",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 3,
+    "away_score": 10,
+    "simDate": "2025-08-24 00:00:00",
+    "completed": true
   },
   {
     "id": "19990414_BAL@NYY",
