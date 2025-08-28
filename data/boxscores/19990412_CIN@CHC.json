@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "date": "1999-04-12 00:00:00",
+    "home": "CHC",
+    "away": "CIN",
+    "home_score": "4",
+    "away_score": "8"
+  },
+  "batting": {
+    "CIN": {
+      "Mike Cameron": {
+        "Player": "Mike Cameron",
+        "Player ID": "camermi01",
+        "AB": 4,
+        "R": 2,
+        "H": 2,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1,
+        "SB": 1,
+        "PO": 3
+      },
+      "Barry Larkin": {
+        "Player": "Barry Larkin",
+        "Player ID": "larkiba01",
+        "AB": 5,
+        "H": 1,
+        "RBI": 2,
+        "A": 1
+      },
+      "Sean Casey": {
+        "Player": "Sean Casey",
+        "Player ID": "caseyse01",
+        "AB": 4,
+        "R": 3,
+        "H": 2,
+        "BB": 1,
+        "PO": 7,
+        "DP": 1
+      },
+      "Greg Vaughn": {
+        "Player": "Greg Vaughn",
+        "Player ID": "vaughgr01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 1,
+        "PO": 1
+      },
+      "Dmitri Young": {
+        "Player": "Dmitri Young",
+        "Player ID": "youngdm01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "PO": 2
+      },
+      "Danny Graves": {
+        "Player": "Danny Graves",
+        "Player ID": "graveda01",
+        "IP": "1.0",
+        "SO against": 1
+      },
+      "Ed Taubensee": {
+        "Player": "Ed Taubensee",
+        "Player ID": "taubeed01",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 12,
+        "SB against": 2
+      },
+      "Aaron Boone": {
+        "Player": "Aaron Boone",
+        "Player ID": "booneaa01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "SF": 1,
+        "PO": 1,
+        "A": 2,
+        "DP": 1
+      },
+      "Pokey Reese": {
+        "Player": "Pokey Reese",
+        "Player ID": "reesepo01",
+        "AB": 3,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "SH": 1,
+        "PO": 1,
+        "A": 5,
+        "DP": 1
+      },
+      "Steve Avery": {
+        "Player": "Steve Avery",
+        "Player ID": "averyst01",
+        "AB": 3,
+        "W": 1,
+        "IP": "5.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 5,
+        "SO against": 7,
+        "SB against": 2
+      },
+      "Scott Williamson": {
+        "Player": "Scott Williamson",
+        "Player ID": "willisc01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 2,
+        "SO against": 2
+      },
+      "Mark Sweeney": {
+        "Player": "Mark Sweeney",
+        "Player ID": "sweenma01",
+        "AB": 1
+      },
+      "Scott Sullivan": {
+        "Player": "Scott Sullivan",
+        "Player ID": "sullisc01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Jeffrey Hammonds": {
+        "Player": "Jeffrey Hammonds",
+        "Player ID": "hammoje01"
+      }
+    },
+    "CHC": {
+      "Lance Johnson": {
+        "Player": "Lance Johnson",
+        "Player ID": "johnsla03",
+        "AB": 4,
+        "BB": 1,
+        "SO": 1,
+        "PO": 6
+      },
+      "Jose Hernandez": {
+        "Player": "Jose Hernandez",
+        "Player ID": "hernajo01",
+        "AB": 3,
+        "SO": 1,
+        "GDP": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "PO": 1
+      },
+      "Henry Rodriguez": {
+        "Player": "Henry Rodriguez",
+        "Player ID": "rodrihe02",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 1
+      },
+      "Matt Karchner": {
+        "Player": "Matt Karchner",
+        "Player ID": "karchma01",
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "A": 1
+      },
+      "Rod Beck": {
+        "Player": "Rod Beck",
+        "Player ID": "beckro01",
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      },
+      "Mark Grace": {
+        "Player": "Mark Grace",
+        "Player ID": "gracema01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "PO": 6,
+        "A": 1
+      },
+      "Sammy Sosa": {
+        "Player": "Sammy Sosa",
+        "Player ID": "sosasa01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 3,
+        "PO": 4
+      },
+      "Glenallen Hill": {
+        "Player": "Glenallen Hill",
+        "Player ID": "hillgl01",
+        "AB": 4,
+        "R": 1,
+        "H": 3,
+        "3B": 1,
+        "HR": 1,
+        "RBI": 3,
+        "SO": 1,
+        "SB": 1,
+        "PO": 2
+      },
+      "Benito Santiago": {
+        "Player": "Benito Santiago",
+        "Player ID": "santibe01",
+        "AB": 4,
+        "H": 2,
+        "SO": 1,
+        "SB": 1,
+        "PO": 3,
+        "ERR": 1,
+        "SB against": 1
+      },
+      "Gary Gaetti": {
+        "Player": "Gary Gaetti",
+        "Player ID": "gaettga01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1
+      },
+      "Mickey Morandini": {
+        "Player": "Mickey Morandini",
+        "Player ID": "moranmi01",
+        "AB": 3,
+        "BB": 1,
+        "SO": 1,
+        "PO": 3,
+        "A": 2
+      },
+      "Kevin Tapani": {
+        "Player": "Kevin Tapani",
+        "Player ID": "tapanke01",
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 9,
+        "R against": 5,
+        "ER": 5,
+        "SO against": 1,
+        "PO": 2,
+        "SB against": 1
+      },
+      "Jeff Blauser": {
+        "Player": "Jeff Blauser",
+        "Player ID": "blausje01",
+        "AB": 3,
+        "SO": 2,
+        "A": 2
+      }
+    }
+  },
+  "pitching": {
+    "CIN": {
+      "Steve Avery": {
+        "Player": "Steve Avery",
+        "Player ID": "averyst01",
+        "Pit #": 1,
+        "AB": 3,
+        "W": 1,
+        "IP": "5.0",
+        "H allowed": 3,
+        "R against": 2,
+        "ER": 2,
+        "BB against": 5,
+        "SO against": 7,
+        "SB against": 2
+      },
+      "Scott Williamson": {
+        "Player": "Scott Williamson",
+        "Player ID": "willisc01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 2,
+        "SO against": 2
+      },
+      "Scott Sullivan": {
+        "Player": "Scott Sullivan",
+        "Player ID": "sullisc01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Danny Graves": {
+        "Player": "Danny Graves",
+        "Player ID": "graveda01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "SO against": 1
+      }
+    },
+    "CHC": {
+      "Kevin Tapani": {
+        "Player": "Kevin Tapani",
+        "Player ID": "tapanke01",
+        "Pit #": 1,
+        "AB": 1,
+        "SO": 1,
+        "L": 1,
+        "IP": "5.0",
+        "H allowed": 9,
+        "R against": 5,
+        "ER": 5,
+        "SO against": 1,
+        "PO": 2,
+        "SB against": 1
+      },
+      "Dan Serafini": {
+        "Player": "Dan Serafini",
+        "Player ID": "serafda01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 2,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "PO": 1
+      },
+      "Matt Karchner": {
+        "Player": "Matt Karchner",
+        "Player ID": "karchma01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "A": 1
+      },
+      "Rod Beck": {
+        "Player": "Rod Beck",
+        "Player ID": "beckro01",
+        "Pit #": 4,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      }
+    }
+  },
+  "batting_order": {
+    "CIN": [
+      [
+        1,
+        "Mike Cameron"
+      ],
+      [
+        2,
+        "Barry Larkin"
+      ],
+      [
+        3,
+        "Sean Casey"
+      ],
+      [
+        4,
+        "Greg Vaughn"
+      ],
+      [
+        5,
+        "Dmitri Young"
+      ],
+      [
+        5,
+        "Danny Graves"
+      ],
+      [
+        6,
+        "Ed Taubensee"
+      ],
+      [
+        7,
+        "Aaron Boone"
+      ],
+      [
+        8,
+        "Pokey Reese"
+      ],
+      [
+        9,
+        "Steve Avery"
+      ],
+      [
+        9,
+        "Scott Williamson"
+      ],
+      [
+        9,
+        "Mark Sweeney"
+      ],
+      [
+        9,
+        "Scott Sullivan"
+      ],
+      [
+        9,
+        "Jeffrey Hammonds"
+      ]
+    ],
+    "CHC": [
+      [
+        1,
+        "Lance Johnson"
+      ],
+      [
+        2,
+        "Jose Hernandez"
+      ],
+      [
+        2,
+        "Dan Serafini"
+      ],
+      [
+        2,
+        "Henry Rodriguez"
+      ],
+      [
+        2,
+        "Matt Karchner"
+      ],
+      [
+        2,
+        "Rod Beck"
+      ],
+      [
+        3,
+        "Mark Grace"
+      ],
+      [
+        4,
+        "Sammy Sosa"
+      ],
+      [
+        5,
+        "Glenallen Hill"
+      ],
+      [
+        6,
+        "Benito Santiago"
+      ],
+      [
+        7,
+        "Gary Gaetti"
+      ],
+      [
+        8,
+        "Mickey Morandini"
+      ],
+      [
+        9,
+        "Kevin Tapani"
+      ],
+      [
+        9,
+        "Jeff Blauser"
+      ],
+      [
+        9,
+        "Jeff Blauser"
+      ]
+    ]
+  },
+  "positions": {
+    "CIN": {
+      "Mike Cameron": [
+        "8"
+      ],
+      "Barry Larkin": [
+        "6"
+      ],
+      "Sean Casey": [
+        "3"
+      ],
+      "Greg Vaughn": [
+        "7"
+      ],
+      "Dmitri Young": [
+        "9"
+      ],
+      "Danny Graves": [
+        "1"
+      ],
+      "Ed Taubensee": [
+        "2"
+      ],
+      "Aaron Boone": [
+        "5"
+      ],
+      "Pokey Reese": [
+        "4"
+      ],
+      "Steve Avery": [
+        "1"
+      ],
+      "Scott Williamson": [
+        "1"
+      ],
+      "Mark Sweeney": [
+        "PH"
+      ],
+      "Scott Sullivan": [
+        "1"
+      ],
+      "Jeffrey Hammonds": [
+        "9"
+      ]
+    },
+    "CHC": {
+      "Lance Johnson": [
+        "8"
+      ],
+      "Jose Hernandez": [
+        "6"
+      ],
+      "Dan Serafini": [
+        "1"
+      ],
+      "Henry Rodriguez": [
+        "PH"
+      ],
+      "Matt Karchner": [
+        "1"
+      ],
+      "Rod Beck": [
+        "1"
+      ],
+      "Mark Grace": [
+        "3"
+      ],
+      "Sammy Sosa": [
+        "9"
+      ],
+      "Glenallen Hill": [
+        "7"
+      ],
+      "Benito Santiago": [
+        "2"
+      ],
+      "Gary Gaetti": [
+        "5"
+      ],
+      "Mickey Morandini": [
+        "4"
+      ],
+      "Kevin Tapani": [
+        "1"
+      ],
+      "Jeff Blauser": [
+        "PH",
+        "6"
+      ]
+    }
+  },
+  "games_started": {
+    "CIN": {
+      "Mike Cameron": 1,
+      "Barry Larkin": 1,
+      "Sean Casey": 1,
+      "Greg Vaughn": 1,
+      "Dmitri Young": 1,
+      "Ed Taubensee": 1,
+      "Aaron Boone": 1,
+      "Pokey Reese": 1,
+      "Steve Avery": 1
+    },
+    "CHC": {
+      "Lance Johnson": 1,
+      "Jose Hernandez": 1,
+      "Mark Grace": 1,
+      "Sammy Sosa": 1,
+      "Glenallen Hill": 1,
+      "Benito Santiago": 1,
+      "Gary Gaetti": 1,
+      "Mickey Morandini": 1,
+      "Kevin Tapani": 1
+    }
+  }
+}
