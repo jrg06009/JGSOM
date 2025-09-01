@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "date": "1999-04-15 00:00:00",
+    "home": "NYM",
+    "away": "FLA",
+    "home_score": "6",
+    "away_score": "1"
+  },
+  "batting": {
+    "FLA": {
+      "Luis Castillo": {
+        "Player": "Luis Castillo",
+        "Player ID": "castilu01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "PO": 1,
+        "A": 1,
+        "ERR": 1
+      },
+      "Alex Gonzalez": {
+        "Player": "Alex Gonzalez",
+        "Player ID": "gonzaal02",
+        "AB": 4,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 4,
+        "A": 2
+      },
+      "Mark Kotsay": {
+        "Player": "Mark Kotsay",
+        "Player ID": "kotsama01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "PO": 2
+      },
+      "Derrek Lee": {
+        "Player": "Derrek Lee",
+        "Player ID": "leede02",
+        "AB": 4,
+        "SO": 2,
+        "PO": 7
+      },
+      "Todd Dunwoody": {
+        "Player": "Todd Dunwoody",
+        "Player ID": "dunwoto01",
+        "AB": 3,
+        "H": 1,
+        "2B": 1,
+        "PO": 2
+      },
+      "Bruce Aven": {
+        "Player": "Bruce Aven",
+        "Player ID": "avenbr01",
+        "AB": 1
+      },
+      "Preston Wilson": {
+        "Player": "Preston Wilson",
+        "Player ID": "wilsopr01",
+        "AB": 4,
+        "SO": 2,
+        "PO": 1
+      },
+      "Kevin Orie": {
+        "Player": "Kevin Orie",
+        "Player ID": "orieke01",
+        "AB": 4,
+        "H": 1,
+        "PO": 1,
+        "A": 1
+      },
+      "Jorge Fabregas": {
+        "Player": "Jorge Fabregas",
+        "Player ID": "fabrejo01",
+        "AB": 3,
+        "H": 1,
+        "PO": 6,
+        "A": 3,
+        "CS against": 1
+      },
+      "Brian Meadows": {
+        "Player": "Brian Meadows",
+        "Player ID": "meadobr01",
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 6,
+        "ER": 4,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "CS against": 1
+      },
+      "Tim Hyers": {
+        "Player": "Tim Hyers",
+        "Player ID": "hyersti01",
+        "AB": 1
+      },
+      "Rafael Medina": {
+        "Player": "Rafael Medina",
+        "Player ID": "medinra01",
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      }
+    },
+    "NYM": {
+      "Rickey Henderson": {
+        "Player": "Rickey Henderson",
+        "Player ID": "henderi01",
+        "AB": 4,
+        "H": 1,
+        "SO": 1,
+        "CS": 1,
+        "PO": 4
+      },
+      "Edgardo Alfonzo": {
+        "Player": "Edgardo Alfonzo",
+        "Player ID": "alfoned01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "A": 2
+      },
+      "John Olerud": {
+        "Player": "John Olerud",
+        "Player ID": "olerujo01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "PO": 9,
+        "A": 1
+      },
+      "Bobby Bonilla": {
+        "Player": "Bobby Bonilla",
+        "Player ID": "bonilbo01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 2,
+        "ERR": 1
+      },
+      "Rigo Beltran": {
+        "Player": "Rigo Beltran",
+        "Player ID": "beltrri01",
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 2
+      },
+      "Robin Ventura": {
+        "Player": "Robin Ventura",
+        "Player ID": "venturo01",
+        "AB": 4,
+        "A": 3
+      },
+      "Brian McRae": {
+        "Player": "Brian McRae",
+        "Player ID": "mcraebr01",
+        "AB": 3,
+        "R": 1,
+        "BB": 1,
+        "SO": 1,
+        "PO": 2
+      },
+      "Todd Pratt": {
+        "Player": "Todd Pratt",
+        "Player ID": "prattto02",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "SO": 1,
+        "PO": 8
+      },
+      "Rey Ordonez": {
+        "Player": "Rey Ordonez",
+        "Player ID": "ordonre01",
+        "AB": 4,
+        "H": 1,
+        "PO": 1,
+        "A": 3
+      },
+      "Masato Yoshii": {
+        "Player": "Masato Yoshii",
+        "Player ID": "yoshima01",
+        "AB": 2,
+        "H": 1,
+        "SO": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 5,
+        "R against": 1,
+        "SO against": 4,
+        "PO": 1
+      },
+      "Matt Franco": {
+        "Player": "Matt Franco",
+        "Player ID": "francma01",
+        "AB": 1,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 3
+      },
+      "Turk Wendell": {
+        "Player": "Turk Wendell",
+        "Player ID": "wendetu01",
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Jermaine Allensworth": {
+        "Player": "Jermaine Allensworth",
+        "Player ID": "allenje01",
+        "AB": 1
+      }
+    }
+  },
+  "pitching": {
+    "FLA": {
+      "Brian Meadows": {
+        "Player": "Brian Meadows",
+        "Player ID": "meadobr01",
+        "Pit #": 1,
+        "AB": 2,
+        "SO": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 9,
+        "R against": 6,
+        "ER": 4,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 3,
+        "CS against": 1
+      },
+      "Rafael Medina": {
+        "Player": "Rafael Medina",
+        "Player ID": "medinra01",
+        "Pit #": 2,
+        "IP": "2.0",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 2
+      }
+    },
+    "NYM": {
+      "Masato Yoshii": {
+        "Player": "Masato Yoshii",
+        "Player ID": "yoshima01",
+        "Pit #": 1,
+        "AB": 2,
+        "H": 1,
+        "SO": 1,
+        "W": 1,
+        "IP": "6.0",
+        "H allowed": 5,
+        "R against": 1,
+        "SO against": 4,
+        "PO": 1
+      },
+      "Turk Wendell": {
+        "Player": "Turk Wendell",
+        "Player ID": "wendetu01",
+        "Pit #": 2,
+        "IP": "1.2",
+        "H allowed": 1,
+        "SO against": 1,
+        "A": 1
+      },
+      "Rigo Beltran": {
+        "Player": "Rigo Beltran",
+        "Player ID": "beltrri01",
+        "Pit #": 3,
+        "IP": "1.1",
+        "H allowed": 1,
+        "SO against": 2
+      }
+    }
+  },
+  "batting_order": {
+    "FLA": [
+      [
+        1,
+        "Luis Castillo"
+      ],
+      [
+        2,
+        "Alex Gonzalez"
+      ],
+      [
+        3,
+        "Mark Kotsay"
+      ],
+      [
+        4,
+        "Derrek Lee"
+      ],
+      [
+        5,
+        "Todd Dunwoody"
+      ],
+      [
+        5,
+        "Bruce Aven"
+      ],
+      [
+        6,
+        "Preston Wilson"
+      ],
+      [
+        7,
+        "Kevin Orie"
+      ],
+      [
+        8,
+        "Jorge Fabregas"
+      ],
+      [
+        9,
+        "Brian Meadows"
+      ],
+      [
+        9,
+        "Tim Hyers"
+      ],
+      [
+        9,
+        "Rafael Medina"
+      ]
+    ],
+    "NYM": [
+      [
+        1,
+        "Rickey Henderson"
+      ],
+      [
+        2,
+        "Edgardo Alfonzo"
+      ],
+      [
+        3,
+        "John Olerud"
+      ],
+      [
+        4,
+        "Bobby Bonilla"
+      ],
+      [
+        4,
+        "Rigo Beltran"
+      ],
+      [
+        5,
+        "Robin Ventura"
+      ],
+      [
+        6,
+        "Brian McRae"
+      ],
+      [
+        7,
+        "Todd Pratt"
+      ],
+      [
+        8,
+        "Rey Ordonez"
+      ],
+      [
+        9,
+        "Masato Yoshii"
+      ],
+      [
+        9,
+        "Matt Franco"
+      ],
+      [
+        9,
+        "Turk Wendell"
+      ],
+      [
+        9,
+        "Jermaine Allensworth"
+      ]
+    ]
+  },
+  "positions": {
+    "FLA": {
+      "Luis Castillo": [
+        "4"
+      ],
+      "Alex Gonzalez": [
+        "6"
+      ],
+      "Mark Kotsay": [
+        "9"
+      ],
+      "Derrek Lee": [
+        "3"
+      ],
+      "Todd Dunwoody": [
+        "8"
+      ],
+      "Bruce Aven": [
+        "PH"
+      ],
+      "Preston Wilson": [
+        "7"
+      ],
+      "Kevin Orie": [
+        "5"
+      ],
+      "Jorge Fabregas": [
+        "2"
+      ],
+      "Brian Meadows": [
+        "1"
+      ],
+      "Tim Hyers": [
+        "PH"
+      ],
+      "Rafael Medina": [
+        "1"
+      ]
+    },
+    "NYM": {
+      "Rickey Henderson": [
+        "7"
+      ],
+      "Edgardo Alfonzo": [
+        "4"
+      ],
+      "John Olerud": [
+        "3"
+      ],
+      "Bobby Bonilla": [
+        "9"
+      ],
+      "Rigo Beltran": [
+        "1"
+      ],
+      "Robin Ventura": [
+        "5"
+      ],
+      "Brian McRae": [
+        "8"
+      ],
+      "Todd Pratt": [
+        "2"
+      ],
+      "Rey Ordonez": [
+        "6"
+      ],
+      "Masato Yoshii": [
+        "1"
+      ],
+      "Matt Franco": [
+        "PH"
+      ],
+      "Turk Wendell": [
+        "1"
+      ],
+      "Jermaine Allensworth": [
+        "9"
+      ]
+    }
+  },
+  "games_started": {
+    "FLA": {
+      "Luis Castillo": 1,
+      "Alex Gonzalez": 1,
+      "Mark Kotsay": 1,
+      "Derrek Lee": 1,
+      "Todd Dunwoody": 1,
+      "Preston Wilson": 1,
+      "Kevin Orie": 1,
+      "Jorge Fabregas": 1,
+      "Brian Meadows": 1
+    },
+    "NYM": {
+      "Rickey Henderson": 1,
+      "Edgardo Alfonzo": 1,
+      "John Olerud": 1,
+      "Bobby Bonilla": 1,
+      "Robin Ventura": 1,
+      "Brian McRae": 1,
+      "Todd Pratt": 1,
+      "Rey Ordonez": 1,
+      "Masato Yoshii": 1
+    }
+  }
+}
