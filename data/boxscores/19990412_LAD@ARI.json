@@ -1,0 +1,796 @@
+{
+  "meta": {
+    "date": "1999-04-12 00:00:00",
+    "home": "ARI",
+    "away": "LAD",
+    "home_score": "5",
+    "away_score": "4"
+  },
+  "batting": {
+    "LAD": {
+      "Eric Young": {
+        "Player": "Eric Young",
+        "Player ID": "younger01",
+        "AB": 4,
+        "H": 2,
+        "BB": 2,
+        "SB": 1,
+        "CS": 1,
+        "PO": 3,
+        "A": 1
+      },
+      "Devon White": {
+        "Player": "Devon White",
+        "Player ID": "whitede03",
+        "AB": 6,
+        "R": 1,
+        "H": 2,
+        "SO": 3,
+        "PO": 5,
+        "A": 1
+      },
+      "Gary Sheffield": {
+        "Player": "Gary Sheffield",
+        "Player ID": "sheffga01",
+        "AB": 6,
+        "H": 1,
+        "SO": 2,
+        "PO": 4
+      },
+      "Raul Mondesi": {
+        "Player": "Raul Mondesi",
+        "Player ID": "mondera01",
+        "AB": 6,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "SO": 4,
+        "PO": 2
+      },
+      "Todd Hundley": {
+        "Player": "Todd Hundley",
+        "Player ID": "hundlto01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "PO": 6,
+        "PB": 1
+      },
+      "Alan Mills": {
+        "Player": "Alan Mills",
+        "Player ID": "millsal01",
+        "IP": "1.2",
+        "H allowed": 2,
+        "BB against": 1,
+        "IBB against": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Jose Vizcaino": {
+        "Player": "Jose Vizcaino",
+        "Player ID": "vizcajo01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1
+      },
+      "Jeff Shaw": {
+        "Player": "Jeff Shaw",
+        "Player ID": "shawje01",
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Darren Dreifort": {
+        "Player": "Darren Dreifort",
+        "Player ID": "dreifda01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Mel Rojas": {
+        "Player": "Mel Rojas",
+        "Player ID": "rojasme01",
+        "L": 1,
+        "IP": "0.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "HBP against": 1
+      },
+      "Eric Karros": {
+        "Player": "Eric Karros",
+        "Player ID": "karroer01",
+        "AB": 5,
+        "SO": 1,
+        "PO": 9,
+        "A": 1,
+        "DP": 1
+      },
+      "Mark Grudzielanek": {
+        "Player": "Mark Grudzielanek",
+        "Player ID": "grudzma01",
+        "AB": 4,
+        "R": 1,
+        "H": 2,
+        "BB": 1,
+        "PO": 1,
+        "A": 4,
+        "ERR": 1
+      },
+      "Adrian Beltre": {
+        "Player": "Adrian Beltre",
+        "Player ID": "beltrad01",
+        "AB": 5,
+        "SO": 1,
+        "PO": 2,
+        "A": 1,
+        "ERR": 1
+      },
+      "Chan Ho Park": {
+        "Player": "Chan Ho Park",
+        "Player ID": "parkch01",
+        "AB": 2,
+        "IP": "6.0",
+        "H allowed": 7,
+        "R against": 2,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5
+      },
+      "Dave Hansen": {
+        "Player": "Dave Hansen",
+        "Player ID": "hanseda01"
+      },
+      "Tripp Cromer": {
+        "Player": "Tripp Cromer",
+        "Player ID": "crometr01",
+        "AB": 1,
+        "H": 1
+      },
+      "Dave Mlicki": {
+        "Player": "Dave Mlicki",
+        "Player ID": "mlickda01",
+        "IP": "1.0"
+      },
+      "Pedro Borbon": {
+        "Player": "Pedro Borbon",
+        "Player ID": "borbope02",
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Rick Wilkins": {
+        "Player": "Rick Wilkins",
+        "Player ID": "wilkiri01",
+        "AB": 1,
+        "H": 1,
+        "RBI": 1,
+        "PO": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Jacob Brumfield": {
+        "Player": "Jacob Brumfield",
+        "Player ID": "brumfja01",
+        "SB": 1
+      },
+      "Paul Lo Duca": {
+        "Player": "Paul Lo Duca",
+        "Player ID": "loducpa01",
+        "AB": 1,
+        "PO": 2
+      }
+    },
+    "ARI": {
+      "Tony Womack": {
+        "Player": "Tony Womack",
+        "Player ID": "womacto01",
+        "AB": 4,
+        "BB": 1,
+        "SO": 1,
+        "SH": 1,
+        "PO": 1
+      },
+      "Jay Bell": {
+        "Player": "Jay Bell",
+        "Player ID": "bellja01",
+        "AB": 6,
+        "SO": 1,
+        "A": 2
+      },
+      "Travis Lee": {
+        "Player": "Travis Lee",
+        "Player ID": "leetr01",
+        "AB": 6,
+        "PO": 10
+      },
+      "Matt Williams": {
+        "Player": "Matt Williams",
+        "Player ID": "willima04",
+        "AB": 5,
+        "R": 2,
+        "H": 3,
+        "2B": 1,
+        "HR": 2,
+        "RBI": 2,
+        "A": 2
+      },
+      "Andy Fox": {
+        "Player": "Andy Fox",
+        "Player ID": "foxan01",
+        "R": 1,
+        "AB": 1,
+        "PO": 1
+      },
+      "Steve Finley": {
+        "Player": "Steve Finley",
+        "Player ID": "finlest01",
+        "AB": 5,
+        "BB": 1,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Tony Batista": {
+        "Player": "Tony Batista",
+        "Player ID": "batisto01",
+        "AB": 6,
+        "R": 1,
+        "H": 6,
+        "2B": 1,
+        "RBI": 1,
+        "PO": 2,
+        "A": 5
+      },
+      "Luis Gonzalez": {
+        "Player": "Luis Gonzalez",
+        "Player ID": "gonzalu01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "BB": 1,
+        "IBB": 1,
+        "PO": 3
+      },
+      "Darren Holmes": {
+        "Player": "Darren Holmes",
+        "Player ID": "holmeda01",
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2,
+        "BK": 1,
+        "SB against": 1
+      },
+      "Dante Powell": {
+        "Player": "Dante Powell",
+        "Player ID": "powelda01",
+        "AB": 1,
+        "SO": 1
+      },
+      "Brian Anderson": {
+        "Player": "Brian Anderson",
+        "Player ID": "anderbr02",
+        "W": 1,
+        "IP": "2.0",
+        "H allowed": 1,
+        "SO against": 3
+      },
+      "Greg Colbrunn": {
+        "Player": "Greg Colbrunn",
+        "Player ID": "colbrgr01",
+        "HBP": 1
+      },
+      "Damian Miller": {
+        "Player": "Damian Miller",
+        "Player ID": "milleda02",
+        "AB": 6,
+        "H": 1,
+        "SO": 2,
+        "GDP": 1,
+        "PO": 14,
+        "A": 1,
+        "SB against": 2,
+        "CS against": 1
+      },
+      "Andy Benes": {
+        "Player": "Andy Benes",
+        "Player ID": "benesan01",
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "IP": "6.1",
+        "H allowed": 7,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5,
+        "WP": 1,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Bernard Gilkey": {
+        "Player": "Bernard Gilkey",
+        "Player ID": "gilkebe01",
+        "AB": 1
+      },
+      "Gregg Olson": {
+        "Player": "Gregg Olson",
+        "Player ID": "olsongr01",
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "David Dellucci": {
+        "Player": "David Dellucci",
+        "Player ID": "delluda01",
+        "AB": 2,
+        "H": 2,
+        "RBI": 1,
+        "SF": 1
+      }
+    }
+  },
+  "pitching": {
+    "LAD": {
+      "Chan Ho Park": {
+        "Player": "Chan Ho Park",
+        "Player ID": "parkch01",
+        "Pit #": 1,
+        "AB": 2,
+        "IP": "6.0",
+        "H allowed": 7,
+        "R against": 2,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5
+      },
+      "Dave Mlicki": {
+        "Player": "Dave Mlicki",
+        "Player ID": "mlickda01",
+        "Pit #": 2,
+        "IP": "1.0"
+      },
+      "Pedro Borbon": {
+        "Player": "Pedro Borbon",
+        "Player ID": "borbope02",
+        "Pit #": 3,
+        "IP": "0.1",
+        "H allowed": 1,
+        "R against": 1,
+        "ER": 1,
+        "HR allowed": 1,
+        "BB against": 1
+      },
+      "Alan Mills": {
+        "Player": "Alan Mills",
+        "Player ID": "millsal01",
+        "Pit #": 4,
+        "IP": "1.2",
+        "H allowed": 2,
+        "BB against": 1,
+        "IBB against": 1,
+        "A": 1,
+        "DP": 1
+      },
+      "Jeff Shaw": {
+        "Player": "Jeff Shaw",
+        "Player ID": "shawje01",
+        "Pit #": 5,
+        "IP": "2.0",
+        "H allowed": 3,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2
+      },
+      "Mel Rojas": {
+        "Player": "Mel Rojas",
+        "Player ID": "rojasme01",
+        "Pit #": 6,
+        "L": 1,
+        "IP": "0.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "HBP against": 1
+      }
+    },
+    "ARI": {
+      "Andy Benes": {
+        "Player": "Andy Benes",
+        "Player ID": "benesan01",
+        "Pit #": 1,
+        "AB": 2,
+        "H": 1,
+        "2B": 1,
+        "IP": "6.1",
+        "H allowed": 7,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 5,
+        "WP": 1,
+        "SB against": 1,
+        "CS against": 1
+      },
+      "Greg Swindell": {
+        "Player": "Greg Swindell",
+        "Player ID": "swindgr01",
+        "Pit #": 2,
+        "IP": "0.2",
+        "H allowed": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Gregg Olson": {
+        "Player": "Gregg Olson",
+        "Player ID": "olsongr01",
+        "Pit #": 3,
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "BB against": 1,
+        "SO against": 1
+      },
+      "Darren Holmes": {
+        "Player": "Darren Holmes",
+        "Player ID": "holmeda01",
+        "Pit #": 4,
+        "IP": "1.2",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 2,
+        "BK": 1,
+        "SB against": 1
+      },
+      "Brian Anderson": {
+        "Player": "Brian Anderson",
+        "Player ID": "anderbr02",
+        "Pit #": 5,
+        "W": 1,
+        "IP": "2.0",
+        "H allowed": 1,
+        "SO against": 3
+      }
+    }
+  },
+  "batting_order": {
+    "LAD": [
+      [
+        1,
+        "Eric Young"
+      ],
+      [
+        2,
+        "Devon White"
+      ],
+      [
+        3,
+        "Gary Sheffield"
+      ],
+      [
+        4,
+        "Raul Mondesi"
+      ],
+      [
+        5,
+        "Todd Hundley"
+      ],
+      [
+        5,
+        "Alan Mills"
+      ],
+      [
+        5,
+        "Jose Vizcaino"
+      ],
+      [
+        5,
+        "Jeff Shaw"
+      ],
+      [
+        5,
+        "Darren Dreifort"
+      ],
+      [
+        5,
+        "Mel Rojas"
+      ],
+      [
+        6,
+        "Eric Karros"
+      ],
+      [
+        7,
+        "Mark Grudzielanek"
+      ],
+      [
+        8,
+        "Adrian Beltre"
+      ],
+      [
+        9,
+        "Chan Ho Park"
+      ],
+      [
+        9,
+        "Dave Hansen"
+      ],
+      [
+        9,
+        "Tripp Cromer"
+      ],
+      [
+        9,
+        "Dave Mlicki"
+      ],
+      [
+        9,
+        "Pedro Borbon"
+      ],
+      [
+        9,
+        "Rick Wilkins"
+      ],
+      [
+        9,
+        "Jacob Brumfield"
+      ],
+      [
+        9,
+        "Paul Lo Duca"
+      ]
+    ],
+    "ARI": [
+      [
+        1,
+        "Tony Womack"
+      ],
+      [
+        2,
+        "Jay Bell"
+      ],
+      [
+        3,
+        "Travis Lee"
+      ],
+      [
+        4,
+        "Matt Williams"
+      ],
+      [
+        4,
+        "Andy Fox"
+      ],
+      [
+        4,
+        "Andy Fox"
+      ],
+      [
+        5,
+        "Steve Finley"
+      ],
+      [
+        6,
+        "Tony Batista"
+      ],
+      [
+        7,
+        "Luis Gonzalez"
+      ],
+      [
+        7,
+        "Darren Holmes"
+      ],
+      [
+        7,
+        "Dante Powell"
+      ],
+      [
+        7,
+        "Brian Anderson"
+      ],
+      [
+        7,
+        "Greg Colbrunn"
+      ],
+      [
+        8,
+        "Damian Miller"
+      ],
+      [
+        9,
+        "Andy Benes"
+      ],
+      [
+        9,
+        "Greg Swindell"
+      ],
+      [
+        9,
+        "Bernard Gilkey"
+      ],
+      [
+        9,
+        "Gregg Olson"
+      ],
+      [
+        9,
+        "David Dellucci"
+      ]
+    ]
+  },
+  "positions": {
+    "LAD": {
+      "Eric Young": [
+        "4"
+      ],
+      "Devon White": [
+        "8"
+      ],
+      "Gary Sheffield": [
+        "7"
+      ],
+      "Raul Mondesi": [
+        "9"
+      ],
+      "Todd Hundley": [
+        "2"
+      ],
+      "Alan Mills": [
+        "1"
+      ],
+      "Jose Vizcaino": [
+        "PH"
+      ],
+      "Jeff Shaw": [
+        "1"
+      ],
+      "Darren Dreifort": [
+        "PH"
+      ],
+      "Mel Rojas": [
+        "1"
+      ],
+      "Eric Karros": [
+        "3"
+      ],
+      "Mark Grudzielanek": [
+        "6"
+      ],
+      "Adrian Beltre": [
+        "5"
+      ],
+      "Chan Ho Park": [
+        "1"
+      ],
+      "Dave Hansen": [
+        "PH"
+      ],
+      "Tripp Cromer": [
+        "PH"
+      ],
+      "Dave Mlicki": [
+        "1"
+      ],
+      "Pedro Borbon": [
+        "1"
+      ],
+      "Rick Wilkins": [
+        "2"
+      ],
+      "Jacob Brumfield": [
+        "PR"
+      ],
+      "Paul Lo Duca": [
+        "2"
+      ]
+    },
+    "ARI": {
+      "Tony Womack": [
+        "9"
+      ],
+      "Jay Bell": [
+        "4"
+      ],
+      "Travis Lee": [
+        "3"
+      ],
+      "Matt Williams": [
+        "5"
+      ],
+      "Andy Fox": [
+        "5",
+        "PR"
+      ],
+      "Steve Finley": [
+        "8"
+      ],
+      "Tony Batista": [
+        "6"
+      ],
+      "Luis Gonzalez": [
+        "7"
+      ],
+      "Darren Holmes": [
+        "1"
+      ],
+      "Dante Powell": [
+        "PH"
+      ],
+      "Brian Anderson": [
+        "1"
+      ],
+      "Greg Colbrunn": [
+        "PH"
+      ],
+      "Damian Miller": [
+        "2"
+      ],
+      "Andy Benes": [
+        "1"
+      ],
+      "Greg Swindell": [
+        "1"
+      ],
+      "Bernard Gilkey": [
+        "PH"
+      ],
+      "Gregg Olson": [
+        "1"
+      ],
+      "David Dellucci": [
+        "7"
+      ]
+    }
+  },
+  "games_started": {
+    "LAD": {
+      "Eric Young": 1,
+      "Devon White": 1,
+      "Gary Sheffield": 1,
+      "Raul Mondesi": 1,
+      "Todd Hundley": 1,
+      "Eric Karros": 1,
+      "Mark Grudzielanek": 1,
+      "Adrian Beltre": 1,
+      "Chan Ho Park": 1
+    },
+    "ARI": {
+      "Tony Womack": 1,
+      "Jay Bell": 1,
+      "Travis Lee": 1,
+      "Matt Williams": 1,
+      "Steve Finley": 1,
+      "Tony Batista": 1,
+      "Luis Gonzalez": 1,
+      "Damian Miller": 1,
+      "Andy Benes": 1
+    }
+  }
+}
