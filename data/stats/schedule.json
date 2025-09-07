@@ -1194,10 +1194,10 @@
     "date": "1999-04-14",
     "home_team": "ARI",
     "away_team": "LAD",
-    "home_score": 0,
-    "away_score": 0,
-    "simDate": "",
-    "completed": false
+    "home_score": 9,
+    "away_score": 10,
+    "simDate": "2025-09-07 00:00:00",
+    "completed": true
   },
   {
     "id": "19990414_MIL@MON",
