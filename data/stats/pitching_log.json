@@ -9069,5 +9069,63 @@
     "ER": 2,
     "HR allowed": 1,
     "BB against": 1
+  },
+  {
+    "Player": "Darren Dreifort",
+    "Player ID": "dreifda01",
+    "Team": "LAD",
+    "Game#": 131,
+    "Game ID": "19990415_LAD@ARI",
+    "IP": 6.666666666666667,
+    "GS": 1,
+    "W": 1,
+    "H allowed": 5,
+    "BB against": 4,
+    "SO against": 5,
+    "HBP against": 1
+  },
+  {
+    "Player": "Pedro Borbon",
+    "Player ID": "borbope02",
+    "Team": "LAD",
+    "Game#": 131,
+    "Game ID": "19990415_LAD@ARI",
+    "IP": 1.0,
+    "H allowed": 1,
+    "SO against": 1
+  },
+  {
+    "Player": "Alan Mills",
+    "Player ID": "millsal01",
+    "Team": "LAD",
+    "Game#": 131,
+    "Game ID": "19990415_LAD@ARI",
+    "IP": 1.3333333333333333,
+    "SV": 1,
+    "H allowed": 1
+  },
+  {
+    "Player": "Randy Johnson",
+    "Player ID": "johnsra05",
+    "Team": "ARI",
+    "Game#": 131,
+    "Game ID": "19990415_LAD@ARI",
+    "IP": 7.0,
+    "GS": 1,
+    "L": 1,
+    "H allowed": 5,
+    "R against": 1,
+    "BB against": 2,
+    "SO against": 11,
+    "HBP against": 1
+  },
+  {
+    "Player": "Darren Holmes",
+    "Player ID": "holmeda01",
+    "Team": "ARI",
+    "Game#": 131,
+    "Game ID": "19990415_LAD@ARI",
+    "IP": 2.0,
+    "H allowed": 2
   }
 ]
