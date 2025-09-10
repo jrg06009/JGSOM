@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "date": "1999-04-12 00:00:00",
+    "home": "DET",
+    "away": "MIN",
+    "home_score": "8",
+    "away_score": "5"
+  },
+  "batting": {
+    "MIN": {
+      "Torii Hunter": {
+        "Player": "Torii Hunter",
+        "Player ID": "hunteto01",
+        "AB": 5,
+        "R": 1,
+        "H": 2,
+        "HR": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 5,
+        "A": 1
+      },
+      "Chad Allen": {
+        "Player": "Chad Allen",
+        "Player ID": "allench01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1
+      },
+      "Corey Koskie": {
+        "Player": "Corey Koskie",
+        "Player ID": "koskico01",
+        "AB": 1,
+        "H": 1,
+        "2B": 1,
+        "RBI": 1
+      },
+      "Todd Walker": {
+        "Player": "Todd Walker",
+        "Player ID": "walketo04",
+        "AB": 5,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "PO": 2,
+        "A": 2,
+        "DP": 2
+      },
+      "Ron Coomer": {
+        "Player": "Ron Coomer",
+        "Player ID": "coomero01",
+        "AB": 5,
+        "SO": 1,
+        "A": 1
+      },
+      "Matt Lawton": {
+        "Player": "Matt Lawton",
+        "Player ID": "lawtoma02",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1
+      },
+      "Marty Cordova": {
+        "Player": "Marty Cordova",
+        "Player ID": "cordoma01",
+        "AB": 3,
+        "R": 1,
+        "H": 2,
+        "2B": 1,
+        "RBI": 1,
+        "BB": 1,
+        "SO": 1
+      },
+      "Doug Mientkiewicz": {
+        "Player": "Doug Mientkiewicz",
+        "Player ID": "mientdo01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "HR": 1,
+        "RBI": 2,
+        "SO": 1,
+        "PO": 3,
+        "A": 1,
+        "DP": 2
+      },
+      "Terry Steinbach": {
+        "Player": "Terry Steinbach",
+        "Player ID": "steinte01",
+        "AB": 4,
+        "SO": 1,
+        "GDP": 1,
+        "PO": 8
+      },
+      "Cristian Guzman": {
+        "Player": "Cristian Guzman",
+        "Player ID": "guzmacr01",
+        "AB": 2,
+        "R": 1,
+        "BB": 1,
+        "HBP": 1,
+        "PO": 4,
+        "A": 3,
+        "DP": 1
+      }
+    },
+    "DET": {
+      "Juan Encarnacion": {
+        "Player": "Juan Encarnacion",
+        "Player ID": "encarju01",
+        "AB": 5,
+        "R": 1,
+        "H": 1,
+        "SO": 2,
+        "GDP": 1
+      },
+      "Gregg Jefferies": {
+        "Player": "Gregg Jefferies",
+        "Player ID": "jeffegr01",
+        "AB": 4,
+        "R": 1,
+        "H": 1,
+        "2B": 1,
+        "SO": 1
+      },
+      "Damion Easley": {
+        "Player": "Damion Easley",
+        "Player ID": "easleda01",
+        "AB": 4,
+        "R": 3,
+        "H": 3,
+        "2B": 1,
+        "PO": 2,
+        "A": 4,
+        "DP": 1
+      },
+      "Tony Clark": {
+        "Player": "Tony Clark",
+        "Player ID": "clarkto02",
+        "AB": 4,
+        "R": 2,
+        "H": 3,
+        "HR": 2,
+        "RBI": 6,
+        "SO": 1,
+        "PO": 12,
+        "DP": 1
+      },
+      "Dean Palmer": {
+        "Player": "Dean Palmer",
+        "Player ID": "palmede01",
+        "AB": 4,
+        "H": 2,
+        "2B": 1,
+        "SO": 1,
+        "PO": 1,
+        "A": 2
+      },
+      "Bobby Higginson": {
+        "Player": "Bobby Higginson",
+        "Player ID": "higgibo02",
+        "AB": 2,
+        "R": 1,
+        "H": 1,
+        "RBI": 1,
+        "HBP": 1,
+        "SF": 1,
+        "PO": 1
+      },
+      "Deivi Cruz": {
+        "Player": "Deivi Cruz",
+        "Player ID": "cruzde01",
+        "AB": 3,
+        "H": 1,
+        "BB": 1,
+        "PO": 1,
+        "A": 4,
+        "DP": 1
+      },
+      "Brad Ausmus": {
+        "Player": "Brad Ausmus",
+        "Player ID": "ausmubr01",
+        "AB": 4,
+        "H": 1,
+        "RBI": 1,
+        "SO": 1,
+        "PO": 7
+      },
+      "Brian Hunter": {
+        "Player": "Brian Hunter",
+        "Player ID": "huntebr02",
+        "AB": 4,
+        "H": 1,
+        "GDP": 1,
+        "PO": 3
+      }
+    }
+  },
+  "pitching": {
+    "MIN": {
+      "Eric Milton": {
+        "Player": "Eric Milton",
+        "Player ID": "miltoer01",
+        "Pit #": 1,
+        "L": 1,
+        "IP": "6.0",
+        "H allowed": 11,
+        "R against": 7,
+        "ER": 7,
+        "HR allowed": 2,
+        "BB against": 1,
+        "SO against": 4,
+        "HBP against": 1,
+        "PO": 1
+      },
+      "Joe Mays": {
+        "Player": "Joe Mays",
+        "Player ID": "maysjo01",
+        "Pit #": 2,
+        "IP": "1.0",
+        "H allowed": 2,
+        "R against": 1,
+        "ER": 1,
+        "SO against": 1
+      },
+      "Rick Aguilera": {
+        "Player": "Rick Aguilera",
+        "Player ID": "aguilri01",
+        "Pit #": 3,
+        "IP": "1.0",
+        "H allowed": 1,
+        "SO against": 1,
+        "A": 1,
+        "DP": 1
+      }
+    },
+    "DET": {
+      "Willie Blair": {
+        "Player": "Willie Blair",
+        "Player ID": "blairwi01",
+        "Pit #": 1,
+        "W": 1,
+        "IP": "7.0",
+        "H allowed": 7,
+        "R against": 2,
+        "ER": 2,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 6,
+        "A": 1
+      },
+      "Felipe Lira": {
+        "Player": "Felipe Lira",
+        "Player ID": "lirafe01",
+        "Pit #": 2,
+        "IP": "1.1",
+        "H allowed": 2,
+        "R against": 3,
+        "ER": 3,
+        "HR allowed": 1,
+        "BB against": 1,
+        "SO against": 1,
+        "HBP against": 1
+      },
+      "Todd Jones": {
+        "Player": "Todd Jones",
+        "Player ID": "jonesto02",
+        "Pit #": 3,
+        "SV": 1,
+        "IP": "0.2",
+        "H allowed": 1
+      }
+    }
+  },
+  "batting_order": {
+    "MIN": [
+      [
+        1,
+        "Torii Hunter"
+      ],
+      [
+        2,
+        "Chad Allen"
+      ],
+      [
+        2,
+        "Corey Koskie"
+      ],
+      [
+        3,
+        "Todd Walker"
+      ],
+      [
+        4,
+        "Ron Coomer"
+      ],
+      [
+        5,
+        "Matt Lawton"
+      ],
+      [
+        6,
+        "Marty Cordova"
+      ],
+      [
+        7,
+        "Doug Mientkiewicz"
+      ],
+      [
+        8,
+        "Terry Steinbach"
+      ],
+      [
+        9,
+        "Cristian Guzman"
+      ]
+    ],
+    "DET": [
+      [
+        1,
+        "Juan Encarnacion"
+      ],
+      [
+        2,
+        "Gregg Jefferies"
+      ],
+      [
+        3,
+        "Damion Easley"
+      ],
+      [
+        4,
+        "Tony Clark"
+      ],
+      [
+        5,
+        "Dean Palmer"
+      ],
+      [
+        6,
+        "Bobby Higginson"
+      ],
+      [
+        7,
+        "Deivi Cruz"
+      ],
+      [
+        8,
+        "Brad Ausmus"
+      ],
+      [
+        9,
+        "Brian Hunter"
+      ]
+    ]
+  },
+  "positions": {
+    "MIN": {
+      "Torii Hunter": [
+        "8"
+      ],
+      "Chad Allen": [
+        "7"
+      ],
+      "Corey Koskie": [
+        "PH"
+      ],
+      "Todd Walker": [
+        "4"
+      ],
+      "Ron Coomer": [
+        "5"
+      ],
+      "Matt Lawton": [
+        "9"
+      ],
+      "Marty Cordova": [
+        "DH"
+      ],
+      "Doug Mientkiewicz": [
+        "3"
+      ],
+      "Terry Steinbach": [
+        "2"
+      ],
+      "Cristian Guzman": [
+        "6"
+      ],
+      "Eric Milton": [
+        "1"
+      ],
+      "Joe Mays": [
+        "1"
+      ],
+      "Rick Aguilera": [
+        "1"
+      ]
+    },
+    "DET": {
+      "Juan Encarnacion": [
+        "7"
+      ],
+      "Gregg Jefferies": [
+        "DH"
+      ],
+      "Damion Easley": [
+        "4"
+      ],
+      "Tony Clark": [
+        "3"
+      ],
+      "Dean Palmer": [
+        "5"
+      ],
+      "Bobby Higginson": [
+        "9"
+      ],
+      "Deivi Cruz": [
+        "6"
+      ],
+      "Brad Ausmus": [
+        "2"
+      ],
+      "Brian Hunter": [
+        "8"
+      ],
+      "Willie Blair": [
+        "1"
+      ],
+      "Felipe Lira": [
+        "1"
+      ],
+      "Todd Jones": [
+        "1"
+      ]
+    }
+  },
+  "games_started": {
+    "MIN": {
+      "Torii Hunter": 1,
+      "Chad Allen": 1,
+      "Todd Walker": 1,
+      "Ron Coomer": 1,
+      "Matt Lawton": 1,
+      "Marty Cordova": 1,
+      "Doug Mientkiewicz": 1,
+      "Terry Steinbach": 1,
+      "Cristian Guzman": 1,
+      "Eric Milton": 1
+    },
+    "DET": {
+      "Juan Encarnacion": 1,
+      "Gregg Jefferies": 1,
+      "Damion Easley": 1,
+      "Tony Clark": 1,
+      "Dean Palmer": 1,
+      "Bobby Higginson": 1,
+      "Deivi Cruz": 1,
+      "Brad Ausmus": 1,
+      "Brian Hunter": 1,
+      "Willie Blair": 1
+    }
+  }
+}
